@@ -35,7 +35,20 @@ Asal-usul kedua wangsa ini bisa ditelusuri melalui dua prasasti penting. **Prasa
 
 Puncak kejayaan Mataram Kuno terjadi pada masa Rakai Watukura Dyah Balitung (898–910 M) yang mengeluarkan dua prasasti penting: **Prasasti Mantyasih (907 M)** yang memuat daftar raja-raja Mataram dari Sanjaya hingga Balitung, dan **Prasasti Wanua Tengah III (908 M)** — ditemukan di Dukuh Kedunglo, Desa Gandulan, Kaloran, ±4 km timur laut Kota Temanggung — yang memuat daftar raja lengkap dengan tanggal naik takhta. Setelah Balitung, garis kekuasaan berlanjut lewat Daksa (910–919 M), Tulodong (919–924 M), dan Rakai Pangkaja Dyah Wawa (924–928 M). Pada 929 M, **Mpu Sindok** (Rakai Halu Dyah Sindok Sri Isanawikrama Dharmottungadewawijaya) — raja terakhir Wangsa Sanjaya — memindahkan pusat kerajaan ke Jawa Timur, mendirikan **Wangsa Isyana** dengan ibu kota di Watugaluh (sekitar Jombang sekarang). Perpindahan ini didorong oleh beberapa faktor: kemungkinan bencana alam (letusan Merapi, satu teori yang masih diperdebatkan), tekanan dari Sriwijaya, dan pertimbangan ekonomi dagang di jalur Sungai Brantas.
 
-Warisan Mataram Kuno yang paling monumental adalah candi-candi megah: **Candi Gunung Wukir** (732 M, Magelang) — candi Hindu tertua yang dapat dikaitkan dengan Sanjaya; **Candi Kalasan** (778 M, Sleman) — Prasasti Kalasan menyebut bahwa Rakai Panangkaran membangunnya untuk dewi Tara Buddha; **Candi Sewu** (kompleks Buddha di kawasan Prambanan, selesai masa Samaratungga); **Candi Borobudur** — dibangun Wangsa Syailendra, selesai pada masa Samaratungga ± 825 M; **Candi Prambanan/Loro Jonggrang** — dibangun mulai ± 850 M dan diresmikan 856 M berdasarkan **Prasasti Siwagrha/Wantil** (dikeluarkan Rakai Kayuwangi/Dyah Lokapala); **Kompleks Candi Dieng** (Banjarnegara-Wonosobo) — kumpulan candi Hindu Siwa tertua di Jawa, dengan Prasasti Dieng berangka tahun 808 M sebagai prasasti tertua beraksara Jawa Kuno. Era Mataram Kuno ditutup oleh peristiwa **Pralaya** tahun 1016 M — ketika pusat kerajaan dihancurkan oleh serangan **Aji Wurawari dari Lwaram** (raja bawahan Medang yang memberontak, didukung Sriwijaya). Peristiwa ini memicu munculnya Kerajaan Kahuripan di bawah **Airlangga** (memerintah 1019–1042 M, wafat 1049 sebagai pertapa).
+Warisan Mataram Kuno yang paling monumental adalah candi-candi megah: **Candi Gunung Wukir** (732 M, Magelang) — candi Hindu tertua yang dapat dikaitkan dengan Sanjaya; **Candi Kalasan** (778 M, Sleman) — Prasasti Kalasan menyebut bahwa Rakai Panangkaran membangunnya untuk dewi Tara Buddha; **Candi Sewu** (kompleks Buddha di kawasan Prambanan, selesai masa Samaratungga); **Candi Borobudur** — dibangun Wangsa Syailendra, selesai pada masa Samaratungga ± 825 M; **Candi Prambanan/Loro Jonggrang** — dibangun mulai ± 850 M dan diresmikan 856 M berdasarkan **Prasasti Siwagrha/Wantil** (dikeluarkan Rakai Kayuwangi/Dyah Lokapala); **Kompleks Candi Dieng** (Banjarnegara-Wonosobo) — kumpulan candi Hindu Siwa tertua di Jawa, dengan Prasasti Dieng berangka tahun 808 M sebagai prasasti tertua beraksara Jawa Kuno. Era Mataram Kuno ditutup oleh peristiwa **Pralaya** tahun 1016 M — ketika pusat kerajaan dihancurkan oleh serangan **Aji Wurawari dari Lwaram** (raja bawahan Medang yang memberontak, didukung Sriwijaya). Peristiwa ini memicu munculnya Kerajaan Kahuripan di bawah **Airlangga** (lahir ± 1002 M di Bali, memerintah 1019–1042 M, mundur menjadi pertapa, wafat 1049 M).
+
+### 1.1.1 Catatan Sumber Primer
+
+**PENTING**: Berbeda dengan era Singasari-Majapahit (yang dapat disumber dari **Negarakretagama** 1365 M karya Mpu Prapanca dan **Pararaton** abad 16), era Mataram Kuno (732–1016 M) TIDAK dicatat dalam kedua kitab tersebut secara langsung. **Negarakretagama** hanya menyebut silsilah Singasari-Majapahit (pupuh 40-49), bukan Mataram Kuno. **Pararaton** diawali dengan cerita Ken Arok (1222 M) dan hanya membahas Singasari-Majapahit.
+
+Sumber primer era Mataram Kuno yang SAH adalah:
+1. **Prasasti-prasasti** (Canggal 732 M, Kalasan 778 M, Kelurak 782 M, Karangtengah 824 M, Siwagrha 856 M, Nalanda 860 M, Mantyasih 907 M, Wanua Tengah III 908 M, Anjuk Ladang 937 M, dll)
+2. **Carita Parahyangan** (naskah Sunda abad 16) — untuk sejarah Sanjaya dan asal-usul Wangsa Sanjaya
+3. **Prasasti Calcutta/Pucangan** (± 1041 M) — silsilah Mpu Sindok hingga Airlangga
+4. **Berita Cina Dinasti Tang** (untuk Kerajaan Ho-ling/Kalingga dan Ratu Shima)
+5. **Jurnal akademis modern** (Kusen 1994 "Raja-raja Mataram Kuna" di BRIN, Boechari, Casparis, Slamet Muljana)
+
+Referensi historiografi sekunder utama: Bambang Sumadio (ed.) 1977 *Sejarah Nasional Indonesia II*; Coedès (1968) *The Indianized States of Southeast Asia*; Boechari (1986) *Melacak Sejarah Kuno Indonesia Lewat Prasasti*; Soemarsaid Moertono (1968) *State and Statecraft in Old Java*.
 
 ### 1.2 Daftar Lengkap Raja-Raja Mataram Kuno
 
@@ -163,11 +176,15 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi-Sindoro-Sumbing, 
 
 ### 1.7 Tokoh Kunci (Profil Detail untuk Drama)
 
-#### Sanjaya (Raja Pendiri, ± 732–746 M)
-- **Peran**: Pendiri Wangsa Sanjaya, penyatuan tanah Jawa. Bergelar *Rakai Mataram Sang Ratu Sanjaya* (menurut Prasasti Mantyasih 907 M).
-- **Latar**: Tokoh mistis-politik yang disebut dalam **Prasasti Canggal (732 M)** mendirikan lingga di Bukit Sthirengga (Gunung Wukir, Magelang), tanda kelahiran kerajaan. Sanjaya adalah keponakan Raja Sanna — menurut *Carita Parahyangan* (naskah Sunda abad 16), ia adalah putra Sannaha (saudari Raja Sanna), naik takhta setelah Sanna digulingkan oleh Purbasora. Sanjaya kemudian menaklukkan daerah sekitarnya, termasuk Kalingga, dan membangun kerajaan yang mencakup Jawa Barat, Jawa Tengah, Jawa Timur, hingga Bali.
+#### Sanjaya (Raja Pendiri, ± 717–746 M; naik takhta sebagai raja Mataram 732 M)
+- **Peran**: Pendiri Wangsa Sanjaya dan Kerajaan Mataram Kuno. Bergelar *Rakai Mataram Sang Ratu Sanjaya* (menurut Prasasti Mantyasih 907 M) atau *Narapati Raja Sri Sanjaya* (menurut Prasasti Canggal 732 M).
+- **Latar**: Tokoh mistis-politik yang disebut dalam **Prasasti Canggal (732 M)** mendirikan lingga di Bukit Sthirengga (Gunung Wukir, Magelang), tanda kelahiran kerajaan Mataram. Ada dua versi silsilah Sanjaya yang saling melengkapi:
+  - **Versi Carita Parahyangan** (naskah Sunda abad 16): Sanjaya adalah putra Sannaha (saudari Raja Sanna dari Galuh). Naik takhta setelah Sanna digulingkan oleh Purbasora, lalu membalas dendam dan menyatukan Galuh dengan Mataram.
+  - **Versi Kalingga (berdasarkan Berita Cina Dinasti Tang dan legenda)**: Sanjaya adalah **cicit Maharani Shima** (Ratu Kalingga/Ho-ling, ± 674–732 M). Ibunda Sanjaya adalah Sanaha (cucu Maharani Shima) dan ayahnya Bratasenawa (raja Galuh ketiga). Setelah Maharani Shima wafat tahun 732 M, Sanjaya **menggantikan buyutnya** sebagai raja Kalingga Utara, lalu menggabungkannya dengan Galuh menjadi Bumi Mataram.
+  
+  Jadi Sanjaya **mengwarisi** Kalingga (bukan menaklukkan), lalu membangun pusat baru di Mataram (Jawa Tengah bagian selatan) dan menyerahkan kekuasaan Jawa Barat (Sunda-Galuh) kepada putranya.
 - **Karakter drama**: Karismatik, religius (Hindu Siwa taat), namun pragmatis — menerima koeksistensi dengan Buddha Syailendra. Visual ideal: laki-laki dewasa 40-50 tahun, tubuh atletis, kumis tipis, mata tajam, mengenakan makuta tinggi, kalung kundala emas, kain jedor dengan sabuk emas.
-- **Konflik potensial**: Tegang dengan Wangsa Syailendra yang menguasai kawasan selatan Kedu Plain; harus menyeimbangkan tradisi Hindu dan Buddha; ambisi memperluas kerajaan ke Jawa Barat dan Bali.
+- **Konflik potensial**: Tegang dengan Wangsa Syailendra yang menguasai kawasan selatan Kedu Plain; harus menyeimbangkan tradisi Hindu dan Buddha; ambisi memperluas pengaruh ke Jawa Barat dan Bali.
 
 #### Rakai Panangkaran / Dyah Pancapana (746–784 M)
 - **Peran**: Raja ke-2 Mataram Kuno, putra Sanjaya yang berpindah ke Buddha Mahayana.
@@ -261,15 +278,17 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi-Sindoro-Sumbing, 
 
 #### Mpu Sindok (929–947 M) — Pendiri Wangsa Isyana
 - **Peran**: Raja terakhir Wangsa Sanjaya di Jawa Tengah, pendiri Wangsa Isyana di Jawa Timur. Memindahkan pusat Mataram Kuno ke Jawa Timur (Medang i Tamwlang, lalu Watugaluh) pada 929 M.
-- **Latar**: Bergelar lengkap *Śrī Mahārāja Rake Halu Dyaḥ Siṇḍok Śrī Īśānawikrama Dharmottuṅgadewawijaya*. Naik takhta menggantikan Rakai Pangkaja Dyah Wawa (924-928 M). Istri utamanya, **Sri Parameswari Dyah Kbi**, kemungkinan putri Dyah Wawa — sehingga Sindok naik takhta lewat pernikahan. Mpu Sindok adalah pendiri Wangsa Isyana, leluhur **Airlangga** (cicitnya).
+- **Latar**: Bergelar lengkap *Śrī Mahārāja Rake Halu Dyaḥ Siṇḍok Śrī Īśānawikrama Dharmottuṅgadewawijaya*. Naik takhta menggantikan Rakai Pangkaja Dyah Wawa (924-928 M). **Mpu Sindok diperkirakan sebagai cucu Mpu Daksa** (raja 910-919 M) — sehingga ia masih bagian Wangsa Sanjaya, meskipun mendirikan dinasti baru bernama Wangsa Isyana. Istri utamanya, **Sri Parameswari Dyah Kbi**, kemungkinan putri Dyah Wawa — sehingga Sindok naik takhta lewat pernikahan. Mpu Sindok adalah pendiri Wangsa Isyana, leluhur **Airlangga** (cicit-cicit / *canggah*-nya) lewat rantai: Mpu Sindok → putri Sri Isyanatunggawijaya (menikah dengan Sri Lokapala) → Makutawangsawardhana → Mahendradatta (cicit Mpu Sindok) → Airlangga. Rantai silsilah ini tercatat dalam **Prasasti Pucangan/Calcutta (± 1041 M)**.
 - **Karakter drama**: Konservatif, bijaksana — mengambil keputusan sulit meninggalkan tanah leluhur Jawa Tengah. Mungkin dipaksa oleh bencana alam (letusan Merapi) dan tekanan Sriwijaya. Visual: pria tua 60-an, jenggot, jubah panjang, makuta sederhana.
 - **Konflik potensial**: Perlawanan internal dari faksi yang menolak perpindahan; ancaman Sriwijaya di pesisir; pembangunan ibu kota baru di Watugaluh (Jombang).
 
-#### Airlangga (1019–1042 M, wafat 1049)
-- **Peran**: Pendiri Kerajaan Kahuripan. Cicit Mpu Sindok. Memulihkan kejayaan Mataram Kuno setelah Pralaya 1016 M.
-- **Latar**: Lahir di Bali (1002 M), putra Udayana (raja Bedahulu) dan Mahendradatta (putri Wangsa Isyana). Muda saat Pralaya 1016 — berlindung di hutan Vanagiri (sekarang Wonogiri). Naik takhta 1019 M dengan dukungan pendeta Buddha **Mpu Bharada**. Membangun kerajaan Kahuripan yang mencakup Jawa Timur dan sebagian Jawa Tengah. Membagi kerajaan menjadi **Janggala** dan **Kadiri** (1042 M) sebelum mundur menjadi pertapa (bergelar *Resi Aji Paduka Mpungku*). Wafat 1049 M.
-- **Karakter drama**: Visioner, religius, romantis (kisah cintanya dengan putri ibu surga). Visual: pria matang 30-40 tahun, jubah, mahkota sederhana, kalung tasbih.
-- **Konflik potensial**: Pemulihan dari Pralaya 1016; perlawanan terhadap Wurawari; pembagian kerajaan di akhir hayat; persaingan putra-putrinya.
+#### Airlangga (lahir ± 1002 M, memerintah 1019–1042 M, wafat 1049 M)
+- **Peran**: Pendiri Kerajaan Kahuripan. **Cicit-cicit (canggah) Mpu Sindok** lewat ibunya. Memulihkan kejayaan Mataram Kuno setelah Pralaya 1016 M.
+- **Latar**: Lahir ± 1002 M (sumber bervariasi: 991, 1002, atau 1006 M) di Bali. Putra **Udayana Warmadewa** (raja Bedahulu Bali, Wangsa Warmadewa) dan **Mahendradatta** (putri Wangsa Isyana, saudari Raja Dharmawangsa Teguh). Mahendradatta adalah **cicit Mpu Sindok** lewat rantai: Mpu Sindok → putri Sri Isyanatunggawijaya (menikah dengan Sri Lokapala) → Makutawangsawardhana → Mahendradatta. Dengan demikian Airlangga adalah **cicit-cicit (canggah) Mpu Sindok**.
+- Muda saat Pralaya 1016 (serangan Wurawari dari Lwaram ke istana Dharmawangsa Teguh) — berlindung di hutan Vanagiri (sekarang Wonogiri). Naik takhta 1019 M dengan dukungan pendeta Buddha **Mpu Bharada**. Membangun kerajaan Kahuripan yang mencakup Jawa Timur dan sebagian Jawa Tengah. Membagi kerajaan menjadi **Janggala** (ibu kota Kahuripan) dan **Kadiri/Panjalu** (ibu kota Daha) pada 1042 M sebelum mundur menjadi pertapa (bergelar *Resi Aji Paduka Mpungku*). Wafat 1049 M. Arca Airlangga sebagai Wisnu naik Garuda (di Candi Belahan, Pasuruan) menjadi ikon visualnya.
+- **Sumber primer**: Prasasti Pucangan/Calcutta (± 1041 M) — silsilah lengkap dari Mpu Sindok hingga Airlangga. Prasasti Cane (1021 M), Prasasti Turun Hyang (1035 M).
+- **Karakter drama**: Visioner, religius, romantis (kisah cintanya dengan putri Dharmawangsa). Visual: pria matang 30-40 tahun, jubah, mahkota sederhana, kalung tasbih.
+- **Konflik potensial**: Pemulihan dari Pralaya 1016; perlawanan terhadap Wurawari; pembagian kerajaan di akhir hayat; persaingan putra-putrinya (Sanggramawijaya Tunggadewi yang menolak takhta menjadi pertapa; Samarawijaya vs Mapanji Garasakan).
 
 ### 1.8 Prasasti-Prasasti Penting (Sumber Referensi)
 
@@ -294,7 +313,7 @@ Berikut daftar prasasti-prasasti penting era Mataram Kuno yang menjadi sumber ut
 | 15 | **Prasasti Wanua Tengah III** | 908 M | Kedunglo, Gandulan, Kaloran, Temanggung | Daftar 13 raja lengkap dengan tanggal |
 | 16 | **Prasasti Poh Galuh** | 910-an M | — | Mpu Daksa (penerus Balitung) |
 | 17 | **Prasasti Anjuk Ladang** | 859 Saka (937 M versi Damais) / 857 Saka (935 M versi Brandes) | Nganjuk, Jawa Timur | Mpu Sindok, kemenangan atas Malayu |
-| 18 | **Prasasti Calcutta/Pucangan** | 1042 M | Bengal, India (Calcutta Museum) | Silsilah Mpu Sindok hingga Airlangga |
+| 18 | **Prasasti Calcutta/Pucangan** | ± 1041 M | Bengal, India (Calcutta Museum) / ditemukan di Surabaya | Silsilah Mpu Sindok hingga Airlangga (2 bahasa: Sanskerta & Jawa Kuno) |
 
 ### 1.9 Prompt SD Siap Pakai (Stable Diffusion 1.5)
 

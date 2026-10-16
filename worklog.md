@@ -347,3 +347,142 @@ Stage Summary:
 - Sumber primer: Prasasti Wanua Tengah III (908 M) sebagai sumber paling lengkap dan akurat
 - Catatan: Beberapa detail masih diperdebatkan sejarawan (hubungan Rakai Garung-Samaratungga, identifikasi Mpu Manuku sebagai penerus Rakai Patapan atau tokoh terpisah)
 
+
+---
+Task ID: 6 (audit phase 1 Mataram Kuno - CROSS-CHECK SUMBER PRIMER)
+Agent: Main Agent (Z.ai)
+Task: Audit ketiga dengan cross-check ke Negarakertagama, Pararaton, prasasti, dan jurnal akademis
+
+Work Log:
+- Membaca ulang seluruh fase 1 (Mataram Kuno) baris 28-310
+- Web search 3 batch untuk cross-check sumber primer:
+  * Negarakretagama (karya Mpu Prapanca 1365 M)
+  * Pararaton (Kitab Raja-Raja, abad 16)
+  * Jurnal BRIN "Raja-raja Mataram Kuna dari Sanjaya Sampai Balitung" oleh Kusen (1994)
+  * Carita Parahyangan (naskah Sunda)
+  * Prasasti Pucangan/Calcutta (silsilah Mpu Sindok-Airlangga)
+  * Berita Cina Dinasti Tang (untuk Ratu Shima/Kalingga)
+- Menemukan KESALAHAN FUNDAMENTAL dalam penggunaan sumber primer
+
+KESALAHAN FUNDAMENTAL YANG DITEMUKAN & DIKOREKSI:
+
+### 1. KESALAHAN SUMBER PRIMER
+**SEBELUMNYA**: Saya mengklaim Mataram Kuno disumber dari "Pararaton dan Kidung Harsawijaya"
+**FAKTA**: 
+- Pararaton (1481-1600 M) diawali dengan cerita Ken Arok (1222 M) - HANYA membahas Singasari-Majapahit
+- Negarakretagama (1365 M) pupuh 40-49 hanya membahas silsilah Singasari-Majapahit
+- KEDUA KITAB INI TIDAK MEMBAHAS ERA MATARAM KUNO (732-1016 M)!
+
+**KOREKSI**: Tambah sub-bagian "1.1.1 Catatan Sumber Primer" yang menjelaskan sumber primer yang SAH untuk era Mataram Kuno:
+1. Prasasti-prasasti (Canggal, Mantyasih, Wanua Tengah III, dll)
+2. Carita Parahyangan (naskah Sunda abad 16)
+3. Prasasti Calcutta/Pucangan (± 1041 M)
+4. Berita Cina Dinasti Tang (untuk Kalingga/Ratu Shima)
+5. Jurnal akademis modern (Kusen, Boechari, Casparis, Slamet Muljana)
+
+### 2. KESALAHAN SILSILAH SANJAYA
+**SEBELUMNYA**: "Sanjaya kemudian menaklukkan daerah sekitarnya, termasuk Kalingga"
+**FAKTA**: Sanjaya TIDAK menaklukkan Kalingga. Ia MENGWARISI Kalingga dari buyutnya Maharani Shima (Ratu Kalingga).
+
+**KOREKSI**: Tambahkan dua versi silsilah Sanjaya:
+- Versi Carita Parahyangan (Sunda): Sanjaya putra Sannaha, keponakan Raja Sanna dari Galuh
+- Versi Kalingga (Berita Cina): Sanjaya adalah cicit Maharani Shima, menggantikan buyutnya 732 M
+
+### 3. KESALAHAN HUBUNGAN AIRLANGGA-MPU SINDOK
+**SEBELUMNYA**: "Airlangga adalah cicit Mpu Sindok"
+**FAKTA**: Airlangga adalah cicit-cicit (canggah) Mpu Sindok, bukan cicit.
+
+**KOREKSI**: Rantai silsilah yang benar (dari Prasasti Pucangan 1041 M):
+- Mpu Sindok (929-947) 
+- → putri: Sri Isyanatunggawijaya (menikah Sri Lokapala) 
+- → Makutawangsawardhana 
+- → Mahendradatta (cicit Mpu Sindok, 961-1011) 
+- → Airlangga (cicit-cicit/canggah Mpu Sindok, 1002-1049)
+
+### 4. KOREKSI DETAIL AIRLANGGA
+- Tahun lahir: "± 1002 M" (sumber bervariasi: 991, 1002, atau 1006 M)
+- Ayah: Udayana Warmadewa (Wangsa Warmadewa, bukan hanya "Udayana")
+- Ibu: Mahendradatta (saudari Raja Dharmawangsa Teguh, raja terakhir Medang sebelum Pralaya)
+- Airlangga adalah keponakan Dharmawangsa Teguh (bukan penerus langsung)
+- Pembagian kerajaan: Janggala (ibu kota Kahuripan) & Kadiri/Panjalu (ibu kota Daha) - 1042 M
+- Sumber primer tambahan: Prasasti Cane (1021 M), Prasasti Turun Hyang (1035 M)
+
+### 5. KOREKSI MPU SINDOK
+- Ditambahkan: Mpu Sindok adalah cucu Mpu Daksa (raja 910-919 M)
+- Ditambahkan: Rantai silsilah Mpu Sindok → Airlangga
+- Ditambahkan: Referensi Prasasti Pucangan/Calcutta
+
+### 6. KOREKSI PRASASTI CALCUTTA/PUCANGAN
+- Tahun: dari "1042 M" menjadi "± 1041 M"
+- Lokasi: "Bengal, India (Calcutta Museum) / ditemukan di Surabaya"
+- Isi: "Silsilah Mpu Sindok hingga Airlangga (2 bahasa: Sanskerta & Jawa Kuno)"
+
+### 7. KOREKSI SANJAYA TAHUN
+- SEBELUMNYA: "± 732-746 M"
+- KOREKSI: "± 717-746 M; naik takhta sebagai raja Mataram 732 M"
+- 717 M = tahun Sanjaya diangkat jadi raja (menurut Arrazaq)
+- 732 M = tahun Prasasti Canggal (penobatan sebagai raja Mataram)
+- Gelar: "Narapati Raja Sri Sanjaya" (Prasasti Canggal) atau "Rakai Mataram Sang Ratu Sanjaya" (Prasasti Mantyasih)
+
+SUMBER PRIMER YANG DIVERIFIKASI:
+
+1. **Prasasti Canggal (732 M)** - verifikasi:
+   - Lokasi: Kompleks Candi Gunung Wukir, Desa Kadiluwih, Salam, Magelang ✓
+   - Bukit Sthirengga = Gunung Wukir ✓
+   - Bahasa: Sanskerta, aksara Pallawa ✓
+   - Isi: Sanjaya mendirikan lingga, Raja Sanna, Sanjaya putra Sannaha ✓
+   - Sumber: Wikipedia EN "Canggal inscription", jatengprov.go.id
+
+2. **Prasasti Mantyasih (907 M)** - verifikasi:
+   - Juga disebut "Prasasti Balitung" atau "Prasasti Tembaga Kedu" ✓
+   - Lokasi ditemukan: Kampung Ngadirejo, Parakan, Temanggung ✓
+   - Disimpan di Museum Radya Pustaka, Solo ✓
+   - Daftar 9 raja: Sanjaya, Panangkaran, Panunggalan, Warak, Garung, Pikatan, Kayuwangi, Watuhumalang, Balitung ✓
+   - Sumber: Wikipedia ID Prasasti Mantyasih
+
+3. **Prasasti Wanua Tengah III (908 M)** - verifikasi:
+   - Ditemukan November 1983 di Dukuh Kedunglo, Desa Gandulan, Kaloran, Temanggung ✓
+   - 4 km timur laut Kota Temanggung ✓
+   - Menyebut 12 raja sebelum Balitung (lebih lengkap dari Mantyasih yang hanya 9) ✓
+   - Tambah: Dyah Gula, Dyah Tagwas, Panumwangan, Gurunwangi ✓
+   - Sumber: Jurnal Kusen 1994 di BRIN, Wikipedia ID Prasasti Wanua Tengah III
+
+4. **Prasasti Pucangan/Calcutta (± 1041 M)** - verifikasi:
+   - Ditulis 2 bahasa: Sanskerta & Jawa Kuno ✓
+   - Berisi silsilah Airlangga dari Mpu Sindok ✓
+   - Mpu Sindok → putri Sri Isyanatunggawijaya → Makutawangsawardhana → ... → Airlangga ✓
+   - Disimpan di Indian Museum, Kolkata ✓
+   - Sumber: Wikipedia ID Prasasti Pucangan, news.unair.ac.id
+
+5. **Carita Parahyangan** (naskah Sunda abad 16) - verifikasi:
+   - Menyebut Sanjaya sebagai putra Sannaha (saudari Raja Sanna) ✓
+   - Sanna digulingkan Purbasora, Sanjaya membalas dendam ✓
+   - Sumber: Wikipedia EN Sanjaya of Mataram
+
+6. **Berita Cina Dinasti Tang** - verifikasi:
+   - Menyebut Kerajaan Ho-ling (Kalingga) ✓
+   - Ratu Shima (Ratu Kalingga, ± 674-732 M) ✓
+   - Sanjaya adalah cicit Maharani Shima ✓
+   - Sumber: Wikipedia EN Shima of Kalingga, legendanusantara.wordpress.com
+
+7. **Jurnal akademis** - verifikasi:
+   - Kusen (1994) "Raja-raja Mataram Kuna dari Sanjaya Sampai Balitung" di BRIN Berkala Arkeologi Vol 14 No 2 ✓
+   - DOI: https://doi.org/10.30883/jba.v14i2.721 ✓
+   - Bambang Sumadio (ed.) 1977 Sejarah Nasional Indonesia II ✓
+   - Boechari (1986) Melacak Sejarah Kuno Indonesia Lewat Prasasti ✓
+
+Stage Summary:
+- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- Total dokumen: 1.297 baris, 15.735 kata (naik dari 15.261 kata)
+- Era Mataram Kuno sudah diaudit KETIGA kali dengan cross-check ke sumber primer
+- 7 koreksi fundamental dilakukan
+- Sub-bagian baru "1.1.1 Catatan Sumber Primer" ditambahkan
+- Sumber primer yang diverifikasi: 7 sumber (Prasasti Canggal, Mantyasih, Wanua Tengah III, Pucangan, Carita Parahyangan, Berita Cina, Jurnal BRIN)
+- Penting: Negarakretagama dan Pararaton TIDAK membahas era Mataram Kuno secara langsung - hanya Singasari-Majapahit
+
+Tambahan referensi historiografi yang dicantumkan:
+- Coedès (1968) The Indianized States of Southeast Asia
+- Boechari (1986) Melacak Sejarah Kuno Indonesia Lewat Prasasti
+- Soemarsaid Moertono (1968) State and Statecraft in Old Java
+- Bambang Sumadio (ed.) 1977 Sejarah Nasional Indonesia II
+- Kusen (1994) "Raja-raja Mataram Kuna dari Sanjaya Sampai Balitung" di BRIN
