@@ -29,11 +29,11 @@
 
 ### 1.1 Konteks Sejarah Singkat
 
-Kerajaan Mataram Kuno — yang juga disebut Kerajaan Medang atau Medang i Bhumi Mataram — adalah peradaban agraris-agraris di Jawa Tengah yang berkembang antara abad ke-8 hingga ke-10 Masehi. Kerajaan ini didirikan oleh Raja Sanjaya yang bergelar *Rakai Mataram Sang Ratu Sanjaya*, dan kemudian dipimpin oleh dua dinasti yang hidup berdampingan: **Wangsa Sanjaya** (Hindu Siwa) dan **Wangsa Syailendra** (Buddha Mahayana). Dualisme religius-politik ini menjadi ciri unung Mataram Kuno — dua tradisi besar hidup berdampingan tanpa konflik terbuka, dan justru saling melengkapi dalam pembangunan candi-candi monumental.
+Kerajaan Mataram Kuno — yang juga disebut Kerajaan Medang atau Medang i Bhumi Mataram — adalah peradaban agraris-birokratis di Jawa Tengah yang berkembang antara abad ke-8 hingga ke-10 Masehi. Kerajaan ini didirikan oleh Raja Sanjaya yang bergelar *Rakai Mataram Sang Ratu Sanjaya*, dan kemudian dipimpin oleh dua dinasti yang hidup berdampingan: **Wangsa Sanjaya** (Hindu Siwa) dan **Wangsa Syailendra** (Buddha Mahayana). Dualisme religius-politik ini menjadi ciri unik Mataram Kuno — dua tradisi besar hidup berdampingan tanpa konflik terbuka, dan justru saling melengkapi dalam pembangunan candi-candi monumental.
 
 Puncak kejayaan Mataram Kuno terjadi pada masa pemerintahan Balitung (899–911 M) yang menyatukan dua wangsa lewat pernikahan politik, dan dilanjutkan oleh Mpu Sindok yang kemudian memindahkan pusat kerajaan ke Jawa Timur (Medang i Tamwlang) pada 929 M — peristiwa yang sering disebut sebagai awal periode *Medang Timur* atau *Isyana*. Perpindahan ini didorong oleh letusan Gunung Merapi yang menghancurkan ibu kota, tekanan dari Srivijaya, dan pertimbangan ekonomi dagang di jalur Sungai Brantas.
 
-Warisan Mataram Kuno yang paling monumental adalah candi-candi megah: **Candi Kalasan** (778 M), **Candi Sewu** (kompleks Buddha terbesar di Jawa), **Candi Borobudur** (dibangun Syailendra, selesai ~825 M), **Candi Prambanan** (dibangun Wangsa Sanjaya, ~850 M), serta ratusan candi kecil di sepanjang lereng Merapi-Merbabu. Era ini ditutup oleh peristiwa *Pralaya* (bencana) tahun 1016 M, ketika pusat kerajaan dihancurkan oleh serangan Aji Wurukari dari Wurawari — peristiwa yang kemudian memicu munculnya Kerajaan Kahuripan di bawah Airlangga.
+Warisan Mataram Kuno yang paling monumental adalah candi-candi megah: **Candi Kalasan** (778 M), **Candi Sewu** (kompleks Buddha terbesar di Jawa), **Candi Borobudur** (dibangun Syailendra, selesai ~825 M), **Candi Prambanan** (dibangun Wangsa Sanjaya, ~850 M), serta ratusan candi kecil di sepanjang lereng Merapi-Merbabu. Era ini ditutup oleh peristiwa *Pralaya* (bencana) tahun 1016 M, ketika pusat kerajaan dihancurkan oleh serangan **Aji Wurawari dari Lwaram** (raja bawahan Medang yang memberontak, didukung Sriwijaya) — peristiwa yang kemudian memicu munculnya Kerajaan Kahuripan di bawah Airlangga (raja Medang-Kahuripan yang memerintah 1019–1049 M).
 
 ### 1.2 Visual & Kostum
 
@@ -77,7 +77,7 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi, sungai-sungai ke
 #### Sanjaya (Raja Pendiri, ± 717–746 M)
 - **Peran**: Pendiri Wangsa Sanjaya, penyatuan tanah Jawa. Bergelar *Rakai Mataram Sang Ratu Sanjaya*.
 - **Latar**: Tokoh mistis-politik yang disebut dalam *Prasasti Canggal* (732 M) mendirkan lingga di Bukit Stirangga (G. Sumbing), tanda kelahiran kerajaan.
-- **Karakter drama**: Karismatik, religius (Hindu Siwa taat), namun pragmatis — menerima koeksistensi dengan Buddhist Syailendra. Visual ideal: laki-laki dewasa 40-50 tahun, tubuh atletis, kumis tipis, mata tajam, mengenakan makuta tinggi, kalung kundala emas, kain jedor dengan sabuk harata.
+- **Karakter drama**: Karismatik, religius (Hindu Siwa taat), namun pragmatis — menerima koeksistensi dengan Buddha Syailendra. Visual ideal: laki-laki dewasa 40-50 tahun, tubuh atletis, kumis tipis, mata tajam, mengenakan makuta tinggi, kalung kundala emas, kain jedor dengan sabuk harata.
 - **Konflik potensial**: Tegang dengan saudara sepupu dari Wangsa Syailendra, harus menyeimbangkan tradisi Hindu dan Buddha.
 
 #### Panangkaran (Raja Buddha, 746–784 M)
@@ -86,8 +86,8 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi, sungai-sungai ke
 - **Visual**: Muda (30-an), wajah tenang, sanggul rambut, tangan memegang tasbih.
 
 #### Balaputradewa (Raja Syailendra, ± 824–860 M)
-- **Peran**: Pembangun Borobudur (versi sebagian sejarawan). Anak raja Syailendra yang diasuh oleh Airlangga... salah — bukan Airlangga. Balaputradewa adalah raja Syailendra yang kemudian menjadi penguasa Srivijaya setelah dikalahkan oleh Rakai Pikatan.
-- **Karakter drama**: Idealis, visioner — terobsesi pembangunan Borobudur sebagai persembahan untuk Buddha. Visual: pria muda 30-an, jubah sanghati saffron, makuta buddhis dengan stupa mini, kalung tasbih.
+- **Peran**: Raja Syailendra terakhir di Jawa, kemudian menjadi penguasa Srivijaya setelah dikalahkan oleh Rakai Pikatan (sanjaya). Catatan sejarah (Prasasti Nalanda) menyebut Balaputradewa sebagai cucu Raja Syailendra yang membangun biara Nalanda di India.
+- **Karakter drama**: Idealis, visioner — tokoh yang terdesak dari Jawa lalu membangun ulang kekuasaan di Srivijaya. Visual: pria muda 30-an, jubah sanghati saffron, makuta buddhis dengan stupa mini, kalung tasbih.
 
 #### Rakai Pikatan (Raja Sanjaya, 838–850 M)
 - **Peran**: Menikahi Pramodawardhani (putri Samaratungga dari Syailendra), menyatukan dua wangsa, membangun Candi Prambanan dan Roro Jonggrang.
@@ -185,7 +185,7 @@ Ibu kota Singasari berada di **Kutaraja** (dekat Malang modern), dengan istana k
 #### Ken Arok (1222–1227 M)
 - **Peran**: Pendiri Singasari & Wangsa Rajasa. Mantan pencuri-preman yang menjadi raja.
 - **Latar**: Lahir di sekitar Gunung Kawi, hidup sebagai perampok, kemudian pengikut Tunggul Ametung (Akuwu Tumapel). Mendapat keris Mpu Gandring, membunuh Tunggul Ametung, menikahi Ken Dedes (istri korban), merebut kekuasaan. Tewas dibunuh Anusapati (anak Tunggul Ametung) yang membalas dendam.
-- **Karakter drama**: Karismatik, ambisius, brutal, namun punya visi besar. Anti-hero Nusantara paling ikonik. Visual ideal: pria muda 30-an, janggut tipis, tubuh atletis, mata garang, mengenakan kain jedor sederhana dengan keris terselip di pinggang — kontras dengan raja-raja berkuat.
+- **Karakter drama**: Karismatik, ambisius, brutal, namun punya visi besar. Anti-hero Nusantara paling ikonik. Visual ideal: pria muda 30-an, janggut tipis, tubuh atletis, mata garang, mengenakan kain jedor sederhana dengan keris terselip di pinggang — kontras dengan raja-raja berkuasa.
 - **Konflik potensial**: Hutang darah dengan Anusapati (anak tirinya), perselingkuhan dengan Ken Umang, ketegangan dengan Brahmana yang meragukan legitimasinya.
 
 #### Ken Dedes (± 1200–1250 M)
@@ -200,7 +200,7 @@ Ibu kota Singasari berada di **Kutaraja** (dekat Malang modern), dengan istana k
 
 #### Wisnuwardhana (1248–1268 M)
 - **Peran**: Raja ketiga, putra Ken Arok & Ken Dedes. Memerintah relatif damai, membangun Candi Jago untuk ayahnya.
-- **Karakter drama**: Bijak, ahli diplomasi — mengonsolidasikan kerajaan setelah era berdarah. Visual: pria matang 40-an, tenang, makuta sederhana, kain jedor dengan motif kawung.
+- **Karakter drama**: Bijak, ahli diplomasi — mengkonsolidasikan kerajaan setelah era berdarah. Visual: pria matang 40-an, tenang, makuta sederhana, kain jedor dengan motif kawung.
 
 #### Kertanegara (1268–1292 M)
 - **Peran**: Raja terakhir dan terbesar Singasari. Visioner ekspansif, penganut Buddha Tantrayana. Dibunuh Jayakatwang.
@@ -268,9 +268,9 @@ Era Majapahit memperkenalkan busana yang jauh lebih kompleks dan kosmopolitan di
 
 Raja Majapahit mengenakan **kain panjang berlipat-lipat** dengan banyak lapisan — kain dalam (cawat pendek), kain tengah (kain panjang), dan kain luar (sampur) yang dijahit dengan benang emas. Bagian atas tubuh dapat telanjang dada (untuk upacara) atau mengenakan **jaket pendek berlengan pendek** yang disebut *kutanga* (kemudian menjadi *baju kebaya* pendek). Perhiasan emas berlimpah: **kalung kundala bertumpuk**, **gelang lengan keyura**, **gelang tangan kankana**, **cincin permata**, **anting anten besar**, serta **mahkota makuta** yang lebih kompleks dengan tambahan *sisir* emas, *tjas* (mahkota bertingkat), dan **kuluk** (penutup kepala beludru).
 
-Permaisuri mengenakan **kain panjang dengan sabuk emas berbuckle permata**, **kemben** sutera berjahit benang emas dengan motif kawung atau parang, **kondé tinggi** dengan cunduk berbentuk burung Garuda atau naga. Pengaruh Tiongkok-Yuan dan Timur Tengah mulai terlihat dalam **tekstil brokat** dan **kalung mutiara** yang masuk lewat pelabuhan Tuban dan Gresik.
+Permaisuri mengenakan **kain panjang dengan sabuk emas berhias permata**, **kemben** sutera berjahit benang emas dengan motif kawung atau parang, **kondé tinggi** dengan cunduk berbentuk burung Garuda atau naga. Pengaruh Tiongkok-Yuan dan Timur Tengah mulai terlihat dalam **tekstil brokat** dan **kalung mutiara** yang masuk lewat pelabuhan Tuban dan Gresik.
 
-Prajurit Majapahit menggunakan **kawaca** baja yang lebih canggih, dengan **pelindung lengan** dari kulit dan **perisai** berbentuk segi delapan (segi rupa naga). Mereka mengenakan **destar merah** dan **kain bebed**. Senjata berkembang pesat: keris dengan dhapur kompleks (11, 13 luk), pedang lengkung pengaruh Arab, tombak bermata kembar, dan meriam kecil (bagi prajurit berkasta tinggi).
+Prajurit Majapahit menggunakan **kawaca** baja yang lebih canggih, dengan **pelindung lengan** dari kulit dan **perisai** berbentuk segi delapan berukir motif naga. Mereka mengenakan **destar merah** dan **kain bebed**. Senjata berkembang pesat: keris dengan dhapur kompleks (11, 13 luk), pedang lengkung pengaruh Arab, tombak bermata kembar, dan meriam kecil (bagi prajurit berkasta tinggi).
 
 #### Kostum Rakyat & Pedagang
 
@@ -286,7 +286,7 @@ Lanskap Trowulan: jalanan batu bata merah, kanal-kanal dengan perahu dagang, alu
 
 ### 3.4 Senjata & Properti
 
-- **Keris Majapahit** — puncak seni pandai besi Jawa. Dhapur kompleks (11, 13 luk), pamor berpamor (ngulit semangka, blarak ngirid, etc.). Keris menjadi simbol kedewasaan danstatus.
+- **Keris Majapahit** — puncak seni pandai besi Jawa. Dhapur kompleks (11, 13 luk), pamor berpamor (ngulit semangka, blarak ngirid, dll.). Keris menjadi simbol kedewasaan dan status.
 - **Pedang** — pedang lurus Tiongkok, pedang lengkung Persia-Arab.
 - **Tombak** — bermata kembar (tumbak dobel), gagang kayu berukir.
 - **Meriam kecil** — cetbang, meriam perunggu pertama di Nusantara, digunakan kapal perang Majapahit.
@@ -303,8 +303,8 @@ Lanskap Trowulan: jalanan batu bata merah, kanal-kanal dengan perahu dagang, alu
 - **Karakter drama**: Cerdas licik, dingin dalam kalkulasi, namun penuh visi. Mantan menantu Kertanegara. Visual: pria matang 30-40 tahun, tenang, makuta dengan ornamen naga, kain jedor biru tua dengan sabuk emas berpermata.
 
 #### Gajah Mada (± 1290–1364 M)
-- **Peran**: Patih Amangkubhumi Majapahit, penjelma *Sumpah Palapa*. Pemersatu Nusantara.
-- **Latar**: Awalnya beksa (pengawal raja), menyelamatkan Jayanegara dari pemberontakan Ra Kuti (1321). Diangkat patih, bersumpah 1336. Memimpin ekspedi Bubat (1357) yang berakhir tragis — tewasnya Pajajaran dan hubungan rusak dengan Sunda.
+- **Peran**: Patih Amangkubhumi Majapahit, penjelmaan *Sumpah Palapa*. Pemersatu Nusantara.
+- **Latar**: Awalnya beksa (pengawal raja), menyelamatkan Jayanegara dari pemberontakan Ra Kuti (1321). Diangkat patih, bersumpah 1336. Memimpin Peristiwa Bubat (1357) yang berakhir tragis — tewasnya Raja Sunda-Pajajaran Linggabuana dan putrinya Dyah Pitaloka, sehingga hubungan Majapahit dengan Sunda rusak permanen.
 - **Karakter drama**: Karismatik, ambisius, tegas, fanatik pada visi persatuan. Tragis karena Bubat menghancurkan reputasinya. Visual: pria matang 50-60 tahun, jenggot tipis, mata tajam, mengenakan kain jedor coklat dengan keris terselip, kalung kundala emas, kuluk destar coklat — bukan raja, tetapi patih yang berkuasa lebih dari raja.
 - **Konflik potensial**: Visi persatuan vs realitas kekuasaan, tragedi Bubat dengan Pajajaran.
 
@@ -317,7 +317,7 @@ Lanskap Trowulan: jalanan batu bata merah, kanal-kanal dengan perahu dagang, alu
 - **Peran**: Ratu Majapahit, ibu Hayam Wuruk. Memerintah damai, mengangkat Gajah Mada sebagai patih.
 - **Karakter drama**: Wanita berkuasa yang elegan, cerdas berdiplomasi. Visual: wanita 40-50 tahun, kondé tinggi berhiaskan cunduk emas, kemben brokat, kain panjang dengan motif parang rusak.
 
-#### Sori / Bhre Wirabhumi (Perang Paregreg, 1404-1406)
+#### Bhre Wirabhumi (Perang Paregreg, 1404-1406)
 - **Peran**: Tokoh kunci Perang Paregreg — perang saudara antara Bhre Wirabhumi ( anak Hayam Wuruk dari selir) vs Wikramawardhana (menantu sah Hayam Wuruk). Berakhir dengan kematian Wirabhumi.
 - **Karakter drama**: Ambisius, merasa terampas hak. Tragis. Visual: pria 30-40 tahun, garang, kain jedor merah dengan keris berpamor hitam.
 
@@ -375,7 +375,7 @@ Demak runtuh setelah kematian Sultan Trenggana (1546 M) dalam ekspedisi ke Blamb
 
 #### Kostum Sultan & Bangsawan
 
-Era Demak memperkenalkan transformasi besar dalam busana Jawa — pengaruh **Islam Timur Tengah** (Arab, Persia) berbaur dengan tradisi lokal. Sultan Demak mengenakan **jubah panjang lengan lebih** (*jubbah* atau *kebaya panjang*) berbahan brokat atau beludru, dengan warna-warna khas Islam awal: **hijau zaitun**, **putih**, **biru dongker**, **kuning emas**. Di dalamnya dipakai **baju kurung pendek** putih. Kepala ditutupi **peci hitam** atau **sorban** (turban) berlilit. Kain panjang (kain batik atau sutera) dililitkan di pinggang sebagai *kain jedor* — tradisi yang berlanjut dari era Majapahit namun dengan motif yang lebih geometris-Islam (tidak ada motif manusia/hewan).
+Era Demak memperkenalkan transformasi besar dalam busana Jawa — pengaruh **Islam Timur Tengah** (Arab, Persia) berbaur dengan tradisi lokal. Sultan Demak mengenakan **jubah panjang berlengan lebar** (*jubbah* atau *kebaya panjang*) berbahan brokat atau beludru, dengan warna-warna khas Islam awal: **hijau zaitun**, **putih**, **biru dongker**, **kuning emas**. Di dalamnya dipakai **baju kurung pendek** putih. Kepala ditutupi **peci hitam** atau **sorban** (turban) berlilit. Kain panjang (kain batik atau sutera) dililitkan di pinggang sebagai *kain jedor* — tradisi yang berlanjut dari era Majapahit namun dengan motif yang lebih geometris-Islam (tidak ada motif manusia/hewan).
 
 Permaisuri dan putri bangsawan Demak mulai memakai **kebaya panjang** (lebih tertutup dari kebaya Majapahit), dengan **kain panjang** sebagai bawahan, serta **kerudung** atau **selendang** yang menutupi kepala. Wajah tidak lagi tertutup cadar — sinkretisme Jawa-Islam. Perhiasan emas masih berlimpah: kalung, gelang, anting, cincin — namun lebih sederhana dari Majapahit, dengan motif **kaligrafi Arab** atau **bunga geometris**.
 
@@ -484,7 +484,7 @@ Pajang mewarisi tradisi Demak (Walisongo, Islam Jawa) namun mulai mengembangkan 
 
 #### Kostum Sultan & Bangsawan
 
-Pajang memperkenalkan busana yang lebih halus dan keraton-orientied dibandingkan Demak. Sultan Hadiwijaya mengenakan **jubah pendek lengan panjang** (*kebaya lengan panjang*) dari beludru, dengan kain panjang berbatik di pinggang. Kepala ditutupi **blangkon** (pengembangan dari kuluk Majapahit) — yang menjadi ciri khas busana Jawa-Islam hingga kini. **Keris** menjadi simbol status yang lebih penting — kebesaran sultan diukur dari keris pusakanya (Sultan Hadiwijaya memiliki **Keris Kyai Prabah** sebagai pusaka).
+Pajang memperkenalkan busana yang lebih halus dan keraton-oriented dibandingkan Demak. Sultan Hadiwijaya mengenakan **jubah pendek lengan panjang** (*kebaya lengan panjang*) dari beludru, dengan kain panjang berbatik di pinggang. Kepala ditutupi **blangkon** (pengembangan dari kuluk Majapahit) — yang menjadi ciri khas busana Jawa-Islam hingga kini. **Keris** menjadi simbol status yang lebih penting — kebesaran sultan diukur dari keris pusakanya (Sultan Hadiwijaya memiliki **Keris Kyai Prabah** sebagai pusaka).
 
 Permaisuri mengenakan **kebaya labuh** (panjang hingga pinggang) dari beludru atau sutera, dengan **kain panjang** bermotif batik Parang atau Kawung. Rambut disanggul dengan **kondé** yang dihiasi **cunduk** emas. Kepala dapat ditutupi **kerudung brokat** untuk situasi formal.
 
@@ -570,13 +570,14 @@ Lanskap Pajang: persawahan hijau lereng Lawu-Merapi, jalanan setapak berbatu, ka
 
 Kesultanan Mataram Islam adalah kerajaan Islam terbesar di Jawa setelah Majapahit, berdiri antara 1587 hingga 1755 M. Didirikan oleh **Sutawijaya** (bergelar *Panembahan Senapati*) setelah ia mengalahkan Pajang dan memindahkan pusat kerajaan ke **Kota Gede** (Yogyakarta). Mataram Islam mencapai puncak kekuasaan di bawah **Sultan Agung Hanyokrokusumo** (1613–1645) — raja terbesar Mataram yang menyatukan hampir seluruh Jawa (kecuali Banten dan Batavia VOC), sebagian Sumatra, Kalimantan Barat, dan Sulawesi Selatan.
 
-Sultan Agung adalah tokoh sentral Mataram Islam — penyerang Batavia (1628, 1629), pembuat **kalender Jawa** (1663 Masehi = 1633 Jawa), penyusun **sastra kitab** (serat Menak, serat Nitisruti), serta penegak Islam sinkretis Jawa. Era Sultan Agung adalah puncak budaya keraton — gamelan, wayang, tari, dan sastra mencapai puncak kehalusan.
+Sultan Agung adalah tokoh sentral Mataram Islam — penyerang Batavia (1628, 1629), pembuat **kalender Jawa** (1 Sura 1555 Jawa = 8 Juli 1633 Masehi = 1 Muharram 1043 H), penyusun **sastra kitab** (serat Menak, serat Nitisruti), serta penegak Islam sinkretis Jawa. Era Sultan Agung adalah puncak budaya keraton — gamelan, wayang, tari, dan sastra mencapai puncak kehalusan.
 
 Setelah Sultan Agung, Mataram melemah secara bertahap:
 - **Amangkurat I** (1645–1677) — tiran, bersekutu dengan VOC.
-- **Amangkurat II** (1677–1703) — boneka VOC, berperang saudara dengan saudaranya.
-- **Pakubuwana I** (1704–1719) — boneka VOC.
-- **Perang Suksesi Jawa I, II, III** (1704-1755) — Mataram terbelah oleh Perjanjian Giyanti (1755) menjadi **Surakarta** (Pakubuwana III) dan **Yogyakarta** (Hamengkubuwana I).
+- **Amangkurat II** (1677–1703) — boneka VOC, membangun keraton baru di Kartasura.
+- **Amangkurat III** (1703–1708) — putra Amangkurat II, berperang saudara dengan pamannya Pangeran Puger (Pakubuwana I) dalam Perang Suksesi Jawa Pertama (1704–1708).
+- **Pakubuwana I** (1704–1719) — adik Amangkurat II, naik takhta dengan dukungan VOC, mendirikan Keraton Kartasura.
+- **Perang Suksesi Jawa I, II, III** (1704–1755) — Mataram terbelah oleh Perjanjian Giyanti (13 Februari 1755) menjadi **Surakarta** (Pakubuwana III) dan **Yogyakarta** (Hamengkubuwana I).
 
 Era Mataram Islam menandai **kedatangan VOC sebagai kekuatan dominan** di Jawa — Mataram terus-menerus butuh bantuan VOC untuk menumpas pemberontakan internal (Trunojoyo, Surapati), dan harus membayar dengan konsesi dagang dan wilayah.
 
@@ -616,7 +617,7 @@ Bupati (gubernur regional) mengenakan **beskap** dengan kain batik Parang atau K
 
 Pusat Mataram Islam adalah **Kota Gede** (awal), kemudian **Karta** dan **Plered** (era Sultan Agung), dan akhirnya terbelah menjadi **Keraton Surakarta** (1745) dan **Keraton Yogyakarta** (1755) hingga kini. Arsitektur keraton Mataram adalah **akumulasi tradisi Jawa-Hindu-Buddha dengan Islam** — bangunan kayu jati berukir dengan atap tumpang, namun dengan **pintu gerbang berbentuk gapura** (pengaruh Hindu), **tatanan ruang kosmik** (alun-alun utara-selatan), dan **masjid keraton** sebagai pusat spiritual.
 
-**Keraton Yogyakarta** (Didirikan 1755) dan **Keraton Surakarta** (didirikan 1745) menjadi blueprint visual Mataram Islam yang masih hidup hingga kini. Tata ruang keraton: **Alun-alun Utara** (untuk upacara rakyat) → **Siti Hinggil** (balai pertemuan tinggi) → **Kedaton** (istana dalam) → **Alun-alun Selatan** (untuk latihan prajurit) → **Kepatihan** (kantor patih). Taman **Taman Sari** (Yogyakarta) — kompleks kolam renang keraton yang menjadi ikon visual Mataram akhir.
+**Keraton Yogyakarta** (didirikan 1755) dan **Keraton Surakarta** (didirikan 1745) menjadi blueprint visual Mataram Islam yang masih hidup hingga kini. Tata ruang keraton: **Alun-alun Utara** (untuk upacara rakyat) → **Siti Hinggil** (balai pertemuan tinggi) → **Kedaton** (istana dalam) → **Alun-alun Selatan** (untuk latihan prajurit) → **Kepatihan** (kantor patih). **Taman Sari** (Yogyakarta) — kompleks kolam renang keraton yang menjadi ikon visual Mataram akhir.
 
 ### 6.4 Senjata & Properti
 
@@ -640,7 +641,7 @@ Pusat Mataram Islam adalah **Kota Gede** (awal), kemudian **Karta** dan **Plered
 #### Sultan Agung Hanyokrokusumo (1613–1645 M)
 - **Peran**: Raja terbesar Mataram. Menyerang VOC di Batavia (1628, 1629). Pembuat kalender Jawa. Pemersatu Jawa.
 - **Latar**: Lahir di Kota Gede 1593. Naik takhta muda (20 tahun). Ambisius, religius, militeristik. Dua kali gagal merebut Batavia karena logistik dan wabah. Membuat kalender Jawa 1633.
-- **Karakter drama**: Visioner religius, tegas, kejam jika perlu — namun sofistikated dalam sastra dan budaya. Visual: pria matang 30-50 tahun, jubah gelap dengan kuluk tinggi berornamen, kain batik Parang, keris pusaka, kalung emas berukir.
+- **Karakter drama**: Visioner religius, tegas, kejam jika perlu — namun cendekia dalam sastra dan budaya. Visual: pria matang 30-50 tahun, jubah gelap dengan kuluk tinggi berornamen, kain batik Parang, keris pusaka, kalung emas berukir.
 - **Konflik potensial**: Perang dengan VOC, ketegangan dengan ulama ortodoks, konflik dengan putra mahkota.
 
 #### Amangkurat I (1645–1677 M)
@@ -654,13 +655,17 @@ Pusat Mataram Islam adalah **Kota Gede** (awal), kemudian **Karta** dan **Plered
 - **Karakter drama**: Karismatik, pemberani, tragis — patriot yang berakhir tragis. Visual: pria matang 30-40 tahun, jubah gelap Madura, keris terselip, ekspresi garang.
 
 #### Hamengkubuwana I / Pangeran Mangkubumi (1755–1792 M)
-- **Peran**: Pendiri Yogyakarta Sultanate setelah Perjanjian Giyanti 1755.
-- **Latar**: Pangeran yang berperang melawan saudaranya (Pakubuwana III) dengan bantuan VOC, lalu menyetujui pembagian Mataram.
+- **Peran**: Pendiri Kesultanan Yogyakarta setelah Perjanjian Giyanti 13 Februari 1755.
+- **Latar**: Lahir 5 Agustus 1717 dengan nama Pangeran Mangkubumi (Raden Mas Sujana). Pangeran Mataram yang berperang melawan keponakannya Pakubuwana III dengan dukungan VOC, lalu menyetujui pembagian Mataram menjadi dua.
 - **Karakter drama**: Politisi ulung, ahli perang, namun realistis — menerima pembagian. Visual: pria matang 40-50 tahun, jubah hijau gelap dengan kuluk, keris pusaka.
 
-#### Pakubuwana II (1726–1749 M) — Surakarta
-- **Peran**: Sultan terakhir Mataram unified, yang kehilangan kekuasaan ke VOC dan setuju dengan Perjanjian Giyanti.
+#### Pakubuwana II (1726–1749 M) — Mataram Kartasura
+- **Peran**: Sultan Mataram terakhir yang unified (berpusat di Kartasura). Naik takhta 1726, kehilangan kekuasaan ke VOC setelah menyerahkan pesisir utara Jawa. Wafat 1749, digantikan putranya Pakubuwana III.
 - **Karakter drama**: Lemah, plin-plan, korban politik VOC. Visual: pria matang 40-an, jubah biru dengan kuluk, ekspresi lelah.
+
+#### Pakubuwana III (1749–1788 M) — Surakarta
+- **Peran**: Sultan terakhir Mataram unified (singkat), lalu Sultan pertama Surakarta setelah Perjanjian Giyanti 1755. Memindahkan keraton dari Kartasura ke Surakarta (1745 dipersiapkan, 1749 dilakukan oleh PB III setelah kebakaran Kartasura).
+- **Karakter drama**: Sopan, damai, menerima pembagian Mataram. Visual: pria muda 30-an, jubah biru dengan kuluk, ekspresi teduh.
 
 ### 6.6 Prompt SD Siap Pakai
 
@@ -703,13 +708,13 @@ Pusat Mataram Islam adalah **Kota Gede** (awal), kemudian **Karta** dan **Plered
 
 Era kolonial di Indonesia berlangsung hampir 350 tahun dan dapat dibagi dalam dua fase besar: **VOC (Vereenigde Oostindische Compagnie)** 1602–1799 dan **Hindia Belanda** 1800–1942. VOC adalah perusahaan dagang Belanda yang diberi kuasa quasi-pemerintahan oleh Staten-Generaal — dengan hak mencetak uang, membangun benteng, menandatangani perjanjian, dan mengangkat pasukan. VOC mendominasi perdagangan rempah-rempah Nusantara selama abad ke-17 dan 18, memonopoli cengkih, pala, fuli, lada, dan kopi.
 
-Periode VOC ditandai oleh **Gubernur-Jenderal Jan Pieterszoon Coen** (1619–1623, 1627–1629) — pendiri Batavia di atas puing-puing Jayakarta (1619), penegak monopoli VOC lewat kekerasan (genocida penduduk Banda 1621). Lalu **Gubernur-Jenderal Van Diemen** (1636–1645) yang mengonsolidasi kekuasaan dan mengirim ekspedisi Abel Tasman ke Australia. Puncak VOC adalah abad ke-17 — "Gouden Eeuw" Belanda — namun korupsi, birokrasi, dan perang terus-menerus membuat VOC bangkrut 1799.
+Periode VOC ditandai oleh **Gubernur-Jenderal Jan Pieterszoon Coen** (1619–1623, 1627–1629) — pendiri Batavia di atas puing-puing Jayakarta (1619), penegak monopoli VOC lewat kekerasan (genocida penduduk Banda 1621). Lalu **Gubernur-Jenderal Van Diemen** (1636–1645) yang mengkonsolidasi kekuasaan dan mengirim ekspedisi Abel Tasman ke Australia. Puncak VOC adalah abad ke-17 — "Gouden Eeuw" Belanda — namun korupsi, birokrasi, dan perang terus-menerus membuat VOC bangkrut 1799.
 
 Hindia Belanda (1800-1942) dimulai setelah VOC dibubarkan dan asetnya diambil alih kerajaan Belanda. Periode ini ditandai:
 - **British Interregnum** (1811–1816) — Stamford Raffles memerintah Java.
 - **Cultuurstelsel** (1830–1870) — Sistem Tanam Paksa oleh Van den Bosch, memaksa rakyat Jawa menanam tanaman ekspor (kopi, gula, nila, teh) untuk keuntungan Belanda.
-- **Etiše Politiek** (1901–1942) — Politik Etis setelah max Havelaar (1860): edukasi, irigasi, migrasi.
-- **Pergerakan Nasional** (1908–1942) — lahirnya Boedi Oetomo, Sarekat Islam, Muhammadiyah, NU, PKI, dan akhirnya BPUPKI/PKI mendi Persiapan Kemerdekaan.
+- **Ethische Politiek** (1901–1942) — Politik Etis setelah terbitnya novel *Max Havelaar* (1860) karya Multatuli: edukasi, irigasi, migrasi.
+- **Pergerakan Nasional** (1908–1942) — lahirnya Boedi Oetomo, Sarekat Islam, Muhammadiyah, NU, PKI, dan akhirnya BPUPKI/PPKI menuju Persiapan Kemerdekaan.
 
 Periode kolonial menandai **pertemuan besar tiga tradisi**: Eropa (Belanda, kemudian juga Inggris), Jawa-Islam (keraton), dan Tionghoa peranakan. Visual budaya Indonesia modern lahir dari persilangan ini — kebaya, batik cap, sarung, peci, jas hingga katun, semua dipengaruhi era kolonial.
 
@@ -727,7 +732,7 @@ Komunitas Tionghoa peranakan di era kolonial mengembangkan visual yang khas — 
 
 #### Kostum Jawa Keraton & Priyayi
 
-Sementara itu, keraton Mataram (Surakarta & Yogyakarta) masih berjalan dengan **ageman kebesaran** sendiri — dengan adaptasi: penggunaan **kain batik cap** (cetak tin) yang mulai diproduksi massal abad 19, kain sutera dan beludru Eropa yang makin terjangkau. **Kebaya kebesaran** untuk perempuan priyayi menjadi lebih tertutup dengan lengan panjang dan kancing kerang. **Pria priyayi** mulai memakai **jas tutup** (jas berdilepan) putih atau hitam di atas kain batik dan blangkon — yang menjadi ciri khas priyayi modern.
+Sementara itu, keraton Mataram (Surakarta & Yogyakarta) masih berjalan dengan **ageman kebesaran** sendiri — dengan adaptasi: penggunaan **kain batik cap** (cetak tin) yang mulai diproduksi massal abad 19, kain sutera dan beludru Eropa yang makin terjangkau. **Kebaya kebesaran** untuk perempuan priyayi menjadi lebih tertutup dengan lengan panjang dan kancing kerang. **Pria priyayi** mulai memakai **jas tutup** putih atau hitam di atas kain batik dan blangkon — yang menjadi ciri khas priyayi modern.
 
 #### Kostum Rakyat Petani
 
@@ -735,11 +740,11 @@ Rakyat petani Jawa di era Cultuurstelsel memakai pakaian sederhana: **kain pende
 
 #### Kostum Pejuang & Kompeni Indonesia
 
-Prajurit pribumi yang bekerja untuk VOC — **pasukan pribumi** atau **sepoy** — mengenakan seragam VOC: **jas merah** atau **biru** dengan celana putih, topi topi hitam atau sorban. Setelah sistem angkatan perang keraton dibubarkan, prajurit pribumi Hindia Belanda mengenakan seragam **KNIL** (Koninklijk Nederlands Indisch Leger) — hijau zaitun atau coklat kahki, topi pith helmet.
+Prajurit pribumi yang bekerja untuk VOC — **pasukan pribumi** atau **sepoy** — mengenakan seragam VOC: **jas merah** atau **biru** dengan celana putih, topi hitam atau sorban. Setelah sistem angkatan perang keraton dibubarkan, prajurit pribumi Hindia Belanda mengenakan seragam **KNIL** (Koninklijk Nederlands Indisch Leger) — hijau zaitun atau coklat khaki, topi pith helmet.
 
 ### 7.3 Arsitektur & Setting
 
-Era kolonial memperkenalkan **arsitektur kolonial Hindia** — perpaduan gaya Eropa (Belanda, kemudian juga Art Deco) dengan adaptasi iklim tropis: **gudang tinggi** (langit-langit tinggi untuk sirkulasi udara), **serambi depan** (veranda), **jendela besar** dengan **venetian blind** (venetianers), **atap genting** dengan **gevel** (gable Belanda). Kota-kota kolonial — **Batavia** (Jakarta Kota), **Semarang** (Kota Lama), **Surabaya** (Tunjungan), **Bandung** (Asia-Afrika), **Medan** (Kesawan), **Yogyakarta** (Malioboro) — dibangun dengan gaya ini.
+Era kolonial memperkenalkan **arsitektur kolonial Hindia** — perpaduan gaya Eropa (Belanda, kemudian juga Art Deco) dengan adaptasi iklim tropis: **langit-langit tinggi** (untuk sirkulasi udara), **serambi depan** (veranda), **jendela besar** dengan **venetian blind** (tirai kayu jalusi), **atap genting** dengan **gevel** (gable Belanda). Kota-kota kolonial — **Batavia** (Jakarta Kota), **Semarang** (Kota Lama), **Surabaya** (Tunjungan), **Bandung** (Asia-Afrika), **Medan** (Kesawan), **Yogyakarta** (Malioboro) — dibangun dengan gaya ini.
 
 **Kota Tua Batavia** (sekarang Jakarta Kota) adalah ikon visual era VOC — dengan **Stadhuis** (Balai Kota, sekarang Museum Wayang), **Kasteel Batavia** (benteng, sekarang hilang), **Gereja Sion** (1693), **rumah-rumah perdagangan** bergaya Belanda abad 17 dengan kanal-kanal menyerupai Amsterdam. Kanal-kanal Batavia kemudian ditutup karena wabah malaria (abad 18), sehingga pusat kota dipindah ke **Weltevreden** (sekarang Lapangan Banteng/Monas).
 
@@ -863,11 +868,11 @@ Pemuda pelajar menggunakan **seragam prajurit muda** — **baju hijau zaitun** s
 
 #### Kostum Wanita Pejuang
 
-Wanita pejuang — **Laslykar Wanita Indonesia (Laswi)**, **Pembela Tanah Air (PETA) wanita** — mengenakan **kebaya putih** dengan **kain batik** dan **kerudung** atau sanggul, kadang dengan **ikat kepala merah putih**. Wanita kurir mengenakan pakaian biasa — kebaya dan kain batik — untuk menyembunyikan identitas.
+Wanita pejuang — **Laskar Wanita Indonesia (Laswi)**, **Pembela Tanah Air (PETA) wanita** — mengenakan **kebaya putih** dengan **kain batik** dan **kerudung** atau sanggul, kadang dengan **ikat kepala merah putih**. Wanita kurir mengenakan pakaian biasa — kebaya dan kain batik — untuk menyembunyikan identitas.
 
 #### Kostum Rakyat
 
-Rakyat jelata menggunakan pakaian sederhana: **kain pendek** atau **sarung**, **baju koko** (baju potongan Tionghoa-Islam) untuk pria, **kebaya** untuk wanita, **peci hitam** untuk pria Muslim, **ikat kepala** untuk wanita. Penggunaan **sandals jepara** atau **sepatu bekas**. Pakaian rakyat sederhana — era perang membuat kain sulit didapat, sehingga banyak pakaian tambal-menambal.
+Rakyat jelata menggunakan pakaian sederhana: **kain pendek** atau **sarung**, **baju koko** (baju potongan Tionghoa-Islam) untuk pria, **kebaya** untuk wanita, **peci hitam** untuk pria Muslim, **ikat kepala** untuk wanita. Penggunaan **sandal jepara** atau **sepatu bekas**. Pakaian rakyat sederhana — era perang membuat kain sulit didapat, sehingga banyak pakaian tambal-menambal.
 
 ### 8.3 Arsitektur & Setting
 
@@ -898,7 +903,7 @@ Lanskap era revolusi: kota dengan kerusakan perang (gedung-gedung rusak akibat b
 #### Soekarno (1901–1970 M)
 - **Peran**: Proklamator kemerdekaan RI. Presiden pertama (1945-1967).
 - **Latar**: Lahir di Surabaya, dibesarkan di Blitar-Bali. Aktivis pergerakan sejak 1927 (Perserikatan Nasional Indonesia). Dipenjara Belanda, diasingkan ke Bengkulu. Dibawa Jepang ke Jakarta 1942 untuk membantu pemerintahan militer. Memproklamasikan kemerdekaan 17 Agustus 1945 bersama Hatta.
-- **Karakter drama**: Karismatik, orator ulung, nasionalis-romantis, visioner. Sering emosional, seni-budaya orientated. Visual: pria matang 40-60 tahun, rambut disisir ke belakang, jas putih dengan peci hitam, kain batik di pinggang untuk acara semi-formal, atau baju safari.
+- **Karakter drama**: Karismatik, orator ulung, nasionalis-romantis, visioner. Sering emosional, berorientasi pada seni dan budaya. Visual: pria matang 40-60 tahun, rambut disisir ke belakang, jas putih dengan peci hitam, kain batik di pinggang untuk acara semi-formal, atau baju safari.
 - **Konflik potensial**: Ketegangan dengan Hatta (federalis vs unitaris), dengan militer (yang ingin lebih banyak kuasa), dengan Belanda (yang ingin mengembalikan kekuasaan).
 
 #### Mohammad Hatta (1902–1980 M)
@@ -908,12 +913,12 @@ Lanskap era revolusi: kota dengan kerusakan perang (gedung-gedung rusak akibat b
 
 #### Sultan Hamengkubuwana IX (1912–1988 M)
 - **Peran**: Sultan Yogyakarta, pendukung RI, Menteri Pertahanan, Wakil Presiden (1973-1978).
-- **Latar**: Lahir di Yogyakarta, dididik di Belanda (Leiden). Naik takhta 1940. Mendukung RI sejak proklamasi, menyatakan Yogyakarta bagian RI. Memberi dukungan logistik dan politik selama revolusi.
+- **Latar**: Lahir di Yogyakarta, dididik di Belanda (Universitas Leiden). Naik takhta 1940. Mendukung RI sejak proklamasi, menyatakan Yogyakarta sebagai bagian dari RI. Memberi dukungan logistik dan politik selama revolusi.
 - **Karakter drama**: Modernis, nasionalis, ahli diplomasi. Visual: pria muda-matang 30-40 tahun, ageman kebesaran Yogyakarta (jubah hijau dengan kuluk, kain batik Parang) untuk acara keraton, jas putih dengan peci untuk acara nasional.
 
 #### Sutomo / Bung Tomo (1920–1981 M)
-- **Peran**: Pemimpin atauatorik Perang Surabaya (10 November 1945). Pahlawan Pertempuran Surabaya.
-- **Latar**: Aktifis Hizbullah dan pemuda. Berorasi lewat radio membangkitkan arek Surabaya melawan Inggris-NICA.
+- **Peran**: Pemimpin oratorik Perang Surabaya (10 November 1945). Pahlawan Pertempuran Surabaya.
+- **Latar**: Aktivis Hizbullah dan pemuda. Berorasi lewat radio membangkitkan arek Surabaya melawan Inggris-NICA.
 - **Karakter drama**: Karismatik, orator, religius. Visual: pria muda 25 tahun, jas hitam dengan peci, ekspresi membara, tangan terangkat berorasi.
 
 #### Sayuti Melik (1908–1969 M)
@@ -923,7 +928,7 @@ Lanskap era revolusi: kota dengan kerusakan perang (gedung-gedung rusak akibat b
 
 #### Sudirman (1916–1950 M)
 - **Peran**: Jenderal Besar TNI pertama, panglima TNI era revolusi. Pemimpin Perang Gerilya.
-- **Latar**: Lahir di Purbalingga. Aktivis Hizbullah. Diangkat panglima TNI 1945. Memimpin gerilya 1948-1949 dari Yogyakarta ke Sobo (Kediri) setelah Agresi Militer Belanda II. Sakit paru-paru, wafat 1950.
+- **Latar**: Lahir di Purbalingga, 24 Januari 1916. Aktif dalam kepanduan Muhammadiyah (Hizbullah). Diangkat panglima TNI 12 November 1945. Memimpin gerilya 1948–1949 dari Yogyakarta ke Sobo (Kediri) setelah Agresi Militer Belanda II. Sakit paru-paru, wafat 29 Januari 1950.
 - **Karakter drama**: Patriotik, religius, militeristik, sederhana. Visual: pria muda 30-an, jas hijau zaitun dengan emblem bintang, peci hitam, ekspresi tegar namun sakit.
 
 ### 8.6 Prompt SD Siap Pakai
@@ -988,7 +993,7 @@ Soekarno pada era Orde Lama mengembangkan **busana nasional Indonesia** yang men
 - **Baju takwa** — untuk acara keagamaan Islam.
 - **Setelan hitam** — untuk kunjungan resmi luar negeri.
 
-Soekarno juga mempopulerkan gaya **gaya hidup artistik** — koleksi lukisan, tarian, dan musik. Ia sering terlihat dengan kacamata hitam, topi panama (untuk acara lapangan), dan jas aneh yang modis.
+Soekarno juga mengembangkan **gaya hidup artistik** — koleksi lukisan, tarian, dan musik. Ia sering terlihat dengan kacamata hitam, topi panama (untuk acara lapangan), dan jas modis hasil rancangannya sendiri.
 
 Hatta, setelah mengundurkan diri sebagai Wapres (1956), mengenakan **jas abu-abu** sederhana dengan **peci hitam** dan **kacamata bulat** — simbol oposisi demokratik.
 
@@ -1015,7 +1020,7 @@ Rakyat era Orde Lama mengenakan pakaian yang dipengaruhi modernisasi:
 
 #### Kostum Wanita Pejabat
 
-Ibu negara dan wanita pejabat (Fatmawat Soekarno, dll.) mengenakan **kebaya kontemporer** — potongan lebih modern dengan lengan panjang, kancing kerang, dari beludru atau sutera, dipadukan dengan **kain batik** dan **sanggul** tinggi. **Kebaya modern** sebagai busana nasional wanita Indonesia lahir di era ini.
+Ibu negara dan wanita pejabat (Fatmawati Soekarno, dll.) mengenakan **kebaya kontemporer** — potongan lebih modern dengan lengan panjang, kancing kerang, dari beludru atau sutera, dipadukan dengan **kain batik** dan **sanggul** tinggi. **Kebaya modern** sebagai busana nasional wanita Indonesia lahir di era ini.
 
 ### 9.3 Arsitektur & Setting
 
@@ -1027,7 +1032,7 @@ Era Orde Lama membangun banyak **monumen nasional** sebagai simbol kemerdekaan:
 - **Tugu Tani** — patung petani di Jakarta.
 - **Patung Dirgantara** — di Pancoran (tugu Soekarno menghormati penerbang).
 
-Lanskap Jakarta era Orde Lama: Jalan Sudirman-Thamrin (baru dibangun), Hotel Indonesia (1962), Gelora Bung Karno (1962 untuk Asian Games IV), Kebun Binatang Ragunan, Bandara Kemayoran. Rumah-rumah masih banyak bergaya kolonial dengan ter .
+Lanskap Jakarta era Orde Lama: Jalan Sudirman-Thamrin (baru dibangun), Hotel Indonesia (1962), Gelora Bung Karno (1962 untuk Asian Games IV), Kebun Binatang Ragunan, Bandara Kemayoran. Rumah-rumah masih banyak bergaya kolonial Hindia Belanda dengan teras depan luas.
 
 Kota-kota lain: **Yogyakarta** dengan Malioboro yang masih tradisional, **Surabaya** dengan Jembatan Merah, **Bandung** dengan Jalan Asia-Afrika (tempat Konferensi Asia-Afrika 1955), **Medan** dengan Kesawan kolonial.
 
@@ -1099,7 +1104,7 @@ Kota-kota lain: **Yogyakarta** dengan Malioboro yang masih tradisional, **Suraba
 
 4. Indonesian university students demonstration 1965 Jakarta,
    students in white shirts and peci, holding anti-PKI banners,
-   Gusdur-era street protest scene with placards, government
+   Orde Lama-era street protest scene with placards, government
    building background, dramatic afternoon light, painterly
    realistic, hyperdetailed.
 
