@@ -91,3 +91,77 @@ Stage Summary:
 - 30+ typo & kesalahan ketik diperbaiki
 - Catatan: Beberapa detail masih memerlukan validasi lebih lanjut dari ahli sejarah (terutama untuk era Mataram Kuno, Singasari, Majapahit, Demak, Pajang, Mataram Islam) karena sumber primer sering kontradiktif. Disarankan konsultasi dengan sejarawan UGM/UI untuk produksi drama formal.
 - Sumber primer yang digunakan untuk verifikasi: Wikipedia bahasa Indonesia, kratonjogja.id (situs resmi Keraton Yogyakarta), detik.com, jurnal akademis UNY/UNAIR/UNESA, anri.go.id
+
+---
+Task ID: 3 (fase Mataram Kuno)
+Agent: Main Agent (Z.ai)
+Task: Audit & validasi khusus fase Mataram Kuno (era 1) - baca ulang, verifikasi ke sumber primer, perbaiki kesalahan
+
+Work Log:
+- Membaca ulang seluruh bagian Mataram Kuno (baris 28-137, ~110 baris)
+- Web search paralel untuk verifikasi: Prasasti Canggal, Balitung, Mpu Sindok, Airlangga, Prasasti Nalanda, Balaputradewa, Rakai Pikatan, Pramodawardhani, Samaratungga, Sanjaya
+- Koreksi 13+ kesalahan fakta & typo dengan MultiEdit
+- Verifikasi akhir semua typo sudah bersih
+
+Koreksi FAKTA HISTORIS (11 koreksi):
+1. "agraris-birokratis" → "agraris dan religius" (lebih tepat deskripsi Mataram Kuno)
+2. "Balitung (899-911 M)" → "Rakai Watukura Dyah Balitung (898-910 M)" (sumber: Wikipedia ID, prasasti)
+3. "Perpindahan didorong oleh letusan Merapi" → "kemungkinan bencana alam (letusan Merapi, berdasarkan salah satu teori)" (klaim lebih hati-hati)
+4. "Candi Sewu (kompleks Buddha terbesar di Jawa)" → "(kompleks Buddha terbesar di kawasan Prambanan)" (Borobudur lebih besar secara keseluruhan)
+5. "Candi Borobudur dibangun Syailendra, selesai ~825 M" → "dibangun Wangsa Syailendra, selesai pada masa Samaratungga ± 825 M" (lebih spesifik)
+6. "Candi Prambanan dibangun Wangsa Sanjaya, ~850 M" → "mulai ± 850 M, diresmikan 856 M berdasarkan Prasasti Siwagrha" (sumber: Prasasti Siwagrha)
+7. "Airlangga memerintah 1019-1049 M" → "memerintah 1019-1042 M, wafat 1049 sebagai pertapa" (sumber: Wikipedia EN, Airlangga mundur 1042, wafat 1049 sebagai pertapa)
+8. "Sanjaya ± 717-746 M" → "Sanjaya ± 732-746 M" (Prasasti Canggal 732 M sebagai tahun pendirian)
+9. "Bukit Stirangga (G. Sumbing)" → "Bukit Sthirengga (Gunung Wukir, Magelang)" (sumber: Wikipedia Prasasti Canggal, jatengprov.go.id)
+10. "Balaputradewa ± 824-860 M" → "± 832-856 M di Jawa; Maharaja Sriwijaya 860-900 M" (sumber: Wikipedia ID Balaputradewa)
+11. "Catatan sejarah (Prasasti Nalanda) menyebut Balaputradewa sebagai cucu Raja Syailendra yang membangun biara Nalanda di India" → DIPERBAIKI MENJADI: "Prasasti Nalanda (860 M) menyebut Balaputradewa sebagai putra Samaragrawira dan cucu Dharanindra (raja Syailendra bergelar Wirawairimathana). Dalam prasasti tersebut, Balaputradewa memohon kepada Raja Devapala dari Bengal untuk membangun wihara bagi pelajar Buddha di Nalanda." (sumber: Wikipedia ID Prasasti Nalanda)
+12. "Rakai Pikatan (Raja Sanjaya, 838-850 M)" → "Rakai Pikatan (Raja Wangsa Sanjaya, 838-851 M)"
+13. "membangun Candi Prambanan dan Roro Jonggrang" → "membangun Candi Prambanan (Loro Jonggrang)" (Loro Jonggrang adalah nama lain Prambanan, bukan candi terpisah)
+14. "Pramodawardhani (Permaisuri, 838-862 M)" → "Pramodawardhani (Putri Samaratungga, permaisuri Rakai Pikatan, aktif ± 820-860-an M)" (sumber: Wikipedia ID Pramodawardhani, Prasasti Kayumwungan 824 M)
+
+Koreksi ISTILAH/TYPO (8 koreksi):
+1. "*harata* (sabuk emas berlapis)" → "*sabuk emas* berlapis" (istilah "harata" tidak ditemukan dalam arkeologi Jawa kuno)
+2. "*kampana* (lonceng kecil)" → "lonceng kecil" (istilah "kampana" tidak ditemukan)
+3. "*perisai perunggu bundar* (pelanduk)" → "*perisai perunggu bundar*" (istilah "pelanduk" untuk perisai tidak akurat)
+4. "kain batik polos" → "kain katun polos" (batik selalu bermotif, tidak ada "batik polos")
+5. "rakyat dilarang memakai motif tertentu" → "motif-motif tertentu terbatas untuk kalangan bangsawan" (klaim lebih berhati-hati - larangan motif batik spesifik belum ada prasasti pada era Mataram Kuno)
+6. "Istana raja (dalem)" → "Istana raja (prasadha/rajasthana)" (istilah "dalem" lebih khas era Mataram Islam)
+7. "Pendeta Hindu (resi)" → "Pendeta Hindu Siwa (resi)" (lebih spesifik - Mataram Kuno adalah Hindu Siwa)
+8. "*upavita* (tali suci melintang dada, biasanya untuk golongan brahmana)" → "*upavita* (tali suci melintang dada, simbol dwijā 'dua kali lahir' bagi golongan brahmana, ksatria, dan waisya)" (upavita untuk tiga varna, bukan hanya brahmana)
+9. "mendirkan" → "mendirikan" (typo)
+10. "*rudraksha* (butir doa)" → "*rudraksha* (butiran tasbih)" (lebih tepat)
+11. "kain jedor / sampur" → "sampur / kain upavita" (istilah "jedor" lebih khas era Mataram Islam)
+
+Koreksi PROMPT SD (3 koreksi):
+1. "red batik kain jedor with harata gold belt" → "red naturally-dyed kain jedor with gold belt" (lebih akurat - batik modern tidak ada di abad 8)
+2. "kuluk bronze conical helmet" → "bronze conical helmet" (kuluk adalah penutup kepala kain/bludru, bukan helm perunggu)
+3. "keris proto-form" → "early keris Buda form" (lebih spesifik - keris Buda adalah proto-keris era Mataram Kuno)
+
+TAMBAHAN INFORMASI BARU:
+- Sanjaya: ditambahkan informasi dari Carita Parahyangan bahwa Sanjaya adalah keponakan Raja Sanna (putra Sannaha)
+- Mpu Sindok: ditambahkan "Raja terakhir Wangsa Sanjaya" sebagai konteks
+- Pramodawardhani: ditambahkan referensi Prasasti Kayumwungan 824 M
+
+Stage Summary:
+- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- Bagian Mataram Kuno (era 1) sudah diaudit & dikoreksi
+- 14 koreksi fakta historis (diverifikasi ke sumber primer Wikipedia + prasasti)
+- 11 koreksi istilah/typo
+- 3 koreksi prompt SD
+- 3 tambahan informasi baru
+- Total: 31 koreksi untuk bagian Mataram Kuno
+
+Sumber primer yang dipakai untuk verifikasi:
+- Wikipedia Indonesia: Balaputradewa, Pramodawardhani, Samaratungga, Prasasti Nalanda, Airlangga, Mpu Sindok, Dyah Balitung
+- Wikipedia English: Canggal inscription, Airlangga, Samaratungga, Mpu Sindok
+- jatengprov.go.id: Prasasti Canggal & Candi Gunung Wukir
+- slemankab.go.id: Candi Prambanan & Prasasti Siwagrha
+- detik.com: Pramodawardhani biografi
+- tirto.id: Ekspansi Mataram Kuno era Balitung
+
+Belum terverifikasi (perlu konsultasi ahli):
+- Tahun spesifik pemerintahan Sanjaya (732-746 M masih perkiraan)
+- Tahun pasti pernikahan Rakai Pikatan dengan Pramodawardhani
+- Identifikasi pasti "Bukit Sthirengga" (apakah benar-benar Gunung Wukir atau lokasi lain)
+- Hubungan persis antara Samaratungga, Balaputradewa, dan Pramodawardhani (masih diperdebatkan sejarawan)
+

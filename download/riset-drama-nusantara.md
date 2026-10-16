@@ -29,35 +29,35 @@
 
 ### 1.1 Konteks Sejarah Singkat
 
-Kerajaan Mataram Kuno — yang juga disebut Kerajaan Medang atau Medang i Bhumi Mataram — adalah peradaban agraris-birokratis di Jawa Tengah yang berkembang antara abad ke-8 hingga ke-10 Masehi. Kerajaan ini didirikan oleh Raja Sanjaya yang bergelar *Rakai Mataram Sang Ratu Sanjaya*, dan kemudian dipimpin oleh dua dinasti yang hidup berdampingan: **Wangsa Sanjaya** (Hindu Siwa) dan **Wangsa Syailendra** (Buddha Mahayana). Dualisme religius-politik ini menjadi ciri unik Mataram Kuno — dua tradisi besar hidup berdampingan tanpa konflik terbuka, dan justru saling melengkapi dalam pembangunan candi-candi monumental.
+Kerajaan Mataram Kuno — yang juga disebut Kerajaan Medang atau Medang i Bhumi Mataram — adalah peradaban agraris dan religius di Jawa Tengah yang berkembang antara abad ke-8 hingga ke-10 Masehi. Kerajaan ini didirikan oleh Raja Sanjaya yang bergelar *Rakai Mataram Sang Ratu Sanjaya* (menurut Prasasti Mantyasih 907 M), dan kemudian dipimpin oleh dua dinasti yang hidup berdampingan: **Wangsa Sanjaya** (Hindu Siwa) dan **Wangsa Syailendra** (Buddha Mahayana). Dualisme religius-politik ini menjadi ciri unik Mataram Kuno — dua tradisi besar hidup berdampingan tanpa konflik terbuka, dan justru saling melengkapi dalam pembangunan candi-candi monumental.
 
-Puncak kejayaan Mataram Kuno terjadi pada masa pemerintahan Balitung (899–911 M) yang menyatukan dua wangsa lewat pernikahan politik, dan dilanjutkan oleh Mpu Sindok yang kemudian memindahkan pusat kerajaan ke Jawa Timur (Medang i Tamwlang) pada 929 M — peristiwa yang sering disebut sebagai awal periode *Medang Timur* atau *Isyana*. Perpindahan ini didorong oleh letusan Gunung Merapi yang menghancurkan ibu kota, tekanan dari Srivijaya, dan pertimbangan ekonomi dagang di jalur Sungai Brantas.
+Puncak kejayaan Mataram Kuno terjadi pada masa pemerintahan Rakai Watukura Dyah Balitung (898–910 M) yang menyatukan dua wangsa lewat pernikahan politik, dan dilanjutkan oleh Mpu Sindok yang kemudian memindahkan pusat kerajaan ke Jawa Timur (Medang i Tamwlang) pada 929 M — peristiwa yang sering disebut sebagai awal periode *Medang Timur* atau *Wangsa Isyana*. Perpindahan ini didorong oleh beberapa faktor: kemungkinan bencana alam (letusan Gunung Merapi yang menghancurkan ibu kota, berdasarkan salah satu teori), tekanan dari Srivijaya, dan pertimbangan ekonomi dagang di jalur Sungai Brantas.
 
-Warisan Mataram Kuno yang paling monumental adalah candi-candi megah: **Candi Kalasan** (778 M), **Candi Sewu** (kompleks Buddha terbesar di Jawa), **Candi Borobudur** (dibangun Syailendra, selesai ~825 M), **Candi Prambanan** (dibangun Wangsa Sanjaya, ~850 M), serta ratusan candi kecil di sepanjang lereng Merapi-Merbabu. Era ini ditutup oleh peristiwa *Pralaya* (bencana) tahun 1016 M, ketika pusat kerajaan dihancurkan oleh serangan **Aji Wurawari dari Lwaram** (raja bawahan Medang yang memberontak, didukung Sriwijaya) — peristiwa yang kemudian memicu munculnya Kerajaan Kahuripan di bawah Airlangga (raja Medang-Kahuripan yang memerintah 1019–1049 M).
+Warisan Mataram Kuno yang paling monumental adalah candi-candi megah: **Candi Kalasan** (778 M, Prasasti Kalasan), **Candi Sewu** (kompleks Buddha terbesar di kawasan Prambanan), **Candi Borobudur** (dibangun Wangsa Syailendra, selesai pada masa Samaratungga ± 825 M), **Candi Prambanan** (dibangun Wangsa Sanjaya, mulai ± 850 M, diresmikan 856 M berdasarkan Prasasti Siwagrha), serta ratusan candi kecil di sepanjang lereng Merapi-Merbabu. Era ini ditutup oleh peristiwa *Pralaya* (bencana) tahun 1016 M, ketika pusat kerajaan dihancurkan oleh serangan **Aji Wurawari dari Lwaram** (raja bawahan Medang yang memberontak, didukung Sriwijaya) — peristiwa yang kemudian memicu munculnya Kerajaan Kahuripan di bawah Airlangga (yang memerintah 1019–1042 M, wafat 1049 sebagai pertapa).
 
 ### 1.2 Visual & Kostum
 
 #### Kostum Bangsawan & Raja
 
-Visual pakaian bangsawan Mataram Kuno direkonstruksi dari relief candi-candi periode tersebut — terutama Candi Borobudur, Prambanan, Sewu, dan Kalasan — yang menampilkan figur raja, permaisuri, dan para dewa dengan busana yang sangat berornamen. Raja digambarkan mengenakan **kain panjang (kain jedor / sampur)** yang dililitkan di pinggang dan menjuntai hingga mata kaki, dengan bagian ujung dilipat ke depan membentuk *bebed*. Bagian atas tubuh sering digambarkan **tanpa baju** (dada terbuka) namun dihiasi perhiasan berlimpah: *kalung kundala* (kalung tebal emas), *upavita* (tali suci melintang dada, biasanya untuk golongan brahmana), serta *harata* (sabuk emas berlapis). Kepala raja dihiasi **makuta** — mahkota tinggi berhiaskan daun-daun emas atau diadem bermotif kala-makara.
+Visual pakaian bangsawan Mataram Kuno direkonstruksi dari relief candi-candi periode tersebut — terutama Candi Borobudur, Prambanan, Sewu, dan Kalasan — yang menampilkan figur raja, permaisuri, dan para dewa dengan busana yang sangat berornamen. Raja digambarkan mengenakan **kain panjang (sampur / kain upavita)** yang dililitkan di pinggang dan menjuntai hingga mata kaki, dengan bagian ujung dilipat ke depan membentuk *bebed*. Bagian atas tubuh sering digambarkan **tanpa baju** (dada terbuka) namun dihiasi perhiasan berlimpah: *kalung kundala* (kalung tebal emas), *upavita* (tali suci melintang dada, simbol dwijā 'dua kali lahir' bagi golongan brahmana, ksatria, dan waisya), serta *sabuk emas* berlapis. Kepala raja dihiasi **makuta** — mahkota tinggi berhiaskan daun-daun emas atau diadem bermotif kala-makara.
 
-Permaisuri dan putri bangsawan digambarkan dengan **kain panjang bersabuk** (kadang transparan menunjukkan kain dalam), torso sering telanjang dada namun dihiasi *kalung leher* ganda, *gelang lengan* (keyura), *gelang tangan* (kankana), dan *subang* (anten). Rambut diurai panjang, kadang dijulur berhias bunga, kadang diikat dengan *kondé* (sanggul) berhiaskan *cunduk* (tajuk emas). Pada relief Borobudur, terlihat jelas perhiasan emas berbentuk *kampana* (lonceng kecil) yang dijahit pada kain, menghasilkan suara gemerincing saat berjalan.
+Permaisuri dan putri bangsawan digambarkan dengan **kain panjang bersabuk** (kadang transparan menunjukkan kain dalam), torso sering telanjang dada namun dihiasi *kalung leher* ganda, *gelang lengan* (keyura), *gelang tangan* (kankana), dan *subang* (anten). Rambut diurai panjang, kadang dijulur berhias bunga, kadang diikat dengan *kondé* (sanggul) berhiaskan *cunduk* (tajuk emas). Pada relief Borobudur, terlihat jelas perhiasan emas berbentuk lonceng kecil yang dijahit pada kain, menghasilkan suara gemerincing saat berjalan.
 
 Karakteristik penting yang membedakan dari era lain: **tekstil transparan dan tipis** (sutera katun dari Tiongkok dan India yang sudah masuk lewat pelabuhan), **warna-warna alam** (indigo, kunyit, soga, tarum) — tidak ada warna sintetis cerah. **Bahan pewarna alami** memberi nuansa earth-tone: coklat tanah, merah bata, kuning gambir, hitam jelaga. Untuk drama, ini berarti palet kostum harus cenderung matte, kusam, dengan kilau emas perhiasan sebagai aksen dramatik.
 
 #### Kostum Prajurit
 
-Prajurit Mataram Kuno mengenakan **kawaca** — baju zirah logam (tembaga atau perunggu) berbentuk seperti rompi pendek, kadang dengan lapisan kulit kerbau. Di bawahnya dipakai kain pendek sebatas lutut (kemudian dikenal sebagai *kain bebed*). Kepala dilindungi **kuluk** (topi perunggu bentuk kerucut) atau ikat kepala (*destar*) dari kain batik polos. Senjata utama: **golok panjang** (pedang lurus bilah tunggal), **tombak**, **anak panah beracun**, serta **perisai perunggu bundar** (pelanduk). Prajurit berkuda menggunakan **tali kekang berhias** dan pelana kayu berukir.
+Prajurit Mataram Kuno mengenakan **kawaca** — baju zirah logam (tembaga atau perunggu) berbentuk seperti rompi pendek, kadang dengan lapisan kulit kerbau. Di bawahnya dipakai kain pendek sebatas lutut (kemudian dikenal sebagai *kain bebed*). Kepala dilindungi **topi perunggu bentuk kerucut** atau ikat kepala (*destar*) dari kain katun polos. Senjata utama: **golok panjang** (pedang lurus bilah tunggal, juga disebut *taming*), **tombak**, **anak panah beracun**, serta **perisai perunggu bundar**. Prajurit berkuda menggunakan **tali kekang berhias** dan pelana kayu berukir.
 
 #### Kostum Pendeta & Rakyat
 
-Pendeta Buddha (bhiksu) mengenakan jubah *sanghati* berwarna kunyit atau oranye bata — terinspirasi tradisi India namun diadaptasi dengan kain lokal. Pendeta Hindu (resi) mengenakan kain putih sederhana, rambut disanggul (*jatamakuta*), kadang dengan asesoris *rudraksha* (butir doa). Rakyat jelata memakai kain pendek sebatas lutut (cawat untuk pria, kain penutup dada untuk wanita) dari katun kasar atau kulit kayu. Kain batik baru muncul terbatas pada abad ke-9, dengan motif geometris sederhana (parang, kawung, lereng) yang menjadi simbol status — rakyat dilarang memakai motif tertentu.
+Pendeta Buddha (bhiksu) mengenakan jubah *sanghati* berwarna kunyit atau oranye bata — terinspirasi tradisi India namun diadaptasi dengan kain lokal. Pendeta Hindu Siwa (resi) mengenakan kain putih sederhana, rambut disanggul (*jatamakuta*), kadang dengan asesoris *rudraksha* (butiran tasbih). Rakyat jelata memakai kain pendek sebatas lutut (cawat untuk pria, kain penutup dada untuk wanita) dari katun kasar atau kulit kayu. Kain batik baru muncul terbatas pada abad ke-9, dengan motif geometris sederhana (parang, kawung, lereng) yang menjadi simbol status — motif-motif tertentu terbatas untuk kalangan bangsawan.
 
 ### 1.3 Arsitektur & Setting
 
 Lanskap Mataram Kuno didominasi oleh **kompleks candi sebagai pusat spiritual-politik**. Candi bukan sekedar tempat ibadah, melainkan *mandala* kosmik yang merepresentasikan tata alam semesta. Candi Hindu (Prambanan) berbentuk menara lancip tinggi melambangkan Gunung Meru, dengan relief Ramayana di dinding. Candi Buddha (Borobudur) berbentuk piramida bertingkat — tiga tingkat kamadhatu (dunia nafsu), rupadhatu (dunia form), arupadhatu (dunia tanpa form), dimahkuti stupa lonceng.
 
-Permukiman rakyat dibuat dari **kayu dan bambu** dengan atap ilalang atau genting tanah liat — namun bangunan kayu dari abad ke-8 hampir tidak ada yang tersisa, sehingga rekonstruksi visual harus mengandalkan relief candi yang menggambarkan rumah panggung berdinding anyaman bambu. **Istana raja (dalem)** juga terbuat dari kayu jati berukir, dengan tiang-tiang besar dan tangga masuk berhiaskan patung penjaga (*dvarapala*).
+Permukiman rakyat dibuat dari **kayu dan bambu** dengan atap ilalang atau genting tanah liat — namun bangunan kayu dari abad ke-8 hampir tidak ada yang tersisa, sehingga rekonstruksi visual harus mengandalkan relief candi yang menggambarkan rumah panggung berdinding anyaman bambu. **Istana raja (prasadha/rajasthana)** juga terbuat dari kayu jati berukir, dengan tiang-tiang besar dan tangga masuk berhiaskan patung penjaga (*dvarapala*).
 
 Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi, sungai-sungai kecil dengan perahu lesung, pasar pagi dengan dagang rempah dan kain. Jalan-jalan desa belum beraspal — jalan setapak tanah, jembatan bambu. Suara khas: gemerincing lonceng kecil pada kain wanita bangsawan, denting gong perunggu, kidung mantera Buddha.
 
@@ -74,10 +74,10 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi, sungai-sungai ke
 
 ### 1.5 Tokoh Kunci (Profil Detail untuk Drama)
 
-#### Sanjaya (Raja Pendiri, ± 717–746 M)
-- **Peran**: Pendiri Wangsa Sanjaya, penyatuan tanah Jawa. Bergelar *Rakai Mataram Sang Ratu Sanjaya*.
-- **Latar**: Tokoh mistis-politik yang disebut dalam *Prasasti Canggal* (732 M) mendirkan lingga di Bukit Stirangga (G. Sumbing), tanda kelahiran kerajaan.
-- **Karakter drama**: Karismatik, religius (Hindu Siwa taat), namun pragmatis — menerima koeksistensi dengan Buddha Syailendra. Visual ideal: laki-laki dewasa 40-50 tahun, tubuh atletis, kumis tipis, mata tajam, mengenakan makuta tinggi, kalung kundala emas, kain jedor dengan sabuk harata.
+#### Sanjaya (Raja Pendiri, ± 732–746 M)
+- **Peran**: Pendiri Wangsa Sanjaya, penyatuan tanah Jawa. Bergelar *Rakai Mataram Sang Ratu Sanjaya* (menurut Prasasti Mantyasih 907 M).
+- **Latar**: Tokoh mistis-politik yang disebut dalam *Prasasti Canggal* (732 M) mendirikan lingga di Bukit Sthirengga (Gunung Wukir, Magelang), tanda kelahiran kerajaan. Sanjaya adalah keponakan Raja Sanna (menurut Carita Parahyangan, ia adalah putra Sannaha, saudari Raja Sanna).
+- **Karakter drama**: Karismatik, religius (Hindu Siwa taat), namun pragmatis — menerima koeksistensi dengan Buddha Syailendra. Visual ideal: laki-laki dewasa 40-50 tahun, tubuh atletis, kumis tipis, mata tajam, mengenakan makuta tinggi, kalung kundala emas, kain jedor dengan sabuk emas.
 - **Konflik potensial**: Tegang dengan saudara sepupu dari Wangsa Syailendra, harus menyeimbangkan tradisi Hindu dan Buddha.
 
 #### Panangkaran (Raja Buddha, 746–784 M)
@@ -85,20 +85,20 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi, sungai-sungai ke
 - **Karakter drama**: Lembut, religius, kontemplatif — kontras dengan ayahnya yang lebih militeristik. Mengenakan jubah sanghati kunyit di atas kain jedor.
 - **Visual**: Muda (30-an), wajah tenang, sanggul rambut, tangan memegang tasbih.
 
-#### Balaputradewa (Raja Syailendra, ± 824–860 M)
-- **Peran**: Raja Syailendra terakhir di Jawa, kemudian menjadi penguasa Srivijaya setelah dikalahkan oleh Rakai Pikatan (sanjaya). Catatan sejarah (Prasasti Nalanda) menyebut Balaputradewa sebagai cucu Raja Syailendra yang membangun biara Nalanda di India.
+#### Balaputradewa (Raja Syailendra, ± 832–856 M di Jawa; Maharaja Sriwijaya 860–900 M)
+- **Peran**: Raja Syailendra terakhir di Jawa, kemudian menjadi Maharaja Sriwijaya (860–900 M) setelah dikalahkan oleh Rakai Pikatan (Wangsa Sanjaya). Prasasti Nalanda (860 M) menyebut Balaputradewa sebagai putra Samaragrawira dan cucu Dharanindra (raja Syailendra bergelar *Wirawairimathana* — 'penumpas musuh perwira'). Dalam prasasti tersebut, Balaputradewa memohon kepada Raja Devapala dari Bengal (India) untuk membangun wihara bagi pelajar Buddha di Nalanda.
 - **Karakter drama**: Idealis, visioner — tokoh yang terdesak dari Jawa lalu membangun ulang kekuasaan di Srivijaya. Visual: pria muda 30-an, jubah sanghati saffron, makuta buddhis dengan stupa mini, kalung tasbih.
 
-#### Rakai Pikatan (Raja Sanjaya, 838–850 M)
-- **Peran**: Menikahi Pramodawardhani (putri Samaratungga dari Syailendra), menyatukan dua wangsa, membangun Candi Prambanan dan Roro Jonggrang.
+#### Rakai Pikatan (Raja Wangsa Sanjaya, 838–851 M)
+- **Peran**: Menikahi Pramodawardhani (putri Samaratungga dari Syailendra), menyatukan dua wangsa, membangun Candi Prambanan (Loro Jonggrang) — dibangun mulai ± 850 M dan diresmikan 856 M berdasarkan Prasasti Siwagrha.
 - **Karakter drama**: Politikus ulung, ambisius namun romantik. Menguasai strategi perang dan diplomasi. Visual: pria matang 40-an, garang, makuta tinggi berornamen, kain jedor dengan motif kawung.
 
-#### Pramodawardhani (Permaisuri, 838–862 M)
-- **Peran**: Putri Syailendra yang dinikahkan untuk politik dualitas. Pembangun Candi Plaosan.
-- **Karakter drama**: Cerdas, diplomatik, namun terjepit antara loyalitas ke ayah (Buddha) dan suami (Hindu). Visual: wanita 20-30 tahun, wajah lembut, mahkota candi (kondé besar berhiaskan bunga emas), kain panjang dengan sabuk harata, perhiasan emas berlimpah.
+#### Pramodawardhani (Putri Samaratungga, permaisuri Rakai Pikatan, aktif ± 820–860-an M)
+- **Peran**: Putri mahkota Wangsa Syailendra yang menjadi permaisuri Rakai Pikatan. Disebut dalam Prasasti Kayumwungan (824 M) sebagai putri Maharaja Samaratungga. Pembangun Candi Plaosan bersama suaminya.
+- **Karakter drama**: Cerdas, diplomatik, namun terjepit antara loyalitas ke ayah (Buddha) dan suami (Hindu). Visual: wanita 20-30 tahun, wajah lembut, mahkota candi (kondé besar berhiaskan bunga emas), kain panjang dengan sabuk emas, perhiasan emas berlimpah.
 
 #### Mpu Sindok (Raja Transisi, 929–947 M)
-- **Peran**: Memindahkan pusat Mataram Kuno ke Jawa Timur, pendiri Wangsa Isyana.
+- **Peran**: Raja terakhir Wangsa Sanjaya, memindahkan pusat Mataram Kuno ke Jawa Timur (Medang i Tamwlang) pada 929 M, pendiri Wangsa Isyana.
 - **Karakter drama**: Konservatif, bijaksana — mengambil keputusan sulit meninggalkan tanah leluhur. Visual: pria tua 60-an, jenggot, jubah panjang, makuta sederhana.
 
 ### 1.6 Prompt SD Siap Pakai (Stable Diffusion 1.5)
@@ -107,7 +107,7 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi, sungai-sungai ke
 1. Raja Sanjaya Mataram Kuno, ancient Javanese Hindu king 8th century,
    standing on stone temple steps, wearing golden makuta crown with
    kala-makara ornament, kundala gold necklace, barechested with upavita
-   sacred thread, red batik kain jedor with harata gold belt, holding
+   sacred thread, red naturally-dyed kain jedor with gold belt, holding
    chatra royal umbrella, cinematic lighting, dramatic shadows, relief
    carving background, hyperdetailed, 8k masterpiece.
 
@@ -124,14 +124,14 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi, sungai-sungai ke
    wide shot, hyperdetailed.
 
 4. Kawaca bronze armor, ancient Javanese warrior 8th century,
-   bronze chest plate, red batik bebed kain, kuluk bronze conical
-   helmet, holding tombak spear with carved wooden shaft, round
+   bronze chest plate, red batik bebed kain, bronze conical helmet,
+   holding tombak spear with carved wooden shaft, round
    bronze shield with kala face motif, expressive face, dramatic
    side lighting, dark temple background.
 
 5. Ancient Mataram market scene, 9th century rural Java, vendors
    selling indigo-dyed cotton cloth, spices in woven baskets, bronze
-   gong maker, woman in cawat and kemben, man with keris proto-form,
+   gong maker, woman in cawat and kemben, man with early keris Buda form,
    candi Sewu silhouette in background, earthy tone palette, warm
    afternoon light, hyperdetailed genre painting.
 ```
