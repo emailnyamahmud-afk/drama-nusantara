@@ -165,3 +165,91 @@ Belum terverifikasi (perlu konsultasi ahli):
 - Identifikasi pasti "Bukit Sthirengga" (apakah benar-benar Gunung Wukir atau lokasi lain)
 - Hubungan persis antara Samaratungga, Balaputradewa, dan Pramodawardhani (masih diperdebatkan sejarawan)
 
+
+---
+Task ID: 4 (audit fase 1 Mataram Kuno - REVISI KOMPREHENSIF)
+Agent: Main Agent (Z.ai)
+Task: Revisi mendalam era Mataram Kuno dengan fokus kawasan Dieng, Wonosobo (Rakai Garung), Temanggung, Magelang. Audit phase 1.
+
+Work Log:
+- Web search mendalam (5 batch paralel) untuk:
+  * Prasasti Mantyasih 907 M - daftar raja Mataram Kuno
+  * Rakai Garung (Wonosobo), Rakai Watuhumalang, Rakai Panunggalan/Panaraban
+  * Prasasti Wanua Tengah III 908 M (Temanggung)
+  * Candi Dieng, Prasasti Dieng 808 M
+  * Prasasti Canggal 732 M (Gunung Wukir, Magelang)
+  * Prasasti Kalasan 778 M, Prasasti Kelurak 782 M
+  * Prasasti Karangtengah/Kayumwungan 824 M (Temanggung) - Samaratungga, Pramodawardhani
+  * Prasasti Siwagrha/Wantil 856 M - Rakai Kayuwangi
+  * Prasasti Nalanda 860 M - Balaputradewa
+  * Prasasti Sojomerto - Dapunta Selendra
+  * Prasasti Rukam 907 M (Temanggung)
+  * Prasasti Anjuk Ladang - Mpu Sindok
+  * Prasasti Argapura 863 M, Prasasti Panunggalan 896 M
+  * Prasasti Gunung Wule 861 M (Wonosobo)
+  * Daftar lengkap raja Sanjaya-Balitung (14 raja)
+- Revisi besar-besaran bagian era 1 (Mataram Kuno) dengan struktur baru:
+  * 1.1 Konteks Sejarah Singkat (lebih detail, dengan sumber prasasti)
+  * 1.2 Daftar Lengkap Raja-Raja Mataram Kuno (TABEL BARU - 14 raja)
+  * 1.3 Kawasan Geografis Penting (BARU - Dieng/Wonosobo/Temanggung/Magelang/Sleman-Klaten)
+  * 1.4 Visual & Kostum (diperluas)
+  * 1.5 Arsitektur & Setting
+  * 1.6 Senjata & Properti
+  * 1.7 Tokoh Kunci (Diperluas: Sanjaya, Panangkaran, Panunggalan/Panaraban, Warak, Dyah Gula, Garung, Samaratungga, Pikatan, Pramodawardhani, Balaputradewa, Kayuwangi, Watuhumalang, Balitung, Daksa, Mpu Sindok, Airlangga - total 16 tokoh)
+  * 1.8 Prasasti-Prasasti Penting (TABEL BARU - 18 prasasti penting dengan tahun, lokasi, isi)
+  * 1.9 Prompt SD Siap Pakai (10 prompt, diperluas dari 5)
+
+- Tokoh baru yang ditambahkan:
+  * Rakai Panunggalan/Panaraban (784-803 M) - Panaraban=Parakan, Temanggung
+  * Rakai Warak Dyah Manara (803-827 M)
+  * Dyah Gula (827-829 M) - raja singkat tanpa gelar Rakai
+  * Rakai Garung (828-847 M) - Garung, Wonosobo (TOKOH KUNCI YANG DIMINTA USER)
+  * Samaratungga (± 802-842 M) - Syailendra, pembangun Borobudur
+  * Rakai Kayuwangi/Dyah Lokapala (855-885 M) - Prambanan
+  * Rakai Watuhumalang/Mpu Teguh (± 885-898 M) - TOKOH KUNCI YANG DIMINTA USER
+  * Daksa/Rakai Gurunwangi (910-919 M)
+  * Airlangga (1019-1042 M, wafat 1049)
+
+- Prasasti baru yang ditambahkan ke tabel:
+  * Prasasti Sojomerto - Dapunta Selendra, Pekalongan
+  * Prasasti Manjusrigrha 792 M - Candi Sewu
+  * Prasasti Dieng 808 M - aksara Jawa Kuno tertua
+  * Prasasti Gunung Wule 861 M - Wonosobo
+  * Prasasti Argapura 863 M - identifikasi Rakai Pikatan = Mpu Manuku
+  * Prasasti Panunggalan 896 M - Watuhumalang sebagai haji
+  * Prasasti Poh Galuh - Daksa
+  * Prasasti Calcutta/Pucangan 1042 M - silsilah Mpu Sindok-Airlangga
+
+- Kawasan baru yang ditambahkan:
+  * Dieng (Banjarnegara-Wonosobo) - kawasan sakral Hindu Siwa tertua, Prasasti 808 M
+  * Wonosobo (Kecamatan Garung) - wilayah asal Rakai Garung
+  * Temanggung - konsentrasi prasasti terbanyak (Mantyasih, Wanua Tengah III, Rukam, Karangtengah)
+  * Magelang - pusat awal (Candi Gunung Wukir, Borobudur, Mantyasih)
+  * Sleman-Klaten - kawasan Prambanan
+
+- Insight penting yang dikoreksi/tambahan:
+  * Sanjaya lahir ± 732 M (bukan 717 M) - berdasarkan Prasasti Canggal
+  * Sanjaya keponakan Raja Sanna (putra Sannaha) - berdasarkan Carita Parahyangan
+  * Balitung memerintah 898-910 M (bukan 899-911 M)
+  * Prasasti Mantyasih ditemukan di Parakan, Temanggung (bukan Magelang Utara)
+  * Rakai Garung identik dengan Garung, Wonosobo (nama kecamatan masih lestari)
+  * Balaputradewa adalah cucu Dharanindra (bukan cucu raja Syailendra umum)
+  * Peristiwa Bubat: tewasnya Raja Sunda-Pajajaran Linggabuana dan Dyah Pitaloka
+  * Rakai Pikatan = Mpu Manuku = Rakai Mamrati (nama yang sama, tiga gelar berbeda)
+  * Candi Prambanan diresmikan 856 M oleh Rakai Kayuwangi (bukan Rakai Pikatan)
+  * Mpu Sindok adalah raja terakhir Wangsa Sanjaya di Jawa Tengah
+
+Stage Summary:
+- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- Era 1 (Mataram Kuno) sudah direvisi komprehensif dengan 9 sub-bagian (1.1-1.9)
+- Total dokumen: 1.251 baris, ~14.500 kata
+- Era 2-10 masih dalam versi sebelumnya (belum diaudit - menunggu user instruction lanjutan)
+- Sumber primer yang digunakan: 18 prasasti (Canggal, Mantyasih, Wanua Tengah III, Siwagrha, Nalanda, Karangtengah, Kalasan, Kelurak, Anjuk Ladang, Rukam, Gunung Wule, Argapura, Panunggalan, Sojomerto, Manjusrigrha, Dieng, Poh Galuh, Calcutta)
+- Fokus kawasan: Dieng, Wonosobo (Garung), Temanggung, Magelang, Sleman-Klaten
+- 16 tokoh historis lengkap dengan tahun pemerintahan dan sumber prasasti
+- 10 prompt SD siap pakai (diperluas dari 5)
+
+Catatan teknis:
+- Saat meng-overwrite file dengan Write, era 2-10 sempat hilang
+- Saya pulihkan era 2-10 dengan menambahkannya kembali via bash append
+- Era 2-10 masih dalam versi awal (belum diaudit seperti era 1)
