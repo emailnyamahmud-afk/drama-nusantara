@@ -526,3 +526,113 @@ Stage Summary:
   * Art Director (wardrobe + visual palette)
   * Prompt engineer (prompt_library untuk T2I)
 - Total: 1.559 baris, 9.091 kata, 10 top-level keys
+
+---
+Task ID: 8 (audit phase 2 Singasari + master YAML)
+Agent: Main Agent (Z.ai)
+Task: Audit fase 2 Singasari dengan cross-check ke sumber primer + buat master YAML
+
+Work Log:
+- Membaca ulang fase 2 Singasari di riset-drama-nusantara.md (baris 385-485)
+- Web search 4 batch untuk verifikasi:
+  * Pararaton (Kitab Raja-Raja, abad 16) - sumber utama Singasari
+  * Negarakretagama pupuh 40-44 - silsilah raja Singasari
+  * Prasasti Mula Malurung (1255 M) - Wisnuwardhana & Bhatara Parameswara
+  * Prasasti Kudadu (1294 M) - Raden Wijaya & masyarakat Trawas
+  * Tohjaya (raja ke-3 yang HILANG dari MD awal)
+  * Mahisa Wonga Teleng (leluhur Majapahit)
+  * Jayakatwang (pemberontak)
+  * Raden Wijaya (pendiri Majapahit)
+  * Pertempuran Ganter 1222
+  * Ekspedisi Pamalayu 1275-1286
+
+KESALAHAN & KEKURANGAN YANG DITEMUKAN DI MD:
+
+1. **Tohjaya HILANG dari MD awal**
+   - Raja ke-3 Singasari (1248 M, singkat)
+   - Putra Ken Arok & Ken Umang (selir)
+   - Hanya disebut di Pararaton, TIDAK di Negarakretagama
+   - KOREKSI: Tambah profil Tohjaya di MD
+
+2. **Mahisa Wonga Teleng HILANG dari MD awal**
+   - Putra sulung Ken Arok & Ken Dedes
+   - Raja Kadiri bawahan Tumapel
+   - LELUHUR RAJA-RAJA MAJAPAHIT lewat Narasinghamurti → Dyah Lembu Tal → Raden Wijaya
+   - Disebut sebagai "Bhatara Parameswara" di Prasasti Mula Malurung (1255 M)
+   - KOREKSI: Tambah profil Mahisa Wonga Teleng
+
+3. **Wisnuwardhana "raja ketiga" — SALAH**
+   - SEBENARNYA raja ke-4 (kalau hitung Tohjaya)
+   - Atau ke-5 kalau hitung Mahisa Wonga Teleng sebagai raja bawahan
+   - KOREKSI: Ganti menjadi "raja ke-4 Singasari"
+
+4. **Jayakatwang HILANG dari MD awal**
+   - Bupati Kadiri yang memberontak 1292 M
+   - Membunuh Kertanegara saat upacara Tantra
+   - Mewakili dendam Kediri atas kekalahan 1222
+   - KOREKSI: Tambah profil Jayakatwang
+
+5. **Raden Wijaya HILANG dari MD awal**
+   - Menantu Kertanegara, pendiri Majapahit (1293 M)
+   - Berlindung di Kudadu (Trawas) saat Jayakatwang menyerang
+   - KOREKSI: Tambah profil Raden Wijaya
+
+6. **Prasasti Mula Malurung (1255 M) HILANG dari MD awal**
+   - Dikeluarkan oleh Kertanegara sebagai yuwaraja
+   - Menyebut Bhatara Parameswara (Mahisa Wonga Teleng)
+   - Sumber primer penting untuk silsilah Singasari-Majapahit
+   - KOREKSI: Tambah referensi
+
+7. **Prasasti Kudadu (1294 M) HILANG dari MD awal**
+   - Dikeluarkan Raden Wijaya untuk mengharga masyarakat Trawas
+   - Sumber untuk kisah pelarian Raden Wijaya
+   - KOREKSI: Tambah referensi
+
+8. **Prasasti Maribong (1248 M) HILANG dari MD awal**
+   - Sumber untuk gelar lengkap Wisnuwardhana
+   - KOREKSI: Tambah referensi
+
+PERBEDAAN PARARATON vs NEGARAKRETAGAMA:
+- Pararaton mencatat kudeta dan pembunuhan (versi mitologis-naratif)
+- Negarakretagama menyajikan versi "halus" (panegirik resmi Majapahit)
+- Tohjaya TIDAK disebut di Negarakretagama (dianggap tidak sah)
+- Negarakretagama menyebut Anusapati sebagai putra Rangga Rajasa (bukan Tunggul Ametung)
+
+KOREKSI MD YANG DILAKUKAN:
+- Tambah sub-bagian 2.1.1 Catatan Sumber Primer
+- Tambah sub-bagian 2.2 Daftar Lengkap Raja-Raja Singasari (5 raja)
+- Tambah profil Tohjaya, Mahisa Wonga Teleng, Narasinghamurti, Jayakatwang, Raden Wijaya
+- Tambah referensi prasasti: Mula Malurung, Maribong, Kudadu
+- Koreksi Wisnuwardhana dari "raja ketiga" menjadi "raja ke-4"
+- Tambah info detail Kertanegara: Ekspedisi Pamalayu 1275-1286, menolak upeti Mongol (potong telinga utusan Meng Qi 1289)
+
+FILE YAML MASTER PHASE 2:
+- File: /home/z/my-project/download/phase-2-singasari-master.yaml
+- Struktur: 9 top-level keys (sama seperti phase 1)
+- Konten:
+  * meta - info era, sumber primer, catatan penting
+  * narrative - 5 akta drama Singasari
+  * kings_list - 5 raja + 4 parallel figures (Mahisa Wonga Teleng, Narasinghamurti, Jayakatwang, Raden Wijaya)
+  * characters - 9 tokoh dengan prompt T2I detail (Ken Arok, Ken Dedes, Anusapati, Tohjaya, Wisnuwardhana, Mahisa Wonga Teleng, Kertanegara, Jayakatwang, Raden Wijaya)
+  * locations - 5 lokasi (Kutaraja-Singasari, Kediri-Daha, Kudadu-Trawas, Candi Jago, Candi Kidal)
+  * wardrobe - 5 jenis busana (royal_formal, queen_formal, tantrayana_priest, hindu_priest, warrior)
+  * artifacts - senjata (Mpu Gandring dll), regalia (wajra, ghanta, kapala), jewelry
+  * prompt_library - 4 kategori: character_portraits, location_scenes, historical_moments, daily_life
+  * production_notes - color palette, texture, sound design, cultural authenticity
+
+SUMBER PRIMER YANG DIVERIFIKASI:
+1. Pararaton (Kitab Raja-Raja, abad 16) - sumber utama naratif Singasari ✓
+2. Negarakretagama pupuh 40-44 (Mpu Prapanca, 1365 M) - silsilah resmi ✓
+3. Prasasti Mula Malurung (1255 M) - Wisnuwardhana & Bhatara Parameswara ✓
+4. Prasasti Maribong (1248 M) - gelar Wisnuwardhana ✓
+5. Prasasti Kudadu (1294 M) - Raden Wijaya & masyarakat Trawas ✓
+6. Kidung Harsawijaya - sumber sekunder naratif ✓
+7. Kidung Panji Wijayakrama - sumber sekunder ✓
+
+Stage Summary:
+- File MD: /home/z/my-project/download/riset-drama-nusantara.md (fase 2 diperbaiki)
+- File YAML: /home/z/my-project/download/phase-2-singasari-master.yaml (1.224 baris, 7.317 kata)
+- Format: YAML valid, 9 top-level keys
+- Tokoh baru: Tohjaya, Mahisa Wonga Teleng, Narasinghamurti, Jayakatwang, Raden Wijaya
+- Prasasti baru: Mula Malurung, Maribong, Kudadu
+- Total koreksi: 8 koreksi utama

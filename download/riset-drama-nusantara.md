@@ -386,13 +386,40 @@ Berikut daftar prasasti-prasasti penting era Mataram Kuno yang menjadi sumber ut
 
 ### 2.1 Konteks Sejarah Singkat
 
-Kerajaan Singasari (juga disebut Tumapel) berdiri di Jawa Timur antara tahun 1222 hingga 1292 Masehi, didirikan oleh **Ken Arok** setelah mengalahkan Kertajaya (Raja Kediri terakhir) dalam Pertempuran Ganter. Ken Arok mendirikan **Wangsa Rajasa** dan mengangkat dirinya sebagai *Sri Ranggah Rajasa Sang Girinathaputra*. Singasari adalah kerajaan transisional antara periode Kediri (Hindu-Buddha klasik) dan Majapahit (puncak peradaban Jawa kuno).
+Kerajaan Singasari (juga disebut Tumapel) berdiri di Jawa Timur antara tahun 1222 hingga 1292 Masehi, didirikan oleh **Ken Arok** setelah mengalahkan Kertajaya (Raja Kediri terakhir) dalam Pertempuran Ganter (1222 M). Ken Arok mendirikan **Wangsa Rajasa** dan mengangkat dirinya sebagai *Sri Ranggah Rajasa Sang Girinathaputra*. Singasari adalah kerajaan transisional antara periode Kediri (Hindu-Buddha klasik) dan Majapahit (puncak peradaban Jawa kuno).
 
-Singasari mencapai puncak kejayaannya di bawah **Kertanegara** (1268–1292 M), raja terakhir yang bergelar *Maharadiraja Kertanegara Wikrama Dharmottungadewa*. Kertanegara adalah raja visioner yang melakukan ekspansi ke luar Jawa — mengirim ekspedisi Pamalayu ke Sumatra (1275 M), menaklukkan Bali (1284 M), dan menolak tuntutan Kubilai Khan dari dinasti Mongol-Yuan yang meminta upeti. Penolakan ini memicu kemarahan Khan, yang kemudian mengirim ekspedisi hukuman ke Jawa pada 1293 M — namun ekspedisi ini justru dimanfaatkan oleh Raden Wijaya (menantu Kertanegara) untuk mendirikan Majapahit.
+Singasari mencapai puncak kejayaannya di bawah **Kertanegara** (1268–1292 M), raja terakhir yang bergelar *Maharadiraja Kertanegara Wikrama Dharmottungadewa*. Kertanegara adalah raja visioner yang melakukan ekspansi ke luar Jawa — mengirim ekspedisi Pamalayu ke Sumatra (1275–1286 M), menaklukkan Bali (1284 M), dan menolak tuntutan Kubilai Khan dari dinasti Mongol-Yuan yang meminta upeti. Penolakan ini memicu kemarahan Khan, yang kemudian mengirim ekspedisi hukuman ke Jawa pada 1293 M — namun ekspedisi ini justru dimanfaatkan oleh Raden Wijaya (menantu Kertanegara) untuk mendirikan Majapahit.
 
-Kerajaan berakhir ketika Kertanegara dibunuh oleh Jayakatwang (bupati Kediri yang memberontak) pada 1292 M dalam serangan mendadak ke istana. Cerita ini, bersama kisah tragis Ken Arok yang membunuh Tunggul Ametung dan menikahi Ken Dedes, menjadi salah satu drama politik paling ikonik dalam sejarah Nusantara — sebagaimana ditulis dalam *Pararaton* dan *Kidung Harsawijaya*.
+Kerajaan berakhir ketika Kertanegara dibunuh oleh **Jayakatwang** (bupati Kediri yang memberontak) pada 1292 M dalam serangan mendadak ke istana saat upacara Tantra. Cerita Singasari — bersama kisah tragis Ken Arok yang membunuh Tunggul Ametung dan menikahi Ken Dedes, kisah keris Mpu Gandring, dan balas dendam Anusapati — menjadi salah satu drama politik paling ikonik dalam sejarah Nusantara.
 
-### 2.2 Visual & Kostum
+### 2.1.1 Catatan Sumber Primer
+
+Berbeda dengan era Mataram Kuno (yang sumber utamanya prasasti + Carita Parahyangan + Berita Cina), era Singasari memiliki dua sumber sastra utama yang penting:
+
+1. **Pararaton** (Kitab Raja-Raja, abad 16, ditulis di Bali) — sumber utama untuk cerita Ken Arok, Ken Dedes, Anusapati, Tohjaya, Wisnuwardhana, Kertanegara, dan Jayakatwang. Bersifat mitologis-naratif.
+2. **Negarakretagama** (karya Mpu Prapanca, 1365 M) pupuh 40–44 — silsilah raja-raja Singasari-Majapahit. Lebih resmi dan panegirik.
+3. **Prasasti-prasasti**: Mula Malurung (1255 M), Kudadu (1294 M), Maribong (1248 M), dll.
+4. **Kidung Harsawijaya** dan **Kidung Panji Wijayakrama** — sumber sekunder.
+
+**Perbedaan penting Pararaton vs Negarakretagama**: Pararaton mencatat kudeta dan pembunuhan (Ken Arok dibunuh Anusapati, dll). Negarakretagama menyajikan versi "halus" — Anusapati sebagai putra Rangga Rajasa (bukan Tunggul Ametung), tidak menyebutkan kejahatan. Tohjaya TIDAK disebut di Negarakretagama (mungkin karena dianggap penguasa tidak sah).
+
+### 2.2 Daftar Lengkap Raja-Raja Singasari
+
+| # | Nama Raja & Gelar | Periode | Catatan | Sumber Primer |
+|---|---|---|---|---|
+| 1 | **Ken Arok / Sri Ranggah Rajasa Bhatara Sang Amurwabhumi** | 1222–1227 M | Pendiri Wangsa Rajasa. Mantan pencuri-preman. Dibunuh Anusapati. | Pararaton, Negarakretagama pupuh 40-41 |
+| 2 | **Anusapati / Sri Maharaja Anusapati** | 1227–1248 M | Anak biologis Tunggul Ametung & Ken Dedes, dibesarkan sebagai anak Ken Arok. Membunuh Ken Arok sebagai balas dendam. | Pararaton, Negarakretagama pupuh 42 |
+| 3 | **Panji Tohjaya** | 1248 M (~beberapa bulan) | Putra Ken Arok & Ken Umang (selir). Naik takhta setelah kudeta melawan Anusapati. Tidak disebut di Negarakretagama (dianggap tidak sah). | Pararaton saja |
+| 4 | **Wisnuwardhana / Ranggawuni / Nararya Seminingrat** (Sri Jayawisnuwardhana) | 1248–1268 M | Putra Anusapati (versi Pararaton) atau cucu Ken Arok (versi lain). Naik takhta setelah Tohjaya. Satu-satunya raja Singasari yang meninggal secara wajar. | Prasasti Maribong 1248 M, Prasasti Mula Malurung 1255 M |
+| 5 | **Kertanegara / Sri Maharadiraja Kertanegara Wikrama Dharmottungadewa** | 1268–1292 M | Putra Wisnuwardhana & Waning Hyun (cucu Mahisa Wonga Teleng). Penganut Buddha Tantrayana. Ekspedisi Pamalayu 1275-1286. Dibunuh Jayakatwang 1292. | Pararaton, Negarakretagama pupuh 43-44, Prasasti Kudadu 1294 M |
+
+**Tokoh penting paralel (bukan raja Tumapel tapi raja Kadiri bawahan):**
+- **Mahisa Wonga Teleng / Bhatara Parameswara** (± 1230) — putra sulung Ken Arok & Ken Dedes. Menjadi raja Kadiri bawahan Tumapel. Menurut Prasasti Mula Malurung (1255 M), ia adalah **leluhur raja-raja Majapahit** lewat putranya Narasinghamurti (Mahisa Campaka) → cucu Dyah Lembu Tal → cicit Raden Wijaya (pendiri Majapahit).
+- **Narasinghamurti / Mahisa Campaka** — putra Mahisa Wonga Teleng. Sepupu sekaligus ipar Wisnuwardhana. Kakek Raden Wijaya.
+- **Jayakatwang** — bupati Kadiri yang memberontak 1292 M, membunuh Kertanegara. Mewakili dendam Kediri atas kekalahan 1222 oleh Ken Arok.
+- **Raden Wijaya / Nararya Sanggramawijaya** — menantu Kertanegara (suami Tribhuwaneswari). Pendiri Majapahit (1293 M).
+
+### 2.3 Visual & Kostum
 
 #### Kostum Bangsawan & Raja
 
@@ -440,13 +467,44 @@ Ibu kota Singasari berada di **Kutaraja** (dekat Malang modern), dengan istana k
 - **Peran**: Raja kedua Singasari, anak biologis Tunggul Ametung & Ken Dedes, dibesarkan sebagai anak Ken Arok. Membunuh Ken Arok sebagai balas dendam.
 - **Karakter drama**: Tragis — diburu rasa bersalah, hidup dalam bayang-bayang kematian ayah angkatnya. Visual: pria muda 25-35 tahun, ekspresi murung, kain jedor biru gelap, keris Mpu Gandring terselip.
 
-#### Wisnuwardhana (1248–1268 M)
-- **Peran**: Raja ketiga, putra Ken Arok & Ken Dedes. Memerintah relatif damai, membangun Candi Jago untuk ayahnya.
-- **Karakter drama**: Bijak, ahli diplomasi — mengkonsolidasikan kerajaan setelah era berdarah. Visual: pria matang 40-an, tenang, makuta sederhana, kain jedor dengan motif kawung.
+#### Tohjaya (1248 M, ~beberapa bulan)
+- **Peran**: Raja ke-3 (atau ke-4 kalau hitung Mahisa Wonga Teleng sebagai raja Kadiri bawahan) Singasari. Putra Ken Arok & Ken Umang (selir). Naik takhta setelah kudeta melawan Anusapati.
+- **Latar**: Tidak disebut di Negarakretagama (dianggap tidak sah oleh pujangga Majapahit). Hanya disebut di Pararaton. Memerintah singkat (~beberapa bulan hingga setahun), kemudian digantikan oleh Wisnuwardhana.
+- **Karakter drama**: Ambisius, dendam, naik lewat kudeta. Visual: pria matang 30-40 tahun, garang, kain jedor gelap, keris terselip, ekspresi kejam.
+- **Konflik potensial**: Kudeta melawan Anusapati; persaingan dengan cabang keluarga Ken Dedes.
+
+#### Wisnuwardhana / Ranggawuni / Nararya Seminingrat (1248–1268 M)
+- **Peran**: Raja ke-4 Singasari. Naik takhta setelah Tohjaya. Satu-satunya raja Singasari yang meninggal secara wajar (1268 atau 1270/1272 menurut sumber berbeda).
+- **Latar**: Nama asli **Seminingrat**, bergelar lengkap *Śrī Jayawisnuwarddhana Sang Mapāñji Seminingrat Śrī Sakala Kalana Kulama Dhumardana Kamalekṣana* (menurut Prasasti Maribong 1248 M). Menurut Pararaton, ia adalah putra Anusapati (anak Tunggul Ametung-Ken Dedes). Menurut Negarakretagama, ia keturunan Rangga Rajasa (versi halus). Istrinya **Waning Hyun** — putri Mahisa Wonga Teleng (Bhatara Parameswara). Dari pernikahan ini lahir **Kertanegara**.
+- **Karakter drama**: Bijak, ahli diplomasi — mengonsolidasikan kerajaan setelah era berdarah. Menyatukan kembali Kadiri dengan Tumapel setelah kematian Tohjaya. Memerintah bersama sepupunya Mahisa Cempaka (Narasinghamurti). Visual: pria matang 40-an, tenang, makuta sederhana, kain jedor dengan motif kawung.
+- **Sumber primer**: Prasasti Maribong (1248 M), Prasasti Mula Malurung (1255 M).
+
+#### Mahisa Wonga Teleng / Bhatara Parameswara (± 1230)
+- **Peran**: Raja Kadiri bawahan Tumapel. Putra sulung Ken Arok & Ken Dedes. **Leluhur raja-raja Majapahit**.
+- **Latar**: Tokoh hanya disebut di Pararaton. Dalam **Prasasti Mula Malurung (1255 M)**, dikeluarkan oleh Kertanegara sebagai yuwaraja, menyebut **Bhatara Parameswara** sebagai raja Kadiri yang diduga identik dengan Mahisa Wonga Teleng (Slamet Muljana). Menjadi *adiguru* yang dihormati di tanah Jawa. Memiliki putri **Waning Hyun** (menikah dengan Wisnuwardhana, ibu Kertanegara) dan putra **Narasinghamurti / Mahisa Campaka** (kakek Raden Wijaya, pendiri Majapahit).
+- **Karakter drama**: Cendekia, religius, adiguru. Tokoh yang menghubungkan Singasari dengan Majapahit. Visual: pria matang 40-50 tahun, jubah putih dengan atribut Siwa-Buddha, makuta sederhana.
+- **Konflik potensial**: Hubungan dengan ayah Ken Arok yang dibunuh Anusapati (adik tirinya); persaingan dengan Anusapati.
+
+#### Narasinghamurti / Mahisa Campaka
+- **Peran**: Putra Mahisa Wonga Teleng. Sepupu sekaligus ipar Wisnuwardhana. **Kakek Raden Wijaya** (pendiri Majapahit).
+- **Latar**: Memerintah bersama Wisnuwardhana sebagai patih. Anak perempuannya menikah dengan putra mahkota, melahirkan Raden Wijaya.
+- **Karakter drama**: Loyal, ahli militer, pendukung Wisnuwardhana. Visual: pria matang 40-50 tahun, jubah prajurit-bangsawan.
 
 #### Kertanegara (1268–1292 M)
-- **Peran**: Raja terakhir dan terbesar Singasari. Visioner ekspansif, penganut Buddha Tantrayana. Dibunuh Jayakatwang.
-- **Karakter drama**: Karismatik, ambisius, religius esoterik — menggabungkan politik militer dengan spiritualitas Vajrayana. Sering melakukan upacara *purusa-damana* (penaklukan diri). Visual: pria matang 50-an, jenggot, makuta tinggi dengan stupa mini, jubah lima warna di atas kain jedor, memegang ghanta-wajra.
+- **Peran**: Raja ke-5 (terakhir) dan terbesar Singasari. Visioner ekspansif, penganut Buddha Tantrayana. Dibunuh Jayakatwang.
+- **Latar**: Putra Wisnuwardhana & Waning Hyun (cucu Mahisa Wonga Teleng). Jadi ia keturunan dua garis Ken Arok. Naik takhta 1268 M. Bergelar *Sri Maharadiraja Kertanegara Wikrama Dharmottungadewa*. Mengirim **Ekspedisi Pamalayu** ke Sumatra (1275–1286 M) — tujuan: menguasai Kerajaan Melayu/Dharmasraya. Menaklukkan Bali (1284 M). Menolak upeti Mongol-Yuan (Kubilai Khan) — memotong telinga utusan Meng Qi (1289). Dibunuh Jayakatwang 1292 M saat upacara Tantra.
+- **Karakter drama**: Karismatik, ambisius, religius esoterik — menggabungkan politik militer dengan spiritualitas Vajrayana. Sering melakukan upacara *purusa-damana* (penaklukan diri) dan *hebahula* (minum tuak ritual). Visual: pria matang 50-an, jenggot, makuta tinggi dengan stupa mini, jubah lima warna di atas kain jedor, memegang ghanta-wajra.
+- **Konflik potensial**: Tekanan Mongol-Yuan dari luar; pemberontakan Jayakatwang dari dalam; ketidakpuasan menantunya Raden Wijaya.
+
+#### Jayakatwang (pemberontak, 1292 M)
+- **Peran**: Bupati Kadiri yang memberontak terhadap Singasari, membunuh Kertanegara 1292 M.
+- **Latar**: Mewakili dendam Kediri atas kekalahan 1222 oleh Ken Arok. Memanfaatkan kekosongan militer Singasari (pasukan sedang di Sumatra untuk Pamalayu). Menyerang istana Tumapel saat Kertanegara sedang upacara Tantra. Membunuh Kertanegara dan pejabat lainnya. Memerintah singkat (1292-1293) sebelum dikalahkan Raden Wijaya dengan bantuan Mongol.
+- **Karakter drama**: Antagonis karismatik, dendam, ambisius. Visual: pria matang 50-an, garang, jubah gelap Kadiri, keris berpamor hitam.
+
+#### Raden Wijaya / Nararya Sanggramawijaya (sebelum naik takhta Majapahit)
+- **Peran**: Menantu Kertanegara (suami Tribhuwaneswari). Pendiri Majapahit (1293 M).
+- **Latar**: Cicit Mahisa Wonga Teleng lewat ayahnya ( Dyah Lembu Tal adalah putri Narasinghamurti ). Berlindung di Kudadu (Desa Kemloko, Trawas, Mojokerto) saat Jayakatwang menyerang — dibantu oleh penduduk lokal. **Prasasti Kudadu (1294 M)** dikeluarkan Raden Wijaya untuk mengharga masyarakat Trawas. Memanfaatkan ekspedisi Mongol-Yuan (1293) untuk mengalahkan Jayakatwang, lalu berbalik menyerang sekutu Mongolnya sendiri — mendirikan Majapahit.
+- **Karakter drama**: Cerdas licik, dingin dalam kalkulasi, ahli strategi. Visual: pria muda 30-an, jubah prajurit-bangsawan, makuta sederhana, keris terselip.
 
 ### 2.6 Prompt SD Siap Pakai
 
