@@ -486,3 +486,43 @@ Tambahan referensi historiografi yang dicantumkan:
 - Soemarsaid Moertono (1968) State and Statecraft in Old Java
 - Bambang Sumadio (ed.) 1977 Sejarah Nasional Indonesia II
 - Kusen (1994) "Raja-raja Mataram Kuna dari Sanjaya Sampai Balitung" di BRIN
+
+---
+Task ID: 7 (master YAML phase 1)
+Agent: Main Agent (Z.ai)
+Task: Konversi fase 1 ke format YAML komprehensif yang berfungsi sebagai master reference untuk T2I prompt generation
+
+Work Log:
+- Membaca ulang fase 1 (Mataram Kuno) di riset-drama-nusantara.md
+- Membuat file baru: phase-1-mataram-kuno-master.yaml (1.559 baris, 9.091 kata)
+- Struktur YAML dengan 10 top-level keys:
+  1. meta - info era, sumber primer, catatan penting
+  2. narrative - narasi singkat 5 akta untuk drama
+  3. kings_list - daftar 17 raja Mataram Kuno + parallel Syailendra
+  4. characters - 8 tokoh kunci dengan prompt karakter+wardrobe detail
+  5. locations - 6 kawasan geografis dengan prompt lokasi
+  6. wardrobe - 6 jenis busana dengan elemen detail & prompt
+  7. artifacts - senjata, regalia, perhiasan
+  8. prompt_library - library T2I prompt (character portraits, location scenes, historical moments, daily life)
+  9. geographical_regions - 6 kawasan dengan info lengkap
+  10. production_notes - color palette, texture, sound design, cultural authenticity
+- Verifikasi YAML valid dengan Python yaml parser
+
+Konten yang ditambahkan:
+- 8 tokoh kunci dengan prompt T2I detail (character_portrait + wardrobe_detail):
+  * Sanjaya, Rakai Panangkaran, Rakai Garung, Rakai Pikatan, Pramodawardhani,
+    Balaputradewa, Balitung, Mpu Sindok, Airlangga, Samaratungga (10 tokoh)
+- 6 kawasan dengan prompt lokasi (Dieng, Wonosobo, Temanggung, Magelang, Prambanan, Jawa Timur)
+- 6 jenis busana dengan prompt (royal_formal, queen_formal, warrior, buddhist_priest, hindu_priest, commoner)
+- 4 kategori prompt library: character_portraits, location_scenes, historical_moments, daily_life
+- Production notes: color palette, texture, sound design, cultural authenticity
+
+Stage Summary:
+- File output: /home/z/my-project/download/phase-1-mataram-kuno-master.yaml
+- File pendamping: /home/z/my-project/download/riset-drama-nusantara.md (MD riset lengkap)
+- Format: YAML valid, dapat di-parse oleh Python/Node.js
+- Dapat dipakai sebagai master reference untuk:
+  * Penulis naskah (narrative + characters)
+  * Art Director (wardrobe + visual palette)
+  * Prompt engineer (prompt_library untuk T2I)
+- Total: 1.559 baris, 9.091 kata, 10 top-level keys

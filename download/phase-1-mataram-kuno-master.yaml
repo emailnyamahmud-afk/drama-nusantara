@@ -1,0 +1,1559 @@
+# =============================================================================
+# MASTER PHASE 1 — ERA MATARAM KUNO / MEDANG (732–1016 M)
+# =============================================================================
+# Dokumen komprehensif: riset sejarah + master reference untuk T2I prompt
+# Format YAML untuk struktur data yang dapat dipakai oleh:
+#   - Penulis naskah drama (narrative + characters)
+#   - Artist/Art Director (wardrobe + visual)
+#   - AI prompt engineer (prompt library untuk Stable Diffusion)
+#
+# Status: AUDIT 3x dengan cross-check ke sumber primer
+# Tanggal: 17 Oktober 2026
+# Versi: 3.0 (master YAML)
+# =============================================================================
+
+meta:
+  era: "Mataram Kuno / Medang"
+  periode: "732–1016 M"
+  lokasi_geografis: "Jawa Tengah (Magelang, Temanggung, Wonosobo, Banjarnegara, Sleman, Klaten) → Jawa Timur (Jombang) pasca-929 M"
+  dinasti_dominan:
+    - wangsa: "Sanjaya"
+      agama: "Hindu Siwa"
+      pendiri: "Sanjaya (732 M)"
+    - wangsa: "Syailendra"
+      agama: "Buddha Mahayana"
+      pendiri: "Dapunta Selendra (± awal abad 8)"
+    - wangsa: "Isyana"
+      agama: "Hindu Siwa-Buddha sinkretis"
+      pendiri: "Mpu Sindok (929 M, pindah ke Jawa Timur)"
+  sumber_primer:
+    - "Prasasti Canggal (732 M)"
+    - "Prasasti Kalasan (778 M)"
+    - "Prasasti Kelurak (782 M)"
+    - "Prasasti Manjusrigrha (792 M)"
+    - "Prasasti Dieng (808 M)"
+    - "Prasasti Karangtengah/Kayumwungan (824 M)"
+    - "Prasasti Gunung Wule (861 M)"
+    - "Prasasti Argapura (863 M)"
+    - "Prasasti Nalanda (860 M)"
+    - "Prasasti Siwagrha/Wantil (856 M)"
+    - "Prasasti Panunggalan (896 M)"
+    - "Prasasti Mantyasih (907 M)"
+    - "Prasasti Rukam (907 M)"
+    - "Prasasti Wanua Tengah III (908 M)"
+    - "Prasasti Poh Galuh (910-an M)"
+    - "Prasasti Anjuk Ladang (937 M)"
+    - "Prasasti Calcutta/Pucangan (± 1041 M)"
+    - "Carita Parahyangan (naskah Sunda abad 16)"
+    - "Berita Cina Dinasti Tang (untuk Kalingga/Ratu Shima)"
+  catatan_penting: >
+    Negarakretagama (1365 M) dan Pararaton (abad 16) TIDAK membahas era
+    Mataram Kuno secara langsung — kedua kitab hanya membahas Singasari-Majapahit.
+    Sumber primer era Mataram Kuno adalah prasasti + Carita Parahyangan + Berita Cina.
+
+# =============================================================================
+# NARASI SINGKAT — Storytelling untuk Drama
+# =============================================================================
+narrative:
+  era_overview: >
+    Di kaki Gunung Merapi, di lembah Kedu yang subur, sebuah peradaban lahir dari
+    asap dupa Siwa dan lonceng Buddha. Mataram Kuno — peradaban dua wangsa yang
+    berbagi satu bumi: Sanjaya Hindu di utara, Syailendra Buddha di selatan.
+    Selama tiga abad, mereka membangun candi-candi megah yang menjulang ke langit,
+    mengukir relief yang menceritakan epik Ramayana dan kisah Buddha. Tapi di balik
+    keagungan candi, ada intrik istana, perebutan takhta, raja yang 'minggat'
+    dari kraton, dan akhirnya bencana — Pralaya 1016 M, ketika Aji Wurawari dari
+    Lwaram membakar istana dan mengakhiri era Mataram Kuno. Dari abu Pralaya,
+    seorang pangeran Bali bernama Airlangga membangun kembali kerajaan di Jawa Timur.
+
+  akt_1_founding: >
+    Sanjaya, cicit Maharani Shima dari Kalingga, naik takhta tahun 732 M.
+    Ia mendirikan lingga di Bukit Sthirengga (Gunung Wukir) — tanda kelahiran
+    Wangsa Sanjaya. Sementara itu, di pesisir utara Jawa, Dapunta Selendra
+    memulai garis wangsa Buddha Syailendra. Dua wangsa, dua agama, satu bumi.
+    Era pendirian: candi Hindu kecil di Dieng mulai dibangun, kompleks ritual
+    di pegunungan menjadikan Jawa Tengah sebagai mandala kosmik.
+
+  akt_2_golden_age: >
+    Abad ke-8 hingga ke-9 adalah era keemasan. Rakai Panangkaran berpindah ke
+    Buddha, membangun Candi Kalasan untuk dewi Tara. Samaratungga dari Syailendra
+    menyelesaikan Borobudur ± 825 M — candi Buddha terbesar di dunia. Rakai Garung
+    di Wonosobo memerintah di kaki Dieng. Lalu datang Rakai Pikatan — menikahi
+    Pramodawardhani, menyatukan dua wangsa, dan membangun Candi Prambanan yang
+    menjulang sebagai jawaban Hindu terhadap Borobudur Buddha.
+
+  akt_3_instability: >
+    Setelah era Rakai Kayuwangi (855-885 M), kekacauan dimulai. Tiga raja
+    memerintah singkat — Dyah Tagwas (6 bulan), Rakai Panumwangan (2 tahun),
+    Rakai Gurunwangi yang 'minggat' dari kraton. Selama 8 tahun, Jawa tanpa raja.
+    Lalu Rakai Watuhumalang muncul dari kekosongan, diikuti Balitung yang
+    melegitimasi kekuasaan dengan membuat daftar raja-raja sebelumnya.
+
+  akt_4_eastward_migration: >
+    929 M. Mpu Sindok memindahkan pusat kerajaan ke Jawa Timur, mendirikan
+    Wangsa Isyana di Watugaluh (Jombang). Era Mataram Kuno periode Jawa Tengah
+    berakhir. Bencana Merapi? Tekanan Sriwijaya? Atau strategi ekonomi dagang
+    Sungai Brantas? Tidak ada yang tahu pasti. Yang jelas, peradaban pindah
+    ke timur, meninggalkan candi-candi yang akan terkubur abad-abad berikutnya.
+
+  akt_5_pralaya_and_rebirth: >
+    1016 M. Aji Wurawari dari Lwaram menyerang istana Medang di Jawa Timur.
+    Raja Dharmawangsa Teguh tewas. Pralaya — bencana — menghancurkan
+    peradaban Mataram. Tapi keponakan Dharmawangsa, pangeran Bali Airlangga,
+    selamat dengan berlindung di hutan Vanagiri. Tahun 1019, ia naik takhta,
+    membangun Kerajaan Kahuripan, memulihkan kejayaan, dan sebelum wafat
+    1049 M membagi kerajaan menjadi Janggala dan Kadiri — yang kelak
+    melahirkan Kerajaan Kadiri, lalu Singasari, lalu Majapahit.
+
+# =============================================================================
+# DAFTAR RAJA — Verifikasi ke Sumber Primer
+# =============================================================================
+kings_list:
+  source_primary: "Prasasti Mantyasih (907 M) + Prasasti Wanua Tengah III (908 M)"
+  note: >
+    Prasasti Wanua Tengah III lebih lengkap (12 raja sebelum Balitung,
+    dengan tanggal pasti). Prasasti Mantyasih hanya menyebut 9 raja.
+  kings:
+    - number: 1
+      name: "Rakai Mataram Sang Ratu Sanjaya"
+      reign: "± 717–746 M (naik takhta sebagai raja Mataram 732 M)"
+      region_rakai: "Mataram (Magelang-Yogyakarta)"
+      source: "Prasasti Canggal 732 M"
+    - number: 2
+      name: "Sri Maharaja Rakai Panangkaran (Dyah Pancapana)"
+      reign: "746–784 M (naik takhta 3 Oktober 746 M)"
+      region_rakai: "Panangkaran (Kalasan, Sleman)"
+      source: "Prasasti Kalasan 778 M, Prasasti Kelurak 782 M, Prasasti Wanua Tengah III"
+    - number: 3
+      name: "Sri Maharaja Rakai Panunggalan / Panaraban"
+      reign: "784–803 M (naik takhta 6 Maret 784 M)"
+      region_rakai: "Panaraban (Parakan, Temanggung)"
+      source: "Prasasti Wanua Tengah III 908 M"
+    - number: 4
+      name: "Sri Maharaja Rakai Warak (Dyah Manara)"
+      reign: "803–827 M (naik takhta 3 Maret 803 M)"
+      region_rakai: "Warak (belum teridentifikasi)"
+      source: "Prasasti Mantyasih, Prasasti Wanua Tengah III"
+    - number: 5
+      name: "Dyah Gula (tidak bergelar Rakai)"
+      reign: "827–829 M (naik takhta 26 Juli 827 M)"
+      region_rakai: "Tidak diketahui"
+      source: "Prasasti Wanua Tengah III"
+    - number: 6
+      name: "Sri Maharaja Rakai Garung"
+      reign: "829–847 M (naik takhta 10 Januari 829 M)"
+      region_rakai: "Garung (Kec. Garung, Wonosobo)"
+      source: "Prasasti Wanua Tengah III, Prasasti Argapura 863 M"
+    - number: 7
+      name: "Sri Maharaja Rakai Pikatan (Dyah Saladū)"
+      reign: "847–855 M (naik takhta 6 Maret 847 M)"
+      region_rakai: "Pikatan (Prambanan)"
+      source: "Prasasti Wanua Tengah III, Prasasti Wantil/Siwagrha 856 M"
+    - number: 8
+      name: "Sri Maharaja Rakai Kayuwangi (Dyah Lokapala)"
+      reign: "855–885 M (naik takhta 8 Juni 855 M)"
+      region_rakai: "Kayuwangi (Kahuman, Klaten)"
+      source: "Prasasti Siwagrha/Wantil 856 M, Prasasti Wanua Tengah III"
+    - number: 9
+      name: "Dyah Tagwas (Sri Jayakirtiwardhana)"
+      reign: "885 M (17 Februari – 25 Agustus 885 M, ~6 bulan)"
+      region_rakai: "Tidak diketahui"
+      source: "Prasasti Wanua Tengah III, Prasasti Er Hangat"
+    - number: 10
+      name: "Sri Maharaja Rakai Panumwangan (Dyah Dewendra)"
+      reign: "885–887 M (naik takhta 3 Oktober 885 M)"
+      region_rakai: "Panumwangan"
+      source: "Prasasti Wanua Tengah III"
+    - number: 11
+      name: "Sri Maharaja Rakai Gurunwangi (Dyah Bhadra)"
+      reign: "887 M (naik takhta 18 Januari 887 M, lalu 'minggat' dari kraton)"
+      region_rakai: "Gurunwangi"
+      source: "Prasasti Wanua Tengah III"
+      note: "Masa vakum ~8 tahun (887-894 M) setelah Gurunwangi 'minggat'"
+    - number: 12
+      name: "Sri Maharaja Rakai Watuhumalang (Dyah Jbang)"
+      reign: "894–898 M (naik takhta 21 November 894 M, wafat 10 Mei 898 M)"
+      region_rakai: "Watuhumalang"
+      source: "Prasasti Panunggalan 896 M, Prasasti Wanua Tengah III, Prasasti Mantyasih 907 M"
+    - number: 13
+      name: "Sri Maharaja Rakai Watukura Dyah Balitung"
+      reign: "898–910 M (naik takhta 10 Mei 898 M)"
+      region_rakai: "Watukura (belum teridentifikasi)"
+      source: "Prasasti Mantyasih 907 M, Prasasti Wanua Tengah III 908 M"
+    - number: 14
+      name: "Sri Maharaja Mpu Daksa"
+      reign: "910–919 M (naik takhta 21 Desember 910 M, wafat 12 Juli 919 M)"
+      region_rakai: null
+      source: "Prasasti Poh Galuh"
+      note: "Bukan Rakai Gurunwangi (Dyah Bhadra) — tokoh berbeda yang sering keliru disamakan"
+    - number: 15
+      name: "Sri Maharaja Tulodong"
+      reign: "919–924 M"
+      region_rakai: null
+      source: "Prasasti Sangguran"
+    - number: 16
+      name: "Sri Maharaja Rakai Pangkaja Dyah Wawa"
+      reign: "924–928 M"
+      region_rakai: "Pangkaja"
+      source: "Prasasti Linggasutan"
+    - number: 17
+      name: "Mpu Sindok (Wangsa Isyana)"
+      reign: "929–947 M"
+      region_rakai: null
+      source: "Prasasti Anjuk Ladang 937 M, Prasasti Calcutta 1042 M"
+      note: "Pendiri Wangsa Isyana, memindahkan pusat ke Jawa Timur 929 M"
+  syailendra_parallel:
+    - name: "Dapunta Selendra"
+      reign: "± awal abad 8"
+      note: "Cikal-bakal Wangsa Syailendra (Prasasti Sojomerto)"
+    - name: "Raja Indra (Dharanindra)"
+      reign: "± 782–800 M"
+      note: "Bergelar Wirawairimathana ('penumpas musuh perwira')"
+    - name: "Samaratungga"
+      reign: "± 802–842 M"
+      note: "Pembangun Borobudur, selesai ± 825 M. Ayah Pramodawardhani."
+    - name: "Balaputradewa"
+      reign: "± 832–856 M di Jawa; Maharaja Sriwijaya 860–900 M"
+      note: "Putra Samaragrawira, cucu Dharanindra. Pindah ke Sriwijaya setelah dikalahkan Rakai Pikatan."
+
+# =============================================================================
+# KARAKTER & WARDROBE — Master Reference untuk T2I
+# =============================================================================
+characters:
+
+  # -------------------------------------------------------------------
+  # SANJAYA — Pendiri Wangsa Sanjaya
+  # -------------------------------------------------------------------
+  sanjaya:
+    name: "Sanjaya"
+    full_title: "Rakai Mataram Sang Ratu Sanjaya (Prasasti Mantyasih) / Narapati Raja Sri Sanjaya (Prasasti Canggal)"
+    era_period: "± 717–746 M"
+    age_dramatic: "40-50 tahun"
+    religion: "Hindu Siwa taat"
+    narrative_short: >
+      Cicit Maharani Shima dari Kalingga yang mewarisi takhta buyutnya tahun 732 M.
+      Ia mendirikan lingga di Bukit Sthirengga (Gunung Wukir, Magelang) — tanda
+      kelahiran Wangsa Sanjaya dan Kerajaan Mataram. Pragmatis — menerima koeksistensi
+      dengan Buddha Syailendra yang menguasai kawasan selatan Kedu Plain.
+    silsilah:
+      versi_carita_parahyangan: "Putra Sannaha (saudari Raja Sanna dari Galuh). Naik takhta setelah Sanna digulingkan Purbasora."
+      versi_kalingga: "Cicit Maharani Shima (Ratu Kalingga). Ibunda Sanjaya adalah Sanaha (cucu Shima), ayah Bratasenawa (raja Galuh ketiga)."
+    visual_physical:
+      face: "Wajah Jawa klasik, rahang tegas, kumis tipis terpelihara"
+      eyes: "Mata tajam, bersinar dengan karisma pemimpin"
+      body: "Tubuh atletis, postur tegak, perawakan prajurit-bangsawan"
+      hair: "Rambut hitam disanggul tinggi (jatamakuta)"
+    wardrobe:
+      headwear: "Makuta tinggi berhiaskan daun-daun emas, diadem bermotif kala-makara"
+      upper_body: "Dada terbuka, dihiasi upavita (tali suci melintang dada, simbol dwijā)"
+      lower_body: "Kain panjang merah bata (warna alam dari akar mengkudu) dililitkan di pinggang, ujung dilipat ke depan membentuk bebed"
+      belt: "Sabuk emas berlapis, dengan buckle berukir motif lotus"
+      jewelry:
+        - "Kalung kundala emas (kalung tebal bertumpuk 3 lapis)"
+        - "Gelang lengan keyura emas"
+        - "Gelang tangan kankana emas"
+        - "Anting anten besar emas"
+        - "Cincin permata di jari"
+      accessories:
+        - "Keris Buda (proto-keris lurus pendek) terselip di pinggang"
+        - "Chatra (payung kebesaran emas) dipegang abdi"
+      footwear: "Telanjang kaki (tradisi Jawa kuno)"
+    color_palette:
+      primary: "Merah bata (dari akar mengkudu/soga)"
+      accent: "Emas (perhiasan), kunyit (jika pakai jubah ritual)"
+      neutral: "Coklat tanah, hitam jelaga"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of King Sanjaya of Ancient Mataram kingdom 8th century
+        Java, mature man 40-50 years old with strong jawline and thin mustache,
+        piercing charismatic eyes, hair tied in high jatamakuta sanggul, wearing
+        tall golden makuta crown with kala-makara ornament and lotus diadem,
+        barechested with upavita sacred thread across chest, three-layered gold
+        kundala necklaces, keyura arm bracelets and kankana wrist bracelets,
+        red naturally-dyed kain jedor wrapped at waist with bebed fold, gold
+        belt with lotus buckle, keris Buda tucked at waist, holding chatra
+        royal umbrella, earth-tone palette with gold accents, relief carving
+        background of Gunung Wukir temple, dramatic side lighting, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Hindu king 8th century,
+        focused on clothing and jewelry: tall makuta crown with kala-makara
+        motif and golden leaves, upavita sacred thread across bare chest,
+        three-layered kundala gold necklaces, keyura upper arm bracelets,
+        kankana wrist bracelets, large anten earrings, red naturally-dyed
+        kain jedor with bebed front fold, gold belt with lotus buckle,
+        keris Buda tucked at waist, traditional Javanese earth-tone colors,
+        matte fabric texture with golden jewelry sheen, museum-quality
+        detail shot, hyperdetailed, 8k.
+
+  # -------------------------------------------------------------------
+  # RAKAI PANANGKARAN — Raja Buddha
+  # -------------------------------------------------------------------
+  rakai_panangkaran:
+    name: "Rakai Panangkaran"
+    full_title: "Sri Maharaja Rakai Panangkaran Dyah Pancapana"
+    era_period: "746–784 M (naik takhta 3 Oktober 746 M)"
+    age_dramatic: "30-40 tahun"
+    religion: "Buddha Mahayana (berpindah dari Hindu Siwa)"
+    narrative_short: >
+      Putra Sanjaya yang berpindah ke Buddha Mahayana. Membangun Candi Kalasan
+      (778 M) untuk dewi Tara Buddha. Lembut, religius, kontemplatif — kontras
+      dengan ayahnya yang lebih militeristik. Menerima pengaruh Buddha dari
+      Wangsa Syailendra.
+    visual_physical:
+      face: "Wajah lembut Jawa klasik, tenang, ekspresi kontemplatif"
+      eyes: "Mata teduh, sedikit melankolis"
+      body: "Tubuh langsing, postur lembut"
+      hair: "Rambut hitam disanggul, jubah Buddha"
+    wardrobe:
+      headwear: "Tanpa makuta; rambut disanggul sederhana"
+      upper_body: "Jubah sanghati kunyit/saffron di atas kain jedor"
+      lower_body: "Kain jedor kuning keemasan"
+      belt: "Sabuk kain sederhana"
+      jewelry:
+        - "Kalung tasbih rudraksha atau mutiara"
+        - "Gelang kankana tembaga (lebih sederhana dari emas)"
+      accessories:
+        - "Tasbih 108 butir di tangan"
+        - "Lonceng ghanta kecil untuk ritual Vajrayana"
+      footwear: "Sandal kayu sederhana atau telanjang"
+    color_palette:
+      primary: "Saffron / kunyit (jubah sanghati)"
+      accent: "Kuning emas (kain jedor)"
+      neutral: "Coklat muda, putih kusam"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Rakai Panangkaran, ancient Javanese Buddhist king
+        8th century, serene man 30-40 years old with peaceful contemplative
+        expression, soft eyes, hair in simple sanggul, wearing saffron sanghati
+        Buddhist robe over golden-yellow kain jedor, simple cloth belt, rudraksha
+        prayer bead necklace and copper kankana bracelets, holding 108-bead tasbih
+        and small ghanta bell, soft morning light, Candi Kalasan wooden background
+        with Tara Buddha statue, earth-tone palette with saffron accent,
+        hyperdetailed hyperrealistic masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Buddhist king 8th century,
+        saffron sanghati robe draped over shoulder revealing simple kain jedor
+        underneath, rudraksha bead necklace, copper bracelets, simple cloth
+        belt, no crown, hair in plain sanggul, hands holding prayer beads and
+        ritual bell, warm saffron and golden yellow color palette with matte
+        fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # RAKAI GARUNG — Raja Wonosobo
+  # -------------------------------------------------------------------
+  rakai_garung:
+    name: "Rakai Garung"
+    full_title: "Sri Maharaja Rakai Garung"
+    era_period: "829–847 M (naik takhta 10 Januari 829 M)"
+    age_dramatic: "40-50 tahun"
+    religion: "Hindu Siwa (Sanjaya)"
+    narrative_short: >
+      Raja ke-6 Mataram Kuno, penguasa wilayah Garung (sekarang Kec. Garung,
+      Wonosobo) — 8,5 km utara Kota Wonosobo, di lereng selatan Dataran Tinggi
+      Dieng. Pusat strategis yang menghubungkan kawasan ritual Dieng dengan
+      lembah pertanian Wonosobo. Era Rakai Garung adalah puncak kebesaran
+      Wangsa Syailendra di Jawa, dengan penyelesaian Borobudur ± 825 M.
+    visual_physical:
+      face: "Wajah matang berjenggot tipis, mata bijaksana"
+      body: "Postur tegap, pendeta-raja"
+      hair: "Rambut panjang disanggul jatamakuta"
+    wardrobe:
+      headwear: "Makuta sederhana dengan ornamen rudraksha"
+      upper_body: "Jubah putih/krem dengan sabuk emas"
+      lower_body: "Kain jedor putih krem"
+      jewelry:
+        - "Kalung rudraksha panjang (butiran Elaeocarpus)"
+        - "Kalung kundala emas sederhana"
+        - "Gelang kankana perunggu"
+      accessories:
+        - "Tongkat pendeta kayu berukir"
+        - "Lingga-yoni kecil sebagai jimat"
+      footwear: "Sandal kayu"
+    color_palette:
+      primary: "Putih krem (jubah pendeta-raja)"
+      accent: "Coklat (rudraksha), emas (perhiasan)"
+      neutral: "Hijau lembah Wonosobo sebagai latar"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Rakai Garung, ancient Javanese king 9th century
+        from Wonosobo, mature bearded man 40-50 years old with wise eyes and
+        serene expression, hair in jatamakuta sanggul, wearing simple white-cream
+        Hindu priest-king robe with golden belt, long rudraksha bead necklace
+        reaching chest, simple gold kundala necklace, copper kankana bracelets,
+        holding carved wooden priest staff, sitting on stone pavilion overlooking
+        Dieng plateau with terraced rice fields and Mount Prahu in background,
+        golden hour lighting, earth-tone palette with cream and brown accents,
+        hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese priest-king 9th century
+        Wonosobo, simple white-cream robe with golden belt, long rudraksha bead
+        necklace reaching chest, simple gold kundala necklace, copper kankana
+        bracelets, simple makuta crown with rudraksha ornament, carved wooden
+        priest staff in hand, lingga-yoni amulet at neck, white-cream and brown
+        color palette with matte fabric texture, museum-quality detail shot,
+        hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # RAKAI PIKATAN — Penyatu Wangsa
+  # -------------------------------------------------------------------
+  rakai_pikatan:
+    name: "Rakai Pikatan (Dyah Saladū)"
+    full_title: "Sri Maharaja Rakai Pikatan Dyah Saladū / Rakai Mamrati Sang Jatiningrat (Prasasti Wantil)"
+    era_period: "847–855 M (naik takhta 6 Maret 847 M)"
+    age_dramatic: "40-45 tahun"
+    religion: "Hindu Siwa"
+    narrative_short: >
+      Menikahi Pramodawardhani (putri Samaratungga dari Syailendra), menyatukan
+      dua wangsa. Membangun Candi Prambanan (Loro Jonggrang) — dibangun mulai
+      ± 850 M dan diresmikan 856 M berdasarkan Prasasti Siwagrha/Wantil.
+      Mengalahkan Balaputradewa dalam perebutan kekuasaan.
+    visual_physical:
+      face: "Wajah Jawa klasik yang tamak, rahang tegas, kumis tipis"
+      eyes: "Mata tajam, ambisius"
+      body: "Postur prajurit-bangsawan"
+    wardrobe:
+      headwear: "Makuta tinggi berornamen naga dan Siwa"
+      upper_body: "Dada terbuka dengan upavita emas"
+      lower_body: "Kain jedor biru tua / merah marun (warna kebesaran)"
+      belt: "Sabuk emas berpermata"
+      jewelry:
+        - "Kalung kundala emas bertumpuk"
+        - "Gelang lengan keyura emas"
+        - "Cincin kerajaan dengan permata"
+      accessories:
+        - "Keris pusaka berpamor ngulit semangka"
+        - "Payung chatra emas dipegang abdi"
+      footwear: "Telanjang kaki"
+    color_palette:
+      primary: "Biru tua / merah marun (kain jedor)"
+      accent: "Emas (perhiasan dan ornamen makuta)"
+      neutral: "Coklat tanah"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Rakai Pikatan, ancient Javanese king 9th century
+        builder of Prambanan temple, mature charismatic man 40-45 years old
+        with strong jawline and thin mustache, fierce ambitious eyes, hair in
+        high jatamakuta sanggul, wearing tall golden makuta crown with naga
+        and Shiva ornaments, barechested with gold upavita sacred thread,
+        layered gold kundala necklaces, keyura arm bracelets, royal ring with
+        gemstone, deep blue or maroon naturally-dyed kain jedor at waist with
+        bebed fold, gold belt with gems, keris pusaka tucked at waist, holding
+        golden chatra umbrella, Prambanan temple construction background with
+        Shiva statues, dramatic golden hour lighting, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Hindu king 9th century
+        Rakai Pikatan era, tall golden makuta crown with naga ornament and
+        Shiva motif, upavita gold sacred thread across bare chest, layered
+        kundala gold necklaces (3 layers), keyura upper arm bracelets, kankana
+        wrist bracelets, royal ring with gemstone, deep blue kain jedor with
+        bebed front fold, gold belt with precious gems, keris pusaka with
+        ngulit semangka pamor tucked at waist, deep blue and gold color
+        palette with matte fabric texture and golden jewelry sheen,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # PRAMODAWARDHANI — Putri Syailendra
+  # -------------------------------------------------------------------
+  pramodawardhani:
+    name: "Pramodawardhani"
+    full_title: "Çrī Sanjiwana Pramodawardhani"
+    era_period: "Aktif ± 820–860-an M"
+    age_dramatic: "25-35 tahun"
+    religion: "Buddha Mahayana"
+    narrative_short: >
+      Putri mahkota Wangsa Syailendra, permaisuri Rakai Pikatan. Disebut
+      dalam Prasasti Kayumwungan (824 M) sebagai putri Maharaja Samaratungga.
+      Pembangun Candi Plaosan bersama suaminya — kompleks Buddha terbesar
+      setelah Sewu. Cerdas, diplomatik, namun terjepit antara loyalitas ke
+      ayah Buddha dan suami Hindu.
+    visual_physical:
+      face: "Wajah lembut klasik Jawa, mata penuh arti"
+      body: "Postur elegan, gemulai"
+      hair: "Kondé tinggi berhiaskan cunduk bunga emas"
+    wardrobe:
+      headwear: "Mahkota candi (kondé tinggi berhiaskan bunga emas + stupa mini)"
+      upper_body: "Kemben sutera berjahit benang emas, motif kawung/parang"
+      lower_body: "Kain panjang dengan sabuk emas berhias permata"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Gelang kankana emas"
+        - "Anting anten emas besar"
+        - "Cunduk bunga emas di sanggul"
+      accessories:
+        - "Kipas ekor burung merak"
+        - "Lotus merah muda di tangan"
+      footwear: "Sandal kulit halus"
+    color_palette:
+      primary: "Krem sutera / merah muda (kemben)"
+      accent: "Emas (perhiasan), merah muda (lotus)"
+      neutral: "Coklat muda, putih gading"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Pramodawardhani, ancient Javanese Buddhist princess
+        9th century, beautiful woman 25-35 years old with soft classical Javanese
+        face and meaningful eyes, tall kondé sanggul adorned with golden cunduk
+        flower ornaments and mini stupa, wearing silk kemben with gold-thread
+        embroidery and kawung/parang motif over chest, layered gold kundala
+        necklaces, kankana gold bracelets, large anten earrings, long kain with
+        jeweled gold belt, holding pink lotus and peacock feather fan, Candi
+        Plaosan background with Buddha statues, soft sunset golden hour lighting,
+        hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Buddhist princess 9th
+        century Pramodawardhani era, tall kondé sanggul with golden cunduk
+        flower ornaments and small stupa, silk kemben with gold-thread
+        embroidery and kawung motif, layered gold kundala necklaces, kankana
+        gold wrist bracelets, large anten gold earrings, jeweled gold belt
+        over long kain, peacock feather fan in hand, pink lotus held delicately,
+        cream silk and gold color palette with matte fabric texture and golden
+        jewelry sheen, museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # BALAPUTRADEWA — Raja Syailendra-Sriwijaya
+  # -------------------------------------------------------------------
+  balaputradewa:
+    name: "Balaputradewa"
+    full_title: "Sri Maharaja Balaputradewa (di Sriwijaya 860–900 M)"
+    era_period: "± 832–856 M di Jawa; Maharaja Sriwijaya 860–900 M"
+    age_dramatic: "30-40 tahun"
+    religion: "Buddha Mahayana"
+    narrative_short: >
+      Raja Syailendra terakhir di Jawa, kemudian menjadi Maharaja Sriwijaya
+      (860–900 M) setelah dikalahkan Rakai Pikatan. Prasasti Nalanda (860 M)
+      menyebut Balaputradewa sebagai putra Samaragrawira dan cucu Dharanindra.
+      Dalam prasasti tersebut, Balaputradewa memohon kepada Raja Devapala dari
+      Bengal (India) untuk membangun wihara bagi pelajar Buddha di Nalanda.
+    visual_physical:
+      face: "Wajah Jawa klasik, ekspresi idealis dan visioner"
+      body: "Postur pemuda religius"
+    wardrobe:
+      headwear: "Makuta buddhis dengan stupa mini di puncak"
+      upper_body: "Jubah sanghati saffron di atas kain jedor"
+      lower_body: "Kain jedor saffron"
+      jewelry:
+        - "Kalung tasbih rudraksha"
+        - "Gelang kankana perunggu"
+      accessories:
+        - "Wajra (simbol Vajrayana) di tangan"
+        - "Ghanta (lonceng ritual) di tangan kiri"
+      footwear: "Sandal kayu sederhana"
+    color_palette:
+      primary: "Saffron / oranye bata (jubah)"
+      accent: "Emas (stupa mini di makuta)"
+      neutral: "Kuning krem"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Balaputradewa, ancient Javanese Buddhist king 9th
+        century who became Maharaja of Srivijaya, idealistic young man 30-40
+        years old with visionary expression, wearing saffron sanghati Buddhist
+        robe over kain jedor, Buddhist makuta crown with small stupa at top,
+        rudraksha bead necklace, copper kankana bracelets, holding vajra and
+        ghanta ritual implements, background of Nalanda monastery or Srivijaya
+        harbor with wooden ships, dramatic golden hour lighting, saffron and
+        gold color palette, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Buddhist king 9th century
+        Balaputradewa era, Buddhist makuta crown with small stupa at top,
+        saffron sanghati robe draped over shoulder, kain jedor underneath,
+        rudraksha bead necklace, copper kankana bracelets, vajra and ghanta
+        ritual implements in hands, saffron and gold color palette with matte
+        fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # BALITUNG — Raja Penyusun Daftar Raja
+  # -------------------------------------------------------------------
+  balitung:
+    name: "Rakai Watukura Dyah Balitung"
+    full_title: "Sri Maharaja Rakai Watukura Dyah Balitung Sri Dharmodaya Mahasambu"
+    era_period: "898–910 M (naik takhta 10 Mei 898 M)"
+    age_dramatic: "50-60 tahun"
+    religion: "Hindu Siwa"
+    narrative_short: >
+      Raja ke-13 Mataram Kuno, salah satu raja terbesar. Mengeluarkan Prasasti
+      Mantyasih (907 M) dan Prasasti Wanua Tengah III (908 M). Naik takhta karena
+      pernikahan dengan putri raja sebelumnya — bukan pewaris langsung. Membuat
+      daftar raja untuk melegitimasi kekuasaannya. Ekspansi militer ke Jawa Timur.
+    visual_physical:
+      face: "Wajah matang, jenggot tipis terpelihara, mata cerdas"
+      body: "Postur negarawan tua"
+    wardrobe:
+      headwear: "Makuta tinggi dengan ornamen Siwa"
+      upper_body: "Dada terbuka dengan upavita emas"
+      lower_body: "Kain jedor coklat soga (warna kebesaran)"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Gelang kankana emas"
+      accessories:
+        - "Keris pusaka di pinggang"
+        - "Prasasti tembaga dipegang (saat upacara)"
+      footwear: "Telanjang kaki"
+    color_palette:
+      primary: "Coklat soga (kain jedor)"
+      accent: "Emas (perhiasan)"
+      neutral: "Hitam, coklat tanah"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Rakai Watukura Dyah Balitung, ancient Javanese
+        king 10th century issuer of Mantyasih inscription, mature statesman
+        50-60 years old with thin beard and intelligent eyes, wearing tall
+        golden makuta crown with Shiva ornaments, barechested with gold upavita
+        sacred thread, layered gold kundala necklaces, kankana bracelets,
+        soga-brown naturally-dyed kain jedor at waist, gold belt, keris pusaka
+        tucked at waist, holding copper plate inscription in hand as if issuing
+        royal decree, Temanggung palace hall background with carved teak pillars
+        and Buddhist-Hindu sinkretic statues, warm candlelight, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Hindu king 10th century
+        Balitung era, tall golden makuta crown with Shiva ornament, upavita gold
+        sacred thread across bare chest, layered kundala gold necklaces, kankana
+        gold wrist bracelets, soga-brown kain jedor with bebed front fold, gold
+        belt, keris pusaka tucked at waist, soga-brown and gold color palette
+        with matte fabric texture and golden jewelry sheen, museum-quality
+        detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # MPU SINDOK — Pendiri Wangsa Isyana
+  # -------------------------------------------------------------------
+  mpu_sindok:
+    name: "Mpu Sindok"
+    full_title: "Śrī Mahārāja Rake Halu Dyaḥ Siṇḍok Śrī Īśānawikrama Dharmottuṅgadewawijaya"
+    era_period: "929–947 M"
+    age_dramatic: "60 tahun"
+    religion: "Hindu Siwa (Wangsa Isyana)"
+    narrative_short: >
+      Raja terakhir Wangsa Sanjaya di Jawa Tengah, pendiri Wangsa Isyana di
+      Jawa Timur. Memindahkan pusat Mataram Kuno ke Jawa Timur (Medang i
+      Tamwlang, lalu Watugaluh) pada 929 M. Cicit-cicit (canggah) Mpu Sindok
+      adalah Airlangga. Konservatif, bijaksana — mengambil keputusan sulit
+      meninggalkan tanah leluhur Jawa Tengah.
+    visual_physical:
+      face: "Wajah tua berjenggot putih, mata bijaksana"
+      body: "Postur tua tegap"
+    wardrobe:
+      headwear: "Makuta sederhana, lebih ke cilindris"
+      upper_body: "Jubah panjang putih krem dengan sabuk emas"
+      lower_body: "Kain jedor putih krem"
+      jewelry:
+        - "Kalung kundala emas sederhana"
+        - "Rudraksha panjang"
+      accessories:
+        - "Tongkat kayu berukir"
+        - "Kitab lontar di tangan"
+      footwear: "Sandal kayu"
+    color_palette:
+      primary: "Putih krem (jubah)"
+      accent: "Emas (perhiasan), coklat (tongkat)"
+      neutral: "Coklat tanah"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Mpu Sindok, ancient Javanese king 10th century
+        founder of Isyana dynasty, elderly wise man 60 years old with white
+        beard and knowing eyes, wearing simple cylindrical makuta crown, long
+        white-cream robe with golden belt, simple gold kundala necklace, long
+        rudraksha bead necklace, holding carved wooden staff and palm-leaf
+        manuscript, leading procession of courtiers and soldiers through river
+        valley with Mount Merapi erupting in distant background, dramatic
+        stormy sky, painterly epic, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Hindu king 10th century
+        Mpu Sindok era, simple cylindrical makuta crown, long white-cream robe
+        with golden belt, simple gold kundala necklace, long rudraksha bead
+        necklace, carved wooden staff in hand, palm-leaf manuscript, white-cream
+        and gold color palette with matte fabric texture, museum-quality detail
+        shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # AIRLANGGA — Pemulih Pralaya
+  # -------------------------------------------------------------------
+  airlangga:
+    name: "Airlangga"
+    full_title: "Rakai Halu Sri Lokeswara Dharmawangsa Airlangga Anantawikramottunggadewa"
+    era_period: "lahir ± 1002 M, memerintah 1019–1042 M, wafat 1049 M"
+    age_dramatic: "30-40 tahun (saat naik takhta 1019 M)"
+    religion: "Hindu Wisnu (Wangsa Isyana-Warmadewa)"
+    narrative_short: >
+      Pendiri Kerajaan Kahuripan. Cicit-cicit (canggah) Mpu Sindok lewat
+      ibunya Mahendradatta. Lahir di Bali, putra Udayana Warmadewa. Muda saat
+      Pralaya 1016 — berlindung di hutan Vanagiri. Naik takhta 1019 M dengan
+      dukungan pendeta Buddha Mpu Bharada. Membagi kerajaan menjadi Janggala
+      dan Kadiri/Panjalu (1042 M) sebelum mundur menjadi pertapa.
+    visual_physical:
+      face: "Wajah Jawa-Bali klasik, mata visioner"
+      body: "Postur prajurit-mistikus"
+    wardrobe:
+      headwear: "Mahkota sederhana bertingkat (kipeng)"
+      upper_body: "Jubah kebesaran biru/hijau dengan sabuk emas"
+      lower_body: "Kain panjang biru/hijau dengan motif parang"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Kalung tasbih"
+      accessories:
+        - "Keris pusaka"
+        - "Mahkota Garuda (karena diasosiasikan dengan Wisnu-Garuda)"
+      footwear: "Sandal kulit"
+    color_palette:
+      primary: "Hijau zaitun / biru dongker (jubah)"
+      accent: "Emas (Garuda dan perhiasan)"
+      neutral: "Coklat tanah"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Airlangga, ancient Javanese king 11th century
+        founder of Kahuripan kingdom, visionary man 30-40 years old with
+        Javanese-Balinese classical face and determined eyes, wearing simple
+        tiered kipeng crown, blue or olive green royal robe with golden belt,
+        long kain with parang motif, layered gold kundala necklaces, prayer
+        bead necklace, keris pusaka tucked at waist, holding Garuda emblem
+        symbolizing Vishnu, forest hermitage background with waterfall (Vanagiri),
+        dramatic morning light filtering through trees, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese king 11th century Airlangga
+        era, simple tiered kipeng crown, blue or olive green royal robe with
+        golden belt, long kain with parang motif, layered gold kundala necklaces,
+        prayer bead necklace, keris pusaka tucked at waist, Garuda emblem on
+        chest symbolizing Vishnu, blue-green and gold color palette with matte
+        fabric texture and golden jewelry sheen, museum-quality detail shot,
+        hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # SAMARATUNGA — Pembangun Borobudur
+  # -------------------------------------------------------------------
+  samaratungga:
+    name: "Samaratungga"
+    full_title: "Sri Maharaja Samaratungga"
+    era_period: "± 802–842 M"
+    age_dramatic: "40-50 tahun"
+    religion: "Buddha Mahayana (Wangsa Syailendra)"
+    narrative_short: >
+      Maharaja Wangsa Syailendra, pembangun Borobudur. Disebut dalam Prasasti
+      Karangtengah/Kayumwungan (824 M) bersama putrinya Pramodawardhani. Tidak
+      ekspansionis militer, lebih fokus pada pengembangan agama-budaya. Pada
+      masanya, Borobudur diselesaikan ± 825 M.
+    visual_physical:
+      face: "Wajah matang berjenggot tipis, mata cendekia"
+      body: "Postur tenang pendeta-raja"
+    wardrobe:
+      headwear: "Makuta buddhis dengan stupa mini di puncak"
+      upper_body: "Jubah sanghati saffron di atas kain jedor"
+      jewelry:
+        - "Kalung tasbih mutiara"
+        - "Gelang kankana emas"
+      accessories:
+        - "Wajra-ghanta (lambang Vajrayana)"
+        - "Tongkat pendeta"
+    color_palette:
+      primary: "Saffron (jubah)"
+      accent: "Emas (stupa mini)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Samaratungga, ancient Javanese Buddhist king 9th
+        century builder of Borobudur, mature man 40-50 years old with thin
+        beard and scholarly eyes, wearing Buddhist makuta crown with small stupa
+        at top, saffron sanghati robe over kain jedor, pearl bead necklace,
+        gold kankana bracelets, holding vajra-ghanta ritual implements,
+        Borobudur construction background with workers and Buddhist monks,
+        warm golden hour lighting, saffron and gold color palette, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of ancient Javanese Buddhist king 9th century
+        Samaratungga era, Buddhist makuta crown with small stupa, saffron
+        sanghati robe draped over shoulder, kain jedor underneath, pearl bead
+        necklace, gold kankana bracelets, vajra-ghanta ritual implements in
+        hands, saffron and gold color palette with matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# LOKASI & SETTING — Master Reference untuk T2I
+# =============================================================================
+locations:
+
+  # -------------------------------------------------------------------
+  # KAWASAN DIENG
+  # -------------------------------------------------------------------
+  dieng:
+    name: "Dataran Tinggi Dieng"
+    location: "Banjarnegara-Wonosobo, Jawa Tengah"
+    elevation: "2.000 mdpl"
+    era_active: "Akhir abad 7 - abad 9 M"
+    religion: "Hindu Siwa"
+    narrative_short: >
+      Kawasan sakral Hindu Siwa tertua di Jawa. Kompleks candi-candi kecil
+      dengan nama wayang (Arjuna, Sri, Gatotkaca, Bima, Dwarawati). Prasasti
+      Dieng (808 M) — prasasti tertua beraksara Jawa Kuno. Pusat ritual
+      pegunungan — pemujaan Siwa di dataran tinggi melambangkan axis mundi.
+    landmarks:
+      - "Candi Arjuna (candi tertua di Dieng, abad 7, gaya India Selatan)"
+      - "Candi Bima (gaya India Utara/Odisha, menara melengkung)"
+      - "Candi Sri, Gatotkaca, Dwarawati, Sembadro, Puntadewa"
+      - "Telaga Warna (danau belerang)"
+      - "Kawah Sikidang"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Dieng Plateau 8th century Hindu sacred complex,
+        misty highland 2000 meters above sea level at dawn, small stone temples
+        with pyramidal Indian-South-style towers (Candi Arjuna), one temple with
+        curvilinear Northern Indian style (Candi Bima), fog rolling through
+        plateau, lone Hindu priest in white robe performing morning ritual,
+        terraced fields with vegetables and rice, Mount Prahu silhouette in
+        background, ethereal blue morning light, cinematic wide shot,
+        hyperdetailed 8k masterpiece.
+      temple_detail: >
+        Detailed architectural study of Candi Arjuna Dieng 8th century Hindu
+        temple, pyramidal tower with Indian-South-style tiers, carved stone
+        with kala-makara motif at doorway, lingga-yoni inside sanctum, andesite
+        stone weathered by highland mist, surrounded by fog and small flowering
+        plants, golden sunrise light hitting temple top, hyperdetailed
+        architectural photography 8k.
+
+  # -------------------------------------------------------------------
+  # KAWASAN WONOSOBO (Garung)
+  # -------------------------------------------------------------------
+  wonosobo_garung:
+    name: "Kecamatan Garung, Wonosobo"
+    location: "8,5 km utara Kota Wonosobo, lereng selatan Dieng"
+    era_active: "Abad 9 (era Rakai Garung 829-847 M)"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Wilayah kekuasaan Rakai Garung (raja ke-6 Mataram Kuno). Nama "Garung"
+      lestari sejak abad 9 hingga kini. Pusat strategis yang menghubungkan
+      kawasan ritual Dieng dengan lembah pertanian Wonosobo.
+    landmarks:
+      - "Lereng selatan Dataran Tinggi Dieng"
+      - "Persawahan berundak lembah Wonosobo"
+      - "Sungai-sungai kecil yang mengalir ke Laut Selatan"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Garung Wonosobo 9th century ancient Mataram
+        kingdom royal territory, terraced rice fields on southern slope of
+        Dieng plateau, simple wooden stilt houses with thatched roofs, farmers
+        in cawat and kemben working fields with primitive tools, distant Dieng
+        plateau with small Hindu temples visible on horizon, Mount Prahu and
+        Mount Sumbing silhouettes, golden afternoon light, warm earth-tone
+        palette, cinematic wide shot, hyperdetailed 8k masterpiece.
+      royal_pavilion: >
+        Cinematic scene of Rakai Garung's wooden royal pavilion 9th century
+        Wonosobo, simple carved teak wooden pavilion on stone platform, open-air
+        hall with Hindu priest-king sitting cross-legged on woven mat, courtiers
+        in white robes gathered around, Dieng plateau visible in background with
+        mist, terraced rice fields below, warm afternoon light, painterly
+        realistic, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # KAWASAN TEMANGGUNG
+  # -------------------------------------------------------------------
+  temanggung:
+    name: "Temanggung — Pusat Prasasti Mataram Kuno"
+    location: "Jawa Tengah, kawasan Kedu"
+    era_active: "Abad 8-10 M (khususnya era Balitung 898-910 M)"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Kabupaten dengan konsentrasi prasasti Mataram Kuno terbanyak di Jawa
+      Tengah. Parakan (Panaraban kuno) — wilayah Rakai Panunggalan. Kaloran —
+      tempat Prasasti Wanua Tengah III (908 M). Ngadirejo — tempat asal Prasasti
+      Mantyasih (907 M). Karangtengah — Prasasti Karangtengah (824 M).
+    landmarks:
+      - "Parakan (Panaraban) — wilayah Rakai Panunggalan/Panaraban"
+      - "Kaloran — Prasasti Wanua Tengah III (908 M) di Dukuh Kedunglo, Desa Gandulan"
+      - "Ngadirejo — asal Prasasti Mantyasih (907 M)"
+      - "Karangtengah — Prasasti Karangtengah/Kayumwungan (824 M)"
+      - "Pakis dan Bulu — temuan arkeologi di Pakurejo"
+      - "Gunung Sindoro (kemungkinan sumber letusan yang menyebabkan kerusakan desa Rukam)"
+    prompt_t2i:
+      parakan_panaraban: >
+        Cinematic landscape of Parakan (ancient Panaraban) Temanggung 8th
+        century ancient Mataram kingdom royal territory, small Javanese village
+        with wooden stilt houses and thatched roofs, agricultural fields with
+        rice and palawija, Gunung Sindoro volcano silhouette in background
+        smoking slightly, river flowing through village, Javanese farmers in
+        cawat and kemben, ancient stone ruins near riverbank, warm afternoon
+        light, earth-tone palette, cinematic wide shot, hyperdetailed 8k
+        masterpiece.
+      balitung_court: >
+        Cinematic scene of Rakai Watukura Dyah Balitung's royal court 10th
+        century Temanggung, wooden carved palace hall with red teak pillars and
+        tumpang roof, sultan on stone throne with golden cushion, courtiers in
+        velvet robes and makuta crowns gathered, scribe writing on copper plate
+        (prasasti), Buddhist and Hindu priests in saffron and white robes in
+        background, gamelan perunggu instruments on side, warm candlelight,
+        incense smoke, hyperdetailed cinematic 8k masterpiece.
+
+  # -------------------------------------------------------------------
+  # KAWASAN MAGELANG (Kedu Plain)
+  # -------------------------------------------------------------------
+  magelang_kedu:
+    name: "Magelang — Kedu Plain, Pusat Awal Mataram Kuno"
+    location: "Jawa Tengah, kawasan Kedu"
+    era_active: "732 M (Sanjaya) - abad 10"
+    religion: "Hindu Siwa (Sanjaya) & Buddha (Syailendra)"
+    narrative_short: >
+      Pusat awal Mataram Kuno. Candi Gunung Wukir (Salam, Magelang) — situs
+      candi Hindu tertua era Sanjaya (732 M), terkait Prasasti Canggal.
+      Borobudur (Kec. Borobudur, Magelang) — candi Buddha terbesar di dunia.
+      Mantyasih (Kampung Meteseh, Magelang Utara) — lokasi asli Prasasti
+      Mantyasih 907 M.
+    landmarks:
+      - "Candi Gunung Wukir (Salam) — candi Hindu tertua era Sanjaya (732 M)"
+      - "Borobudur (Kec. Borobudur) — candi Buddha terbesar di dunia, abad 9"
+      - "Mantyasih (Kampung Meteseh, Magelang Utara) — lokasi Prasasti Mantyasih 907 M"
+      - "Muntilan, Mungkid, Salam — daerah dengan candi kecil dan prasasti abad 8-9"
+    prompt_t2i:
+      gunung_wukir: >
+        Cinematic landscape of Gunung Wukir temple complex 8th century Salam
+        Magelang, ancient Hindu temple site on hill, simple stone lingga-yoni
+        shrine on hilltop, view of Kedu Plain with rice fields and Mount Merapi
+        silhouette in distance, King Sanjaya (man in white robe) standing on
+        hill performing lingga consecration ritual, smoke from ritual fire,
+        golden sunrise light, dramatic landscape, hyperdetailed 8k masterpiece.
+      borobudur_construction: >
+        Cinematic scene of Borobudur temple construction 9th century Magelang,
+        massive stepped pyramid Buddhist temple under construction with workers
+        carving andesite stone blocks, Buddhist monks in saffron robes
+        supervising, Chinese and Indian traders observing, Mount Merapi smoking
+        in distance, golden afternoon light, painterly epic, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # KAWASAN PRAMBANAN (Sleman-Klaten)
+  # -------------------------------------------------------------------
+  prambanan_plain:
+    name: "Kawasan Prambanan (Sleman-Klaten)"
+    location: "Perbatasan DIY dan Jawa Tengah"
+    era_active: "Abad 8-10 M (khususnya era Rakai Pikatan-Kayuwangi)"
+    religion: "Hindu Siwa (Prambanan) & Buddha (Sewu, Kalasan, Plaosan)"
+    narrative_short: >
+      Pusat Mataram Kuno era Rakai Pikatan-Kayuwangi (abad 9). Candi Prambanan
+      diresmikan 856 M. Candi Sewu — kompleks Buddha terbesar di kawasan ini.
+      Candi Kalasan (778 M) — candi Buddha untuk Tara. Candi Plaosan — candi
+      Buddha dibangun Rakai Pikatan & Pramodawardhani. Ratu Boko — kompleks
+      istana bukit.
+    landmarks:
+      - "Candi Prambanan/Loro Jonggrang (Sleman) — diresmikan 856 M"
+      - "Candi Sewu (Sleman) — kompleks Buddha"
+      - "Candi Kalasan (Sleman, 778 M) — candi Buddha untuk Tara"
+      - "Candi Plaosan (Klaten) — candi Buddha Rakai Pikatan-Pramodawardhani"
+      - "Candi Sojiwan (Klaten) — candi Buddha Mahayana, terkait Prasasti Rukam"
+      - "Ratu Boko (Sleman) — kompleks istana bukit"
+    prompt_t2i:
+      prambanan_construction: >
+        Cinematic scene of Prambanan temple construction 9th century Sleman,
+        massive Hindu temple complex being built with three tall main towers
+        (Shiva, Brahma, Vishnu), workers carving andesite stone with Ramayana
+        reliefs, King Rakai Pikatan and Queen Pramodawardhani observing from
+        viewing platform — king in Siwa attire, queen in Buddhist attire,
+        Buddhist and Hindu priests blessing the construction, Opak River being
+        diverted as mentioned in Prasasti Siwagrha, golden hour lighting,
+        painterly epic, hyperdetailed 8k masterpiece.
+      ratu_boko_palace: >
+        Cinematic landscape of Ratu Boko palace complex 9th century Sleman,
+        ancient Javanese royal palace on hilltop with stone pendopo pavilions,
+        bathing pools, carved stone gates, view of Prambanan plain with Mount
+        Merapi in distance, King Rakai Pikatan (man in royal attire) standing
+        on terrace at sunset observing his kingdom, golden hour lighting,
+        cinematic wide shot, hyperdetailed 8k masterpiece.
+
+  # -------------------------------------------------------------------
+  # JAWA TIMUR (era Mpu Sindok-Airlangga)
+  # -------------------------------------------------------------------
+  east_java_isyana:
+    name: "Jawa Timur — Watugaluh & Kahuripan"
+    location: "Jombang (Watugaluh) dan sekitarnya"
+    era_active: "929 M (Mpu Sindok) - 1049 M (Airlangga)"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Pusat Wangsa Isyana setelah Mpu Sindok memindahkan ibu kota ke Jawa Timur
+      tahun 929 M. Watugaluh (Jombang) — ibu kota baru. Sungai Brantas menjadi
+      jalur dagang utama. Airlangga membangun Kahuripan di sini setelah
+      Pralaya 1016. Membagi kerajaan menjadi Janggala (Kahuripan) dan
+      Kadiri/Panjalu (Daha) pada 1042 M.
+    landmarks:
+      - "Watugaluh (Jombang) — ibu kota Wangsa Isyana"
+      - "Sungai Brantas — jalur dagang utama"
+      - "Candi Belahan (Pasuruan) — tempat arca Airlangga sebagai Wisnu-Garuda"
+      - "Hutan Vanagiri (Wonogiri) — tempat Airlangga berlindung saat Pralaya"
+    prompt_t2i:
+      watugaluh_capital: >
+        Cinematic landscape of Watugaluh capital 10th century Jombang East Java,
+        new royal capital of Isyana dynasty after migration from Central Java,
+        wooden palace complex on riverbank of Brantas River, trading boats
+        carrying goods, Javanese farmers and merchants in market, Mount Kelud
+        silhouette in distance, tropical river valley setting, warm afternoon
+        light, earth-tone palette, cinematic wide shot, hyperdetailed 8k
+        masterpiece.
+      airlangga_coronation: >
+        Cinematic scene of Airlangga coronation 1019 M East Java, young king
+        30-40 years old emerging from forest hermitage after Pralaya, wearing
+        simple tiered kipeng crown and blue royal robe, Buddhist priest Mpu
+        Bharada blessing him, soldiers in ancient Javanese armor, forest
+        clearing with simple wooden pavilion, dramatic morning light filtering
+        through trees, painterly epic, hyperdetailed 8k masterpiece.
+
+# =============================================================================
+# WARDALE — Master Reference Baju & Aksesoris
+# =============================================================================
+wardrobe:
+  # -------------------------------------------------------------------
+  # BANGSAWAN & RAJA
+  # -------------------------------------------------------------------
+  royal_formal:
+    name: "Busana Kebesaran Raja & Bangsawan"
+    era: "Abad 8-10 M"
+    religion: "Hindu Siwa"
+    narrative_short: >
+      Busana kebesaran untuk raja dan bangsawan pria. Direkonstruksi dari relief
+      candi Borobudur, Prambanan, Sewu, Kalasan, dan Candi Arjuna di Dieng.
+    elements:
+      - name: "Kain Panjang (Sampur / Kain Upavita)"
+        description: "Kain panjang dililitkan di pinggang, menjuntai hingga mata kaki"
+        color: "Merah bata, biru tua, coklat soga, kunyit"
+        material: "Katun tipis dari India, sutera dari Tiongkok"
+        fold: "Ujung dilipat ke depan membentuk bebed"
+      - name: "Upavita (Tali Suci)"
+        description: "Tali suci melintang dada, dari benang emas atau kain"
+        meaning: "Simbol dwijā 'dua kali lahir' bagi golongan brahmana, ksatria, dan waisya"
+      - name: "Makuta (Mahkota Tinggi)"
+        description: "Mahkota tinggi berhiaskan daun-daun emas, diadem bermotif kala-makara"
+        material: "Emas, dengan ornamen naga, kala, atau lotus"
+      - name: "Kalung Kundala"
+        description: "Kalung tebal emas, bertumpuk 3 lapis"
+        material: "Emas, kadang dengan permata"
+      - name: "Gelang Lengan (Keyura)"
+        description: "Gelang di lengan atas, dari emas"
+      - name: "Gelang Tangan (Kankana)"
+        description: "Gelang di pergelangan tangan, dari emas"
+      - name: "Anting Anten"
+        description: "Anting besar emas"
+      - name: "Sabuk Emas"
+        description: "Sabuk emas berlapis dengan buckle bermotif lotus"
+      - name: "Diadem / Sisir Emas"
+        description: "Ornamen tambahan di rambut atau makuta"
+    footwear: "Telanjang kaki"
+    prompt_t2i: >
+      Detailed ancient Javanese Hindu royal formal wardrobe 8th-10th century,
+      tall makuta crown with kala-makara motif, bare chest with upavita sacred
+      thread, three-layered kundala gold necklaces, keyura arm bracelets,
+      kankana wrist bracelets, anten earrings, naturally-dyed kain jedor wrapped
+      at waist with bebed front fold, gold belt with lotus buckle, no footwear,
+      earth-tone color palette with gold jewelry accents, matte fabric texture,
+      museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # PERMAISURI & PUTRI
+  # -------------------------------------------------------------------
+  queen_formal:
+    name: "Busana Kebesaran Permaisuri & Putri"
+    era: "Abad 8-10 M"
+    religion: "Hindu Siwa / Buddha Mahayana"
+    narrative_short: >
+      Busana kebesaran untuk permaisuri dan putri bangsawan. Direkonstruksi
+      dari relief candi Borobudur.
+    elements:
+      - name: "Kain Panjang Bersabuk"
+        description: "Kain panjang transparan, kadang menunjukkan kain dalam"
+      - name: "Kemben"
+        description: "Kain penutup dada, kadang transparan, dijahit benang emas"
+        motif: "Kawung, parang, atau lotus"
+      - name: "Kondé (Sanggul Tinggi)"
+        description: "Sanggul tinggi dihiasi cunduk (tajuk emas)"
+      - name: "Cunduk"
+        description: "Bentuk bunga emas, burung Garuda, atau naga"
+      - name: "Kalung Leher Ganda"
+        description: "Kalung emas berlapis, terkadang dengan lonceng kecil"
+      - name: "Gelang Lengan (Keyura)"
+        description: "Gelang emas di lengan atas"
+      - name: "Gelang Tangan (Kankana)"
+        description: "Gelang emas di pergelangan"
+      - name: "Subang (Anten)"
+        description: "Anting besar emas"
+      - name: "Lonceng Kecil Emas dijahit pada kain"
+        description: "Menghasilkan suara gemerincing saat berjalan (detail dari relief Borobudur)"
+    footwear: "Sandal kulit halus"
+    prompt_t2i: >
+      Detailed ancient Javanese queen formal wardrobe 8th-10th century, tall
+      kondé sanggul adorned with golden cunduk flower ornaments, silk kemben
+      with gold-thread embroidery and kawung motif, transparent kain with gold
+      bell ornaments sewn in, layered gold necklaces, keyura arm bracelets,
+      kankana wrist bracelets, large anten earrings, jeweled gold belt, sandal
+      leather footwear, cream silk and gold color palette, matte fabric texture
+      with golden jewelry sheen, museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # PRAJURIT
+  # -------------------------------------------------------------------
+  warrior:
+    name: "Busana Prajurit"
+    era: "Abad 8-10 M"
+    narrative_short: >
+      Busana prajurit Mataram Kuno. Direkonstruksi dari relief Bharatayuddha
+      di candi-candi era kemudian (tradisi militer berakar dari Mataram Kuno).
+    elements:
+      - name: "Kawaca"
+        description: "Baju zirah logam (tembaga atau perunggu), berbentuk rompi pendek"
+        material: "Tembaga, perunggu, atau kulit kerbau"
+      - name: "Kain Bebed"
+        description: "Kain pendek sebatas lutut"
+        color: "Merah, kuning, biru"
+      - name: "Topi Perunggu Bentuk Kerucut"
+        description: "Pelindung kepala dari perunggu"
+      - name: "Destar"
+        description: "Ikat kepala dari kain katun polos"
+      - name: "Golok Panjang / Taming"
+        description: "Pedang lurus bilah tunggal"
+      - name: "Tombak"
+        description: "Bermata bilah lebar, gagang kayu berukir"
+      - name: "Perisai Perunggu Bundar"
+        description: "Bermotif kala-makara atau lotus"
+      - name: "Anak Panah Beracun"
+        description: "Racun dari getah ipoh (Antiaris toxicaria)"
+    footwear: "Telanjang kaki atau sandal kayu"
+    prompt_t2i: >
+      Detailed ancient Javanese warrior wardrobe 8th-10th century, bronze kawaca
+      chest plate armor, red kain bebed sebatas lutut, bronze conical helmet,
+      destar cloth headband, holding tombak spear with carved wooden shaft,
+      round bronze shield with kala face motif, golok panjang sword at waist,
+      bare feet, earth-tone palette with bronze armor accents, museum-quality
+      detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # PENDETA BUDDHA
+  # -------------------------------------------------------------------
+  buddhist_priest:
+    name: "Busana Pendeta Buddha (Bhiksu)"
+    era: "Abad 8-10 M"
+    religion: "Buddha Mahayana / Vajrayana"
+    elements:
+      - name: "Jubah Sanghati"
+        description: "Jubah Buddha, melilit tubuh"
+        color: "Kunyit / saffron / oranye bata"
+      - name: "Tasbih Rudraksha"
+        description: "Tasbih 108 butir dari biji Elaeocarpus"
+      - name: "Ghanta"
+        description: "Lonceng kecil ritual Vajrayana"
+      - name: "Wajra"
+        description: "Simbol Vajrayana, dipegang saat ritual"
+    footwear: "Sandal kayu sederhana atau telanjang"
+    prompt_t2i: >
+      Detailed ancient Javanese Buddhist priest wardrobe 8th-10th century,
+      saffron sanghati robe draped over shoulder, rudraksha 108-bead prayer
+      necklace, holding ghanta bell and vajra ritual implements, simple cloth
+      belt, hair in simple sanggul, simple sandals, saffron and brown color
+      palette, matte fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # PENDETA HINDU
+  # -------------------------------------------------------------------
+  hindu_priest:
+    name: "Busana Pendeta Hindu Siwa (Resi)"
+    era: "Abad 8-10 M"
+    religion: "Hindu Siwa"
+    elements:
+      - name: "Kain Putih Sederhana"
+        description: "Kain putih dililitkan di tubuh"
+      - name: "Jatamakuta"
+        description: "Rambut disanggul tinggi"
+      - name: "Rudraksha"
+        description: "Butiran tasbih dari biji Elaeocarpus"
+      - name: "Lingga-Yoni Kecil"
+        description: "Jimat simbol Siwa"
+      - name: "Tongkat Kayu Berukir"
+        description: "Tongkat pendeta"
+    footwear: "Sandal kayu atau telanjang"
+    prompt_t2i: >
+      Detailed ancient Javanese Hindu Siwa priest wardrobe 8th-10th century,
+      simple white cloth draped over body, hair in jatamakuta high sanggul,
+      rudraksha bead necklace, small lingga-yoni amulet, carved wooden staff,
+      simple sandals, white and brown color palette, matte fabric texture,
+      museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # RAKYAT
+  # -------------------------------------------------------------------
+  commoner:
+    name: "Busana Rakyat Jelata"
+    era: "Abad 8-10 M"
+    elements:
+      - name: "Cawat (Pria)"
+        description: "Kain pendek sebatas lutut"
+        material: "Katun kasar atau kulit kayu"
+      - name: "Kemben (Wanita)"
+        description: "Kain penutup dada"
+      - name: "Kain Batik (terbatas)"
+        description: "Hanya untuk bangsawan; motif geometris sederhana"
+        motif: "Parang, kawung, lereng"
+    footwear: "Telanjang kaki"
+    prompt_t2i: >
+      Detailed ancient Javanese commoner wardrobe 8th-10th century, simple
+      cawat (loincloth) for men reaching knees, kemben chest wrap for women,
+      coarse cotton material, plain colors or simple geometric batik motif
+      for higher status, bare feet, earth-tone palette, matte fabric texture,
+      museum-quality detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# SENJATA & PROPERTI
+# =============================================================================
+artifacts:
+
+  weapons:
+    - name: "Keris Buda"
+      type: "Proto-keris"
+      era: "Abad 8-9 M"
+      description: "Bilah lurus pendek, dhapur sederhana, tanpa pamor kompleks. Simbol kedewasaan bangsawan."
+    - name: "Golok Panjang / Taming"
+      type: "Pedang lurus"
+      description: "Bilah lurus tunggal, gagang kayu atau tanduk kerbau, sarung kayu berbalut kulit."
+    - name: "Tombak"
+      type: "Senjata tusuk"
+      description: "Bermata bilah lebar, gagang kayu berukir."
+    - name: "Anak Panah Beracun"
+      type: "Senjata panah"
+      description: "Racun dari getah ipoh (Antiaris toxicaria)."
+    - name: "Perisai Perunggu Bundar"
+      type: "Pelindung"
+      description: "Bundar, bermotif kala-makara atau lotus."
+    - name: "Kawaca"
+      type: "Baju zirah"
+      description: "Rompi pendek dari tembaga/perunggu, kadang dengan lapisan kulit kerbau."
+
+  royal_regalia:
+    - name: "Payung Chatra"
+      description: "Payung kebesaran berlapis emas untuk raja"
+    - name: "Lingga-Yoni"
+      description: "Simbol kosmik Siwa, dipasang di candi-candi Hindu"
+    - name: "Stupa"
+      description: "Simbol Buddha, dimahkuti candi-candi Buddha"
+    - name: "Kipas Ekor Burung Merak"
+      description: "Kipas upacara untuk bangsawan wanita"
+
+  jewelry:
+    - name: "Kalung Kundala"
+      description: "Kalung tebal emas, bertumpuk"
+    - name: "Gelang Keyura"
+      description: "Gelang lengan atas emas"
+    - name: "Gelang Kankana"
+      description: "Gelang tangan emas"
+    - name: "Anting Anten"
+      description: "Anting besar emas"
+    - name: "Subang"
+      description: "Subang emas"
+    - name: "Diadem Makuta"
+      description: "Ornamen mahkota"
+    - name: "Cunduk"
+      description: "Tajuk emas untuk sanggul wanita"
+    - name: "Rudraksha"
+      description: "Butiran tasbih dari biji Elaeocarpus untuk pendeta Siwa"
+
+# =============================================================================
+# PROMPT LIBRARY — T2I Scene Library
+# =============================================================================
+prompt_library:
+
+  # -------------------------------------------------------------------
+  # SCENE: KARAKTER + WARDOB (Single Portrait)
+  # -------------------------------------------------------------------
+  character_portraits:
+    - id: "char_001"
+      character: "sanjaya"
+      scene: "Sanjaya di Bukit Sthirengga mendirikan lingga"
+      prompt: >
+        Cinematic portrait of King Sanjaya of Ancient Mataram kingdom 8th
+        century Java, mature man 40-50 years old with strong jawline and thin
+        mustache, piercing charismatic eyes, hair tied in high jatamakuta
+        sanggul, wearing tall golden makuta crown with kala-makara ornament,
+        barechested with upavita sacred thread across chest, three-layered gold
+        kundala necklaces, keyura arm bracelets, red naturally-dyed kain jedor
+        with bebed fold, gold belt, holding chatra royal umbrella, standing on
+        stone temple steps at Gunung Wukir, dramatic morning lighting, relief
+        carving background, hyperdetailed hyperrealistic 8k masterpiece.
+    - id: "char_002"
+      character: "rakai_pikatan"
+      scene: "Rakai Pikatan & Pramodawardhani di Prambanan"
+      prompt: >
+        Cinematic portrait of Rakai Pikatan and Pramodawardhani, ancient Javanese
+        royal couple 9th century, mature Siwa king in makuta and kain batik
+        kawung with keris, Buddhist queen in kemben with stupa crown, holding
+        hands at Prambanan temple construction site, golden hour, dramatic
+        lighting, hyperrealistic cinematic portrait, hyperdetailed 8k masterpiece.
+    - id: "char_003"
+      character: "rakai_garung"
+      scene: "Rakai Garung di paviliun Wonosobo"
+      prompt: >
+        Cinematic portrait of Rakai Garung, ancient Javanese king 9th century
+        from Wonosobo, mature bearded man 40s with wise eyes, wearing simple
+        white robe with golden kundala, sitting on stone pavilion overlooking
+        Dieng plateau with terraced rice fields, Mount Prahu in background,
+        golden hour light, hyperdetailed cinematic portrait, 8k masterpiece.
+
+  # -------------------------------------------------------------------
+  # SCENE: LOKASI (Landscape & Architecture)
+  # -------------------------------------------------------------------
+  location_scenes:
+    - id: "loc_001"
+      location: "dieng"
+      scene: "Candi Dieng saat fajar"
+      prompt: >
+        Cinematic landscape of Candi Dieng complex at dawn, ancient Hindu
+        temples 7th-8th century, Candi Arjuna with pyramidal Indian-style
+        tower, mist rolling through highland plateau 2000m above sea level,
+        lone Hindu priest in white robe performing morning ritual, ethereal
+        blue morning light, cinematic landscape, hyperdetailed 8k masterpiece.
+    - id: "loc_002"
+      location: "magelang_kedu"
+      scene: "Pembangunan Borobudur"
+      prompt: >
+        Cinematic scene of Borobudur temple construction 9th century Magelang,
+        massive stepped pyramid Buddhist temple under construction with workers
+        carving andesite stone blocks, Buddhist monks in saffron robes
+        supervising, Chinese and Indian traders observing, Mount Merapi smoking
+        in distance, golden afternoon light, painterly epic, hyperdetailed 8k.
+    - id: "loc_003"
+      location: "prambanan_plain"
+      scene: "Pembangunan Candi Prambanan"
+      prompt: >
+        Cinematic scene of Prambanan temple construction 9th century Sleman,
+        massive Hindu temple complex being built with three tall main towers,
+        workers carving andesite stone with Ramayana reliefs, King Rakai
+        Pikatan and Queen Pramodawardhani observing from viewing platform,
+        Buddhist and Hindu priests blessing the construction, Opak River being
+        diverted, golden hour lighting, painterly epic, hyperdetailed 8k
+        masterpiece.
+    - id: "loc_004"
+      location: "temanggung"
+      scene: "Pengeluaran Prasasti Mantyasih oleh Balitung"
+      prompt: >
+        Cinematic scene of Rakai Watukura Dyah Balitung issuing Prasasti
+        Mantyasih 907 M, ancient Javanese king 50s in royal court, holding
+        copper plate inscription with scribe, courtiers in velvet robes and
+        makuta, Temanggung palace hall with carved teak pillars, warm
+        candlelight, hyperrealistic historical scene, hyperdetailed 8k
+        masterpiece.
+
+  # -------------------------------------------------------------------
+  # SCENE: MOMEN BERSEJARAH (Historical Moments)
+  # -------------------------------------------------------------------
+  historical_moments:
+    - id: "mom_001"
+      title: "Sanjaya mendirikan lingga di Bukit Sthirengga (732 M)"
+      prompt: >
+        Cinematic historical scene of King Sanjaya of Mataram consecrating
+        lingga at Bukit Sthirengga (Gunung Wukir) 732 AD, ancient Javanese king
+        in white Hindu robe with golden makuta crown and kundala necklaces,
+        standing on hilltop performing ritual with fire and offerings, Hindu
+        priests in white robes chanting, smoke from ritual fire, view of Kedu
+        Plain with rice fields, Mount Merapi silhouette, dramatic sunrise
+        lighting, painterly epic, hyperdetailed 8k masterpiece.
+    - id: "mom_002"
+      title: "Pernikahan Rakai Pikatan & Pramodawardhani (± 838 M)"
+      prompt: >
+        Cinematic wedding scene of Rakai Pikatan and Pramodawardhani 9th century
+        Mataram Kuno, Hindu king in makuta and kain jedor with keris, Buddhist
+        princess in kemben with stupa crown and jewelry, holding hands in Hindu-
+        Buddhist sinkretic ceremony, Hindu and Buddhist priests blessing, royal
+        courtiers in attendance, palace hall with carved teak pillars and
+        gamelan orchestra, warm candlelight, hyperrealistic cinematic portrait,
+        hyperdetailed 8k masterpiece.
+    - id: "mom_003"
+      title: "Perpindahan Mpu Sindok ke Jawa Timur (929 M)"
+      prompt: >
+        Cinematic historical scene of Mpu Sindok leading migration to East Java
+        929 AD, elderly Javanese king 60s with white beard in white robe and
+        simple makuta, leading procession of courtiers, soldiers, and commoners
+        through river valley, carrying royal regalia and sacred objects, Mount
+        Merapi erupting in distant background, dramatic stormy sky, painterly
+        epic, hyperdetailed 8k masterpiece.
+    - id: "mom_004"
+      title: "Pralaya 1016 M — Wurawari menyerang istana"
+      prompt: >
+        Cinematic chaotic scene of Pralaya 1016 AD, Aji Wurawari of Lwaram
+        attacking Medang palace, burning wooden palace with red teak pillars,
+        soldiers in armor with keris and tombak spears fighting, Javanese royal
+        family fleeing, fire and smoke everywhere, dramatic stormy night sky,
+        painterly epic battle scene, hyperdetailed 8k masterpiece.
+    - id: "mom_005"
+      title: "Airlangga naik takhta di hutan Vanagiri (1019 M)"
+      prompt: >
+        Cinematic coronation scene of Airlangga 1019 AD in forest hermitage
+        Vanagiri, young king 30-40 years old emerging from forest, wearing
+        simple tiered kipeng crown and blue royal robe, Buddhist priest Mpu
+        Bharada blessing him, soldiers in ancient Javanese armor, forest
+        clearing with simple wooden pavilion, dramatic morning light filtering
+        through trees, painterly epic, hyperdetailed 8k masterpiece.
+
+  # -------------------------------------------------------------------
+  # SCENE: KEHIDUPAN SEHARI-HARI (Daily Life)
+  # -------------------------------------------------------------------
+  daily_life:
+    - id: "dl_001"
+      title: "Pasar Mataram Kuno"
+      prompt: >
+        Ancient Mataram market scene, 9th century rural Java, vendors selling
+        indigo-dyed cotton cloth, spices in woven baskets, bronze gong maker,
+        woman in cawat and kemben, man with early keris Buda form, candi Sewu
+        silhouette in background, earthy tone palette, warm afternoon light,
+        hyperdetailed genre painting 8k masterpiece.
+    - id: "dl_002"
+      title: "Pertanian di lereng Merapi"
+      prompt: >
+        Cinematic scene of ancient Javanese farmers 9th century Mataram Kuno,
+        terraced rice fields on slope of Mount Merapi, farmers in cawat and
+        kemben working with primitive tools, wooden stilt houses in background,
+        Borobudur temple silhouette in distance, warm afternoon light, earth-tone
+        palette, hyperdetailed genre painting 8k masterpiece.
+    - id: "dl_003"
+      title: "Pendeta Buddha meditasi di Biara"
+      prompt: >
+        Cinematic scene of Buddhist monks meditating in ancient Javanese
+        monastery 9th century, bhiksu in saffron sanghati robes sitting in
+        lotus position in stone meditation hall, incense smoke, golden
+        candlelight, bronze Buddha statue, stone relief carvings on walls,
+        hyperrealistic cinematic, hyperdetailed 8k masterpiece.
+
+# =============================================================================
+# KAWASAN GEOGRAFIS — Master Reference
+# =============================================================================
+geographical_regions:
+
+  dieng_region:
+    name: "Kawasan Dieng (Banjarnegara-Wonosobo)"
+    elevation_m: 2000
+    era_active: "Akhir abad 7 - abad 9 M"
+    religion: "Hindu Siwa"
+    importance:
+      - "Kawasan ritual pegunungan — pemujaan Siwa di dataran tinggi melambangkan axis mundi"
+      - "Pertanian ekstensif — tanah vulkanik subur"
+      - "Pusat pendidikan pendeta Siwa sebelum pindah ke Prambanan abad 9"
+    candi:
+      - "Candi Arjuna (tertua di Dieng, abad 7, gaya India Selatan)"
+      - "Candi Bima (gaya India Utara/Odisha)"
+      - "Candi Sri, Gatotkaca, Dwarawati, Sembadro, Puntadewa"
+    prasasti_terkait:
+      - "Prasasti Dieng (808 M) — prasasti tertua beraksara Jawa Kuno"
+
+  wonosobo_region:
+    name: "Kawasan Wonosobo (Garung)"
+    era_active: "Abad 9 (era Rakai Garung 829-847 M)"
+    importance:
+      - "Wilayah kekuasaan Rakai Garung (raja ke-6 Mataram Kuno)"
+      - "Pusat strategis penghubung Dieng dengan lembah Wonosobo"
+      - "Nama Garung lestari sejak abad 9 hingga kini"
+    prasasti_terkait:
+      - "Prasasti Gunung Wule (861 M) — di Desa Berahol, Ledok, Wonosobo"
+      - "Prasasti Wantil/Siwagrha (856 M) — menyebut Rakai Mamrati"
+
+  temanggung_region:
+    name: "Kawasan Temanggung"
+    era_active: "Abad 8-10 M"
+    importance:
+      - "Kabupaten dengan konsentrasi prasasti Mataram Kuno terbanyak"
+      - "Parakan (Panaraban kuno) — wilayah Rakai Panunggalan"
+      - "Kaloran — Prasasti Wanua Tengah III (908 M)"
+      - "Ngadirejo — asal Prasasti Mantyasih (907 M)"
+      - "Karangtengah — Prasasti Karangtengah (824 M)"
+    prasasti_terkait:
+      - "Prasasti Mantyasih (907 M)"
+      - "Prasasti Wanua Tengah III (908 M)"
+      - "Prasasti Rukam (907 M) — letusan gunung, Candi Sojiwan"
+      - "Prasasti Karangtengah/Kayumwungan (824 M)"
+
+  magelang_region:
+    name: "Kawasan Magelang (Kedu Plain)"
+    era_active: "732 M (Sanjaya) - abad 10"
+    importance:
+      - "Pusat awal Mataram Kuno"
+      - "Candi Gunung Wukir (Salam) — candi Hindu tertua era Sanjaya"
+      - "Borobudur — candi Buddha terbesar di dunia"
+      - "Mantyasih (Magelang Utara) — lokasi Prasasti Mantyasih"
+    landmarks:
+      - "Candi Gunung Wukir (Salam)"
+      - "Borobudur (Kec. Borobudur)"
+      - "Muntilan, Mungkid, Salam — daerah dengan candi kecil"
+
+  prambanan_region:
+    name: "Kawasan Prambanan (Sleman-Klaten)"
+    era_active: "Abad 8-10 M (era Rakai Pikatan-Kayuwangi)"
+    importance:
+      - "Pusat Mataram Kuno era Rakai Pikatan-Kayuwangi (abad 9)"
+      - "Candi Prambanan diresmikan 856 M"
+      - "Candi Sewu — kompleks Buddha terbesar di kawasan ini"
+      - "Ratu Boko — kompleks istana bukit"
+    landmarks:
+      - "Candi Prambanan/Loro Jonggrang (Sleman)"
+      - "Candi Sewu (Sleman)"
+      - "Candi Kalasan (Sleman, 778 M)"
+      - "Candi Plaosan (Klaten)"
+      - "Candi Sojiwan (Klaten)"
+      - "Ratu Boko (Sleman)"
+
+  east_java_region:
+    name: "Kawasan Jawa Timur (Watugaluh & Kahuripan)"
+    era_active: "929 M (Mpu Sindok) - 1049 M (Airlangga)"
+    importance:
+      - "Pusat Wangsa Isyana setelah Mpu Sindok pindah 929 M"
+      - "Watugaluh (Jombang) — ibu kota baru"
+      - "Sungai Brantas — jalur dagang utama"
+      - "Airlangga membangun Kahuripan setelah Pralaya 1016"
+    landmarks:
+      - "Watugaluh (Jombang)"
+      - "Candi Belahan (Pasuruan) — arca Airlangga Wisnu-Garuda"
+      - "Hutan Vanagiri (Wonogiri)"
+
+# =============================================================================
+# CATATAN PRODUKSI — Untuk Tim Drama
+# =============================================================================
+production_notes:
+
+  color_palette_overall:
+    description: >
+      Palet warna keseluruhan era Mataram Kuno harus earth-tone matte,
+      dengan kilau emas perhiasan sebagai aksen dramatik.
+    primary_colors:
+      - "Coklat tanah"
+      - "Merah bata"
+      - "Kuning gambir"
+      - "Hitam jelaga"
+      - "Krem sutera"
+    accent_colors:
+      - "Emas (perhiasan dan makuta)"
+      - "Saffron (jubah Buddha)"
+      - "Biru tua (kain jedor raja)"
+      - "Hijau zaitun (jubah Airlangga)"
+    forbidden_colors:
+      - "Warna sintetis cerah (tidak ada di era Mataram Kuno)"
+      - "Merah mencolok modern (gunakan merah bata alami)"
+
+  texture_palette:
+    fabric:
+      - "Sutera tipis (impor Tiongkok-India)"
+      - "Katun kasar (lokal)"
+      - "Kain kulit kayu (rakyat jelata)"
+    metal:
+      - "Emas (perhiasan, makuta)"
+      - "Perunggu (kawaca, perisai, topi prajurit)"
+      - "Tembaga (gelang sederhana)"
+    stone:
+      - "Andesit (candi)"
+      - "Bata merah (istana)"
+
+  sound_design:
+    ambient:
+      - "Gemerincing lonceng kecil pada kain wanita bangsawan (detail Borobudur)"
+      - "Denting gong perunggu"
+      - "Kidung mantera Buddha"
+      - "Suara air terjun di lereng Dieng"
+    music:
+      - "Gamelan perunggu kuno (untuk upacara)"
+      - "Suling bambu (untuk suasana damai)"
+      - "Kidung kakawin (puisi Sankrit-Kawi)"
+
+  cultural_authenticity:
+    important_details:
+      - "Tidak ada sepatu untuk raja/bangsawan — telanjang kaki (tradisi Jawa kuno)"
+      - "Dada terbuka untuk raja Hindu (dengan upavita)"
+      - "Rambut selalu disanggul (jatamakuta untuk pria, kondé untuk wanita)"
+      - "Perhiasan emas berlimpah untuk bangsawan"
+      - "Rakyat jelata memakai kain kasar atau kulit kayu"
+      - "Batik terbatas, motif geometris sederhana (parang, kawung, lereng)"
+
+# =============================================================================
+# END OF MASTER PHASE 1
+# =============================================================================
