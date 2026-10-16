@@ -39,26 +39,36 @@ Warisan Mataram Kuno yang paling monumental adalah candi-candi megah: **Candi Gu
 
 ### 1.2 Daftar Lengkap Raja-Raja Mataram Kuno
 
-Berikut daftar raja-raja Mataram Kuno periode Jawa Tengah, disusun berdasarkan **Prasasti Mantyasih (907 M)** dan **Prasasti Wanua Tengah III (908 M)** — keduanya dikeluarkan pada masa Balitung:
+Berikut daftar raja-raja Mataram Kuno periode Jawa Tengah, disusun berdasarkan **Prasasti Mantyasih (907 M)** dan **Prasasti Wanua Tengah III (908 M)** — keduanya dikeluarkan pada masa Balitung. **Prasasti Wanua Tengah III** lebih lengkap karena memuat tanggal pasti naik takhta setiap raja, dan menyebut 12 raja sebelum Balitung (Prasasti Mantyasih hanya menyebut 9 raja — tidak menyebut Dyah Gula, Dyah Tagwas, Panumwangan, dan Gurunwangi):
 
 | # | Nama Raja & Gelar | Periode | Lokasi Wilayah Asal (Rakai) | Sumber Primer |
 |---|---|---|---|---|
 | 1 | **Rakai Mataram Sang Ratu Sanjaya** | ± 732–746 M | Mataram (Magelang-Yogyakarta) | Prasasti Canggal 732 M |
-| 2 | **Sri Maharaja Rakai Panangkaran** (Dyah Pancapana) | 746–784 M | Panangkaran (Kalasan, Sleman) | Prasasti Kalasan 778 M, Prasasti Kelurak 782 M |
-| 3 | **Sri Maharaja Rakai Panunggalan / Panaraban** | 784–803 M | Panaraban (Parakan, Temanggung) | Prasasti Wanua Tengah III 908 M |
-| 4 | **Sri Maharaja Rakai Warak** (Dyah Manara) | 803–827 M | Warak (lokasi belum teridentifikasi) | Prasasti Mantyasih, Prasasti Wanua Tengah III |
-| 5 | **Dyah Gula** (tidak bergelar Rakai) | 827–829 M | Tidak diketahui | Prasasti Wanua Tengah III |
-| 6 | **Sri Maharaja Rakai Garung** | 828–847 M | **Garung (Kec. Garung, Wonosobo)** | Prasasti Wanua Tengah III, Prasasti Argapura 863 M |
-| 7 | **Sri Maharaja Rakai Pikatan** (Mpu Manuku / Rakai Mamrati) | 847–855 M | Pikatan (Prambanan) → Mamrati (Kedu) | Prasasti Wantil, Prasasti Argapura 863 M |
-| 8 | **Sri Maharaja Rakai Kayuwangi** (Dyah Lokapala) | 855–885 M | Kayuwangi (Kahuman, Klaten) | Prasasti Siwagrha/Wantil 856 M |
-| 9 | **Sri Maharaja Rakai Watuhumalang** (Mpu Teguh) | ± 885–898 M | Watuhumalang (belum teridentifikasi) | Prasasti Panunggalan 896 M, Prasasti Mantyasih 907 M |
-| 10 | **Sri Maharaja Rakai Watukura Dyah Balitung** | 898–910 M | Watukura (belum teridentifikasi) | Prasasti Mantyasih 907 M, Prasasti Wanua Tengah III 908 M |
-| 11 | **Sri Maharaja Daksa** (Rakai Gurunwangi) | 910–919 M | Gurunwangi | Prasasti Poh Galuh |
-| 12 | **Sri Maharaja Tulodong** | 919–924 M | — | Prasasti Sangguran |
-| 13 | **Sri Maharaja Rakai Pangkaja Dyah Wawa** | 924–928 M | Pangkaja | Prasasti Linggasutan |
-| 14 | **Mpu Sindok** (Wangsa Isyana) | 929–947 M | — | Prasasti Anjuk Ladang, Prasasti Calcutta |
+| 2 | **Sri Maharaja Rakai Panangkaran** (Dyah Pancapana) | 746–784 M (naik takhta 3 Oktober 746 M) | Panangkaran (Kalasan, Sleman) | Prasasti Kalasan 778 M, Prasasti Kelurak 782 M, Prasasti Wanua Tengah III |
+| 3 | **Sri Maharaja Rakai Panunggalan / Panaraban** | 784–803 M (naik takhta 6 Maret 784 M) | Panaraban (Parakan, Temanggung) | Prasasti Wanua Tengah III 908 M |
+| 4 | **Sri Maharaja Rakai Warak** (Dyah Manara) | 803–827 M (naik takhta 3 Maret 803 M) | Warak (lokasi belum teridentifikasi) | Prasasti Mantyasih, Prasasti Wanua Tengah III |
+| 5 | **Dyah Gula** (tidak bergelar Rakai) | 827–829 M (naik takhta 26 Juli 827 M) | Tidak diketahui | Prasasti Wanua Tengah III |
+| 6 | **Sri Maharaja Rakai Garung** | 829–847 M (naik takhta 10 Januari 829 M) | **Garung (Kec. Garung, Wonosobo)** | Prasasti Wanua Tengah III, Prasasti Argapura 863 M |
+| 7 | **Sri Maharaja Rakai Pikatan** (Dyah Saladū) | 847–855 M (naik takhta 6 Maret 847 M) | Pikatan (Prambanan) | Prasasti Wanua Tengah III, Prasasti Wantil/Siwagrha 856 M |
+| 8 | **Sri Maharaja Rakai Kayuwangi** (Dyah Lokapala) | 855–885 M (naik takhta 8 Juni 855 M) | Kayuwangi (Kahuman, Klaten) | Prasasti Siwagrha/Wantil 856 M, Prasasti Wanua Tengah III |
+| 9 | **Dyah Tagwas** (Sri Jayakirtiwardhana) | 885 M (17 Februari – 25 Agustus 885 M, ~6 bulan) | Tidak diketahui | Prasasti Wanua Tengah III, Prasasti Er Hangat |
+| 10 | **Sri Maharaja Rakai Panumwangan** (Dyah Dewendra) | 885–887 M (naik takhta 3 Oktober 885 M) | Panumwangan | Prasasti Wanua Tengah III |
+| 11 | **Sri Maharaja Rakai Gurunwangi** (Dyah Bhadra) | 887 M (naik takhta 18 Januari 887 M, lalu "minggat" dari kraton) | Gurunwangi | Prasasti Wanua Tengah III |
+| — | *Masa vakum ~8 tahun* (887–894 M) | 887–894 M | — | Prasasti Wanua Tengah III |
+| 12 | **Sri Maharaja Rakai Watuhumalang** (Dyah Jbang) | 894–898 M (naik takhta 21 November 894 M, wafat 10 Mei 898 M) | Watuhumalang | Prasasti Panunggalan 896 M, Prasasti Wanua Tengah III, Prasasti Mantyasih 907 M |
+| 13 | **Sri Maharaja Rakai Watukura Dyah Balitung** | 898–910 M (naik takhta 10 Mei 898 M) | Watukura (belum teridentifikasi) | Prasasti Mantyasih 907 M, Prasasti Wanua Tengah III 908 M |
+| 14 | **Sri Maharaja Mpu Daksa** | 910–919 M (naik takhta 21 Desember 910 M, wafat 12 Juli 919 M) | — | Prasasti Poh Galuh |
+| 15 | **Sri Maharaja Tulodong** | 919–924 M | — | Prasasti Sangguran |
+| 16 | **Sri Maharaja Rakai Pangkaja Dyah Wawa** | 924–928 M | Pangkaja | Prasasti Linggasutan |
+| 17 | **Mpu Sindok** (Wangsa Isyana) | 929–947 M | — | Prasasti Anjuk Ladang 937 M, Prasasti Calcutta 1042 M |
 
-**Catatan**: Tokoh **Samaratungga** dari Wangsa Syailendra memerintah ± 802–842 M, sejajar dengan Rakai Warak-Dyah Gula-Rakai Garung. Ia adalah pembangun Borobudur dan disebut dalam **Prasasti Karangtengah/Kayumwungan (824 M)** — ditemukan di Karangtengah, Temanggung — bersama putrinya Pramodawardhani. Sebagian sejarawan (Slamet Muljana) mengidentifikasi Rakai Garung dengan Samaratungga, namun teori ini masih diperdebatkan dan Prasasti Wanua Tengah III cenderung menyangkalnya.
+**Catatan penting**:
+- **Prasasti Wanua Tengah III** (908 M) lebih lengkap daripada **Prasasti Mantyasih** (907 M) — menyebut 4 raja tambahan: Dyah Gula, Dyah Tagwas, Rakai Panumwangan, dan Rakai Gurunwangi. Prasasti Mantyasih melompati raja-raja singkat/non-Sanjaya ini.
+- Tokoh **Samaratungga** dari Wangsa Syailendra memerintah ± 802–842 M, sejajar dengan Rakai Warak-Dyah Gula-Rakai Garung. Ia adalah pembangun Borobudur dan disebut dalam **Prasasti Karangtengah/Kayumwungan (824 M)** bersama putrinya Pramodawardhani.
+- **Mpu Manuku** adalah pejabat yang menjadi **Rakai Patapan** (kepala daerah Patapan) pada era Rakai Pikatan — bukan nama lain dari Rakai Pikatan. Namanya muncul dalam Prasasti Tulang Air (850 M) dan Prasasti Wanua Tengah II (863 M). Dulu, sebelum Prasasti Wanua Tengah III ditemukan (1983), sejarawan mengira Mpu Manuku adalah nama asli Rakai Pikatan, tetapi kini diketahui bahwa nama asli Rakai Pikatan adalah **Dyah Saladū**.
+- **Mpu Teguh** adalah tokoh berbeda dari Rakai Watuhumalang. Mpu Teguh disebut dalam **Prasasti Panunggalan (896 M)** sebagai *haji* (raja bawahan) Watuhumalang, sedangkan Dyah Jbang adalah maharaja. Ada kemungkinan Mpu Teguh menggantikan posisi Dyah Jbang sebagai kepala daerah Watuhumalang ketika Dyah Jbang naik menjadi maharaja di pusat.
+- Sebagian sejarawan (Slamet Muljana) mengidentifikasi Rakai Garung dengan Samaratungga, namun teori ini diperdebatkan dan Prasasti Wanua Tengah III cenderung menyangkalnya.
+- **Rakai Gurunwangi Dyah Bhadra** (887 M) berbeda dari **Mpu Daksa** (910–919 M). Sering keliru disamakan — keduanya adalah tokoh berbeda. Rakai Gurunwangi "minggat" dari kraton tahun 887 M, menyebabkan masa vakum kekuasaan selama hampir 8 tahun sebelum Rakai Watuhumalang naik takhta 894 M.
 
 ### 1.3 Kawasan Geografis Penting Mataram Kuno
 
@@ -73,7 +83,7 @@ Dieng menyimpan pentingnya karena:
 
 #### B. Kawasan Wonosobo (Garung, Kecamatan Penting Mataram Kuno)
 
-**Kecamatan Garung** (8,5 km utara Kota Wonosobo) — nama ini masih lestari sejak abad ke-9 sebagai wilayah kekuasaan **Rakai Garung** (raja ke-6 Mataram Kuno, 828–847 M). Garung terletak di lereng selatan Dataran Tinggi Dieng, menjadikannya pusat strategis yang menghubungkan kawasan ritual Dieng dengan lembah pertanian Wonosobo.
+**Kecamatan Garung** (8,5 km utara Kota Wonosobo) — nama ini masih lestari sejak abad ke-9 sebagai wilayah kekuasaan **Rakai Garung** (raja ke-6 Mataram Kuno, naik takhta 10 Januari 829 M). Garung terletak di lereng selatan Dataran Tinggi Dieng, menjadikannya pusat strategis yang menghubungkan kawasan ritual Dieng dengan lembah pertanian Wonosobo.
 
 Prasasti-prasasti penting dari kawasan Wonosobo:
 - **Prasasti Gunung Wule (861 M / 783 Saka)** — ditemukan di Desa Berahol, Ledok, Wonosobo. Berisi peresmian Desa Taju sebagai *watak* (wilayah kekuasaan). Menunjukkan bahwa Wonosobo adalah wilayah penting pada era Rakai Kayuwangi.
@@ -180,9 +190,9 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi-Sindoro-Sumbing, 
 - **Latar**: Identifikasi pasti tokoh ini masih misterius. Mungkin adalah raja transisi atau berasal dari garis Syailendra.
 - **Karakter drama**: Figur transisional, singkat dalam takhta. Visual: pria paruh baya, makuta sederhana.
 
-#### Rakai Garung (828–847 M)
+#### Rakai Garung (829–847 M)
 - **Peran**: Raja ke-6 Mataram Kuno, penguasa wilayah **Garung** — sekarang **Kecamatan Garung, Kabupaten Wonosobo** (8,5 km utara Kota Wonosobo, luas 46,93 km², populasi ±47.954 jiwa sensus 2010). Garung terletak di lereng selatan Dataran Tinggi Dieng — menjadikannya pusat strategis yang menghubungkan kawasan ritual Dieng dengan lembah Wonosobo.
-- **Latar**: **Prasasti Argapura (863 M)** menyebut Rakai Pikatan dengan nama Mpu Manuku, dan menyiratkan bahwa sebelum Pikatan ada raja yang berkuasa di kawasan Gunung Argapura (dekat Dieng). Beberapa sejarawan mengidentifikasi Rakai Garung dengan **Samaratungga** (raja Syailendra, ± 802–842 M, pembangun Borobudur) — namun teori ini masih diperdebatkan. Yang jelas, era Rakai Garung adalah puncak kebesaran Wangsa Syailendra di Jawa, dengan penyelesaian Borobudur ± 825 M.
+- **Latar**: Naik takhta 10 Januari 829 M (menurut Prasasti Wanua Tengah III). Disebut dalam Prasasti Wanua Tengah III sebagai "anak sang lumah i tūk" (anak orang yang meninggal di Tuk). Beberapa sejarawan mengidentifikasi Rakai Garung dengan **Samaratungga** (raja Syailendra, ± 802–842 M, pembangun Borobudur) — namun teori ini masih diperdebatkan dan Prasasti Wanua Tengah III cenderung menyangkalnya (karena Samaratungga Buddha sedangkan Rakai Garung disebut dalam konteks Sanjaya Hindu). Yang jelas, era Rakai Garung adalah puncak kebesaran Wangsa Syailendra di Jawa, dengan penyelesaian Borobudur ± 825 M.
 - **Karakter drama**: Visioner religius, sabar, ahli administrasi. Mengembangkan kawasan Wonosobo-Dieng sebagai pusat spiritual Buddha-Hindu. Visual: pria matang 40-50 tahun, jubah sanghati atau kain putih, makuta sederhana, kalung tasbih rudraksha atau kundala emas.
 - **Konflik potensial**: Persaingan dengan cabang Wangsa Sanjaya di Prambanan; pengelolaan proyek Borobudur yang memakan sumber daya besar.
 
@@ -192,9 +202,9 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi-Sindoro-Sumbing, 
 - **Karakter drama**: Cendekia, religius, lebih suka membangun daripada menaklukkan. Visual: pria matang 40-50 tahun, jubah sanghati saffron, makuta buddhis dengan stupa mini, kalung tasbih.
 - **Catatan**: Hubungan persis antara Samaratungga (Syailendra) dengan Rakai Garung (Sanjaya) masih diperdebatkan — sebagian sejarawan menganggap keduanya tokoh yang sama, sebagian lain tokoh berbeda yang berkuasa bersama.
 
-#### Rakai Pikatan / Mpu Manuku / Rakai Mamrati (847–855 M)
-- **Peran**: Raja ke-7 Mataram Kuno. Menikahi **Pramodawardhani** (putri Samaratungga dari Syailendra), menyatukan dua wangsa. Membangun **Candi Prambanan (Loro Jonggrang)** — dibangun mulai ± 850 M dan diresmikan 856 M berdasarkan **Prasasti Siwagrha/Wantil (856 M)**.
-- **Latar**: **Prasasti Argapura (863 M)** menyebut Rakai Pikatan dengan nama **Mpu Manuku**, menunjukkan ia pernah menjabat sebagai kepala daerah di Pikatan sebelum menjadi maharaja. Setelah membangun ibu kota baru di desa Mamrati, ia bergelar **Rakai Mamrati**. Mamrati diperkirakan di kawasan Kedu (Magelang-Temanggung-Wonosobo). Prasasti Siwagrha menyebut bahwa ia Siwa, sedangkan permaisurinya Pramodawardhani Buddha — bukti sinkretisme politik.
+#### Rakai Pikatan / Dyah Saladū (847–855 M)
+- **Peran**: Raja ke-7 Mataram Kuno. Nama asli **Dyah Saladū** menurut Prasasti Wanua Tengah III (908 M). Menikahi **Pramodawardhani** (putri Samaratungga dari Syailendra), menyatukan dua wangsa. Membangun **Candi Prambanan (Loro Jonggrang)** — dibangun mulai ± 850 M dan diresmikan 856 M berdasarkan **Prasasti Siwagrha/Wantil (856 M)**.
+- **Latar**: Naik takhta 6 Maret 847 M. Dalam Prasasti Wantil, ia bergelar **Rakai Mamrati Sang Jatiningrat** — menunjukkan ia memindahkan ibu kota ke Mamrati (kawasan Kedu). Catatan penting: **Mpu Manuku** (yang dulu sejarawan kira adalah nama asli Rakai Pikatan) adalah pejabat lain yang menjabat sebagai **Rakai Patapan** (kepala daerah Patapan) pada era Rakai Pikatan — disebut dalam Prasasti Tulang Air (850 M) dan Prasasti Wanua Tengah II (863 M). Mamrati diperkirakan di kawasan Kedu (Magelang-Temanggung-Wonosobo). Prasasti Siwagrha menyebut bahwa ia Siwa, sedangkan permaisurinya Pramodawardhani Buddha — bukti sinkretisme politik.
 - **Karakter drama**: Politikus ulung, ambisius namun romantik. Menguasai strategi perang dan diplomasi. Mengalahkan saudara/sepupu istrinya, **Balaputradewa**, dalam perebutan kekuasaan (mungkin sekitar 856 M). Visual: pria matang 40-an, garang, makuta tinggi berornamen, kain jedor dengan motif kawung.
 - **Konflik potensial**: Konflik dengan Balaputradewa (yang kemudian pergi ke Sriwijaya); ketegangan antara pendeta Siwa dan Buddha; pembangunan Candi Prambanan sebagai pernyataan politik keagamaan.
 
@@ -215,22 +225,39 @@ Pemandangan sehari-hari: sawah-sawah berundak di lereng Merapi-Sindoro-Sumbing, 
 - **Karakter drama**: Cerdas, ahli teknik, religius Siwa. Memerintah 30 tahun (855-885 M) — era stabil dan produktif. Memproduksi 12 prasasti selama pemerintahannya. Visual: pria matang 30-50 tahun, tenang, makuta dengan ornamen dewa Siwa.
 - **Konflik potensial**: Pemberontakan Rakai Walaing pu Kumbayoni (raja yang mengaku keturunan raja Jawa); ketegangan internal Wangsa Sanjaya pasca-Pramodawardhani.
 
-#### Rakai Watuhumalang / Mpu Teguh (± 885–898 M)
-- **Peran**: Raja ke-9 Mataram Kuno, naik takhta setelah perebutan kekuasaan antara Rakai Gurunwangi dan Rakai Kayuwangi.
-- **Latar**: **Prasasti Panunggalan (896 M)** menyebut tokoh **Sang Watuhumalang Mpu Teguh** — namun tidak bergelar maharaja, melainkan hanya bergelar *haji* (raja bawahan). **Prasasti Wanua Tengah III (908 M)** menyebut **Rake Wunkalhumalang Dyah Jbang**. **Prasasti Mantyasih (907 M)** menyebut **Sri Maharaja Rakai Watuhumalang**. Dari perpaduan ketiga prasasti, terlihat bahwa Watuhumalang awalnya hanya raja bawahan, lalu naik menjadi maharaja.
-- **Karakter drama**: Ambisius, naik dari raja bawahan menjadi maharaja. Lokasi pasti wilayah Watuhumalang belum teridentifikasi. Visual: pria matang 50-an, ekspresi tegas, makuta sederhana.
-- **Konflik potensial**: Perebutan takhta pasca-Rakai Kayuwangi; transisi dari era stabil ke era konflik internal.
+#### Dyah Tagwas (Sri Jayakirtiwardhana) — 885 M (~6 bulan)
+- **Peran**: Raja ke-9 Mataram Kuno (yang sering dilupakan). Naik takhta 17 Februari 885 M, hanya memerintah ~6 bulan hingga 25 Agustus 885 M. Gelar lengkap: Maharaja Dyah Tagwas Sri Jayakirtiwardhana (menurut Prasasti Er Hangat).
+- **Latar**: Disebut dalam Prasasti Wanua Tengah III (908 M) — tidak disebut dalam Prasasti Mantyasih (907 M). Ia menggantikan Rakai Kayuwangi (Dyah Lokapala) yang memerintah 30 tahun. Masa kekuasaannya yang singkat menunjukkan instabilitas politik.
+- **Karakter drama**: Figur transisional, singkat dalam takhta. Mungkin raja tua yang sakit, atau raja boneka yang dikudeta. Visual: pria paruh baya/tua, makuta sederhana, ekspresi lelah.
+
+#### Rakai Panumwangan / Dyah Dewendra (885–887 M)
+- **Peran**: Raja ke-10 Mataram Kuno. Naik takhta 3 Oktober 885 M. Sama seperti Dyah Tagwas, ia tidak disebut dalam Prasasti Mantyasih — hanya muncul di Prasasti Wanua Tengah III.
+- **Latar**: Lokasi wilayah Panumwangan belum teridentifikasi. Memerintah singkat — dikatakan "terusir dari istana" (menurut beberapa sumber). Tidak mengubah status tanah sima di Pikatan.
+- **Karakter drama**: Figur singkat, mungkin dikudeta atau terlibat intrik istana. Visual: pria muda-matang, makuta sederhana.
+
+#### Rakai Gurunwangi / Dyah Bhadra (887 M)
+- **Peran**: Raja ke-11 Mataram Kuno. Naik takhta 18 Januari 887 M, lalu **"minggat" (pergi) dari kraton** tahun itu juga — menyebabkan **masa vakum kekuasaan selama hampir 8 tahun** (887–894 M) di Pulau Jawa.
+- **Latar**: Disebut dalam Prasasti Wanua Tengah III sebagai Rakai Gurunwangi Dyah Bhadra. **Bukan Mpu Daksa** (raja 910-919 M) — keduanya sering keliru disamakan. Lokasi Gurunwangi belum teridentifikasi. "Minggat" dari kraton — mungkin karena kudeta, konflik internal, atau pengasingan sukarela.
+- **Karakter drama**: Tragis — naik takhta lalu diasingkan/pergi. Simbol krisis dinasti Sanjaya. Visual: pria paruh baya, makuta sederhana, ekspresi terjepit.
+- **Konflik potensial**: Krisis suksesi pasca-Rakai Kayuwangi; faksi-faksi pesaing di istana; mungkin terkait dengan ketegangan Siwa-Buddha.
+
+#### Rakai Watuhumalang / Dyah Jbang (894–898 M)
+- **Peran**: Raja ke-12 Mataram Kuno. Naik takhta 21 November 894 M (setelah ~8 tahun masa vakum), wafat 10 Mei 898 M. Disebut dalam tiga prasasti: Prasasti Panunggalan (896 M), Prasasti Wanua Tengah III (908 M), dan Prasasti Mantyasih (907 M).
+- **Latar**: Nama asli **Dyah Jbang** (atau Rake Wunkalhumalang Dyah Jbang menurut Prasasti Wanua Tengah III). **Bukan Mpu Teguh** — Mpu Teguh adalah tokoh terpisah yang disebut dalam Prasasti Panunggalan (896 M) sebagai *haji* (raja bawahan) Watuhumalang. Kemungkinan Mpu Teguh menggantikan posisi Dyah Jbang sebagai kepala daerah Watuhumalang ketika Dyah Jbang naik menjadi maharaja di pusat. Lokasi pasti wilayah Watuhumalang belum teridentifikasi.
+- **Karakter drama**: Ambisius, naik dari kekosongan kekuasaan. Mungkin berasal dari militer atau aristokrat kuat yang mengisi vacuum. Menantu dari raja sebelumnya (kemungkinan). Visual: pria matang 50-an, ekspresi tegas, makuta sederhana.
+- **Konflik potensial**: Mengisi vacuum kekuasaan setelah 8 tahun krisis; persaingan dengan faksi lain yang juga ingin takhta.
 
 #### Rakai Watukura Dyah Balitung (898–910 M)
-- **Peran**: Raja ke-10 Mataram Kuno, salah satu raja terbesar. Mengeluarkan **Prasasti Mantyasih (907 M)** dan **Prasasti Wanua Tengah III (908 M)** — dua prasasti terpenting untuk rekonstruksi sejarah Mataram Kuno.
-- **Latar**: Naik takhta karena pernikahan dengan putri raja sebelumnya — bukan pewaris langsung. **Prasasti Mantyasih (Prasasti Tembaga Kedu)** ditemukan di Kampung Ngadirejo, Parakan, Temanggung; sekarang disimpan di Museum Radya Pustaka, Solo. Prasasti ini berisi daftar lengkap raja-raja Mataram dari Sanjaya hingga Balitung — dibuat sebagai upaya legitimasi Balitung sebagai pewaris takhta yang sah. Prasasti Wanua Tengah III, ditemukan di Dukuh Kedunglo, Kaloran, Temanggung (1983), memuat daftar 13 raja dengan tanggal naik takhta.
+- **Peran**: Raja ke-13 Mataram Kuno (raja ke-9 menurut Prasasti Mantyasih yang melompati 4 raja singkat). Salah satu raja terbesar. Mengeluarkan **Prasasti Mantyasih (907 M)** dan **Prasasti Wanua Tengah III (908 M)** — dua prasasti terpenting untuk rekonstruksi sejarah Mataram Kuno.
+- **Latar**: Naik takhta 10 Mei 898 M, setelah masa pemerintahan Rakai Watuhumalang (Dyah Jbang). Naik takhta karena pernikahan dengan putri raja sebelumnya (kemungkinan menantu Dyah Jbang) — bukan pewaris langsung. **Prasasti Mantyasih (Prasasti Tembaga Kedu)** ditemukan di Kampung Ngadirejo, Parakan, Temanggung; sekarang disimpan di Museum Radya Pustaka, Solo. Prasasti ini berisi daftar lengkap raja-raja Mataram dari Sanjaya hingga Balitung — dibuat sebagai upaya legitimasi Balitung sebagai pewaris takhta yang sah. Prasasti Wanua Tengah III, ditemukan di Dukuh Kedunglo, Kaloran, Temanggung (1983), memuat daftar 13 raja dengan tanggal naik takhta.
 - **Karakter drama**: Politisi ulung, ahli administrasi, visioner. Membuat daftar raja untuk melegitimasi kekuasaannya. Ekspansi militer ke Jawa Timur. Visual: pria matang 50-an, makuta tinggi, kalung kundala emas, kain jedor dengan motif kawung.
-- **Konflik potensial**: Kudeta oleh Daksa (Rakai Gurunwangi) sekitar 910-911 M yang menggulingkannya.
+- **Konflik potensial**: Kudeta oleh Mpu Daksa sekitar 910-911 M yang menggulingkannya.
 
-#### Daksa / Rakai Gurunwangi (910–919 M)
-- **Peran**: Raja ke-11 Mataram Kuno. Naik takhta lewat kudeta terhadap Balitung (910-911 M).
-- **Latar**: Disebut dalam **Prasasti Poh Galuh** (atau Er Kuwiŋ) — diidentifikasi sebagai Rakai Gurunwangi yang menggulingkan Balitung.
-- **Karakter drama**: Ambisius, ahli intrik. Visual: pria matang 50-an, ekspresi tajam, makuta sederhana.
+#### Mpu Daksa / Sri Maharaja Daksa (910–919 M)
+- **Peran**: Raja ke-14 Mataram Kuno (penerus Balitung). Naik takhta 21 Desember 910 M, wafat 12 Juli 919 M. **Bukan Rakai Gurunwangi Dyah Bhadra** — keduanya sering keliru disamakan tetapi adalah tokoh berbeda.
+- **Latar**: Disebut dalam **Prasasti Poh Galuh** sebagai penerus Balitung. Naik takhta setelah kudeta yang menggulingkan Balitung sekitar 910-911 M. Daksa adalah raja dari garis yang berbeda — kemungkinan dari faksi pemberontak yang menentang Balitung.
+- **Karakter drama**: Ambisius, ahli intrik. Naik lewat kudeta, namun memerintah secara sah. Visual: pria matang 50-an, ekspresi tajam, makuta sederhana.
+- **Konflik potensial**: Kudeta terhadap Balitung; konsolidasi kekuasaan setelah konflik internal.
 
 #### Mpu Sindok (929–947 M) — Pendiri Wangsa Isyana
 - **Peran**: Raja terakhir Wangsa Sanjaya di Jawa Tengah, pendiri Wangsa Isyana di Jawa Timur. Memindahkan pusat Mataram Kuno ke Jawa Timur (Medang i Tamwlang, lalu Watugaluh) pada 929 M.
@@ -258,15 +285,15 @@ Berikut daftar prasasti-prasasti penting era Mataram Kuno yang menjadi sumber ut
 | 6 | **Prasasti Dieng** | 808 M | Dataran Tinggi Dieng, Banjarnegara | Prasasti tertua beraksara Jawa Kuno |
 | 7 | **Prasasti Karangtengah/Kayumwungan** | 824 M | Karangtengah, Temanggung | Samaratungga, Pramodawardhani, Jinalaya |
 | 8 | **Prasasti Gunung Wule** | 861 M | Berahol, Ledok, Wonosobo | Peresmian desa Taju sebagai watak |
-| 9 | **Prasasti Argapura** | 863 M | Argapura (dekat Dieng) | Rakai Pikatan = Mpu Manuku |
+| 9 | **Prasasti Argapura** | 863 M | Argapura | Menyebut "Pu Manuko(u)" sebagai Rakai Pikatan (jabatan kepala daerah di era Rakai Kayuwangi) |
 | 10 | **Prasasti Nalanda** | 860 M | Nalanda, Bengala, India | Balaputradewa, Devapala, wihara Nalanda |
 | 11 | **Prasasti Siwagrha/Wantil** | 856 M | Prambanan | Dyah Lokapala (Rakai Kayuwangi), Candi Prambanan |
 | 12 | **Prasasti Panunggalan** | 896 M | Panunggalan | Sang Watuhumalang Mpu Teguh sebagai haji |
 | 13 | **Prasasti Mantyasih** | 907 M | Ngadirejo, Parakan, Temanggung | Daftar raja Sanjaya–Balitung |
 | 14 | **Prasasti Rukam** | 907 M | Temanggung | Letusan gunung (Sindoro?), perbaikan desa, Candi Sojiwan |
 | 15 | **Prasasti Wanua Tengah III** | 908 M | Kedunglo, Gandulan, Kaloran, Temanggung | Daftar 13 raja lengkap dengan tanggal |
-| 16 | **Prasasti Poh Galuh** | 910-an M | — | Daksa (Rakai Gurunwangi) |
-| 17 | **Prasasti Anjuk Ladang** | 859 Saka (935 M) | Nganjuk, Jawa Timur | Mpu Sindok, kemenangan atas Malayu |
+| 16 | **Prasasti Poh Galuh** | 910-an M | — | Mpu Daksa (penerus Balitung) |
+| 17 | **Prasasti Anjuk Ladang** | 859 Saka (937 M versi Damais) / 857 Saka (935 M versi Brandes) | Nganjuk, Jawa Timur | Mpu Sindok, kemenangan atas Malayu |
 | 18 | **Prasasti Calcutta/Pucangan** | 1042 M | Bengal, India (Calcutta Museum) | Silsilah Mpu Sindok hingga Airlangga |
 
 ### 1.9 Prompt SD Siap Pakai (Stable Diffusion 1.5)

@@ -253,3 +253,97 @@ Catatan teknis:
 - Saat meng-overwrite file dengan Write, era 2-10 sempat hilang
 - Saya pulihkan era 2-10 dengan menambahkannya kembali via bash append
 - Era 2-10 masih dalam versi awal (belum diaudit seperti era 1)
+
+---
+Task ID: 5 (audit phase 1 Mataram Kuno - RE-AUDIT KEDUA)
+Agent: Main Agent (Z.ai)
+Task: Audit ulang fase 1 era Mataram Kuno dengan double cek, koreksi kesalahan yang masih ada
+
+Work Log:
+- Membaca ulang seluruh bagian era Mataram Kuno (baris 28-310) dengan teliti
+- Web search verifikasi tambahan (3 batch) untuk:
+  * Rakai Watuhumalang (Dyah Jbang vs Mpu Teguh)
+  * Prasasti Anjuk Ladang (935 M vs 937 M)
+  * Mpu Bharada (apakah Buddha atau Siwa - ternyata Buddha)
+  * Dyah Tagwas, Rakai Panumwangan
+  * Prasasti Argapura 863 M - isi sebenarnya
+- Menemukan KESALAHAN SIGNIFIKAN yang sebelumnya tidak terdeteksi
+
+KOREKSI UTAMA YANG DILAKUKAN (11 koreksi):
+
+1. **Daftar raja Mataram Kuno DIPERLUAS dari 14 menjadi 17 raja**:
+   - Tokoh yang HILANG sebelumnya:
+     * Dyah Tagwas (Sri Jayakirtiwardhana) - naik takhta 17 Februari 885 M, hanya 6 bulan
+     * Rakai Panumwangan Dyah Dewendra - naik takhta 3 Oktober 885 M
+     * Rakai Gurunwangi Dyah Bhadra - naik takhta 18 Januari 887 M, lalu "minggat" dari kraton
+   - Ditambahkan juga masa vakum ~8 tahun (887-894 M) antara Rakai Gurunwangi dan Rakai Watuhumalang
+
+2. **Rakai Pikatan**: 
+   - SEBELUMNYA: "Rakai Pikatan / Mpu Manuku / Rakai Mamrati (847-855 M)"
+   - KOREKSI: "Rakai Pikatan / Dyah Saladū (847-855 M)"
+   - Mpu Manuku adalah pejabat lain (Rakai Patapan), BUKAN nama lain Rakai Pikatan
+   - Sumber: Wikipedia EN/ID Rakai Pikatan, Prasasti Wanua Tengah III
+
+3. **Rakai Watuhumalang**:
+   - SEBELUMNYA: "Rakai Watuhumalang / Mpu Teguh (± 885-898 M)"
+   - KOREKSI: "Rakai Watuhumalang / Dyah Jbang (894-898 M, naik takhta 21 November 894 M)"
+   - Mpu Teguh adalah raja bawahan (haji) Watuhumalang, terpisah dari Dyah Jbang (maharaja)
+   - Sumber: Wikipedia ID Rakai Watuhumalang
+
+4. **Daksa vs Rakai Gurunwangi** - DUA TOKOH BERBEDA:
+   - SEBELUMNYA: Saya menggabungkan keduanya sebagai "Daksa / Rakai Gurunwangi (910-919 M)"
+   - KOREKSI: 
+     * Rakai Gurunwangi Dyah Bhadra (887 M) - raja ke-11, "minggat" dari kraton
+     * Mpu Daksa (910-919 M) - raja ke-14, penerus Balitung
+   - Keduanya adalah tokoh terpisah yang sering keliru disamakan
+
+5. **Prasasti Anjuk Ladang**:
+   - SEBELUMNYA: "859 Saka (935 M)"
+   - KOREKSI: "859 Saka (937 M versi Damais) / 857 Saka (935 M versi Brandes)"
+   - Sumber: Wikipedia ID/EN Prasasti Anjuk Ladang
+
+6. **Prasasti Argapura (863 M)**:
+   - SEBELUMNYA: "Rakai Pikatan = Mpu Manuku" (keliru)
+   - KOREKSI: "Menyebut 'Pu Manuko(u)' sebagai Rakai Pikatan (jabatan kepala daerah di era Rakai Kayuwangi)"
+   - Penjelasan: Mpu Manuku dalam Prasasti Argapura adalah kepala daerah Pikatan, bukan maharaja Rakai Pikatan (Dyah Saladū)
+
+7. **Rakai Garung**:
+   - SEBELUMNYA: "828-847 M"
+   - KOREKSI: "829-847 M (naik takhta 10 Januari 829 M)" - sesuai Prasasti Wanua Tengah III
+   - Ditambahkan info: "anak sang lumah i tūk" (anak orang yang meninggal di Tuk)
+
+8. **Rakai Balitung**:
+   - SEBELUMNYA: "Raja ke-10 Mataram Kuno"
+   - KOREKSI: "Raja ke-13 Mataram Kuno (raja ke-9 menurut Prasasti Mantyasih yang melompati 4 raja singkat)"
+
+9. **Konflik Balitung**:
+   - SEBELUMNYA: "Kudeta oleh Daksa (Rakai Gurunwangi)"
+   - KOREKSI: "Kudeta oleh Mpu Daksa"
+
+10. **Prasasti Poh Galuh** (tabel):
+    - SEBELUMNYA: "Daksa (Rakai Gurunwangi)"
+    - KOREKSI: "Mpu Daksa (penerus Balitung)"
+
+11. **Penambahan catatan penting** di tabel daftar raja:
+    - Prasasti Wanua Tengah III menyebut 4 raja tambahan yang tidak ada di Mantyasih
+    - Penjelasan Mpu Manuku vs Rakai Pikatan (Dyah Saladū)
+    - Penjelasan Mpu Teguh vs Rakai Watuhumalang (Dyah Jbang)
+    - Penjelasan Rakai Gurunwangi (Dyah Bhadra) vs Mpu Daksa
+
+TAMBAHAN PROFIL TOKOH BARU (3 tokoh):
+- Dyah Tagwas (Sri Jayakirtiwardhana) - 885 M, ~6 bulan
+- Rakai Panumwangan / Dyah Dewendra - 885-887 M
+- Rakai Gurunwangi / Dyah Bhadra - 887 M (lalu minggat)
+
+VERIFIKASI MPU BHARADA:
+- Sudah benar "pendeta Buddha" - Wikipedia ID menyebut "pendeta sakti agama Buddha yang menjadi guru Airlangga"
+
+Stage Summary:
+- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- Total dokumen: 1.278 baris, 15.261 kata (naik dari 14.500 kata sebelumnya)
+- Era Mataram Kuno sudah diaudit KEDUA kali dengan double cek ke sumber primer
+- 11 koreksi utama + 3 tokoh baru ditambahkan
+- Daftar raja lengkap: 17 raja (dari Sanjaya ke Mpu Sindok), bukan 14 seperti versi sebelumnya
+- Sumber primer: Prasasti Wanua Tengah III (908 M) sebagai sumber paling lengkap dan akurat
+- Catatan: Beberapa detail masih diperdebatkan sejarawan (hubungan Rakai Garung-Samaratungga, identifikasi Mpu Manuku sebagai penerus Rakai Patapan atau tokoh terpisah)
+
