@@ -137,52 +137,249 @@ walisongo:
   note: >
     Daftar Walisongo bervariasi antar sumber. Berikut daftar paling umum
     berdasarkan Babad Tanah Jawi dan tradisi lisan Jawa.
+
+  # SUMBER KEMENBUD 2025 (Jilid 3 Bab 7) — Walisongo sebagai Dewan Dakwah
+  # Bukan sekadar 9 wali individu, tetapi LEMBAGA DAKWAH yang berjumlah
+  # 9 orang dengan pergantian keanggotaan 6 periode.
+  dewan_dakwah_6_periode:
+    sumber: "Kemenbud RI 2025, Jilid 3 Bab 7 'Wali Songo Mengislamkan Jawa'"
+    deskripsi: >
+      Wali Songo bukan sekadar 9 wali individu tetap, melainkan sebuah
+      DEWAN DAKWAH (dewan mubalig) berjumlah 9 orang. Setiap ada wali
+      yang wafat atau meninggalkan Jawa, diangkat wali pengganti sehingga
+      tetap berjumlah sembilan. Ada 6 periode pergantian kepengurusan.
+    periode:
+      periode_1:
+        anggota:
+          - "Maulana Malik Ibrahim"
+          - "Maulana Ishaq"
+          - "Maulana Ahmad Jumadil Kubra"
+          - "Maulana Muhammad al-Maghribi"
+          - "Maulana Malik Israil"
+          - "Maulana Muhammad Ali Akbar"
+          - "Maulana Hasanuddin"
+          - "Maulana Aliyuddin"
+          - "Syekh Subakir"
+      periode_2:
+        perubahan: "Sunan Ampel gantikan Maulana Malik Ibrahim (wafat). Ja'far Shadiq (Sunan Kudus) gantikan Maulana Malik Israil. Sunan Gunung Jati gantikan Maulana Muhammad Ali Akbar."
+      periode_3:
+        perubahan: "Sunan Giri gantikan Maulana Ishaq (pindah ke Pasai). Sunan Kalijaga gantikan Syekh Subakir (kembali ke Persia). Sunan Bonang gantikan Maulana Hasanuddin (wafat). Sunan Drajat gantikan Maulana Aliyuddin (wafat)."
+      periode_4:
+        perubahan: "Raden Fatah dan Fathullah Khan bergabung, gantikan Maulana Ahmad Jumadil Kubra dan Maulana Muhammad al-Maghribi."
+      periode_5:
+        perubahan: "Sunan Muria masuk, gantikan Raden Fatah yang naik takhta sebagai Sultan Demak."
+      periode_6:
+        perubahan: "Sunan Tembayat bergabung (versi sebagian sumber)."
+
+  asal_usul_nama_walisongo:
+    sumber: "Baso (2025), merujuk pupuh II Serat Babak Demak dan pupuh VII Babad Gresik"
+    deskripsi: >
+      Terdapat dua kali pertemuan antara para wali sampai akhirnya muncul
+      istilah Wali Songo. Pertemuan pertama terjadi saat wafatnya Sunan
+      Ampel. Para wali berkumpul untuk berdoa dan salat jenazah yang
+      dipimpin Sunan Giri. Setelah itu mereka berkumpul dan membahas arah
+      dakwah selanjutnya.
+
   wali:
     - name: "Sunan Gresik"
       alt_name: "Maulana Malik Ibrahim"
-      period: "± 1379–1419 M"
+      period: "± 1379–1419 M (wafat 1419 M di Gresik)"
       role: "Wali senior pertama. Mubalig asal Arab. Mendirikan pesantren Gresik."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      detail_kemenbud_2025: >
+        Membujuk Raja Vikramavarddhana Majapahit (1386-1429 M) untuk memeluk
+        Islam. Diberi tanah perdikan (bebas pajak) oleh Prabu Brawijaya I.
+        Dimakamkan di Gresik. Ahli multi-disiplin: bercocok tanam, pengobatan,
+        pelayaran, pendidikan.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Ampel"
       alt_name: "Raden Rahmat"
-      period: "± 1401–1481 M"
+      period: "Lahir ± 1401 M di Champa, wafat 1481 M di Surabaya"
       role: "Guru para wali lainnya. Mendirikan pesantren Ampel Denta (Surabaya). Keturunan Arab."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      detail_kemenbud_2025: >
+        Lahir di Champa (Vietnam). Dakwah dengan prinsip maw'izah al-hasanah
+        (nasihat baik) dan wajadil hum bial-latihiya ahsan (berdialog dengan
+        cara terbaik). Mengajarkan tarekat Naqsyabandiyah. Diangkat sebagai
+        penghulu kesultanan Demak 1521 M.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Bonang"
       alt_name: "Makhdum Ibrahim"
-      period: "± 1460–1525 M"
+      period: "Lahir ± 1465 M di Lasem, wafat 1525 M di Tuban"
       role: "Putra Sunan Ampel. Dakwah lewat kesenian (gamelan, tembang)."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      detail_kemenbud_2025: >
+        Belajar ke Syekh Maulana Ishak di Pasai (Aceh). Ahli fikih, usuluddin,
+        tasawuf, seni, sastra, arsitektur, beladiri. PENGHULU PERTAMA
+        kesultanan Demak (1490-1506 M). Dimakamkan di Desa Kutorejo, Tuban.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Drajat"
-      alt_name: "Raden Qasim"
-      period: "± 1470–1552 M"
+      alt_name: "Raden Qasim / Raden Syarifuddin"
+      period: "Lahir ± 1470 M di Ampeldenta, wafat ± 1522 M"
       role: "Putra Sunan Ampel. Dakwah lewat pengobatan dan pendidikan."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      detail_kemenbud_2025: >
+        Ibu: Nyai Ageng Manila (Dewi Candrawati), putri Bupati Tuban Arya Teja.
+        Berdakwah di Kampung Ghendingan dengan iringan gamelan dan tembang
+        pangkur. Nama lain: Maulana Hasyim, Masaikh Munad, Sunan Mahmud,
+        Raden Imam, Sunan Muryapada.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Kudus"
       alt_name: "Ja'far Shadiq"
-      period: "± 1500–1550 M"
-      role: "Mendirikan Masjid Menara Kudus (arsitektur Hindu-Jawa-Islam sinkretis). Keturunan Arab."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      period: "Lahir ± 1500 M di Jipang Panolan (Blora), wafat 5 Mei 1550 M di Kudus"
+      role: "Mendirikan Masjid Menara Kudus 1549 M (arsitektur Hindu-Jawa-Islam sinkretis). Keturunan Arab."
+      detail_kemenbud_2025: >
+        Putra R. Usman Haji (Sunan Ngudung), senopati Bintoro Demak.
+        Penghulu kesultanan Demak 1524-1550 M (gantikan Sunan Ampel).
+        Ulama sufi + saudagar kaya. Strategi dakwah: anjur makan sate
+        kerbau (bukan sapi) untuk hormati Hindu. Dimakamkan di Kauman, Kudus.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Giri"
-      alt_name: "Raden Paku / Ainul Yaqin"
-      period: "± 1442–1506 M"
+      alt_name: "Raden Paku / Muhammad Ainul Yaqin"
+      period: "Lahir 1443 M di Blambangan, wafat 1505 M di Giri"
       role: "Penyebar Islam ke Jawa Timur dan Nusantara Timur (Maluku, Lombok, Makassar). Militeristik."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      detail_kemenbud_2025: >
+        Putra Syekh Maulana Ishak dan Dewi Sekardadu (anak Raja Blambangan
+        Bhre Wirabhumi, keturunan Hayam Wuruk). Mendirikan Giri Kedaton
+        1485 M. Dikukuhkan 9 Maret 1487 M oleh para wali dan Raden Fatah
+        sebagai penguasa. Berwenang mengesahkan raja-raja Jawa Muslim
+        (Demak, Pajang, Mataram). Gapura candi bentar kompleks makam dengan
+        candrasengkala 'Naga Loro Warnaning Padha' = 1428 Saka = 1506 M.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Kalijaga"
       alt_name: "Raden Said"
-      period: "± 1450–1513 M"
+      period: "± 1450–1513 M (versi umum)"
       role: "Paling budayawan — pencipta seni wayang, gamelan, tembang Jawa-Islam. Sinkretisme budaya."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      detail_kemenbud_2025: >
+        ARSITEK Masjid Agung Demak (1466) dan Masjid Sang Cipta Rasa
+        Cirebon (1480). Membuat sakaguru (tiang utama) dari tatal di
+        Masjid Demak — Sakatatal. Pencipta wayang kulit Jawa-Islam,
+        gamelan sekaten, tembang suluk. Posisinya di Pegurusan Wali
+        Songo periode III menggantikan Syekh Subakir.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Muria"
       alt_name: "Raden Umar Said"
-      period: "± 1500–1552 M"
+      period: "Lahir ± 1450 M di lereng Gunung Muria"
       role: "Putra Sunan Kalijaga. Dakwah di lereng Gunung Muria."
-      source: "Babad Tanah Jawi, tradisi lisan"
+      detail_kemenbud_2025: >
+        Putra Sunan Kalijaga dan Dewi Sarah binti Maulana Ishak. Menikah
+        dengan Dewi Sujinah (adik Sunan Kudus). Berdakwah di Pati, Tayu,
+        Jepara, Juana, Kudus. Masuk Walisongo periode V menggantikan
+        Raden Fatah yang naik takhta Demak.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Kemenbud 2025 Jilid 3 Bab 7"
     - name: "Sunan Gunungjati"
       alt_name: "Syarif Hidayatullah"
-      period: "± 1448–1568 M"
+      period: "± 1448–1568 M (versi panjang), memimpin Cirebon ± 1483-1568 M"
       role: "Pendiri Kesultanan Cirebon. Keturunan Arab-Mesir dari ayah, Sunda dari ibu. Terlibat penaklukan Sunda Kelapa 1527."
-      source: "Babad Tanah Jawi, tradisi lisan, Babad Cirebon"
+      detail_kemenbud_2025: >
+        Memimpin Cirebon sejak ± 1483 M. Keraton Kasepuhan (Pakungwati)
+        difungsikan sebagai pusat pemerintahan + media dakwah. Masuk
+        Walisongo periode II menggantikan Maulana Muhammad Ali Akbar.
+      sumber_primer: "Babad Tanah Jawi, tradisi lisan, Babad Cirebon, Kemenbud 2025 Jilid 3 Bab 7"
+
+  # SUMBER KEMENBUD 2025 — Masjid Peninggalan Walisongo (5 masjid utama)
+  masjid_peninggalan_walisongo:
+    sumber: "Kemenbud RI 2025, Jilid 3 Bab 7"
+    catatan: >
+      Arsitektur masjid-masjid Walisongo menunjukkan SINKRETISME
+      Hindu-Jawa, Tionghoa, dan Islam. Ciri khas: atap tajug 3 tingkat
+      (simbol tanah-udara-air), gapura 5 (simbol 5 rukun Islam), tiang
+      saka dengan ornamen kalimat syahadat, mimbar dengan motif garuda
+      Majapahit.
+
+    masjid:
+      masjid_pesucinan_manyar:
+        nama: "Masjid Pesucinan (Maulana Malik Ibrahim)"
+        tahun_didirikan: 1389 M
+        lokasi: "Manyar, Gresik, Jawa Timur"
+        pendiri: "Maulana Malik Ibrahim (Sunan Gresik)"
+        catatan: >
+          Masjid TERTUA peninggalan Walisongo. Perpaduan unsur Hindu dan
+          Buddha. Menara atap (menur) dari tanah liat dengan ornamen ukiran.
+          Gerbang melengkung dengan kaligrafi emas 'Masjid Syekh Maulana
+          Malik Ibrahim'. Lantai keramik, atap genteng.
+        lora_candidate: true
+
+      masjid_sunan_ampel:
+        nama: "Masjid Sunan Ampel"
+        tahun_didirikan: 1421 M
+        lokasi: "Kampung Ampel, Surabaya"
+        pendiri: "Sunan Ampel (Raden Rahmat) + Mbah Sholeh + Mbah Sonhaji + santri"
+        catatan: >
+          16 tiang saka berornamen kalimat syahadat, tinggi 17 meter.
+          Mimbar dengan motif garuda (Hindu-Jawa), plengkung mimbar
+          dengan medalion dan matahari Majapahit. 5 gapura paduraksa
+          (simbol 5 rukun Islam). Atap tajug 3 tingkat (adaptasi
+          arsitektur Majapahit). Ajaran dakwah 'moh limo': moh main
+          (judi), moh maling (mencuri), moh madat (candu), moh minum
+          (mabuk), moh madon (zina).
+        lora_candidate: true
+
+      masjid_agung_demak:
+        nama: "Masjid Agung Demak"
+        tahun_didirikan: 1466 M
+        lokasi: "Demak, Jawa Tengah"
+        pendiri: "Wali Songo (arsitek: Sunan Kalijaga)"
+        catatan: >
+          Pengerjaan oleh tukang-tukang Majapahit. Pintu Bledeg merah
+          berbentuk mahkota dengan gambar dua kepala naga (penanda tahun
+          1466 M). SAKAGURU (tiang utama) dari tatal oleh Sunan Kalijaga
+          — salah satu tatal dari keraton Majapahit. Sunan Kalijaga
+          juga membetulkan mihrab arah kiblat.
+        lora_candidate: true
+
+      masjid_sang_cipta_rasa:
+        nama: "Masjid Agung Sang Cipta Rasa"
+        tahun_didirikan: ± 1480 M
+        lokasi: "Keraton Kasepuhan, Cirebon"
+        pendiri: "Sunan Kalijaga (arsitek) + 500 orang Cirebon-Demak pimpinan Raden Sepat"
+        catatan: >
+          Sumber: Tjarita Purwaka Tjaruban Nagari (Pangeran Arya Cirebon,
+          1720 M). Atap limas 3 tingkat mirip wantilan Bali. Ukiran
+          bunga teratai di mihrab. Estetika Hindu-Jawa-Tionghoa.
+          Sunan Kalijaga juga buat sakaguru tatal di sini.
+        lora_candidate: true
+
+      masjid_menara_kudus:
+        nama: "Masjid Menara Kudus (Masjid Al-Quds)"
+        tahun_didirikan: 1549 M
+        lokasi: "Kudus, Jawa Tengah"
+        pendiri: "Sunan Kudus (Ja'far Shadiq)"
+        catatan: >
+          Menara dari bata merah mirip candi (bukan menara Persia/Arab).
+          Hiasan mangkok/piring keramik Tiongkok kuno. Inskripsi bahasa
+          Arab di atas mihrab. Bangunan bertingkat 3 — simbol syariat,
+          tarekat, hakekat. Gapura: siapa lewat, dosa diampuni. Sunan
+          Kudus anjur sate kerbau (bukan sapi) untuk hormati Hindu.
+        lora_candidate: true
+
+  # SUMBER KEMENBUD 2025 — Tokoh Pendukung Demak
+  tokoh_pendukung_demak:
+    sumber: "Kemenbud RI 2025, Jilid 3 Bab 7 + Jilid 4 Bab 2"
+
+    pangeran_pekik:
+      nama: "Pangeran Pekik"
+      periode: "± 1620-1650-an M"
+      peran: >
+        Putra Jayalengkara (Adipati Surabaya). Diambil Sultan Agung
+        (Mataram) jadi keluarga Mataram. Dinikahkan dengan Ratu Pandan
+        Sari (adik Sultan Agung). Putrinya dinikahkan dengan Amangkurat
+        I (putra Sultan Agung). Pemimpin serangan Mataram ke Giri-Gresik
+        1636 — karena keturunan Walisongo, pasukan Mataram mau berperang
+        melawan raja-ulama.
+      kontribusi_budaya: >
+        Pengarang Serat Jayalengkara Wulang, beberapa suluk, Damarwulan.
+        Memperkenalkan budaya pesisir Surabaya yang kosmopolit ke pola
+        kultural Mataram di pedalaman. Atas inisiatifnya, naskah Melayu
+        tentang cerita Kalila dan Dimna diterjemahkan.
+      sumber: "Kemenbud RI 2025, Jilid 4 Bab 2 (Hegemoni Kekuasaan Abad XVII-XVIII)"
+
+    raden_fatah:
+      nama: "Raden Fatah / Raden Patah"
+      periode: "± 1455-1518 M"
+      peran: >
+        Sultan Demak pertama. Putra Prabu Brawijaya V Majapahit dengan
+        putri Tionghoa. Naik takhta perempat akhir abad 15 M, mengakhiri
+        kekuasaan Majapahit. Masuk Walisongo periode IV menggantikan
+        Maulana Ahmad Jumadil Kubra. Mengangkat Sunan Giri sebagai
+        penguasa Giri Kedaton 9 Maret 1487 M.
+      sumber: "Kemenbud RI 2025, Jilid 3 Bab 7 + Jilid 3 Bab 3"
 
 # =============================================================================
 # KARAKTER & WARDROBE — Master Reference untuk T2I

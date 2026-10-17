@@ -403,6 +403,19 @@ Berbeda dengan era Mataram Kuno (yang sumber utamanya prasasti + Carita Parahyan
 
 **Perbedaan penting Pararaton vs Negarakretagama**: Pararaton mencatat kudeta dan pembunuhan (Ken Arok dibunuh Anusapati, dll). Negarakretagama menyajikan versi "halus" — Anusapati sebagai putra Rangga Rajasa (bukan Tunggul Ametung), tidak menyebutkan kejahatan. Tohjaya TIDAK disebut di Negarakretagama (mungkin karena dianggap penguasa tidak sah).
 
+### 2.1.2 Sumber Kemenbud RI 2025: Ide Nusantara Pertama (1255 M)
+
+Buku **"Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"** (Kementerian Kebudayaan RI 2025, Jilid 2 Bab 3 & 5) memberikan temuan penting: konsep **"Nusantara" pertama kali muncul di Prasasti Mula Malurung (1177 Saka / 1255 M)** yang dikeluarkan Raja Wisnuwardhana.
+
+Isi prasasti: *"perintah baginda (nararyya smi ningrat) tanah yang diinjaknya menjadi payung dunia yaitu seluruh jawayadwipamandala (seluruh pulau jawa) selanjutnya nusantara"*. Konsep penyatuan Nusantara yang dimulai dari seluruh Pulau Jawa ini kemudian diteruskan oleh Kertanegara lewat:
+
+1. **Prasasti Camundi** — menyatakan kekuasaan meliputi Jawa dan Madura
+2. **Prasasti Sang Pamgat i Air Asih** (disimpan di Kopenhagen) dan **Prasasti Sang Pamgat i Prabyan Dang Hyang Madhawa** — menegaskan kekuasaan Kertanegara
+3. **Ekspedisi Pamalayu 1275 M** — ke Dharmasraya (Melayu, Sumatera)
+4. **Arca Amoghapasa + Prasasti Padang Roco (1208 Saka / 1286 M)** — Kertanegara mengirim arca Buddha Amoghapasa (Avalokiteshvara dengan 8 pengiring dan saptaratna/7 permata) ke Dharmasraya sebagai **diplomasi religius**. Isi prasasti di alas arca menyebut: *"Raja Srimat Tribhuwanaraja Mauliwarmadewa dan seluruh rakyat Malayu dari keempat kasta bersukacita"* menerima arca dari Kertanegara.
+
+**Temuan kunci**: INI IDE POLITIK NUSANTARA 71 TAHUN SEBELUM Sumpah Palapa Gajah Mada (1331 M). Kertanegara tidak hanya ekspansi militer, tetapi juga **diplomasi religius** — pengiriman simbol Buddha ke Sumatera sebagai tangan persahabatan. Raja Melayu menyambut dengan sukacita, dan ini menjadi preseden hubungan Jawa-Melayu yang akan diteruskan Majapahit (Gajah Mada Sumpah Palapa 1331, Peristiwa Bubat 1357 dengan Pajajaran/Sunda).
+
 ### 2.2 Daftar Lengkap Raja-Raja Singasari
 
 | # | Nama Raja & Gelar | Periode | Catatan | Sumber Primer |
@@ -734,6 +747,41 @@ Sumber primer era Demak berbeda dari era Hindu-Buddha — sebagian besar berupa 
 
 **Catatan penting**: Tidak ada prasasti resmi dari era Demak (berbeda dengan era Mataram Kuno-Majapahit). Sebagian besar sejarah Demak direkonstruksi dari Babad Tanah Jawi (abad 18-19) yang ditulis ratusan tahun setelahnya, sehingga banyak mitos dan legenda. Tome Pires (1512-1515) adalah sumber Eropa pertama yang menyebut Demak.
 
+### 4.1.2 Sumber Kemenbud RI 2025: Walisongo sebagai Dewan Dakwah 6 Periode
+
+Buku **"Sejarah Indonesia"** (Kemenbud RI 2025, Jilid 3 Bab 7 "Wali Songo Mengislamkan Jawa") memberikan perspektif baru tentang Walisongo. Bukan sekadar 9 wali individu tetap, melainkan sebuah **DEWAN DAKWAH (dewan mubalig) berjumlah 9 orang** dengan pergantian keanggotaan 6 periode. Setiap ada wali yang wafat atau meninggalkan Jawa, diangkat wali pengganti sehingga tetap berjumlah sembilan.
+
+**6 Periode Walisongo** (sumber: Baso 2025, merujuk pupuh II Serat Babak Demak dan pupuh VII Babad Gresik):
+
+- **Periode I**: Maulana Malik Ibrahim, Maulana Ishaq, Maulana Ahmad Jumadil Kubra, Maulana Muhammad al-Maghribi, Maulana Malik Israil, Maulana Muhammad Ali Akbar, Maulana Hasanuddin, Maulana Aliyuddin, Syekh Subakir
+- **Periode II**: Sunan Ampel gantikan Maulana Malik Ibrahim (wafat). Ja'far Shadiq (Sunan Kudus) gantikan Maulana Malik Israil. Sunan Gunung Jati gantikan Maulana Muhammad Ali Akbar.
+- **Periode III**: Sunan Giri gantikan Maulana Ishaq (pindah ke Pasai). Sunan Kalijaga gantikan Syekh Subakir (kembali ke Persia). Sunan Bonang gantikan Maulana Hasanuddin (wafat). Sunan Drajat gantikan Maulana Aliyuddin (wafat).
+- **Periode IV**: Raden Fatah dan Fathullah Khan bergabung, gantikan Maulana Ahmad Jumadil Kubra dan Maulana Muhammad al-Maghribi.
+- **Periode V**: Sunan Muria masuk, gantikan Raden Fatah yang naik takhta sebagai Sultan Demak.
+- **Periode VI**: Sunan Tembayat bergabung (versi sebagian sumber).
+
+**Asal-usul istilah "Wali Songo"**: Terdapat dua kali pertemuan para wali sampai akhirnya muncul istilah Wali Songo. Pertemuan pertama terjadi saat wafatnya Sunan Ampel — para wali berkumpul untuk berdoa dan salat jenazah yang dipimpin Sunan Giri. Setelah itu mereka berkumpul dan membahas arah dakwah selanjutnya.
+
+### 4.1.3 Sumber Kemenbud RI 2025: 5 Masjid Peninggalan Walisongo
+
+Arsitektur masjid-masjid Walisongo menunjukkan **SINKRETISME Hindu-Jawa, Tionghoa, dan Islam**. Ciri khas: atap tajug 3 tingkat (simbol tanah-udara-air), gapura 5 (simbol 5 rukun Islam), tiang saka dengan ornamen kalimat syahadat, mimbar dengan motif garuda Majapahit.
+
+| Masjid | Tahun | Lokasi | Pendiri | Ciri Khas |
+|--------|-------|--------|---------|-----------|
+| **Masjid Pesucinan** | 1389 M | Manyar, Gresik | Maulana Malik Ibrahim | Masjid TERTUA Walisongo. Perpaduan Hindu-Buddha. Menara atap (menur) dari tanah liat. |
+| **Masjid Sunan Ampel** | 1421 M | Ampel, Surabaya | Sunan Ampel + Mbah Sholeh + santri | 16 tiang saka berornamen syahadat, tinggi 17 m. Mimbar motif garuda, plengkung medalion matahari Majapahit. 5 gapura paduraksa. Ajaran dakwah **'moh limo'**: moh main (judi), moh maling (mencuri), moh madat (candu), moh minum (mabuk), moh madon (zina). |
+| **Masjid Agung Demak** | 1466 M | Demak | Wali Songo (arsitek: Sunan Kalijaga) | Pengerjaan oleh tukang-tukang Majapahit. **Pintu Bledeg** merah berbentuk mahkota dengan gambar dua kepala naga (penanda tahun 1466 M). **SAKAGURU** (tiang utama) dari tatal oleh Sunan Kalijaga — salah satu tatal dari keraton Majapahit. |
+| **Masjid Sang Cipta Rasa** | ± 1480 M | Keraton Kasepuhan, Cirebon | Sunan Kalijaga (arsitek) + 500 orang Cirebon-Demak | Atap limas 3 tingkat mirip wantilan Bali. Ukiran bunga teratai di mihrab. Sumber: Tjarita Purwaka Tjaruban Nagari (1720 M). |
+| **Masjid Menara Kudus** | 1549 M | Kudus | Sunan Kudus (Ja'far Shadiq) | Menara dari bata merah mirip candi. Hiasan piring keramik Tiongkok kuno. Inskripsi Arab. Bangunan bertingkat 3 — simbol syariat, tarekat, hakekat. Sunan Kudus anjur makan **sate kerbau** (bukan sapi) untuk hormati Hindu. |
+
+### 4.1.4 Sumber Kemenbud RI 2025: Pangeran Pekik — Tokoh Penghubung Demak-Mataram
+
+**Pangeran Pekik** (± 1620-1650-an M) adalah putra Jayalengkara (Adipati Surabaya yang takluk ke Mataram 1625). Tokoh ini menjadi jembatan budaya Demak-Mataram:
+
+- **Strategi politik**: Diambil Sultan Agung jadi keluarga Mataram. Dinikahkan dengan Ratu Pandan Sari (adik Sultan Agung). Putrinya dinikahkan dengan Amangkurat I (putra Sultan Agung, masa depan raja Mataram ke-4).
+- **Pemimpin serangan Mataram ke Giri-Gresik 1636**: Karena keturunan Walisongo (Sunan Ampel Denta), pasukan Mataram mau berperang melawan raja-ulama. Pangeran Pekik menjalani kehidupan asketik di Ampel yang keramat.
+- **Kontribusi budaya**: Pengarang **Serat Jayalengkara Wulang**, beberapa suluk, **Damarwulan**. Memperkenalkan budaya pesisir Surabaya yang kosmopolit ke pola kultural Mataram di pedalaman. Atas inisiatifnya, naskah Melayu tentang cerita Kalila dan Dimna diterjemahkan.
+
 ### 4.2 Daftar Lengkap Sultan-Sultan Demak
 
 | # | Nama Sultan & Gelar | Periode | Catatan | Sumber |
@@ -1011,6 +1059,49 @@ Sumber primer era Mataram Islam:
 
 **Catatan penting**: Tidak ada prasasti resmi dari era Mataram awal (Senapati-Sultan Agung). Sejarah direkonstruksi dari Babad Tanah Jawi. Arsip VOC menjadi sumber Eropa penting untuk era Amangkurat dan setelahnya.
 
+### 6.1.2 Sumber Kemenbud RI 2025: Kronologi Ekspansi Sultan Agung (1614-1636)
+
+Buku **"Sejarah Indonesia"** (Kemenbud RI 2025, Jilid 4 Bab 2 "Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII") memberikan detail kronologi ekspansi Sultan Agung yang belum ada di sumber lain:
+
+**Identitas Sultan Agung**: Bernama kecil **Raden Mas Jatmiko**, kemudian **Pangeran Rangsang**. Naik takhta 1613 M usia 20-an, bergelar **Sultan Agung Senapati ing Ngalaga Abdurrahman**. Putra tertua Panembahan Seda ing Krapyak (raja Mataram ke-2, bertakhta 1601-1613) dengan garwa padmi **Ratu Adi asal Pajang**.
+
+Pernyataan politik Sultan Agung: *"Aku adalah seorang raja sekaligus tentara, bukan pedagang seperti raja-raja Jawa lain"* — definisi budaya politik Jawa pedalaman yang menganggap pesisir sebagai ancaman.
+
+**Kronologi ekspansi 22 tahun (1614-1636)**:
+
+| Tahun | Event | Lokasi/Strategi |
+|-------|-------|----------------|
+| 1614 | Ekspansi pertama: Pasuruan via Winongan, Malang dikuasai tanpa perlawanan | Jalur masuk Jawa Timur |
+| 1615 | Wirasaba (Mojoagung) ditaklukkan — strategis lembah Brantas, dekat peninggalan Majapahit | Legitimasi politik |
+| 1616 | Lasem ditaklukkan, persekutuan Surabaya-Pajang dikalahkan di Siwalan | Pajang batal kirim suplai |
+| 1617 | Pasuruan sepenuhnya ditaklukkan Mataram | |
+| 1619 | Tuban ditaklukkan — pendukung utama Surabaya | Tahun yang sama JP Coen dirikan Batavia |
+| 1620 | Serangan pertama ke Surabaya dihambat kapal Belanda Neptunes | Laut Jawa sekitar Gresik |
+| 1621 | Gresik dibakar Mataram (terbatas karena ditahan Belanda) | |
+| 1622 | Sukadana (penyuplai Surabaya) ditaklukkan | |
+| 1623-1624 | Pengepungan Surabaya gagal karena logistik tidak memadai — pamer kekuatan | |
+| Juli 1624 | Pertempuran intensif di Madura — Mataram kirim **80.000 prajurit** | |
+| Agustus 1624 | Seluruh Madura takluk — Cakraningrat diangkat (sejak 1678) | |
+| 1625 | Surabaya takluk setelah pengepungan kelaparan — populasi turun dari 50-60 ribu jadi 1.000. Adipati Jayalengkara jadi vasal Mataram | **Strategi**: bendung sungai lewat Mojokerto, kontaminasi air, wabah penyakit |
+| 1628 | Serangan pertama Mataram ke Batavia — GAGAL. Dipimpin Tumenggung Baureksa | |
+| 1629 | Serangan kedua Mataram ke Batavia — GAGAL. Dipimpin Dipati Ukur. JP Coen wafat 1629 | |
+| 1630 | Pemberontakan Tembayat ditumpas Sultan Agung — pemimpin agama dari daerah makam Sunan Bayat | |
+| 1633 | Sultan Agung ziarah makam Sunan Bayat di Tembayat — **islamisasi Mataram**. Ubah kalender Saka jadi **Anno Javanico** (kalender Islam-Jawa) | |
+| 1635 | Pemberontakan Ukur dan Sumedang ditumpas Mataram (**40.000 prajurit**) — Priangan kembali tenang 1636 | |
+| 1636 | Penaklukan Giri-Gresik — akhir raja-ulama pesisir. **Pangeran Pekik** pimpin serangan (keturunan Walisongo, syarat agar pasukan Mataram mau berperang melawan wali) | |
+
+### 6.1.3 Sumber Kemenbud RI 2025: Pangeran Pekik & Konteks Geopolitik
+
+**Pangeran Pekik** — tokoh kunci yang menghubungkan era Demak-Walisongo dengan era Mataram Islam:
+- Putra Jayalengkara (Adipati Surabaya yang takluk 1625)
+- Diambil Sultan Agung jadi keluarga Mataram. Dinikahkan dengan Ratu Pandan Sari (adik Sultan Agung). Putrinya dinikahkan dengan Amangkurat I (putra Sultan Agung).
+- Pemimpin serangan Mataram ke Giri-Gresik 1636 — karena keturunan Walisongo (Sunan Ampel Denta), pasukan Mataram mau berperang melawan raja-ulama. Pangeran Pekik menjalani kehidupan asketik di Ampel yang keramat.
+- **Kontribusi budaya**: Pengarang **Serat Jayalengkara Wulang**, beberapa suluk, **Damarwulan**. Memperkenalkan budaya pesisir Surabaya yang kosmopolit ke pola kultural Mataram di pedalaman.
+
+**Konteks geopolitik paralel**: Sambil Sultan Agung ekspansi di Jawa, di Sumatera **Sultan Iskandar Muda Aceh** (1607-1636) juga ekspansi: Deli 1612, Aru 1613, Johor 1613 (serang VOC di Batu Sawar), Pahang 1617, serang Malaka-Portugis 1615 dan 1629 (gagal besar — 19.000 prajurit tewas). Hubungan Aceh dengan Turki Usmani.
+
+**Narasi Kemenbud**: *"Nusantara pada abad ke-16 dan ke-17 bukanlah ruang pasif yang semata-mata bereaksi terhadap ekspansi Eropa, melainkan sebuah lanskap politik yang telah lebih dahulu dihuni oleh kekuatan-kekuatan regional dengan kapasitas hegemoni yang nyata. Kesultanan-kesultanan Islam besar seperti Aceh, Mataram, dan Gowa-Tallo telah membangun sistem kekuasaan yang kompleks dengan memadukan supremasi militer, penguasaan ekonomi, legitimasi kultural-keagamaan, serta praktik diplomasi lintas kawasan."*
+
 ### 6.2 Daftar Lengkap Raja-Raja Mataram Islam
 
 | # | Nama Raja & Gelar | Periode | Catatan | Sumber |
@@ -1238,6 +1329,92 @@ Sumber primer era kolonial berbeda dari era kerajaan — sebagian besar berupa a
 8. **Arsip Hindia Belanda** (1800–1942) — di Arsip Nasional RI (ANRI).
 9. **Kronik Cina Dinasti Ming dan Qing** — untuk hubungan Cina-Hindia.
 10. **Sumber akademis modern**: H.J. de Graaf, Th. Pigeaud, M.C. Ricklefs, Robert Cribb.
+11. **Buku Kemenbud RI 2025** — Jilid 4 Bab 2 (Hegemoni Kekuasaan abad 17-18), Jilid 4 Bab 6 (VOC di Pulau Banda), Jilid 5 Bab 6 (Pemberontakan dan Perlawanan abad 19).
+
+### 7.3.1 Sumber Kemenbud RI 2025: Detail VOC & Pembantaian Banda 1621
+
+Buku **"Sejarah Indonesia"** (Kemenbud RI 2025, Jilid 4 Bab 6 "VOC di Pulau Banda: Monopoli Rempah, Kekerasan, dan Perbudakan") memberikan detail grafis tentang kejahatan kolonial awal:
+
+**Pembantaian Banda 1621**:
+- **Tanggal**: 1621 M
+- **Lokasi**: Kepulauan Banda (Banda Neira, Run, Ai, Lontor) — Maluku
+- **Dalang**: Jan Pieterszoon Coen (Gubernur Jenderal VOC)
+- **Latar**: Banda adalah sumber pala (Myristica fragrans) satu-satunya di dunia. 1609 — VOC dirikan loji di Banda, konflik dengan Bandanese. 1621 — Coen lakukan pembantaian masal.
+- **Pelaksanaan**: Coen bawa pasukan 2.000 tentara Belanda + tentara bayaran Jepang + budak ke Banda. Orang kaya Bandanese (pemimpin lokal) dieksekusi. Penduduk dibunuh, diasingkan, atau diperbudak. Populasi turun dari ± 15.000 jadi ± 1.000.
+- **Sistem perbudakan pasca-1621**: VOC impor budak dari berbagai wilayah untuk kerja di kebun pala: Bali, Sulawesi (Makassar, Bugis), Buton, India (Tamil, Bengali), Papua, Nias, Madura, Tiongkok. Sistem perbudakan berlanjut hingga abad 19.
+- **Saksi mata**: Pieter van den Broecke, perwira VOC di Banda, tinggalkan catatan tertulis.
+- **Benteng Belgica**: Benteng VOC di Banda Neira, dibangun 1611, masih berdiri.
+
+### 7.3.2 Sumber Kemenbud RI 2025: Detail Perlawanan Abad 19
+
+Buku Kemenbud Jilid 5 Bab 6 "Pemberontakan dan Perlawanan" memberikan detail tokoh perlawanan abad 19 yang belum lengkap di sumber lain:
+
+#### Pangeran Diponegoro (1785-1855)
+- **Nama lengkap**: Bendara Raden Mas Mustahar, bergelar Kanjeng Pangeran Diponegoro
+- **Lahir**: Yogyakarta, 11 November 1785 M
+- **Wafat**: Makassar, 8 Januari 1855 M (usia 69 tahun)
+- **Keluarga**: Putra Hamengkubuwana III (raja Yogyakarta) dengan selir (bukan permaisuri). Karena itu tidak berhak naik takhta — menjadi pangeran pinggiran dengan kekuasaan religius (satria lelono).
+- **Markas awal**: Tegalrejo (residensi resmi) lalu pindah ke Selarong (gua di Bantul) setelah istana Yogyakarta menolak menolong perjuangannya.
+- **Strategi**: Perang gerilya 5 tahun (1825-1830). Pasukan Diponegoro pakai taktik hit-and-run di hutan dan gua. Pendekatan religius: Diponegoro sebagai 'Ratu Adil' (Ratu Adil = mesias Islam Jawa). Kyai modin dan santri pesantren jadi tulang punggung perjuangan.
+- **Penangkapan**: 28 Maret 1830 M di Magelang — Diponegoro ditipu Belanda lewat perundingan damai yang sebenarnya jebakan. Jenderal de Kock menangkapnya langsung di meja perundingan.
+- **Pembuangan**: Ditahan di Manado (1830-1834), lalu dipindah ke Makassar (1834-1855) di Benteng Rotterdam. Wafat 8 Januari 1855 di Makassar, dimakamkan di Kampung Bama Keling.
+- **Korban**: ± 200.000 jiwa (8.000 tentara Belanda, sisanya rakyat Jawa)
+- **Sumber primer**: Babad Diponegoro (otokritik yang ditulis Diponegoro saat pembuangan), Peter Carey 'The Power of Prophecy' (2008)
+
+#### Tuanku Imam Bonjol (1772-1864)
+- **Nama lengkap**: Malim Basa, bergelar Tuanku Imam Bonjol
+- **Lahir**: Bonjol, ± 1772 M
+- **Wafat**: Manado, 6 November 1864 M
+- **Latar**: Pemimpin Kaum Padri (Islam puritan yang terinspirasi dari Wahabi Mekkah). Konflik dengan Kaum Adat (yang menjaga tradisi matrilineal Minangkabau + judi + madat + tuak).
+- **Belanda intervensi**: 1821 M — Belanda dukung Kaum Adat untuk melemahkan Padri
+- **Penangkapan**: 1837 — Imam Bonjol ditangkap via tipu perundingan damai
+- **Pembuangan**: Cianjur (1837-1839), lalu Ambon (1839-1844), lalu Manado (1844-1864). Wafat di Manado 1864, dimakamkan di kompleks pemakaman Kalakah Kampung Titi Kuning Manado.
+
+#### Perang Aceh (1873-1904) — 31 tahun
+- **Periode**: 26 Maret 1873 - 1904 M (31 tahun)
+- **Ekspedisi I** (April 1873): Belanda kalah, komandan Jenderal Köhler tewas
+- **Ekspedisi II** (Desember 1873): Belanda masuk Kutaraja (Banda Aceh), Sultan Mahmud Syah lari
+- **Perang gerilya 1874-1896**: Cut Nyak Dien, Teuku Umar, Cut Meutia pimpin gerilya. Taktik hit-and-run di hutan Aceh.
+
+#### Teuku Umar (1854-1899)
+- **Lahir**: Meulaboh, 1854 M
+- **Wafat**: Meulaboh, 11 Februari 1899 M (gugur)
+- **Strategi tipu**: 1893 — Teuku Umar pura-pura tunduk ke Belanda, dapat senjata + jabatan Letnan Kolonel Belanda + bintang jasa. 1896 — berkhianat, bawa senjata + pasukan kembali ke Aceh. Belanda marah besar.
+- **Kematian**: 11 Februari 1899 — gugur dalam pertempuran di Meulaboh
+
+#### Cut Nyak Dien (1848-1908)
+- **Lahir**: Lampadang, Aceh, 1848 M
+- **Wafat**: Sumedang, Jawa Barat, 6 November 1908 M
+- **Suami**: Teuku Cik Ibrahim (wafat 1872), Teuku Umar (kawin 1880, gugur 1899)
+- **Perjuangan pasca-suami**: 1899-1905 — lanjutkan perjuangan Teuku Umar dengan sisa pasukan di hutan. 1905 — ditangkap Belanda, diasingkan ke Sumedang.
+- **Sumedang**: Dibuang ke Sumedang karena dianggap berbahaya jika tetap di Aceh. Tinggal di rumah Ibu Nyai Ruhana (tokoh perempuan Sumedang). Wafat 6 November 1908, dimakamkan di Gunung Puyuh, Sumedang.
+
+#### Cut Meutia (1870-1910)
+- **Lahir**: Pirak, Aceh Utara, 1870 M
+- **Wafat**: Alue Kutaot, Aceh, 24 Oktober 1910 M (gugur)
+- **Suami**: Teuku Cik Muhammad (gugur 1905), Teuku Cut Ranggong (gugur 1907)
+- **Perjuangan terakhir**: 1905-1910 — gerilya terakhir di hutan Aceh Utara. Pasukan kecil (45 orang) yang terus berkurang. Gugur 24 Oktober 1910 — perlawanan bersenjata terakhir Aceh.
+
+#### Pemberontakan Banten 1888
+- **Tanggal**: 9 Juli 1888 M
+- **Lokasi**: Banten
+- **Pemimpin**: KH. Hasbullah, KH. Abdul Karim, Tubagus Ismail
+- **Latar**: Kombinasi religius (Islam) + agrarian (tanam paksa). Sentimen anti-Belanda + sentimen anti-feudal (bupati Banten kolaborator Belanda). Pesantren menjadi pusat perlawanan.
+- **Penumpasan**: Belanda tumpas pemberontakan dalam beberapa hari. 31 orang dieksekusi mati, 33 dijatuhi hukuman penjara, sisanya diasingkan.
+
+### 7.3.3 Sumber Kemenbud RI 2025: Daendels, Raffles, Cultuurstelsel
+
+#### Daendels (1808-1811)
+**Herman Willem Daendels** (Gubernur Jenderal 1808-1811). Lahir 1762, partisan Revolusi Prancis. Tugas dari Napoleon: pertahankan Jawa dari Inggris. Jalan Raya Pos Anyer-Panarukan (± 1.000 km, 1808-1811). Banyak korban jiwa dari kerja paksa. Surabaya → Kebumen via jalan raya. Dituduh tiran, dipanggil pulang 1811, diganti Janssens yang kalah ke Inggris.
+
+#### Raffles (1811-1816)
+**Thomas Stamford Raffles** (Lieutenant-Governor 1811-1816). Lahir 1781. Anggota East India Company. Reformasi: hapus kerja paksa, lelang pajak tanah (landrent system), restorasi Borobudur (1814), tulis 'The History of Java' (1817). Raffles adalah Orientalis-in-Government. Kembali ke Inggris 1816, jadi pendiri Singapura 1819.
+
+#### Cultuurstelsel (1830-1870)
+- **Periode**: 1830-1870 M
+- **Inisiator**: Johannes van den Bosch (Gubernur Jenderal 1830-1834)
+- **Mekanisme**: 1/5 tanah rakyat ditanam komoditas ekspor (kopi, tebu, indigo, tembakau, lada). Hasil diserahkan ke pemerintah kolonial sebagai pajak. Atau: 1/5 tahun kerja rakyat di kebun pemerintah.
+- **Dampak**: Bencana ekonomi rakyat — kelaparan 1840-an di Cirebon, Tegal, Demak. Multatuli 'Max Havelaar' (1860) ekspos penyalahgunaan. Reformasi 1870 (Agrarische Wet) akhir Cultuurstelsel, masuk perkebunan swasta Eropa.
 
 ### 7.4 Pemberontakan Daerah Melawan Kolonial Belanda (1602–1942)
 

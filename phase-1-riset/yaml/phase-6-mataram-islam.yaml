@@ -47,6 +47,103 @@ narrative:
     akhirnya pembelahan Mataram menjadi Surakarta dan Yogyakarta oleh
     Perjanjian Giyanti 1755.
 
+  # SUMBER KEMENBUD 2025 (Jilid 4 Bab 2) — Detail ekspansi Sultan Agung
+  sultan_agung_ekspansi_detail:
+    sumber: "Kemenbud RI 2025, Jilid 4 Bab 2 'Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII'"
+    identitas_sultan_agung: >
+      Bernama kecil Raden Mas Jatmiko, kemudian Pangeran Rangsang. Naik takhta
+      1613 M usia 20-an, bergelar Sultan Agung Senapati ing Ngalaga Abdurrahman.
+      Putra tertua Panembahan Seda ing Krapyak (raja Mataram ke-2, bertakhta
+      1601-1613) dengan garwa padmi Ratu Adi asal Pajang. Pernyataan politik
+      Sultan Agung: "Aku adalah seorang raja sekaligus tentara, bukan pedagang
+      seperti raja-raja Jawa lain" — definisi budaya politik Jawa pedalaman
+      yang menganggap pesisir sebagai ancaman.
+
+    kronologi_ekspansi_1614_1636:
+      1614:
+        event: "Ekspansi pertama: Pasuruan ditaklukkan via Winongan, Malang dikuasai tanpa perlawanan"
+        strategis: "Jalur masuk Jawa Timur"
+      1615:
+        event: "Wirasaba (Mojoagung) ditaklukkan — strategis lembah Brantas, dekat peninggalan Majapahit, memperkuat legitimasi politik Sultan Agung"
+      1616:
+        event: "Lasem ditaklukkan, persekutuan Surabaya-Pajang dikalahkan di Siwalan (Pajang batal kirim suplai)"
+      1617:
+        event: "Pasuruan sepenuhnya ditaklukkan Mataram"
+      1619:
+        event: "Tuban ditaklukkan — pendukung utama Surabaya"
+        catatan: "Tahun yang sama JP Coen dirikan Batavia"
+      1620:
+        event: "Serangan pertama ke Surabaya dihambat kapal Belanda Neptunes di Laut Jawa sekitar Gresik"
+      1621:
+        event: "Gresik dibakar Mataram (terbatas karena ditahan Belanda)"
+      1622:
+        event: "Sukadana (penyuplai Surabaya) ditaklukkan"
+      1623_1624:
+        event: "Pengepungan Surabaya gagal karena logistik tidak memadai — pamer kekuatan"
+      juli_1624:
+        event: "Pertempuran intensif di Madura — Mataram kirim 80.000 prajurit"
+      agustus_1624:
+        event: "Seluruh Madura takluk — Cakraningrat diangkat (sejak 1678)"
+      1625:
+        event: "Surabaya takluk setelah pengepungan kelaparan — populasi turun dari 50-60 ribu jadi 1.000. Adipati Jayalengkara jadi vasal Mataram"
+        catatan: "Strategi: bendung sungai lewat Mojokerto, kontaminasi air, wabah penyakit"
+      1628:
+        event: "Serangan pertama Mataram ke Batavia — GAGAL. Dipimpin Tumenggung Baureksa"
+      1629:
+        event: "Serangan kedua Mataram ke Batavia — GAGAL. Dipimpin Dipati Ukur. JP Coen wafat 1629"
+      1630:
+        event: "Pemberontakan Tembayat ditumpas Sultan Agung — pemimpin agama dari daerah makam Sunan Bayat"
+      1633:
+        event: "Sultan Agung ziarah makam Sunan Bayat di Tembayat — islamisasi Mataram. Ubah kalender Saka jadi Anno Javanico (kalender Islam-Jawa)"
+      1635:
+        event: "Pemberontakan Ukur dan Sumedang ditumpas Mataram (40.000 prajurit) — Priangan kembali tenang 1636"
+      1636:
+        event: "Penaklukan Giri-Gresik — akhir raja-ulama pesisir. Pangeran Pekik pimpin serangan (keturunan Walisongo, syarat agar pasukan Mataram mau berperang melawan wali)"
+
+    pangeran_pekik:
+      sumber: "Kemenbud RI 2025, Jilid 4 Bab 2"
+      peran: >
+        Putra Jayalengkara (Adipati Surabaya yang takluk 1625). Diambil Sultan
+        Agung jadi keluarga Mataram. Dinikahkan dengan Ratu Pandan Sari
+        (adik Sultan Agung). Putrinya dinikahkan dengan Amangkurat I (putra
+        Sultan Agung, masa depan raja Mataram ke-4).
+      strategi_politik: >
+        Pemimpin serangan Mataram ke Giri-Gresik 1636 — karena keturunan
+        Walisongo (Sunan Ampel Denta), pasukan Mataram mau berperang
+        melawan raja-ulama. Pangeran Pekik menjalani kehidupan asketik
+        di Ampel yang keramat.
+      kontribusi_budaya: >
+        Pengarang Serat Jayalengkara Wulang, beberapa suluk, Damarwulan.
+        Memperkenalkan budaya pesisir Surabaya yang kosmopolit ke pola
+        kultural Mataram di pedalaman. Atas inisiatifnya, naskah Melayu
+        tentang cerita Kalila dan Dimna diterjemahkan.
+      sumber_primer: "Kemenbud RI 2025, Jilid 4 Bab 2; De Graaf, Puncak Kekuasaan Mataram (1986)"
+
+    aceh_iskandar_muda:
+      sumber: "Kemenbud RI 2025, Jilid 4 Bab 2"
+      peran_paralel: >
+        Sambil Sultan Agung ber ekspansi di Jawa, di Sumatera Sultan Iskandar
+        Muda Aceh (1607-1636) juga ber ekspansi: Deli 1612, Aru 1613, Johor
+        1613 (serang VOC di Batu Sawar), Pahang 1617, serang Malaka-Portugis
+        1615 dan 1629 (gagal besar — 19.000 prajurit tewas). Hubungan Aceh
+        dengan Turki Usmani.
+      signifikansi: >
+        Dua kesultanan Islam Nusantara (Mataram dan Aceh) sezaman ekspansi
+        abad 17, sama-sama berhadapan dengan VOC/Portugis. Bisa dijadikan
+        drama paralel untuk konteks geopolitik.
+
+    catatan_ekspansi:
+      sumber: "Kemenbud RI 2025, Jilid 4 Bab 2"
+      narasi_kemenbud: >
+        "Nusantara pada abad ke-16 dan ke-17 bukanlah ruang pasif yang
+        semata-mata bereaksi terhadap ekspansi Eropa, melainkan sebuah
+        lanskap politik yang telah lebih dahulu dihuni oleh kekuatan-
+        kekuatan regional dengan kapasitas hegemoni yang nyata. Kesultanan-
+        kesultanan Islam besar seperti Aceh, Mataram, dan Gowa-Tallo telah
+        membangun sistem kekuasaan yang kompleks dengan memadukan supremasi
+        militer, penguasaan ekonomi, legitimasi kultural-keagamaan, serta
+        praktik diplomasi lintas kawasan."
+
   akt_1_founding: >
     1587 M. Sutawijaya menerima takhta Pajang dari Pangeran Benawa.
     Memindahkan pusat ke Kota Gede. Bergelar Panembahan Senapati Khalifatullah
