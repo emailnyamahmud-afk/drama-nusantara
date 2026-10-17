@@ -868,3 +868,294 @@ Bab ini menandai titik balik penting: **kemunduran tidak dipahami semata-mata se
 *Ringkasan ini disusun oleh Z.ai Main Agent berdasarkan **pembacaan mendalam** (bukan parsing) buku "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global" Jilid 2 (Kemenbud RI 2025). Setiap bab dibaca section-by-section dengan ekstraksi analisis konsep, tokoh, konteks, kutipan langsung, dan multi-perspektif para ahli.*
 
 *Untuk referensi lengkap, baca buku asli di `phase-1-riset/sumber-primer/kemenbud-2025/jilid-2/`.*
+
+---
+
+# BAGIAN B — SUPLEMEN JILID 2 (Perjumpaan India-Tiongkok-Persia)
+
+## B1. Sub-bab Sumber Primer yang Terlewat di Jilid 2
+
+### Bab I — Perjumpaan Awal
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Perjumpaan Awal dengan Budaya India, Tiongkok, Persia | Bukti arkeologis kontak awal |
+| A.a. Penguburan | Tradisi penguburan India-Hindu |
+| A.c. Gunung sebagai Orientasi | Kosmologi pegunungan suci |
+| A.d. Arwah Nenek Moyang sebagai Pelindung | Konsep leluhur |
+| A.e. Monumen Tegak | Tugu, menhir, yoni, lingga |
+| A.f. Kekuatan dalam Logam | Kemagnetan besi, emas perunggu |
+| A.2. Struktur Sosial | Kasta, gotra, wangsa |
+| A.2 (lagi). Interaksi Budaya Asing dengan Masyarakat Nusantara | Detail kontak dagang-budaya |
+
+### Bab II — Persilangan Budaya (Lengkap)
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Aksara dan Bahasa | Pallawa, Kawi, Bali, Arab, Nanapra, Kaganga |
+| A.6. Aksara Merapi-Merbabu di Skriptoria Damalung | Aksara khas pegunungan Jawa |
+| A.7. Aksara Bali | Tradisi aksara Bali |
+| A.8. Aksara Arab dalam Sejarah Aksara Nusantara | Awal aksara Arab-Melayu |
+| B. Agama Hindu di Nusantara | Perkembangan aliran Hindu |
+| B.1. Perkembangan Agama Hindu | Siwa, Wisnu, Brahma |
+| B.4. Puncak Dinamika Hindu dan Buddha di Nusantara | Akhir masa Hindu-Buddha |
+| C. Peradaban Buddha di Nusantara | Konsep dasar, candi, stupa |
+| C.2. Pendirian Candi, Stupa, Wihara, Stupika, Dharani | Seni bina Buddha |
+| C.2.b. Peninggalan Percandian Buddha | Sumatra, Riau, Sumatra Utara (Gunung Tua), Sumatra Barat, Sumatra Selatan, Lampung, Bali |
+| D. Penanggalan Indic | Kalender Saka, Sakala Dihyang |
+| D.1. Penanggalan Indic | Penanggalan Hindu-Buddha |
+| D.1.c. Kodifikasi dan Pelokalan | Adaptasi kalender India ke Nusantara |
+| D.1.e. Sakala Dihyang | Konsep waktu sakral |
+| E.1. Perkembangan Konsep Pemerintahan | Mandala, kadatuan, wanua |
+| E.2. Perkembangan Kosmogoni pada Masa Persilangan dengan Hindu dan Buddha | **Dewaraja** (Raja-Dewa), **Astabrata** (8 sifat raja), **Cakrawarti** (penguasa dunia) |
+
+### Bab III — Dinamika Politik Kerajaan Nusantara (Sub-bab Banyak Terlewat!)
+| Sub-bab | Topik |
+|---|---|
+| A. Munculnya Kerajaan Bercorak Hindu-Buddha | Abad 4-7 M |
+| A.1.a. Kerajaan di Kutai | Kudungga, Aswawarman, Mulawarman |
+| A.1.a. Konsep Negara Awal | Konsep negara awal Hindu |
+| A.1.b. Tarumanagara | Purnawarman (abad 5 M) |
+| A.1.c. Pembentukan Kekuatan Politik Swarnadwipa abad 3/4-7 M | Sriwijaya-Melayu awal |
+| A.1.c. Dinamika Politik Kemaharajaan Malayu | Jambi, Muarajambi |
+| A.1.c. Pembentukan Identitas Politik Awal Malayu | Abad 7-12 |
+| A.1.c. Kebangkitan Identitas Politik Baru Abad XII | Dharmasraya, Mauliwarmmadewa |
+| A.1.d. Dinamika Politik Kedatuan Sriwijaya | Penyatuan, Jaya Siddhayatra, Kemunduran |
+| A.1.d. Peta Perkembangan Pengaruh Politik Kadatuan Sriwijaya abad 7-12 M | Mappa dagang |
+| B. Kerajaan Nusantara Abad 8-11 | Mataram Kuno |
+| B.3.a. Raja-raja Mataram di Pusat Jawa Bagian Tengah | Sanjaya hingga Balitung |
+| B.3.b. Dari Kerajaan menjadi Daerah Lunguh | Kemunduran Mataram |
+| B.3. Kerajaan Bali Kuno (TERLEWAT TOTAL!) | Aji, Anak Wungsu, dll |
+| B.3.e. Masa Kejayaan Bali Kuno | Anak Wungsu, dll |
+| B.3.f. Masa Kemunduran Bali Kuno | Invasi Majapahit |
+| B.3.g. Bali Kuno dalam Kekuasaan Majapahit | Penaklukan Gajah Mada |
+| C. Kerajaan Panai, Lamuri, Mandailing | Sumatra Timur, Aceh |
+| C.1. Dari Bandar Dagang menuju Politik Kerajaan | Panai |
+| C.1. Panai dalam Interaksi Global | Hubungan internasional |
+| C.1. Perubahan Geopolitik dan Kemunduran Panai | Akhir Panai |
+| C.2. Dinamika Politik Kerajaan Lamuri | Aceh awal |
+| C.3. Dinamika Politik Kerajaan Mandailing | Tapanuli |
+| C.3. Mandailing dalam Data dan Fakta | Bukti arkeologis |
+| C.3. Mandailing dalam Geopolitik Nusantara | Posisi Mandailing |
+| D. Kadiri | Jayabaya, Kertajaya |
+| D.2. Pencapaian Kadiri | Tata pemerintahan, pertahanan, kesusastraan |
+| D.3. Singhasari: Ide Awal Penyatuan Nusantara | Ken Arok, Kertanegara |
+| D.3.a. Raja-raja Singhasari | Ken Arok → Anusapati → Tohjaya → Wisnuwardhana → Kertanegara |
+| D.4. Majapahit: Kerajaan Agro-Maritim | Raden Wijaya → Hayam Wuruk |
+| D.4.b. Raja-raja Majapahit | 9 raja |
+| D.4.d. Hegemoni Majapahit | Wilayah kekuasaan |
+| D.4. Diplomasi dengan Portugis | Akhir Majapahit |
+
+### Bab IV — Kehidupan Keseharian Masyarakat (Sub-bab Terlewat)
+| Sub-bab | Topik |
+|---|---|
+| A. Keberadaan Orang Asing di Nusantara | Detail per komunitas |
+| A.1. Orang Asing di Sumatra | India, Persia, Arab, Tionghoa |
+| A.1.a. Pusat Perdagangan dan Keagamaan | Bandar-bandar |
+| A.1.c. Pengaturan Orang Asing | Syahbandar, kapitan |
+| A.2.a. Kedatangan Orang Asing: India, Persia, Arab, Tiongkok | Detail 13+ komunitas |
+| Orang Kling, Aryya, Dravida, Pandikira, Karnnataka, Malyala, Cwalika/Chola, Srilanka, Tionghoa, Khmer, Campa, Rmen, Eropa | Komunitas asing di Majapahit |
+| A.2.b. Keberadaan Orang Asing | Demografi & pengaruh |
+| A.4. Wilayah Lain | Distribusi orang asing di Jawa, Bali, Nusantara Timur |
+| B. Pendidikan dan Pengajaran di Mandala, Kadewagurwan, dan Tradisi Masyarakat | Sistem pendidikan Hindu-Buddha |
+| B.1. Mandala sebagai Pusat Pendidikan | Konsep mandala |
+| B.1.a. Lokasi Mandala | Pendidikan di hutan, pegunungan |
+| B.1. Mandala sebagai Tempat Tinggal Para Rsi | Resi, bhagawan |
+| B.1. Murid dewa guru dikelompokkan menjadi | Sistem pendidikan |
+| C. Perempuan dan Anak-anak | Peran gender |
+| C.1. Peran Perempuan dalam Rumah Tangga | Emansipasi pra-modern |
+| C.2. Pola Pengasuhan Anak pada Masa Nusantara Kuno | Tradisi pengasuhan |
+| C.3. Busana di Jawa | Kain, kembengan, kemben |
+| C.4. Busana di Bali | Tradisi busana Bali |
+| C.5. Busana di Wilayah Lainnya di Nusantara | Sumatra, Kalimantan |
+| C.6. Busana di Kalimantan | Dayak, Banjar |
+| C.7. Busana di Nusantara Bagian Timur | Maluku, Papua |
+| C.8. Teknik Pembuatan Kain | Memukul, tenun |
+| C.9. Teknik Menghias Kain | Batik, songket, prada |
+| E. Kesenian dalam Prasasti, Naskah, dan Relief | Seni pertunjukan |
+| E.1.a. Seni Musik | Gamelan, gending |
+| E.1.c. Pertunjukan Wayang | Wayang purwa, beber |
+| E.1.d. Seni Suara | Sinden, kawih |
+| E.2. Profesi Seniman | Golongan seniman |
+| F. Pengelolaan Lingkungan | Ekologi Hindu-Buddha |
+| F.1. Bentuk Pengelolaan Lingkungan Jawa Kuno | Saluran air, bendungan |
+| F.1.a. Pembuatan saluran air/bendungan | Teknologi irigasi |
+| F.1.c. Pelestarian Lingkungan | Hutan suci |
+| G. Masyarakat Terpinggir dalam Prasasti dan Naskah | Budak, disabilitas |
+| G.1. Budak dan Disabilitas | Sosial kasta bawah |
+| G.1. Pengobatan Tradisional Nusantara | Kearifan lokal Sumatra |
+| G.1. Jenis Penyakit | Malaria, disentri |
+| G.1. Profesi Kesehatan | Tabib, dukun |
+| G.1. Ramuan Obat dan Mantra | Pengobatan herbal |
+
+### Bab V — Puncak Pencapaian Persilangan
+| Sub-bab | Topik |
+|---|---|
+| A. Maritim sebagai Faktor Strategis menuju Puncak | Politik-diplomasi maritim |
+| A.2. Akar Budaya dan Identitas Maritim | Pola pemukiman |
+| B. Agrikultur | Identitas agrikultur |
+| B.1. Kajian Awal Identitas Agrikultur | Profesi pertanian |
+| B.4. Klasifikasi Visual | Konsep Triloka dan WTU |
+| B.6. Lanskap Agrikultur di Wilayah Lain di Nusantara | Bali, Sumatra |
+| C. Literasi sebagai Transformasi Pengetahuan | Alih bahasa |
+| C.2. Pengetahuan Genealogi | Silsilah |
+| C.4. Pengetahuan Politik | Strategi |
+| C.5. Pengetahuan Pendidikan | Sistem pendidikan |
+| C.7. Alih Wahana dari Sastra ke Pertunjukan | Sastra lisan |
+| C.8. Peran Institusi Pendidikan | Mandala, pasraman |
+| D. Ritual | Persiapan, pelaksanaan, penutup |
+| D.2. Menanam Sakralitas: Ritual Pendirian Bangunan Suci | Ritual pembibitan, peletakan bata-batu, pripih |
+| D.3. Sanksi dan Penegakan Hukum | Sistem hukum |
+| D.3.b. Kitab Sarasamuccaya | Kitab hukum Hindu-Buddha |
+| D.3.c. Pirwadhigama | Kitab hukum |
+| E. Jaringan Perdagangan Sumatera abad 4-13 | Sriwijaya-Samudra Pasai |
+| E.1.a. Jaringan Perdagangan Sumatera Abad 4-13 | Hubungan internasional |
+| E.1.b. Hubungan Dagang Sriwijaya dengan Tiongkok-India-Persia | Komoditas |
+| E.1. Pasar Berkala dan Banigrama | Sistem pasar |
+| E.1. Klasifikasi dan Peran Pedagang dalam Jaringan Global | Tujuh jenis pedagang |
+| E.1.b. Pola Perdagangan Bali | Pasar Bali |
+| E.1. Regulasi Pasar | Hukum pasar |
+| E.1. Mata Uang dalam Jaringan Perdagangan | Koin emas, pitis, picis |
+| E.1. Komoditas Unggulan Bali di Nusantara | Ekspor Bali |
+| F. Sistem Perpajakan Masa Raja Balitung di Mataram (899-910 M) | Pajak Mataram |
+| F.1.b. Mekanisme Pajak Masa Majapahit | Pajak Majapahit |
+| G. Wujud Sakralitas dalam Ragam Arsitektur Hindu | Konsep arsitektur |
+| G.3. Ruang Sunyi dan Sakral: Jejak Arsitektur Cadas Hindu | Arsitektur cadas |
+| G.3.a. Percandian Batujaya | Candi di Jabar |
+| G.3.b. Percandian Muarajambi | Candi di Jambi |
+
+### Bab VI — Kemunduran dan Munculnya Tatanan Baru
+| Sub-bab | Topik |
+|---|---|
+| A.1.a. Kedatuan Sriwijaya | Konflik internal |
+| A.1.b. Mataram | Konflik internal Mataram Kuno |
+| A.1.c. Janggala dan Pangjalu | Perpecahan pasca-Airlangga |
+| A.1.d. Singhasari | Konflik internal |
+| A.1.e. Majapahit | Perang Paregreg |
+| A.2. Perubahan Orientasi Keagamaan | Hindu → Islam |
+| B.1. Penggunaan Aksara Arab untuk Menulis Bahasa Lokal | Awal aksara Jawi |
+| B.2. Munculnya Konsep Pendidikan Pesantren | Awal pesantren |
+
+## B2. Tokoh-Tokoh Tambahan Jilid 2
+
+### Tokoh Mataram Kuno Lengkap (Bab 3, banyak terlewat)
+| Tokoh | Peran |
+|---|---|
+| **Rahyangtai Hara / Rakai Mataram Sang Ratu Sanjaya** | Pendiri Mataram Kuno (732 M) |
+| **Rakai Panangkaran** | r. 746-784, bangun Candi Kalasan |
+| **Rake Panaraban** | r. 784-803 |
+| **Rakai Warak Dyah Manara** | r. 803-827 |
+| **Dyah Gula** | r. 827-828 |
+| **Rakai Garung** | r. 828-846 |
+| **Rake Pikatan Dyah Salada** | r. 846-855 |
+| **Rakai Kayuwangi (Dyah Lokapala)** | r. 855-885 |
+| **Rakai Watuhumalang** | r. 885-890 |
+| **Rakai Watukura Dyah Balitung** | r. 898-910 (prasasti Mantyasih 907) |
+| **Rakai Layang Dyah Tulodong** | r. 919-924 |
+| **Rakai Sumba** | r. 924-927 |
+| **Mpu Daksha** | r. 910-919 |
+| **Sri Isyanatunggadewi** | Ratu Mataram (947-985) |
+| **Mpu Sindok / Sri Isyana Vikramadharmatunggadewa** | r. 929-947, pendiri Wangsa Isyana |
+| **Mahendradatta (Gunapriyadharmapatni)** | Ratu Bali, istri Udayana |
+| **Dharmodaya Warmadewa** | Raja Bali |
+| **Udayana** | Raja Bali (abad 10-11) |
+| **Airlangga** | Raja Kahuripan (1019-1042) |
+| **Sri Maharaja Mapanji Garasakan** | r. 1042-1052 (Janggala) |
+| **Sri Maharaja Mapanji Alanjung** | r. 1052-1059 |
+| **Sri Maharaja Samarothsama Teguh** | r. 1059 |
+| **Rajasawardhana** | r. 1059-1069 |
+| **Jayasabha** | r. 1069-1079 |
+| **Ratu Bhanu** | r. 1079 |
+| **Jayawardhana** | r. 1079-1115 |
+| **Kameçvara** | r. 1115-1130 (Kadiri) |
+| **Jayabaya** | r. 1135-1157 (Kadiri) |
+| **Sri Aksobhya** | r. 1157-1168 |
+| **Prabu Arya Sweranatha** | r. 1168 |
+| **Kertajaya / Dang Hyang Jayabaya** | r. 1194-1222 (terakhir Kadiri) |
+| **Anusapati** | r. 1227-1248 (Singhasari) |
+| **Tohjaya** | r. 1248 (Singhasari) |
+| **Wisnuwardhana** | r. 1248-1268 |
+| **Kertanegara** | r. 1268-1292 (terakhir Singhasari) |
+| **Raden Wijaya / Kertarajasa** | r. 1294-1309 (pendiri Majapahit) |
+| **Jayanegara** | r. 1309-1328 |
+| **Tribhuwanatunggadewi** | Ratu Majapahit 1328-1350 |
+| **Hayam Wuruk / Rajasanagara** | r. 1350-1389 |
+| **Wikramawardhana** | r. 1389-1429 |
+| **Suhita** | Ratu Majapahit 1429-1447 |
+| **Kertawijaya (Bhre Tumapel)** | r. 1447-1451 |
+| **Rajasawardhana (Bhre Pamotan)** | r. 1451-1453 |
+| **Girishawardhana Dyah Suryawikrama** | r. 1456-1466 |
+| **Singhawikramawardhana (Suraprabhawa)** | r. 1466-1478 |
+| **Bhre Kertabhumi** | r. 1478-1519 |
+| **Girindrawardhana (Dyah Ranawijaya)** | r. 1486-1519 |
+
+### Tokoh Bali Kuno Lengkap (TERLEWAT TOTAL!)
+| Tokoh | Peran |
+|---|---|
+| **Sri Aji** | Pendiri Bali Kuno awal |
+| **Sang Ratu Sri Aji Taganendra Dharmmadewa** | Raja Bali |
+| **Sang Ratu Sri Sang Ajfiadewi** | Permaisuri Bali |
+| **Paduka Haji Anak Wungsu** | Raja Bali 1050-1077 |
+| **Paduka Sri Maharaja Sri Sakalendukiritegana** | Raja Bali 1100-1117 |
+| **Rajapatih Kbo Parud** | Patih Bali Kuno |
+| **Paduka Bhatara Guru** | Raja Bali |
+| **Paduka Bhatara Sri Walajaya Krttaningrat** | Raja Bali |
+
+### Tokoh Sriwijaya-Melayu Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Dapunta Hyang Sri Jayanasa** | Pendiri Sriwijaya (abad 7) |
+| **Dharmasetu** | raja Sriwijaya abad 8 |
+| **Balaputradewa** | raja Sriwijaya (akhir abad 9), lari ke Sumatra |
+| **Sangrama Vijayottunggavarman** | Raja terakhir Sriwijaya (1025, diserang Chola) |
+| **Mauliwarmmadewa** | Raja Dharmasraya (akhir abad 12-awal 13) |
+| **Tribhuwanaraja Mauliwarmmadewa** | Raja Melayu |
+
+### Tokoh Tarumanagara & Kutai Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Kudungga** | Raja Kutai awal (pra-Hindu) |
+| **Aswawarman** | Raja Kutai (Wamsakarta) |
+| **Mulawarman** | Raja Kutai (abad 4-5, puncak) |
+| **Purnawarman / Purnavarman** | Raja Tarumanagara (abad 5, 7 prasasti) |
+
+### Tokoh Singhasari & Kadiri Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Ken Arok** | Pendiri Singhasari (1222) |
+| **Ken Dedes** | Istri Tunggul Ametung, ibu Anusapati |
+| **Tunggul Ametung** | Tumenggung Tumapel, dibunuh Ken Arok |
+| **Kebo Ijo** | Sumber keris Mpu Gandring |
+| **Mpu Gandring** | Pandai besi, pembuat keris |
+| **Anusapati** | Anak Ken Dedes-Tunggul Ametung, r. 1227-1248 |
+| **Tohjaya** | Anak Ken Arok-Ken Umang, r. 1248 |
+| **Wisnuwardhana (Ranggawuni)** | r. 1248-1268 |
+| **Kertanegara** | r. 1268-1292, Ekspedisi Pamalayu |
+
+### Tokoh Aksara & Bahasa
+| Tokoh | Peran |
+|---|---|
+| **Aksara Pallawa** | Aksara India yang jadi dasar aksara Nusantara |
+| **Aksara Kawi** | Aksara Jawa Kuno |
+| **Aksara Bali** | Aksara Bali Kuno |
+| **Aksara Arab-Melayu (Jawi)** | Aksara Arab untuk Melayu |
+| **Aksara Merapi-Merbabu** | Aksara pegunungan Jawa, skriptoria Damalung |
+| **Aksara Nanapra / Kaganga** | Aksara Rejang-Lepong (Sumatra Selatan) |
+| **Aksara Batak** | Aksara Surat Batak |
+| **Aksara Sunda Kuno** | Aksara Sunda |
+| **Aksara Modang** | Aksara Kalimantan Timur |
+| **Aksara Rencong** | Aksara Aceh |
+
+### Tokoh Lain-Lain
+| Tokoh | Peran |
+|---|---|
+| **Mpu Tantular** | Penulis Sutasoma (Mataram-Majapahit) |
+| **Mpu Prapanca** | Penulis Negarakretagama (Majapahit 1365) |
+| **Mpu Sedah & Mpu Panuluh** | Penulis Bharatayuda (Kadiri) |
+| **Empu Kanwa** | Penulis Arjunawiwaha (Mataram Kuno) |
+| **Mpu Panuluh** | Penulis Hariwangsa, Ghatotkacasraya |
+| **Mpu Sindok** | Mpu-menteri Mataram Kuno |
+| **Mpu Barada** | Tokoh mistik Mataram Kuno |
+| **Hari-Nara** | Konsep Siwa-Buddha sinkretis |
+
+---
+
+# BAGIAN C — SUPLEMEN JILID 3 (Timur Tengah - Islamisasi)

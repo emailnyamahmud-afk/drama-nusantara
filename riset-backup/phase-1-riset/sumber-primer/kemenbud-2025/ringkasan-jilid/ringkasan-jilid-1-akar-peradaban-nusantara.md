@@ -926,3 +926,139 @@ Nusantara adalah laboratorium maritim sejak Pleistosen. Aktivitas maritim berkem
 *Ringkasan ini disusun oleh Z.ai Main Agent berdasarkan **pembacaan mendalam** (bukan parsing) buku "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global" Jilid 1 (Kemenbud RI 2025). Setiap bab dibaca section-by-section dengan ekstraksi analisis konsep, tokoh, konteks ilmiah, kutipan langsung, dan multi-perspektif para ahli.*
 
 *Untuk referensi lengkap, baca buku asli di `phase-1-riset/sumber-primer/kemenbud-2025/jilid-1/`.*
+
+---
+
+# BAGIAN A — SUPLEMEN JILID 1 (Akar Peradaban Nusantara)
+
+## A1. Sub-bab Sumber Primer yang Terlewat di Jilid 1
+
+### Bab I — Kondisi Lingkungan Alam (Sub-bab yang Kurang Detail)
+| Sub-bab | Topik Kunci |
+|---|---|
+| D. Gambaran Umum Geologi Kuarter di Nusantara | Periode Pleistosen-Holosen, glasiasi-interglasiasi |
+| E. Siklus Iklim dan Dinamika Fisiografi | Perubahan garis pantai 125 m di bawah permukaan saat glasial maksimum |
+| F. Lingkungan Purba: Biostratigrafi, Fauna, Flora | Fauna Siwalik, Narbada, Myanmar, Stegodon |
+| G. Kajian Biostratigrafi Kepulauan Nusantara | Endemisme, insular dwarfism |
+| G.1. Biostratigrafi Paparan Sunda | Sub-bab a (Sumatra Bukit Barisan), b (Paparan Sunda Barat) |
+| G.2. Biostratigrafi Wallacea | Wallacea Utara (Lembah Walanae Sulawesi), Wallacea Selatan (Cekungan So'a Flores) |
+
+### Bab II — Manusia: Persebaran dan Perkembangan
+| Sub-bab Terlewat | Topik |
+|---|---|
+| C. Awal Penghunian Manusia di Nusantara | Trinil 1891, Sangiran, Bumiayu, Semedo |
+| C.5. Kepunahan Homo erectus: Introgresi Gen dan Toba Supervolcano | Teori Ambrose 1998, YTT 74.000 tahun lalu |
+| D. Manusia Modern Anatomis Awal (MMAA) di Indonesia | Lida Ajer (Sumatra), Song Gede (Sulawesi) |
+| E. Manusia Modern di Nusantara - Holosen | Gua Harimau (Sumatra), Anyer Lor (Jawa) |
+| F. Sebaran Populasi Asia Tenggara | Rute Barat (WRM) vs Rute Timur (ERM), Austronesia |
+| F.5. Sulawesi | Leang Panninge (DNA Denisovan!) |
+| F.7. Sebaran Populasi Papuamelanesia | Papuamelanesia + Australomelanesid |
+
+### Bab III — Perkembangan Teknologi (Paling Banyak Terlewat!)
+| Sub-bab | Situs & Topik |
+|---|---|
+| A. Teknologi Homo Erectus | Kapak penetak bifasial, alat masif-nonmasif |
+| A.b-c. Situs Bumiayu, Patiayam, Semedo, Lembah Soa | Detail teknologi per situs |
+| B. Teknologi Homo Floresiensis | Liang Bua, Mata Menge |
+| C. Teknologi Manusia Modern Awal | Song Gede, Liang Abu, Awang Bangkal, Matja Kuru 1-2, Gua Makpan, Situs Elivawan |
+| C.8. Papua | Tradisi pengupaman batu |
+| D. Teknologi Pengupaman Masa Bercocok Tanam | Kendeng Lembu, Gunung Sewu, Bomo-Teleng, Song Keplek, Song Gupuh |
+| E. Teknologi Tembikar | Sumatra (Siulak Tenang, Loyang Mendale, Gua Harimau), Kalimantan (Sabah-Sarawak, Mangkalihat), Maluku-Talaud |
+| F. Teknologi Pembuatan Kain/Alat Batu Pengolah Kulit Kayu | Tradisi kain kulit kayu Nusantara |
+| G. Teknologi Peleburan Logam dan Kaca | Gua Harimau, Bukit Batu Larung, Pondok, Pulau Kampai, Subanglarang, Pasir Angin, Plawangan, Pacung, Manikliyu (Bali), Pangkung Paruk, Sembiran, Tigawasa, Jambu Hilir, Palemba, Gua Bulu Taroa 2, Gua Topogaro, Gua Talimbue, Gua Andomo, Talaud, Ceruk Jareng Bori, Lambanapu |
+
+### Bab IV — Religi, Seni, dan Tradisi
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Animisme dan Dinamisme | Konsep dasar, kepercayaan pra-Hindu |
+| B. Gambar Cadas dan Dinamika Global | Teknik pembuatan, pigmen, motif theriantrop |
+| C. Munculnya Gambar Cadas sebagai Fenomena Global | Lukisan cadas Eropa (Chauvet, Lascaux) |
+| D. Tradisi Lukisan Austronesia | Lukisan cadas Sulawesi Maros-Pangkep, Kalimantan |
+| E. Siapakah Para Seniman Pembuat Gambar Cadas | Hipotesis seniman paleolitik |
+| F. Gambar Cadas: Kekunoan, Metode Pertanggalan, Gaya | Uranium-thorium, radiocarbon |
+| G. Persebaran Gambar Cadas | Laut Banda, Sumatra, dolmen, punden berundak, undakan batu, patung sederhana, tempayan batu, lumpang batu, palung batu, batu bergores, ceruk dinding batu, pagar batu |
+| Praktik Penguburan di Nusantara | Sarkofagus, peti batu, bilik batu, kubur tempayan, pandhusa, gundukan pemakaman, peti kubur kayu (Sulawesi, Kalimantan) |
+| 3. Kontinuitas Tradisi Penguburan Toraja | Tau-Tau: patung yang menjebak manusia dalam siklus memori |
+
+### Bab V — Organisasi Sosial dan Perkembangan Masyarakat
+| Sub-bab | Topik |
+|---|---|
+| A. Pertumbuhan Kelompok Masyarakat Awal | Kelompok pemburu-pengumpul, pembentukan komunitas petani-peternak |
+| B. Perkembangan Organisasi Sosial | Organisasi Homo Erectus, Situs Batu Tigo Sajarangan (simbolisasi kepemimpinan), Dumtru (musyawarah Papua) |
+| C. Konsep Primus inter Pares | Yang pertama dan mulia, totem asal kejadian, lukisan antropomorfik, motif geometrik, takhta batu, figur kompeten + solider (bedah amputasi tertua di dunia) |
+| D. Budaya Unggul Suku Tradisional Mapan | Rumpun bahasa Melanesia + Austronesia, masyarakat adat Bali (Subak), Kajang (penjaga hutan hujan tropis), Melayu Riau (arsitektur rumah Austronesia), Bajau (komunitas maritim) |
+
+### Bab VI — Maritim dan Jaringan Budaya Nusantara
+| Sub-bab | Topik |
+|---|---|
+| A. Kondisi Geografi Ekologi dan Potensi Maritim | Sejarah iklim Glasial-Interglasial, angin musun-siklon tropis, terumbu karang |
+| B. Teknologi, Tradisi, dan Jaringan Maritim | Perahu bercadik, praau, kapal pinisi |
+| C. Bukti Awal Interaksi Maritim | Pertukaran obsidian, kerang, fauna |
+| D. Rute Perdagangan dan Jaringan Pertukaran | Jalur Paparan Sunda-Wallacea-Sahul |
+| E. Struktur Kehidupan Sosial dan Pemukiman Awal | Permukiman maritim awal, pengetahuan masyarakat maritim |
+
+## A2. Tokoh-Tokoh Tambahan Jilid 1
+
+### Tokoh Paleoantropologi & Geologi Kolonial/Belanda
+| Tokoh | Peran |
+|---|---|
+| **Eugène Dubois** | Dokter militer Belanda, penemu Pithecanthropus erectus (Trinil 1891) |
+| **G.H.R. von Koenigswald** | Ahli paleontologi Jerman, temuan Mojokertensis 1936 |
+| **Andoyo** | Indonesia, penemu Mojokertensis bersama von Koenigswald |
+| **Duyfjes** | Ahli geologi Belanda |
+| **P.V. van Stein Callenfels** | Arkeolog kolonial, konsep "prasejarah" |
+| **H.R. van Heekeren** | Arkeolog kolonial, periodisasi batu-logam |
+| **W.F. Stutterheim** | Sejarawan kolonial, periodisasi teknologi |
+| **Robert von Heine-Geldern** | Antropolog, teori migrasi Austronesia (kapak beralas) |
+| **Willem Alberto Aguilar** | Geolog Belanda |
+| **Reinout van Bemmelen** | Geolog Belanda, geologi Indonesia |
+| **Maxime Wilhelm Carl Weber** | Ahli biogeografi, "Garis Weber" |
+| **Alfred Russel Wallace** | Naturalis Inggris, "Garis Wallace" (1869) |
+| **Lydekker** | Ahli biogeografi, "Garis Lydekker" |
+
+### Tokoh Paleoantropologi Modern
+| Tokoh | Peran |
+|---|---|
+| **Mike Morwood** | Penemu Homo floresiensis (Liang Bua 2003, *Nature* 2004) |
+| **Peter Brown** | Co-author *Nature* 2004 |
+| **Wahyu Saptomo** | Arkeolog Indonesia, co-penemu Homo floresiensis |
+| **R.P. Soejono** | Arkeolog Indonesia, penulis *Sejarah Nasional Indonesia I* |
+| **Truman Simanjuntak** | Arkeolog Indonesia, Gua Harimau |
+| **Yokoyama Yusuf** | Ahli pertanggalan |
+| **Stanley H. Ambrose** | Toba Catastrophe Theory 1998 |
+| **Rizal et al. (2020)** | *Nature*, Homo erectus Ngandong 117-108 ka |
+| **Kaifu** | Ahli evolusi |
+| **Gathorne-Hardy** | Toba Catastrophe |
+| **C.C.H.M. Bellwood** | Teori migrasi Austronesia (Out of Taiwan) |
+| **Bulbeck** | Paleoantropologi Asia Tenggara |
+| **F. Aziz** | Sangiran |
+| **Huffman** | Mojokerto skull discovery |
+| **Gert van den Bergh** | Cekungan So'a Flores |
+| **John de Vos** | Fauna Nusantara |
+| **Paul Y. Sondaar** | Fauna endemik Wallacea |
+| **Arthur Bettis III** | Paleoenvironmental Sangiran |
+| **Hertler, Christoph** | Paleoantropologi |
+| **Noerwidi** | Distribusi situs Hominin |
+| **Mohammad Ruly Fauzi** | Karakterisasi alat batu Gua Harimau |
+| **Adam Brumm** | Gambar cadas Sulawesi |
+| **Maxime Aubert** | Pertanggalan uranium-thorium gambar cadas |
+| **Jean-Michel Chazine** | Lukisan cadas Kalimantan |
+
+### Tokoh Suku Adat (Bab 5)
+| Tokoh/Konsep | Peran |
+|---|---|
+| **Dumtru** | Konsep musyawarah-kepemimpinan di Papua |
+| **Maro Sebo** | Konsep pemimpin pada masyarakat adat |
+| **Batu Tigo Sajarangan** | Situs simbolisasi kepemimpinan |
+| **Totem Asal Kejadian** | Konsep primus inter pares |
+| **Tau-Tau Toraja** | Patung yang menjebak manusia dalam siklus memori |
+| **Suku Kajang** | Penjaga hutan hujan tropis (Bulukumba, Sulsel) |
+| **Suku Bajau** | Komunitas maritim, asal-muasal pelaut Sulsel |
+| **Suku Melayu Riau** | Arsitektur rumah Austronesia |
+| **Tradisi Subak Bali** | Sistem irigasi adat Bali (UNESCO Heritage) |
+| **Rumpun Melanesia** | Bahasa Papua-Nusa Tenggara |
+| **Rumpun Austronesia** | Bahasa Nusantara-Formosa |
+
+---
+
+# BAGIAN B — SUPLEMEN JILID 2 (Perjumpaan India-Tiongkok-Persia)

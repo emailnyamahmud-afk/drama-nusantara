@@ -894,3 +894,87 @@ Stage Summary:
 - 30+ ahli paleoantropologi Jilid 1 (Dubois, von Koenigswald, Morwood, dll.)
 - Jilid 2 highlight: 18 raja Mataram Kuno lengkap (Sanjaya hingga Girindrawardhana) + 7 raja Bali Kuno + 9 raja Singhasari-Kadiri + 6 raja Sriwijaya-Melayu + 10 aksara Nusantara
 - Jilid 3 highlight: 9 Wali Songo dengan nama asli + 11 tokoh wali lain + 16 sultan Aceh + 10 sultan Ternate-Tidore-Gowa
+
+---
+Task ID: 15-D
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 5 Bab 6-7
+
+Work Log:
+- Baca 11-bab-6.md
+- Baca 12-bab-7.md
+
+Stage Summary:
+- Bab 6: Pemetaan 14 teater perlawanan (Padri, Tondano II, Perang Jawa/Diponegoro, Bali, Bone, Banjar, Aceh+Batak, Sunggal, Saparua, Lombok, NTT, Banten 1888, Ratu Adil) dengan data tokoh-tahun-korban yang siap diangkat ke skenario drama heroik-tragis.
+- Bab 7: Konflik berpindah dari medan perang ke medan epistemik — eksplorasi Raffles/Wallace/Zollinger/Dubois, infrastruktur pengetahuan (BGKW, Kebun Raya Bogor, percetakan, pers), dan tiga pujangga perlawanan kultural (Raja Ali Haji, Mangkunegara IV, Ranggawarsita) yang menjadi cikal-bakal pergerakan kebangsaan Jilid 6.
+
+---
+Task ID: 15-C
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 5 Bab 5 (terbesar)
+
+Work Log:
+- Baca 10-bab-5.md (286 KB, 37.782 kata)
+- Split file 628 paragraf ke 32 chunk 20-paragraf untuk atasi batas baca tool
+- Mapping 9 seksi (A-I) + Catatan Penutup + Catatan Kaki
+- Ekstrak ~80 tokoh historis (penghulu, ulama Jawi, zendeling, misionaris Katolik, tokoh Padri, tokoh Buddha-Theosofi)
+- Ekstrak 40+ angka konkret (gaji ambtenaar, populasi Arab-Hadrami 1859-1885, statistik Katolik 1900, dll.)
+- Ekstrak 30+ tanggal/Staatsblad kunci (1642-1934)
+
+Stage Summary:
+- Bab 5: Matriks konflik sosial-keagamaan abad 19 — kasta rasial (Eropa > Timur Asing > Bumiputra) di atas ambtenaar-bupati-penghulu, di atas perebutan otentisitas agama (priayi vs santri, Padri vs adat, Kristen vs Islam, Buddha-Theosofi) yang siap menjadi 12 scene drama.
+
+---
+Task ID: 15-B
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 5 Bab 3-4
+
+Work Log:
+- Baca 08-bab-3.md (188 KB, 987 baris, Bab III — Sistem dan Institusi Ekonomi)
+- Baca 09-bab-4.md (212 KB, 1.185 baris, Bab IV — Fondasi Infrastruktur Publik)
+- Mapping struktur Bab 3: PENGANTAR + A (VOC s.d. 1830: Padi/Kopi/Tebu/Jaringan Maritim) + B (Cultuurstelsel: lahan-buruh-modal, dampak, borjuasi, ekonomi kepulauan, kapal uap, keamanan maritim) + C (Ekonomi Liberal 1860-1880: ekspansi modal swasta, perbankan, rasionalisasi fiskal, eksploitasi SDA, integrasi wilayah timur, resistansi) + D (Krisis akhir abad 19) + CATATAN PENUTUP
+- Mapping struktur Bab 4: PENGANTAR + A (Jalan & Daendels Anyer-Panarukan) + B (Kereta api & Stieltjes-Sloet konflik) + C (Jembatan: Cirahong, Kediri/Westerbaan) + D (Infrastruktur Maritim: KPM, Suez 1869, pelabuhan) + E (Transportasi Sungai: Brantas, Mahakam, Musi, Tulang Bawang) + CATATAN PENUTUP
+- Ekstrak 40+ tokoh kunci (van den Bosch, Multatuli, Nienhuys, Pangeran Kornel, Stieltjes, Sloet, David Maarschalk, Westerbaan, Said Abdullah, Sjarief Abdulrachman, Kho Jansen, Boissevain/Ruys/Tegelberg, dll.)
+- Ekstrak 30+ angka konkret (22% lahan + 12,5% buruh cultuurstelsel, 20% pendapatan Belanda 1832-1850, 1.100 km Jalan Raya Pos, 12.000 korban, 8 paal/jam, 13 rute KPM, f 660.000 subsidi, 2.255.284 kg baja Krupp, 9,5 juta gulden Surabaya-Malang, dll.)
+- Ekstrak 25+ tanggal/Staatsblad kunci (1808-1811 Daendels, 1815 Tambora, 1828 DJB, 1830 Cultuurstelsel, 1860 Max Havelaar, 1863 NISM, 1869 Suez + Deli Maatschappij, 1870 UUA, 1888 KPM, dll.)
+
+Stage Summary:
+- Bab 3: Narasi eksploitasi ekonomi kolonial 1800-1900 — dari sistem contingenten/verplichte leverantié VOC ke cultuurstelsel (1830-1860) yang menyedot 22% lahan + 12,5% buruh Jawa untuk membiayai 20% pendapatan negara Belanda, lalu transisi ke ekonomi liberal (UUA 1870) yang justru melahirkan borjuasi perkebunan, krisis perbankan 1884, dan resistansi petani (bakar tebu, gerakan Ratu Adil).
+- Bab 4: Fondasi fisik negara kolonial — Jalan Raya Pos Daendels 1.100 km (12.000 korban rodi), jaringan kereta api NISM/Staatsspoorwegen (konflik Stieltjes-Sloet, kontrak Krupp 1895), jembatan besi (Cirahong, Kediri 1854-1869 15 tahun), KPM (1888, 13 rute, subsidi f 660.000), dan transportasi sungai (Brantas-Mahakam-Musi-Tulang Bawang) yang menyatukan eksploitasi ekonomi kolonial dari pedalaman ke pelabuhan ekspor.
+
+---
+Task ID: 15-A
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 5 Bab 1-2
+
+Work Log:
+- Baca 06-bab-1.md (199 KB)
+- Baca 07-bab-2.md (190 KB)
+
+Stage Summary:
+- Bab 1: Pergeseran dari dominasi VOC (bangkrut 1800, utang f.134,7 juta) ke negara kolonial terpusat via Daendels (9 prefektur, bupati digaji, Jalan Pos, jual tanah partikelir pada Han Tjan Pit/Han Kit Ko), Raffles (Landrente, Geger Sepehi 1812), Van den Bosch (cultuurstelsel 1830, laba f.800 juta), lalu ekspansi ke luar Jawa (Perang Diponegoro-Sepreh 1830, Traktat Siak 1858, Traktat Sumatra 1871, Perang Banjar 1857-1905, Lombok 1894, puputan Cakranegara, Korte Verklaring 267 swapraja).
+- Bab 2: Transplantasi hukum Eropa lewat asas konkordansi (Grondwet 1848 → RR 1854 → KUH Perdata 1847/KUH Dagang/KUH Pidana 1849/1866/1873) menghasilkan pluralisme hukum berlapis (Eropa-bumiputra-Timur Asing; perdata-pidana; landraad-priesterraden; pasungan-pembuangan-exorbitante rechten Pasal 45) yang masih meninggalkan jejak pada sistem hukum Indonesia merdeka.
+
+---
+Task ID: 16 (ringkasan-jilid-5 + merge suplemen + INDEX)
+Agent: Main Agent (Z.ai)
+Task: Buat ringkasan-jilid-5, merge semua suplemen ke file utama, buat INDEX, push ke GitHub
+
+Work Log:
+- Launch 4 subagent paralel (Task 15-A s/d 15-D) untuk ekstrak 7 bab Jilid 5
+- Sintesis 4 subagent output → 3 chunk Write → concat jadi ringkasan-jilid-5-negara-kolonial-1800-1900.md
+- Merge suplemen Jilid 1, 2, 3 (ringkasan-jilid-1-2-3-suplemen.md) ke masing-masing file utama
+- Merge suplemen Jilid 4 (suplemen-1 + suplemen-2) ke file utama ringkasan-jilid-4-interaksi-awal-barat.md
+- Buat INDEX.md merangkum semua 5 file ringkasan + statistik + peta fase drama + cara menggunakan
+- Commit & push ke GitHub
+
+Stage Summary:
+- File baru: ringkasan-jilid-5-negara-kolonial-1800-1900.md (16.382 kata, 7 bab, 743 baris)
+- File baru: INDEX.md (panduan navigasi 5 jilid)
+- File merged (suplemen di-append ke file utama):
+  * ringkasan-jilid-1: 9.438 kata (sebelumnya 8.161 + suplemen 1.277)
+  * ringkasan-jilid-2: 9.592 kata (sebelumnya 7.134 + suplemen 2.458)
+  * ringkasan-jilid-3: 12.979 kata (sebelumnya 10.888 + suplemen 2.091)
+  * ringkasan-jilid-4: 40.861 kata (sebelumnya 29.383 + suplemen 1 4.612 + suplemen 2 6.864 + overhead)
+- TOTAL: 89.252 kata dalam 5 file ringkasan utama (38 bab)
+- File suplemen tetap ada sebagai file terpisah untuk referensi tambahan

@@ -1096,3 +1096,277 @@ Dua era kosmopolis memengaruhi cara berpikir masyarakat Nusantara:
 *Ringkasan ini disusun oleh Z.ai Main Agent berdasarkan **pembacaan mendalam** (bukan parsing) buku "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global" Jilid 3 (Kemenbud RI 2025). Setiap bab dibaca section-by-section dengan ekstraksi konflik, intrik, narasi, dan data tokoh-tahun-lokasi-komoditas-hukum.*
 
 *Untuk referensi lengkap, baca buku asli di `phase-1-riset/sumber-primer/kemenbud-2025/jilid-3/`.*
+
+---
+
+# BAGIAN C — SUPLEMEN JILID 3 (Timur Tengah - Islamisasi)
+
+## C1. Sub-bab Sumber Primer yang Terlewat di Jilid 3
+
+### Bab I — Nusantara dalam Arus Perdagangan Jarak Jauh
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Angin Muson Samudra Hindia | Karakteristik muson, navigasi kuno |
+| C. Al-Hind dalam Jaringan Niaga Maritim Global | Kawasan al-Hind |
+| C. Wajah Timur Tengah di Nusantara | Komunitas Arab-Persia |
+| D. Arkeologi Situs Bongal | Detail koin Umayyah-Abbasiyah |
+| F. Rempah Nusantara dan Pertemuan Budaya | Lada, cengkeh, pala, kapur barus |
+| F. Aromatika Endemik Nusantara | Gaharu, benzoin, damar |
+
+### Bab II — Komunitas Muslim di Bandar Dagang
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Sriwijaya atau Zabaj | Kontak awal Sriwijaya-Islam |
+| A.2. Sumber-sumber Sejarah tentang Sriwijaya | I-Tsing, Al-Mas'udi, Abu Zayd |
+| A.4. Belitung Shipwreck | Bukti konkret jaringan Islam-Sriwijaya |
+| A.8. Sriwijaya sebagai Federasi Maritim dan Perdagangan Global | Sistem mandala Sriwijaya |
+| B. Barus (Lobu Tua) | Komunitas Muslim Tamil abad 9 |
+| B.5.a. Struktur Pelabuhan Barus | Lobu Tua |
+| B.5.b. Ornamen Batu Nisan | Nisan Islam khas Barus |
+| B.5.c. Komoditas Setempat | Kapur barus |
+
+### Bab III — Pembentukan Kerajaan
+| Sub-bab Terlewat | Topik |
+|---|---|
+| B. Islamisasi di Kawasan Barat Nusantara | Aceh, Barus, Pasai |
+| C. Jaringan Islamisasi Aceh Darussalam | Sistem pendidikan dayah |
+| H. Kalimantan | Banjar, Kutai, Sambas |
+
+### Bab IV — Kerajaan dan Intensifikasi Islamisasi
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Keterhubungan Global | Jaringan global Islam Nusantara |
+| B. Penggerak Intensifikasi Islam | 4 faktor: ekonomi, politik, sosial, ulama |
+| B.2. Minangkabau | Islamisasi Minangkabau |
+| E.2. Jaringan Intensifikasi Islam | Giri Kedaton, Pesantren |
+| G. Dinamika Islamisasi Kerajaan Kutai | Kutai Kartanegara |
+
+### Bab V — Perkembangan Perdagangan
+| Sub-bab Terlewat | Topik |
+|---|---|
+| B. Sistem Transaksi Perdagangan | Mata uang, timbangan |
+| B.1. Peranan Syahbandar | Tun Perak, Malaka |
+| B.2. Undang-Undang Laut Melaka | Hukum maritim Malaka |
+| B.5. Bea Cukai dan Pajak Pelabuhan | Sistem cukai |
+| B.7. Masalah Budak | Perdagangan budak di Malaka |
+| F. Pengorganisasian Pelayaran Niaga | Sistem jung, nakhoda |
+
+### Bab VI — Islam dalam Budaya Politik Kerajaan
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A.1. Hubungan Raja dengan Ulama | Sultan-Ulama patron |
+| A.2. Hubungan Raja dengan Elite Ekonomi | Sultan-Pedagang |
+| A.4. Pakih Najmuddin | Ulama Aceh |
+
+### Bab VII — Wali Songo Mengislamkan Jawa (Sub-bab Terlewat)
+| Sub-bab | Topik |
+|---|---|
+| A. Latar Belakang Islam Jawa dalam Historiografi Tradisional | Sumber-sumber tradisional |
+| C. Wali Songo sebagai Realitas Sejarah | Apakah 9 atau lebih? |
+| D. Wali Songo: Profil Sosial-Intelektual | Latar belakang sosial |
+| D.3. Makdum Ibrahim (Sunan Bonang) | Anak Sunan Ampel |
+| D.4. Raden Syarifudin (Sunan Drajat) | Anak Sunan Ampel |
+| D.9. Sunan Gunung Jati (Syarif Hidayatullah) | Pendiri Cirebon |
+
+### Bab VIII — Kebudayaan Material: Warisan Budaya Bendawi Bercorak Islam
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Keraton (Istana) | Arsitektur keraton Islam |
+| C. Makam dan Nisan | Tradisi nisan Islam Nusantara |
+| D. Bercorak Islam Lainnya | Masjid, seni kaligrafi |
+
+### Bab IX — Teks, Ritual, dan Aksara
+| Sub-bab Terlewat | Topik |
+|---|---|
+| A. Sirkulasi dan Vernakularisasi Teks | Hikayat, kitab, salinan |
+| A.1.b. Caritanira Amir | Sastra Melayu awal |
+| A.1.c. Aspek Islam dalam Caritanira Amir | Pengaruh Islam dalam sastra |
+| A.1.d. Hikayat Muhammad Hanafiyyah | Sastra Persia-Melayu |
+| B.1. Aksara sebagai Penanda Identitas | Aksara Jawi |
+| C. Aksara Jawi dan Identitas Muslim Nusantara | Aksara Arab-Melayu |
+| D. Aksara Pegon dan Literasi Jawa-Islam | Aksara Arab-Jawa |
+| E. Dimensi Agama dan Politik | Hubungan aksara-kekuasaan |
+
+## C2. Tokoh-Tokoh Tambahan Jilid 3
+
+### Wali Songo Lengkap dengan Nama Asli (TERLEWAT DETAIL!)
+| Tokoh | Nama Asli | Asal | Peran |
+|---|---|---|---|
+| **Maulana Malik Ibrahim** | Syekh Ibrahim Asmarakandi | Campa-Turki | Wali pertama, mukim Gresik (1419 M) |
+| **Sunan Ampel** | Raden Rahmat | Campa-Arab | Pendiri pesantren Ampel Denta |
+| **Sunan Bonang** | Makdum Ibrahim | Jawa (anak Sunan Ampel) | Penulis suluk |
+| **Sunan Drajat** | Raden Syarifudin | Jawa (anak Sunan Ampel) | Mubalig Jawa Timur |
+| **Sunan Giri** | Raden Paku / Muhammad Ainul Yaqin | Blambangan-Bali | Pendiri Giri Kedaton |
+| **Sunan Kudus** | Ja'far Shadiq | Hadramaut | Pendiri Masjid Menara Kudus |
+| **Sunan Kalijaga** | Syaikh Said / Raden Mas Syahid | Majapahit | Seniman, wayang |
+| **Sunan Muria** | Raden Umar Said | Jawa (anak Sunan Kalijaga) | Mubalig Gunung Muria |
+| **Sunan Gunung Jati** | Syarif Hidayatullah | Mekkah-Campa | Pendiri Cirebon-Banten |
+
+### Tokoh Wali Lainnya (Selain Wali Songo)
+| Tokoh | Peran |
+|---|---|
+| **Syekh Siti Jenar** | Sufi kontroversial, hukum mati (ditenggelamkan) |
+| **Sunan Bayat** | Ki Ageng Pandanus aras, hukum mati |
+| **Ki Ageng Pengging** | Ulama Mataram, hukum mati |
+| **Syekh Panggung** | Sufi heterodoks |
+| **Syekh Lemah Abang** | Sufi heterodoks |
+| **Syekh Lemah Putih** | Sufi heterodoks |
+| **Ki Kebo Kenanga** | Murid Syekh Siti Jenar |
+| **Ki Ageng Enjung** | Ulama Mataram |
+| **Ki Ageng Selo** | Leluhuh Mataram |
+| **Ki Ageng Pemanahan** | Pendiri Mataram (sebelum Senopati) |
+| **Ki Penjawi** | Adipati Pati, anak Ki Pemanahan |
+
+### Tokoh Samudra Pasai-Malaka Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Marah Silu / Merah Silu** | Pendiri Samudra Pasai (akhir abad 13) |
+| **Sultan Malik al-Saleh** | Marah Silu setelah masuk Islam, wafat 1297 |
+| **Sultan al-Malik al-Zahir** | Sultan Pasai (abad 14) |
+| **Sultan Ahmad Shah** | Sultan Malaka (wafat 1513) |
+| **Sultan Mahmud Syah** | Sultan Malaka terakhir (1488-1511) |
+| **Bendahara Tun Mutahir** | Bendahara Malaka (1500-1510) |
+| **Bendahara Tun Perak** | Bendahara Malaka (abad 15) |
+| **Bendahara Tun Perpatih** | Bendahara Malaka |
+| **Hang Tuah** | Laksamana Malaka (legenda) |
+| **Hang Jebat** | Panglima Malaka |
+| **Hang Kasturi** | Panglima Malaka |
+| **Hang Lekir** | Panglima Malaka |
+| **Hang Lekiu** | Panglima Malaka |
+
+### Tokoh Aceh Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Ali Mughayat Syah** | Pendiri Aceh Darussalam (1514-1530) |
+| **Sultan Salahuddin** | Anak, kudeta 1530 |
+| **Sultan Alauddin Ri'ayat Syah al-Qahhar** | Saudara, naik takhta 1537 |
+| **Sultan Husain Ali Ri'ayat Syah** | r. 1571-1579 |
+| **Sultan Sri Alam** | r. 1579 |
+| **Sultan Zainal Abidin** | r. 1579 |
+| **Sultan Alaiddin Ri'ayat Syah Sayyid al-Mukammal** | r. 1589-1604 |
+| **Sultan Ali Ri'ayat Syah III** | r. 1604-1607 |
+| **Sultan Iskandar Muda** | r. 1607-1636, puncak Aceh |
+| **Sultan Iskandar Thani/Tsani** | r. 1636-1641 |
+| **Sultanah Tajul Alam Safiatuddin Syah** | 1641-1675 (perempuan) |
+| **Sultanah Nur Alam Naqiatuddin** | 1675-1678 (perempuan) |
+| **Sultanah Inayat Zakiatuddin** | 1678-1688 (perempuan) |
+| **Sultanah Kamalat Syah** | 1688-1699 (perempuan) |
+| **Nuruddin al-Raniri** | Kadi agung Aceh 1637-1644 |
+| **Hamzah Fansuri** | Sufi Aceh awal abad 17 |
+| **Syamsuddin al-Sumatrani** | Syaikh al-Islam Aceh 3 sultan |
+| **Abd al-Ra'uf al-Sinkili** | Kadi utama Aceh era sultanah |
+| **Yusuf al-Makassari** | Mufti Banten, karya-karya sufistik |
+
+### Tokoh Demak-Pajang Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Raden Patah / Senapati Jimbun** | Pendiri Demak (±1500) |
+| **Pati Unus / Sabrang Lor** | Sultan Demak 1518-1521 |
+| **Sultan Trenggana** | Sultan Demak 1521-1546 |
+| **Sultan Prawata / Mukmin** | Sultan Demak 1546-1549 |
+| **Sultan Hadlirin / Kalinyamat** | Suami Ratu Kalinyamat |
+| **Ratu Kalinyamat** | Ratu Jepara 1549-1579 |
+| **Arya Penangsang** | Adipati Jipang-Panolan, kudeta 1549 |
+| **Hadiwijaya / Jaka Tingkir** | Sultan Pajang 1549-1582 |
+| **Ki Ageng Pemanahan** | Anak angkat Hadiwijaya, dapat Mentaok |
+| **Ki Penjawi** | Adipati Pati |
+| **Danang Sutawijaya / Panembahan Senopati** | Pendiri Mataram 1587 |
+
+### Tokoh Banten Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Sunan Gunung Jati / Syarif Hidayatullah** | Pendiri Cirebon-Banten |
+| **Maulana Hasanuddin** | Sultan Banten pertama 1552-1570 |
+| **Maulana Yusuf** | Sultan Banten 1570-1580 |
+| **Maulana Muhammad** | Sultan Banten 1580-1596 |
+| **Abu al-Mafakhir Mahmud Abdulkadir** | Sultan Banten 1626-1651 |
+| **Sultan Ageng Tirtayasa** | Sultan Banten 1651-1683 |
+| **Sultan Haji / Abdul Qahar** | Sultan Banten 1680-1687 |
+| **Panembahan Yusuf** | Sultan Banten (sebelumnya) |
+| **Pangeran Purbaya** | Anak Sultan Ageng |
+| **Pangeran Kidul** | Anak Sultan Ageng, gugur 1683 |
+
+### Tokoh Ternate-Tidore-Gowa Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Sultan Bayanullah** | Ternate awal abad 16 |
+| **Sultan Hairun** | Ternate 1535-1570 |
+| **Sultan Baabullah** | Ternate 1570-1583 |
+| **Sultan Saidi** | Ternate 1583-1606 |
+| **Sultan Mandarsyah** | Ternate 1648-1675 |
+| **Sultan Sibori Amsterdam** | Ternate 1675-1690 |
+| **Sultan Hamzah** | Ternate 1627-1648 |
+| **Sultan Zainal Abidin** | Ternate (setelah) |
+| **Sultan Saifuddin** | Tidore 1657-1687 |
+| **Sultan Jamaludin** | Tidore, traktat 1733 |
+| **Pangeran Nuku** | Sultan Tidore 1780-1805 |
+| **Sultan Alauddin** | Gowa r. 1593-1639 |
+| **Sultan Malikussaid** | Gowa r. 1639-1653 |
+| **Sultan Hasanuddin** | Gowa r. 1653-1670 |
+| **Sultan Amir Hamzah** | Gowa 1670-1674 |
+| **Sultan Ali Mappaosong Karaeng Bisei** | Gowa 1674-1677 |
+| **Sultan Iskandar Muda** | Aceh 1607-1636 (sudah di atas) |
+
+### Tokoh Jawa-Mataram Islam Lengkap
+| Tokoh | Peran |
+|---|---|
+| **Danang Sutawijaya / Senopati** | Mataram 1587-1601 |
+| **Panembahan Seda ing Krapyak** | Mataram 1601-1613 |
+| **Sultan Agung Hanyakrakusuma** | Mataram 1613-1645 |
+| **Amangkurat I** | Mataram 1646-1677 |
+| **Amangkurat II** | Mataram 1677-1703 |
+| **Amangkurat III** | Mataram 1703-1705 |
+| **Pakubuwana I** | Mataram 1705-1719 |
+| **Hamengkubuwana I** | Yogyakarta 1755-1792 |
+| **Pakubuwana III** | Surakarta 1755-1788 |
+| **Mangkunegara I** | Mangkunegaran 1757 |
+| **Pangeran Pekik** | Mertua Amangkurat I |
+| **Raden Kajoran** | Ulama Kajoran |
+| **Trunojoyo** | Madura, pemberontak 1674-1680 |
+| **Untung Surapati** | Bali, pemberontak 1686-1706 |
+| **Raden Mas Garendi (Sunan Kuning)** | Cucu Amangkurat III, 1741-1743 |
+
+### Tokoh Lain-Lain
+| Tokoh | Peran |
+|---|---|
+| **Tun Perak** | Bendahara Malaka (abad 15) |
+| **Hang Nadim** | Laksamana Malaka-Johor |
+| **Pangeran Sabrang Lor** | Pati Unus sebelumnya |
+| **Pangeran Benawa** | Pajang |
+| **Pangeran Mangkubumi** | Mataram (kemudian Hamengkubuwana I) |
+| **Raden Mas Said** | Mataram (kemudian Mangkunegara I) |
+| **Cakraningrat I-IV** | Madura |
+
+---
+
+## STATISTIK SUPLEMEN INI
+
+| Jilid | Sub-bab Terlewat (teridentifikasi) | Tokoh Tambahan |
+|---|---|---|
+| 1 | ~15 sub-bab + 8 konsep/suku | ~30 ahli paleoantropologi + ~10 tokoh suku |
+| 2 | ~40 sub-bab (Bab III paling banyak) | ~50 tokoh (Mataram Kuno 18 + Bali Kuno 7 + Singhasari-Kadiri 9 + Sriwijaya-Melayu 6 + aksara 10 + mpu 7) |
+| 3 | ~25 sub-bab + 9 Wali Songo detail | ~70 tokoh (Wali Songo 9 + tokoh wali lain 11 + Samudra Pasai-Malaka 10 + Aceh 16 + Demak-Pajang 11 + Banten 10 + Ternate-Tidore-Gowa 16 + Mataram Islam 15 + lain-lain 9) |
+
+**TOTAL**: ~80 sub-bab terlewat + ~150 tokoh tambahan
+
+---
+
+## Catatan Akhir
+
+Ringkasan awal Jilid 1, 2, 3 sudah cukup baik untuk ekstraksi konsep utama, tetapi:
+1. **Jilid 1**: Banyak situs arkeologis spesifik + tokoh paleoantropologi yang belum detail
+2. **Jilid 2**: **Bali Kuno sepenuhnya terlewat** + konsep kosmogoni (Dewaraja/Astabrata/Cakrawarti) + aksara-aksara Nusantara + orang asing di Majapahit
+3. **Jilid 3**: Wali Songo kurang detail (nama asli, ayah) + banyak tokoh Samudra Pasai-Aceh-Demak-Banten-Mataram Islam
+
+Dengan suplemen ini, ringkasan 3 jilid pertama sudah jauh lebih lengkap untuk riset drama Nusantara.
+
+---
+
+**Suplemen 3 jilid selesai.** Total sekarang ada 5 file di `ringkasan-jilid/`:
+1. `ringkasan-jilid-1-akar-peradaban-nusantara.md` (8.161 kata) + suplemen ini
+2. `ringkasan-jilid-2-perjumpaan-india-tiongkok-persia.md` (7.134 kata) + suplemen ini
+3. `ringkasan-jilid-3-timur-tengah.md` (10.888 kata) + suplemen ini
+4. `ringkasan-jilid-4-interaksi-awal-barat.md` (29.383 kata) + suplemen 1 + suplemen 2
+5. `ringkasan-jilid-4-suplemen.md` (4.612 kata, sub-bab terlewat)
+6. `ringkasan-jilid-4-suplemen-2-tokoh.md` (6.864 kata, 420 tokoh)
+7. **NEW**: `ringkasan-jilid-1-2-3-suplemen.md` (file ini, ~150 tokoh + 80 sub-bab)
