@@ -784,3 +784,32 @@ Stage Summary:
 - Secret .config/ dan .env dihapus dari history dengan filter-branch
 - 4 ringkasan-jilid MD + audit-jilid3 + scripts + riset-backup (5 jilid MD + 78 file sumber primer) ter-push
 - Tugas berikutnya: ringkasan-jilid-5 (Masyarakat Indonesia & Terbentuknya Negara Kolonial 1800-1900)
+
+---
+Task ID: 12 (audit ringkasan-jilid-4 cross-check sumber primer)
+Agent: Main Agent (Z.ai)
+Task: Audit ringkasan-jilid-4-interaksi-awal-barat.md dengan cross-check ke sumber primer Kemenbud 2025 bab-bab 1-10. Verifikasi klaim subagent tidak "ngawur".
+
+Work Log:
+- Baca 5 file subagent output (Task 10-A s/d 10-E) → sudah tersintesis di ringkasan-jilid-4
+- Verifikasi 228 klaim kunci per bab via grep ke sumber primer 06-bab-1.md s/d 15-bab-10.md
+- Audit Bab 1: Parameswara, Zheng He 1407, Albuquerque 1511, Tun Mutahir, Fatahillah 1526, Ratu Kalinyamat, Sultan Hairun 1570, Aceh-Usmani 1566 — SEMUA AKURAT
+- Audit Bab 2: Iskandar Muda 1629 (19.000 prajurit tewas), Sultan Agung Surabaya 1625 (50-60rb→1.000), Amangkurat I (5.000-6.000 ulama dibunuh), Bongaya 1667, Giyanti 1755 — SEMUA AKURAT
+- Audit Bab 3: al-Raniri 1637-1644, pembakaran kitab Hamzah di Baiturrahman, Yusuf al-Makassari 1629-1699, Kurani, Sinkili, Sultan Banten 1638 ke Makkah, 4 Sultanah Aceh — SEMUA AKURAT
+- Audit Bab 4: Linschoten 1596, VOC 20 Maret 1602, De Houtman 1595-1597, Raja Gelgel Bali, Frederick kamus 1603, Abdul Hamid wafat Middelburg Agustus 1602, Pattingalloang bola dunia Blaeu 160 inci 22 Juli 1644 — SEMUA AKURAT
+- Audit Bab 5: Sosolot, Hongi Tidore 18-20 kora-kora, 7 raja Onin 1676, Nuku 1780, Retes 1545 Sarmi, mitos Bikusagara 4 telur — SEMUA AKURAT
+- Audit Bab 6: Genosida Banda 1621 (15.000→1.000), surat Coen-Sonck 3 Maret 1622 ("seluruh kelompok harus disingkirkan"), 8 orang kaya dieksekusi, 210 pria kettingen, 347 wanita-anak, Courthope 1616-1620 Run, Breda 1667 New York-Run, 4.112 budak 1794, perjanjian VOC-Papua 1678 tongkat ukur 1,55-1,69m — SEMUA AKURAT
+- Audit Bab 7: Kapitan Jonker Manipa wafat 1689, Arung Palakka sumur Buton Lawana Kampebuni, Painansch Contract 1663, Panglima Nando 44 tahun, Lima Bersaudara Bugis Riau-Johor (Tuhfat al-Nafis) — SEMUA AKURAT
+- Audit Bab 8: Kakiali pengkhianatan sahabat Spanyol 16 Agustus 1643, Trunojoyo ditikam Amangkurat II Januari 1680 (multi-perspektif Babad), Tack mahkota Majapahit 10.000 rial 1686, Syekh Yusuf 5.000 pejuang Cikaniki, Cape Town 1693-1699, Geger Pecinan 1740 (10.000 Cina), Nata Alam bakar lada 1787 — SEMUA AKURAT
+- Audit Bab 9: Raja Haji YDM IV 1777-1784, Betsy 1782, Ketapang 13 Februari 1784, gugur Juni 1784, Mahmud gerilya laut 1787-1795 (Berhala-Tungkal-Air Hitam), lanun Tempasuk peluru kosong, 1795 VOC kembalikan Riau — SEMUA AKURAT
+- Audit Bab 10: Nederburgh-Frijkenius 23 Mei 1791, tiba Batavia 13 November 1793, VOC bubar 31 Desember 1799, utang 134,8 juta gulden, korupsi gubernur 10 juta vs 700/bulan — SEMUA AKURAT
+
+Stage Summary:
+- File laporan: /home/z/my-project/download/audit-ringkasan-jilid4.md (510+ baris)
+- Total klaim diverifikasi: 228
+- Akurat sesuai sumber primer: 225 (98,7%)
+- Tidak terverifikasi di sumber primer (info dari pengetahuan umum, konsisten sejarawan): 2 (Hamzah Fansuri wafat ~1604; Pangeran Pekik dibunuh 1659)
+- Kesalahan faktual signifikan: 1 (Bab 6: subagent tulis "38 perken" — sumber primer tegas "68 perken" final)
+- Klaim spektakuler TERVERIFIKASI (bukan halusinasi): genosida Banda 15.000→1.000, Geger Pecinan 10.000 korban, Amangkurat I bunuh 5.000-6.000 ulama, Aceh 1629 19.000 prajurit tewas, dll.
+- Subagent TIDAK NGAWUR — justru sangat presisi dalam ekstraksi tokoh, tahun, lokasi, sumber primer, dan kutipan langsung
+- Rekomendasi: 1 koreksi kecil di Bab 6 (38 → 68 perken) + 2 catatan kaki opsional
