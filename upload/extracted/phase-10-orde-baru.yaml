@@ -1,0 +1,1552 @@
+# =============================================================================
+# MASTER PHASE 10 — ERA ORDE BARU (1966–1998 M)
+# =============================================================================
+# Dokumen komprehensif: riset sejarah + master reference untuk T2I prompt
+# Format YAML untuk struktur data yang dapat dipakai oleh:
+#   - Penulis naskah drama (narrative + characters)
+#   - Artist/Art Director (wardrobe + visual)
+#   - AI prompt engineer (prompt library untuk Stable Diffusion)
+#
+# Status: AUDIT dengan fokus konflik politik, pemberontakan, operasi militer,
+#         hubungan internasional, kroni kapitalisme, runtuhnya Orde Baru
+# Tanggal: 17 Oktober 2026
+# Versi: 1.0 (master YAML phase 10)
+# =============================================================================
+
+meta:
+  era: "Era Orde Baru"
+  periode: "1966–1998 M (32 tahun)"
+  lokasi_geografis: "Seluruh Indonesia — Jakarta, Bandung, Yogyakarta, Surabaya, Medan, Aceh, Papua, Timor-Timur"
+  penguasa: "Republik Indonesia — Presiden Soeharto (1967-1998)"
+  ibu_kota: "Jakarta"
+  agama: "Islam (mayoritas), Kristen, Hindu, Buddha, Katolik"
+  sistem_politik: "Demokrasi Pancasila — Golkar dominan, TNI Dwifungsi, Asas Tunggal (1985)"
+  sumber_primer:
+    - "Dokumen Supersemar 11 Maret 1966 — di ANRI Jakarta"
+    - "Dokumen Sidang Mahmilub 1966-1978 (G30S) — arsip militer"
+    - "Dokumen Pemerintahan Orde Baru — di ANRI dan Bappenas"
+    - "Arsip Konferensi ASEAN 1967 — Kementerian Luar Negeri RI"
+    - "Arsip PBB — pidato Adam Malik 28 September 1966"
+    - "Dokumen Penculikan Aktivis 1997-1998 — Komnas HAM, KontraS"
+    - "Dokumen Krisis Moneter 1997 — Bank Indonesia, IMF Letter of Intent"
+    - "Dokumen Komando Jihad — Tempo Data and Analysis Center (2020)"
+    - "Sumber akademis: M.C. Ricklefs, Robert Cribb (Historical Atlas), John Roosa, Harold Crouch (The Army and Politics in Indonesia), Adam Schwarz (A Nation in Waiting), Edward Aspinall"
+    - "Memoar: Soeharto (Soeharto: Pikiran, Ucapan, dan Tindakan Saya, 1989), Ali Moertopo, Benny Moerdani"
+    - "Film dokumenter: The Act of Killing (2012), The Look of Silence (2014) — Joshua Oppenheimer"
+    - "Arsip foto: PWI, Antara, Magnum Photos, Galeri Nasional Indonesia"
+  catatan_penting: >
+    Era Orde Baru adalah era paling panjang dalam sejarah Indonesia modern (32 tahun)
+    dengan pencapaian ekonomi besar (pertumbuhan 7%/tahun, swasembada beras 1984)
+    namun juga represi sistematis: 6 konflik politik internal besar (Malari 1974,
+    Petisi 50 1980, NKK/BK 1978, Asas Tunggal 1985, Tanjung Priok 1984, ICMI 1990),
+    5 pemberontakan daerah (GAM Aceh, OPM Papua, RMS Maluku, Komando Jihad,
+    sisa DI/TII), 3 operasi militer besar (Operasi Seroja Timor-Timur, PEPERA
+    Irian Barat, Petrus), 7 tonggak diplomasi internasional (PBB 1966, ASEAN 1967,
+    Malaysia 1966, APEC 1994, IMF 1997, Boat people Vietnam, Non-Blok), dan klimaks
+    runtuhnya rezim dalam krisis moneter 1997 + Reformasi Mei 1998.
+
+# =============================================================================
+# NARASI SINGKAT
+# =============================================================================
+narrative:
+  era_overview: >
+    Era Orde Baru berlangsung 32 tahun (1966-1998) — paling lama dalam sejarah
+    Indonesia modern. Dimulai dari Supersemar 11 Maret 1966 saat Soekarno
+    menyerahkan kekuasaan ke Jenderal Soeharto, berakhir 21 Mei 1998 saat
+    Soeharto mundur di tengah krisis moneter Asia dan gerakan Reformasi.
+    Era ini dicirikan oleh: (1) pembangunan ekonomi besar dengan pertumbuhan
+    rata-rata 7%/tahun, swasembada beras 1984; (2) stabilisasi politik via
+    Golkar dominan, TNI Dwifungsi, dan Asas Tunggal Pancasila; (3) represi
+    sistematis terhadap oposisi (Malari 1974, Petisi 50 1980, Petrus 1983-85,
+    Tanjung Priok 1984, Talangsari 1989, Santa Cruz 1991); (4) operasi militer
+    besar di Timor-Timur (1975-1999), Irian Barat (PEPERA 1969), Aceh (DOM
+    1989-1998); (5) kroni kapitalisme dengan Gang of Four (Liem, Prajogo,
+    Bob Hasan, Sudwikatmono); (6) diplomasi aktif — kembali ke PBB 1966,
+    pendiri ASEAN 1967, APEC Bogor 1994.
+
+  akt_1_konsolidasi_1966_1974: >
+    1966-1974. Konsolidasi kekuasaan Soeharto. Supersemar 11 Maret 1966.
+    Soeharto jadi Pejabat Presiden Maret 1967, Presiden definitif Maret 1968.
+    Adam Malik kembali ke PBB 28 September 1966. ASEAN berdiri 8 Agustus 1967
+    di Bangkok. Normalisasi dengan Malaysia 11 Agustus 1966. PEPERA Irian
+    Barat 1969. TAP MPRS XXV/1966 larangan Marxisme-Leninisme. Pembantaian
+    massal PKI 1965-1966 (500.000-1.000.000 jiwa). Pemilu 1971 — Golkar 62,8%.
+    Pertumbuhan ekonomi 7%/tahun dimulai Repelita I (1969-1974). Klimaks
+    periode ini: Malari 15-16 Januari 1974 — demonstrasi mahasiswa Jakarta
+    saat kunjungan PM Jepang Tanaka, 11 aktivis tewas, koran dibredel, Aspri
+    Soeharto dibubarkan, Sumitro (Waperdam) mundur.
+
+  akt_2_konsolidasi_lanjut_1974_1984: >
+    1974-1984. Pendalaman kontrol politik. Operasi Seroja Timor-Timur dimulai
+    7 Desember 1975, integrasi formal 17 Juli 1976. Pemilu 1977 — Golkar 62,1%.
+    NKK/BK 1978 — Daoed Joesoef (Mendikbud) menormalkan kampus, senat
+    mahasiswa dibubarkan, BKK gantikan. Pemilu 1982 — Golkar 64,3%. Petrus
+    1983-1985 — operasi penembakan misterius, ribuan preman tewas di
+    Surabaya, Jakarta, Yogyakarta. Tanjung Priok 12 September 1984 — kerusuhan
+    terkait Asas Tunggal, ~24-200 tewas. UU Asas Tunggal 1985 — semua ormas
+    wajib terima Pancasila sebagai asas tunggal. PPP, NU, Muhammadiyah terpaksa
+    menerima. PDI juga terima.
+
+  akt_3_pertengahan_1984_1996: >
+    1984-1996. Puncak kestabilan ekonomi sekaligus kumulasi ketegangan.
+    Pemilu 1987 — Golkar 68%. Pemilu 1992 — Golkar 68%. Petisi 50 (5 Mei 1980)
+    terus dikekang — pembatasan travel, dilarang dikutip media. Talangsari
+    7 Februari 1989 — pembantaian komunitas Warsidi di Lampung, ~100+ tewas.
+    Santa Cruz Dili 12 November 1991 — TNI tembaki pemakaman Sebastião Gomes,
+    ~250-271 tewas. ICMI 1990 — BJ Habibie dirikan Ikatan Cendekiawan Muslim
+    Indonesia. APEC Bogor 15 November 1994 — host Soeharto, Bogor Goals
+    free trade 2010/2020. GAM Aceh terus berperang (DOM 1989-1998). OPM
+    Papua gerilya terus. Mega Bintang Pamungkas didirikan 1993 (PUDI).
+    PDI split 1996 — Kongres Medan menggulingkan Megawati, kudasa Medan.
+    27 Juli 1996 — Kudus PDI Jakarta, kerusuhan.
+
+  akt_4_krisis_runtuh_1997_1998: >
+    1997-1998. Krisis moneter Asia Juli 1997 — rupiah jatuh dari 2.500 ke
+    15.000 per USD. Konglomerasi Soeharto krisis, BCA diselamatkan pemerintah.
+    IMF bailout Oktober 1997 — US$43 miliar paket penyelamatan, 50 reformasi
+    structural. Penculikan aktivis 1997-1998 — 23 aktivis diculik Kopassus
+    (Prabowo, Tim Mawar), 13 masih hilang. Pemilu 1997 — Golkar 74%.
+    Krisis deepens 1998 — harga melonjak, kerusuhan sosial. Tragedi Trisakti
+    12 Mei 1998 — 4 mahasiswa tewas: Elang Mulia Lesmana, Heri Hertanto,
+    Hafidin Royan, Hendriawan Sie. Kerusuhan 13-15 Mei — ~1.000 tewas,
+    rumah/kantor konglomerasi dibakar, BCA Plaza diserang. 18 Mei —
+    Soeharto janji reformasi. 21 Mei 1998 — Soeharto mundur, BJ Habibie
+    naik jadi Presiden RI ke-3. Era Orde Baru berakhir, era Reformasi dimulai.
+
+# =============================================================================
+# KONFLIK POLITIK INTERNAL
+# =============================================================================
+internal_conflicts:
+  malari_1974:
+    nama_resmi: "Malapetaka Limabelas Januari (Malari)"
+    tanggal: "15-16 Januari 1974"
+    lokasi: "Jakarta — kawasan Sudirman, Senen, Glodok, Harmoni"
+    latar_belakang: >
+      Kunjungan PM Jepang Kakuei Tanaka ke Jakarta. Mahasiswa (UI, ITB, IKIP,
+      Universitas Trisakti, Universitas Kristen Indonesia) memprotes dominasi
+      modal asing (Jepang) dalam ekonomi Indonesia, korupsi, dan kegagalan
+      pembangunan menyentuh rakyat. Tokoh kunci mahasiswa: Hariman Siregar
+      (ketua Senat Mahasiswa UI), Syahrir (ekonom UI), Imam Walujo, Abdul
+      Gaffar, A. Marsillam Simandjuntak, Ds. Sumarsono, Sukma Dharma Wijaya.
+    kronologi: >
+      15 Januari — demonstrasi 5.000 mahasiswa di Senayan menyambut Tanaka.
+      Polisi bentrok dengan mahasiswa, kendaraan dibakar, toko di Glodok dan
+      Senen dijarah. 16 Januari — kerusuhan meluas, perusahaan Jepang
+      dibakar (Toyota Astra Motor). Tentara dikerahkan. 11 aktivis tewas,
+      800+ ditahan, 12 koran dibredel (Indonesia Raya, Harian Kami, Abadi,
+      Suluh Marhaen, Pedoman, Nusantara, Sinar Harapan, dan lainnya).
+    dampak: >
+      Sumitro Djojohadikusumo (Waperdam) mundur. Aspri (Asisten Pribadi
+      Presiden) dibubarkan (Ali Moertopo, Soedjono Hoemardhani, Alamsyah
+      Ratuprawiranegara). Penerbitan Koran. Sumiskum dibatasi. Daoed Joesoef
+      diangkat Mendikbud 1978 — menerapkan NKK/BK. Beberapa tokoh mahasiswa
+      (Syahrir, Marsillam, Andi Mapetahang, Ds. Sumarsono) dipenjara tanpa
+      proses pengadilan (Penahanan Preventif). Soeharto mengkonsolidasikan
+      kekuasaan tanpa oposisi internal.
+
+  petisi_50_1980:
+    nama_resmi: "Pernyataan Keprihatinan (Petisi 50)"
+    tanggal: "5 Mei 1980"
+    lokasi: "Jakarta"
+    latar_belakang: >
+      Pidato Soeharto 27 Maret 1980 di Pekanbaru (rapat komandan ABRI) dan
+      16 April 1980 di Cijantung (hari jadi Kopassandha). Soeharto menyatakan
+      ABRI harus pilih "mitra politik" yang berkomitmen pada Pancasila dan
+      UUD 1945 — mengancam PPP dan tokoh Islam. Soeharto memposisikan diri
+      sebagai personifikasi Pancasila, kritik terhadap dirinya = anti-Pancasila.
+    dokumen: >
+      "Pernyataan Keprihatinan" ditandatangani 50 tokoh terkemuka. Latar
+      di belakang: era 1978 — wajib pendidikan Pancasila di semua instansi,
+      sekolah, kampus, kantor — dikritik intelektual.
+    penanda_tangan_kunci:
+      - "A.H. Nasution — Jenderal, mantan Kepala Staf TNI AD, salah satu perancang Strategi Mobilitas"
+      - "Ali Sadikin — mantan Gubernur Jakarta (1966-1977)"
+      - "Mohammad Natsir — mantan Perdana Menteri (1950-1951), tokoh Masyumi"
+      - "Burhanuddin Harahap — mantan Perdana Menteri (1955-1956)"
+      - "Hoegeng Iman Santoso — mantan Kepala Polri (1968-1971)"
+      - "Hartono Dharsono — mantan Sekjen ASEAN pertama (1976-1978)"
+      - "S.K. Trimurti — menteri dalam kabinet Sjahrir, wartawati"
+      - "Manai Sophiaan — politikus PNI, mantan Ketua MPR"
+      - "Syafruddin Prawiranegara — mantan Presiden Pemerintah Darurat Yogyakarta (1948-1949)"
+      - "Slamet Bratanata — mantan Menteri Perindustrian"
+    respon_pemerintah: >
+      Soeharto balas dengan pencabutan hak travel penanda tangan, dilarang
+      dikutip media, dilarang foto di surat kabar, diblokir dari kredit
+      bank dan kontrak. Pemilu 1982 tetap dimenangkan Golkar 64,3%.
+    dampak: >
+      Petisi 50 tidak berhasil menggulingkan Soeharto, tetapi menjadi simbol
+      oposisi sipil terhadap rezim. Beberapa anggota Petisi 50 kemudian
+      ikut mendirikan Partai Demokrasi Indonesia Perjuangan (PDI-P) 1998.
+      Hartono Dharsono sempat diadili 1984-1985 (terkait kerusuhan Tanjung
+      Priok), dijatuhi 10 tahun penjara (dibebaskan 1990).
+
+  nkk_bk_1978:
+    nama_resmi: "Normalisasi Kehidupan Kampus / Badan Koordinasi Kemahasiswaan (NKK/BK)"
+    tahun: "1978"
+    menteri: "Daoed Joesoef (Mendikbud 1978-1983)"
+    latar_belakang: >
+      Pasca-Malari 1974, kampus dianggap sebagai pusat oposisi. Gerakan
+      mahasiswa terus tumbuh: ITB (Peristiwa 9 Januari 1974), UI, UGM.
+      Soeharto ingin netralkan kampus sebagai pusat politik.
+    kebijakan: >
+      Senat Mahasiswa dibubarkan. Dewan Mahasiswa dibubarkan. Diganti
+      dengan BKK (Badan Koordinasi Kemahasiswaan) tingkat universitas dan
+      HMJ (Himpunan Mahasiswa) tingkat jurusan — di bawah kontrol rektor
+      yang ditunjuk pemerintah. Aktifis mahasiswa yang kritis diblokir dari
+      kegiatan kampus. Selebihnya, mahasiswa dilarang berorganisasi di luar
+      kampus.
+    dampak: >
+      "Kampus mati" — gerakan mahasiswa di bawah tanah, baik dalam kelompok
+      diskusi (LSM, diskusi lingkaran) maupun melalui pesantren modern
+      (Gus Dur di Ciganjur, Cipasung). Munculnya gerakan bawah tanah 1980-an:
+      Solidaritas Mahasiswa Indonesia (SMI), PIJAR (Pusat Informasi Jaringan
+      Aksi Reformasi), LSM (YLBHI, LBH Jakarta, dll).
+
+  asas_tunggal_1985:
+    nama_resmi: "UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan (Asas Tunggal)"
+    tahun: "1985"
+    latar_belakang: >
+      Pasca-Tanjung Priok 12 September 1984, Soeharto memperkuat kontrol
+      terhadap ormas. UU 8/1985 mewajibkan semua ormas (termasuk partai
+      politik PPP dan PDI) menerima Pancasila sebagai asas tunggal.
+    dampak_islam: >
+      PPP terpaksa hapus syariat Islam dari AD/ART. NU (dipimpin Idahram
+      saat itu dan kemudian Gus Dur 1984) terpaksa terima — Gus Dur menjadi
+      ketum NU April 1984, segera setelah Muktamar Situbondo menghapus
+      garis Islam politik. Muhammadiyah terpaksa terima. MUI didukung
+      pemerintah. Resistensi keras dari Islam politik → kerusuhan Tanjung
+      Priok 12 September 1984.
+    dampak_politik: >
+      PPP turun dari 27,6% (1977) ke 28% (1982) lalu anjlok ke 16% (1987)
+      dan 17% (1992) karena basis Islam kecewa. PDI turun naik. Golkar
+      naik terus dari 64,3% (1982) → 68% (1987) → 68% (1992) → 74% (1997).
+
+  tanjung_priok_1984:
+    nama_resmi: "Peristiwa Tanjung Priok 12 September 1984"
+    tanggal: "12 September 1984"
+    lokasi: "Tanjung Priok, Jakarta Utara"
+    latar_belakang: >
+      Ketegangan antara pemerintah dan komunitas Islam di kawasan pelabuhan
+      Tanjung Priok. Saat itu, Sumber Pendidikan Islam (SPI) pimpinan
+      Amir Budi Harjo (yang sebelumnya dari DI/TII) diduga menyebarkan
+      pamflet kritis terhadap pemerintah. Aparat menangkap 4 anggota
+      komunitas. Demonstrasi 7.000 orang ke Kodam Jakarta. Bentrok dengan
+      aparat.
+    korban: "24 tewas (versi pemerintah), 200+ tewas (versi aktivis/keluarga)"
+    dampak: >
+      Kondisi darurat militer setempat. Sidang Mahmilub — beberapa tokoh
+      Islam divonis (Amir Budi Harjo, dll). Hartono Dharsono (anggota
+      Petisi 50, mantan Sekjen ASEAN) diadili 1984-1985, divonis 10 tahun
+      (dibebaskan 1990). Soeharto mempercepat UU Asas Tunggal 1985.
+
+  icmi_1990:
+    nama_resmi: "Ikatan Cendekiawan Muslim Indonesia (ICMI)"
+    tanggal_berdiri: "7 Desember 1990"
+    pendiri: "BJ Habibie (Ketum), Ir. Imaduddin Abdurrahman (Sekjen awal), Adi Sasono"
+    latar_belakang: >
+      Soeharto, setelah 25 tahun berkuasa, mulai menggalang dukungan
+      Islam politik untuk mengimbangkan TNI (yang didominasi Merah Putih/
+      nasionalis sekuler). Habibie menjadi kendaraan teknokrat Muslim.
+      Habibie, Imaduddin (ex aktivis HMI 1970-an, dosen ITB), Adi Sasono
+      (ex PMII) memimpin ICMI.
+    tokoh_kunci:
+      - "BJ Habibie — Ketum ICMI, Menteri Ristek (1978-1998), kemudian Wakil Presiden 1998 dan Presiden RI ke-3"
+      - "Imaduddin Abdurrahman — dosen ITB, ex aktivis HMI 1970-an"
+      - "Adi Sasono — ex PMII, aktivis ICMI, Menteri Koperasi Habibie"
+      - "Deliar Noer — sejarawan Islam, deklarator ICMI"
+      - "Fuad Bawazier — ekonom ICMI, Menteri Keuangan 1997-1998"
+      - "Adnan Buyung Nasution — pengacara, deklarator ICMI"
+    dampak: >
+      ICMI memunculkan sumber daya manusia Muslim baru di birokrasi dan
+      BUMN. Muncul majalah Ummat, Republika, dan stasiun TV SCTV (1990).
+      Namun ICMI juga dicurigai TNI (kubu Merah Putih — Benny Moerdani,
+      Try Sutrisno, Hartono) sebagai "kendaraan politik" Soeharto untuk
+      melawan TNI. Konflik internal Orde Baru antara kubu ICMI (Habibie)
+      dan kubu TNI (Try Sutrisno, Feisal Tanjung) memuncak menjelang 1998.
+
+  krisis_1997_1998:
+    nama_resmi: "Krisis Moneter Asia 1997 + Reformasi Mei 1998"
+    periode: "Juli 1997 - 21 Mei 1998"
+    latar_belakang: >
+      Krisis moneter Asia dimulai dari Thailand (pengambangan baht) 2 Juli
+      1997. Penularan ke Indonesia: rupiah jatuh dari 2.500 ke 15.000 per
+      USD dalam 6 bulan. Konglomerasi (Gang of Four dan keluarga Soeharto)
+      krisus likuiditas. Bank Central Asia (BCA) milik Liem Sioe Liong
+      diserbu penarik, pemerintah (via BPPN) menyelamatkan. Hutang luar
+      negeri Indonesia US$140 miliar (akhir 1997), US$20 miliar jangka
+      pendek.
+    kronologi_runtuh: >
+      14 Agustus 1997 — BI bebaskan nilai tukar rupiah (floating). 8 Oktober
+      1997 — Indonesia minta bantuan IMF, paket US$43 miliar. November 1997
+      — 16 bank dibekukan (BAPPEDO). Januari 1998 — Letter of Intent IMF
+      kedua, janji reformasi structural 50 butir (BPPN, monopoli dilepas,
+      proyek pesawat Habibie dipotong). Mei 1998 — harga Sembako melonjak
+      100%+, rakyat terdesak. Tragedi Trisakti 12 Mei 1998 — 4 mahasiswa
+      tewas ditembak snipers TNI AD. Kerusuhan 13-15 Mei — ~1.000 tewas,
+      Mall Plaza Indonesia dijarah, BCA Plaza diserang, ratusan toko
+      Tionghoa dibakar, 168 perempuan Tionghoa diperkosa massal (data
+      Tim Gabungan Pencari Fakta). 18 Mei — Soeharto janji reformasi.
+      21 Mei 1998 — Soeharto mundur, Habibie naik jadi Presiden RI ke-3.
+
+# =============================================================================
+# PEMBERONTAKAN & OPERASI MILITER
+# =============================================================================
+rebellions:
+  di_tii_pasca_kartosuwirjo:
+    status: "Sisa DI/TII setelah eksekusi Kartosuwirjo 1962"
+    periode: "1962-1970-an"
+    lokasi: "Jawa Barat, Sulawesi Selatan, Aceh, Kalimantan Selatan"
+    pemberontak: "Sisa-sisa pasukan Sekarmadji Maridjan Kartosuwirjo. Aceh: Daud Beureueh (damai 1962). Sulsel: Kahar Muzakkar (tewas 1965)."
+    catatan: >
+      Setelah eksekusi Kartosuwirjo 12 September 1962, gerilya DI/TII
+      terus berlanjut dalam skala kecil. Veteran DI/TII menjadi basis
+      untuk Komando Jihad 1970-an.
+
+  komando_jihad:
+    nama_resmi: "Komando Jihad"
+    periode: "1970-an - mid-1980-an"
+    pendiri: >
+      Diduga dibidani intelijen (BAKIN pimpinan Soedomo, Opsus Ali
+      Moertopo) dari veteran DI/TII untuk memecah basis Islam politik.
+      Tempo Data and Analysis Center (2020) konfirmasi: sebagian latar
+      belakang ceritanya benar, walaupun pembentukan tidak sepenuhnya
+      disengaja (Sudomo mengungkap: "backfired").
+    pemimpin: "Haji Ismail Pranoto (Hispran), Haji Danu Mohammad Hasan"
+    modus: >
+      Hispran dan Danu Mohammad Hasan direkrut dari penjara untuk
+      mengorganisasi veteran DI/TII sebagai "counter-weight" PPP dan
+      tokoh Islam politik. Namun Hispran malah mengaktifkan kembali
+      jaringan DI/TII untuk perjuangan Islam.
+    peristiwa_kunci: "Pembajakan Garuda Indonesia Flight 206 (Woyla) 28 Maret 1981 — 5 pembajak Komando Jihad membajak DC-9 Palembang-Medan ke Bangkok. Tuntutan: bebaskan 20 tahanan politik,US$ 1,5 juta. Kopassus (pimpinan Letkol Sintong Panjaitan) berhasil badai pesawat, 3 pembajak tewas + pilot tewas. 2 pembajak yang menyerah kemudian dieksekusi ekstrajudicial oleh Kopassus dalam perjalanan pulang ke Jakarta."
+    pembubaran: >
+      Pertengahan 1980-an setelah pembajakan Woyla. Hispran dan Danu
+      dihukum berat. Beberapa veteran jaringan Komando Jihad nantinya
+      (lewat Pondok Ngruki pesantren Abu Bakar Ba'asyir dan Abdullah
+      Sungkar) menjadi cikal-bakal Jemaah Islamiyah.
+
+  gam_aceh:
+    nama_resmi: "Gerakan Aceh Merdeka (GAM) / Free Aceh Movement"
+    tanggal_deklarasi: "4 Desember 1976"
+    lokasi_deklarasi: "Gunung Tjokkan, Pidie, Aceh"
+    pendiri: "Tengku Hasan Muhammad di Tiro (Hasan di Tiro, 1925-2010)"
+    latar_belakang: >
+      Hasan di Tiro — keturunan pangeran Aceh yang berperang melawan
+      Belanda (Tjut Nyak Dien), dulunya Duta PBB untuk Aceh di Amerika
+      Serikat (1950-an). GAM deklarasi Aceh merdeka dari Indonesia.
+      Konflik berkepanjangan 1976-2005 (Perjanjian Helsinki 15 Agustus
+      2005 mengakhiri perang).
+    operasi_militer_indonesia: >
+      Operasi Jaring Merah (1990), DOM (Daerah Operasi Militer) Aceh
+      1989-1998 — ~3.000-12.000 tewas (versi berbeda). K_commander
+      GAM: Abdullah Syafi'i (tewas 2002), Muzakkir Manaf.
+    pemberontak_kunci: "Hasan di Tiro, Abdullah Syafi'i, Muzakkir Manaf, Sofyan Dawood (juru bicara GAM), Tengku Nur Asyikin"
+
+  opm_papua:
+    nama_resmi: "Organisasi Papua Merdeka (OPM) / Free Papua Movement"
+    tahun_berdiri: "1965 (Seth Rumkorem dan Jacob Prai membentuk markas di Pegunungan Tengah)"
+    pendiri: "Seth Jafet Rumkorem (komandan TPN-OPM), Jacob Hendrik Prai"
+    latar_belakang: >
+      OPM menolak integrasi Papua ke Indonesia melalui PEPERA 1969 yang
+      dianggap sebagai "Act of No Choice" (1.025 perwakilan terpilih,
+      unanimously pilih Indonesia di bawah tekanan militer). Konflik
+      berkepanjangan hingga hari ini.
+    operasi_militer_indonesia: "Operasi Guluk, Operasi Wibawa 1978-1980, Operasi Sapu Bersih 1981-1984"
+
+  rms_maluku:
+    nama_resmi: "Republik Maluku Selatan (RMS)"
+    tanggal_deklarasi: "25 April 1950"
+    pendiri: "Chris Soumokil (Presiden RMS, dieksekusi 1966 di Pulau Ubi Besar)"
+    latar: >
+      Pasca-kemerdekaan, RMS deklarasi negara Maluku Selatan yang
+      merdeka. Pemberontakan ditumpas TNI 1950. Sisa RMS lari ke
+      Serawak (Belanda). RMS masih ada di pengasingan di Belanda
+      (sejak 1966, ketua: John Wattilete).
+    status_di_orde_baru: "Pemberontakan ditumpas 1950, tidak ada aktivitas signifikan di Indonesia"
+
+  talangsari_1989:
+    nama_resmi: "Insiden Talangsari 7 Februari 1989"
+    tanggal: "7 Februari 1989"
+    lokasi: "Dusun Talangsari III, Desa Rajabasa Lama, Kecamatan Way Jepara, Lampung Tengah"
+    latar: >
+      Komunitas Warsidi (kelompok pengajian Transmigran Jawa yang
+      berlatar belakang Darul Islam). Mereka pindah dari Jawa Tengah
+      ke Lampung 1985, mendirikan dusun Talangsari, menerapkan syariat
+      Islam secara komunal, menolak pendaftaran kependudukan dan
+      pengibaran bendera Merah Putih. Disebut GPK (Gerombolan Pengacau
+      Keamanan) oleh pemerintah.
+    peristiwa: >
+      7 Februari 1989 — aparat TNI/Brimob mengepung dusun, terjadi
+      bentrok bersenjata. Aparat menyerang dengan BTR dan dozer.
+      Dugaan komandan: Kolonel Inf. Hendropriyono (Komadan Resort
+      Militer 043/Garuda Hitam Lampung, kemudian Kepala BIN).
+    korban: "100+ tewas (versi penyintas), 27 tewas (versi pemerintah Soeharto)"
+    dampak: >
+      Seluruh dusun diratakan. Penyintas dipenjara atau dilaporkan
+      hilang. Kasus belum tuntas hingga hari ini — Komnas HAM
+      menyelidiki 2007-2010, tidak ada penuntutan. Hendropriyono
+      diangkat menjadi Kepala BIN 2001-2004.
+
+  petrus_1983_1985:
+    nama_resmi: "Petrus (Penembakan Misterius)"
+    periode: "1983-1985"
+    lokasi: "Surabaya, Jakarta, Yogyakarta, Semarang, Solo, Bandung"
+    latar: >
+      Operasi rahasia TNI terhadap preman, geng motor, dan kriminal
+      residivis yang dianggap mengganggu keamanan. Penembakan
+      ekstrajudicial tanpa proses pengadilan. Mayat dibuang di
+      tepi jalan, sawah, sungai. Soeharto dalam otobiografinya
+      "Pikiran, Ucapan, dan Tindakan Saya" (1989) mengakui: "Beberapa
+      kasus yang ditembak, justru mereka sendiri yang minta, ya
+      itulah keberanian mereka, jadilah hero."
+    korban: "1.500-3.000 tewas (versi berbeda)"
+    pelaku: >
+      Dugaan operasi: Benny Moerdani (Pangab 1983-1988, KSAD sebelumnya)
+      dan Soemitro (Kepala Kopkamtib 1983-1988). Pasukan: tim
+      tempur khusus (kemungkinan sebagian dari RPKAD/Kopassandha dan
+      SGI). Soemitro kemudian mundur dari Kopkamtib 1988 karena
+      konflik internal dengan Benny Moerdani.
+    dampak: >
+      Tingkat kejahatan turun drastis, tetapi Orde Baru kehilangan
+      legitimasi moral di mata komunitas internasional dan HAM.
+
+  santa_cruz_dili_1991:
+    nama_resmi: "Santa Cruz Massacre / Dili Massacre"
+    tanggal: "12 November 1991"
+    lokasi: "Pemakaman Santa Cruz, Dili, Timor-Timur"
+    latar: >
+      Pemakaman Sebastião Gomes (aktivis kemerdekaan yang tewas
+      ditembak 28 Oktober 1991 di Gereja Motael). 3.000 orang
+      berprosesi dari Motael ke pemakaman Santa Cruz dengan
+      bendera Falintil dan spanduk. Pasukan TNI (Batalyon Infanteri
+      744 dan 745) menembaki demonstran tanpa senjata.
+    korban: "271 tewas (versi Amnesty International dan Komnas HAM), 250 tewas (versi catatan resmi)"
+    dampak: >
+      Rekaman video darat oleh Max Stahl (jurnalis Inggris) diselundupkan
+      ke luar negeri. Membuat internasional sadar tentang pendudukan
+      Indonesia di Timor-Timur. Tekanan internasional meningkat.
+      Konferensi Lisbon 1992. CST (Komisi Hak Asasi Manusia) PBB
+      mengutuk. Beberapa perwira TNI diadili (Brigjen Warouw, Mayor
+      Gerhan Lantara), tetapi hukuman ringan.
+
+# =============================================================================
+# OPERASI MILITER BESAR (FOREIGN)
+# =============================================================================
+military_operations:
+  operasi_seroja:
+    nama_resmi: "Operasi Seroja (Operasi Teratai)"
+    tanggal_mulai: "7 Desember 1975"
+    tanggal_berakhir: "17 Juli 1976 (integrasi formal), namun pendudukan berlanjut hingga 1999"
+    lokasi: "Timor Portugis / Timor-Timur"
+    latar: >
+      Revolusi Anyelir Portugal 25 April 1974 melepaskan koloni
+      Portugal. Timor Portugis diberi pilihan merdeka atau integrasi.
+      3 partai muncul: UDT (União Democrática Timorense, pro-Portugal
+      / integrasi), Fretilin (Frente Revolucionária de Timor-Leste
+      Independente, pro-kemerdekaan), Apodeti (Associação Popular
+      Democrática Timorense, pro-integrasi Indonesia). Konflik internal
+      UDT-Fretilin (August 1975 kudeta UDT) → Fretilin menang →
+      deklarasi kemerdekaan 28 November 1975. Indonesia invasi 7
+      Desember 1975 (Operasi Seroja). Balibo Declaration 30 Desember
+      1975 — 38 penanda tangan pro-integrasi. Integrasi formal 17
+      Juli 1976 sebagai provinsi ke-27.
+    korban: >
+      102.800-180.000 tewas (Commission for Reception, Truth and
+      Reconciliation Timor-Leste / CAVR, 2005). Termasuk 18.600
+      tewas akibat kekerasan, 84.000 tewas akibat kelaparan dan
+      penyakit. Pendudukan 1975-1999.
+    tokoh_tni_kunci: "Panglima: Jenderal Maraden Panggabean (Menhankam). Operasional: Benny Moerdani. Komandan TNI AD: Widodo AS."
+
+  pepera_1969:
+    nama_resmi: "Penentuan Pendapat Rakyat (PEPERA) / Act of Free Choice"
+    tanggal: "14 Juli - 2 Agustus 1969 (8 musyawarah daerah, 1 musyawarah umum)"
+    lokasi: "Irian Barat / Irian Jaya (Papua)"
+    latar: >
+      New York Agreement 15 Agustus 1962 — Belanda, Indonesia, dan PBB
+      menyetujui: (1) Belanda serahkan Irian Barat ke UNTEA (United
+      Nations Temporary Executive Authority) 1962-1963, (2) Indonesia
+      ambil alih 1 Mei 1963, (3) PEPERA 1969 untuk menentukan status
+      akhir.
+    pelaksanaan: >
+      1.025 perwakilan terpilih (bukan one-man-one-vote) mengikuti 8
+      musyawarah daerah. Atau unanimously memilih integrasi dengan
+      Indonesia. Hasil disahkan PBB (General Assembly Resolution
+      2504 (XXIV)).
+    kontroversi: >
+      Dikritik sebagai "Act of No Choice" — perwakilan dipilih oleh
+      Indonesia, tekanan militer besar, tidak ada kampanye pro-kemerdekaan.
+      OPM menolak hasil PEPERA.
+    tokoh: "Sudharmono (Sekretaris Jenderal PEPERA), Pieter Platteel (Administrator UNTEA pertama)"
+
+# =============================================================================
+# HUBUNGAN INTERNASIONAL
+# =============================================================================
+international_relations:
+  kembali_ke_pbb_1966:
+    tanggal: "28 September 1966"
+    peristiwa: >
+      Indonesia kembali menjadi anggota PBB setelah keluar 1965 (Soekarno
+      protes Malaysia diterima di Dewan Keamanan). Pidato Adam Malik
+      (Menteri Luar Negeri) di hadapan General Assembly PBB.
+    signifikansi: >
+      Pengakuan internasional rezim Soeharto. Indonesia diakui sebagai
+      negara yang stabil, anti-komunis, dan pro-Barat. Pasca-Pembantaian
+      PKI 1965-1966, dunia Barat mendukung Soeharto.
+
+  pendiri_asean_1967:
+    tanggal: "8 Agustus 1967"
+    lokasi: "Bangkok, Thailand (di Departemen Luar Negeri Thailand)"
+    deklarasi: "Bangkok Declaration"
+    pendiri_lima:
+      - "Adam Malik (Indonesia, Menteri Luar Negeri)"
+      - "Tun Abdul Razak (Malaysia, Wakil Perdana Menteri)"
+      - "Narciso Ramos (Filipina, Menteri Luar Negeri)"
+      - "Thanat Khoman (Thailand, Menteri Luar Negeri)"
+      - "S. Rajaratnam (Singapura, Menteri Luar Negeri)"
+    signifikansi: >
+      Berbeda dengan konfrontasi Soekarno (Dwikora 1963-1966),
+      Soeharto memilih kemitraan regional. ASEAN menjadi forum
+      kerjasama ekonomi, politik, keamanan Asia Tenggara.
+    ekspansi_berikutnya: "Brunei (1984), Vietnam (1995), Laos & Myanmar (1997), Kamboja (1999)"
+
+  normalisasi_malaysia_1966:
+    tanggal: "11 Agustus 1966"
+    perjanjian: "Perjanjian Bangkok"
+    latar: >
+      Konfrontasi Malaysia (Dwikora) berakhir dengan Supersemar 11
+      Maret 1966. Soeharto (sebagai Pejabat Presiden) damai dengan
+      Malaysia. Indonesia dan Malaysia sepakat mengakhiri konfrontasi.
+      Soekarno (masih Presiden tituler hingga 1967) tidak hadir.
+    signifikansi: >
+      Berakhirnya era konfrontasi. Pintu kerjasama ekonomi
+      Indonesia-Malaysia dibuka. Alih kepemilikan beberapa pulau
+      sempadan (Sipadan, Ligitan) — yang nantinya diputuskan ICJ
+      2002 ke Malaysia.
+
+  boat_people_vietnam_1979_1996:
+    periode: "1979-1996"
+    lokasi: "Pulau Galang, Kepulauan Riau (kamp pengungsi Vietnam)"
+    latar: >
+      Pasca-perang Vietnam 1975, ratusan ribu orang Vietnam (terutama
+      etnis Tionghoa) melarikan diri dengan perahu ke negara tetangga.
+      Indonesia, sebagai anggota UNHCR Comprehensive Plan of Action
+      (CPA) 1979, menerima ~250.000 pengungsi Vietnam di Pulau Galang.
+    operasi: >
+      Pengungsi diproses di Galang untuk resetelmen ke negara ketiga
+      (AS, Australia, Kanada, Eropa). Sebagian kecil dipulangkan ke
+      Vietnam. Kamp resmi ditutup 1996.
+
+  apec_1994:
+    tanggal: "15 November 1994"
+    lokasi: "Bogor, Indonesia (Istana Bogor)"
+    dokumen: "APEC Economic Leaders' Declaration of Common Resolve"
+    latar: >
+      Soeharto sebagai host APEC Summit 1994 (yang kedua, setelah Seattle
+      1993). 18 pemimpin APEC hadir, termasuk Bill Clinton (AS),
+      Jiang Zemin (Tiongkok), Hashimoto (Jepang), Paul Keating (Australia).
+    bogor_goals: >
+      Deklarasi Bogor menetapkan: (1) anggota industri APEC liberalisasi
+      perdagangan dan investasi pada 2010, (2) anggota berkembang pada
+      2020. Visi APEC sebagai komunitas ekonomi Asia Pasifik.
+    signifikansi: >
+      Puncak diplomasi Indonesia di era Soeharto. Memposisikan Indonesia
+      sebagai pemimpin regional. Setelah 1994, Indonesia kembali host
+      APEC 2013 (Susilo Bambang Yudhoyono).
+
+  imf_bailout_1997:
+    tanggal: "8 Oktober 1997 (Indonesia minta bantuan IMF)"
+    paket: "US$43 miliar (besar dalam sejarah IMF saat itu)"
+    syarat: >
+      50 butir reformasi structural IMF: tutup 16 bank bermasalah
+      (November 1997), BPPN dibentuk, monopoli dilepas, proyek
+      pesawat Habibie dipotong anggaran, subsidi BBM dilepas,
+      restrukturisasi BCA, sebagian BUMN diprivatisasi.
+    dampak: >
+      Krisis ekonomi yang lebih dalam dari antisipasi. Rupiah jatuh dari
+      2.500 (Juli 1997) ke 15.000 (Juni 1998) per USD. 1 juta pekerja
+      di-PHK. Inflasi 78%. Pendapatan per kapita turun dari US$ 1.155
+      (1996) ke US$ 487 (1998). IMF "malpraktik" (kritik: tidak
+      antisipasi dampak sosial). BPPN menutup sebagian besar
+      konglomerasi. Indonesia keluar dari IMF 2003 (akhir pembayaran
+      pinjaman 2006).
+
+  non_blok:
+    periode: "1966-1992"
+    peran_indonesia: >
+      Soeharto tidak melanjutkan peran pemimpin Dunia Ketiga seperti
+      Soekarno (yang bersama Tito-Nehru-Nasser mendirikan Non-Blok 1961).
+      Indonesia tetap anggota Non-Blok, tetapi fokus ke ASEAN dan pro-Barat
+      (anti-komunis). Soeharto hadir di KTT Non-Blok 1992 (Jakarta host)
+      — 1 kali di Orde Baru.
+
+# =============================================================================
+# KRONI KAPITALISME — GANG OF FOUR ORDE BARU
+# =============================================================================
+crony_capitalism:
+  deskripsi: >
+    "Gang of Four" adalah istilah untuk 4 konglomerat terbesar era Soeharto
+    yang memiliki hubungan istimewa dengan rezim. Mereka menerima kontrak
+    pemerintah, lisensi monopoli, kredit BC (Bank Central Asia), dan akses
+    mudah ke perbankan. Puncak kejayaan 1980-an-1990-an, runtuh setelah
+    krisis 1997.
+
+  gang_of_four:
+    liem_sioe_liong:
+      nama: "Liem Sioe Liong (Sudono Salim)"
+      lahir_wafat: "16 Juli 1916 (Fuqing, Fujian, Tiongkok) - 1 Juni 2012 (Singapura)"
+      konglomerasi: "Salim Group"
+      bisnis_kunci:
+        - "Bank Central Asia (BCA) — bank swasta terbesar Indonesia"
+        - "Indofood — monopoli mi instan Indomie"
+        - "Bogasari Flour Mills — tepung terigu (kuasi-monopoli)"
+        - "Indocement — semen"
+        - "Indofood Sukses Makmur"
+        - "QAF (Singapura)"
+      latar: >
+        Liem pindah ke Kudus, Jawa Tengah 1938. Selama revolusi
+        1945-1949, mensuplai divisi Diponegoro (komandan Soeharto)
+        di Yogyakarta. Hubungan personal Soeharto-Liem bermula dari
+        sini. Liem menjadi cukong pribadi Soeharto.
+      kejatuhan: >
+        Krisis 1997 — BCA diserbu penarik. Mei 1998 — BCA Plaza
+        dijarah dan dibakar. Liem lari ke Singapura. BCA
+        dinasionalisasi via BPPN, kemudian dijual ke Farallon Capital.
+
+    prajogo_pangestu:
+      nama: "Prajogo Pangestu (Phang Djoen Phen)"
+      lahir: "1944 (Pontianak, Kalimantan Barat)"
+      konglomerasi: "Barito Pacific Group"
+      bisnis_kunci:
+        - "Barito Pacific Timber — kayu lapis (plywood) terbesar"
+        - "Chandra Asri Petrochemical — petrokimia (reaktor krak"
+        - "Star Energy Panas Bumi"
+      latar: >
+        Mulai dari kayu di Kalimantan. Soeharto berikan lisensi
+        monopoli ekspor plywood (Apkindo, Asosiasi Panel Kayu Indonesia)
+        — semua ekspor plywood harus melalui Apkindo (Bob Hasan ketuanya).
+        Prajogo jadi miliarder kayu. Kemudian ekspansi ke petrokimia
+        Chandra Asri (proyek US$ 2,5 miliar) dengan dukungan Soeharto.
+
+    bob_hasan:
+      nama: "Bob Hasan (The Kian Seng)"
+      lahir_wafat: "1931 (Semarang) - 5 September 2018 (Jakarta)"
+      konglomerasi: "Kiani Group / Kertas Group"
+      bisnis_kunci:
+        - "Apkindo — monopoli ekspor plywood Indonesia (1976-1998)"
+        - "Kiani Kertas — pabrik kertas Mangani (Kalimantan Selatan)"
+        - "Kiani Sakti"
+        - "Musa Group"
+      latar: >
+        Bob Hasan adalah saudara angkat (angkat jadi anak) Soeharto —
+        diangkat oleh ayah Soeharto. Karena itu disebut "saudara
+        angkat" presiden. Sejak 1960-an, Bob Hasan dominan di industri
+        kayu. Apkindo kontrol 90% ekspor plywood Indonesia.
+      jabatan_politik: "Menteri Perdagangan dan Perindustrian Maret-November 1998 (kabinet Habibie)"
+      kejatuhan: "Dipenjara 2001 (kasus korupsi BPPN US$ 86 juta)."
+
+    sudwikatmono:
+      nama: "Sudwikatmono"
+      lahir: "1938 (Yogyakarta)"
+      konglomerasi: "Subentra Group / Indomobil Group"
+      bisnis_kunci:
+        - "Indomobil — mobil Suzuki assembly"
+        - "Indomulti Niaga"
+        - "Subentra Securities"
+      latar: >
+        Sepupu Soeharto (anak dari adik ayah Soeharto). Memulai
+        dari bisnis keuangan, kemudian mobil. Indomobil saingan
+        Astra (Liem Soe Liong). Sudwikatmono juga dekat dengan
+        Salim Group.
+
+  konglomerat_lain:
+    - "Eka Tjipta Widjaja — Sinar Mas Group (pulp & paper, perkebunan sawit, Bank International Indonesia)"
+    - "Prajogo Pangestu — Barito Pacific (di atas)"
+    - "Putera Sampoerna — Sampoerna Strategic (rokok Dji Sam Soe, sebelum dijual ke Philip Morris 2005)"
+    - "Sukanto Tanoto — Royal Golden Eagle / RGE (Asian Agri, April, Toba Pulp Lestari)"
+    - "Theodore Permadi Rachmat — Astra International (oto, agribisnis) — kemudian Triputra Group"
+    - "Tahija family — Aneka Kimia Raya, Bank Niaga"
+    - "Mochtar Riady — Lippo Group (keuangan, real estate, retail)"
+    - "Ciputra — Ciputra Group (real estate, CitraLand)"
+
+  keluarga_soeharto:
+    - "Sigit Harjojudanto (anak laki-laki sulung) — Bimantara Citra (Humpuss, Bimantara)"
+    - "Bambang Trihatmodjo (anak laki-laki) — Bimantara Citra, Bank Bira, RCTI, Bimagraha"
+    - "Hutomo Mandala Putra (Tommy Soeharto, anak laki-laki bungsu) — Humpuss, Lamborghini, Indo Golf"
+    - "Siti Hardiyanti Rukmana (Tutut, anak perempuan sulung) — Citra Lamtoro Gung, Citra Marga Nusaphala (jalan tol)"
+    - "Siti Hediati Hariyadi (Titiek Soeharto, anak perempuan) — suami: Prabowo Subianto"
+    - "Siti Hutami Endang Adiningsih (Mamiek, anak perempuan bungsu)"
+
+# =============================================================================
+# RUNTUHNYA ORDE BARU (1997-1998)
+# =============================================================================
+fall_of_orde_baru:
+  krisis_moneter_1997:
+    mulai: "Juli 1997 (krisis baht Thailand 2 Juli)"
+    kronologi: >
+      14 Agustus 1997 — BI bebaskan rupiah (floating rate). Rupiah
+      dari 2.580 ke 4.000/USD dalam 1 bulan. September 1997 — 16 bank
+      dibekukan. 8 Oktober 1997 — Indonesia minta bantuan IMF, paket
+      US$43 miliar. Januari 1998 — Letter of Intent IMF kedua,
+      reformasi structural 50 butir.
+    dampak: >
+      Rupiah jatuh ke 15.000/USD Juni 1998. Inflasi 78%. 1 juta pekerja
+      di-PHK. 96% perusahaan konglomerasi insolven. Pendapatan per
+      kapita turun dari US$ 1.155 (1996) ke US$ 487 (1998).
+
+  penculikan_aktivis_1997_1998:
+    periode: "Mei 1997 - Mei 1998"
+    pelaku: "Kopassus — Tim Mawar (Tim Perlawanan Senyap)"
+    komandan_dugaan: "Prabowo Subianto (Danjen Kopassus saat itu)"
+    korban: >
+      23 aktivis diculik. 9 dibebaskan, 1 ditemukan tewas (Fuad
+      Hasyim, Mugas 1998), 13 masih hilang (hingga hari ini).
+    korban_kunci:
+      - "Pius Lustrilanang (dilepaskan setelah disiksa)"
+      - "Desmond Mahesa (dilepaskan)"
+      - "Rahardi Remy (dilepaskan)"
+      - "Haryanto Taslam (dilepaskan)"
+      - "Mugiyanto (dilepaskan)"
+      - "Nezar Patria (dilepaskan)"
+      - "Aan Rusdianto (dilepaskan)"
+      - "Faisol Reza (dilepaskan)"
+      - "Andi Arief (dilepaskan — ketua SMID)"
+      - "Fuad Hasyim (ditemukan tewas)"
+      - "Wiji Thukul (hilang — penyair aktivis)"
+      - "Suyat (hilang)"
+      - "Yani Afri (hilang)"
+      - "Sonny (hilang)"
+      - "Dedy Hamdun (hilang)"
+      - "Noval Alkatiri (hilang)"
+      - "Ismail (hilang)"
+      - "Bimo Petrus (hilang)"
+      - "Suyat Soenarto (hilang)"
+    saksi_dan_komandan_kopassus: >
+      Tim Mawar dipimpin Mayor Inf. Bambang Kristiono. Atasannya:
+      Letkol Inf. Muchdi PR (Komandan Grup 4 Kopassus). Atasnya lagi:
+      Prabowo Subianto (Danjen Kopassus). Setelah reformasi, Tim Mawar
+      diadili Mahmilub, beberapa perwira dihukum ringan (22-30 bulan).
+
+  tragedi_trisakti_1998:
+    tanggal: "12 Mei 1998"
+    lokasi: "Universitas Trisakti, Grogol, Jakarta Barat"
+    peristiwa: >
+      Mahasiswa Trisakti berdemonstrasi menuntut Soeharto mundur.
+      Ditembak snipers saat bergerak dari kampus ke gedung DPR/MPR
+      (sekarang Senayan). 4 mahasiswa tewas:
+    korban:
+      - "Elang Mulia Lesmana (1977-1998) — Teknik Sipil"
+      - "Heri Hertanto (1974-1998) — Teknik Mesin"
+      - "Hafidin Royan (1974-1998) —Teknik Geologi"
+      - "Hendriawan Sie (1977-1998) — Teknik Industri"
+    pelaku: >
+      Dugaan: tim snipers dari Kostrad atau Kodam Jaya. Beberapa
+      perwira (Brigjen Sutiyoso, dll) diadili, divonis ringan. Hingga
+      kini kasus belum tuntas secara hukum.
+
+  kerusuhan_mei_1998:
+    tanggal: "13-15 Mei 1998"
+    lokasi: "Jakarta (Glodok, Pluit, Klender, Pasar Senen, Solo, Surabaya, Medan, Palembang)"
+    peristiwa: >
+      Kerusuhan massal spontan pasca-Trisakti. Klender Plaza dibakar —
+      ~500 tewas terjebak api. BCA Plaza di Glodok diserang. Ratusan
+      toko Tionghoa dijarah dan dibakar. 168 perempuan Tionghoa
+      diperkosa massal (data Tim Gabungan Pencari Fakta, dibantah
+      sebagian pihak).
+    korban: "~1.000 tewas (Jakarta + daerah)"
+    dampak: >
+      Krisis kepercayaan terhadap Soeharto. Eksodus warga Tionghoa
+      ke Singapura, Australia, Amerika. Tekanan internasional meningkat.
+      Soeharto janji reformasi 18 Mei. Mundur 21 Mei 1998.
+
+  soeharto_mundur_1998:
+    tanggal: "21 Mei 1998"
+    lokasi: "Istana Negara, Jakarta"
+    peristiwa: >
+      Soeharto membacakan pidato pengunduran diri di Istana Negara
+      pukul 09.00 WIB. Disaksikan oleh para menteri dan ketua MPR/DPR.
+      Wakil Presiden BJ Habibie segera dilantik sebagai Presiden RI ke-3.
+      Era Orde Baru resmi berakhir, era Reformasi dimulai.
+
+# =============================================================================
+# KARAKTER — DENGAN PROMPT T2I
+# =============================================================================
+characters:
+  soeharto:
+    nama_lengkap: "Soeharto"
+    lahir_wafat: "8 Juni 1921 (Kemusuk, Yogyakarta) - 27 Januari 2008 (Jakarta)"
+    jabatan: "Presiden RI ke-2 (1967-1998), Pejabat Presiden (1966-1967), Panglima Kostrad (1963-1965)"
+    latar: >
+      Lahir di keluarga tani miskin di Kemusuk. Pendidikan SD, kemudian
+      masuk sekolah militer Belanda KNIL 1940. Saat Jepang datang, masuk
+      PETA (Pembela Tanah Air) 1943. Selama revolusi, komandan Divisi
+      Diponegoro di Yogyakarta. Hubungan dengan Liem Sioe Liong bermula
+      dari suplai logistik ke divisinya. Komandan RPKAD 1952, Panglima
+      Kostrad 1963. Penumpas G30S 1965. Supersemar 11 Maret 1966.
+    karakter_drama: >
+      Pendiam, kalkulator, militeristik, ahli strategi. Tidak banyak
+      pidato, tetapi keputusan tegas. Wajah poker. Visual: pria matang
+      50-70 tahun, rambut putih pendek, kumis tipis, baju safari
+      coklat muda dengan peci hitam. Tinggi ~170 cm, bahu lebar.
+    prompt_t2i: >
+      Indonesian President Soeharto in 1980s, stern authoritarian man
+      in his 60s with short gray hair and thin mustache, wearing light
+      brown long-sleeve safari suit with black peci cap, standing in
+      presidential palace with red-white Indonesian flag, formal
+      cinematic lighting, hyperrealistic portrait, 8K detail.
+
+  ibu_tien_soeharto:
+    nama_lengkap: "Siti Hartinah (Ibu Tien Soeharto)"
+    lahir_wafat: "23 Agustus 1923 (Surakarta) - 28 April 1996 (Jakarta)"
+    jabatan: "Ibu Negara (1967-1996)"
+    latar: >
+      Lahir di Surakarta, keturunan keraton Surakarta (ayah: Soemohardjo,
+      pegawai keraton). Menikah dengan Soeharto 26 Desember 1947 di
+      Surakarta. Pendiri Taman Mini Indonesia Indah (TMII, 1975).
+      Dijuluki "Madame Ten Percent" oleh kritikus karena dugaan
+      komisi proyek.
+    karakter_drama: >
+      Elegan, tertutup, keraton-oriented. Pendiri TMII sebagai
+      proyek kebangsaan. Visual: wanita matang 50-70 tahun, kebaya
+      kontemporer dengan kain batik, sanggul, perhiasan emas halus.
+
+  bj_habibie:
+    nama_lengkap: "Bacharuddin Jusuf Habibie"
+    lahir_wafat: "25 Juni 1936 (Parepare, Sulawesi Selatan) - 11 September 2019 (Jakarta)"
+    jabatan: "Presiden RI ke-3 (1998-1999), Wakil Presiden (Maret 1998 - Mei 1998), Menteri Riset dan Teknologi (1978-1998)"
+    latar: >
+      Dididik di Jerman (Technische Universität Aachen, aeronautika).
+      Bekerja di Messerschmitt-Bölkow-Blohm (MBB) Hamburg 1965-1974.
+      Soeharto panggil kembali ke Indonesia 1974. Menteri Riset dan
+      Teknologi 1978. Pendiri IPTN (Industri Pesawat Terbang Nusantara,
+      1976) — buat pesawat N250 Gatot Kaca. Ketum ICMI 1990. Wakil
+      Presiden Maret 1998 (dipilih MPR sebagai wapres terakhir Soeharto).
+      Naik jadi Presiden 21 Mei 1998.
+    karakter_drama: >
+      Teknokrat visioner, religius (Islam), canggih teknologi namun
+      naif politik. Pecinta pesawat terbang. Visual: pria matang
+      60-an, kacamata besar tebal, jas dengan peci hitam, rambut
+      kepal hitam (di muda) atau putih (di tua).
+
+  adam_malik:
+    nama_lengkap: "Adam Malik Batubara"
+    lahir_wafat: "22 Juli 1917 (Pematangsiantar) - 5 September 1984 (Bandung)"
+    jabatan: "Wakil Presiden RI ke-3 (1978-1983), Menteri Luar Negeri (1966-1977), Menteri Perdagangan (1963-1965)"
+    latar: >
+      Jurnalis muda (Antara, 1937), pendiri Partai Rakyat 1946, duta
+      besar Indonesia ke Uni Soviet 1959-1963. Setelah G30S 1965, masuk
+      kabinet Soeharto sebagai Menteri Luar Negeri Maret 1966 — terlibat
+      normalisasi hubungan luar negeri (keluar Soekarno-era konfrontasi,
+      masuk pro-Barat). Salah satu pendiri ASEAN 8 Agustus 1967 dengan
+      pidato di Bangkok. Pidato di PBB 28 September 1966 — Indonesia
+      kembali ke PBB. Wakil Presiden 1978-1983.
+    karakter_drama: >
+      Diplomat ulung, multilingual (Indonesia, Belanda, Jerman, Rusia,
+      Inggris), karismatik. Visual: pria kurus 50-60-an, rambut putih
+      pendek, kacamata bulan, jas hitam dengan peci hitam, tanda
+      tangan sikap tenang dan tegas.
+
+  ali_moertopo:
+    nama_lengkap: "Ali Moertopo"
+    lahir_wafat: "23 Oktober 1924 (Blora) - 15 Mei 1984 (Munich)"
+    jabatan: "Menteri Penerangan (1973-1978), Asisten Pribadi Presiden Soeharto (1966-1973)"
+    latar: >
+      Perwira intelijen Soeharto. Selama revolusi, ajudan Soeharto di
+      Divisi Diponegoro. Pendiri Opsus (Operasi Khusus) — operasi
+      intelijen rahasia. Pelaku perdamaian dengan Malaysia 1966.
+      Diduga dalang di balik pembentukan Komando Jihad 1970-an.
+      Pendiri CSIS (Centre for Strategic and International Studies)
+      1971. Menteri Penerangan 1973-1978. Wafat di Munich karena
+      kanker 1984.
+    karakter_drama: >
+      Pria misterius, intelijen jenaka, sakti mandraguna. Visual:
+      pria matang 50-an, kurus, kumis tipis, jas hitam, peci hitam.
+
+  benny_moerdani:
+    nama_lengkap: "Leonardus Benjamin Moerdani (L.B. Moerdani)"
+    lahir_wafat: "2 Oktober 1932 (Purworejo) - 29 Agustus 2004 (Jakarta)"
+    jabatan: "Panglima ABRI (1983-1988), Menteri Pertahanan dan Keamanan (1983-1988), KSAD (1984-1988)"
+    latar: >
+      Perwira TNI AD, masuk RPKAD (Resimen Pasukan Komando Angkatan
+      Darat) 1952. Operasi Trikora (Irian Barat 1961-1962). Operasi
+      Dwikora (Kalimantan 1963-1966). Operasi Seroja (Timor-Timur 1975-1976).
+      Komandan Kopassandha 1977-1981, panglima Seroja. KSAD 1984.
+      Panglima ABRI 1983-1988. Dituduh "dalang" Petrus 1983-1985.
+      Dipecat dari Menhankam 1988 karena konflik dengan ICMI/Habibie.
+    karakter_drama: >
+      Pria tegas, intelijen, Katolik saleh. Sering baju loreng militer,
+      baret hijau RPKAD/Kopassus. Wajah serius, mata tajam. Konflik
+      dengan kubu Habibie/ICMI.
+
+  liem_sioe_liong:
+    nama_lengkap: "Liem Sioe Liong (Sudono Salim)"
+    lahir_wafat: "16 Juli 1916 (Fuqing, Fujian, Tiongkok) - 1 Juni 2012 (Singapura)"
+    jabatan: "Konglomerasi Salim Group — pendiri Bank Central Asia, Indofood"
+    latar: >
+      Migrasi ke Kudus 1938. Selama revolusi 1945-1949, suplai logistik
+      ke divisi Soeharto. Hubungan personal dengan Soeharto terjalin.
+      Bisnis 1950-an: kopi, karet, kulit. 1957: bank BC (Bank Central
+      Asia) bersama Soeharto dan konglomerasi Mochtar Riady. 1967-
+      1968: monopoli bawang putih. 1969: kontraktor militer. 1972:
+      Bogasari Flour Mills (kuasi-monopoli tepung terigu). 1988: BCA
+      go public. 1990: Indofood (Indomie).
+    karakter_drama: >
+      Pria Tionghoa tertutup, bijaksana, taat Buddha-Konghucu.
+      Visual: pria Tionghoa matang 50-70-an, kacamata bulan, jas
+      hitam, rambut pendek lusuh, sikap rendah hati.
+
+  hartono_dharsono:
+    nama_lengkap: "Hartono Rekso Dharsono"
+    lahir_wafat: "25 Maret 1925 (Cirebon) - 5 Januari 1996 (Jakarta)"
+    jabatan: "Sekretaris Jenderal ASEAN pertama (1976-1978), Duta Besar RI untuk Thailand (1974-1976)"
+    latar: >
+      Perwira karier TNI AD, ajudan Jenderal Soeharto selama revolusi.
+      Panglima KOPASSANDHA (Komando Pasukan Sandi Yudha) 1967-1969.
+      Duta Besar Indonesia ke Thailand. Sekjen ASEAN pertama 1976-1978.
+      Pensiun dari pemerintahan 1978 karena konflik dengan Ali
+      Moertopo. Salah satu penanda tangan Petisi 50 (5 Mei 1980).
+      Diadili 1984-1985 karena dianggap berhubungan dengan peristiwa
+      Tanjung Priok 1984. Dijatuhi 10 tahun penjara, dibebaskan 1990.
+    karakter_drama: >
+      Pria matang idealis, jenderal berpendidikan. Visual: pria
+      matang 50-60-an, rambut putih pendek, jas hitam, tegas dan
+      tenang.
+
+  daoed_joesoef:
+    nama_lengkap: "Daoed Joesoef"
+    lahir_wafat: "8 Agustus 1926 (Medan) - 23 September 2008 (Jakarta)"
+    jabatan: "Menteri Pendidikan dan Kebudayaan (1978-1983), Duta Besar RI untuk Prancis (1983-1986)"
+    latar: >
+      Dokter (UI), Ph.D (Sorbonne). Aktif di MPPI (Mahasiswa
+      Pemuda Pelajar Indonesia). Mendikbud 1978. Pelaksana NKK/BK
+      (Normalisasi Kehidupan Kampus) 1978 — senat mahasiswa
+      dibubarkan, BKK ganti. Hubungan tegang dengan mahasiswa dan
+      dosen. 1983 — Duta Besar ke Prancis.
+    karakter_drama: >
+      Teknokrat dingin, pendidikan tinggi. Visual: pria matang 50-60-
+      an, kacamata, jas hitam, rambut pendek, sikap akademis.
+
+  marsinah:
+    nama_lengkap: "Marsinah"
+    lahir_wafat: "10 April 1969 (Nglundo, Sidoarjo) - 8 Mei 1993 (ditemukan tewas di hutan Wilangan, Nganjuk)"
+    jabatan: "Aktivis buruh PT CPS (Catur Putera Surya), Sidoarjo"
+    latar: >
+      Buruh pabrik jam tangan PT CPS, Sidoarjo, Jawa Timur. Mengorganisasi
+      aksi mogok 3-4 Mei 1993 menuntut upah minimum (UMR) sesuai UU
+      25/1993. 5 Mei — Marsinah dan 12 kawan kerja dipanggil Kodim
+      Sidoarjo. Marsinah hilang. 8 Mei 1993 — ditemukan tewas di hutan
+      Wilangan, Nganjuk, dengan bekas penyiksaan berat (luka sodok,
+      bekas rudal).
+    kasus: >
+      10 tersangka (komandan Kodim, perwira TNI, manajer pabrik) diadili.
+      Beberapa dijatuhi hukuman, namun dibebaskan banding. Penulis
+      kasus dianggap pelaku intelektual: Mayjen Soewardi (Pangdam
+      Brawijaya saat itu, kemudian Gubernur Lemhannas). Marsinah
+      dianugerahi "Anugerah Yap Thiam Hien" 1993 (posthumous). Soeharto
+      sendiri dilaporkan terkejut saat mendengar kasusnya.
+    karakter_drama: >
+      Wanita muda 24 tahun, kurus, sederhana. Visual: wanita muda
+      Indonesia, rambut panjang diikat, blus lengan pendek, celana
+      panjang, sepatu kets, dengan pin buruh.
+
+  prabowo_subianto:
+    nama_lengkap: "Prabowo Subianto"
+    lahir: "17 Oktober 1951 (Jakarta)"
+    jabatan: "Danjen Kopassus (1995-1998), Panglima Kostrad (Mei 1998)"
+    latar: >
+      Cucu Soekarno (melalui ibu), menantu Soeharto (suami Titiek
+      Soeharto, 1983). Masuk Akabri 1970. Tim Nanggala 28 di Timor-
+      Timur 1976 (salah satu dari 9 anggota komando yang menyerang
+      Fretilin). Komandan Danjen Kopassus 1995. Didalangi penculikan
+      aktivis 1997-1998 (23 korban, 13 hilang). Diberhentikan dari
+      TNI Mei 1998 oleh Wiranto setelah konflik. Lari ke Yordania
+      selama 6 bulan. Kembali 1998. Pendiri Partai Gerindra 2008.
+    karakter_drama: >
+      Pria ambisius, keras militeristik, karismatik. Visual: pria
+      matang 40-50-an, jenggot tipis, baju loreng TNI, baret merah
+      Kopassus, postur atletis.
+
+  wiranto:
+    nama_lengkap: "Wiranto"
+    lahir: "4 April 1947 (Yogyakarta)"
+    jabatan: "Panglima ABRI (Februari 1998 - November 1999), Menteri Pertahanan dan Keamanan (Mei 1998 - November 1999)"
+    latar: >
+      Akabri 1968. Ajudan Soeharto 1989-1992. Panglima Kodam Jaya
+      1995-1996. KSAD 1997. Panglima ABRI Februari 1998. Pasca-Trisakti
+      12 Mei 1998 — Wiranto "berpihak pada Soeharto" tetapi memohon
+      mundur. 21 Mei — Soeharto mundur, Wiranto dilantik jadi
+      Menhankam di kabinet Habibie. Konflik dengan Prabowo (keponakan/
+      menantu Soeharto) — Prabowo dipecat 21 Mei 1998. 1999: Wiranto
+      kandidat presiden Golkar, kalah dari Gus Dur. Pendiri Partai
+      Hanura 2006. Menyandang 4 jenderal bintang.
+    karakter_drama: >
+      Pria tenang, karismatik. Visual: pria matang 50-an, jenderal
+      TNI AD, baju PDU (perang dapur umum) loreng, baret hijau,
+      kumis tipis.
+
+  amien_rais:
+    nama_lengkap: "Amien Rais"
+    lahir: "26 April 1944 (Solo)"
+    jabatan: "Ketua Umum Muhammadiyah (1995-1998), tokoh Reformasi 1998"
+    latar: >
+      Dididik di UGM (Politik Islam), Notre Dame (Ph.D). Dosen
+      UGM. 1985-1990 — Ketua PP Muhammadiyah. 1995 — Ketum PP
+      Muhammadiyah. Mei 1998 — tokoh kunci gerakan Reformasi bersama
+      mahasiswa, ICMI, dan PPP. Pendiri Partai Amanat Nasional (PAN)
+      1998. Ketua MPR 1999-2004 — mengusulkan amandemen UUD 1945.
+    karakter_drama: >
+      Pria religius, intelektual, kritis. Visual: pria matang 50-an,
+      kacamata, jas hitam, peci hitam, kumis jenggot tipis, postur
+      tinggi dan kurus.
+
+  gus_dur:
+    nama_lengkap: "Abdurrahman Wahid (Gus Dur)"
+    lahir_wafat: "7 September 1940 (Jombang) - 30 Desember 2009 (Jakarta)"
+    jabatan: "Ketua Umum PBNU (1984-1999), Presiden RI ke-4 (1999-2001)"
+    latar: >
+      Cucu pendiri NU (Hasyim Asy'ari). Dididik di pesantren Jombang
+      dan Universitas Baghdad (literatur Islam). Kembali ke Indonesia
+      1971. Aktivis Forum Demokrasi 1991 (bersama Goenawan Mohamad,
+      Daniel Sipa, dll). Ketum PBNU April 1984. Muktamar Situbondo
+      1984 — menerima Khittah NU (kembali ke 1926, "Islam tradisional",
+      tidak terlibat politik praktis). 1998 — setelah Soeharto mundur,
+      pendiri PKB (Partai Kebangkitan Bangsa). Presiden RI ke-4
+      Oktober 1999 — Juli 2001 (diberhentikan MPR).
+    karakter_drama: >
+      Religius, intelektual, jenaka, visioner pluralis. Penglihatan
+      terbatas (glaukoma, kebutaan parsial sejak 1970-an). Visual:
+      pria matang 50-60 tahun, gemuk, kacamata hitam tebal, jas hitam
+      dengan peci hitam, sarung kadang kain.
+
+  megawati_sukarnoputri:
+    nama_lengkap: "Megawati Soekarnoputri"
+    lahir: "23 Januari 1947 (Yogyakarta)"
+    jabatan: "Ketua Umum PDI-P (sejak 1998), Presiden RI ke-5 (2001-2004), Wakil Presiden (1999-2001)"
+    latar: >
+      Putri sulung Soekarno. Masuk politik 1987 — anggota DPR dari PDI.
+      1993 — Ketum PDI setelah Suryadi di-Muktamar Medan. 1996 —
+      Soeharto (yang tak suka Megawati) gulingkan lewat kongres Medan,
+      Suryadi kembali jadi Ketum. 27 Juli 1996 — Kudeta PDI Jakarta
+      (penyerangan markas PDI Jalan Diponegoro oleh aparat + preman),
+      kerusuhan Jakarta. Megawati mendirikan PDI-P 1998. Pemilu 1999 —
+      PDI-P menang (33,7%). Presiden RI ke-5 2001 (setelah Gus Dur
+      di-Impeachment MPR).
+    karakter_drama: >
+      Pendiam, tegas, nasionalis, sedikit naif politik. Visual: wanita
+      matang 50-60 tahun, kebaya kontemporer dengan kain batik, sanggul,
+      perhiasan sederhana.
+
+# =============================================================================
+# LOKASI — DENGAN PROMPT T2I
+# =============================================================================
+locations:
+  jakarta_sudirman_thamrin_1980s:
+    deskripsi: >
+      Pusat bisnis Jakarta era Soeharto. Jalan Sudirman-Thamrin dengan
+      gedung-gedung tinggi (Wisma Nusantara 1972, Hotel Indonesia
+      Roundabout, BCA Tower 1977). Monumen Nasional (Monas) sudah
+      selesai 1975 (restorasi). Kebayoran Baru (1950-an) sudah matang.
+      Blok M dengan mal pertama (Blok M Plaza 1979). Becak dilarang
+      1990, diganti bajaj, metromini, taksi.
+    prompt_t2i: >
+      Jakarta 1980s street scene, Jalan Sudirman with early skyscrapers
+      like Wisma Nusantara and Hotel Indonesia, becak three-wheel
+      pedicabs and metromini buses on street, workers in short-sleeve
+      white shirts and peci, women in kebaya and kain batik, vintage
+      Toyota and Daihatsu cars, Monas tower in distance, warm tropical
+      afternoon light, cinematic wide shot, hyperdetailed.
+
+  istana_negara_jakarta:
+    deskripsi: >
+      Istana Negara di Jalan Veteran, Jakarta Pusat. Dibangun 1796
+      sebagai rumah istirahat Belanda. Digunakan Soeharto untuk upacara
+      kenegaraan, menerima tamu, dan pidato penting (termasuk pidato
+      mundur 21 Mei 1998). Istana Merdeka (samping Istana Negara) —
+      kantor kepresidenan.
+    prompt_t2i: >
+      Indonesian Istana Negara presidential palace, colonial Dutch
+      architecture with white columns and red roof, ceremonial steps
+      with red carpet, Indonesian flag Merah Putih flying, military
+      honor guard in green uniform, formal atmosphere, daylight,
+      hyperdetailed cinematic wide shot.
+
+  taman_mini_indonesia_indah:
+    deskripsi: >
+      TMII dibangun oleh Ibu Tien Soeharto, diresmikan 20 April 1975.
+      Konsep: taman tema budaya Indonesia dengan 34 provinsi pavilion
+      (Awalnya 27). Paviliun tradisional: Jawa (joglo), Bali (gapura
+      candi bentar), Minangkabau (rumah gadang atap bagonjong),
+      Toraja (tongkonan), dll. Juga museum, teater IMAX Keong Emas,
+      Kereta gantung, Danau kecil dengan miniatur kepulauan Indonesia.
+    prompt_t2i: >
+      Taman Mini Indonesia Indah 1975, traditional pavilions from
+      Indonesian provinces with distinctive traditional architecture,
+      Javanese joglo pendopo, Balinese candi bentar gateway, Minangkabau
+      rumah gadang with curved roof, Toraja tongkonan, family outing
+      with women in kebaya and men in safari suit with peci, warm
+      afternoon light, cinematic wide shot, hyperdetailed.
+
+  cijantung_kopassus_hq:
+    deskripsi: >
+      Markas Komando Pasukan Khusus (Kopassus) di Cijantung, Jakarta
+      Timur. Sejak 1950-an. Pusat pelatihan komando, residensi
+      prajurit, lapangan tembak, markas Grup 1 dan Grup 2 Kopassus.
+      Lokasi pidato Soeharto 16 April 1980 yang memicu Petisi 50.
+    prompt_t2i: >
+      Indonesian Kopassus military headquarters Cijantung 1980s,
+      red beret commando soldiers in camouflage uniform standing
+      in formation, military jeeps and trucks, Indonesian flag,
+      stern-faced officers in dark green uniform with red beret,
+      harsh military daylight, cinematic hyperdetailed.
+
+  lubang_buaya_monumen_pancasila_sakti:
+    deskripsi: >
+      Monumen Pancasila Sakti di Lubang Buaya, Jakarta Timur. Dibangun
+      1967-1969 di lokasi bekas markas G30S tempat 7 jenderal TNI AD
+      tewas 1 Oktober 1965. Tugu Pancasila Sakti (tinggi 17 m, 5 patung
+      Pancasila di puncak), museum, sumur tua tempat jenazah dibuang,
+      patung 7 jenderal dan 1 ajudan, rumah/penyiksaan reka ulang.
+      Setiap 1 Oktober upacara resmi.
+    prompt_t2i: >
+      Monumen Pancasila Sakti Lubang Buaya Jakarta, monument with
+      tall pillar topped with golden Garuda Pancasila emblem,
+      Indonesian military honor guard in ceremonial green uniform,
+      museum building in background with red-white flag, formal
+      ceremony atmosphere, daylight, hyperdetailed cinematic wide shot.
+
+  bandung_kaa_conference_1955:
+    deskripsi: >
+      Gedung Merdeka (Asia-Afrika Street) Bandung. Lokasi Konferensi
+      Asia-Afrika April 1955. Bangunan kolonial Belanda "Sociëteit
+      Concordia" 1879, dibangun ulang 1921. Mungkin bukan fase 10
+      tapi sering muncul dalam drama tentang Orde Lama → Orde Baru.
+      Soeharto memugar 1980. Museum Konferensi Asia-Afrika di gedung
+      ini.
+    prompt_t2i: >
+      Gedung Merdeka Bandung Asia-Africa Conference 1955 building,
+      white colonial Art Deco architecture with tall columns,
+      Indonesian and Asian-African flags, vintage cars parked in
+      front, formal 1950s atmosphere, hyperdetailed cinematic.
+
+  dili_timor_timur:
+    deskripsi: >
+      Kota Dili, ibukota Timor-Timur 1975-1999. Pesisir utara Pulau
+      Timor. Pasca-invasi 7 Desember 1975, TNI mengendalikan kota,
+      Fretilin bergerilya di pegunungan. Santa Cruz Cemetery 12
+      November 1991 — lokasi pembantaian ~250 demonstran.
+    prompt_t2i: >
+      Dili East Timor 1980s, tropical coastal city with Portuguese
+      colonial buildings mixed with Indonesian military presence,
+      soldiers in green camouflage on streets, Indonesian flag flying,
+      Santa Cruz cemetery with white crosses in background, tropical
+      afternoon, cinematic hyperdetailed.
+
+  aceh_konflik_1989_1998:
+    deskripsi: >
+      Aceh selama DOM (Daerah Operasi Militer) 1989-1998. Kota Lhokseumawe,
+      Pidie, Bireuen, Aceh Utara basis GAM. Operasi Jaring Merah oleh
+      Kopassus. ~3.000-12.000 tewas (versi berbeda). Pembantaian
+      TNI/GAM/Preman bersama. Pasca-Reformasi 1998, kekerasan
+      berlanjut hingga MoU Helsinki 2005.
+    prompt_t2i: >
+      Aceh Indonesia 1990s rural village with Indonesian military
+      presence, soldiers in green camouflage searching houses,
+      villagers in traditional Acehnese Muslim attire, women wearing
+      hijab, tense atmosphere, misty tropical morning, cinematic
+      hyperdetailed.
+
+  bca_plaza_kerusuhan_1998:
+    deskripsi: >
+      BCA Plaza di Jalan M.H. Thamrin 1, Jakarta Pusat. Gedung
+      perkantoran 28 lantai milik Salim Group (Liem Sioe Liong).
+      Mei 1998 — diserang massa, dijarah, sebagian dibakar. Simbol
+      kroni kapitalisme Soeharto.
+    prompt_t2i: >
+      BCA Plaza Jakarta May 1998 riot scene, modern office tower with
+      smoke billowing from lower floors, crowd of rioters with sticks
+      and stolen goods, Indonesian Chinese shops on street level with
+      broken glass, fire damage, dramatic orange sunset light through
+      smoke, cinematic hyperdetailed.
+
+  trisakti_university_1998:
+    deskripsi: >
+      Kampus Universitas Trisakti di Grogol, Jakarta Barat. Lokasi
+      Tragedi Trisakti 12 Mei 1998 — 4 mahasiswa tewas ditembak snipers
+      saat bergerak dari kampus ke arah gedung DPR/MPR. Museum Tragedi
+      12 Mei 1998 di kampus (didirikan 1999).
+    prompt_t2i: >
+      Universitas Trisakti Jakarta May 12 1998 student protest, young
+      university students in casual t-shirts and jeans, holding
+      "Reformasi" banners and red-white Indonesian flags, facing
+      armed riot police with shields on Grogol street, dramatic tense
+      atmosphere with smoke from fires, sunset light, painterly
+      realistic, hyperdetailed.
+
+# =============================================================================
+# BUSANA & WARDROBE
+# =============================================================================
+wardrobe:
+  baju_safari_soeharto:
+    deskripsi: >
+      Baju safari menjadi busana nasional Indonesia era Soeharto.
+      Potongan: lengan panjang, kancing depan 4-5, kerah tegak lipat,
+      tanpa dasi, dipakai dengan celana panjang. Warna dominan:
+      coklat muda, abu-abu, biru dongker, hijau zaitun, putih.
+      Peci hitam dipadukan. Sandal jepit kadang dipakai (sandals
+      Soeharto).
+    prompt_t2i: >
+      Indonesian President Soeharto in light brown long-sleeve
+      safari suit with black peci cap, chest pocket, button-front
+      shirt, formal Indonesian New Order era attire, hyperdetailed
+      portrait.
+
+  kebaya_kontemporer_ibu_tien:
+    deskripsi: >
+      Kebaya kontemporer — potongan modern dengan kancing kerang,
+      dari kain halus (voile, sutera), dipadukan dengan kain batik
+      (kain panjang) dan sanggul. Warna: pastel, hijau, biru, pink.
+      Standar busana nasional wanita Indonesia hingga kini.
+    prompt_t2i: >
+      Indonesian First Lady Ibu Tien Soeharto in contemporary kebaya
+      with shell buttons, pastel color voile fabric, paired with
+      batik kain panjang and sanggul hairstyle, pearl earrings and
+      necklace, formal Indonesian 1970s-1980s attire, hyperdetailed
+      portrait.
+
+  tni_loreng_orde_baru:
+    deskripsi: >
+      TNI Angkatan Darat era Orde Baru menggunakan seragam loreng
+      (motif bercak) hijau-coklat — DPM (Disruptive Pattern Material)
+      lokal. Baret merah untuk RPKAD/Kopassus (Pasukan Khusus), baret
+      hijau untuk Divisi Siliwangi, baret hitam untuk Yonif 1 Kostrad.
+      Sepatu boot kulit hitam. Topi rimba untuk operasi hutan.
+    prompt_t2i: >
+      Indonesian army soldier in green camouflage DPM uniform with
+      red beret Kopassus special forces, black combat boots, holding
+      SS1 rifle, stern military expression, hyperdetailed portrait.
+
+  jilbab_era_80s_90s:
+    deskripsi: >
+      Era Soeharto awal (1970-1980): jilbab tidak lazim, sekolah
+      melarang. 1982 — kasus Tuti Alawiyah ditolak ujian karena
+      jilbab → gerakan. 1990-an: ICMI dan makin kuatnya Islam politik
+      → jilbab makin populer. Visual: kerudung warna polos, gaun
+      panjang lengan panjang.
+    prompt_t2i: >
+      Indonesian Muslim woman in 1990s wearing white hijab and long
+      pastel dress, modest Islamic fashion, holding Quran, Islamic
+      bookstore background, soft natural lighting, hyperdetailed
+      portrait.
+
+  mahasiswa_reformasi_1998:
+    deskripsi: >
+      Mahasiswa 1998 — T-shirt (polos atau cetak slogan "Reformasi",
+      "Turun Soeharto"), celana jeans Levi's/Lee/Wrangler, sepatu kets
+      Nike/Adidas, jaket universitas, kadang ikat kepala merah putih.
+      Visual simbol gerakan Reformasi Mei 1998.
+    prompt_t2i: >
+      Indonesian university student Reformasi 1998 protestor, young
+      man in t-shirt with "Reformasi" slogan, blue jeans, running
+      shoes, red-white headband, holding banner, Jakarta street
+      background with smoke, dramatic hyperdetailed portrait.
+
+  sctv_rcti_era_1990s:
+    deskripsi: >
+      Era TV swasta — RCTI (1989, izin), SCTV (1990), TPI (1991),
+      Indosiar (1995), ANTV (1993). Busana pembawa acara: jas setelan
+      pria, gaun malam wanita. Kameramen dengan seragam loreng TNI
+      atau kemeja. TV swasta mempopulerkan gaya urban Indonesia.
+    prompt_t2i: >
+      Indonesian TV news anchor 1990s studio set, male anchor in
+      dark suit with peci, female anchor in contemporary kebaya,
+      Indonesian news desk with RCTI/SCTV logo, vintage CRT monitors,
+      studio lighting, hyperdetailed.
+
+# =============================================================================
+# PROMPT LIBRARY — STABLE DIFFUSION
+# =============================================================================
+prompt_library:
+  historical_moments:
+    - judul: "Supersemar 11 Maret 1966"
+      prompt: >
+        March 11 1966 Indonesian Supersemar signing ceremony, President
+        Soekarno (older man with black cap) at desk in Istana Negara
+        Jakarta, signing document handing power to General Soeharto
+        (middle-aged military officer in uniform), three generals
+        standing behind, formal colonial-era palace interior with
+        teak wood, vintage 1960s photograph aesthetic, hyperdetailed
+        cinematic portrait.
+
+    - judul: "Pidato Adam Malik di PBB 28 September 1966"
+      prompt: >
+        September 28 1966 Indonesian Foreign Minister Adam Malik at
+        United Nations General Assembly podium, thin Indonesian man
+        with short gray hair and glasses, dark suit with black peci,
+        speaking at UN microphone with UN emblem behind, assembly
+        hall with delegates, vintage 1960s photograph, hyperdetailed.
+
+    - judul: "ASEAN 1967 Bangkok Declaration"
+      prompt: >
+        August 8 1967 ASEAN founding Bangkok Declaration, five
+        foreign ministers Adam Malik (Indonesia), Tun Abdul Razak
+        (Malaysia), Narciso Ramos (Philippines), Thanat Khoman
+        (Thailand), S. Rajaratnam (Singapore) shaking hands in
+        Bangkok meeting room, formal 1960s diplomatic atmosphere,
+        vintage photograph hyperdetailed.
+
+    - judul: "Malari 15 Januari 1974"
+      prompt: >
+        January 15 1974 Jakarta Malari student protest, Indonesian
+        university students in 1970s attire confronting police on
+        Jalan Sudirman, banners protesting Japanese PM Tanaka visit,
+        burning cars and damaged storefronts in background, vintage
+        1970s photograph aesthetic, dramatic hyperdetailed.
+
+    - judul: "Operasi Seroja 7 Desember 1975"
+      prompt: >
+        December 7 1975 Indonesian military invasion of East Timor
+        (Operasi Seroja), Indonesian soldiers in green camouflage
+        uniform disembarking from landing craft on Dili beach, smoke
+        rising from city, Fretilin resistance hidden in jungle,
+        dramatic tropical daylight, cinematic hyperdetailed.
+
+    - judul: "PEPERA 1969 Irian Barat"
+      prompt: >
+        1969 Act of Free Choice Irian Barat ceremony, 1,025 Papuan
+        delegates in traditional penis gourds and body paint mixed
+        with Indonesian formal attire, voting unanimously for
+        integration with Indonesia, Indonesian military officers
+        observing, jungle clear-cut ceremony area, hyperdetailed
+        cinematic wide shot.
+
+    - judul: "Petisi 50 5 Mei 1980"
+      prompt: >
+        May 5 1980 Petisi 50 signing ceremony Jakarta, group of 50
+        distinguished older Indonesians including former generals
+        (Nasution, Hoegeng), former prime ministers (Natsir,
+        Burhanuddin Harahap), former governor Ali Sadikin, signing
+        "Expression of Concern" document at table, formal 1980s
+        Indonesian setting with batik tablecloth, hyperdetailed.
+
+    - judul: "Petrus 1983-1985 Surabaya"
+      prompt: >
+        1984 Surabaya Petrus mysterious shooting scene, dead body
+        of young Indonesian man in casual clothes lying on street
+        with bullet wound, surrounded by curious onlookers, dim
+        street light at night, grim cinematic atmosphere,
+        hyperdetailed realistic.
+
+    - judul: "Tanjung Priok 12 September 1984"
+      prompt: >
+        September 12 1984 Tanjung Priok Jakarta riot, Indonesian
+        Muslim demonstrators in traditional sarung and peci clashing
+        with Indonesian soldiers in green camouflage uniform, smoke
+        from burning vehicles, harbor area in background, chaotic
+        dramatic scene, hyperdetailed cinematic.
+
+    - judul: "Santa Cruz Dili 12 November 1991"
+      prompt: >
+        November 12 1991 Santa Cruz cemetery Dili East Timor massacre,
+        Indonesian soldiers in green camouflage uniform firing on
+        procession of 3,000 East Timorese independence demonstrators,
+        dead and wounded on ground, cemetery crosses in background,
+        chaotic dramatic scene, vintage news footage aesthetic,
+        hyperdetailed.
+
+    - judul: "Trisakti 12 Mei 1998"
+      prompt: >
+        May 12 1998 Trisakti University Jakarta student protest,
+        four university students shot dead during Reformasi
+        demonstration, paramedics carrying wounded student, smoke
+        and chaos on Grogol street, dramatic tense atmosphere with
+        sunset light through smoke, painterly realistic hyperdetailed.
+
+    - judul: "Kerusuhan Mei 13-15 Mei 1998"
+      prompt: >
+        May 14 1998 Jakarta riot, Klender Plaza burning with hundreds
+        trapped inside, BCA Plaza under attack by mob, looters
+        carrying stolen goods, smoke billowing over Jakarta skyline,
+        dramatic orange fire glow, hyperdetailed cinematic wide shot.
+
+    - judul: "Soeharto Mundur 21 Mei 1998"
+      prompt: >
+        May 21 1998 Indonesian President Soeharto reading resignation
+        speech at Istana Negara Jakarta, elderly Soeharto (76 years)
+        in dark suit with peci reading from paper at podium, VP BJ
+        Habibie standing behind looking downcast, cabinet members
+        watching, formal palace interior, vintage 1998 photograph
+        aesthetic, hyperdetailed.
+
+  karakter_potraits:
+    - judul: "Soeharto 1980s"
+      prompt: >
+        Indonesian President Soeharto 1980s portrait, stern
+        authoritarian man in his 60s with short gray hair and thin
+        mustache, light brown safari suit with black peci, Indonesian
+        presidential palace background with red-white flag, formal
+        cinematic lighting, hyperrealistic portrait, 8K detail.
+
+    - judul: "Ibu Tien Soeharto di TMII 1975"
+      prompt: >
+        Indonesian First Lady Ibu Tien Soeharto at TMII opening 1975,
+        elegant Javanese woman in her 50s wearing contemporary kebaya
+        with shell buttons in pastel color, kain batik, sanggul
+        hairstyle with jasmine garland, standing in front of Taman
+        Mini Indonesia Indah traditional pavilions, warm afternoon
+        light, hyperdetailed.
+
+    - judul: "BJ Habibie 1990-an"
+      prompt: >
+        Indonesian Minister of Research and Technology BJ Habibie
+        1990s, portly Indonesian man in his 60s with thick black
+        glasses, dark suit with black peci, standing in front of
+        Indonesian IPTN airplane factory in Bandung with N250 Gatot
+        Kaca aircraft prototype, hyperdetailed portrait.
+
+    - judul: "Adam Malik 1970-an"
+      prompt: >
+        Indonesian Foreign Minister Adam Malik 1970s, thin Indonesian
+        diplomat in his 50s with short gray hair and round glasses,
+        dark suit with black peci, holding ASEAN folder at diplomatic
+        meeting, vintage 1970s photograph aesthetic, hyperdetailed.
+
+    - judul: "Liem Sioe Liong 1980-an"
+      prompt: >
+        Indonesian Chinese tycoon Liem Sioe Liong 1980s, portly
+        Chinese-Indonesian man in his 60s with round glasses, gray
+        suit and tie, standing in front of BCA Bank Central Asia
+        tower Jakarta, modest businesslike expression, hyperdetailed
+        portrait.
+
+    - judul: "Gus Dur 1990-an"
+      prompt: >
+        Indonesian Islamic leader Abdurrahman Wahid (Gus Dur) 1990s,
+        portly Indonesian man in his 50s with thick dark glasses,
+        wearing dark suit with peci cap and sarung, holding prayer
+        beads, NU Islamic gathering background with scholars in
+        white robes, warm incense-lit interior, hyperrealistic
+        portrait.
+
+    - judul: "Marsinah 1993"
+      prompt: >
+        Indonesian labor activist Marsinah 1993, young Indonesian
+        woman 24 years old with long black hair in ponytail, wearing
+        factory uniform of light blue short-sleeve shirt and dark
+        pants, worker ID badge, holding megaphone at factory gate,
+        hopeful determined expression, hyperdetailed portrait.
+
+    - judul: "Prabowo Subianto 1998"
+      prompt: >
+        Indonesian special forces commander Prabowo Subianto 1998,
+        ambitious Indonesian military officer in his late 40s with
+        thin beard, wearing camouflage uniform with red Kopassus
+        beret, stern expression, standing at Kopassus headquarters
+        Cijantung, hyperdetailed portrait.
+
+    - judul: "Wiranto 1998"
+      prompt: >
+        Indonesian Armed Forces Commander Wiranto 1998, calm
+        Indonesian general in his early 50s with thin mustache,
+        wearing military dress uniform with four-star insignia and
+        green beret, formal office background with Indonesian flag,
+        hyperdetailed portrait.
+
+    - judul: "Amien Rais 1998"
+      prompt: >
+        Indonesian Islamic leader Amien Rais 1998, tall thin
+        Indonesian man in his 50s with glasses and thin beard, wearing
+        dark suit with peci cap, holding Reformasi banner at student
+        protest Jakarta, hyperdetailed portrait.
+
+# =============================================================================
+# PRODUCTION NOTES
+# =============================================================================
+production_notes:
+  palet_warna:
+    primary: "Coklat muda (safari Soeharto), hijau zaitun (militer), abu-abu (birokrasi), biru dongker (formal)"
+    accent: "Merah-putih (bendera), emas (keraton), kuning (sutera Jawa)"
+    background: "Earth-tone, dengan accent emas di kantor/kediaman elite"
+
+  tipografi_rekomendasi:
+    judul: "Playfair Display, IBM Plex Serif (untuk kesan formal-feudal-modern)"
+    body: "Inter, Source Sans 3, IBM Plex Sans (untuk body teks modern, dapat dibaca)"
+    chinese: "Noto Sans SC untuk diakritik Tionghoa"
+    peci_text: "Peci teks dengan Cormorant Garamond untuk dokumen kenegaraan"
+
+  casting_tips:
+    soeharto: "Pria matang 50-70 tahun, postur militer (bahu lebar), tenang, wajah serius. Tidak banyak bergerak."
+    ibu_tien: "Wanita matang Jawa 50-70 tahun, postur tegak, keraton-oriented."
+    adam_malik: "Pria kurus 60-an, multilingual feel, karismatik."
+    liem_sioe_liong: "Pria Tionghoa matang 50-70-an, kacamata bulan, sikap rendah hati."
+    gus_dur: "Pria gemuk 50-60 tahun, kacamata tebal gelap, jenaka."
+    marsinah: "Wanita muda 24 tahun, kurus, sederhana — bukan glamor."
+    prabowo_1998: "Pria 40-an, ambisius, jenggot tipis, baret merah Kopassus."
+
+  referensi_visual:
+    film_dokumenter:
+      - "The Act of Killing (2012) — Joshua Oppenheimer"
+      - "The Look of Silence (2014) — Joshua Oppenheimer"
+      - "40 Years of Silence: An Indonesian Tragedy"
+      - "The Year of Living Dangerously (1982) — Peter Weir (fiktif tapi atmosfer Orde Baru awal)"
+      - "Pengkhianatan G30S/PKI (1984) — Arifin C. Noer (film propaganda Soeharto)"
+      - "Marsinah (2002) — Slamet Riyanto"
+      - "Gie (2005) — Riri Rupa (bio Soe Hok Gie, latar Malari 1974)"
+
+    buku_aksara_visual:
+      - "Adam Schwarz — A Nation in Waiting (1994, edisi revisi 1999)"
+      - "Edward Aspinall — Opposing Soeharto (2005)"
+      - "John Roosa — Pretext for Mass Murder (2006)"
+      - "Harold Crouch — The Army and Politics in Indonesia (1978, 2007 revisi)"
+      - "Maxime Rastiono — Indonesian Destinies (2003, Theodore Friend)"
+      - "M.C. Ricklefs — A History of Modern Indonesia since c.1200 (edisi 3, 2001)"
+      - "Robert Cribb & Colin Brown — Modern Indonesia: A History since 1945"
+
+    arsip:
+      - "ANRI — Arsip Nasional Republik Indonesia (Supersemar, dokumen Orde Baru)"
+      - "Komnas HAM — dokumen kasus Talangsari, Tanjung Priok, 1998"
+      - "KontraS — dokumen penculikan aktivis 1997-1998"
+      - "IISG Amsterdam — arsip Marsinah, gerakan buruh"
+      - "RGASPI Moscow — arsip hubungan RI-Soviet masa Orde Lama → Baru"
+      - "CIA FOIA — dokumen declassified operasi 1965-1998"
+
+  aspek_yang_perlu_diperhatikan:
+    - >
+      Soeharto sering disambar sebagai "Bapak Pembangunan" tetapi juga
+      dalang represi sistematis. Drama perlu seimbang — tunjukkan
+      pencapaian ekonomi (swasembada beras 1984, pertumbuhan 7%)
+      sekaligus korban (Petrus 1983-85, Santa Cruz 1991, Marsinah 1993).
+    - >
+      Kroni kapitalisme (Gang of Four) adalah karakter dramatik kuat —
+      hubungan Liem-Soeharto bermula dari masa revolusi (1945-1949),
+      masuk ke krisis 1997, lalu kejatuhan Mei 1998.
+    - >
+      ICMI 1990 adalah momen penting — Soeharto (sebelum 1990 dianggap
+      "anti-Islam politik") tiba-tiba menggalang dukungan Islam (Habibie,
+      Imaduddin, Adi Sasono). Ini memicu konflik dengan TNI kubu Merah
+      Putih (Benny Moerdani, Try Sutrisno).
+    - >
+      Reformasi Mei 1998 — Trisakti (4 mahasiswa tewas), kerusuhan
+      (1.000+ tewas, 168 perempuan diperkosa), penculikan aktivis
+      (13 masih hilang), Soeharto mundur — semua terjadi dalam 9 hari.
+      Momen paling dramatik dalam sejarah Indonesia modern.
+    - >
+      Tokoh seperti Marsinah (24 tahun) yang dibunuh 1993 —
+      karakter idealis yang baik untuk drama. Tragedi buruh Indonesia
+      era Orde Baru.
+    - >
+      Komando Jihad (1970-an) — operasi intelijen yang "backfired" —
+      adalah kasus unik dalam drama kekuasaan. Ali Moertopo rekrut
+      Hispran dan Danu dari penjara untuk mengorganisasi veteran DI/TII,
+      tetapi mereka malah mengaktifkan kembali DI/TII.
+
+  catatan_akhir: >
+    Fase 10 ini adalah fase terakhir dari 10 fase drama Nusantara.
+    Era Orde Baru berakhir dengan Reformasi 1998 — yang membuka era
+    Reformasi (fase 11 jika diperlukan: Reformasi 1998-2014, fase 12:
+    era Jokowi 2014-2024, fase 13: era Prabowo 2024-). Audit ini
+    memperluas MD fase 10 dengan sub-bagian konflik politik internal
+    (Malari, Petisi 50, NKK/BK, Asas Tunggal, Tanjung Priok, ICMI),
+    pemberontakan & operasi militer (GAM, OPM, Komando Jihad,
+    Talangsari, Petrus, Operasi Seroja, PEPERA, Santa Cruz), hubungan
+    internasional (PBB 1966, ASEAN 1967, Malaysia 1966, APEC 1994,
+    IMF 1997, Boat people), kroni kapitalisme (Gang of Four), dan
+    runtuhnya Orde Baru (Krisis 1997, Trisakti, Kerusuhan Mei 1998,
+    Penculikan, Mundur 21 Mei 1998). Total 12 top-level keys.
