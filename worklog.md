@@ -813,3 +813,22 @@ Stage Summary:
 - Klaim spektakuler TERVERIFIKASI (bukan halusinasi): genosida Banda 15.000→1.000, Geger Pecinan 10.000 korban, Amangkurat I bunuh 5.000-6.000 ulama, Aceh 1629 19.000 prajurit tewas, dll.
 - Subagent TIDAK NGAWUR — justru sangat presisi dalam ekstraksi tokoh, tahun, lokasi, sumber primer, dan kutipan langsung
 - Rekomendasi: 1 koreksi kecil di Bab 6 (38 → 68 perken) + 2 catatan kaki opsional
+
+---
+Task ID: 13 (audit dangkal ringkasan-jilid-4 + tulis suplemen)
+Agent: Main Agent (Z.ai)
+Task: Audit ulang ringkasan-jilid-4 — user komplain masih dangkal, banyak info penting yang terlewat dari sumber primer
+
+Work Log:
+- Mapping struktur 10 bab sumber primer via script map_struktur_jilid4.py
+- Bandingkan dengan 83 "Temuan Kunci" di ringkasan
+- Identifikasi 24 sub-bab/tema yang TERLEWAT di ringkasan awal
+- Baca detail sub-bab terlewat (Kekuatan Militer Bab 2, Iha Bab 8, Pasca-Geger Bab 8, Denmark-Prancis Bab 10, Diaspora Makassar Jawa Bab 7)
+- Tulis suplemen ringkasan-jilid-4-suplemen.md (1 file utuh, tidak split karena ukuran sedang)
+
+Stage Summary:
+- File suplemen: ringkasan-jilid-4-suplemen.md
+- 24 sub-bab yang ditambahkan: Teknologi Pelayaran Portugis, Sistem Cartaz, Jaringan Malaka-Portugis, Spanyol di Tidore, Zaragoza 1529, Kekuatan Militer, Sistem Persenjataan (bedil-lilfa-lela), Hewan Perang (gajah-kuda Persia), Kontribusi Wilayah Taklukan, Kasus Khusus Aceh (Inong Balee), Penguatan Intelektualisme (Dayah-Pesantren-Rangkang), Transmisi Karya Keislaman, Kreativitas Pengetahuan, Kekuatan Maritim Belanda vs Eropa, Interaksi Banten-Malaka (lengkap), Jaringan Pesisir Papua (Hongi+Onin-Tidore), Zona Seram-Gorom, Diaspora Makassar di Jawa (Karaeng Galesong), Diaspora Blambangan-Banyuwangi, Perlawanan Iha 1632-1652, Perlawanan Pasca-Geger Pecinan (Sunan Kuning), Perusahaan Dagang Tandingan (Denmark-Prancis-Spanyol), Kebijakan Kolonial Pasca-VOC (Cultuurstelsel-Indische Staatsregeling)
+- Tokoh baru: Inong Balee (pasukan perempuan Aceh), Khe Panjang, Kapitan Sepanjang, Raden Mas Garendi (Sunan Kuning), Cakraningrat IV, Daendels, Raffles, Colbert, Dupleix
+- Klaim spektakuler tambahan: 5.000 meriam Aceh, 1.000 budak hitam Papua di Seram, tukar New York vs Run 1667, ~1 juta korban Cultuurstelsel
+- Sub-bab yang sebelumnya sepenuhnya terlewat: Iha 1632-1652, Sunan Kuning 1742, Denmark 1620, Dupleix 1742, Inong Balee
