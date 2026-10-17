@@ -869,3 +869,28 @@ Stage Summary:
   - Karaeng Bisei (Raja Gowa 1674-77)
 - Script extract_tokoh_jilid4.py persisten di scripts/
 - Total 3 file ringkasan Jilid 4: utama + suplemen 1 (sub-bab) + suplemen 2 (tokoh)
+
+---
+Task ID: 15 (audit ringkasan-jilid 1, 2, 3 + tulis suplemen gabungan)
+Agent: Main Agent (Z.ai)
+Task: Audit ringkasan-jilid-1, 2, 3 dengan metode yang sama dengan Jilid 4 — cari sub-bab terlewat + tokoh yang belum masuk
+
+Work Log:
+- Buat script audit_jilid123_struktur.py untuk mapping struktur 18 bab sumber primer (6+6+6 bab)
+- Total sumber primer: 763.258 kata (Jilid 1: 275K + Jilid 2: 279K + Jilid 3: 209K)
+- Total heading di ringkasan: 63+57+93 = 213 heading
+- Identifikasi sub-bab terlewat: ~80 sub-bab (paling banyak di Bab 3 Jilid 2)
+- Identifikasi tokoh tambahan: ~150 tokoh
+- Jilid 2: Bali Kuno SEPENUHNYA terlewat di ringkasan (Anak Wungsu, Sakalendukiritegana, dll.)
+- Jilid 2: Konsep kosmogoni Hindu (Dewaraja, Astabrata, Cakrawarti) terlewat
+- Jilid 3: Wali Songo kurang detail nama asli (Maulana Malik Ibrahim = Syekh Ibrahim Asmarakandi, dll.)
+- Jilid 3: Tokoh wali lain (Syekh Siti Jenar, Sunan Bayat, Ki Ageng Pengging) kurang detail
+- Tulis suplemen-gabungan (1 file untuk 3 jilid)
+
+Stage Summary:
+- File: ringkasan-jilid-1-2-3-suplemen.md
+- 80 sub-bab terlewat diidentifikasi
+- 150 tokoh tambahan diekstrak (paling banyak di Jilid 2: Mataram Kuno + Bali Kuno + Singhasari + Kadiri + Sriwijaya)
+- 30+ ahli paleoantropologi Jilid 1 (Dubois, von Koenigswald, Morwood, dll.)
+- Jilid 2 highlight: 18 raja Mataram Kuno lengkap (Sanjaya hingga Girindrawardhana) + 7 raja Bali Kuno + 9 raja Singhasari-Kadiri + 6 raja Sriwijaya-Melayu + 10 aksara Nusantara
+- Jilid 3 highlight: 9 Wali Songo dengan nama asli + 11 tokoh wali lain + 16 sultan Aceh + 10 sultan Ternate-Tidore-Gowa
