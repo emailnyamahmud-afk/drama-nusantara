@@ -1,2 +1,41 @@
-skills/
+# Sistem & OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Cache & temporary
+.cache/
+.tmp/
+*.log
+
+# Skill artifacts (internal)
+skills/_cache/
+skills/.cache/
+
+# Tool results (ephemeral)
+tool-results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
 node_modules/
+.next/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Personal access token (jangan pernah commit)
+.github-token
+*.pat
