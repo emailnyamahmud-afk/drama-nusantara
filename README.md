@@ -1,97 +1,162 @@
-# Riset Drama Nusantara — 10 Era
+# 🎬 Drama Nusantara — Repository Utama
 
-Dokumen riset komprehensif untuk produksi drama historis Nusantara lintas-zaman: dari Mataram Kuno (732 M) hingga Orde Baru (1998 M). Materi dipecah menjadi (1) dokumen MD naratif tunggal untuk penulis naskah, (2) 10 file YAML master per fase untuk database T2I prompt generation.
+Dokumen riset, naskah, dan produksi untuk drama historis Nusantara lintas-zaman: dari Mataram Kuno (732 M) hingga Orde Baru (1998 M).
 
-## Struktur Folder
+## 🗺️ Roadmap 4-Phase
 
 ```
-riset-backup/
-├── README.md                              ← file ini (navigasi)
-├── md/
-│   └── riset-drama-nusantara.md          (2325 baris, ~17.500 kata — narasi utama)
-├── yaml/
-│   ├── index.yaml                          (516 baris — pintu masuk ke 10 fase)
-│   ├── phase-1-mataram-kuno.yaml           (2173 baris — incl. 4 keys baru: predecessor_kingdoms, contemporaneous_kingdoms, inter_kingdom_relations, international_relations)
-│   ├── phase-2-singasari.yaml             (1224 baris)
-│   ├── phase-3-majapahit.yaml             (1147 baris)
-│   ├── phase-4-demak.yaml                  (1003 baris)
-│   ├── phase-5-pajang.yaml                 (539 baris)
-│   ├── phase-6-mataram-islam.yaml          (910 baris)
-│   ├── phase-7-kolonial.yaml               (1025 baris)
-│   ├── phase-8-kemerdekaan.yaml            (656 baris)
-│   ├── phase-9-orde-lama.yaml              (589 baris)
-│   └── phase-10-orde-baru.yaml             (1552 baris)
-└── worklog.md                              (638 baris — Task ID 1-3 audit history)
+Phase 1: Riset Sejarah          ✅ Selesai
+   ↓
+Phase 2: Naskah & Storyboard    ⏳ Pending
+   ↓
+Phase 3: LoRA Assets            ⏳ Pending (paralel dengan Phase 2)
+   ↓
+Phase 4: Produksi (T2I+TTS+I2V)  ⏳ Pending
 ```
 
-## Ringkasan 10 Era
+### 📚 Phase 1 — Riset Sejarah Nusantara (10 Era) ✅
 
-| # | Era | Periode | File YAML | Baris |
-|---|-----|---------|-----------|-------|
-| 1 | Mataram Kuno | 732-1016 M | phase-1-mataram-kuno.yaml | 2.173 |
-| 2 | Singasari | 1222-1292 M | phase-2-singasari.yaml | 1.224 |
-| 3 | Majapahit | 1293-1527 M | phase-3-majapahit.yaml | 1.147 |
-| 4 | Demak | 1475-1548 M | phase-4-demak.yaml | 1.003 |
-| 5 | Pajang | 1568-1587 M | phase-5-pajang.yaml | 539 |
-| 6 | Mataram Islam | 1587-1755 M | phase-6-mataram-islam.yaml | 910 |
-| 7 | Kolonial | 1602-1942 M | phase-7-kolonial.yaml | 1.025 |
-| 8 | Kemerdekaan | 1945-1949 M | phase-8-kemerdekaan.yaml | 656 |
-| 9 | Orde Lama | 1950-1965 M | phase-9-orde-lama.yaml | 589 |
-| 10 | Orde Baru | 1966-1998 M | phase-10-orde-baru.yaml | 1.552 |
-| **Total** | | **732 M – 1998 M (1.266 tahun)** | **10 file + index** | **~14.300** |
+**Status**: Selesai
+**Cakupan**: 732 M – 1998 M (1.266 tahun sejarah Nusantara)
+**Konten**: 13 file, ~14.300 baris, ~852 KB
 
-## Highlight Konten
+Lihat: [`phase-1-riset/`](phase-1-riset/README.md)
 
-### Fase 1 — Mataram Kuno (paling komprehensif)
-YAML phase 1 memiliki 14 top-level keys (terbanyak), termasuk:
-- `predecessor_kingdoms`: 6 kerajaan pra-Mataram (Kutai, Tarumanagara, Kalingga, Kanjuruhan, Sunda-Galuh, Sriwijaya awal)
-- `contemporaneous_kingdoms`: 6 kerajaan sezaman (Sriwijaya, Melayu, Bali Warmadewa, Chola, Champa, Khmer)
-- `inter_kingdom_relations`: 10 hubungan terdokumentasi (diplomasi, perang, pernikahan, agama)
-- `international_relations`: 6 hub. internasional (Cina Tang/Song, India Pallava-Pala, Chola, Champa, Khmer)
+Ringkasan 10 era:
+| # | Era | Periode |
+|---|-----|---------|
+| 1 | Mataram Kuno | 732-1016 M |
+| 2 | Singasari | 1222-1292 M |
+| 3 | Majapahit | 1293-1527 M |
+| 4 | Demak | 1475-1548 M |
+| 5 | Pajang | 1568-1587 M |
+| 6 | Mataram Islam | 1587-1755 M |
+| 7 | Kolonial | 1602-1942 M |
+| 8 | Kemerdekaan | 1945-1949 M |
+| 9 | Orde Lama | 1950-1965 M |
+| 10 | Orde Baru | 1966-1998 M |
 
-### Fase 7 — Kolonial
-YAML phase 7 mencakup 30 pemberontakan daerah dari 7 wilayah Nusantara (Jawa, Sumatera, Kalimantan, Sulawesi, Bali-NTB, Maluku, NTT) + rebellion_characters dengan 5 tokoh pemberontak daerah.
+### ✍️ Phase 2 — Naskah & Storyboard ⏳
 
-### Fase 8 — Kemerdekaan
-YAML phase 8 mencakup 8 tokoh Marxis (Sneevliet, Semaun, Tan Malaka, Musso, Alimin, Aidit, Lukman, Njoto) + marxist_timeline 1914-1965 (13 peristiwa).
+**Status**: Belum dimulai
+**Tujuan**: Mengubah riset Phase 1 menjadi ratusan ide drama Nusantara, masing-masing dengan naskah + storyboard.yaml siap untuk pipeline produksi.
 
-### Fase 9 — Orde Lama
-YAML phase 9 mencakup 8 pemberontakan daerah (DI/TII, PRRI/Permesta, RMS, Madiun) + 5 kategori hubungan internasional (KAA 1955, Trikora, Dwikora, Non-Blok, bloc relations) + detail G30S 1965.
+Lihat: [`phase-2-naskah-storyboard/`](phase-2-naskah-storyboard/README.md)
 
-### Fase 10 — Orde Baru (paling kompleks)
-YAML phase 10 memiliki 13 top-level keys:
-- 6 konflik politik internal (Malari 1974, Petisi 50 1980, NKK/BK 1978, Asas Tunggal 1985, Tanjung Priok 1984, ICMI 1990)
-- 8 pemberontakan & operasi militer (GAM Aceh, OPM Papua, Komando Jihad, Talangsari 1989, Petrus 1983-85, Santa Cruz 1991, Operasi Seroja Timor-Timur 1975, PEPERA 1969)
-- 7 hubungan internasional (PBB 1966, ASEAN 1967, Malaysia 1966, Boat people Vietnam, APEC 1994, IMF 1997, Non-Blok)
-- crony_capitalism Gang of Four (Liem, Prajogo, Bob Hasan, Sudwikatmono) + 6 anggota keluarga Soeharto
-- fall_of_orde_baru (Krisis Moneter 1997, Penculikan Aktivis 1997-98, Trisakti 12 Mei 1998, Kerusuhan Mei 13-15, Soeharto Mundur 21 Mei 1998)
+**9 Drama Anchor (draft)**:
+1. Pralaya Mataram (1016 M) — Airlangga lari dari istana terbakar
+2. Ken Arok: Tirani & Karma (1222 M) — pengkhianatan suci
+3. Peristiwa Bubat (1357 M) — Gajah Mada vs Pajajaran
+4. Walisongo: Sembilan Cahaya (1475-1548 M) — Islamisasi Jawa lewat budaya
+5. Sultan Agung Serang Batavia (1628-1629 M) — heroisme tragis
+6. Pangeran Diponegoro (1825-1830 M) — perang sufi melawan Belanda
+7. Proklamasi (1945 M) — Soekarno-Hatta, harapan & revolusi
+8. G30S: Malam Panjang (1965 M) — penculikan 7 jenderal
+9. Reformasi: 9 Hari Mei (1998 M) — Trisakti → Soeharto mundur
 
-## Cara Pakai
+### 🎨 Phase 3 — LoRA Assets ⏳
 
-### Untuk Penulis Naskah
-Baca `md/riset-drama-nusantara.md` — dokumen naratif utama lintas 10 era.
+**Status**: Belum dimulai (paralel dengan Phase 2)
+**Tujuan**: Dataset LoRA untuk karakter, lokasi, dan wardrobe yang dibutuhkan drama-drama.
+
+Lihat: [`phase-3-lora-assets/`](phase-3-lora-assets/README.md)
+
+**Prioritas pertama**: 12 tokoh LoRA (Airlangga, Ken Arok, Ken Dedes, Gajah Mada, Hayam Wuruk, Raden Patah, Sunan Kalijaga, Sultan Agung, Diponegoro, Soekarno, Soeharto, Gus Dur) + 10 lokasi LoRA (Borobudur, Prambanan, Trowulan, Demak Mosque, Keraton Mataram, Yogyakarta 1945, Lubang Buaya, BCA Plaza, Trisakti, Istana Negara).
+
+### 🎬 Phase 4 — Produksi (T2I + TTS + I2V + Compose) ⏳
+
+**Status**: Belum dimulai
+**Tujuan**: Pipeline end-to-end mengubah storyboard.yaml menjadi video MP4 final.
+
+Lihat: [`phase-4-produksi/`](phase-4-produksi/README.md)
+
+**Pipeline**:
+```
+storyboard.yaml → [T2I] → images → [TTS] → voices → [I2V] → clips → [ffmpeg compose] → MP4
+```
+
+**Tools**: SDXL/Flux + LoRA (T2I), Edge TTS (voice), LTX-Video/CogVideoX/Kling AI (I2V), ffmpeg (compose).
+
+## 📁 Struktur Folder
+
+```
+drama-nusantara/                          ← repo GitHub
+├── README.md                              ← file ini
+├── .gitignore
+├── push-to-github.sh                      ← helper script untuk backup
+│
+├── phase-1-riset/                        ✅ SELESAI
+│   ├── README.md
+│   ├── md/
+│   │   └── riset-drama-nusantara.md      (2.325 baris)
+│   ├── yaml/
+│   │   ├── index.yaml                     (516 baris)
+│   │   ├── phase-1-mataram-kuno.yaml      (2.173 baris)
+│   │   ├── phase-2-singasari.yaml        (1.224 baris)
+│   │   ├── phase-3-majapahit.yaml        (1.147 baris)
+│   │   ├── phase-4-demak.yaml            (1.003 baris)
+│   │   ├── phase-5-pajang.yaml           (539 baris)
+│   │   ├── phase-6-mataram-islam.yaml    (910 baris)
+│   │   ├── phase-7-kolonial.yaml         (1.025 baris)
+│   │   ├── phase-8-kemerdekaan.yaml      (656 baris)
+│   │   ├── phase-9-orde-lama.yaml        (589 baris)
+│   │   └── phase-10-orde-baru.yaml        (1.552 baris)
+│   └── worklog.md                         (638 baris — Task ID 1-3)
+│
+├── phase-2-naskah-storyboard/            ⏳ PENDING
+│   └── README.md                          (struktur + 9 drama anchor draft)
+│
+├── phase-3-lora-assets/                  ⏳ PENDING
+│   └── README.md                          (struktur + 12 tokoh + 10 lokasi prioritas)
+│
+└── phase-4-produksi/                      ⏳ PENDING
+    └── README.md                          (pipeline T2I→TTS→I2V→compose)
+```
+
+## 🚀 Cara Pakai Repo Ini
+
+### Untuk Penulis Naskah / Skenario
+1. Baca [`phase-1-riset/md/riset-drama-nusantara.md`](phase-1-riset/md/riset-drama-nusantara.md) — narasi utama 10 era
+2. Pilih era + tokoh + peristiwa yang ingin diangkat jadi drama
+3. (Phase 2) Buat folder `phase-2-naskah-storyboard/drama-XX-nama/` dengan template
 
 ### Untuk Art Director
-Buka file YAML fase spesifik → lihat key `wardrobe` + `locations` + `production_notes`.
+1. Buka file YAML fase spesifik di [`phase-1-riset/yaml/`](phase-1-riset/yaml/)
+2. Lihat key `wardrobe` + `locations` + `production_notes`
 
-### Untuk AI Prompt Engineer
-Buka key `prompt_library` di file YAML fase target — historical moments + karakter potraits prompts siap pakai.
+### Untuk AI Prompt Engineer (T2I)
+1. Buka key `prompt_library` di file YAML fase target — historical moments + karakter potraits prompts siap pakai
+2. (Phase 3) Train LoRA dengan dataset karakter/lokasi spesifik
 
-### Untuk Sejarawan
-Lihat key `meta → sumber_primer` per fase. Cross-check dengan prasasti (fase 1-3), babad (fase 4-6), arsip VOC (fase 7), ANRI/Komnas HAM/KontraS (fase 8-10).
+### Untuk Sejarawan / Akademisi
+1. Telusuri key `meta → sumber_primer` per fase
+2. Cross-check dengan:
+   - **Era kuno (fase 1-3)**: prasasti, Nagarakretagama, Pararaton
+   - **Era Islam (fase 4-6)**: Babad Tanah Jawi, Hikayat, arsip VOC
+   - **Era kolonial (fase 7)**: arsip VOC Den Haag, Max Havelaar
+   - **Era modern (fase 8-10)**: ANRI, Komnas HAM, KontraS, CIA FOIA, IISG Amsterdam
 
-## Audit History
+## 🔐 Setup Backup ke GitHub
 
-Lihat `worklog.md` untuk detail Task ID 1-3. Audit lengkap (Task ID 1-20) dilakukan sebelum backup — beberapa task ID 4-20 tidak tercatat di worklog ini karena sandbox reset.
+PAT (Personal Access Token) disimpan permanen di:
+- `/home/z/.git-credentials` (git credential helper)
+- `/home/z/my-project/.config/.git-credentials` (backup)
 
-## Catatan
+Untuk push update:
+```bash
+cd /home/z/my-project/riset-backup
+bash push-to-github.sh "Pesan commit di sini"
+```
 
+## 📋 Audit History
+
+Worklog lengkap di [`phase-1-riset/worklog.md`](phase-1-riset/worklog.md) (Task ID 1-3 audit history).
+
+## 🌐 Info Repo
+
+- **URL**: https://github.com/emailnyamahmud-afk/drama-nusantara
+- **Visibility**: Public
+- **Branch**: `main`
 - **Bahasa**: Bahasa Indonesia
 - **Update terakhir**: 17 Oktober 2026
-- **Versi**: 1.0
-- **Total file**: 13 (1 MD + 11 YAML + 1 worklog)
-- **Total ukuran**: ~852 KB
-
----
-
-Backup ini dikirim ke GitHub dari sandbox Z.ai yang tidak permanen. Untuk pengembangan lebih lanjut, clone repo ini ke lingkungan lokal.
+- **Versi**: 1.1 (restrukturisasi 4-phase)

@@ -636,3 +636,56 @@ Stage Summary:
 - Tokoh baru: Tohjaya, Mahisa Wonga Teleng, Narasinghamurti, Jayakatwang, Raden Wijaya
 - Prasasti baru: Mula Malurung, Maribong, Kudadu
 - Total koreksi: 8 koreksi utama
+
+---
+Task ID: 21 (restrukturisasi 4-phase + push ke GitHub)
+Agent: Main Agent (Z.ai)
+Task: Restrukturisasi repo ke 4-phase roadmap + update dokumentasi + push GitHub
+
+Work Log:
+- Setup git credential helper permanen:
+  * /home/z/.git-credentials (default git helper)
+  * /home/z/my-project/.config/.git-credentials (backup)
+  * /home/z/my-project/.config/github-token.env (env file untuk script)
+  * chmod 600 untuk semua file credentials
+  * PAT: github_pat_11CCW2LPI06YjUOh2gzrqp... (scope: repo public)
+
+- Restrukturisasi folder ke 4-phase roadmap:
+  * phase-1-riset/ (existing content dipindahkan ke sini)
+    - md/riset-drama-nusantara.md
+    - yaml/ (11 file: index + 10 fase)
+    - worklog.md
+    - README.md (baru — penjelasan phase 1)
+  * phase-2-naskah-storyboard/ (baru — placeholder)
+    - README.md (struktur + 9 drama anchor draft + format storyboard.yaml)
+  * phase-3-lora-assets/ (baru — placeholder)
+    - README.md (struktur + 12 tokoh prioritas + 10 lokasi prioritas)
+  * phase-4-produksi/ (baru — placeholder)
+    - README.md (pipeline T2I → TTS → I2V → ffmpeg compose)
+
+- Update README.md utama:
+  * Roadmap 4-phase visual (✅ Selesai / ⏳ Pending)
+  * Struktur folder lengkap
+  * Cara pakai repo per peran
+  * Info setup backup GitHub (PAT, helper script)
+
+- Push ke GitHub:
+  * Repo: https://github.com/emailnyamahmud-afk/drama-nusantara
+  * Branch: main (public)
+  * Commit: restructure folder + 4 README baru
+  * PAT tidak ter-commit ke repo (disimpan terpisah di .config/)
+
+Konten yang Dipush:
+- 4 README baru (phase-1, phase-2, phase-3, phase-4)
+- 13 file existing (dipindahkan ke phase-1-riset/)
+- 1 file update (README.md utama dengan roadmap 4-phase)
+- 1 file helper (push-to-github.sh)
+- Total: 19 file, ~870 KB
+
+Stage Summary:
+- File MD: /home/z/my-project/riset-backup/phase-1-riset/md/riset-drama-nusantara.md (2.325 baris, ~17.500 kata)
+- File YAML: /home/z/my-project/riset-backup/phase-1-riset/yaml/ (11 file, ~14.300 baris)
+- File worklog: /home/z/my-project/riset-backup/phase-1-riset/worklog.md (sekarang ~700 baris setelah Task ID 21)
+- Repo GitHub: https://github.com/emailnyamahmud-afk/drama-nusantara
+- Status: ✅ 3 commit ter-push ke main branch
+- Roadmap: 4-phase plan siap (Phase 1 selesai, Phase 2-4 pending)
