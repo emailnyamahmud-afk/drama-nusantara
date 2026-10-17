@@ -88,11 +88,45 @@ Buka key `prompt_library` di file YAML fase target — historical moments + kara
 ### Untuk Sejarawan
 Lihat key `meta → sumber_primer` per fase. Cross-check dengan prasasti (fase 1-3), babad (fase 4-6), arsip VOC (fase 7), ANRI/Komnas HAM/KontraS (fase 8-10).
 
+## 📚 Sumber Primer Baru: 5 Jilid Sejarah Indonesia (Kemenbud RI 2025)
+
+Pada bulan Oktober 2026, riset diperkaya dengan **5 jilid buku resmi** terbitan Kementerian Kebudayaan Republik Indonesia (2025) — judul lengkap: *"Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"*.
+
+**Statistik**:
+- **Total**: 5 jilid, 78 bab, 5.204 halaman, **1.310.456 kata**
+- **Ukuran**: 9.8 MB (format markdown)
+- **Tersimpan di**: [`sumber-primer/kemenbud-2025/`](sumber-primer/kemenbud-2025/)
+- **Index mapping**: [`sumber-primer/kemenbud-2025-index.yaml`](sumber-primer/kemenbud-2025-index.yaml)
+
+**Cakupan periode per jilid**:
+
+| Jilid | Subjudul | Halaman | Kata | Periode | Fase Drama yang Direlevani |
+|-------|----------|---------|------|---------|---------------------------|
+| 1 | Akar Peradaban Nusantara | 1.252 | 319.637 | Prasejarah – 300 M | Fase 1 (latar akar) |
+| 2 | Perjumpaan Budaya dengan India, Tiongkok, Persia | 1.260 | 308.215 | Abad 1 SM – 16 M | **Fase 1, 2, 3** (Mataram Kuno, Singasari, Majapahit) |
+| 3 | Timur Tengah | 902 | 235.379 | Abad 7 – 16 M | **Fase 4, 5, 6** (Demak, Pajang, Mataram Islam) |
+| 4 | Interaksi Awal dengan Barat | 908 | 232.076 | Abad 16 – awal 19 M | **Fase 6, 7** (Mataram akhir, Kolonial awal) |
+| 5 | Negara Kolonial 1800-1900 | 882 | 215.149 | 1800-1900 M | **Fase 7** (Kolonial abad 19 — Diponegoro, Cultuurstelsel) |
+
+**Bab paling penting per drama** (lihat `prioritas_baca` di index YAML untuk detail):
+
+| Drama | Bab Wajib Baca |
+|-------|---------------|
+| Fase 1 (Mataram Kuno) | Jilid 2 Bab 3, 5, 6 — Dinamika Politik + Puncak Hindu-Buddha + Kemunduran |
+| Fase 2 (Singasari) | Jilid 2 Bab 3, 5 — Ken Arok, Kertanegara |
+| Fase 3 (Majapahit) | Jilid 2 Bab 5 (terpanjang, 89.372 kata) — Puncak Majapahit |
+| Fase 4 (Demak) | **Jilid 3 Bab 7 — Wali Songo Mengislamkan Jawa (BAB WAJIB)** |
+| Fase 5 (Pajang) | Jilid 3 Bab 5, 6 — Transisi Demak-Pajang-Mataram |
+| Fase 6 (Mataram Islam) | Jilid 4 Bab 2 — Sultan Agung vs VOC 1628-1629 |
+| Fase 7 (Kolonial) | Jilid 4 Bab 6, 8 (VOC, pembantaian Banda, resistensi); Jilid 5 Bab 6 (Diponegoro, Padri, Aceh) |
+
+**Catatan coverage**: 5 jilid Kemenbud 2025 hanya mencakup **hingga tahun 1900 M**. Untuk fase 8 (Kemerdekaan), 9 (Orde Lama), 10 (Orde Baru), gunakan sumber primer lain yang sudah ada di file YAML fase masing-masing (ANRI, Komnas HAM, KontraS, CIA FOIA, IISG Amsterdam, dll).
+
 ## Audit History
 
-Worklog lengkap di `worklog.md` (Task ID 1-3). Audit lengkap dilakukan sebelum backup GitHub.
+Worklog lengkap di `worklog.md` (Task ID 1-3 + 21). Audit lengkap dilakukan sebelum backup GitHub.
 
-## Sumber Primer yang Digunakan
+## Sumber Primer Lainnya (Selain Kemenbud 2025)
 
 ### Era Kuno (fase 1-3)
 - Prasasti: Canggal (732 M), Mantyasih (907 M), Wanua Tengah III (908 M), Nalanda (860 M), Siwagrha (856 M), Pucangan (1041 M), Yupa (abad 4-5), Tugu (abad 5), Dinoyo (760 M)

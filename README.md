@@ -16,11 +16,20 @@ Phase 4: Produksi (T2I+TTS+I2V)  ⏳ Pending
 
 ### 📚 Phase 1 — Riset Sejarah Nusantara (10 Era) ✅
 
-**Status**: Selesai
+**Status**: Selesai (diperkaya dengan 5 jilid buku Kemenbud RI 2025)
 **Cakupan**: 732 M – 1998 M (1.266 tahun sejarah Nusantara)
-**Konten**: 13 file, ~14.300 baris, ~852 KB
+**Konten utama**: 13 file, ~14.300 baris, ~852 KB
+**Sumber primer Kemenbud 2025**: 5 jilid, 78 bab, 5.204 halaman, **1.310.456 kata** (9.8 MB markdown)
 
 Lihat: [`phase-1-riset/`](phase-1-riset/README.md)
+
+**Sumber primer Kemenbud 2025** (folder [`phase-1-riset/sumber-primer/kemenbud-2025/`](phase-1-riset/sumber-primer/kemenbud-2025/)):
+- Jilid 1: Akar Peradaban Nusantara (prasejarah–300 M)
+- Jilid 2: Perjumpaan Budaya India, Tiongkok, Persia (abad 1 SM–16 M) — untuk **Fase 1-3 drama**
+- Jilid 3: Timur Tengah (abad 7–16 M) — untuk **Fase 4-6 drama** (Bab 7 Wali Songo wajib baca)
+- Jilid 4: Interaksi Awal dengan Barat (abad 16–awal 19 M) — untuk **Fase 6-7 drama** (Sultan Agung vs VOC)
+- Jilid 5: Negara Kolonial 1800-1900 — untuk **Fase 7 drama** (Diponegoro, Cultuurstelsel)
+- Index mapping: [`sumber-primer/kemenbud-2025-index.yaml`](phase-1-riset/sumber-primer/kemenbud-2025-index.yaml) — memetakan bab buku ke 10 fase drama
 
 Ringkasan 10 era:
 | # | Era | Periode |
