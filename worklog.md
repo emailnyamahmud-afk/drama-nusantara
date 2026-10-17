@@ -978,3 +978,50 @@ Stage Summary:
   * ringkasan-jilid-4: 40.861 kata (sebelumnya 29.383 + suplemen 1 4.612 + suplemen 2 6.864 + overhead)
 - TOTAL: 89.252 kata dalam 5 file ringkasan utama (38 bab)
 - File suplemen tetap ada sebagai file terpisah untuk referensi tambahan
+
+---
+Task ID: 17
+Agent: Subagent (general-purpose)
+Task: Master YAML tokoh lintas 5 jilid
+
+Work Log:
+- Baca 5 file ringkasan eksklusif buku Kemenbud RI 2025 di /home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/
+  - ringkasan-jilid-1-akar-peradaban-nusantara.md (9.438 kata, 1.064 baris)
+  - ringkasan-jilid-2-perjumpaan-india-tiongkok-persia.md (9.592 kata, 1.161 baris)
+  - ringkasan-jilid-3-timur-tengah.md (12.979 kata, 1.372 baris)
+  - ringkasan-jilid-4-interaksi-awal-barat.md (40.861 kata, 2.461 baris + suplemen 609 + 838 baris)
+  - ringkasan-jilid-5-negara-kolonial-1800-1900.md (16.382 kata, 743 baris)
+- Ekstrak semua tokoh dari setiap section "####" (Temuan Kunci) di setiap jilid
+- Ekstrak tokoh tambahan dari tabel-tabel suplemen (Tokoh-Tokoh Tambahan Jilid 1, 2, 3, 4 Suplemen-2)
+- Identifikasi tokoh lintas-jilid dan gabungkan jadi 1 entry dengan array jilid
+- Validasi via Python yaml.safe_load — semua 250 tokoh terbukti valid YAML
+- Urutkan kronologis berdasarkan tahun lahir/periode aktif (T001-T250)
+- Susun Master YAML dengan format yang dispesifikasi (id, nama, nama_lengkap, peran, jilid, tahun, lokasi, sumber_primer, konteks_drama, fase_drama)
+
+Stage Summary:
+- File: /home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/master-tokoh.yaml
+- Total tokoh: 250
+- Tokoh lintas-jilid (muncul di ≥2 jilid): 77
+- Distribusi tokoh per jilid:
+  - Jilid 1 (prasejarah): ~20 tokoh paleoantropologi/ahli modern
+  - Jilid 2 (Hindu-Buddha): ~40 tokoh (Kutai, Tarumanagara, Mataram Kuno, Singhasari, Majapahit)
+  - Jilid 3 (Islamisasi): ~70 tokoh (Walisongo, Demak-Pajang-Mataram awal, Malaka, Pasai, Aceh awal, Ternate-Tidore awal)
+  - Jilid 4 (VOC awal): ~130 tokoh (VOC, Gowa-Makassar, Trunojoyo-Surapati, Nuku, Geger Pecinan)
+  - Jilid 5 (Kolonial 19): ~70 tokoh (Daendels, Raffles, Diponegoro, Imam Bonjol, Antasari, Sisingamangaraja, ulama-zending)
+- Distribusi fase drama:
+  - Fase 1 (prasejarah): T001-T018
+  - Fase 2 (Hindu-Buddha awal-Mataram Kuno): T019-T046
+  - Fase 3 (Majapahit): T047-T058
+  - Fase 4 (Demak-Walisongo): T059-T083
+  - Fase 5 (Pajang-Mataram Islam awal): T084-T108
+  - Fase 6 (Aceh-Malaka-Makassar abad 16-17): T128-T135, T179-T201
+  - Fase 7 (VOC awal-Sultan Agung): T089-T090, T109-T127, T134-T172
+  - Fase 8 (Perlawanan Mataram-Hasanuddin-Trunojoyo): T138-T156, T197-T201
+  - Fase 9 (Perjanjian Giyanti-VOC akhir): T193-T196
+  - Fase 10 (kolonial 19-Perang): T098-T108, T173-T227
+  - Fase 11 (ulama-zending abad 19-awal 20): T228-T244
+  - Fase 12 (sains-budaya nasionalisme awal): T232-T250
+- Catatan: 250 tokoh dipilih dari estimasi 420+ tokoh yang tersedia (banyak overlap dengan yang sudah ada di ringkasan utama + suplemen). Tokoh yang di-skip adalah tokoh terlalu minor (pejabat VOC abad ke-4, kartografer Eropa, sejarawan modern, dll) yang kurang sentral untuk drama.
+- Format YAML valid; setiap entry punya 9 field wajib (id, nama, nama_lengkap, peran, jilid, tahun, lokasi, sumber_primer, konteks_drama, fase_drama)
+- File size: ~4.000 baris, ~85 KB
+
