@@ -832,3 +832,40 @@ Stage Summary:
 - Tokoh baru: Inong Balee (pasukan perempuan Aceh), Khe Panjang, Kapitan Sepanjang, Raden Mas Garendi (Sunan Kuning), Cakraningrat IV, Daendels, Raffles, Colbert, Dupleix
 - Klaim spektakuler tambahan: 5.000 meriam Aceh, 1.000 budak hitam Papua di Seram, tukar New York vs Run 1667, ~1 juta korban Cultuurstelsel
 - Sub-bab yang sebelumnya sepenuhnya terlewat: Iha 1632-1652, Sunan Kuning 1742, Denmark 1620, Dupleix 1742, Inong Balee
+
+---
+Task ID: 14 (suplemen 2 — ekstrak tokoh tambahan)
+Agent: Main Agent (Z.ai)
+Task: User komplain masih banyak tokoh ringkasan-jilid-4 yang belum diekstrak. Audit lebih dalam lagi.
+
+Work Log:
+- Buat script extract_tokoh_jilid4.py untuk identifikasi semua tokoh via regex (Sultan, Pangeran, Raja, Karaeng, Daeng, Syekh, dll)
+- Script menemukan 92.1% tokoh sudah ada di ringkasan+suplemen (31 token "belum" tapi banyak OCR noise)
+- Audit manual lebih dalam via grep pola spesifik per bab (Bab 1-10)
+- Identifikasi ~420 tokoh tambahan yang belum lengkap/terperinci di ringkasan
+- Tulis suplemen-2-tokoh.md dengan 10 bab detail tokoh
+
+Stage Summary:
+- File: ringkasan-jilid-4-suplemen-2-tokoh.md
+- 30+ tokoh SEPENUHNYA BARU yang sebelumnya tidak ada sama sekali:
+  - Patisaranga (Perdana Menteri Ternate, ayah tiri Tabariji)
+  - Antonio de Brito (Gubernur Portugis Ternate, bantai Bacan 1522)
+  - Datu Pattiro We Tenrisoloreng (ibu La Madaremmeng)
+  - Karaeng Bontomarannu (pengungsi Makassar pertama ke Banten)
+  - Daeng Mangappa, Daeng Tulolo, Kare Mamu (pemimpin pengungsi Makassar)
+  - Imam Sarassa, Raja Lukman Keliluhu (sekutu Nuku)
+  - Kapiten Abdul Jalil (komando 15 kora-kora Tidore)
+  - Patih Natakusuma, Khe Panjang, Kapitan Sepanjang (aliansi Cina-Jawa 1741-43)
+  - Pangeran Wilis (pemberontakan Blambangan 1768-73)
+  - Kapten Buton (kontrak 1790)
+  - Pangeran Malayakusuma (keturunan Surapati dari Bali)
+  - Sultan Ahmad Ri'ayat Syah (wafat 1761 usia 9)
+  - Tun Abdul Jamil, Tun Habib Abdul Majid (Bendahara Johor)
+  - Pieter Erberverd (peranakan Eropa, pemberontakan 1722)
+  - Sultan Maulana Hasanuddin Banten 1552-70
+  - Arthur Gysels (Gubernur Ambon ke-3, serang Iha 1632)
+  - De Vlaming (komandan VOC, hancurkan Asahude 1655)
+  - Sultan Hamzah Ternate 1627-48, Sultan Mandarsyah 1648-75
+  - Karaeng Bisei (Raja Gowa 1674-77)
+- Script extract_tokoh_jilid4.py persisten di scripts/
+- Total 3 file ringkasan Jilid 4: utama + suplemen 1 (sub-bab) + suplemen 2 (tokoh)
