@@ -1,0 +1,602 @@
+     1→     1→---
+     2→     2→doc_id: si-j4-12-bab-7
+     3→     3→title: 'Bab VII — Diaspora Nusantara: Migrasi dan Perjumpaan Etnik dalam Sejarah Indonesia'
+     4→     4→source: Sejarah Indonesia_ Dinamika Kebangsaan dalam Arus Global, Jilid IV - Interaksi
+     5→     5→  Awal dengan Barat_ Kompetisi dan Aliansi - Pustaka Budaya.pdf
+     6→     6→conversion_credit: Akhmad Mahmud dan Asisten AI GLM 5.2 — Yayasan Jaya Sanga Nusantara
+     7→     7→jilid: 4
+     8→     8→jilid_title: 'Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global'
+     9→     9→jilid_subtitle: 'Jilid IV — Interaksi Awal dengan Barat: Kompetisi dan Aliansi'
+    10→    10→chapter_type: bab
+    11→    11→slug: 12-bab-7
+    12→    12→source_pages:
+    13→    13→- 583
+    14→    14→- 682
+    15→    15→cetak_pages:
+    16→    16→- 457
+    17→    17→- 522
+    18→    18→total_pages: 908
+    19→    19→publisher: Kementerian Kebudayaan Republik Indonesia
+    20→    20→published_year: 2025
+    21→    21→official_url: https://pustakabudaya.id
+    22→    22→converted_at: '2026-09-04T02:02:21.586887+07:00'
+    23→    23→converter: pymupdf4llm
+    24→    24→converter_version: 1.28.2
+    25→    25→ocr: true
+    26→    26→ocr_lang:
+    27→    27→- ind
+    28→    28→- eng
+    29→    29→review_status: heading-normalized
+    30→    30→chapter_number: 7
+    31→    31→chapter_label: BAB VII
+    32→    32→note: 'BAB VII: Diaspora Nusantara - Migrasi dan Perjumpaan Etnik'
+    33→    33→phase1_applied_at: '2026-09-04T08:41:36.551143+07:00'
+    34→    34→physical_launch_date: 2025-12-14
+    35→    35→ebook_release_date: 2026-08-31
+    36→    36→ebook_release_year: 2026
+    37→    37→phase1_5_applied_at: '2026-09-04T08:41:53.315895+07:00'
+    38→    38→phase2_applied_at: '2026-09-04T08:41:37.148421+07:00'
+    39→    39→phase3_applied_at: '2026-09-04T08:41:37.293795+07:00'
+    40→    40→phase4_5_applied_at: '2026-09-04T08:41:37.468652+07:00'
+    41→    41→phase5_applied_at: '2026-09-04T08:41:38.360640+07:00'
+    42→    42→heading_normalization_at: '2026-09-04T08:50:47.231481+07:00'
+    43→    43→typo_fix_applied_at: '2026-09-04T09:10:36.434632+07:00'
+    44→    44→ontology:
+    45→    45→  era:
+    46→    46→  - hindu-buddha
+    47→    47→  - islam
+    48→    48→  - kolonial-awal
+    49→    49→  region:
+    50→    50→  - nusantara
+    51→    51→  - jawa
+    52→    52→  - sumatra
+    53→    53→  - bali
+    54→    54→  - kalimantan
+    55→    55→  topics:
+    56→    56→  - lingkungan
+    57→    57→  - manusia
+    58→    58→  - teknologi
+    59→    59→  - religi
+    60→    60→  - seni
+    61→    61→  keywords:
+    62→    62→  - wawasan nusantara
+    63→    63→  - syahbandar
+    64→    64→  - majapahit
+    65→    65→  - voc
+    66→    66→  - portugis
+    67→    67→  - rempah
+    68→    68→  entities:
+    69→    69→    persons:
+    70→    70→    - Giri
+    71→    71→    - Nuku
+    72→    72→    - Arung Palakka
+    73→    73→    - Trunojoyo
+    74→    74→    - Iskandar Muda
+    75→    75→    - Mahmud
+    76→    76→    - Yusuf
+    77→    77→    - Gajah Mada
+    78→    78→    - Haji
+    79→    79→    - Gowa
+    80→    80→    - Deli
+    81→    81→    - Hasanuddin
+    82→    82→    places: []
+    83→    83→    organizations: []
+    84→    84→    sources:
+    85→    85→    - Aceh
+    86→    86→    - Bali
+    87→    87→    - Raja
+    88→    88→    - Amir Hamzah
+    89→    89→    - Baru
+    90→    90→    - Poh
+    91→    91→    - Indonesia
+    92→    92→    - Pandan
+    93→    93→    - Tumbu
+    94→    94→    - Kubu    events: []
+    95→    95→    - ev018
+    96→    96→---
+    97→    97→BAB VII
+    98→    98→
+    99→    99→# DIASPORA NUSANTARA: MIGRASI DAN PERJUMPAAN ETNIK DALAM SEJARAH INDONESIA
+   100→   100→
+   101→   101→## PENGANTAR
+   102→   102→
+   103→   103→Seiring minimnya kajian tentang diaspora di Indonesia, maka diskusi terkait makna dan pengertian istilah diaspora juga tidak berkembang. Hal ini berbeda dengan migrasi dan kisah perjalanan manusia yang telah menjadi tema penting dalam historiografi Indonesia. Pertanyaan penting yang perlu diangkat adalah, apakah istilah diaspora cocok untuk menjelaskan dinamika sosialkependudukan dalam sejarah Indonesia?
+   104→   104→
+   105→   105→Mengacu pada definisi oleh beberapa sarjana, istilah diaspora digunakan merujuk pada kondisi keterpaksaan dalam perpindahan (displacement) umat manusia, karena kekerasan atau di bawah ancaman atau kematian, sehingga mengakibatkan mereka hidup tercerai berai Nah, dengan definisi ini, jelas konsep diaspora tidak seluruhnya sesuai untuk konteks pengalaman Indonesia. Istilah “merantau” bagi orang Minangkabau, misalnya, lebih tepat dimaknai sebagai migrasi, di mana kepindahan terjadi karena didorong kondisi alam yang tidak memadai di daerah asal seraya berharap memperoleh yang lebih baik di daerah tujuan.’
+   106→   106→Dalam kerangka ini pula, keberadaan orang Bugis-Makassar di dunia Melayu tidak bisa dijelaskan dalam konsep diaspora di atas Historiografi Melayu abad ke-19, Tuhfat al-Nafis karangan Raja Ali Haji, menulis perjalanan mereka sebagai “pergi mengembara dahulu melihat tamasya negeri-negeri orang” Dan, pengembaraan Bugis di barat Nusantara telah berhasil membawa mereka unggul dalam dunia perdagangan dan militer sekaligus, yang kemudian menyediakan jalan lebar untuk memiliki kekuasaan politik di RiauJohor.’ Hal ini bermakna bahwa motivasi individual dan kolektif untuk mengadu nasib guna memperoleh kehidupan lebih baik tampak mendominasi pengembaraan dan kepindahan kelompok etnis di Indonesia. Jika pun ada, ancaman kematian, hal itu menjadi kasus khusus di Banda, sebagaimana akan dijelaskan nanti.
+   107→   107→
+   108→   108→Dengan demikian, penggunaan istilah diaspora dalam konteks Indonesia bermakna lebih sebagai penyebaran penduduk yang melahirkan proses perjumpaan dan interaksi sosial antar-etnis dan pada gilirannya pembentukan masyarakat baru. Jika demikian, menetapnya orang-orang di suatu daerah baru menjadi satu ciri utama dari diaspora di Indonesia. Hal tersebut bisa berlaku misalnya untuk mantan anggota pasukan dalam sebuah ekspedisi militer, ulama penyebar Islam, kaum pedagang-penjelajah, dan juga budak yang diperjual-belikan. Mereka semua menjadi agen utama dalam proses perpindahan masyarakat Indonesia yang membawa mereka hidup di negeri-negeri baru yang jauh dari tempat asal mereka.
+   109→   109→
+   110→   110→Suku Minangkabau (Yogyakarta: Gadjah Mada University Press, 1979).
+   111→   111→## A. NUSANTARA, KISAH ORANG DALAM PERJALANAN
+   112→   112→
+   113→   113→Suatu hal yang perlu diterangkan terlebih dahulu adalah tentang pengertian “Nusantara” dan “Indonesia”. Dalam pembicaraan, kedua konsep itu sering dipertukarkan dengan maksud memberi arti yang sama. Memang tidak sama sekalikeliru, tetapi terdapat perbedaan dalam kenyataan. Nusantara istilah awal untuk pengertian pulau-pulau selain “Jawa” dan meliputi wilayah tidak hanya Indonesia sekarang, tetapi juga Semenanjung Malaya. Adalah Ki Hajar Dewantara di dalam masa pergerakan yang memaknai Nusantara sebagai keseluruhan pulau-pulau yang merupakan wilayah negara Republik Indonesia sekarang. Pembentukan Indonesia sebagai negara-bangsa dengan kesatuan wilayah kedaulatan yang merdeka memperlihatkan ‘benang merah’ sejarah yang telah sangat lama. Faktor geografi kepulauan dengan karakter budaya kebaharian memungkinkan terciptanya keterhubungan antarpulau dalam gerak sejarah.
+   114→   114→
+   115→   115→Setelah melalui perjuangan diplomasi panjang, wilayah kedaulatan Indonesia akhirnya diakui United Nations Convention of Law on the Sea (UNCLOS) pada 1982, sebagai negara kepulauan (archepelagic state) berwawasan Nusantara. Narasi yang ditampilkan ini bukan hanya kisah tentang orang besar dalam ranah politik, tapi juga begitu pentingnya untuk mengamati kisah diaspora yang membentuk Nusantara. Mengamati Indonesia dalam konteks iniadalah mengenai kisah orang dalam perjalanan. Mereka
+   116→   116→ada yang hanya singgah seperti untuk kepentingan perdagangan, atau perjalanan ulama penyebar agama (Islam), atau mereka yang kemudian menetap di pulau-pulau yang tersebar di Nusantara. Melalui pelayaran di teluk, selat, atau laut, terhubungkanlah pulau-pulau menjadi suatu jaringan maritim yang luas. Dilihat dari fakta geografis, Indonesia atau Nusantara merupakan wilayah terluas di Asia Tenggara, yang dahulu dikenal sebagai “Negeri di bawah angin” sejatinya telah lama berperan dalam perhubungan antara dunia Timur dan Barat. Berada pada silang bahari dari Cina ke India dan ke wilayah Persia dan Arab, Nusantara menjadi ruang terbuka dalam lintas budaya dan perjumpaan antarbangsa. Munculnya pelabuhanpelabuhan membentuk jaringan maritim semakin intensif dan meluas. Kerajaan Malaka yang memiliki pelabuhan transit terbesar menjadi penghubung antara dunia Timur dan Barat.
+   117→   117→
+   118→   118→Nusantara berasal dari bahasa Jawa Kuna terdiri atas “nusa” (Pulau Jawa) dan di “antara” pulau-pulau lain. Pada awalnya konsep itu merupakan politik ekspansi Kertanagara, Raja Singasari, untuk memperluas kekuasaannya bukan hanya Jawa. Tindakan Kertanagara diarahkan untuk menghadapi ekspansi Khubilai Khan dengan strategi mengadakan hubungan dengan Campa.° Kemudian dilanjutkan oleh Patih Gadjah Mada dalam upaya memperluas kekuasaan Majapahit. Wilayah bagian barat yang menjadi pengaruh kekuasaannya sampai di Semenanjung Malaya, bagian tengah yaitu Brunai, Mindanau atau sekarang Filipina bagian selatan dan ke timur Fakfak, dulu disebut Onin.
+   119→   119→
+   120→   120→Di dalam Negarakartagama karya Prapanca (1365), sumber tertulis pertama dalam historiografi Indonesia, tergambarkan keluasan wilayah kekuasaan Majapahit dan pengaruhnya di Nusantara. Dalam periode kurang lebih tiga abad tergambar hubungan antarpulau melalui pelayaran dan perdagangan. Dalam
+   121→   121→
+   122→   122→Suatu gejala umum kehidupan manusia di muka bumi adalah perpindahan penduduk dari daerah asal ke tempat baru. Ketidakcukupan kebutuhan hidup di daerah asal merupakan pendorong terjadinya perpindahan penduduk ke daerah lain. Selain itu, migrasi terjadi karena daerah tujuan lebih menjanjikan kehidupan yang lebih baik. Faktor lain yang juga menjadi sebab migrasi adalah terjadinya bencana alam atau konflik sosial dan perang yang memaksa mereka meninggalkan kampung halamannya. Suatu contoh faktor bencana alam berdampak pada diaspora terjadi di Kepulauan Laut Sawu Nusa Tenggara Timur. Dari tradisi lokal dikisahkan tentang orang terdampar dari pulau yang tenggelam. Adalah Keroko Puken, sebuah pulau yang pernah ada di antara Pulau Lembata dan Pulau Pantar. Penduduk pulau itu bersama dengan kelompok Demong, orang Cina Jawa yang berasal dari arah barat, dalam perkembangannya membentuk kerajaan Larantuka.’
+   123→   123→
+   124→   124→- Persebaran penduduk secara umum di Nusantara banyak
+   125→   125→
+   126→   126→- ditemui dalam kisah-kisah orang dalam perjalanan. Keterhubungan antarpulau dengan aktivitas pelayaran menjadi gejalaumum apakah untuk tujuan perdagangan atau pertukaran barang kebutuhan hidup atau keperluan lain. Penduduk yang berdiam di pedalaman di suatu pulau sekalipun, perhubungan pun terjadi dengan dunia luar melalui peran sungai yang mengalir ke laut. Justru melalui muaramuara sungai itulah muncul pusat-pusat pertumbuhan ekonomi dan politik dengan berbagai ukuran. Di sinilah bandar atau pelabuhan yang menjadi sarana konektivitas dengan pelabuhan lain sehingga membentuk jaringan maritim yang luas.
+   127→   127→
+   128→   128→Setidaknya sejak awal milenium, Nusantara atau Asia Tenggara telah berperan besar dalam jalur pelayaran yang menghubungkan dunia Timur dan Barat. Berada dalam lintas dua samudera dan du rs A. B. Lapian, “Sejarah Nusantara Sejarah Bahari,” Fakultas Sastra Universitas Indonesia, 4 Maret 1992, 19, Pidato Pengukuhan Guru Besar.
+   129→   129→benua merupakan faktor utama bagi terjadinya mobilitas manusia. Hal ini ditopang dengan kemampuan memproduksi beragam perahu dan navigasi memudahkan penduduk Nusantara berlayar dari pulau ke pulau. Migrasi atau diaspora sesungguhnya merupakan gejala biasa atau bahkan merupakan hal yang wajar. Dorongan keluar dan daya tarik suatu tempat bukan satu-satunya faktor perpindahan penduduk. Peristiwa konflik sosial atau peperangan sering menjadi faktor begitu menentukan perpindahan manusia sebagai upaya penyelamatan diri.
+   130→   130→
+   131→   131→Pada masa Majapahit lebih banyak diketahui toponimi atau nama tempat yang menunjukkan luasnya pengetahuan geografi sekaligus menggambarkan jaringan maritim yang begitu luas. Kerajaan bercirikan agraris dan maritim berpusat di Jawa Timur ini berpengaruh dalam menguasai kepulauan Nusantara meski umumnya tidak secara langsung. Melalui jaringan maritim yang menjangkau sekian banyak pulau memudahkan berlangsungnya pelayaran dan pergerakan orang di Nusantara. Dalam banyak tuturan lisan di kepulauan, kisah tentang kebesaran Majapahit mengambil porsi boleh dikatakan terbesar. Di Sanggau, dalam kegiatan lawatan sejarah pada tahun 2004, dalam koleksi museum kecil di sana kami melihat salah satu benda diyakini sebagai “gong Majapahit” Di Buton, sampai sekarang orang masih melihat tempat puluhan orang dari pasukan Gajah Mada yang diyakini dimakamkan di sebuah bukit kecil di Batauga. Bahkan sebuah kelurahan di sana diberi nama “Majapahit”.
+   132→   132→
+   133→   133→Dalam kaitan itu, tradisi lisan di Pulau Flores mengisahkan bahwa penduduk Lamalera menganggap nenek moyang mereka berasal dari Luwuk Sulawesi Selatan. Dalam syair asa-usu diaspora pertama mereka ke Lamalera terjadi pada masa kejayaan Majapahit di bawah
+   134→   134→### pemerintahan Raja Hayam Wuruk. Penggalan syair itu mengisahkan diaspora dari Sulawesi Selatan, seperti terungkap di bawah ini.’
+   135→   135→
+   136→   136→|Feffa belaka BapaHayam WurukDemi kehendak Bapak Raja Hayam
+   137→   137→Wuruk|
+   138→   138→|---|---|
+   139→   139→|Para-para peka lefuklau JuwukTerpaksa kutinggalkan desaku di Luwuk
+   140→   140→sana|
+   141→   141→|Fenggibaata GajahMada laliJawaAtas perintahnya melalui Patih Gajah
+   142→   142→Mada dari Jawa|
+   143→   143→|hida-hidahiangka tana /Jau BeruKulepaskan humaku yang makmur
+   144→   144→Tanah Beru|
+   145→   145→|Geri tena, bua-bualajaKutumpangi perahu lalu turut berlayar|
+   146→   146→|Kai lullu laja teti SeraLalu menurunkan layar di pulau Seram|
+   147→   147→|Gafilefa HalmaheraPergi mengarungi laut Halmahera|
+   148→   148→|KaiKelongka tetiGoraAkhirnya melabuhkanjangkar di pulau
+   149→   149→Gorom|
+   150→   150→|Geritena Narang Tena SeraPerahu Seram ku singgahi pulauAmbon
+   151→   151→dan Pulau Moa|
+   152→   152→|Sapek tetiAbbo tetiMoaKuganti layarku dengan daun gebang|
+   153→   153→|Hekka lajak diketebu kolimetaSi lontar merah, menyinggahi pula|
+   154→   154→|SigaktetiNua FatuBelaKepulauan Fatu Bela|
+   155→   155→|Gafeklau fatta papa LamabataKulintasi Pantai Selatan Pulu Lembata|
+   156→   156→|Sapek teti tobi LandekeSambil menyinggahi Tobi Landeke|
+   157→   157→|Sigak tetiFatoBela BakkuNunjauh di timur berlabuh sebentar di
+   158→   158→Fato Bela Bakku|
+   159→   159→|Loddo daikabebone bolloTurun ke darat membangun sebuah
+   160→   160→gubuk|
+   161→   161→
+   162→   162→Dari bait-bait di atas tampaklah pengaruh Majapahit sampai ke bagian Selatan Sulawesi. Dengan perintah Gajah Mada, Mahapatih Majapahit, penduduk di sana berlayar meninggalkan negerinya. Pelayaran menuju ke arah timur laut, Pulau Seram seperti terungkap dalam penggalan di bawah ini. Dari Seram kemudian ke Gorom
+   163→   163→untuk singgah di pelabuhan, dan dilanjutkan dengan perjalanan berbalik arah ke barat yaitu ke Ambon.
+   164→   164→
+   165→   165→Peningkatan aktivitas perdagangan orang Barat yang semakin luas mendorong pergerakan kependudukan di kepulauan Indonesia. Periode sejarah Indonesia abad ke-17 dan ke-18 sejatinya tidak hanya mengenai VOC dengan tema ekonomi atau politik tetapi terjadi pula diaspora penduduk di Nusantara.
+   166→   166→
+   167→   167→B. GENOSIDA BANDA DAN DIASPORA DI KEPULAUAN KEI
+   168→   168→
+   169→   169→Satu di antara diaspora di Nusantara paling membekas bahkan hingga kini adalah mengenai kisah pengungsian yang terjadi di BandaNeira. Pulau kecilini, yang kesohor sebagai pusat perdagangan rempah, adalah salah satu dari gugusan Pulau Salamun, Ortatan, Lonthor dan lainnya yang membentuk Kepulauan Banda Besar. Memerlukan lebih 20 tahun sejak kedatangan VOC yang pertama 1599 di Ortatan hingga berhasil menguasai Banda pada 1621. Ortatan merupakan pulau yang paling banyak penduduk yang dijumpai, namun Portugis berpindah ke Neira. Banda berpenduduk antara 2.500 sampai 3.000, sedangkan Gijsel menyebut 15.000 jiwa pada awal abad ke-17. Menurut Gijsel, pada akhir abad ke16 Portugis dan Spanyol seolah memberi dengan begitu saja jalan masuk ke Banda kepada pesaingnya Belanda dan Inggris. Seperti yang dilakukan VOC, perusahaan dagang dan Eropa lainnya juga mengikuti cara yang sama dalam menempatkan orangnya untuk mengumpulkan rempah sampai diambil setahun kemudian. Perubahan terjadi ketika pedagang dari Makassar menjadi pesaing kuat bagi orang Eropa. Hal ini yang memaksa VOC membuat perjanjian dengan orang Banda untuk menerima sistem monopoli dalam perdagangan cengkih dan pala. Ambisi besar panglima armada Belanda bergerak dengan dukungan militer memasukkan Banda ke dalam kendalinya.”
+   170→   170→Dalam upaya menaklukkan Banda, VOC mengutus Verhoeven untuk membangun benteng di Banda. Ia tewas diserang penduduk Banda pada 1609. Dalam waktu dua belas tahun lebih terjadi konfrontasi militer, dan perjanjian damai disepakati. Dengan kehadiran Gubernur Jenderal ambisius JP Coen, situasi ini dimanfaatkan untuk mengeksekusi syahbandar Lonthor. Perundingan perdamaian yang goyah antara Coen dan orang Banda Besar terganggu dengan kejadian pada malam hari 22 April 1621, ketika ada lampu jatuh yang dianggap sebagai pemicu serangan penduduk ke markas VOC. Dua hari kemudian, Coen memerintahkan mengepung kampung-kampung di Banda Besar dan membunuh semua orang yang masih bersembunyi di pegunungan. Para pedagang pribumi berhadapan dengan Kompeni, dan banyak penduduk kepulauan dibantai sementara yang lainnya dibawa ke Batavia sebagai budak. Penduduk Banda tersisa kira-kira seribu dari jumlah sebelumnya 15.000 jiwa."?
+   171→   171→
+   172→   172→Pada 21 Mei 1621 terjadi peristiwa pembunuhan massal penduduk Banda, di Kepulauan Maluku. Kejadian ini atas perintah JP Coen sebagai bentuk pembalasan atas aksi 44 “orang kaya” Banda yang menyerang dan membunuh Laksamana Pieter Willemzoon Verhoeven dan pasukannya pada 1607. Tindakan para “orang kaya” itu karena Verhoeven membangun benteng dengan tujuan untuk mengusai Banda. Pada peristiwa itu, JP Coen merupakan juru tulis Laksamana Verhoefen, bersama pasukannya berhasil menyelamatkan diri. Dari Banda inilah genosida sangat menyedihkan terjadi dalam sejarah kemanusiaan abad ke-17. Dari sini pula kisah diaspora besar-besaran di Nusantara bermula. “Empat puluh tahanan dibawa ke dalam benteng Nassau, delapan orang kaya paling terkemuka dipisah, mereka disebut sebagai “kuncing-kucingan”, sementara lainnya digiring seperti domba. Di kandang bundar dibuat dari bambu di luar benteng, diikat dengan
+   173→   173→tali dan dikelilingi para penjaga. Mereka ditetapkan dihukum karena bersekongkol melawan gubernur jenderal. Enam serdadu Jepang dengan samurainya melakukan pembantaian dengan brutal” Tidak seperti manusia yang hilang, Bahasa Bandatetap bertahan dan dipergunakan di Kepulauan Kei, bahkan hingga kini. Inilah fakta adanya kedaulatan budaya. Banyak penduduk Banda yang berhasil mengungsi dengan melayari lautan ratusan kilometer ke Seram. Kompeni mencoba mengejar tetapi gagal karena terhalang cuaca. Dalam catatan Belanda, banyak pengungsi yang menetap di berbagai tempat dalam dua abad tanpa dapat dikendalikan Belanda. Banyak pengungsi Banda yang mendiami tempat barunya di Seram. Pelarian mereka diawali ke Gorong di Seram Laut, namun ketika Kompeni berusaha mengejarnya dengan mengikat perjanjian dengan Raja Amar, mereka berpindah lagi ke bagian pantai timur Seram, di Keffing. Sejumlah klen (etar) merupakan nama-nama orang di daerah ini, yang dapat dilacak sebagai keturunan Banda, mirip dengan nama-nama yang dijumpai di Banda Eli. Orang Banda lainnya diminta untuk menetap di Makassar. Setelah VOC menduduki Banda pada 1621, pulau-pulau berpenduduk padat seperti Seram Laut, Goram, dan Keffing mengambil alih peran Banda sebagai tempat perjumpaan pedagang Asia yang aktivitasnya terganggu oleh kehadiran VOC
+   174→   174→
+   175→   175→Dalam periode sebelumnya wilayah barat daya Papua Nugini telah lama melakukan perdagangan masoi, minyak dari kulit pohon “bark” digunakan seperti rempah dan untuk kosmetik serta pengobatan di Jawa. Pengungsi Banda mendorong lebih luas perdagangan di perairan Seram Laut melalui penyelundupan rempah ke India dan Cina. Lagi pula, wilayah itu berfungsi sebagai pusat perdagangan masoi, kulit penyu, mutiara, getah, teripang, dan budak. Semua itu menjadi saingan VOC. Pada akhir
+   176→   176→
+   177→   177→12. ~~ ~Willard A. Hanna, Indonesian Banda: Colonialism and Its Aftermath in the Nutmeg Islands (Yayasan Warisan dan Budaya, 1991), 56.
+   178→   178→
+   179→   179→13. ~=Kaartinen, Songs of Travel, Stories of Place: Poetics of Absence in an Eastern Indonesian Society, 38.
+   180→   180→
+   181→   181→532 SEJARAH INDONESI abad ke-17 hubungan perdagangan Seram Laut meluas dengan banyak jalan sampai ke Selat Torres. Sebagai bukti hubungan ini dapat diketahui dari penggunaan kata seperti turika, turiko, dan turuko, mirip dengan kata turika dalam bahasa Seram dan Banda. Sebutan untuk arok, rancangan “pisau” ditemukan di sepanjang Trans Fly River di bagian timur New Guinea, yang tidak mengenal pengetahuan pisau besi. Dalam abad yang lain, pengasingan orang Banda di bagian timur Seram memainkan peran aktif dalam jaringan perdagangan pribumi yang meliputi pantai bagian Selatan New Guinea dan wilayah di luar kendali Belanda Hubungan orang Banda dengan Seram Timur sebagai jenis kontak perdagangan antardaerah yang merupakan perluasan budaya Maluku. Swadling mendeskripsikan sejarah perdagangan ini sebagai serial perputaran yang dimulai dua milenium yang lampau dengan ekspor bulu burung Cenderawasih ke Asia dan yang menghubungkan ke pantai utara New Guinea melalui Maluku dan Kepulauan Sunda Kecil (Nusa Tenggara Barat). Aktivitas perdagangan dalam periode selanjutnya, dari abad ke-13 sampai 1650-an, berhubungan dengan rempah dan kayu wangi. Dalam abad ke-18, kebutuhan akan rempah digantikan permintaan pedagang Cina untuk hasil laut seperti teripang, mutiara, dan sarang burung. Keterlibatan orang Eropa khususnya Inggris dalam perdagangan jenis barang ini berganti dengan meningkatnya kebiasaan minum teh dan kopi
+   182→   182→
+   183→   183→Pada 1640, Adriaan Doorstman pemimpin ekspedisi ke Kepulauan Kei melaporkan adanya dua desa yang dibentuk oleh pengungsi Banda di Pulau Kei Besar. Dengan beberapa kali dilancarkan penumpasan pohon rempah, kedua desa itu musnah. Namun semua yang terjadi di Bande Eli masih bertahan hidup dengan hasil olahan gerabah yang diperjualbelikan ke daerah
+   184→   184→tetangganya sampai ke Maluku Tengah. Inspeksi pejabat Belanda di Kei, Aru, dan Seram pada 1825 masih menemukan gerabah Banda Eli di istana raja Keffing. Tradisi pembuatan gerabah agaknya telah lebih dulu ada sebelum komoditas rempah. Perdagangan lokal di Banda Eli masih berlangsung sampai tahun 1974, sewaktu Kaartinen melakukan riset
+   185→   185→
+   186→   186→Sebelum kedatangan orang Eropa—Portugis, Inggris dan Belanda—orang Banda sudah melakukan aktivitas perdagangan yang disebut “Solsolot”, suatu perdagangan yang dijalankan berdasarkan sistem kekerabatan. Perdagangan ini berkelanjutan sampai dengan kedatangan bangsa Barat di Kepulauan Banda. Solsolot merupakan perdagangan barter. Hasil karya pandai besi orang Banda berupa alat rumah tangga dan persenjataan, serta perhiasan, buah pala dan perahu (kora-kora) ditukar dengan embal, yaitu makan pokok orang Kei. Dari Kepulauan Kei dan Aru banyak dihasilkan sagu yang dipasok ke Banda.”’ Selain itu barang perhiasan emas Kei, bahkan sampai sekarang, digunakan sebagai salah satu mahar dalam perkawinan bagi perempuan Kei. Kebiasaan itu juga terdapat di Maluku Tenggara Barat dan Maluku Barat Daya.
+   187→   187→
+   188→   188→Pasca peristiwa pembantaian itu mengakibatkan terusirnya seluruh penduduk Banda. Pengalaman yang diingat dan menjadi tutur lisan bahkan dinyanyikan, onotan (sarawandan) menjadi ingatan kolektif
+   189→   189→
+   190→   190→Fiso jurato gogao, Jangan cerita, karesi oh karesi (nama karesi-o-karesi, orang), kalian sembilan, bahasa Kemi siwa turi siwa sembilan
+   191→   191→
+   192→   192→- 16 ~~ Kaartinen, Songs of Travel, Stories of Place: Poetics of Absence in an Eastern Indonesian Society, 38-40.
+   193→   193→
+   194→   194→18. Haja Leingudung Suat, “Wawancara Pribadi,” 27 April 2023.|---|---|
+   195→   195→|Turi feken, nake liliar feken,|Banyak bahasa, banyak bicara|
+   196→   196→|Waijamba kemi limo turi limo,|Jadi kalian di mana, persekutuan lima|
+   197→   197→|Kito sio tamalawang nduro-ndingan-o
+   198→   198→aisa i-rarono imao,|Kitasemua melawan semua yang ada
+   199→   199→di dalam sana|
+   200→   200→|Kito sio wai pagar polo mandang na
+   201→   201→monggeingiSementara pertahanan Banda sudah
+   202→   202→mauhancur|
+   203→   203→|Kito sio fa rusurato ormana ro raut-o-
+   204→   204→rorautJadi kita semua berbicara sambil
+   205→   205→menangis|
+   206→   206→
+   207→   207→Onotan di atas menggambarkan saat-saat terakhir penduduk Banda mempertahankan diri. Melalui berbagai pembicaraan dalam beragam bahasa (ungkapan), mereka mulanya bersepakat untuk melawan, sementara pertahanan Banda hampir runtuh. Sambil menangis karena ketidakberdayaannya, orang Banda pun kemudian harus mengungsi meninggalkan negeri asalnya.
+   208→   208→
+   209→   209→|Refimbenoharimbeno na-barangkat
+   210→   210→kemi diri,|Hari apa,tanggal berapa kita berangkat|
+   211→   211→|---|---|
+   212→   212→|Hari apa, tanggal berapa kita berangkat||Untuk melihatombakKecil dalam alam
+   213→   213→ini|
+   214→   214→|Wai anin panca roba mbongondadingi |
+   215→   215→kito sioDi sini angin pancaroba mengelilingi
+   216→   216→kita|
+   217→   217→|Famukan kayumbetanmanutwa tasik
+   218→   218→ilau,||Seperti sepotongkayuyang hanyut di
+   219→   219→laut|
+   220→   220→
+   221→   221→Dalam pelayaran mereka ditemani ombak kecil pada saat waktu pancaroba, seperti batang kayu yang hanyut mencari tempat perlindungan. Dalam perjalanan ini rombongan singgah di Pulau Kur, sekarang merupakan bagian di wilayah administrasi Kota Tual. Sementara para perempuan Banda (boki) setelah tiba di Pulau Kur menyanyikan onotan sebagai berikut:"”
+   222→   222→
+   223→   223→19 Suat, “Wawancara Pribadi.”
+   224→   224→|Fa colita ombak safur safur..|Kami melihatombak kecil-kecil|
+   225→   225→|---|---|
+   226→   226→|fa no Nala Kito sioo fajadikkayu
+   227→   227→batang hanyutlaut.|Jadi kita seperti sebatangkayuyang
+   228→   228→hanyut|
+   229→   229→|Fa risingga sifa Pulo kurtutuno ilao..|Lalumereka singgah diPulau Kur|
+   230→   230→|Nyaiboki-boki Wandan Sino Ta nisuka
+   231→   231→wa Pulo ilao..wa Pulo kur iooo...|Perempuan Banda tidak senang tinggal
+   232→   232→di Pulau Kur|
+   233→   233→|Fa rurumbukNiro roromana Turi
+   234→   234→Wandanjadikrumputkusei..|Mereka kemudian berunding kembali
+   235→   235→mencapaikesepakatan untuk
+   236→   236→menentukantujuanberikutnya..|
+   237→   237→
+   238→   238→Tabel 7.1 Wawancara dengan Haja Leingudung Suat, Ambon, 27 April 2023
+   239→   239→
+   240→   240→Lebih lanjut, Van Hovell mengungkapkan perjalanan pengungsi Banda dengan bantuan dari Raja Keffin di Gorom dengan 20 kora-kora. Setiba di Pulau Kur para perempuan rupanya tidak ingin menetap karena masih terlihat Pulau Banda. Perjalanan pun dilanjutkan lagi dan akhirnya sampai ke Kepulauan Kei (Kei Kecil dan Kei Besar). Peristiwa ini dapat menjelaskan mengenai pembentukan hubungan pela antara orang Gorom dan orang Kur. Hal ini terjadi karena faktor bantuan perang yang diberikan oleh Raja Keffin di Gorom dan penerimaan baik sewaktu persinggahan mereka di Pulau Kur.*°
+   241→   241→
+   242→   242→Diaspora ini menjadi trauma berkepanjangan karena menyisakan ingatan sangat menyedihkan yang dituturkan dalam onotan sarawandan, menjadi tradisilisan yang sering dinyanyikan oleh kaum perempuan di Banda Ely dan Banda Elat Kepulauan Kei. Nyanyian itu kini diperdengarkan dalam upacara adat, pesta perkawinan, kematian atau dalam memulai pekerjaan seperti pembangunan masjid atau rumah raja.
+   243→   243→
+   244→   244→Perjalanan pengungsi orang Banda pasca genosida masih dapat ditelusuri melalui puisi rakyat yang disebut Kaartinen sebagai “lagu perjalanan”, terdiri dari beberapa genre yang disusun berdasarkan
+   245→   245→
+   246→   246→20 =Wolter Robert van Hoévell, Sejarah Kepulauan Maluku: Kisah Kedatangan Orang Eropa hingga Monopoli Perdagangan Rempah (Yogyakarta: Penerbit Ombak, 2014).
+   247→   247→
+   248→   248→Dalam perkembangan hingga kini, Orang Banda dikenal berperan sebagai guru hampir di seluruh wilayah Kecamatan Kepulauan Kei Besar, Kei Kecil, Kepulauan Aru, Kepulauan Tanimbar, Kisar, Larat. Demikian juga sepanjang sejarah perkembangan Kabupaten Maluku Tenggara sampai era reformasi hingga sekarang peran politik baik di pemerintahan, eksekutif dan legislatif maupun peran dan pelaku perdagangan, senantiasa menampilkan putraputri terbaik Banda, yang mampu menunjukkan dedikasi, loyalitas dan kecintaan mereka bagi negerinya kini.
+   249→   249→
+   250→   250→Setelah menguasai Banda, VOC menghadapi banyak masalah khususnya terkait persaingannya dengan pedagang Eropa lainnya. VOC merasa khawatir terhadap Inggris atau bangsa lain yang mencoba mendirikan pangkalan di sana. Langkah - langkah bagi pengamanan dengan kekuatan untuk menunjukkan “bendera” VOC di berbagai daerah pesisir merupakan program yang begitu mahal, sehingga Gubernur Ambon Herman van Speult berpendapat bahwa
+   251→   251→hal itu akan menguras sumber daya perusahaan (VOC) dalam jangka panjang. Namun, ekspedisi VOC kadang kala dapat digunakan untuk mengingatkan sekutu-sekutu pribumi tetap setia menghadapi musuh bersama. Selain itu, VOC masih sering mengalami gangguan dari perompakan orang Papua di perairan Ambon
+   252→   252→
+   253→   253→Satu di antara kekhawatiran VOC dalam memperluas pengaruh di kawasan timur adalah rak, suatu ekspedisi penyerbuan dan perburuan kepala, dengan jalur tradisionalnya melewati arah Selatan ke Kepulauan Aru-Kei, Tanimbar, Pulau Seram Laut, Seram, Buru, Ambon dan ke arah utara menuju Sula, Banggai, dan Sulawesi Utara. Bagi VOC, rak merupakan ancaman kepada para pengikutnya di wilayah pinggiran Tidore sebagai sekutunya. Oleh karena itu, VOC meminta Tidore untuk menindak rak. Sebagai bentuk terima kasih kepada VOC atas jabatannya sebagai sultan, maka Hamzah Fahruddin Kaicil Seram (memerintah 1689-1707) menyerahkan beberapa pemimpin rat. Tindakan ini dikutuk Sangaji Patani, pemimpin yang diakui di Papua. Ini bentuk ketidakadilan kepada mereka yang dihukum padahal dulu dipuji
+   254→   254→
+   255→   255→Ekspedisi tersebut dilakukan ke beberapa kampung di pantai timur Seram dan di Pulau Goram, tempat penampungan para pengungsi Banda. Oleh karena tindakan itu, kampung-kampung tersebut mendapat hukuman. Ekspedisi penghukuman itu diperintahkan Herman van Speult, Gubernur Kompeni di Ambon pada Desember 1624. Selain itu, penghukuman bertujuan utama menghambat perdagangan gelap yang dianggap berhasil
+   256→   256→
+   257→   257→Tampaknya tidak mudah bagi VOC menjalankan monopoli di Nusantara. Di Seram Kecil misalnya, bermacam musuh harus dihadapi sehingga perlu bantuan kekuatan lokal semisal orang-
+   258→   258→
+   259→   259→- 22 ~P.A. Tiele, Bouwstoffen voor de Geschiedenis der Nederlanders in den Maleischen Archipel (s'Grevenhage: Martinus Nijhoff, 1886), xlviii.
+   260→   260→
+   261→   261→- 23 ~=Leonard Y. Andaya, Dunia Maluku Indonesia Timur pada Zaman Modern Awal (Yogyakarta: Penerbit Ombak, 2015), 267.
+   262→   262→
+   263→   263→- 24 ~P.A. Tiele, Bouwstoffen voor de Geschiedenis der Nederlanders in den Maleischen Archipel, Volume Il (s’'Grevenhage: Martinus Nijhoff, 1890), ix.
+   264→   264→orang Ternate di Kambelo, Hatuha dan Haruku. Di sisi timur selat Ambon, Pas van Baguala harus membangun pertahanan baru. Secara khusus VOC memperhatikan pelabuhan yang baik dan perikanan laut karena Inggris dan bangsa lainnya mencoba merebut. Upaya mengatur perlindungan di berbagai tempat di pantai mengeluarkan biaya tidak kecil. Sementara pertempuran yang muncul juga masih sering diganggu oleh perompakan dari Papua di perairan Ambon. Selain itu, kompeni menghadapi musuh pribumi di beberapa kampung pantai timur Seram dan di pulau Goram. Mereka antara lain merupakan pelarian Orang Banda yang dapat ditangkap. Pada Desember 1624 mereka dihukum oleh Herman van Speult, gubernur Ambon, tetapi maksud untuk mencegah penyelundupan hanya sedikit berhasil atau bahkan tidak sama sekali .*°
+   265→   265→
+   266→   266→Pada 2 April 1625, armada Schapenham tiba di perairan Ambon menyerang penduduk Seram Kecil yang berada di bawah kekuasaan Ternate, disebut “baetsoeckende valsche Mooren”. Kehancuran sebuah perahu Belanda di lepas pantai Luhu menjadi alasan VOC melakukan pembalasan. Kemudian pada 14 Mei, ekspedisi yang dibiayai sangat mahal ini membebani keuangan Kompeni, dan ini sudah menjadi perhatian pada masa Gubernur Ambon Herman van Speult. Setelah itu, ia digantikan Jan van Goreum (1625-28). Pada hari itu, sebuah “armada” di bawah Laksamana Schapenham, Wakil Laksamana Jan Willemsz Vershoor dan Komandan Laut Cornelisz Jacobsz mulai bergerak. Kemudian beberapa kapal lain bergabung, sehingga armada terdiri dari 5 kapal, 26 kora-kora, dan 7 atau 8 perahu, yang membawa 900 tentara Eropa dan sekitar 2.000 “warga yang berada di bawah kekuasaan kastil” (tentang sikap Hitu) berada di bawah komando Kapten Carstensz, Wijncoop, Brederode, Cassiopijn, dan perwira lainnya. Tujuan utama adalah Kuhu. Tanpa perlawanan yang berarti dari penduduk lokal (Kuhu), sebuah benteng direbut, ekstirpasi atau penghancuran pohon buah dan pohon cengkeh
+   267→   267→dimulai. Benteng kecil (Kuhu) itu dihancurkan hingga rata dengan tanah, dan beberapa kampung dibakar, penduduknya sendiri bahkan ikut melakukan pembakaran sebelum mereka melarikan diri.*° Seram masih menjadi masalah besar bagi Kompeni karena ke sana lah banyak pengungsi Banda melarikan diri. Pengungsian itu terus berlangsung selagi mereka melihat kesempatan. Sementara itu orang Banda yang selamat dari pembantaian kejam JP Coen dimanfaatkan sebagai budak oleh Kompeni. Orang Seram tidak hanya menerima pengungsi Banda dengan ramah, tetapi juga membantu mereka melarikan diri dari pengajaran Kompeni ke pantai-pantai Banda Besar (Lontor) dan pulau-pulau sekitarnya dengan menggunakan perahu-perahu kecil. Penduduk Seram memberi kesempatan yang sangat dibutuhkan bagi korban sistem monopoli untuk mendapatkan kembali kebebasan mereka. Jumlah para pengungsi ini cukup besar, sehingga sampai Raja GowaMakassar pada tahun 1624 dapat membawa sekitar seribu orang dari Seram ke Sulawesi Selatan.*’
+   268→   268→
+   269→   269→Di Banda, Gubernur Marten Sonck digantikan sementara oleh Fiskaal Isaak de Bruine pada tahun 1623 dengan gelar presiden. Pada tahun yang sama, karena ketidakpuasan terhadap “mesnagie” (urusan keluarga, huishouden, huiszorg) dan “perilaku buruk’nya, ia harus menyerahkan jabatannya kepada Laksamana Willem Jansz (1623-1627). Berbagai faktor turut berperan membuat kondisi pulau-pulau yang dipercayakan kepada mereka tidak aman. Minggatnya budak menyebabkan kerugian ganda bagi penduduk kompeni setempat. Kerugian finansial yang signifikan diderita oleh kaum borjuis, yang telah membeli budak dengan harga mahal dari Kompeni. Fakta itu menyebabkan mereka tidak dapat memenuhi kewajiban finansial kepada kompeni .”"
+   270→   270→
+   271→   271→- 26 ~= Tiele, Bouwstoffen voor de Geschiedenis der Nederlanders in den Maleischen Archipel, Volume Il, x-xi.
+   272→   272→
+   273→   273→- 2/7 ~~ Tiele, Bouwstoffen voor de Geschiedenis der Nederlanders in den Maleischen Archipel, Volume |I, xvi-xvil.
+   274→   274→
+   275→   275→- 28 ~~ «Tiele, Bouwstoffen voor de Geschiedenis der Nederlanders in den Maleischen Archipel, Volume |I, xvi-xvili.
+   276→   276→Akibatlain dariketiadaan budak, kebun-kebun pemerintahtidak dapat menghasilkan uang sewa yang memadai, apalagi jika tanaman yang dihasilkan adalah “tanaman yang tidak menguntungkan”. Selain itu, hal yang semakin memperburuk keadaan adalah terjadinya gempa bumi yang menghancurkan panen seperti terjadi pada 1625, saat mana Banda dilanda badai dan gempa bumi yang dahsyat. Akibat kekurangan tenaga kerja, hasil panen kacang kenari dan bunga pala yang merupakan komoditas utama Pulau Banda menjadi berkurang. Hal ini karena perdagangan dengan negeri dan daerah lain hampir sepenuhnya mandek.”
+   277→   277→
+   278→   278→SetelahmenguasaiBanda, VOCmenghadapimasalahkekosongan penduduk yang berakibat pada ketiadaan tenaga kerja. Untuk itu, Kompeni berupaya mengirim orang-orang bebas, termasuk orang Cina, dan budak-budak terutama dari pantai Koromandel.*° Bagaimana pun kompeni terus berupaya agar penduduk daerahdaerah Kepulauan Banda lebih bersahabat. Sejumlah orang yang ditangkap Belanda pada tahun 1621 dibebaskan dan dikembalikan ke daerah asalnya pada tahun 1625. Mereka pada saat itu diperjualbelikan sebagai budak dan disebarkan ke Ambon dan Banda. Sementara itu di bawah pemerintahan VOC, ketidakpuasan para penduduk asli Pulau Run, sebagai budak di Banda Besar, memicu sebuah konspirasi. Pada Juli 1627, mereka menyeberang dengan perahu dayung yang dikemudikan oleh beberapa budak dari pulau Rosengein ke Neira. Dalam perjalanan itu, mereka disergap dan dibawa sebagai tawanan ke pantai selatan Seram
+   279→   279→
+   280→   280→Dampak penguasaan Banda oleh VOC pada 1621 justru menjadi pendorong berkembwilay **a** h lain,ngnyakhususnya Kepulauan Seram Laut. Pengungsi orang Banda ke Seram Laut inilah yang membentuk entrepot baru yang berfungsi sebagai pemasok pasar-pasar bagi
+   281→   281→
+   282→   282→- 29 ~=Tiele, Bouwstoffen voor de Geschiedenis der Nederlanders in den Maleischen Archipel, Volume II, xvii.
+   283→   283→
+   284→   284→- 30 ~~‘ Tiele, Bouwstoffen voor de Geschiedenis der Nederlanders in den Maleischen Archipel, Volume II, xviii.
+   285→   285→orang Asia. Dengan keahlian Orang Banda, penduduk di kepulauan ini mampu memperluas kegiatan perdagangan. Sebelum kedatangan orang Banda, Seram Laut menjadi bagian yang telah mapan dalam jaringan perdagangan antarpulau. Bahkan pada 1602 Seram Laut telah berdagang ke wilayah yang luas. perdagangan mereka telah menjangkau Kepulauan Raja Ampat, Nieuw Guinea, dan dan Timor. Setelah pendudukan Banda, Seram Laut juga menyediakan hasilhasil kekayaan alam Nieuw Guinea untuk pusat-pusat perdagangan seperti Bali, Paser di Tenggara Kalimantan, dan Jawa Timur.”
+   286→   286→
+   287→   287→Kira-kira seabad kemudian setelah dikuasai VOC dan dilanjutkan pemerintah kolonial, fungsi Kota Banda tidak hanya sebagai pusat perdagangan rempah, tetapi juga menjadi tempat pengasingan para pemberontak. Sebelum akhirnya tertangkap di Bali pada 1778, Pangeran Wilis dari Blambangan melarikan diri dari Banda bersama anaknya dan empat orang lainnya di antaranya Mas Bagus Lumajang, Patih Malang dan Ngantang yaitu Natakusuma. Mereka melarikan diri dari penjara setelah melakukan amuk dengan pembunuhan termasuk beberapa orang Belanda. Dari Banda, mereka berlayar ke Seram dan dengan bantuan ulama di sana melalui Buton melanjutkan pelayarannya ke Sasak, Bali. Di sini akhir perjalanan hidup Wilis. Ia wafat di Bali
+   288→   288→
+   289→   289→## C. DIASPORA BUTON DI KEPULAUAN KEI
+   290→   290→
+   291→   291→Selain orang Banda dan Bugis-Makassar, yang paling terkenal, orang Buton juga merupakan etnik yang berdiaspora di Nusantara. Diaspora Buton telah menambah keragaman persebaran etnik Nusantara khususnya kawasan timur dalam membentuk masyarakat campuran misalnya di Kepulauan Kei. Sumber tradisi lisan mengisahkan berlangsungnya gelombang diaspora Buton ke wilayah
+   292→   292→tersebut yang terjadi dalam dua gelombang besar. Diaspora tersebut kemudian berdampak pada terbentuknya keluarga hibrida, yang ditandai dengan nama keluarga “baru”, ohoiwutun. Kata ohoiwutun terdiri atas dua suku kata: ohoi berarti kampung dan wutun adalah Buton. Jadi ohoiwutun adalah kampung dibentuk oleh orang Buton ketika beradaptasi dengan penduduk setempat. Pada awalnya mereka tiba di Pulau Kei Besar kemudian sebagian pindah ke pulau Kei Kecil. Di pulau yang disebut terakhir ini, mereka menempati wilayah Rumadian, Debut, Namar, Danar, Ngilngof, dan Oholililir Versi pertama kedatangan orang Buton dikisahkan oleh Egidius Ohoiwutun (69 tahun), Agapitus Ohoiwutun (69 tahun), dan SPE Ohoiwutun (60 tahun) di Namar pada 31 Juli 2019. Mereka adalah generasi keenam. Dikisahkan bahwa akibat perebutan kekuasaan di Kesultanan Buton, maka La Raja dan La Nong meninggalkan Buton berlayar ke bagian timur Nusantara. Perahunya tiba di pantai Ohoiraut, Kei Besar. Mereka tinggal di sana dan menikah dengan penduduk lokal. Keduanya meninggal di sana. Sebelum meninggal mereka berpesan kepada keluarganya bahwa jika ingin kembali ke negeri asalnya Buton maka berlayar ke arah matahari terbenam (barat) sampai tiba di pulau yang dihuni oleh penduduk kate (pendek kecil). Keturunan dua orang itu kemudian berlayar dengan sebuah perahu perang. Mereka singgah di Tamdaan, Kei Kecil, mengambil air dan kebutuhan yang lain. Ketika berada di sana, datang bencana alam yang berakibat anggota keluarga ohoiwutun berpisah. Ada yang kembali ke Kei Besar (Ohoiraut), dan apa pula yang tetap di Tamdaan kemudian ke Danar Lumevar dan pesisir barat pulau Kei Kecil.
+   293→   293→
+   294→   294→Dua keturunan ohoiwutun, Wabod dan Tefra, naik pada sebelah kulit bia (wada; sejenis kerang besar) ke Rumadian. Ketika mencari kayu di hutan untuk membangun rumah, mereka bertemu tuan
+   295→   295→
+   296→   296→34 . Susanto Zuhdi dan Abd. Rahman Hamid, “The Ohoiwutuns: The Role of Buton People as a Derived Community in Kei Kecil Island,” ICONSEA Proceedings (Kuala Lumpur), 2019.
+   297→   297→tanah, Ohoi Yuf Lobar. Kedua belah pihak mengadakan sayembara, siapa tercepat menarik pohon bambu dari hutan ke pantai, akan menjadi pemenang dan diangkat sebagai bangsawan sakti. Wabob dan Tefra menarik pohon bambu pada pangkal pohon, sementara Lobar menarik di bagian pucuk pohon sehingga rantingnya tersangkut pada pohon-pohon lain ketika ditarik ke pantai. Oleh karena itulah Wabob dan Tefra tiba lebih cepat di pantai. Kemudian Wabob dinikahkan dengan putri Datuk Trnir, Yaruk. Dari perkawinan itu lahir ub en tit (tujuh mata rumah) yaitu: faliw ubun, smauw ubun, tawo ubun, dit ubun, tawur atau saraun ubun, tanguur ubun, dan teri ubun, yang dikenal dengan ohoiwutun rahan relob. Selanjutnya datang kelompok lain, Watratan, dari Luan Leti bergabung dengan ohoiwutun. Pada satu hari, keluarga ohoiwutun diserang penyakit sehingga mereka meninggalkan Rumdian ke Ohoi Mantilur (Miun Huk) dan Fid Maat. Setelah menikah dengan penduduk setempat, keturunan ohoiwutun menyebar ke Lilboi, Debut, Namaar, Ngilngof, dan Ohoililir (Ohoiwutun, 1962).
+   298→   298→
+   299→   299→Berbeda dari yang pertama, versi kedua diaspora Buton ke Kei berkaitan dengan konteks historislebihjelas. Dituturkan oleh Donatius Ohoiwutun (65 tahun), Nurbertus Ohoiwutun (66 tahun), Yosofina Ohoiwutun (69 tahun), dan Daniel Ohoiwutun (78 tahun) Mereka adalah generasi keenam yang kemudian menetap di Kepulauan Kei. Tiga leluhur mereka dari suku Kalende, yang bermukim di sekitar Gunung Siontapina, yaitu Deteno Katape (sulung), Baluwu (adik), dan Peropa (bungsu) berlayar dari Buton ke Maluku.
+   300→   300→
+   301→   301→Penyebutan Gunung Siontapina menunjukkan masih hidupnya memori kolektif mengenai asal-usul moyang mereka datang dari Buton. Gunung ini merupakan tempat terakhir perjalanan gerilya Oputa Yi Koo, gelar penghormatan terhadap Himayatuddin Muhammad Saydi, sultan Buton ke-20 dan ke-23. Ia memerintah dalam dua periode dengan jeda di antara 1750-1752 dan 1760-
+   302→   302→1763). Pada masa pemerintahan yang pertama itulah pada, 24 Februari 1755 terjadi peristiwa penyerbuan pasukan Kompeni Belanda ke benteng Woilo sekaligus tempat keraton sultan Buton. Sebab utama ekspedisi militer Belanda itu dipicu oleh terjadinya perompakan kapal VOC “Rust en Werk” di perairan Baubau pada Juli 1752. Berdasarkan kontrak perjanjian seharusnya Sultan Himayatuddin membantu VOC dalam menangani perompakan, justru posisi sultan berada di pihak perompak. Sang perompak bernama Franzs-Franzs, seorang petualang keturunan Eropa. Berkali-kali peringatan VOC kepada La Karambau nama lain Sultan Himayatuddiin tak diindahkan.*°
+   303→   303→
+   304→   304→Dalam perkembangannya terjadi penyerbuan yang dipimpin Kapten Reijsweber dengan dukungan 140 prajurit berakibat tewasnya sapati (perdana menteri), seorang kapitalau (kapiten laut) dan beberapa ratus prajurit kesultanan Buton. Sultan Himayatuddin beserta pengawalnya berhasil menyelamatkan diri. Pengangkatan periode kedua rupanya hanya siasat Buton menghadapi Kompeni hingga sultan sepenuhnya undur diri dengan melakukan perlawanan dengan bergerilya di hutan. Oleh karena itulah ia diberi gelar Oputa Yi Koo, berarti “tuanku yang bergerilya di hutan”. Perjalanan gerilya Oputa Yi Koo berakhir di Gunung Siontapina, Buton Selatan. Di puncak gunung itu lah ia memusatkan perang gerilya hingga wafat pada 1669.*’ Atas jasa-jasanya kepada bangsa dan negara, Sultan Himayatuddin Muhammad Saydi ditetapkan sebagai “pahlawan nasional”. ** Berdasarkan sumber lisan di atas, apa yang dimaksud dengan moyang ohoiwutun berasal dari daerah disekitar Gunung Siontapina
+   305→   305→adalah bekas prajurit dan keluarganya yang terpaksa mengungsi setelah berakhirnya perang. Pengungsi Buton dari daerah sekitar Gunung Siontapina berlabuh di pantai Ohoiraut, Kei Besar dan menetap di Tamedan. Mereka mengolah lahan dengan hasil yang baik sehingga menjadi perhatian penduduk setempat. Penasaran dengan keberhasilan tersebut, penduduk setempat mengecek perahu para migran. Mereka menemukan sebuah vengkasilan, yaitu satu jenis tempayang, berada di perahu yang dianggap sebagai pusaka keberuntungan. Benda itu dibuang ke laut di tanjung pulau Kur. Benda itu kelak ditemukan nelayan dari Seram.
+   306→   306→
+   307→   307→Namun, karena tidak senang dengan tindakan tersebut, maka mereka meninggalkan Tamedan. Belum jauh lepas dari pantai, tiba-tiba datang angin topan menyebabkan tiang perahu patah. Dia terpaksa lego jangkar di pantai Ohoiraut. Sementara itu, dua saudaranya terus berlayar sampai di pantai Rumdian. Ketika berlayar lagi, tiang perahu Baluwu juga patah akibat topan. Baluwu terpaksa balik haluan ke Rumdian. Pada saat itu, dia bertemu penduduk Rumadian di pantai. Kedua pihak berlomba menarik bambu dari gunung ke pantai. Sebelumnya disepakati bahwa siapa yang menang akan jadi raja di Rumdian. Orang setempat menarik sebatang bambu dari pucuknya, sedangkan Baluwu menarik sebatang pohon bambu yang lain di bagian akarnya. Pohon bambu yang ditarik orang kampung tersangkut pada pohon-pohon sehingga lambat ditarik ke pantai, sementara Baluwu lebih cepat tiba di pantai. Sesuai kesepakatan awal, maka Baluwu diangkat menjadi raja di Rumadian. Dia menikah dengan penduduk setempat. Keturunannya menjadi anggota ohoiwutun di Debut, Namar, dan Ngilngof.*”
+   308→   308→
+   309→   309→Berdasarkan uraian di atas jelas bahwa keluarga ohoiwutun dan watratan datang dari luar (laut) ke Rumadian. Mereka menikah dengan penduduk setempat dari keluarga Ohoi Yuf Lobar. Karena wabah penyakit, orang ohoiwutun meninggalkan Rumadian ke
+   310→   310→berbagai daerah yang menjadi cikal-bakal diaspora ohoiwutun di pantai barat Kei Kecil.*°
+   311→   311→
+   312→   312→## D. RAGAM DIASPORA BATAVIA
+   313→   313→
+   314→   314→Sebelum Batavia dibangun sebagai pusat VOC di Nusantara, nama Sunda Kelapa lebih dikenal sebagai pelabuhan terkenal Kerajaan Sunda. Setelah itu, pasukan Fatahilah, atas perintah Kesultanan Cirebon, berhasil mengusir serangan Portugis pada 1527, maka kota pelabuhan tersebut diberi nama Jayakarta, artinya “kota yang jaya’ yang berhasil dipertahankan dengan “kemenangan yang sempurna”. Ketika kedatangan pertama orang Belanda di Jayakarta pada 1596 terdapat perkampungan yang dihuni 3000 jiwa di Muara Sungai Ciliwung.
+   315→   315→
+   316→   316→Setelah Batavia dibangun dari kehancuran Jayakartya pada 1619, J.P. Coen, memerlukan orang untuk menjadi penduduk kota. Gubernur Jendral VOC itu pertama berupaya mendorong dan jika perlu memaksa orang Cina bermukim di sana dengan mengubah jalur dagangnya ke Batavia; kedua, membeli budak sebanyak mungkin, utamanya di kawasan bagian India; dan ketiga dengan mempromosikan permukiman Batavia kepada penduduk Belanda, baik imigran baru dari Republik Batavia maupun mantan pegawai VOC.
+   317→   317→
+   318→   318→Selain itu, Kompeni juga memerlukan buruh lokal, tenaga terampil dan serdadu militer. Untuk keperluan itu, mereka merekrut orang Cina dan Jepang. Kelompok pertama merupakan pedagang bebas yang tinggal di kawasan di bantaran timur Ci Liwung, sebelah selatan factorij Kompeni. Sementara orang Jepang umumnya menjadi tentara bayaran bagi Kumpeni. Sesungguhnya orang Cina sudah lama hadir di Jakarta dalam membantu Belanda membentengi factorij dalam menghadapi ancaman serangan Banten dan Inggris pada 1618-1619.
+   319→   319→Sebagian mereka bekerja sebagai tukang kayu dan sebagian lagi berperang di pihak Belanda menghadapi pengepungan aliansi Jakarta-Banten-Inggris. Namun pada permulaan pertikaian, semua penduduk Cina dan Jawa di sekitar kawasan factorij pergi. Kehidupan sipil yang lebih awal telah tumbuh di permukiman Kompeni sebelum 1619. Mereka adalah sejumlah orang Belanda sebagai “warga merdeka’”,*' yaitu mantan karyawan Kompeni yang tetap diizinkan tinggal setelah masa kerja mereka habis. Ketika terjadi ancaman perang pada Desember 1618, sekitar 20 orang meninggalkan Jakarta.*”
+   320→   320→
+   321→   321→Setelah pasukan orang Jawa mundur dalam perang Mataram 1629, imigrasi bangkit kembali, kebanyakan orang Cina. Banyak dari mereka kabur dari kota di bawah ancaman pecahnya perang baru, namun sekarang telah kembali. Pada 1632, jumlah penduduk telah meningkat kembali menjadi 8.080. Jumlah ini memberikan gambaran penuh mengenai penduduk, termasuk budak, pegawai Kompeni, narapidana, dan penduduk non-Eropa. Penduduk kota didominasi orang Cina yang menyusun hampir setengah dari jumlah penduduk merdeka. Untuk penduduk Eropa, kebanyakan dari mereka bekerja untuk Kompeni. Sekitar masa ini kata “mardiker” telah digunakan secara umum untuk menyebut kelompok bekas budak. Jumlah mardiker berkembang bersama dengan pertumbuhan perbudakan
+   322→   322→
+   323→   323→Seperti yang ditunjukkan daftar catatan nikah, kebanyakan pasangan nikah dari pria Belanda (dan tentunya mardiker) adalah perempuan bekas budak, dibaptis dan dimerdekakan sebelum memasuki pernikahan. Demikian pula kira-kira sama dengan mereka yang memperisteri orang Cina. Persentase rendah dari perempuan mardiker (140 berbanding 249 pria) mengindikasikan
+   324→   324→bahwa banyak yang menikahi pria dari kelompok lainnya. Namun, meskipun orang Jawa secara mencolok tidak muncul selama beberapa tahun, terdapat jumlah yang terus meningkat dari budak dan demikian pula orang mardiker, yang berasal dari pulau-pulau lain di kepulauan Indonesia. Pemilik budak terbesar di VOC pada 1632, dan selama masa VOC, adalah warga Belanda dan pejabat tinggi VOC. Secara umum mereka membanggakan diri mengonversi agama budak mereka menjadi Nasrani. Perlahan kata mardiker bergeser dari makna aslinya merdeka menjadi merujuk kepada orang Nasrani Asia. Bersama dengan agama Protestan, mereka mengadopsi nama Kristiani, dan menjadi pengampu kebudayaan hibrida dengan pengaruh Luso-India yang kentara
+   325→   325→
+   326→   326→Periode utama imigrasi adalah 1665-1672, ketika jumlah orang Jawa, Bali dan Makassar berkembang tiga kali lipat. Peningkatan selama 1670-an dikarenakan serangan dari orang-orang Banten, yang menciptakan kekacauan di Ommelanden, dan rekrutmen orang Jawa dalam pasukan ekspedisi Kompeni ke bagian timur pulau Jawa. Kedatangan terjadi secara tidak teratur, kelompok besar datang ke Batavia dalam suatu waktu. Dekade yang sama menyaksikan pula kedatangan kelompok masyarakat baru dari wilayah lain Nusantara di Batavia. Semua bermula dari kelompok-kelompok kecil prajurit atau tentara bayaran yang disewa Kompeni. Yang pertama datang ialah orang Ambon pada Agustus 1656, sebuah kompi dari berbagai pulau di selatan Maluku atau di kepulauan Ambon di bawah komando kapten mereka, Raja Tahalele. Setelah mendarat di Jawa, mereka segera dikerahkan dalam perang yang berlangsung melawan Banten dan di wilayah lain, namun mereka ditempatkan secara paruh waktu di Batavia. Bersama kedatangan mereka tiba pula kelompok petarung yang lain, utamanya dari Sulawesi dan dari palagan perang lain di Jawa Timur.”
+   327→   327→
+   328→   328→44 __Raben, “Batavia and Colombo: The Ethnic and the Spatial Order in Two Cities 1600-1800," 85.
+   329→   329→Populasi dalam kota tampak telah mencapai batas maksimum, jauh sebelum akhir abad ke-17. Antara 1689 dan 1729 jumlah penduduk dalam kota meningkat menjadi antara 20 hingga 24 ribu. Hal itu terjadi bersamaan dengan puncak perniagaan jung dari Tiongkok. Pada pertengahan 1730-an kemunduran mulai terjadi, dipicu oleh epidemi malaria yang menjadi bencana rutin bagi kota semenjak 1733, dan dikunci oleh drama Pembantaian Cina 1740. Kawasan dalam kota tidak pernah lagi mencapai kejayaan masa lalunya. Orang Cina memang kembali ke Batavia, namun sedikit yang kembali tinggal di dalam kota, sebagian besar memilih tinggal di pecinan di luar tembok kota
+   330→   330→
+   331→   331→Tiga kelompok berada di luar dinamika yang mengatur imigrasi dari orang Indonesia, yakni komunitas “Moor” dan gentievens (pagan), orang Muslim dan Hindu yang berdagang dari Koromandel. Sedikit ada peningkatan bagi orang Moor pasca 1760-an. Hal ini sepertinya sama dengan orang Melayu, sebuah nama portmanteau untuk orang berbahasa Melayu dari sebelah barat Jawa dan dari semenanjung Malaya. Jumlah mereka sedikit berkembang hingga akhir 1770-an, ketika arus imigrasi meningkatkan jumlah mereka hingga empat kali lipat dalam sepuluh tahun, secara tidak terbantahkan menggaungkan regenerasi dari perniagaan di Selat Malaka pada periode ini.*’
+   332→   332→
+   333→   333→Pada 1610 VOC mendirikan pos dagang, dan pada 1617 menambah gedung dengan mendirikan tembok-tembok yang kemudian menjadi kota Batavia pada 1619. Dengan demikian VOC merasa lebih aman dari ancaman kekuatan lokal seperti dari Pangeran Jayakarta sebagai vasal Kesultanan Banten. Namun Batavia menjadi terasing, padahal memerlukan kebutuhan logistik yang kemudian dipasok dari daerah sekitar (ommelanden). Maka terjadilah pertumbuhan penduduk di sana, yang mulai tampak
+   334→   334→pada 1630-an. Permukiman semakin meluas di luar benteng (kota). Pada 1689 penduduk Batavia 45.550 orang, dua kali lipat dari penduduk di dalam kota. Pemukiman orang Eropa berada (di dalam benteng: Jntramuros) di sebelah timur sungai, sedangkan orang Asia dan pribumi lainnya (di luar benteng: extramuros) di sebelah barat. Pada 1673 jumlah penduduk di wilayah pinggir kota mencapai 27.051, pada 1680 terdapat 30.740 orang dan pada 1680 meningkatkan menjadi 32.243 orang
+   335→   335→
+   336→   336→Kompeni berkepentingan menjaga Batavia tetap aman, karenanya menetapkan aturan bagi permukiman orang pribumi di luar tembok dan memaksa mereka tinggal di ommelanden. Mereka dijadikan pertahanan depan jika Batavia diserang dari luar kota. Kedatangan prajurit dari Ambon merupakan pasukan Kompeni yang tiba pada 1656 dan ditempatkan di dekat bagian luar benteng. Pada 1663 sekelompok orang Bugis dipimpin Arung Pattuju diberikan tempat di tepi Sungai Krukut
+   337→   337→
+   338→   338→Perkembangan permukiman di ommelanden diwarnai kemunculan kampung-kampung yang dihuni kelompok diaspora etnik di Nusantara. Beberapa pengelompokan permukiman: Jawa di Mangga Dua, Pagaraman; Bali di Pisang Batu dan di dekat benteng Sevenhoek dan Benteng Vijfhoek; Ambon di sebelah utara Ammanusgracht; Bugis di dekat benteng Sevenhoek; Makassar di bagian utara Ammanusgracht. Ada juga etnik lain yang tidak termasuk dalam daftar, yaitu Kampung Buton dan Kampung Bandan terletak di sebelah utara di sebelah Ancolsevaart .*°
+   339→   339→
+   340→   340→Keragaman pendudukke Batavia dari Indonesiatimur diperkaya dengan kedatangan” Kapitan Jonker”. Dikenal juga dengan sebutan bagi orang Betawi dengan nama Jongkor, komandan pasukan ini
+   341→   341→lahir di Pulau Manipa—antara pulau Buru dan Seram—sekitar 1630. Bekerja pada VOC di bawah De Vlamingh van Outshoorn pada 1656. Dia pernah bertugas di India dan Srilangka (Cylon) meraih pangkat Kapten. la juga berperan dalam perang VOC di pantai barat Sumatra, Pauh, Ulakan, dan Pariaman pada 1666. Setelah berhasil membawa kemenangan VOC, Jonker kembali ke Batavia dan bergabung dengan ekspedisi Speelman. Dalam salah satu penugasannya, Jonker berhasil menangkap Trunojoyo pada 1679. Akhirnya Jonker menetap di Batavia di sebuah distrik di sebelah timur Tanjung Priok. Tempat ini kemudian dikenal dengan nama Pajongkoran. Meskipun namanya mirip orang Eropa, sejatinya Jonker seorang muslim. Bahkan dia dicurigai sebagai salah satu pemimpin pergerakan muslim yang bertujuan mengusir Belanda dari Batavia. Dia dimasukkan ke penjara di Batavia hingga meninggal pada 1689.°'
+   342→   342→
+   343→   343→E. PENGUNGSIAN ARUNG PALAKKA DAN PENGIKUTNYA
+   344→   344→
+   345→   345→Menempatkan Arung Palakka dalam konteks diaspora bukan tanpa alasan. Pengisahan Raja Bone ini tidak hanya mengenai “orang besar” dalam sejarah. Perjalanan pengungsian Arung Palakka diiringi istri, para pembantu dan pasukan yang mengawalnya dalam jumlah sampai ratusan, maka terjadi pula beragam peristiwa mengenai nasib orang kecil. Pelarian Arung Palakka terjadi akibat ekspansi Kerajaan Gowa, yang hampir tak tertandingi di Sulawesi Selatan pada abad ke-17. Arung Palakka dalam keadaan terdesak terus berusaha menemukan tempat aman. Tidak tahan menghadapi serangan demi serangan, Arung Palakka beserta keluarga dan pengikutnya meminta bantuan dari raja-raja di Sulawesi, namun tak satu pun yang bersedia.
+   346→   346→
+   347→   347→51 ~— Enci’ Amin, Syair Perang Mengkasar, ed. oleh C. Skinner (Makassar: Penerbit Inninawa, 2008), 176. Buku ini diterjemahkan dari Sja‘ir Perang Mengkasar: the Rhymed Chronicle of the Macassar War By Enci’ Amin.
+   348→   348→Gambar7.1 Raja Aru Palakka, Penguasa/Raja Bugis, c.a. 1670. Sumber: Rijksmuseum.
+   349→   349→
+   350→   350→Pasukan Gowa terus mengejar Arung Palakka, sampai akhirnya dia menyeberang ke Buton melalui Pallette. Raja Bone itu diterima tangan terbuka oleh sultan Buton, La Awu. Kesultanan Buton waktu itu terombang-ambing antara pengaruh Ternate dan Gowa, ingin melepaskan dari keduanya. Sejak itu Buton menjadi tujuan pelarian banyak dari Bone dan Soppeng. Selain ke Buton, pengungsi Bugis juga ada yang datang di Ternate pada pertengahan 1666. Selain Arung Palakka, pemimpin pengungsi orang Bugis, terdapat pula sembilan Arung Mattola (pangeran) dari Soppeng dan Bone di antaranya: Arung Bila, Arung Appanang, Arung Belo, Arung Pattojo dan Arung Kaju.
+   351→   351→
+   352→   352→Sultan Gowa menuntut Buton supaya menyerahkan Arung Palakka. VOC dan Ternate menolak permintaan Buton untuk membantunya melawan Gowa. Maka diseranglah Buton. Dengan berbagai muslihat, Sultan Buton berhasil melindungi Arung Palakka. Dari tutur lisan dikisahkan Arung Palakka disembunyikan di dinding sumur di dalam keraton Kesultanan Buton. Sumur itu masih ada sampai sekarang.” Satu di antara belasan “pintu” di Benteng Keraton Wolio terdapat Lawana Kampebuni (bahasa Wolio: pintu [untuk] bersembunyi) bagi Arung Palakka. Dari arah masuk ke gerbang utama benteng ke arah kiri maka dijumpai “pintu” dimaksud. Jika ditelusuri jalan setapak di tebing benteng semakin menurun lalu dijumpai gua kecil tempat Arung Palakka bersembunyi. Di Buton, Arung Palakka dikenal dengan nama La Tondu, yang dianggap memiliki keturunan campuran Bugis dan Buton Dalam kaitan itu sampai ada ungkapan “Bone adalah ‘baratnya’ Buton dan Buton adalah ‘timurnya’ Bone”.
+   353→   353→
+   354→   354→Arung Palakka adalah sosok yang mengesankan, sehingga perjalanan hidupnya masih dikenang dan dikisahkan dalam cerita lisan. Dalam Sinrilikna Kappalak Tallumbatua terungkap penggalan kisah mengenai persembunyian Arung Palakka di Buton. Sebelum
+   355→   355→sampai di Buton, Arung Palakka beserta kakaknya, Patta Belo, tengah dalam pengejaran pasukan Gowa, karena itu mereka meminta bantuan raja-raja di Sulawesi Selatan.
+   356→   356→
+   357→   357→Andi Patunru menuju istana Raja Lakbakkang. Raja Lakbakkang pun tidak dapat memberi bantuan. Dua bersaudara ini menuju Sidenreng. Datu Sidenreng pun tak sanggup melawan Gowa. Menujulah mereka ke Bone untuk minta bantuan Arumpone. Arumpone pun tidak mau melawan Gowa. Berjalanlah mereka menempuh lereng Bawakaraeng™* menuju Bantaeng. Raja Bantaeng pun tidak dapat menolong. Andi Patunru menuju Gallarang Bira. Gallarang Bira menganjurkan agar menemui Gallarang Lemo-lemo. Di hadapan Gallarang Lemo-lemo diutarakan maksudnya, bahwa ia akan menuju ke Buton. Tolong diantar ke Buton. Dengan naik perahu diantarlah Andi Patunru ke Buton. [....] Melihat perahu yang begitu banyak, berundinglah Andi Patunru dengan Raja Buton. Andi Patunru mengatakan:’ Apakah kita melawan mereka? “ Raja Buton menjawab , ‘Jangan. Lebih baik engkau kusembunyikan di dalam sumur’. Disembunyikanlah Andi Patunru dua bersaudara di dalam sumur.” Ketika ditanya utusan Gowa di mana Andi Patunru disembunyikan, Raja Buton menjawab bahwa ia tidak ada di atas tanah Buton. Begitulah setelah digeledah semua rumah dan semua gua Andi Patunru tidak ditemukan.
+   358→   358→
+   359→   359→Selama dua tahun (1660-1662) Arung Palakka mengungsi di Buton, tampaknya terjadi pembicaraan yang tiba pada kesimpulan bahwa hanya VOC yang dapat membantu Bone dan Buton melawan kedigdayaan Gowa. Dan, hal demikian yang terjadi. Speelman
+   360→   360→membebaskan Buton dari penyerangan Gowa karena melindungi Arung Palakka. Selepas dari pengungsian di Buton, Arung Palakka bersama pembesar VOC Nieuland menuju Batavia. Untuk sementara isteri Arung Palakka, | Mangkawani Daeng Talele, masih berada dan dilindungi di Buton. Tawaran Raja Bone itu diterima VOC untuk bekerjasama dalam menghadapi Gowa. Dengan kekuatan awal 50 anak buahnya, Arung Palakka berlayar ke Batavia pada November 1663 menumpangi Kapal Belanda Leeuwine. Mereka ditempatkan di perkampungan (Muara) Angke sehingga mereka dikenal dengan Toangke artinya orang Angke
+   361→   361→
+   362→   362→Pada 1663 Arung Patuju pembesar Bugis dan pengikutnya diberikan tempat di pinggir Sungai Krukut, dan menyusul orang Bugis lain pada 1687. Posisi mereka sebagai sekutu VOC, sebagai bagian dari mempersiapkan merebut kembali Makassar, sedangkan orang Makassar ditempatkan di bagian utara Ammanusgracht pada 1673.°"
+   363→   363→
+   364→   364→Kedatangan orang Bugis di Batavia selepas pengungsian Arung Palakka di Buton berbeda sekali karena perasaan hampa. Selama di Buton mereka selalu bersiaga karena jarak Buton relatif dekat dari jangkauan pasukan Gowa. Setelah setahun bermukim di Batavia, pasukan Arung Palakka merasa jemu karena tidak ada kegiatan berarti. Tidak jarang mereka melakukan tindakan yang meresahkan seperti perampokan terhadap masyarakat setempat dan sekitarnya. Kerap terlihat mayat-mayat di Ciliwung dan Ciangke dihanyutkan ke laut akibat perbuatan kekerasan mereka. Masa itu orang Bugis menjadi momok bagi penduduk Batavia
+   365→   365→
+   366→   366→Sementara itu, VOC semakin terancam kepentingannya di timur oleh Gowa maka bekerjasama dengan Arung Palakka menjadi pilihan tepat. Sebagai salah satu uji coba terhadap kekuatan pasukan
+   367→   367→
+   368→   368→56 ~=Patunru, Sejarah Bone, 139. 5/7 Kanumoyoso, Ommelanden: Perkembangan Masyarakat dan Ekonomi di Luar Tembok Kota Batavia, 1684-1740, 80. 58. Patunru, Sejarah Bone, 140-41.
+   369→   369→Arung Palakka, VOC menugaskan Arung Palakka untuk menumpas suatu pemberontakan di pantai barat Sumatra Barat.
+   370→   370→
+   371→   371→F. DIASPORA DI PESISIR BARAT SUMATRA
+   372→   372→
+   373→   373→Perjumpaan antara VOC dengan penguasa lokal di bagian barat pantai Sumatra memperlihatkan dinamika interaksi dan konflik semakin intensif. Dorongan utama politik VOC di pantai barat Sumatra dalam enam dekade abad ke-17 adalah kepentingannya atas perdagangan emas.*”
+   374→   374→
+   375→   375→## 1. Diaspora Aceh
+   376→   376→
+   377→   377→Sebelum VOC memasuki kawasan pantai barat Sumatra, wilayah ini telah lebih dahulu di bawah kekuasaan Aceh. Menurut Lombard, Kesultanan Aceh menguasai seluruh Sumatra. Politik ekspansinya dimulai pada 1612 dengan penyerbuan ke kota-kota di Pesisir Timur Sumatra yaitu Deli dan Aru.° Sedangkan ke pantai barat Aceh berhasil menaklukkan Kerajaan Indrapura yang memiliki 12 pelabuhan yang setiap tahun mengekspor 3.500 bahar lada Aceh menempatkan wakil penguasa di kawasan ini. Kehadiran Aceh berawal pada abad dekade-dekade pertama abad ke-15. Umumnya orang Aceh yang datang kaum lelaki maka banyak dari mereka yang mengawini perempuan pantai barat.*?
+   378→   378→
+   379→   379→Pada 1666 meletus suatu perlawanan rakyat di daerah Pauh yang merembet ke Ulakan dan Pariaman. Seperti gayung bersambut, ketika VOC meminta bantuan pada Arung Palakka untuk menumpas pemberontakan itu. Inilah kesempatan baik bukan saja bagi anak buahnya yang sudah lama “menganggur’ tetapi juga bagi Arung Palakka untuk membuktikan kehebatannya dalam bertempur.
+   380→   380→
+   381→   381→- 61. Kroeskamp, De Westkust en Minangkabau (1665-1668), 75. 62 Gusti Asnan, Dunia Maritim Pantai Barat Sumatera (Yogyakarta: Penerbit Ombak, 2007), 44.
+   382→   382→Dalam bulan Agustus 1666, kompeni menyiapkan Angkatan untuk dikirim ke Sumatra Barat membalas kekalahannya di Pauh. Pasukan VOC dipimpin oleh Abraham Verspreet dengan lima kapal pemburu dibawalah 300 serdadu Belanda dan pasukan Kapiten Jonker dengan anak buahnya terkenal pemberani dari Manipa.
+   383→   383→
+   384→   384→Pada 16 Agustus 1666, pasukan ekspedisi VOC bersama pasukan Arung Palakka berangkat ke barat Sumatra. Perjalanan melalui Indrapura, sementara Pariaman dan Kota Tengah dipertahankan pasukan Aceh dan Minangkabau dengan gigih. Arung Palakka meminta anak buahnya ditempatkan di barisan terdepan. Pasukan Bugis bekerja sama dengan pasukan Kapitan Jonker berhasil menaklukkan benteng Pariaman yang kokoh. Berikut jatuh pula Kotatengah dan Pauh ke tangan gabungan kompeni itu. Kemudian dibangun kembali Kerajaan Pagaruyung dengan mengakui keturunan Tuanku Pagarruyung bergelar Sri Paduka Sultan Akhmad Syah. Sementara itu Arung Palakka atas jasa-jasanya diberi anugerah “Bintang Emas Besar” oleh VOC
+   385→   385→
+   386→   386→Pada 30 Agustus 1666, satuan pasukan Kompeni dari Batavia tiba di Padang. Dua di antaranya yaitu pasukan Kapiten Jonker dan anak buah Arung Palakka. Dalam penyerangan ke Pauh September 1666, pasukan Arung Palakka ditempatkan di barisan terdepan. Pasukan ini dengan memotong jalur pelarian pasukan musuh berhasil membunuh 200 sampai 300 anggota pasukan Minangkabau. Arung Palakka sendiri memenggal tujuh kepala musuh kemudian diserahkan kepada Belanda. Tengkorak para “pemberontak’” itu lalu ditaruh ditonggak bambu sebagai balasan jenazah orang Belanda yang dipancangkan di tonggak di Pauh. Arung Palakka terus memperlihatkan keunggulan sebagai petarung bahkan di sana ia dikenal sebagai “Raja Ulakan”. Ulakan merupakan daerah di bawah pengaruh Aceh. Demikian juga dengan Pariaman.
+   387→   387→
+   388→   388→63. Patunru, Sejarah Bone, 147-48.
+   389→   389→Sementara itu Kapitan Jonker yang tidak kalah hebat karena keberhasilannya kemudian dikenal sebagai “Tuan Pariaman’”
+   390→   390→
+   391→   391→Setelah cukup banyak perhatian di Indonesia timur, mari kita layangkan pandangan mengenai diaspora di kawasan barat Nusantara yang tidak kalah menarik. Kesultanan Aceh mulai merebut dan menguasai perdagangan di ujung utara Sumatra pada paruh pertama abad ke-16. Dalam kurun waktu juga Aceh mengarahkan lebih jauh ke selatan. Aceh melakukan penetrasi dan mencapkan jangkarnya sejauh Manjuta di utara Bengkulu, Indrapura, Tiku, dan Pariaman. Segera setelah itu perhatian diberikan ke Padang—sebuah pelabuhan penghubung ke nagarinagari pedalaman penghasil emas dan lada.™
+   392→   392→
+   393→   393→Hoffman menyebut kehadiran Aceh di pantai Minangkabau dipicu “karena perselisihan para bupati [penghulu nagari-nagari di pantai] dengan kekuasaan yang lebih tinggi [Kerajaan Minangkabau di pedalaman] yang memecah belah sebagian besar masyarakat pantai”.°° Bagaimana persisnya hal itu terjadi, masih belum begitu jelas. Sedangkan De Leeuw, mengutip catatan bertahun 1730, mengatakan bahwa seorang Raja Minangkabau yang menikah dengan putri Sultan Aceh “berkonflik dengan mertuanya karena perselingkuhan istrinya dan harus menyerahkan seluruh Pantai Barat hingga Manjuta kepada Aceh“. Namun yang lebih mungkin, kata De Leeuw menawarkan alternatif kisah, adalah pandangan berikut ini:
+   394→   394→
+   395→   395→Ali Moeghajat Shah, putra gubernur Shamsu Shah—yang memerintah Aceh atas nama penguasa Pidie sampai tahun
+   396→   396→1530—menaklukkan Daya pada tahun 1520, dan juga Pidie dan Pasai pada tahun-tahun berikutnya, meletakkan dasar bagi Aceh yang lebih besar dan perluasan ke seluruh Pesisir Barat. Dapat dipastikan bahwa seorang putra Sultan Meureukom Kaka (Aladdin Riajat Shah al Kahhar), yang wafat pada tahun 1571, adalah gubernur Pariaman sekitar tahun 1575. Pada tahun 1581, Couto menyebutkan Sultan Aceh sebagai penguasa seluruh Sumatra. Sekitar akhir abad ke-16, seluruh Pantai Barat berhutang budi kepada Aceh dan para panglima Aceh tinggal di kota-kota utama, mengumpulkan upeti dan memungut pajak atas barangbarang yang dijual kepada orang non-Aceh. Pada paruh pertama abad ke-17, kekuasaan Aceh di Pesisir Barat semakin mengukuhkan dirinya.’
+   397→   397→
+   398→   398→Orang Aceh, yang disebut Hofman sebagai Aetchinder, menjadikan kota-kota pelabuhan di Pantai Barat sebagai bawahan (vassal). “Setiap nagari di sepanjang pantai harus menyetor 20 Rijkdaalder setiap tahun untuk kepentingan Kesultanan Aceh” Mereka menempatkan seorang wakil kesultanan bergelar panglima di situ. Seperti yang tadi telah disebut, mereka tidak hanya harus mengumpulkan upeti, tetapi juga memungut pajak atas setiap barang yang diperdagangkan.
+   399→   399→
+   400→   400→Pada 1621, Aceh menempatkan seorang panglimanya di Padang, bergelar Panglima Nando Di sana, ia mendirikan benteng di enam tempat: Binuang, Parak Gadang, Parak Laweh, Batung Taba, Tanjung Saba, dan Gurun Laweh. Ia kemudian juga mendirikan semacam istana di daerah Pondok dan tempat-tempat untuk kuda mereka di Kandang. ’° Sebuah naskah kuno lain, Undang-undang Adat Lembaga, mengonfirmasi:
+   401→   401→Pada masa itulah orang-orang Aceh mengunikan [menghuni] Nagari Padang di Kampung Binuang. Adapun yang diperintah oleh orang [Aceh] itu ialah Alanglaweh dan Parakgadang dan Kotobaru dan Paraklaweh dan Tanjuangsabar, sehingga itulah yang diperintah orang Aceh pada masa Penghulu nan Salapan itu di dalam Nagari Padang.””'
+   402→   402→
+   403→   403→Peran Panglima Nando yang utama ialah mengatur sirkulasi perdagangan emas dan lada Minangkabau untuk dikirim ke Aceh. Kata Valentijn, untuk menjalankan peran tersebut, ia berkedudukan pada “sebuah tempat di sepanjang sungai [Batang Arau], di mana lada ditimbang oleh juru timbang dan juru tulis Panglima Aceh, di hadapan para pegawainya."”*
+   404→   404→
+   405→   405→Panglima Nando berkuasa atas tanah Padang melalui tangan para penghulu lokal yang telah menentukan sejak lama.”* Seperti halnya di pedalaman, kepala kaum tertua di nagari-nagari pantai semisal Padang juga merangkap sebagai kepala suku, yang disebut penghulu atau datuk. Salah seorang dari mereka menjadi ketua rapat penghulu atau penghulu kepala. Kepala semacam ini (gelar pusaka) waktu itu disebut bandaro atau bendahara. Pada era Aceh, yang tercatat sebagai bandaro ialah kepala (datuk) dari keluarga Marajo Besar bergelar Bandaro Datuk Marajo Basa.”
+   406→   406→
+   407→   407→Dulu (Jakarta: Mutiara Sumber Widya, 1986), 264; J. KathirithambyWells, “Acehnese Control over West Sumatra up to the Treaty of Painan, 1663," Journal of Southeast Asian History 10, no. 3 (1969): 453-79.
+   408→   408→
+   409→   409→- 72 ~~ Francois Valentijn, Kennelijke Beschrijving van Choromandel, Pegu, Arakan, Bengale, Mocha, van't Nederlandsch Comptoir in Persie en enige zaken van Persepolis overblijfzelen een nette beschrijving van Malakka, t’ Nederlands Comptoir op ‘t Eiland Sumatra, dst, Vijfde Deel (1726); Kroeskamp, De Westkust en Minangkabau (1665-1668).
+   410→   410→Pada 1621, di bawah otoritas Bandaro Datuk Marajo Basa itu terdapat tujuh penghulu atau datuk lainnya di Padang. Mereka adalah Sangguno Dirajo, Rajo Gunung Padang, Rajo di Hilir, Marajo Lelo, Rajo Endah Bumi, Paduko atau Mangkuto Magek dan Rajo di Padang.” Sekalipun demikian, kuasa Panglima Nando, sekalipun terbatas pada aspek perdagangan pantai, tetap berada di atas Bandaro Datuk Marajo Basa dan para datuk lainnya itu.
+   411→   411→
+   412→   412→2. Pengusiran Panglima Aceh dari Pantai Minangkabau
+   413→   413→
+   414→   414→Namun, perlahan-lahan, penolakan terhadap otoritas Panglima Nando mulai muncul pada tahun 1648’° dan menguat pada masa setelahnya. Pada 4 Desember 1656, misalnya, pedagang Anthony van Voorst melaporkan, bahwa ada kecenderungan dari penduduk di Pantai Barat untuk melepaskan diri dari dominasi Aceh.”’ Despotisme yang semakin meningkat dari orang Aceh telah menyebabkan fakta bahwa beberapa nagari pantai “setuju untuk meninggalkan langgam Aceh dengan bantuan Belanda.’’”* Namun, kekuasaan Panglima Aceh, dengan penerimaan maupun penolakan, masih akan terus bertahan hingga satu dekade kemudian.” Pada 1665 barulah mereka terusir dari sana oleh sebuah aliansi antara elite-elite lokal dan Kompeni-Belanda.”
+   415→   415→
+   416→   416→Kisahnya bermula pada tahun 1663 ketika mereka mengirim wakil mereka yang paling cerdik ke Batavia bersama Groenewegen. Mereka bersepakat untuk meminta bantuan Kompeni mengusir otoritas Aceh dan menawarkan izin berdagang bagi Kompeni secara bebas di pantai mereka Pada tahun itu juga, Groenewegen
+   417→   417→
+   418→   418→75. Snakey, Een bijdrage tot de geshiedenis van Sumatra’s Westkust. 76 De Leeuw, Het Painansch Contract.
+   419→   419→
+   420→   420→- 79 ~~ J. Kathirithamby-Wells, “The Inderapura Sultanate: The Foundations of Its Rise and Decline, from the Sixteenth tothe Eighteenth Centuries,” Indonesia, no. 21 (1976): 65-84, https://doi.org/10.2307/3350957
+   421→   421→membawa utusan itu kembali ke Padang “untuk menyelesaikan perjanjian yang telah disepakati dengan negeri itu” Pada 1663, Kompeni dan beberapa penghulu di pesisir menyepakati Het Painansch Contract. Mereka membubuhkan cap jempol merah di atas kertas perjanjian dan bersumpah atas nama Tuhan—Allah ta'ala—dan Quran. Dengan diterimanya perjanjian itu, kata De Leeuw menutup bukunya, “sebuah langkah pertama yang pasti telah diambil untuk menguasai Pantai Barat Sumatra’
+   422→   422→
+   423→   423→Pada 1664, tiga yacht dengan satu kapal layar tiba di Padang membawa 300 tentara Kompeni.™ Pada 1665, aliansi Padang dan prajurit Kompeni yang baru datang mulai menyerang kedudukan orang Aceh di sepanjang pantai Minangkabau De Leeuw menceritakan jalan perang dengan lebih detail.*° Katanya, para ‘pemberontak’ Padang memerintahkan Panglima Aceh untuk keluar dari wilayah mereka. Panglima Nando, karena didukung oleh beberapa pembesar terkemuka Padang dan yakin akan kedatangan bantuan pasukan dari tempat lain, menolak patuh. Para pembesar dan pendukungnya secara numerik adalah minoritas, tetapi mereka adalah yang paling kaya, kata De Leeuw. Akhirnya, setelah tiga
+   424→   424→
+   425→   425→Met Deselve Gemaakt,” Juli 1663; J. E. Heeres, “CCLXXV. Sumatra’s Westkust-Atjeh,” dalam Corpus Diplomaticum Neerlando-Indicum (1663).
+   426→   426→
+   427→   427→- juga 85 jilid, 135 jilid; Arsip Realia, “Accoord Met Deselve Gemaakt.”
+   428→   428→minggu berlalu, 800 orang memang dikirim dari Pariaman melalui Pauh ke Padang untuk membantu Panglima Aceh itu. Orangorang Padang yang sekarang menjadi takut bahwa hal ini akan menyebabkan kehancuran negeri mereka, segera meminta bantuan Kompeni-Belanda, yang menyahutinya dengan senyum semringah dan kedua tangan terbuka—sumber VOC menyebutnya sebagai “permintaan yang sudah lama diinginkan”.’
+   429→   429→
+   430→   430→Aliansi pemberontak Padang menyepakati bahwa Groenogewen dan Jakob van de Kouter akan menyerang pasukan Aceh dari laut, sedangkan para hulubalang Padang sendiri akan menjaga perbatasan darat di Ujung Karang untuk menghentikan pasukan bantuan mendekat. Seluruh pasukan de Kouter yang ada di Pantai Barat diangkut dengan kapal-kapal kecil pada sore hari bersama artileri ke Padang, tempat di mana perang tampaknya akan dipusatkan. Orangorang Aceh, yang telah bersiap di sekitar Gunung Padang, dengan dua pucuk senjata, menembak berulang kali selama pendaratan pasukan Kompeni di pantai berlangsung. Namun, tidak ada akibat yang berarti yang ditimbulkannya selain beberapa luka ringan. Sementara itu, pasukan Aceh yang mencoba turun dari bukit itu, dan berupaya menyerang ke arah kapal-kapal Kompeni, dihentikan oleh satu kompi penembak senapan yang diperintahkan oleh de Kouter untuk berjaga di punggung bukit. Setelah artileri Kompeni juga berhasil mendarat, “meriam kami tanpa menunggu waktu lagi juga melakukan serangan, yang pada malam harinya dengan sukses menghancurkan benteng-benteng di perbukitan”. Pasukan Aceh di sana memilih melarikan diri. Dua meriam berhasil direbut Kompeni dari tangan mereka, dan satu di antaranya ternyata tidak layak pakai. Rumah-rumah orang-orang Aceh yang melarikan diri itu dijarah oleh orang-orang Padang
+   431→   431→
+   432→   432→Panglima Nando dan para pembantu akhirnya diusir dari Padang setelah mereka berada di sana selama 44 tahun. Orangkaja
+   433→   433→Basa dan Radja Palawan, dua penghulu Padang yang menolak kehadiran Kompeni di situ dan telah berperang di sisi Aceh, dibuang bersama seluruh keturunannya untuk selama-lamanya dari Padang.” Orangkaja Ketjil lantas diangkat sebagai Panglima Padang yang baru.”° Kakak laki-lakinya, akan menjadi wakilnya, memegang jabatan Bendahara bergelar Datuk Bandaro Magek Sampono.”! Dengan pengangkatan itu, struktur kekuasaan lokal di Padang pun beralih tangan—dari dominasi Aceh menuju sistem patronase baru di bawah perlindungan Kompeni-Belanda.
+   434→   434→
+   435→   435→## 3. Nasib Diaspora Aceh setelah Pengusiran Panglima
+   436→   436→
+   437→   437→Setahun setelah pengusiran Panglima Aceh dari Padang, Groenewegen berhasil merampungkan pembangunan loji di Padang.”* Pada tanggal 18 Oktober 1665, ia menulis surat ke Batavia, mengabarkan berita baik: “Gudang dan penginapan di Padang hampir selesai.””’ Loji itu hanya sebuah gudang dan sebuah rumah tempat tinggal yang terbuat dari kayu. “Tempat penginapan yang pertama milik Kompeni di Padang,” tulis Kreoskamp di masa yang jauh kemudian.”*
+   438→   438→
+   439→   439→- 90 ~—- Riza, Naskah Undang-undang Adat Lembaga Minangkabau, 120. 91 Hoffman, “Missive van den gesaghebber Coenraad Frederik Hofman en raad tot Padang aan haar Eds. de hooge regeering.”
+   440→   440→
+   441→   441→- 92 ~=E. B. Kielstra, Onze Kennis van Sumatra’s Westkust Omstreeks de Helft der Achttiende Eeu. ‘s (Gravenhage: Martinus Nijhoff, 1887); De Leeuw, Het Painansch Contract.
+   442→   442→| 565
+   443→   443→
+   444→   444→Tidak lama setelah loji itu berdiri, Groenewegen jatuh sakit. Dia meninggal pada penghujung Desember 1665. Hujan yang deras dan kejam mungkin akan sering turun ketika itu. Para sekutunya dilanda cemas, jika sepeninggalnya arah angin berbalik. Mereka terlalu bergantung pada Groenewegen sejauh ini. Janganjangan, penggantinya tidak lagi semurah hati yang diharapkan. Surat pembesar pribumi, setelah kematian Groenewegen, memperlihatkan kekhawatiran itu:
+   445→   445→
+   446→   446→“. Dan Komandan Groenewegen telah meninggal, jadi hati seluruh orang-orang Aceh sekarang sangat besar, tetapi saya akan melanjutkannya dengan pertolongan Tuhan, karena saya tahu Tuan Gubernur Jenderal, yang tidak kekurangan orang untuk dikirim kepada saya dan semua orang Melayu untuk meminta bantuan”. *
+   447→   447→
+   448→   448→Sekalipun otoritas Aceh telah diusir dari sana, kondisi Padang masihjauh daristabil. Sisa-sisa pengaruhnya tidak dapatdihapuskan begitu saja. Para penghulu Pauh yang beraliansi dengan sisa-sisa pengaruh Aceh, mulai menyerang kedudukan Kompeni di Padang tidak berapa lama setelah Groenewegen mangkat. Penyerangan itu tidak sajadilakukan sekali-dua, tetapi berkali-kali. Upaya itu kadang terhalang air sungai yang besar—menyerang di musim hujan jelas bukanlah pilihan yang tepat. Di luar halangan meluapnya sungai, kedudukan Kompeni di sana terua dalam bahaya. Pada April 1666, misalnya, penduduk Pauh dengan bantuan sisa-sisa pasukan Aceh mulai menggempur loji. Serdadu VOC dalam loji sekuat tenaga mempertahankan diri. Tentu saja mereka kemudian berupay maksudnya: Nagari Padang), yang sangat padat penduduknya, di mana penghulu dan wakil (utusan) dari Minangkabau tinggal di sana. Noranda (2023) menerjemahkan /nlandsche Negery sebagai Kerajaan Pedalaman. Terjemahannya yang pas ialah Negeri Pribumi, yang mana dalam hal ini besar kemungkinan yang dimaksud penulis adalah Nagari Padang yang terletak tidak jauh dari loji arah ke hulu. Teks aslinya lihat: Radermacher, “Beschryving van het eiland Sumatra,” 57. 95. “Dagh Register,” 1 Agustus 1666.
+   449→   449→membalas. Pada tahun itu juga, mereka menyusun bala pasukan, berniat memberi pelajaran, berbaris ke arah timur, memasuki Pauh. Mereka dikepalai Komisaris J. Gruis, pengganti Groenewegen, yang berlaku ceroboh. Dia terlalu jauh masuk ke dalam kubu Pauh, sehingga dengan gampang disergap Komisaris itu harus mati dalam pertempuran penuh jebakan, bersama beberapa perwira, dan 130 orang prajurit. Dalam catatan Valentijn, kerugian besar Kompeni itu digambarkan demikian:
+   450→   450→
+   451→   451→Mereka mengutus Tuan J. Gruis sebagai komisaris setelah itu; namun karena kecerobohannya, ia pergi terlalu jauh ke desa Pauh, sehingga kami kehilangan banyak orang di sana ... orang-orang Pauh memukuli banyak orang kita sampai mati ... pada saat pedagang dan komisaris, Jacoub Gruis, dipukuli sampai mati, maka dengan kecerobohannya sendiri, dia, Komandan Iperen, Kapten Bega, Kapten Jan Pig, tiga letnan, dua pedagang, dan 130 prajurit, di dekat desa Pauh, kehilangan nyawa mereka.”
+   452→   452→
+   453→   453→Setahun setelah kekalahan memalukan atas Pauh, Gruis meminta Batavia untuk mendatangkan lebih banyak prajurit. Pada 4 September 1667, sebanyak 300 orang prajurit kulit putih, 200 orang tentara Ambon dan Bugis berlayar dari Batavia ke Padang dengan 5 kapal di bawah pimpinan Verspreet sendiri dan Kapten Poleman.”
+   454→   454→
+   455→   455→Sampai titik ini, dapat dikatakan bahwa kedudukan Aceh mereka masih cukup kuat di desa-desa pantai tetangga Padang
+   456→   456→
+   457→   457→- 97 ~Frangois Valentijn, Kennelijke Beschrijving van Choromandel, Pegu, Arakan, Bengale, Mocha, van't Nederlandsch Comptoir in Persie en enige zaken van Persepolis overblijfzelen een nette beschrijving van Malakka, t Nederlands Comptoir op ‘t Eiland Sumatra, dst, 16.
+   458→   458→
+   459→   459→- 98 | Francois Valentijn, Kennelijke Beschrijving van Choromandel, Pegu, Arakan, Bengale, Mocha, van't Nederlandsch Comptoir in Persie en enige zaken van Persepolis overblijfzelen een nette beschrijving van Malakka, t’ Nederlands Comptoir op ‘t Eiland Sumatra, dst, 16..
+   460→   460→seperti Pauh, Pariaman dan Ulakan, maupun Tiku di utara, bahkan juga Bayang atau Bandar Sepuluh di selatan Padang. Orang-orang Aceh di Pauh bahkan disebut-sebut masih memiliki 200 orang pasukan. Pada waktu yang sama, dari arah Oedjong Karang, yang terletak di utara, dan dari Batoe-bantal, desa paling selatan di wilayah Pauh, dari timur Padang, orang-orang Aceh yang dianggap sebagai pembebas, artinya mereka kuat di situ. Di Bayang, “orangorang besar Aceh” memegang kendali pemerintahan pribumi. Para penduduk Padang, Kota Tengah, dan Oedjong Karang bersumpah secara khidmat “di atas Alcoran” bahwa mereka akan membantu orang Aceh dan berperang bersama mereka, karena Kompeni telah memperlakukan mereka dengan kejam, terutama dalam hal pajak yang dipungut dari perdagangan dan hutan-hutan mereka.
+   461→   461→
+   462→   462→Ekspedisi Verspreet yang dikirim dari Padang untuk menembus desa-desa tetangganya agak di pedalaman Minangkabau itu terutama bertujuan untuk menertibkan simpul! perlawanan yang bertaut dengan Aceh itu. Kota Tengah condong ke pihak musuh; para penghulu menolak hadir bersama VOC melawan aliansi Pauh dan diaspora Aceh. Laporan Orang Kaya Seradja (Dunje Lela) mengatakan ada ancaman masuknya ratusan/seribuan Paoeh dari pegunungan; dia mengkhawatirkan adanya potensi gabungan diaspora Aceh dari Tiku-Pariaman dengan orang-orang Pauh akan menyerang balik kedudukan VOC di Padang. Jadi, fokus Ekspedisi Verspreet beralih dari penetrasi pedalaman menjadi menyelamatkan kedudukan mereka di Padang. VOC di titik ini dalam kondisi terancam oleh sisa-sisa Aceh yang ternyata masih cukup kuat untuk diremehkan.”?
+   463→   463→
+   464→   464→Pada awal 1670 itu, VOC mengakui sendiri, jika permukiman Kompeni memang masih begitu tertindas dan terisolasi oleh penduduk Pauh dan Koto Tangah yang didukung oleh sisa-sisa Aceh, sehingga “tidak ada yang berani menginjakkan kaki di
+   465→   465→luarnya”.'"° Corpus Diplomaticum, 22 Januari 1693 mengatakan bahwa pada tahun 1692 keadaan mulai sedikit lebih tidak stabil di sana-sini di pesisir barat Sumatra. Diaspora Aceh kembali disebutsebut terlibat dalam distabilitas itu. Di Air-Bangis, penguasa yang sah, Indermaradja, dipenjarakan oleh perampas kekuasaan di daerah hulu, dan kekacauan yang ditimbulkannya membuat para “lorrendraeyer” Aceh muncul kembali dengan kapal-kapal mereka. Di tempat lain, terutama di Singkel, Nias, dan pulau-pulau di sekitarnya, orang-orang Aceh secara teratur muncul kembali. Pada tanggal 8 Januari 1693, misalnya, para komandan Aceh masih berada disana dan juga dua kapal Aceh
+   466→   466→
+   467→   467→VOC senantiasa melihat ada unsur Aceh dalam setiap perlawanan. Sampai beberapa dekade awal abad ke-18, Kompeni masih menyebut keterlibatan sisa-sisa Aceh yang bergentayangan di antara elite lokal yang menghasut perang terhadap mereka. Aceh punya sejarah panjang sebagai kesultanan yang tangguh, sekalipun pamor mereka telah meredup menjelang akhir abad ke-17 hingga awal abad ke-18. Akan tetapi, bukti-bukti menunjukkan mereka tetap memberi pengaruh yang signifikan bahkan pada beberapa dekade setelah disingkirkan dari Padang.’*
+   468→   468→
+   469→   469→Namun, pengaruh itu jelas tidak akan berlangsung selamanya mengingat perlahan-lahan kawasan Pantai Barat Minangkabau juga terus berusaha sepenuhnya melepaskan diri dari bayangbayang mereka seiring semakin meredupnya pengaruh mereka di Sumatra umumnya. Selain itu, VOC juga berusaha sekuat tenaga menghabiskan pengaruh Aceh di Pantai Minangkabau karena berpikir, mereka tidak akan aman berdagang di kawasan itu jika pengaruh Aceh tidak dikikis habis.‘”
+   470→   470→Contoh strategi VOC, selain berperang secara fisik, juga masih menerapkan cara yang sama dengan mengikat perjanjian dengan penghulu lokal untuk menjadikan Aceh sebagai musuh bersama. Perjanjian VOC-Air Bangis, misalnya, menegaskan pendapat ini. Dalam perjanjian itu dikatakan bahwa para penghulu di sana bersama dengan negeri-negeri bawahan mereka, berada di bawah perlindungan Kompeni, oleh karena itu menyatakan menganggap semua orang Aceh sebagai musuh mereka. Orang-orang Aceh juga tidak akan diizinkan memasuki pelabuhan-pelabuhan mereka, apalagi menolerir mereka, dan, ketika berada di sana, memberitahukan hal. ini kepada Kompeni, untuk menyerang mereka Dengan demikian, strategi VOC bukan sekadar militer, tetapi juga politik pemisahan dan penjinakan—menghapus Aceh bukan hanya dari peta kekuasaan, tetapi juga dari ingatan politik pantai barat Sumatra.
+   471→   471→
+   472→   472→4. Jejak Aceh yang Tak Padam
+   473→   473→
+   474→   474→PengusiranAceh dari pesisir Minangkabau oleh VOC tidak sertamerta memutus aliran pengaruh. Hegemoni politik dan dagang memang surut, tetapi jejak Aceh—dari hubungan kekerabatan, pilihan gelar, hingga rupa arsitektur—terus berdenyut dalam kehidupan sehari-hari masyarakat pantai. Proses tawar-menawar budaya dalam bentuk hubungan dua arah terus terjadi. Masyarakat pantai Minangkabau memilih dan mengolah unsur Aceh sesuai kebutuhan lokal mereka.
+   475→   475→
+   476→   476→Perkawinan silang dan jaringan sosial telah lama terbentuk sebelum pengusiran. Sejak fase awal kontak, laki-laki Aceh menikah dengan perempuan komunitas pantai Minangkabau. Praktikiniintens pada sekitar empat dekade masa dominasi Aceh di pesisir barat, menciptakan keluarga-keluarga lintas asal yang menjadi pengikat sosial, dagang, dan keagamaan. Perkawinan silang ini bukan sekadar fenomena demografis; ia membentuk jembatan kepercayaan:
+   477→   477→
+   478→   478→104. Kroeskamp, De Westkust en Minangkabau (1665-1668), 84.
+   479→   479→mempermudah mobilitas orang dan barang, serta memperhalus integrasi pendatang Aceh ke struktur nagari pesisir Minangkabau. Sementara itu, pengaruh Aceh juga tercermin pada sistem sosial dan pilihan gelar kehormatan di kawasan pantai. Dalam jaringan pelabuhan—tempat elite niaga dan ulama berinteraksi—masuk terminologi dan gaya patronase yang beririsan dengan praktik Aceh. Gelar dan sapaan kehormatan tertentu, cara mengakui otoritas keulamaan, serta etiket dalam hubungan pedagang-ulamapenguasa lokal menunjukkan persilangan itu. Diaspora Aceh dan keturunannya mengadopsi gelar-gelar adat seperti Bandaro dan Marajo. Begitupun sebaliknya, tradisi lisan di Padang dan Pariaman masih mengenang tokoh-tokoh seperti Marah Aceh atau Panglima Lada sebagai figur pendiri nagari pesisir. Di tingkat mikro, pola ini tampak dalam keluarga-keluarga perantara (broker) yang menghubungkan hinterland Minangkabau dengan jejaring dagang Samudra Hindia yang pernah dikelola Aceh.
+   480→   480→
+   481→   481→Diranah material, pengaruh Aceh menyentuh arsitektur rumah di pesisir Minangkabau. Bukan berarti menyalin bentuk secara mentah, melainkan asimilasi elemen—proporsi ruang, langgam hias, atau teknik pertukangan—yang diadaptasi ke iklim, bahan, dan selera lokal. Hasilnya adalah rupa pesisir yang akrab bagi orang Minangkabau, namun menyimpan aksen Aceh pada detail-detail tertentu: pilihan motif, pembingkaian serambi, hingga cara menata transisi antara ruang publik (menerima tamu dan kegiatan niaga) dan ruang domestik.
+   482→   482→
+   483→   483→- Ketiga aspek ini—baik kekerabatan hasil perkawinan silang
+   484→   484→
+   485→   485→- menciptakan ikatan darah yang melampaui naik-turunnya rezim, jaringan niaga dan perantara tetap membutuhkan bahasa simbolik bersama—gelar, etiket, dan praktik yang sudah mapan selama dominasi Aceh, maupun kebiasaan estetika dan teknik bangunan juga telah dalam mengakar—tetap bertahan dalam ingatan penduduk pantai Minangkabau dan kebiasaan keluarga bahkan ketika pusat politik telah berubah ke tangan VOC.
+   486→   486→## G. DIASPORA BUGIS-MAKASSAR
+   487→   487→
+   488→   488→Ketika pengaruh Aceh mulai melemah tetapi belum sepenuhnya hilang dari pesisir Minangkabau, muncul babak baru dengan kedatangan unsur perantau dari timur: Bugis dan Makassar. Orangorang Bugis mula-mula dibawa oleh VOC sebagai tentara bayaran untuk memperkuat posisi Kompeni di Padang, terutama dalam menghadapi sisa-sisa perlawanan dan ketidakstabilan pascapengusiran Aceh. Sebaliknya, orang-orang Makassar datang lewat jalur dagang, menapaki pelabuhan-pelabuhan pantai sebagai saudagar bebas yang mencari tempatbarusetelahkekalahan mereka di Sulawesi. Rivalitas lama antara Bugis dan Makassar di kampung halaman mereka pun berlanjut di pesisir barat Sumatra: Bugis cenderung berpihak pada VOC dan memperoleh posisi strategis di Padang, sementara kelompok Makassar lebih dekat dengan masyarakat pesisir Minangkabau—berbaur melalui jaringan niaga, perkawinan, dan ikatan sosial. Dari titik inilah terbentuk tatanan sosial baru, di mana perantauan Bugis-Makassar menjadi kekuatan yang turut membentuk wajah maritim dan politik pesisir barat pada paruh akhir abad ke-17.
+   489→   489→
+   490→   490→Dalam bagian ini dibicarakan tiga fase utama kehadiran orang Indonesia Timur di Sumatra Barat: (1) keterlibatan Bugis dalam Ekspedisi Verspreet (1667) bersama VOC menandai peran jangka panjang mereka sebagai pasukan garnisun dan patroli laut; (2) kehadiran pelarian Makassar dalam memperpanjang aliansi Makassar-Minangkabau; serta (3) penetrasi budaya yang tampak dalam bahasa, tekstil, dan kuliner.
+   491→   491→
+   492→   492→## 1. Diaspora dan Peran Sosial-Militer Bugis
+   493→   493→
+   494→   494→Pada 4 September 1667, sebanyak 300 prajurit Eropa di bawah Letnan Abraham Verspreet dan Kapten Poleman berangkat dari Batavia menuju Padang, disertai 100 serdadu Bugis di bawah komando Arung Palakka dan 100 laskar Ambon di bawah Kapiten Jonker. Mereka mendarat di Padang pada 14 September dan segera
+   495→   495→menyerang Pauh dua hari kemudian. Peristiwa ini tercatat dalam disertasi Hendrik Kroeskamp dan dikisahkan kembali secara puitik oleh Nur St. Iskandar dalam Hulubalang Raja. Ekspedisi tersebut menandai babak awal keterlibatan militer Bugis di pantai barat Sumatra. Dalam laporan VOC disebutkan bahwa Pauh ‘hangus terbakar, dan penduduknya menyingkir ke perbukitan di belakang kota’. Setelah penaklukan itu, Arung Palakka kembali ditugaskan VOC ke medan perang lain di Nusantara. Jejak Bugis tidak sertamerta lenyap; kehadiran mereka terus bertahan di masa setelahnya. Catatan VOC pada abad ke-18 memperlihatkan bahwa orangorang Bugis masih menjadi bagian penting garnisun Benteng Padang. Pada tahun 1742, tercatat 81 prajurit Bugis berdinas bersama 108 tentara Eropa di sana.'°° Baik sebagai pelaut maupun sebagai prajurit, oleh Kompeni bagi mereka “disediakan tempat tinggal dan ransum”.'°° Pada 1781, garnisun VOC di Benteng Padang hanya terdiri dari 1 orang panglima panji dan 55 tentara Eropa; 21 prajurit Benggala dan 10 prajurit Bugis.'°’ Hulubalang Bugis dikomandoi letnan atau kapiten mereka pula.'” Pada awal abad ke-18, di Padang terdapat rumah dinas Nachoda Panjangh dan Juru Mudi, keduanya dari Bugis yang berdekatan dengan rumah Kapitan Cina. Semuanya terletak di hilir dari benteng VOC Dewan Padang juga melakukan perbaikan tempat tinggal budak dan rumah Kapten Bugis pada 1734. Untuk itu, Kompeni mengeluarkan biaya sebesar f359.'1°
+   496→   496→
+   497→   497→Di dalam kota, tentara Bugis ditempatkan di atas keempat menara Benteng Padang sebagai pengawas. Mereka juga ditempatkan di pos pertahanan di luar kota, seperti di Kampung
+   498→   498→
+   499→   499→- 109 “Plan van het Fort te Padang omleggende landen 17de eeuw,” Gefacsimileerd in Grote Atlas van de Oost-Indische Compagnie deel Ill, Groot 0.53 - 0.74 El Manuscript, 1709, 58.
+   500→   500→Duri, untuk mengamankan jalur dagang dari dan ke pedalaman dari gangguan perusuh-perusuh Minangkabau.''’ Mereka dikirim ke medan-medan perang terjauh Kompeni di kawasan itu dan terlibat dalam berbagai perang membantu melawan musuh-musuh VOC.'” Di lautan, mereka difasilitasi kapal patroli sendiri untuk mengawasi penyelundupan Mereka juga dibawa sebagai pelaut di kapal dagang Kompeni atau mengendarai kapal dagang mereka sendiri sebagai bawahan Kompeni. **
+   501→   501→
+   502→   502→Ada kalanya mereka membelot karena perlakukan tidak mengenakkanyang mereka terima. Pada 1729, misalnya, tujuh orang Bugis membelot dari kapal Kompeni karena “telah diperlakukan dengan buruk di atas kapal”. Tidak tahu jalur untuk melarikan diri, mereka memilih kembali ke dalam dinas VOC Pada umumnya mereka adalah orang merdeka. Sangat sedikit di antara mereka yang budak. Tercatat ada empat budak Bugis yang dimiliki oleh orang Inggris di Bengkulu. Mereka lantas melarikan diri ke Benteng Padang dan di sana dibebaskan Kompeni “karena sebelumnya mereka adalah orang merdeka”.'’ Pada 1729, juga ditemukan keterangan tentang tujuh orang Bugis yang membelot dari tugas di kapal kembali atas kemauan sendiri. Mereka menyatakan telah diperlakukan dengan buruk di atas kapal. Mereka diizinkan kembali ke dalam dinas VOC.'” Total ada 26 orang yang membelot antara 15 Oktober 1761 hingga akhir Februari 1763, termasuk 17 orang Bugis yang sebagian besar berada di kantor-kantor bawahan di
+   503→   503→luar Padang—12 orang di antaranya telah ditangkap di Natal oleh Inggris. Bagi Kompeni, jumlah sebanyak ini terlalu berlebihan Kehadiran Bugis dalam struktur militer VOC membentuk hubungan ambivalen dengan masyarakat Minangkabau. Di satu sisi mereka dianggap sekutu Kompeni, di sisi lain menjadi simbol kekuatan luar yang menindas. Kasus pembunuhan empat tentara Bugis oleh Raja Alam dari Toboh menunjukkan ketegangan sosial yang masih berlanjut pada masa damai. Raja Alam dari Toboh dan komplotannya telah membunuh empat orang tentara Kompeni dari Bugis di luar masa perang. Raja Alam itu, oleh karena itu, dijatuhi hukuman denda 2.000 rijksdaalder.'’”
+   504→   504→
+   505→   505→2. Makassar dan Jejaring Pesisir Minangkabau
+   506→   506→
+   507→   507→Berbeda dengan Bugis, hubungan Minangkabau dan Makassar justru lebih bersifat kultural dan solidaristik. Selama Perang Makassar (1666-1669), perantau Minangkabau disebutmendukung Sultan Hasanuddin. Syair Perang Mengkasar karya Enci’ Amin bahkan mencatat Datuk Marajalela, seorang Minangkabau, sebagai salah satu informan utama.’*’ Amin menulis:
+   508→   508→
+   509→   509→Khabar itu sangat dirantaikan
+   510→   510→
+   511→   511→Seorang Minangkabau hamba tuturkan
+   512→   512→
+   513→   513→Posisi diaspora Minangkabau dalam Perang Makassar jelas tergambar pada bait ini:
+   514→   514→
+   515→   515→Sangat berani baginda Sultan Hendak melawan Welanda syaitan Minangkabau dengan peranakan Sikapnya itu bukan buatan
+   516→   516→
+   517→   517→Dalam bulan-bulan sesudahnya, tekanan perang Speelman terhadap Makassar (1666-1669) berimbas luas ke pantai barat
+   518→   518→Sumatra. Pada Januari 1666, sumber VOC menyebut, seorang Makassaarsche anachoda bernama Saffar singgah di Padang dengan jung bersenjata besar dan 75-80 awak. Rutenya dari Malaka ke pesisir barat Sumatra dan terus Aceh, membangkitkan kecurigaan sebagai jalur bantuan bagi pihak Aceh. Kapal “Makassar” milik Saffar disita di Air Bangis, pelabuhan penting yang menghubungkan perdagangan Minangkabau-Aceh-Makassar
+   519→   519→
+   520→   520→Namun, “pada malam harinya” Saffar melarikan diri 40-50 mil ke darat, membawa dokumen, senjata, dan barang berharga. Di kapalnya tertinggal catatan kecil berbahasa Melayu kepada orangorang Tiku dan Priaman, serta catatan Portugis untuk penduduk Makassar Sejumlah 30 awak jung Makassar itu “lumer” ke darat bersama Saffar, melarikan diri ke wilayah Minangkabau Laporan VOC menyebut Saffar dan 30 diaspora Makassar yang melarikan diri bersamanya berada di antara kelompok perlawanan orang-orang Minangkabau yang dimotori Paoeh (Pauh) melawan VoOc Kehadiran mereka berperang di sisi orang-orang Pauh mempertegas dan memperluas jaringan Makassar-Minangkabau yang sebelumnya telah terbentuk kuat di Sulawesi.
+   521→   521→
+   522→   522→## 3. Jejak Budaya dan Identitas Hibrid
+   523→   523→
+   524→   524→Sisa-sisa kehadiran Bugis dan Makassar tampak jelas dalam budaya lokal pantai barat. Ada beberapa anasir Bugis-Makassar yang tertinggal dalam budaya setempat, di antaranya dalam aspek pakaian. Kain Bugis atau Bugih Lamo amat melekat dalam alam berpikir orang Minangkabau, dilagukan dalam nyanyi, disyairkan dalam pantun, dan dikabarkan dalam cerita (kaba) bahkan hingga kini. Etnograf Thomas van Kempen menulis mengenai pakaian penduduk pantai pada abad yang sama. Para wanita mengenakan
+   525→   525→sarung atau pakaian dari Makassar atau Bugis yang halus di sekitar bagian bawah baju kurung mereka.'*°
+   526→   526→
+   527→   527→Etnolog Inggris yang bermukim di Bengkulen (Bengkulu) pada 1779, William Marsden, menulis sebuah karya penting tentang Sumatra, History ofSumatra, juga menyinggung banyak aspek dari pakaian perempuan, termasuk yang dikenakan penduduk pantai. Mereka, kata Marsden, menggunakan pakaian yang bahannya “diimpor dari Sulawesi atau Bugis.” Kadang-kadang, kain itu juga disebut “kain Makassar’”.'*°
+   528→   528→
+   529→   529→Sementara itu, dalam aspek gastronomi, anasir Bugis dan Makassar juga tampak pada nama masakan “/apek bugih”. Di Bugis atau Makassar sendiri, nama makanan ini ialah “berongko’.'*’ Sekalipun tidak diketahui secara pasti asal-usulnya hingga sampai ke Minangkabau, namun dari segi penamaan membawa kita menilai kalau jenis penganan ini merupakan warisan yang tertinggal dari kehadiran diaspora Bugis maupun Makassar di kawasan ini maupun jaringan yang terbentuk dari pertemuan ketiganya.
+   530→   530→
+   531→   531→Sumber lisan setempat mengonfirmasi, lapek bugih adalah makanan yang dibawa para pelaut Bugis dan Makassar sejak zaman pelayaran. Makanan ini kemudian berkembang di kalangan masyarakat Minangkabau, disajikan dalam acara kenduri, syukuran keluarga, rapat pemerintahan, acara peringatan tertentu, dan perayaan hari besar Islam.'2°
+   532→   532→
+   533→   533→Berbagai kasus pertemuan Minangkabau-Bugis-Makassar di atas menunjukkan bahwa lautan tampil sebagai medium
+   534→   534→
+   535→   535→- 125 van Kempen, “Aantekeningen over de kleding der kustbewoners,” 1780.
+   536→   536→penghubung yang menyatukan pulau-pulau—archipelagic connectivity’**"—melalui mobilitas orang, barang, dan gagasan. Temuan tentang alur Padang-Ulakan-Tiku-Singkil (patroli Bugis, pencegahan penyelundupan, lalu-lintas dagang) dan perlintasan Makassar-Air Bangis—Pauh (kasus Saffar) menegaskan bahwa pantai barat Sumatra adalah simpul dalam jaringan trans-pulau, bukan pinggiran terpencil. Sewaktu VOC menutup satu koridor (mis. penyitaan kapal Makassar di Air Bangis), jaringan tidak bubar; ia membelah ke darat (awak “lumer” ke Pauh) atau mengalir ke kanal-kanal alternatif. Ini menunjukkan resiliensi jaringan: kontrol di pesisir tidak berarti sama dengan kontrol atas hinterland. Maka, dominasi VOC bersifat mosaik, bukan menyeluruh; connectivity memfasilitasi pergeseran arena (dari laut ke pedalaman) yang menjaga kelangsungan resistensi maupun integrasi.
+   537→   537→
+   538→   538→Dalam jangka panjang, mobilitas lintas-pulau ini menghasilkan identitas hibrida. Dalam kerangka diaspora maritim dan connectivity, ia memperlihatkan transisi identitas yang adaptif—bentuk “creolization maritim’ di pantai barat. Jejakbudaya—kain Bugih Lamo, istilah “kain Makassar”,*° lapek bugih—menjadi penanda material dari identitas hibrida ini. Mereka berfungsi sebagai “boundary objects” yang dapat diterima secara lintas-komunitas: lahir di rute maritim Sulawesi-Sumatra, dipakai/diolah di pesisir Minangkabau, dan mengikat memori tentang hubungan lama.
+   539→   539→
+   540→   540→4. Diaspora Nias
+   541→   541→
+   542→   542→Setelah surutnya hegemoni Aceh di pesisir Minangkabau, dinamika kawasan ini tidak serta-merta tenang. Pelabuhanpelabuhan yang sebelumnya dikuasai para panglima dan pedagang Aceh kini menjadi simpul baru dalam jaringan ekonomi kolonial
+   543→   543→yang dibangun VOC. Bersamaan dengan bergesernya pusat kekuasaan itu, arus manusia dari pulau-pulau sekitarnya, terutama Nias, semakin deras menuju Padang dan pelabuhan-pelabuhan sekitarnya. Mereka datang dalam berbagai peran: sebagai serdadu bayaran, buruh pelabuhan, tukang, maupun budak. Dalam sistem perdagangan kolonial yang menuntut tenaga kerja besar dan murah, Nias menjadi lumbung manusia bagi Kompeni. Namun, kehadiran mereka di pesisir Minangkabau tidak semata menandai penderitaan atau subordinasi; di dalamnya juga tumbuh kisah tentang mobilitas, percampuran sosial, dan lahirnya identitas baru yang ikut membentuk wajah masyarakat pantai.
+   544→   544→
+   545→   545→5. Tentara Bayaran
+   546→   546→
+   547→   547→Kebanyakan orang Nias bekerja sebagai tentara bayaran dalam birokrasi VOC di Pantai Minangkabau. Kehadiran mereka dapat dilacak pada perang-perang Kompeni di Padang melawan musuh-musuh pinggirannya. Pada 1693, misalnya, putra Panglima Padang telah membunuh seorang pembawa panji dan tiga tentara Nias Pada 1701, dalam sebuah serangan yang berhasil ke Koto Baru (Tigabelas Kota), Kompeni di bawah Letnan Caspar Oenen, membawa 130 laskar Nias
+   548→   548→
+   549→   549→Jika terus ditelusuri, akan ditemukan lebih banyak keterangan yang menunjukkan peran orang Nias dalam ketentaraan Kompeni di Padang. Para tentara Nias itu ialah dari kalangan yang merdeka belaka, dan tidak ditemukan dari kalangan budak. Ada upaya Kompeni untuk mengangkat derajat prajurit bayaran dari Nias ini. Empat Niasser (orang Nias), misalnya, pernah dilaporkan tengah dilatih Kompeni menjadi marinir, sekalipun kemudian dilaporkan bahwa mereka melarikan diri
+   550→   550→
+   551→   551→131. Kielstra, Onze Kennis van Sumatra’s Westkust Omstreeks de Helft der Achttiende Eeu. 's, 12.
+   552→   552→
+   553→   553→133. J. E. Schooneveld-Oosterling, Generale Missiven, Deel Xl: 1743-1750 (Den Haag: Instituut voor Nederlandse Geschiedenis, 1997), 31
+   554→   554→Dalam banyak laporan, di sisi lain, istri siri pejabat-pejabat Benteng Padang juga berasal dari Nias Kulit mereka lebih putih dibanding penduduk asli, sebab itu barangkali mereka lebih dipilih untuk dijadikan pasangan oleh pejabat-pejabat Kompeni. Di samping itu, interaksi antara keduanya juga lebih intens dibanding dengan penduduk asli Padang. Jika empat pemuda tadi berhasil lulus dari pelatihan marinir, tentu saja akan terjadi mobilitas ke atas dalam status mereka di bawah payung kekuasaan Kompeni. Begitu pun ketika suami dari istri siri ini meninggal, janda Nias tersebut tidak jarang mewarisi kekayaan yang ditinggalkan suami mereka: berupa tanah dan rumah, termasuk uang pensiun atau pesangon.'° Dua kasus di atas ini menunjukkan proses mobilitas sosial vertikal yang terjadi di kalangan orang Nias di Padang, baik pada laki-laki maupun perempuan. “Menyekolahkan” empat pemuda Nias menjadi marinir atau mengambil istri dari perempuan Nias, dalam batas tertentu telah menunjukkan gejala ke arah terjadinya social-mobility pada piramida masyarakat Kompeni yang nyaris tertutup itu.
+   555→   555→
+   556→   556→6. Budak
+   557→   557→
+   558→   558→Selain sebagai prajurit bayaran, lebih banyak lagi orangorang Nias yang hadir dan dihadirkan sebagai pekerja kasar, kuli bangunan, tukang angkut di pelabuhan, penggarap sawah atau ladang, dan sebagai pekerja tambang ketika tambang emas dibuka Kompeni di Salido. “Biasanya mereka didatangkan untuk bekerja sebagai budak”.'*° Pada 1675, dilaporkan “ada rombongan yang dibawa ke Padang oleh kapal Cina; budak-budak yang dibeli di
+   559→   559→
+   560→   560→-Desember1746.—=~*<“‘<;<C;S;S*”W 134 Vereenigde Oostindische Compagnie, "Exhibitum in Judicia, Padang op Sumatra’s Westkust,’ 16 Mei 1757. 135 Coolhaas, Generale Missiven, Dell X: 1737-1743, 12 Desember 1739. 136 Christine Dobbin, Gejolak Ekonomi, Kebangkitan Islam, dan Gerakan reer Minangkabau 1784-1847 (Jakarta: Komunitas Bambu, 2008),
+   561→   561→> *Gambar 7.2 Tambang emas di Sumatra, kemungkinan Sumatra Barat, c.a. 1694. Sumber: Rijksmuseum
+   562→   562→
+   563→   563→Nias”.'*’ Pada 1676, juga dilaporkan bahwa telah tiba di Padang 14 budak, termasuk 2 wanita dan seorang anak kecil dari Nias. Sebelumnya juga telah datang 40 budak di pulau yang sama Budak Nias tampaknya amat dibutuhkan untuk menyangga beroperasinya kantor utama Kompeni di Padang. Kedatangan budak dari Nias terus saja dilaporkan pada dekade berikutnya sepanjang abad ke-17 dan ke-18. “Dibutuhkan lebih banyak budak,” kata sebuah surat bertahun 1676 dari Benteng Padang memohon izin kepada Batavia untuk menambah pembelian budak, “jika mungkin 150 hingga 200 untuk dikirim ke sini’
+   564→   564→
+   565→   565→Budak Nias ialah pekerja yang kuat dan rajin. Mereka sering mengalami kecelakaan kerja memang, namun tampaknya tidak masalah bagi Kompeni jika tetap terus mempergunakan mereka.""° Bisa jadi juga karena harganya jauh lebih murah dibandingkan budak dari kawasan lain, semisal budak Bali dan Bugis. Jarak pengambilannya yang tidak begitu jauh membuat biaya pengiriman dapat ditekan. Di samping itu, Benteng Padang juga selalu mengalami kekurangan budak, yang mau tidak mau memaksanya untuk tetap menerima kiriman dari Nias. Laporan berikutnya terus mencatat sirkulasi kedatangan kapal-kapal ke Padang membawa budak Nias.'*! Sumber VOC, selengkapnya, menyebut:
+   566→   566→
+   567→   567→Dalam perdagangan budak di Nias, karena dalam beberapa tahun terakhir kami menjual 31 orang budak yang buruk dan sebagian besar tidak memenuhi syarat dibandingkan dengan 49 orang dalam benteng yang dibawa oleh asisten Nicolaas Peperman, dan lagi tahun ini jumlah yang sama
+   568→   568→
+   569→   569→137 spl675. Generale Missiven, Deel IV: 1675-1685, 31 November
+   570→   570→
+   571→   571→675.
+   572→   572→
+   573→   573→138 perliae1676. Generale Missiven, Deel IV: 1675-1685, 30 September
+   574→   574→
+   575→   575→1676.
+   576→   576→
+   577→   577→139 a676. ee Generale Missiven, Deel IV: 1675-1685, 28 November 140 ea1676. Generale Missiven, Deel IV: 1675-1685, 28 November 141 ea678. Generale Missiven, Deel IV: 1675-1685, 21 Desember
+   578→   578→yaitu 31 orang untuk perlengkapan kapal penjelajah Goudvisch, sengaja disiapkan untuk ini, seharga dua thayl. Setiap kali ke Padang, Nicolas membawa budak dari Nias, seperti pada tanggal 21 Juni, dia membawa 11 orang budak lagi. Mereka, pada umumnya, “budak laki-laki yang kuat dan sehat".’*”
+   579→   579→
+   580→   580→Pada 1689, pasokan budak Nias sempat dilaporkan terjadi overload: ada terlalu banyak budak Nias di Padang.. mereka mungkin digunakan untuk layanan swasta, yang berlebih harus dikirim ke pertambangan Seperti telah disinggung juga pada bab-bab sebelumnya, perdagangan budak menjadi lahan basah bagi praktik penyelundupan. Tidak jarang pejabat-pejabat Benteng Padang mengambil budak untuk kepentingannya sendiri maupun menjualnya secara pribadi ke pihak swasta.
+   581→   581→
+   582→   582→Sejak awal, Kompeni memiliki supremasi yang tak terbantahkan di Padang di bawah traktat atas hak ekspor dan impor, mulai dari lada dan emas, hingga garam dan kain, termasuk juga besi dan senjata. Dan, sekitar tahun 1730, hak itu semakin meluas, mencakup hak atas perdagangan budak laki-laki dan perempuan dari Nias Sebelum kembali ke Padang, kapal-kapal swasta Eropa yang berlayar di sekitar utara biasanya akan singgah di Pulau Nias untuk mengambil muatan budak.'*°
+   583→   583→
+   584→   584→Dewan Padang mengizinkan hal ini, asalkan mereka dapat memilih budak-budak terbaik untuk pimpinan mereka. Jika tidak, mereka akan menindak perdagangan ini.'*° Tidak jarang, mereka
+   585→   585→
+   586→   586→- J. A. Van Der Chijs, Nederlandsch-Indisch Plakaatboek 1602-1811,
+   587→   587→juga memberikan hak kepada Cina, seperti yang tadi disebut, yang mereka anggap piawai dan sudah berpengalaman dalam perdagangan budak. Namun, mereka juga harus bersaing dengan “para pedagang ilegal Aceh“ dalam “memburu dan menangkap orang-orang Nias”
+   588→   588→
+   589→   589→Di luar ekspor-impor yang dijalankan Kompeni, perdagangan budak Nias juga bisa berlangsung antarpribadi atau perorangan dalam kota. Seorang atau beberapa orang budak dapat berpindah tangan dari satu tuan ke tuan berikutnya. Dokumen jual-beli budak menunjukkan bahwa pada 17 Januari 1777, misalnya, Tuan Razour telah menjual seorang budak Nias miliknya bernama Ontong kepada Tuan Pieter Decker dengan harga 70 rijksdaalder. “Saya yang bertanda tangan di bawah ini mengakui telah dibayar lunas dan oleh karena itu telah melepaskan semua hak dan tuntutan yang saya miliki atas budak manusia tersebut”
+   590→   590→
+   591→   591→Sekalipun terkenal sebagai pekerja keras dan rajin, namun tidak selamanya budak-budak Nias menjadi hamba yang patuh. Ada catatan yang mengatakan, seorang budak asal Nias “telah pergi dengan pembangkang”.” Artinya, telah terjadi pembelotan, melarikan diri ke pedalaman, dan bergabung dengan penguasa setempat yang memberontak. Para budak Nias tidak jarang melakukan perampokan terhadap pedagang emas. “Totalnya, ada 117 orang, yang merampok pedagang yang membawa emas ke
+   592→   592→
+   593→   593→Eerste Deel 1602-1642 (Batavia: M. Nijhoff, 1885). 147. Coolhaas, Generale Missiven, Dee! V: 1686-1697, 8 Februari 1696. 148 Nationaal Archief van Nederland, “Onderhandse en notariéle akten van overdracht van slaven, opgemaakt te Batavia en Padang,” Den Haag, Netherlands, 1770; Nationaal Archief van Nederland, “Onderhandse en notariéle akten van overdracht van slaven, opgemaakt te Batavia en Padang,” Den Haag, Netherlands, 1772; Nationaal Archief van Nederland, “Onderhandse en notariéle akten van overdracht van slaven, opgemaakt te Batavia en Padang,” Den Haag, Netherlands, 1777.
+   594→   594→7. Jejak Nias: Dari Geladak Kapal ke Panggung Gamad
+   595→   595→
+   596→   596→Pesisir Minangkabau sejak lama menjadi ruang perjumpaan antarsuku/bangsa. Di pelabuhan-pelabuhan kecil dan teluk-teluk dangkalnya, arus manusia dari kepulauan sekitarnya bertemu: pedagang, pelaut, serdadu, hingga mereka yang dibawa sebagai budak. Dalamarsip-arsipVOC abad ke-18,nama Nias kerap muncul— bukan hanya sebagai asal-usul manusia yang diperdagangkan, tetapi juga sebagai aktor yang bergerak, bernegosiasi, dan akhirnya menyatu dengan masyarakat pantai Minangkabau.
+   597→   597→
+   598→   598→Banyak laporan VOC mencatat bahwa para budak asal Nias “telah pergi dengan pembangkang”; frasa yang menempatkan mereka di sisi yang salah dalam kacamata kekuasaan kolonial.'*! Ada yang melarikan diri ke masyarakat setempat ataupun perlindungan Inggris, ada pula yang dituduh merampok atau mencuri Narasi serupa ini memang harus dibaca dengan hatihati: ia lebih mencerminkan kepentingan keamanan Kompeni ketimbang seluruh kompleksitas pengalaman orang Nias di pantai Minangkabau.
+   599→   599→
+   600→   600→Salah satu kasus yang terjaring rapi dalam catatan VOC adalah kejadian pada April 1757. Tiga budak dari Nias—Siontong, Sifolalah, dan Tilida—bersepakat dengan Simadang dari Jongijbackar (Saning Bakar), Simaloua dari Padang Bay (Teluk Padang), dan Gisouw dari Louboubienta (Lubuak Lintah) untuk melarikan diri ke pedalaman.**’ Kesepakatan itu disertai bayaran tanda persetujuan, menandakan bahwa pelarian bukan aksi spontan, melainkan
+   601→
+   602→[showing lines 1-600 of 1175; use offset=601 with limit to continue reading]

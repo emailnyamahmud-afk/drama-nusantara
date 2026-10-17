@@ -661,3 +661,90 @@ Stage Summary:
 - Ringan: konsistensi "Wali Songo" di 12-bab-7.md (38 variasi dari 218 instance di file itu)
 - Positif: konsistensi penamaan tokoh sangat baik; tanggal kunci akurat; format tahun konsisten (M: 1.138× vs Masehi: 28×)
 - Rekomendasi 6 prioritas perbaikan dirinci dalam laporan
+
+---
+Task ID: 10-A
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 4 Bab 1-2
+
+Work Log:
+- Baca 06-bab-1.md (266 KB, 1.521 baris) — Bab I "Nusantara dan Jaringan Perdagangan Eropa" (10 subbab A-J: Sriwijaya→Parameswara→Zheng He→Albuquerque 1511→Portugis-Johor→Portugis-Aceh→Sunda-Portugis→Ratu Kalinyamat→Bangsa Iberia-Ternate)
+- Baca 07-bab-2.md (221 KB, 1.160 baris) — Bab II "Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII" (8 subbab A-H: Tiga Kesultanan Besar Aceh-Mataram-Gowa/Tallo; Militer; Persenjataan; Hewan; Kontribusi Wilayah; Ekspansi & Unifikasi; Kasus Khusus Aceh-Usmani)
+- Ekstrak premis utama + paragraf pembuka + 6-8 temuan kunci per bab + implikasi drama
+- Penekanan pada konflik politik-agama-antar-kerajaan-kolonial, intrik dinasti & pengkhianatan, narasi tokoh-motivasi-konflik dengan data konkret (tahun, lokasi, sumber primer, komoditas, mata uang)
+
+Stage Summary:
+- Bab 1: Penaklukan Malaka 1511 oleh Albuquerque memicu reaksi berkepanjangan dari Johor, Aceh (dukung Turki Usmani), dan Jawa (Demak, Jepara-Ratu Kalinyamat); berakhir dengan pembunuhan Sultan Hairun 1570 oleh Mesquita dan pengusiran Portugis oleh Sultan Baabullah, plus Banda massacre & VOC mulai menggeser Portug is 1605.
+- Bab 2: Tiga kesultanan Islam hegemonik — Aceh (Iskandar Muda), Mataram (Sultan Agung), Gowa-Tallo (Sultan Alauddin, Malikussaid, Hasanuddin) — membangun supremasi regional melalui militer, monopoli ekonomi, legitimasi Islam & diplomasi lintas kawasan (Aceh-Usmani, Gowa-Mataram), sebelum akhirnya tergerus VOC lewat Perjanjian Bongaya 1667, Perjanjian Mataram-VOC 1677-1678, dan Perjanjian Giyanti 1755.
+
+---
+Task ID: 10-E
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 4 Bab 9-10
+
+Work Log:
+- Baca 14-bab-9.md (84 KB, 472 baris) — Bab IX: Riau-Johor dan Aceh di Barat Nusantara Abad XVII
+- Baca 15-bab-10.md (90 KB, 508 baris) — Bab X: Kemunduran VOC
+- Ekstrak premis utama + paragraf konteks + 8 temuan kunci per bab + implikasi drama
+- Identifikasi tokoh (dengan tahun kekuasaan), lokasi, sumber primer, konflik-intrik, detail drama
+- Fokus ekstraksi: konflik politik (Aceh-Johor-Portugis-VOC), intrik dinasti (pernikahan politik Iskandar Muda-Johor), pengkhianatan (komplotan Tun Abdul Jamil-Portugis 1606), aliansi strategis (Johor-Belanda 1602, Aceh-Belanda 1607), korupsi sistemik VOC, perang Inggris-Belanda, persaingan EIC-DOC-Prancis
+- Sertakan data konkret: tahun, lokasi, mata uang (gulden, tahil, real, bahar), komoditas (lada, timah, cengkeh, pala, kopi, opium)
+- Sertakan kutipan langsung singkat: Gaastra ("prioritas VOC irasional", "hampir semua pejabat tinggi terlibat dagang pribadi"), kepanjangan VOC ("vergaan onder corruptie"), Anderson ("korupsi sebagai transaksi sosial"), Alatas ("inersia sistemis")
+- Multi-perspektif: bedakan versi Melayu vs Belanda perjanjian 1685; sebutkan perbedaan pendapat James I vs sejarawan modern soal Amboina 1623; Anderson vs Alatas tentang akar korupsi
+
+Stage Summary:
+- Bab 9: Rivalitas Aceh-Johor abad 17 berubah jadi perlawanan bersama vs VOC, memuncak pada gugurnya Raja Haji Fisabilillah Juni 1784 dan gerilya laut Sultan Mahmud Ri'ayat Syah sampai 1795.
+- Bab 10: VOC bangkrut 31 Desember 1799 dengan utang 134,8 juta gulden akibat korupsi sistemik, 4 perang Inggris-Belanda, dan kekalahan strategis dari EIC—meninggalkan warisan hukum, lingua franca, dan budaya korupsi yang jadi cetak biru kolonialisme Hindia Belanda.
+
+---
+Task ID: 10-B
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 4 Bab 3-4
+
+Work Log:
+- Baca 08-bab-3.md (105 KB, 580 baris) — Bab III "Dinamika Keagamaan Baru: Aktivisme dan Intelektualisme Islam"
+- Baca 09-bab-4.md (135 KB, 749 baris) — Bab IV "VOC di Nusantara: Monopoli dan Negosiasi"
+- Ekstrak premis + 7 temuan kunci (Bab 3) + 9 temuan kunci (Bab 4) + implikasi drama per bab
+- Fokus ekstraksi: konflik (politik-agama, kolonial-lokal, antar-kerajaan), intrik (suksesi, aliansi, pengkhianatan), narasi scene (tokoh-motivasi-konflik)
+- Data konkret: tokoh dengan tahun kekuasaan, lokasi, sumber primer (manuskrip Garrett 3872Y, Itinerario 1596, Spraeck ende woord-boeck 1603, Bustanus Salatin 1636, surat Sultan Alauddin Makassar 1615), komoditas (cengkeh-pala-fuli-lada-kayu cendana-kamper Borneo), mata uang (real, gulden, para, piaster)
+- Kutipan langsung: mare liberum Sultan Alauddin 1615, kebohongan Lintgens di Gelgel, "Pangeran dan prajurit bukan pedagang" (Sultan Agung), sajak Vondel untuk Pattingalloang, catatan VOC tentang utusan Aceh
+- Multi-perspektif: debat A.H. Johns (1984) tentang prioritas Jawhar vs Tuhfah; perdebatan Sleeswyk vs pendapat umum tentang penemu kapal fluit; keraguan tentang keaslian Nasihat al-muluk (Patricia Crone)
+- Output dikembalikan sebagai teks di pesan final agent (tidak ditulis ke file terpisah)
+
+Stage Summary:
+- Bab 3: Jaringan ulama Jawi-Hijaz abad 17 membentuk "Islamic republic of letters" yang menggerakkan tasawuf-filosofis sekaligus aktivisme anti-kolonial, dengan konflik wujudiyyah Aceh (pembakaran kitab 1637) sebagai puncak yang melahirkan tradisi moderasi (Kurani-Sinkili).
+- Bab 4: VOC (berdiri 20 Maret 1602) sebagai institusi hybrid-swasta dengan oktroi 21 tahun, memasuki Nusantara lewat intelijen Itinerario Linschoten (1596), ekspedisi bencana De Houtman (1595-97), pembantaian Banda Coen (1621), dan negosiasi alot dengan sultan-sultan Aceh-Makassar-Ternate-Jayakarta-Mataram yang menolak monopoli penuh.
+
+---
+Task ID: 10-C
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 4 Bab 5-6
+
+Work Log:
+- Baca 10-bab-5.md (125 KB, 1.229 baris) — Bab V "Dari Jaringan Dagang ke Kekuasaan Kolonial: Papua Barat dalam Dinamika Dunia Maritim Timur Nusantara, 1500-1800" (5 subbab A-E: Eksistensi Papua dalam Jaringan Perdagangan; Kedatangan Bangsa Eropa-Pelayaran-Pemetaan; Jaringan Pesisir Barat Papua-Maluku; Biakkers; Zona Seram-Gorom; Lampiran Pemetaan Papua abad 16-17)
+- Baca 11-bab-6.md (115 KB, 2.064 baris) — Bab VI "VOC di Pulau Banda: Monopoli Rempah, Kekerasan, dan Perbudakan" (4 subbab A-D + Catatan Penutup: Sistem Perken Basis Perbudakan & Kuli Kontrak; Stratifikasi & Struktur Sosial VOC; Budak Perken di Kepulauan Banda Abad 17-18; Kehidupan Budak di Perken)
+- Ekstrak premis utama + paragraf pembuka + 8 temuan kunci per bab + implikasi drama
+- Penekanan pada konflik (genosida Banda 1621, pelayaran hongi Tidore, persekongkolan Banda-Mataram-Banten-Inggris 1622, bajak laut Makassar-Ende-Sulu), intrik (perang dinasti Nuku vs Tidore, aliansi tujuh raja Onin 1676, Coen-Sonck korespondensi), narasi (Courthope 4 tahun di Run, Ver Huell-Roosje, mitos empat telur Bikusagara)
+- Data konkret: 15.000→1.000 jiwa Banda (1621); 38 perken (3 Neira+26 Lonthor+6 Ay+2 Run+1 Rosengain); 8 orang kaya dieksekusi + 210 pria dirantai + 347 wanita-anak jadi budak (Jan 1622); 160 tewas di Run (Agustus 1622); surat Coen-Sonck 3 Maret 1622; harga budak 40 rijksdaalder/100 guilders; keuntungan pala 1.220%; 18-20 kora-kora Tidore tahunan; 1790 armada Tidore tangkap 178 budak Kumamba; 1759 Raja Lewa bayar 55 budak ke Makassar
+- Sumber primer dikutip: Nagarakretagama (Jawa abad 14), Tomé Pires Suma Oriental (~1513), Pigafetta (1519), Relacion Miguel Roxo de Brito (1581-82, dicatat ~1600), Valentijn Oud en Nieuw Oost-Indiën, surat Coen-Sonck 3 Maret 1622, Inventaris Arsip Banda ANRI No. 41/47/48/52/53, Ver Huell Herinneringen (1835), Muridan Widjojo Pemberontakan Nuku (2013), Giles Milton Pulau Run (2015), Barjiyah UGM 2009
+
+Stage Summary:
+- Bab 5: Papua Barat sebagai simpul aktif jaringan maritim Nusantara (sosolot-hongi-Biakkers) yang direkayasa VOC jadi relasi kolonial timpang via Mandala Tidore (1660/1667/1689/1700) dan Perjanjian London 1824, dengan pemberontakan Sultan Nuku (1780-1810) dan aliansi tujuh raja Onin 1676 sebagai konflik kunci.
+- Bab 6: Kepulauan Banda sebagai laboratorium kapitalisme kolonial modern — genosida Coen 1621 (15.000→1.000 jiwa), pembagian 38 perken, surat Coen-Sonck 3 Maret 1622 ("seluruh kelompok mereka harus disingkirkan sepenuhnya"), sistem perkenierstelsel dengan keuntungan pala 1.220%, dan perdagangan budak lintas-kawasan via bajak laut Makassar-Ende-Sulu-Tidore hingga penghapusan resmi 1860.
+
+---
+Task ID: 10-D
+Agent: Subagent (Explore)
+Task: Ekstrak drama material Jilid 4 Bab 7-8
+
+Work Log:
+- Baca 12-bab-7.md (190 KB, 1.175 baris) — Bab VII "Diaspora Nusantara: Migrasi dan Perjumpaan Etnik" (8 subbab A-H: Pengantar → Nusantara kisah orang dalam perjalanan → Genosida Banda & diaspora Kei → Diaspora Buton → Ragam Diaspora Batavia → Pengungsian Arung Palakka → Diaspora Pesisir Barat Sumatra [Aceh, Bugis-Makassar, Nias] → Diaspora Bugis-Makassar di Jawa [Banten-Syekh Yusuf, Trunojoyo, Blambangan, Mandar-Buton] → Nuku di kawasan timur)
+- Baca 13-bab-8.md (169 KB, 818 baris) — Bab VIII "Rivalitas dan Resistensi" (15 subbab A-O: Perlawanan Hitu, Hoamoal, Iha, Nuku 1779-1805, Papua, Sultan Agung 1628/1629, Trunojoyo 1674-1680, Untung Surapati, Sultan Ageng Tirtayasa-Syekh Yusuf, Gowa-Tallo 1666-1669, Banjarmasin, Geger Pecinan 1740)
+- Ekstrak premis utama + paragraf pembuka + 8-11 temuan kunci per bab + implikasi drama
+- Penekanan pada konflik (genosida, kudeta, perjanjian sepihak), intrik dinasti (5 bersaudara Bugis-Melayu, suksesi Mataram-Banten-Tidore-Banjar), narasi tokoh-motivasi-konflik dengan data konkret (tahun, lokasi, sumber primer, komoditas, mata uang)
+- Multi-perspektif: kematian Trunojoyo (Babad Jawa Tengah vs Timur), kematian Kapten Tack (Belanda vs Jawa), status Nuku (Belanda vs Inggris-Tidore)
+- Sumber primer yang dirujuk: Tuhfat al-Nafis, Syair Perang Mengkasar (Enci' Amin), Babad Trunojoyo, Sinrilikna Kappalak Tallumbatua, onotan Banda, Van Hoévell, Vermeulen, Widjojo, Ricklefs, Lubis, Andaya, Leirissa, Abu Hamid, de Graaf
+
+Stage Summary:
+- Bab 7: Diaspora Nusantara abad 16-19 — dari genosida Banda 1621 yang melahirkan pelarian ke Kei-Seram, pengungsian Arung Palakka ke Buton, diaspora Aceh di pantai Minangkabau (Panglima Nando 44 tahun), tentara bayaran Bugis & budak Nias di Padang, sampai pemerintahan diaspora Bugis lima-bersaudara di Riau-Johor yang merebut kekuasaan politik lintas Selat Malaka lewat pernikahan dinasti.
+- Bab 8: Sepanjang abad 17-18, penguasa lokal Nusantara melakukan spektrum resistensi penuh terhadap VOC yang berubah dari pedagang jadi penguasa politik — dari perang terbuka (Sultan Agung 1628/1629, Hasanuddin 1666-1669), gerilya ulama (Syekh Yusuf ke Cape Town 1693), kudeta diplomasi (Nuku 1779-1805 lintas Tidore-Papua-Inggris), pemberontakan budak (Untung Surapati & Kapten Tack 1686), gerilya ekonomi (Nata Alam bakar lada 1787), hingga tragedi antar-etnik (Geger Pecinan 1740, 10.000 korban) — yang menjadi embrio kesadaran kolektif anti-kolonial.
