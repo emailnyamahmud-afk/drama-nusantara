@@ -50,6 +50,105 @@ Sumber primer era Mataram Kuno yang SAH adalah:
 
 Referensi historiografi sekunder utama: Bambang Sumadio (ed.) 1977 *Sejarah Nasional Indonesia II*; Coedès (1968) *The Indianized States of Southeast Asia*; Boechari (1986) *Melacak Sejarah Kuno Indonesia Lewat Prasasti*; Soemarsaid Moertono (1968) *State and Statecraft in Old Java*.
 
+### 1.1.2 Sumber Kemenbud RI 2025: Era Prasejarah Nusantara (1,8 juta - 11.700 tahun lalu)
+
+Buku **"Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"** (Kemenbud RI 2025, Jilid 1 Bab 1 "Kondisi Lingkungan Alam" + Bab 2 "Manusia: Persebaran") memberikan bukti paleoantropologi yang menempatkan Nusantara sebagai **laboratorium alam evolusi manusia selama 1,8 juta tahun**. Jauh sebelum kerajaan Hindu-Buddha pertama (Kutai abad 4 M), Nusantara telah menjadi **simpul pertemuan manusia purba dalam lintasan global**.
+
+#### Kerangka Geologis: 3 Kawasan Biogeografi
+
+Nusantara berada di persilangan 3 kawasan biogeografi yang unik di dunia:
+- **Paparan Sunda (Sundaland)** — Asia Tenggara daratan + Sumatra + Jawa + Kalimantan + Bali. Saat glasiasi (zaman es), paparan ini menyatu dengan daratan Asia, memungkinkan migrasi fauna + manusia.
+- **Wallacea** — Sulawesi, Nusa Tenggara, Maluku. Tidak pernah menyatu dengan daratan Asia maupun Australia. Berfungsi sebagai jembatan biologis unik. Dipisahkan dari Paparan Sunda oleh **Garis Wallace** (1869, Alfred Russel Wallace).
+- **Paparan Sahul** — Papua + Australia. Saat glasiasi, menyatu dengan Australia.
+
+Indonesia terbentuk dari pertemuan 3 lempeng tektonik: Indo-Australia (bergerak ke utara 7 cm/tahun), Eurasia, dan Pasifik. Pertemuan ini menciptakan **Cincin Api Pasifik** — Indonesia memiliki 127 gunung berapi aktif.
+
+#### Letusan Supervolcano Toba (74.000 tahun lalu)
+
+Letusan **Youngest Toba Tuff (YTT)** di Sumatera Utara sekitar 74.000 tahun lalu adalah salah satu letusan supervolcano terbesar dalam 25 juta tahun terakhir. Volume letusan: 2.800 km³ material piroklastik. Menciptakan kaldera Danau Toba (100 km × 30 km).
+
+**Teori "Toba Catastrophe Theory"** (Stanley Ambrose 1998): letusan menyebabkan volcanic winter 6-10 tahun + 1.000 tahun pendinginan iklim, mengurangi populasi manusia global ke 3.000-10.000 individu (genetic bottleneck). Namun, **Homo erectus Ngandong Jawa TERNYATA SELAMAT dari letusan Toba** — hidup hingga 117-108 ka (Rizal et al. 2020, *Nature*).
+
+#### Homo erectus — Spesies Manusia Pertama di Nusantara
+
+**Homo erectus** (sensu lato) adalah spesies manusia pertama yang bermigrasi keluar Afrika. Nusantara adalah **ujung timur jelajah Homo erectus di Dunia Lama**. Periode: ± 1,8 juta - 117.000 tahun lalu.
+
+**Situs-situs kunci di Jawa**:
+
+| Situs | Usia | Temuan | Signifikansi |
+|-------|------|--------|--------------|
+| **Bumiayu, Brebes** | ± 1,8 juta tahun | Jejak okupasi Homo erectus + artefak litik | **Bukti tertua Homo erectus di luar Afrika**. Bersama Semedo (Tegal) dan Rancah (Ciamis) — Homo erectus telah menjelajahi Paparan Sunda. |
+| **Sangiran, Sragen** | 1,7 juta - 250.000 tahun | 100+ individu Homo erectus (atap tengkorak, rahang, gigi) + artefak litik dari Formasi Pucangan (1,6-1,2 juta tahun) | **Situs paleoantropologi terkaya di dunia** untuk Homo erectus. UNESCO World Heritage 1996. |
+| **Trinil, Ngawi** | ± 400-800 ribu tahun | 1891: gigi geraham (Trinil 1) + atap tengkorak (Trinil 2). 1892: tulang paha (Trinil 3) | **Penemuan Java Man oleh Eugène Dubois (1891)**. Asal mula paleoantropologi Indonesia. |
+| **Perning, Mojokerto** | ± 1,5 juta tahun | Tengkorak anak Homo erectus (Mojokerto Child) — von Koenigswald 1936 | Anak Homo erectus tertua. |
+| **Ngandong, Ngawi** | **117-108 ribu tahun** (Rizal et al. 2020, *Nature*) | Berbagai fosil Hominin — Homo erectus paling progresif dan termuda | **"Manusia Solo"** (Homo erectus soloensis) — SELAMAT dari Toba. Mungkin hidup berdampingan dengan Homo sapiens awal. Volume otak 1.100-1.250 cc (mendekati Homo sapiens). |
+| **Sambungmacan, Sragen** | 60-70 ka (Yokoyama et al. 2008) | Tengkorak Homo erectus (Sm 1, Sm 3) | Versi progresif Homo erectus. |
+
+#### Trinil 1891 — Eugène Dubois & Java Man
+
+**Eugène Dubois** (Marie Eugène François Thomas Dubois, 28 Januari 1858 - 16 Desember 1940) adalah dokter tentara dan ahli anatomi Belanda yang bertugas di Tulungagung. Penggalian dimulai Agustus 1891 dengan bantuan para tahanan dan 2 kopral Fort van den Bosch: **Gerardus Kriel** dan **Anthony de Winter**.
+
+Kronologi penemuan:
+- **September 1891**: gigi geraham atas ketiga sebelah kiri (Trinil 1)
+- **Oktober 1891**: atap tengkorak (Trinil 2) — ciri tengkorak panjang dengan lunas sagital dan tulang alis tebal
+- **Agustus 1892**: tulang paha sebelah kiri (Trinil 3) — morfologi sepenuhnya mirip manusia modern
+
+Dubois menetapkan ketiga fosil sebagai satu kesatuan spesies baru. Pada 1894, ia beri nama **Pithecanthropus erectus** ("kera-manusia yang berdiri tegak") — nama genus Pithecanthropus dipinjam dari Ernst Haeckel (1868) yang merujuk "missing link" antara kera dan manusia. Sekarang dinamai **Homo erectus**.
+
+**Volume otak**: ± 700 cc — lebih mirip kera daripada manusia (volume Homo sapiens modern 1.350 cc). Dubois awalnya menilai seperti itu, tetapi penelitian kemudian menunjukkan Homo erectus lebih dekat ke manusia modern daripada yang diasumsikan.
+
+**Temuan fauna**: macan purba (Panthera tigris), gajah purba (Stegodon trigonocephalus), banteng purba (Bibos palaeosondaicus), rusa (Cervidae), babi (Suidae), ikan, kerang.
+
+**Repatriasi 2025**: Koleksi Dubois sekarang disimpan di Naturalis Center for Biodiversity, Leiden, Belanda. **26 September 2025** disetujui untuk dipulangkan ke Indonesia. **17 Desember 2025** koleksi Dubois dipamerkan di Pameran Tetap "Sejarah Awal" di Museum Nasional Jakarta.
+
+#### Homo floresiensis — "Hobbit" Flores
+
+Temuan paling menghebohkan dunia ilmu pengetahuan abad 21: **Homo floresiensis** ("Hobbit") di Gua Liang Bua, Pulau Flores, NTT. Ditemukan **2003** oleh **Peter Brown** dan **Mike J. Morwood**.
+
+**Spesimen holotipe LB1** (Liang Bua 1) — kerangka laki-laki mungil:
+- Tinggi badan: **106 cm** (sangat kecil)
+- Volume otak: **450 cc** (sebanding dengan chimpanzee, setengah Homo erectus)
+- Tengkorak panjang dan rendah
+- Tujuh individu ditemukan di Gua Liang Bua — populasi kerdil, bukan penyakit individual
+- Usia lapisan: ± 18.000 tahun lalu (LB1)
+
+**Interpretasi ilmiah**: Asal-usul diperdebatkan. Kemungkinan (a) versi kerdil endemik dari Homo erectus — insular dwarfing di lingkungan kepulauan, atau (b) versi kerdil endemik dari Homo habilis yang lebih primitif. Lingkungan kepulauan Flores (sumber makanan terbatas, isolasi) menciptakan tekanan evolusi unik → pengerdilan. Proses sama dialami gajah **Stegodon** (juga kerdil di Flores).
+
+Leluhur Homo floresiensis ditemukan di **Mata Menge, Cekungan So'a, Flores** — rahang Hominin berusia ± 700.000 tahun.
+
+#### Homo wajakensis — Manusia Modern Awal di Jawa
+
+**Homo (sapiens) wajakensis** ("Manusia Wajak") — manusia modern anatomis awal (MMAA) di Jawa:
+- Periode: **37.400 - 28.500 tahun lalu** (Pleistosen Akhir)
+- Lokasi: Tambang marmer Campurdarat, Tulungagung, Jawa Timur
+- Ditemukan 1888-1890 oleh B.D. van Rietschoten, dianalisis oleh Dubois 1920
+- Ciri: tinggi 155-173 cm, volume otak mendekati Homo sapiens modern, hidung lebar, wajah besar — ciri Australomelanesid
+
+Salah satu manusia modern awal di Asia Tenggara. **Hidup sezaman dengan Homo erectus soloensis dan Homo floresiensis** — Nusantara Pleistosen Akhir adalah **laboratorium interaksi multi-spesies hominin**.
+
+#### Lida Ajer — Gelombang Pertama "Out of Africa" ke Nusantara
+
+**Spesimen Lida Ajer** — bukti tertua manusia modern anatomis awal (MMAA) di Nusantara:
+- Periode: **73.000 - 63.000 tahun lalu**
+- Lokasi: Gua Lida Ajer, karst Payakumbuh, Sumatra Barat
+- Temuan: satu gigi seri (upper central incisor) + satu gigi geraham (molar dua)
+- Signifikansi: konsisten dengan bukti genetik kedatangan MMAA keluar Afrika sebelum 75 ka dan masuk Asia Tenggara sebelum 60 ka. Mungkin mewakili **gelombang pertama "Out of Africa" yang melewati Nusantara menuju Sahul (Australia)**.
+
+#### Seni Purba Tertua di Dunia
+
+- **Goresan zig-zag Trinil** (± 500.000 tahun lalu) — goresan geometris pada artefak kerang, kemungkinan dihasilkan oleh Homo erectus. Jejak seni tertua di dunia.
+- **Lukisan Gua Maros-Pangkep** (lebih dari 50.000 tahun lalu, ada yang 45.500 tahun lalu) — lukisan babi rusa (babirusa), tangan negatif (cap tangan), figur binatang. Dibuat oleh nenek moyang manusia modern. **Salah satu seni lukis gua tertua di dunia** — lebih tua dari lukisan gua Eropa (Chauvet 30.000 tahun, Lascaux 17.000 tahun).
+
+#### Potensi Drama Prasejarah
+
+Dari temuan paleoantropologi Kemenbud 2025, ada 5 ide drama potensial:
+
+1. **Trinil 1891: Java Man** — drama historis-ilmiah tentang Eugène Dubois dan penemuan Java Man
+2. **Manusia Solo: Bertahan dari Toba** — drama prasejarah Homo erectus soloensis yang selamat dari letusan supervolcano Toba 74.000 tahun lalu
+3. **Hobbit Flores: Liang Bua** — drama prasejarah + fiksi ilmiah tentang komunitas Homo floresiensis yang hidup berdampingan dengan komodo + gajah Stegodon kerdil
+4. **Lida Ajer: Gelombang Pertama** — drama prasejarah migrasi MMAA dari Afrika ke Nusantara menuju Australia
+5. **Lukisan Gua Maros-Pangkep: Seni Pertama** — drama prasejarah seni, momen lahirnya ekspresi artistik manusia
+
 ### 1.2 Daftar Lengkap Raja-Raja Mataram Kuno
 
 Berikut daftar raja-raja Mataram Kuno periode Jawa Tengah, disusun berdasarkan **Prasasti Mantyasih (907 M)** dan **Prasasti Wanua Tengah III (908 M)** — keduanya dikeluarkan pada masa Balitung. **Prasasti Wanua Tengah III** lebih lengkap karena memuat tanggal pasti naik takhta setiap raja, dan menyebut 12 raja sebelum Balitung (Prasasti Mantyasih hanya menyebut 9 raja — tidak menyebut Dyah Gula, Dyah Tagwas, Panumwangan, dan Gurunwangi):

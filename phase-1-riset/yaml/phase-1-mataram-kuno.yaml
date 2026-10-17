@@ -1409,6 +1409,318 @@ prompt_library:
         hyperrealistic cinematic, hyperdetailed 8k masterpiece.
 
 # =============================================================================
+# ERA PRASEJARAH NUSANTARA — Konteks Latar Akar (sebelum kerajaan apa pun)
+# =============================================================================
+# SUMBER KEMENBUD RI 2025: Jilid 1 Bab 1 (Kondisi Lingkungan Alam) + Bab 2 (Manusia: Persebaran)
+# =============================================================================
+
+era_prasejarah_nusantara:
+  sumber: "Kemenbud RI 2025, Jilid 1 Bab 1 'Kondisi Lingkungan Alam Nusantara Masa Lampau' + Jilid 1 Bab 2 'Manusia: Persebaran dan Perkembangannya'"
+  deskripsi: >
+    Jauh sebelum kerajaan Hindu-Buddha pertama (Kutai abad 4 M), Nusantara
+    telah menjadi laboratorium alam evolusi manusia selama 1,8 juta tahun.
+    Bab 1-2 Jilid 1 Kemenbud 2025 memberikan bukti paleoantropologi yang
+    menempatkan Nusantara sebagai simpul pertemuan manusia purba dalam
+    lintasan global. Bukti tertua Homo erectus di luar Afrika (1,8 juta
+    tahun) ditemukan di Bumiayu, Jawa Tengah. Temuan fosil Java Man (Trinil
+    1891), Solo Man (Ngandong), Wajak Man, dan Homo floresiensis (Liang Bua
+    2003) membuat Nusantara menjadi salah satu pusat utama studi evolusi
+    manusia dunia.
+
+  # --- KERANGKA GEOLOGIS NUSANTARA ---
+  kerangka_geologis:
+    sumber: "Kemenbud RI 2025, Jilid 1 Bab 1"
+
+    pergerakan_lempeng_tektonik: >
+      Kepulauan Indonesia terbentuk dari pertemuan 3 lempeng tektonik besar:
+      (1) Lempeng Indo-Australia (bergerak ke utara, 7 cm/tahun),
+      (2) Lempeng Eurasia (relatif diam), (3) Lempeng Pasifik (bergerak ke
+      barat). Pertemuan ini menciptakan Cincin Api Pasifik (Pacific Ring of
+      Fire) — Indonesia memiliki 127 gunung berapi aktif.
+
+    paparan_sunda_wallacea_sahul: >
+      Nusantara berada di persilangan 3 kawasan biogeografi:
+      (1) Paparan Sunda (Sundaland) — Asia Tenggara daratan + Sumatra +
+          Jawa + Kalimantan + Bali. Saat glasiasi, paparan ini menyatu
+          dengan daratan Asia.
+      (2) Wallacea — Sulawesi, Nusa Tenggara, Maluku. Tidak pernah menyatu
+          dengan daratan Asia maupun Australia. Berfungsi sebagai jembatan
+          biologis unik.
+      (3) Paparan Sahul — Papua + Australia. Saat glasiasi, menyatu dengan
+          Australia.
+      Garis Wallace (1869, Alfred Russel Wallace) memisahkan Paparan Sunda
+      dan Wallacea. Garis Weber dan Lydekker memisahkan Wallacea dan Sahul.
+
+    siklus_iklim_plestosen: >
+      Selama Pleistosen (2,6 juta - 11.700 tahun lalu), terjadi siklus
+      glasiasi (zaman es) dan interglasiasi. Saat glasiasi maksimum,
+      permukaan laut turun hingga 120 m di bawah level sekarang —
+      Paparan Sunda dan Sahul muncul sebagai daratan. Saat interglasial,
+      permukaan laut naik, kepulauan terbentuk.
+
+    letusan_supervolcano_toba: >
+      Letusan Youngest Toba Tuff (YTT) di Sumatera Utara sekitar 74.000
+      tahun lalu (74 ka) — salah satu letusan supervolcano terbesar dalam
+      25 juta tahun terakhir. Volume letusan: 2.800 km³ material piroklastik.
+      Menciptakan kaldera Danau Toba (100 km × 30 km). Teori "Toba Catastrophe
+      Theory" (Stanley Ambrose 1998): letusan menyebabkan volcanic winter
+      6-10 tahun + 1.000 tahun pendinginan iklim, mengurangi populasi
+      manusia global ke 3.000-10.000 individu (genetic bottleneck). Namun,
+      Homo erectus Ngandong JAWA TERNYATA SELAMAT dari letusan Toba —
+      hidup hingga 117-108 ka (Rizal et al. 2020, Nature).
+
+  # --- MANUSIA PURBA DI NUSANTARA ---
+  manusia_purba:
+    sumber: "Kemenbud RI 2025, Jilid 1 Bab 2"
+
+    homo_erectus_sensu_lato:
+      nama: "Homo erectus (sensu lato)"
+      periode: "± 1,8 juta - 117.000 tahun lalu (Pleistosen Awal sampai Tengah-Akhir)"
+      signifikansi: "Spesies manusia pertama yang bermigrasi keluar Afrika. Nusantara adalah ujung timur jelajah Homo erectus di Dunia Lama."
+
+      situs_penting_jawa:
+        bumiayu:
+          lokasi: "Bumiayu, Brebes, Jawa Tengah"
+          usia: "± 1,8 juta tahun lalu"
+          temuan: "Jejak okupasi Homo erectus + artefak litik (alat batu)"
+          signifikansi: "Bukti tertua Homo erectus di luar Afrika. Bersama Semedo (Tegal) dan Rancah (Ciamis), menunjukkan Homo erectus telah menjelajahi Paparan Sunda."
+
+        sangiran:
+          lokasi: "Sangiran, Sragen, Jawa Tengah (diproklamirkan UNESCO World Heritage 1996)"
+          usia: "1,7 juta - 250.000 tahun lalu (lintas lapisan)"
+          temuan: "Lebih dari 100 individu Homo erectus (atap tengkorak, rahang, gigi) + artefak litik dari Formasi Pucangan (1,6-1,2 juta tahun)"
+          signifikansi: "Situs paleoantropologi terkaya di dunia untuk Homo erectus. Usia teoretis maksimal kedatangan Hominin di Sangiran: 1,7 juta tahun."
+
+        trinil:
+          lokasi: "Desa Kawu, Kecamatan Kedunggalar, Ngawi, Jawa Timur (13 km barat Kota Ngawi)"
+          usia: "± 400-800 ribu tahun lalu (Pleistosen Tengah)"
+          temuan: >
+            1891: gigi geraham (Trinil 1) + atap tengkorak (Trinil 2).
+            1892: tulang paha (Trinil 3).
+          penemu: >
+            Eugène Dubois (Marie Eugène François Thomas Dubois, 28 Januari 1858 - 16 Desember 1940),
+            dokter tentara dan ahli anatomi Belanda, bertugas di Tulungagung.
+            Dibantu para tahanan + 2 kopral Fort van den Bosch: Gerardus Kriel + Anthony de Winter.
+            Penggalian dimulai Agustus 1891.
+          spesies_asli: >
+            Dubois beri nama Pithecanthropus erectus (1894) — "kera-manusia yang berdiri tegak".
+            Nama genus Pithecanthropus dipinjam dari Ernst Haeckel (1868) — "missing link" antara
+            kera dan manusia. Sekarang dinamai Homo erectus.
+          volume_otak: "± 700 cc (lebih mirip kera daripada manusia — volume Homo sapiens modern 1.350 cc)"
+          temuan_fauna: "Macan purba (Panthera tigris), gajah purba (Stegodon trigonocephalus), banteng purba (Bibos palaeosondaicus), rusa (Cervidae), babi (Suidae), ikan, kerang"
+          koleksi: >
+            Ekskavasi Dubois sekarang disimpan di Naturalis Center for Biodiversity, Leiden,
+            Belanda. 26 September 2025: disetujui untuk dipulangkan ke Indonesia.
+            17 Desember 2025: koleksi Dubois dipamerkan di Pameran Tetap "Sejarah Awal"
+            Museum Nasional Jakarta (proses repatriasi).
+          museum: "Museum Trinil didirikan di dekat lokasi ekskavasi Dubois."
+
+        perning_mojokerto:
+          lokasi: "Perning, Mojokerto, Jawa Timur"
+          usia: "± 1,5 juta tahun lalu (anak Homo erectus, ditemukan 1936)"
+          temuan: "Tengkorak anak Homo erectus (Mojokerto Child) — ditemukan oleh von Koenigswald"
+
+        ngandong_solo_man:
+          lokasi: "Ngandong, Ngawi, Jawa Tengah (di dataran fluvial Bengawan Solo)"
+          usia: "117-108 ribu tahun lalu (Rizal et al. 2020, Nature)"
+          temuan: >
+            Berbagai fosil Hominin dari Ngandong, Ngawi, dan Sambungmacan — Homo erectus
+            paling progresif dan termuda.
+          spesies: "Homo erectus soloensis atau Pithecanthropus soloensis ('Manusia Solo') — diusulkan oleh Oppenoorth 1932"
+          volume_otak: "± 1.100-1.250 cc (mendekati Homo sapiens)"
+          signifikansi_kunci: >
+            Homo erectus Jawa SELAMAT dari letusan Toba 74.000 tahun lalu — hidup hingga 117-108 ka.
+            Mungkin hidup berdampingan dengan Homo sapiens awal di Asia Tenggara-Australasia.
+            Garis keturunan Homo erectus Jawa kemungkinan PUNAH TANPA KONTRIBUSI GENETIK
+            SIGNIFIKAN pada nenek moyang manusia modern di wilayah itu (Kaifu et al. 2021).
+
+        sambungmacan:
+          lokasi: "Sambungmacan, Sragen, Jawa Tengah"
+          usia: "60-70 ka (Yokoyama et al. 2008)"
+          temuan: "Tengkorak Homo erectus (Sm 1, Sm 3) — versi progresif"
+
+      situs_penting_wallacea:
+        mata_menge_flores:
+          lokasi: "Mata Menge, Cekungan So'a, Pulau Flores, NTT"
+          usia: "± 700.000 tahun lalu"
+          temuan: "Rahang Hominin — leluhur Homo floresiensis"
+          signifikansi: "Bukti tertua Homo erectus di Wallacea (lintas batas laut). Bersama Calio (Sulawesi) 1,04-1,48 juta tahun, bukti Hominin purba melintasi penghalang air."
+
+        calio_sulawesi:
+          lokasi: "Calio, Sulawesi"
+          usia: "1,04 - 1,48 juta tahun lalu (paleomagnetik + US-ESR)"
+          temuan: "Artefak batu Pleistosen Awal"
+          signifikansi: "Sulawesi dihuni Hominin hampir bersamaan dengan Flores, mungkin lebih awal."
+
+        walanae_sulawesi:
+          lokasi: "Lembah Walanae, Sulawesi Selatan"
+          usia: "± 200.000 tahun lalu"
+          temuan: "Artefak batu + fosil megafauna"
+
+    homo_floresiensis:
+      nama: "Homo floresiensis ('Hobbit')"
+      nama_populer: "Hobbit Flores"
+      periode: "± 700.000 - 50.000 tahun lalu (mungkin selamat hingga 18.000 tahun lalu)"
+      lokasi_temuan_utama: "Gua Liang Bua, Pulau Flores, NTT"
+      tahun_temuan: 2003
+      penemu: "Peter Brown + Mike J. Morwood"
+      spesimen_holotipe: "LB1 (Liang Bua 1) — kerangka laki-laki, kedalaman 5,9 m dari permukaan tanah"
+      ciri_morfologis: >
+        Tinggi badan 106 cm (sangat kecil). Tengkorak panjang dan rendah, volume otak 450 cc
+        (sebanding dengan chimpanzee, setengah Homo erectus). Tujuh individu ditemukan di
+        Gua Liang Bua — populasi kerdil, bukan penyakit individual.
+      interpretasi_ilmiah: >
+        Asal-usul diperdebatkan:
+        (a) Versi kerdil endemik dari Homo erectus — insular dwarfing di lingkungan kepulauan.
+        (b) Versi kerdil endemik dari Homo habilis yang lebih primitif.
+        Lingkungan kepulauan Flores (sumber makanan terbatas, isolasi) menciptakan tekanan
+        evolusi unik → pengerdilan. Proses sama dialami gajah Stegodon (juga kerdil di Flores).
+      signifikansi_drama: >
+        Tokoh paling dramatik dari paleoantropologi Nusantara. "Hobbit" yang hidup
+        berdampingan dengan Homo sapiens awal di Asia Tenggara (overlapping period).
+        Mungkin ada interaksi pertemuan dengan manusia modern pertama. Inspirasi
+        untuk drama fiksi ilmiah + dokumenter.
+
+    homo_wajakensis:
+      nama: "Homo (sapiens) wajakensis ('Manusia Wajak')"
+      periode: "37.400 - 28.500 tahun lalu (Pleistosen Akhir)"
+      lokasi_temuan: "Tambang marmer Campurdarat, Tulungagung, Jawa Timur"
+      tahun_temuan: 1888-1890
+      penemu: "B.D. van Rietschoten, dianalisis oleh Eugène Dubois 1920"
+      ciri_morfologis: >
+        Manusia modern anatomis awal (MMAA) — tapi dengan ciri arkaik tertentu.
+        Tinggi badan 155-173 cm. Tengkorak besar (volume otak mendekati Homo sapiens modern).
+        Hidung lebar, wajah besar — ciri Australomelanesid.
+      signifikansi: >
+        Salah satu manusia modern awal di Asia Tenggara. Mungkin mewakili gelombang
+        migrasi pertama Homo sapiens ke Nusantara. Hidup sezaman dengan Homo erectus
+        soloensis dan Homo floresiensis — Nusantara Pleistosen Akhir adalah laboratorium
+        interaksi multi-spesies hominin.
+
+    lida_ajer_sumatra:
+      nama: "Spesimen Lida Ajer (MMAA Sumatra)"
+      periode: "73.000 - 63.000 tahun lalu"
+      lokasi_temuan: "Gua Lida Ajer, karst Payakumbuh, Sumatra Barat"
+      temuan: "Satu gigi seri (upper central incisor) + satu gigi geraham (molar dua)"
+      signifikansi: >
+        Bukti tertua manusia modern anatomis awal (MMAA) di Nusantara — Sumatra.
+        Konsisten dengan bukti genetik kedatangan MMAA keluar Afrika sebelum 75 ka
+        dan masuk Asia Tenggara sebelum 60 ka. Mungkin mewakili gelombang migrasi
+        pertama "Out of Africa" yang melewati Nusantara menuju Australia.
+
+  # --- ARTEFAK DAN SENI PURBA ---
+  artefak_seni_purba:
+    sumber: "Kemenbud RI 2025, Jilid 1 Bab 2"
+
+    goresan_zigzag_trinil:
+      usia: "± 500.000 tahun lalu"
+      lokasi: "Trinil, Jawa Timur"
+      temuan: "Goresan zig-zag geometris pada artefak kerang"
+      signifikansi: "Interpretasi sebagai jejak seni tertua di dunia — kemungkinan dihasilkan oleh Hominin awal (Homo erectus)."
+
+    lukisan_gua_maros_pangkep:
+      usia: "Lebih dari 50.000 tahun lalu (ada yang 45.500 tahun lalu)"
+      lokasi: "Kawasan karst Maros-Pangkep, Sulawesi Selatan"
+      temuan: >
+        Lukisan gua dengan motif babi rusa (babirusa), tangan negatif (cap tangan),
+        dan figur binatang lain. Dibuat oleh nenek moyang manusia modern.
+      signifikansi: "Salah satu seni lukis gua tertua di dunia — lebih tua dari lukisan gua Eropa (Chauvet 30.000 tahun, Lascaux 17.000 tahun)."
+
+  # --- MITOLOGI DAN NARASI DRAMA ---
+  narasi_drama:
+    sumber_kemenbud: >
+      Bab 1-2 Jilid 1 Kemenbud 2025 memberikan bahan kaya untuk drama
+      prasejarah Nusantara — tetapi tidak dalam bentuk naskah, melainkan
+      dalam bentuk temuan ilmiah. Untuk drama, perlu reka ulang naratif
+      berdasarkan bukti paleoantropologi.
+
+    ide_drama_potensial:
+      drama_00a_java_man:
+        judul: "Trinil 1891: Java Man"
+        periode: "1891 (penemuan) + 500.000 tahun lalu (kehidupan Homo erectus)"
+        genre: "Drama historis-ilmiah"
+        hook: >
+          Eugène Dubois, dokter tentara Belanda di Tulungagung, menggali di
+          tepi Bengawan Solo bersama para tahanan + 2 kopral Fort van den Bosch.
+          September 1891: gigi geraham. Oktober 1891: atap tengkorak.
+          Agustus 1892: tulang paha. Penemuan yang mengubah cara manusia
+          memahami asal-usulnya sendiri.
+        tokoh: ["Eugène Dubois", "Gerardus Kriel", "Anthony de Winter", "Ernst Haeckel (inspirasi teori)"]
+        prompt_t2i_key: >
+          Cinematic scene, 1891 CE Trinil excavation site on banks of Bengawan
+          Solo river East Java, Eugène Dubois (33-year-old Dutch doctor with
+          mustache in 1890s colonial attire) kneeling on riverbank examining
+          a fossil skull cap held in his hands, Javanese prisoners and Dutch
+          colonial corporals digging in background, tropical late afternoon
+          light, dramatic shadows, hyperrealistic cinematic.
+
+      drama_00b_solo_man_ngandong:
+        judul: "Manusia Solo: Bertahan dari Toba"
+        periode: "117.000 - 74.000 tahun lalu (Pleistosen Akhir)"
+        genre: "Drama prasejarah"
+        hook: >
+          Homo erectus soloensis (Manusia Solo) di lembah Bengawan Solo
+          menghadapi letusan supervolcano Toba 74.000 tahun lalu. Bencana
+          global yang diduga memusnahkan banyak spesies — tetapi Manusia
+          Solo SELAMAT, hidup hingga 117-108 ka. Mungkin bertemu Homo
+          sapiens pertama yang datang dari Afrika.
+        tokoh: ["Manusia Solo (karakter fiksi Homo erectus)", "Keluarga Homo erectus Ngandong"]
+        visual: "Pleistosen Jawa Tengah, sabana, gajah Stegodon, harimau purba, letusan Toba di latar belakang"
+
+      drama_00c_hobbit_flores:
+        judul: "Hobbit Flores: Liang Bua"
+        periode: "± 60.000 - 18.000 tahun lalu"
+        genre: "Drama prasejarah + fiksi ilmiah"
+        hook: >
+          Komunitas Homo floresiensis di Pulau Flores — manusia kerdil
+          ber tinggi 106 cm dengan otak 450 cc. Hidup berdampingan dengan
+          gajah Stegodon kerdil, komodo, dan burung predator. Mungkin
+          bertemu Homo sapiens pertama yang lalu lintas menuju Australia.
+        tokoh: ["LB1 (Manusia Hobbit)", "Keluarga Hobbit Liang Bua", "Homo sapiens pendatang"]
+        visual: "Pulau Flores Pleistosen, gua Liang Bua, hutan tropis, komodo, gajah Stegodon kerdil"
+
+      drama_00d_migrasi_out_of_africa:
+        judul: "Lida Ajer: Gelombang Pertama"
+        periode: "73.000 - 63.000 tahun lalu"
+        genre: "Drama prasejarah migrasi"
+        hook: >
+          Manusia modern anatomis awal (MMAA) tiba di Sumatra dari Afrika
+          lewat jalur pesisir. Mungkin gelombang pertama "Out of Africa"
+          yang melewati Nusantara menuju Sahul (Australia). Tiba di Gua
+          Lida Ajer, Payakumbuh, Sumatra Barat.
+        tokoh: ["Keluarga MMAA migran", "Pemburu-pengumpul Sumatra Pleistosen"]
+        visual: "Hutan tropis Sumatra, gua karst, fauna Pleistosen (harimau, gajah, badak)"
+
+      drama_00e_seni_maros_pangkep:
+        judul: "Lukisan Gua Maros-Pangkep: Seni Pertama"
+        periode: "50.000 - 45.500 tahun lalu"
+        genre: "Drama prasejarah seni"
+        hook: >
+          Manusia modern di Sulawesi Selatan melukis babi rusa di dinding
+          gua karst Maros-Pangkep. Salah satu seni lukis tertua di dunia,
+          lebih tua dari Eropa. Momen lahirnya ekspresi artistik manusia.
+        tokoh: ["Pelukis gua (MMAA Sulawesi)", "Keluarga pemburu-pengumpul"]
+        visual: "Gua karst Maros-Pangkep, dinding batu, babi rusa, cap tangan negatif, obor"
+
+  # --- SUMBER PRIMER PALEOANTROPOLOGI ---
+  sumber_primer_paleoantropologi:
+    - "Kemenbud RI 2025 Jilid 1 Bab 1 'Kondisi Lingkungan Alam Nusantara Masa Lampau'"
+    - "Kemenbud RI 2025 Jilid 1 Bab 2 'Manusia: Persebaran dan Perkembangannya'"
+    - "Eugène Dubois, Pithecanthropus erectus (1894) — publikasi asli penemuan Java Man"
+    - "W.F. Oppenoorth, 'Homo (Javanthropus) soloensis, En Pleistocene Mensch van Java' (1932) — Solo Man"
+    - "Yan Rizal et al., 'Last Appearance of Homo erectus at Ngandong, Java, 117,000-108,000 Years Ago', Nature 577 (2020)"
+    - "Y. Kaifu et al., 'Cranial Morphology of Early Javanese Homo erectus: The Ngandong Hominids Revisited', Nature Communications 12 (2021)"
+    - "Yuji Yokoyama et al., 'Gamma-ray spectrometric dating of late Homo erectus skulls from Ngandong and Sambungmacan', Journal of Human Evolution 55 (2008)"
+    - "Peter Brown + Mike J. Morwood, temuan Homo floresiensis di Liang Bua (2003)"
+    - "van den Bergh et al., 'Homo Floresiensis-Like Fossils from the Early Middle Pleistocene of Flores'"
+    - "Carlhoff et al., 'Genome of a Middle Holocene Hunter-Gatherer from Wallacea', Nature 596 (2021) — kerangka Besse Leang Panninge 7.000 tahun"
+    - "Husson et al., 'Javanese Homo erectus on the move in SE Asia ca. 1.8 Ma' (2022)"
+    - "Museum Nasional Jakarta (Pameran Tetap 'Sejarah Awal' sejak 17 Desember 2025)"
+    - "Museum Trinil (di dekat lokasi ekskavasi Dubois)"
+    - "Museum Sangiran (Situs UNESCO World Heritage 1996)"
+    - "Naturalis Center for Biodiversity, Leiden, Belanda (koleksi Dubois — dalam proses repatriasi)"
+
+# =============================================================================
 # KERAJAAN PRA-MATARAM (sebelum 732 M) — Konteks Latar Sejarah
 # =============================================================================
 predecessor_kingdoms:
@@ -1419,6 +1731,7 @@ predecessor_kingdoms:
     baik secara kultural (sinkretisme Siwa-Buddha), politik (warisan takhta),
     maupun ekonomi (jaringan dagang maritim). Pemahaman mereka penting untuk
     drama yang menelusuri akar Mataram ke peradaban sebelumnya.
+
 
   kutai_martadipura:
     nama: "Kutai Martadipura / Kutai Kertanegara (fase awal)"
