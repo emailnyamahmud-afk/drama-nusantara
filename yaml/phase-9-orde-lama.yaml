@@ -1,0 +1,589 @@
+# =============================================================================
+# MASTER PHASE 9 — ERA ORDE LAMA (1950–1965 M)
+# =============================================================================
+# Dokumen komprehensif: riset sejarah + master reference untuk T2I prompt
+# Format YAML untuk struktur data yang dapat dipakai oleh:
+#   - Penulis naskah drama (narrative + characters)
+#   - Artist/Art Director (wardrobe + visual)
+#   - AI prompt engineer (prompt library untuk Stable Diffusion)
+#
+# Status: AUDIT dengan fokus konflik politik, pemberontakan, hubungan internasional
+# Tanggal: 17 Oktober 2026
+# Versi: 1.0 (master YAML phase 9)
+# =============================================================================
+
+meta:
+  era: "Era Orde Lama"
+  periode: "1950–1965 M (15 tahun)"
+  lokasi_geografis: "Seluruh Indonesia — Jakarta, Bandung, Yogyakarta, Sumatera, Sulawesi, Maluku, Papua"
+  penguasa: "Republik Indonesia (RI) — Demokrasi Liberal (1950-1959) → Demokrasi Terpimpin (1959-1965)"
+  ibu_kota: "Jakarta"
+  agama: "Islam (mayoritas), Kristen, Hindu-Buddha, Marxisme/Ateisme"
+  sumber_primer:
+    - "Dokumen pemerintahan RI — di ANRI"
+    - "Dokumen G30S — Sidang Mahmilub 1966-1978"
+    - "Dokumen PKI/Comintern — di IISG Amsterdam dan RGASPI Moscow"
+    - "Arsip CIA — operasi rahasia AS mendukung PRRI/Permesta 1958"
+    - "Arsip Soviet — hubungan RI-Soviet (Trikora, senjata)"
+    - "Naskah pidato Soekarno — Trikora, Ganyang Malaysia, dll."
+    - "Dokumen KAA 1955 — di Kementerian Luar Negeri RI"
+    - "Sumber akademis: M.C. Ricklefs, Robert Cribb (Historical Atlas), John Roosa (Pretext for Mass Murder)"
+  catatan_penting: >
+    Era Orde Lama adalah era paling kompleks dalam sejarah Indonesia modern —
+    konflik politik internal (NASAKOM, Demokrasi Terpimpin), 8 pemberontakan
+    daerah (DI/TII, PRRI/Permesta, RMS, Madiun), hubungan internasional aktif
+    (KAA 1955, Trikora, Dwikora, Non-Blok), dan klimaks G30S 1965.
+
+# =============================================================================
+# NARASI SINGKAT
+# =============================================================================
+narrative:
+  era_overview: >
+    Era Orde Lama adalah era paling kompleks dalam sejarah Indonesia modern.
+    Dari Demokrasi Liberal yang tidak stabil, melalui Dekrit Presiden 5 Juli
+    1959 yang melahirkan Demokrasi Terpimpin, hingga klimaks G30S 1965 yang
+    mengakhiri era Soekarno. Era ini diwarnai oleh 8 pemberontakan daerah,
+    agenda luar negeri visioner (KAA 1955, Trikora, Dwikora, Non-Blok), dan
+    konflik internal tiga kekuatan: Nasionalis-Agama-Komunis (NASAKOM).
+
+  akt_1_democracy: >
+    1950-1959. Demokrasi Liberal — parlementer multipartai yang tidak stabil.
+    Pemilu 1955 — 4 partai besar: PNI, Masyumi, NU, PKI. Kabinet silih berganti.
+    Konstituante gagal menyusun UUD baru. Militer daerah merasa tidak dihargai.
+    8 pemberontakan daerah meletus: DI/TII (Jawa Barat, Sulawesi, Aceh,
+    Kalimantan), PRRI/Permesta (Sumatera, Sulawesi), RMS (Maluku), Madiun 1948.
+
+  akt_2_guided_democracy: >
+    5 Juli 1959. Dekrit Presiden Soekarno — bubarkan Konstituante, kembali ke
+    UUD 1945. Demokrasi Terpimpin dimulai. NASAKOM — Nasionalis (PNI) +
+    Agama (NU) + Komunis (PKI). Soekarno jadi kepala negara dengan kekuasaan
+    penuh. PKI tumbuh menjadi 3 juta anggota di bawah D.N. Aidit.
+
+  akt_3_international_vision: >
+    1955: Konferensi Asia-Afrika di Bandung — 29 negara, Dasasila Bandung,
+    cikal-bakal Gerakan Non-Blok. 1961: Trikora — pembebasan Irian Barat dari
+    Belanda, dengan dukungan senjata Soviet. 1963: Ganyang Malaysia (Dwikora) —
+    konfrontasi dengan Malaysia-Inggris-Australia di Kalimantan. Soekarno
+    menjadi pemimpin Dunia Ketiga bersama Tito, Nehru, Nasser.
+
+  akt_4_catastrophe: >
+    30 September 1965. G30S — Letkol Untung memimpin penculikan dan pembunuhan
+    7 jenderal TNI AD. Soeharto (Kostrad) menumpas dalam 2 hari. PKI dituduh
+    sebagai dalang. Pembantaian massal terhadap anggota/simpatisan PKI —
+    500.000-1.000.000 jiwa. D.N. Aidit dieksekusi 22 November 1965.
+    11 Maret 1966: Supersemar — Soekarno menyerahkan kekuasaan ke Soeharto.
+    Era Orde Lama berakhir. Era Orde Baru dimulai.
+
+# =============================================================================
+# KONFLIK POLITIK INTERNAL
+# =============================================================================
+internal_conflicts:
+  note: >
+    Era Orde Lama diwarnai oleh berbagai konflik politik internal yang akhirnya
+    memuncak pada krisis 1965.
+  phases:
+    - name: "Demokrasi Liberal"
+      period: "1950-1959"
+      characteristics: "Parlementer multipartai tidak stabil, kabinet silih berganti"
+      pemilu_1955: "4 partai besar: PNI, Masyumi, NU, PKI"
+    - name: "Dekrit Presiden 5 Juli 1959"
+      event: "Soekarno membubarkan Konstituante, kembali ke UUD 1945"
+      result: "Demokrasi Terpimpin (1959-1965) dengan NASAKOM"
+    - name: "NASAKOM"
+      concept: "Nasionalis (PNI) + Agama (NU/Masyumi) + Komunis (PKI)"
+      result: "Koalisi tiga kekuatan politik yang akhirnya pecah pada G30S 1965"
+
+# =============================================================================
+# PEMBERONTAKAN DAERAH
+# =============================================================================
+rebellions:
+  note: >
+    8 pemberontakan daerah/separatisme selama era Orde Lama.
+  list:
+    - name: "DI/TII Jawa Barat"
+      period: "1949-1962"
+      location: "Jawa Barat"
+      leader: "Sekarmadji Maridjan Kartosuwirjo"
+      cause: "Mendirikan Negara Islam Indonesia, menolak Pancasila"
+    - name: "DI/TII Sulawesi Selatan"
+      period: "1950-1965"
+      location: "Sulawesi Selatan"
+      leader: "Kahar Muzakkar (Abdul Qahhar Mudzakkar)"
+      cause: "Otonomi daerah, mendirikan Negara Islam"
+    - name: "DI/TII Aceh"
+      period: "1953-1962"
+      location: "Aceh"
+      leader: "Daud Beureueh"
+      cause: "Aceh merasa diabaikan pusat, mendirikan Negara Islam"
+    - name: "DI/TII Kalimantan Selatan"
+      period: "1950-1963"
+      location: "Kalimantan Selatan"
+      leader: "Ibnu Hadjar"
+      cause: "Mendirikan Negara Islam di Kalimantan"
+    - name: "PRRI (Pemerintah Revolusioner RI)"
+      period: "1958-1961"
+      location: "Sumatera"
+      leader: "Ahmad Husein (Dewan Banteng), Sjafruddin Prawiranegara"
+      cause: "Otonomi daerah, desentralisasi, anti-PKI"
+      note: "Didukung CIA (Amerika Serikat)"
+    - name: "Permesta"
+      period: "1958-1961"
+      location: "Sulawesi"
+      leader: "Ventje Sumual (Dewan Mantikoro)"
+      cause: "Otonomi daerah, bergabung dengan PRRI"
+      note: "Didukung CIA"
+    - name: "RMS (Republik Maluku Selatan)"
+      period: "1950-1963"
+      location: "Maluku"
+      leader: "Chris Soumokil"
+      cause: "Separatisme Maluku, bekas KNIL pro-Belanda"
+    - name: "Peristiwa Madiun 1948"
+      period: "1948"
+      location: "Madiun, Jawa Timur"
+      leader: "Musso, Soemarsono"
+      cause: "PKI/FDR memberontak melawan RI"
+
+# =============================================================================
+# G30S 1965
+# =============================================================================
+g30s_1965:
+  date: "30 September - 1 Oktober 1965"
+  leader: "Letkol Untung Syamsuri (Komandan Batalyon I Cakrabirawa)"
+  victims:
+    - "Jenderal Ahmad Yani (Menteri/Panglima AD)"
+    - "Letjen Suprapto"
+    - "Letjen S. Parman"
+    - "Mayjen Sutoyo Siswomihardjo"
+    - "Mayjen Donald Pandjaitan"
+    - "Brigjen Haryono MT"
+    - "Pierre Tendean (ajudan Nasution)"
+  nasution_survived: true
+  nasution_daughter_killed: "Ade Irma Suryani"
+  soeharto_role: "Komandan Kostrad, menumpas G30S dalam 2 hari"
+  aftermath:
+    - "PKI dituduh sebagai dalang"
+    - "Pembantaian massal terhadap anggota/simpatisan PKI (1965-1966)"
+    - "Korban diperkirakan 500.000-1.000.000 jiwa"
+    - "D.N. Aidit dieksekusi 22 November 1965"
+    - "Supersemar 11 Maret 1966 — Soekarno menyerahkan kekuasaan ke Soeharto"
+
+# =============================================================================
+# HUBUNGAN INTERNASIONAL
+# =============================================================================
+international_relations:
+  kaa_1955:
+    name: "Konferensi Asia-Afrika (KAA) 1955"
+    date: "18-24 April 1955"
+    location: "Gedung Merdeka, Bandung"
+    participants: "29 negara Asia-Afrika"
+    key_figures: ["Soekarno (host)", "Jawaharlal Nehru (India)", "Zhou Enlai (Cina)", "Gamal Abdel Nasser (Mesir)"]
+    result: "Dasasila Bandung — 10 prinsip hidup berdampingan. Cikal-bakal Gerakan Non-Blok (1961)."
+
+  trikora:
+    name: "Trikora (Tri Komando Rakyat)"
+    date: "19 Desember 1961 - 1 Mei 1963"
+    goal: "Pembebasan Irian Barat dari Belanda"
+    three_commands: ["Gagalkan pembentukan negara Papua buatan Belanda", "Heibarkan bendera Merah Putih di Irian Barat", "Bersiap untuk mobilisasi umum"]
+    military_operation: "Operasi Mandala dipimpin Mayor Jenderal Suharto"
+    soviet_support: "Pesawat MiG, kapal perang, meriam anti-pesawat"
+    result: "Perjanjian New York 15 Agustus 1962 — Irian Barat diserahkan ke RI 1 Mei 1963"
+
+  dwikora:
+    name: "Dwikora (Dwi Komando Rakyat) — Ganyang Malaysia"
+    date: "25 September 1963 - 11 Agustus 1966"
+    cause: "Soekarno menolak pembentukan Malaysia (dianggap negara boneka imperialis)"
+    military_operation: "Konfrontasi Borneo — pasukan Indonesia vs Malaysia-Inggris-Australia"
+    key_military: ["Ahmad Yani", "Sarwo Edhie Wibowo (RPKAD)"]
+    result: "Berakhir 11 Agustus 1966 setelah Supersemar (Soeharto menghentikan konfrontasi)"
+
+  non_blok:
+    name: "Gerakan Non-Blok"
+    founded: "1961, Beograd"
+    founders: ["Soekarno (Indonesia)", "Tito (Yugoslavia)", "Nehru (India)", "Nasser (Mesir)", "Nkrumah (Ghana)"]
+    role: "Indonesia menjadi pemimpin blok netral — tidak pro-Barat, tidak pro-Timur"
+
+  bloc_relations:
+    soviet_union: "Pemasok senjata utama (MiG-15/17, kapal perang Skoryy-class). Mendukung Trikora."
+    china: "Hubungan dekat awal 1960-an. Ruptur terjadi 1965 setelah G30S."
+    usa: "Hubungan tegang (CIA mendukung PRRI/Permesta 1958). Setelah G30S 1965, AS mendukung Soeharto."
+    japan: "Reparasi perang, hubungan ekonomi."
+
+# =============================================================================
+# KARAKTER & WARDROBE
+# =============================================================================
+characters:
+
+  soekarno_orde_lama:
+    name: "Soekarno"
+    era_period: "1950-1965 M (puncak kekuasaan)"
+    age_dramatic: "50-60 tahun"
+    narrative_short: >
+      Puncak kekuasaan Soekarno. Dekrit 5 Juli 1959. NASAKOM. KAA 1955.
+      Trikora. Dwikora. G30S 1965. Supersemar 1966.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Baju safari coklat muda (nasional) atau jas putih (formal)"
+      lower_body: "Celana panjang atau kain batik"
+      accessories: ["Kacamata hitam", "Tongkat komando"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Soekarno Orde Lama era 1960s, charismatic
+        Indonesian president 50s with slicked back gray hair, wearing white
+        safari suit with black peci cap and dark sunglasses, raising fist in
+        speech, Merdeka Palace background with Indonesian flag, dramatic golden
+        hour, hyperrealistic cinematic portrait, hyperdetailed 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Soekarno 1960s, black peci, light brown
+        safari suit, batik kain at waist, dark sunglasses, brown and black
+        color palette, matte fabric texture, museum-quality detail shot,
+        hyperdetailed 8k.
+
+  kartosuwirjo:
+    name: "Kartosuwirjo"
+    full_name: "Sekarmadji Maridjan Kartosuwirjo"
+    era_period: "1905-1962 M (DI/TII 1949-1962)"
+    age_dramatic: "50-an"
+    narrative_short: >
+      Pendiri dan Imam Negara Islam Indonesia (NII). Pemimpin DI/TII Jawa
+      Barat. Gerilya 13 tahun. Ditangkap 1962, dieksekusi.
+    wardrobe:
+      headwear: "Sorban putih"
+      upper_body: "Jubah putih/krem"
+      lower_body: "Kain sarung"
+      accessories: ["Keris", "Kitab", "Tasbih"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Kartosuwirjo, Indonesian Islamic rebel leader
+        1950s DI/TII, charismatic bearded man 50s with fierce religious eyes,
+        wearing white/cream Islamic jubah with white sorban, kain sarung, keris
+        at waist, holding Islamic book and tasbih, jungle guerrilla camp
+        background in West Java mountains, dramatic morning mist, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Kartosuwirjo 1950s DI/TII leader, white
+        sorban, white/cream jubah, kain sarung, keris at waist, Islamic book,
+        tasbih, white and earth-tone color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  kahar_muzakkar:
+    name: "Kahar Muzakkar"
+    full_name: "Abdul Qahhar Mudzakkar"
+    era_period: "1919-1965 M (DI/TII Sulawesi 1950-1965)"
+    age_dramatic: "40-an"
+    narrative_short: >
+      Pemimpin DI/TII Sulawesi Selatan. Gerilya 15 tahun di hutan Sulawesi.
+      Tewas 1965 dalam pertempuran TNI.
+    wardrobe:
+      headwear: "Sorban hitam"
+      upper_body: "Jubah gelap"
+      lower_body: "Kain sarung"
+      accessories: ["Senapan", "Keris", "Tasbih"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Kahar Muzakkar, Indonesian Islamic rebel leader
+        1950s-60s DI/TII Sulawesi, fierce bearded warrior 40s with determined
+        eyes, wearing dark Islamic jubah with black sorban, kain sarung, rifle
+        and keris at waist, Sulawesi jungle background with guerrilla fighters,
+        dramatic golden hour, hyperdetailed hyperrealistic 8k masterpiece.
+
+  ahmad_husein:
+    name: "Ahmad Husein"
+    era_period: "1921-1995 M (PRRI 1958-1961)"
+    age_dramatic: "30-40 tahun"
+    narrative_short: >
+      Pemimpin PRRI. Kolonel yang memproklamasikan PRRI 15 Februari 1958.
+      Menuntut otonomi daerah. Didukung CIA.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Seragam militer hijau zaitun"
+      lower_body: "Celana panjang militer"
+      accessories: ["Pistol", "Peta Sumatera"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Ahmad Husein, Indonesian military rebel leader
+        1958 PRRI, stern military man 30-40 with determined eyes, wearing
+        olive green military uniform with peci hitam, pistol at waist, holding
+        map of Sumatera, PRRI headquarters background in Bukittinggi, dramatic
+        tense atmosphere, hyperdetailed hyperrealistic 8k masterpiece.
+
+  letkol_untung:
+    name: "Letkol Untung Syamsuri"
+    era_period: "1926-1966 M (G30S 1965)"
+    age_dramatic: "30-40 tahun"
+    narrative_short: >
+      Pemimpin operasional Gerakan 30 September 1965. Komandan Batalyon I
+      Cakrabirawa. Menculik dan membunuh 7 jenderal TNI AD. Dieksekusi 1966.
+    wardrobe:
+      headwear: "Baret merah Cakrabirawa"
+      upper_body: "Seragam loreng TNI"
+      lower_body: "Celana panjang militer"
+      accessories: ["Pistol", "Peta Jakarta"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Letkol Untung Syamsuri, Indonesian military
+        officer G30S leader 1965, mysterious tense man 30-40 with unreadable
+        eyes, wearing TNI camouflage uniform with red Cakrabirawa beret and
+        peci underneath, pistol at waist, Jakarta night background with
+        Cakrabirawa headquarters, dramatic tense night atmosphere, hyperdetailed
+        hyperrealistic 8k masterpiece.
+
+  sutan_sjahrir:
+    name: "Sutan Sjahrir"
+    era_period: "1909-1966 M"
+    age_dramatic: "50-an"
+    narrative_short: >
+      Perdana Menteri pertama RI (1945-1947). Sosialis demokratik. Oposisi
+      Orde Lama. Dibuang ke Pulau Buru 1962. Wafat 1966 di Zürich.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas abu-abu, kemeja putih"
+      lower_body: "Celana panjang abu-abu"
+      accessories: ["Kacamata", "Buku/koran"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Sutan Sjahrir, Indonesian socialist democrat
+        1950s-60s, intellectual man 50s with thoughtful eyes and glasses,
+        wearing grey suit with white shirt and black peci, holding book and
+        newspaper, Jakarta study background with political documents,
+        dramatic afternoon light, hyperdetailed hyperrealistic 8k masterpiece.
+
+  sarwo_edhie:
+    name: "Sarwo Edhie Wibowo"
+    era_period: "1925-1989 M"
+    age_dramatic: "40-an"
+    narrative_short: >
+      Komandan RPKAD yang menumpas G30S 1965. Memimpin operasi Konfrontasi
+      Malaysia. Mertua Presiden SBY.
+    wardrobe:
+      headwear: "Baret merah RPKAD"
+      upper_body: "Seragam loreng RPKAD"
+      lower_body: "Celana panjang militer"
+      accessories: ["Pistol", "Peta"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Sarwo Edhie Wibowo, Indonesian RPKAD commander
+        1965, stern military man 40s with determined eyes, wearing RPKAD
+        camouflage uniform with red beret and peci, pistol at waist, Jakarta
+        military headquarters background, dramatic tense atmosphere, hyperdetailed
+        hyperrealistic 8k masterpiece.
+
+# =============================================================================
+# LOKASI
+# =============================================================================
+locations:
+
+  bandung_kaa_1955:
+    name: "Bandung — Konferensi Asia-Afrika 1955"
+    prompt_t2i:
+      landscape: >
+        Cinematic scene of Bandung Conference 1955, Gedung Merdeka with 29
+        Asian-African delegations, Soekarno (white suit with peci), Nehru
+        (Indian sherwani), Zhou Enlai (Mao suit), Nasser (Egyptian military
+        uniform), large conference hall, warm afternoon light, cinematic wide
+        shot, hyperdetailed historic reconstruction, 8k masterpiece.
+
+  jakarta_1960s:
+    name: "Jakarta 1960s — Era Soekarno"
+    prompt_t2i:
+      landscape: >
+        Cinematic scene of Jakarta 1960s, Jalan Sudirman with Hotel Indonesia
+        under construction, Gelora Bung Karno stadium, becak three-wheel
+        pedicabs, Indonesian workers in white short-sleeve shirts and peci,
+        women in kebaya and kain batik, vintage cars, warm tropical afternoon
+        light, cinematic wide shot, hyperdetailed 8k masterpiece.
+
+  irian_barat_trikora:
+    name: "Irian Barat — Operasi Trikora 1961-1963"
+    prompt_t2i:
+      landscape: >
+        Cinematic scene of Trikora operation 1961-1963, Indonesian military
+        landing on West Papua beaches, soldiers in olive uniform with peci,
+        Soviet-supplied MiG aircraft overhead, Dutch flag being lowered and
+        Indonesian flag raised, dramatic tropical morning, painterly epic,
+        hyperdetailed 8k masterpiece.
+
+  borneo_dwikora:
+    name: "Kalimantan — Konfrontasi Malaysia (Dwikora) 1963-1966"
+    prompt_t2i:
+      landscape: >
+        Cinematic scene of Confrontation (Dwikora) in Borneo jungle 1963-1966,
+        Indonesian RPKAD soldiers in camouflage with red beret and peci, moving
+        through dense jungle toward Malaysian border, British Gurkha soldiers
+        in background, dramatic tense atmosphere, painterly epic, hyperdetailed
+        8k masterpiece.
+
+  g30s_lubang_buaya:
+    name: "Lubang Buaya — G30S 1965"
+    prompt_t2i:
+      landscape: >
+        Cinematic tense scene of Lubang Buaya 1 October 1965, Indonesian
+        soldiers in Cakrabirawa uniform, captured generals being taken to
+        well, dark forest clearing at night, dramatic torchlight, tense
+        atmosphere, painterly dramatic, hyperdetailed 8k masterpiece.
+
+# =============================================================================
+# WARDALE
+# =============================================================================
+wardrobe:
+
+  soekarno_safari:
+    name: "Busana Soekarno (Baju Safari)"
+    elements: ["Baju safari coklat muda", "Peci hitam", "Kain batik", "Kacamata hitam"]
+    prompt_t2i: >
+      Detailed Soekarno safari wardrobe 1960s, black peci, light brown safari
+      suit, batik kain at waist, dark sunglasses, brown and black color palette,
+      matte fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  military_tni_orde_lama:
+    name: "Busana Militer TNI Era Orde Lama"
+    elements: ["Seragam hijau zaitun (AD)", "Baret merah (RPKAD)", "Topi baja M1", "Peci hitam di bawah topi", "Pistol"]
+    prompt_t2i: >
+      Detailed Indonesian military wardrobe 1960s Orde Lama, olive green AD
+      uniform, red RPKAD beret, peci hitam underneath, M1 steel helmet, pistol
+      at waist, olive green and red color palette, matte fabric texture,
+      museum-quality detail shot, hyperdetailed 8k.
+
+  di_tii_rebel:
+    name: "Busana DI/TII (Pemberontak Islam)"
+    elements: ["Jubah putih/krem", "Sorban putih", "Kain sarung", "Keris", "Senapan", "Tasbih"]
+    prompt_t2i: >
+      Detailed DI/TII rebel wardrobe 1950s, white sorban, white/cream jubah,
+      kain sarung, keris at waist, rifle, tasbih, white and earth-tone color
+      palette, matte fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  marxist_activist:
+    name: "Busana Aktivis Marxis/PKI"
+    elements: ["Kemeja putih sederhana", "Celana panjang hitam", "Peci hitam", "Beret merah (kadang)"]
+    prompt_t2i: >
+      Detailed Indonesian Marxist activist wardrobe 1960s, white cotton shirt,
+      black trousers, black peci, red beret, red star pin, black and white
+      color palette with red accent, matte fabric texture, museum-quality
+      detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# PROMPT LIBRARY
+# =============================================================================
+prompt_library:
+  character_portraits:
+    - id: "p9_char_001"
+      character: "soekarno_orde_lama"
+      scene: "Soekarno era Demokrasi Terpimpin 1960s"
+      prompt: >
+        Cinematic portrait of Soekarno 1960s Orde Lama, charismatic president
+        50s with gray hair, white safari suit with black peci and sunglasses,
+        raising fist, Merdeka Palace background, dramatic golden hour, hyperdetailed
+        hyperrealistic 8k masterpiece.
+    - id: "p9_char_002"
+      character: "kartosuwirjo"
+      scene: "Kartosuwirjo di markas DI/TII"
+      prompt: >
+        Cinematic portrait of Kartosuwirjo, Indonesian Islamic rebel leader
+        1950s DI/TII, charismatic bearded man 50s, white jubah with sorban,
+        keris, jungle guerrilla camp, West Java mountains, dramatic mist,
+        hyperdetailed hyperrealistic 8k masterpiece.
+    - id: "p9_char_003"
+      character: "letkol_untung"
+      scene: "Letkol Untung malam G30S"
+      prompt: >
+        Cinematic portrait of Letkol Untung Syamsuri G30S leader 1965, mysterious
+        military man 30-40 with tense eyes, TNI camouflage with red Cakrabirawa
+        beret and peci, pistol, Jakarta night, dramatic tense atmosphere,
+        hyperdetailed hyperrealistic 8k masterpiece.
+
+  location_scenes:
+    - id: "p9_loc_001"
+      location: "bandung_kaa_1955"
+      scene: "Konferensi Asia-Afrika 1955"
+      prompt: >
+        Cinematic scene of Bandung Conference 1955, Gedung Merdeka, Soekarno
+        (white suit with peci), Nehru (sherwani), Zhou Enlai (Mao suit), Nasser
+        (military uniform), 29 delegations, warm afternoon light, cinematic wide
+        shot, hyperdetailed historic reconstruction, 8k masterpiece.
+    - id: "p9_loc_002"
+      location: "irian_barat_trikora"
+      scene: "Operasi Trikora 1961"
+      prompt: >
+        Cinematic scene of Trikora operation, Indonesian military landing on
+        West Papua beaches, soldiers with peci, Soviet MiG overhead, Dutch flag
+        lowered, Indonesian flag raised, dramatic tropical morning, painterly
+        epic, hyperdetailed 8k masterpiece.
+    - id: "p9_loc_003"
+      location: "borneo_dwikora"
+      scene: "Konfrontasi Malaysia di Kalimantan"
+      prompt: >
+        Cinematic scene of Dwikora confrontation in Borneo jungle 1963-1966,
+        Indonesian RPKAD soldiers with red beret and peci, moving through jungle
+        toward Malaysian border, British Gurkha soldiers, dramatic tense
+        atmosphere, painterly epic, hyperdetailed 8k masterpiece.
+
+  historical_moments:
+    - id: "p9_mom_001"
+      title: "Dekrit Presiden 5 Juli 1959"
+      prompt: >
+        Cinematic scene of Presidential Decree 5 July 1959, Soekarno (man 50s
+        in white safari with peci) announcing decree dissolving Konstituante
+        and returning to UUD 1945, Istana Merdeka background, tense political
+        atmosphere, dramatic golden hour, hyperrealistic historical scene,
+        hyperdetailed 8k masterpiece.
+    - id: "p9_mom_002"
+      title: "Pemilu 1955 — Pemilihan Umum Pertama"
+      prompt: >
+        Cinematic scene of Indonesia's first election 1955, Indonesians lining
+        up to vote at polling stations, people in various clothing (white shirts
+        and peci, kebaya and batik, military uniform), political party banners
+        (PNI, Masyumi, NU, PKI), warm morning light, painterly realistic,
+        hyperdetailed 8k masterpiece.
+    - id: "p9_mom_003"
+      title: "G30S — Penculikan Jenderal 30 September 1965"
+      prompt: >
+        Cinematic tense scene of G30S 30 September 1965, Cakrabirawa soldiers
+        in camouflage with red beret, kidnapping Indonesian generals from their
+        homes at night, Lubang Buaya forest background, dramatic night with
+        torchlight, painterly dramatic, hyperdetailed 8k masterpiece.
+    - id: "p9_mom_004"
+      title: "Pembantaian PKI 1965-1966"
+      prompt: >
+        Cinematic tragic scene of anti-communist purge 1965-1966, Indonesian
+        villagers and soldiers arresting PKI members, tense atmosphere, rural
+        Java background, dramatic stormy sky, painterly tragic, hyperdetailed
+        8k masterpiece.
+    - id: "p9_mom_005"
+      title: "Supersemar 11 Maret 1966"
+      prompt: >
+        Cinematic scene of Supersemar 11 March 1966, Soekarno (man 60s in
+        white safari with peci, visibly weakened) signing Supersemar letter
+        handing power to Soeharto (man 40s in military uniform with peci),
+        Istana Bogor background, dramatic tense atmosphere, hyperrealistic
+        historical scene, hyperdetailed 8k masterpiece.
+
+# =============================================================================
+# CATATAN PRODUKSI
+# =============================================================================
+production_notes:
+  color_palette_overall:
+    description: >
+      Era Orde Lama memiliki palet warna yang mencerminkan konflik:
+      putih (nasionalis/Soekarno), hijau zaitun (militer), merah (komunis/PKI),
+      putih (Islam/DI-TII), coklat (rakyat/batik).
+    primary_colors:
+      - "Putih (jas Soekarno, jubah DI/TII)"
+      - "Hijau zaitun (seragam militer)"
+      - "Coklat muda (baju safari)"
+      - "Coklat soga (kain batik)"
+    accent_colors:
+      - "Merah (beret RPKAD, bendera PKI, bintang)"
+      - "Hitam (peci)"
+      - "Emas (perhiasan)"
+  cultural_authenticity:
+    important_details:
+      - "Soekarno: baju safari cokrat + peci — simbol Demokrasi Terpimpin"
+      - "Militer TNI: hijau zaitun + peci hitam + baret merah (RPKAD)"
+      - "DI/TII: jubah putih + sorban — pemberontak Islam"
+      - "PKI/Aktivis kiri: kemeja putih + celana hitam + beret merah"
+      - "Cakrabirawa: seragam hitam dengan baret merah — pasukan pengawal Soekarno"
+      - "Soekarno memakai kacamata hitam di acara lapangan — gaya ikonik"
+      - "Konferensi Asia-Afrika: delegasi internasional dalam berbagai busana nasional"
+
+# =============================================================================
+# END OF MASTER PHASE 9
+# =============================================================================
