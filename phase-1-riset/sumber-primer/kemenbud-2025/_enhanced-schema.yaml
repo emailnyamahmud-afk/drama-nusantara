@@ -1,0 +1,454 @@
+# =============================================================================
+# ENHANCED METADATA SCHEMA — Kemenbud 2025
+# =============================================================================
+# Schema ideal untuk metadata bab buku Kemenbud 2025.
+#
+# File ini mendefinisikan struktur metadata "enhanced" yang akan disimpan
+# di file paralel (enhanced-chapters/<doc_id>.yaml) — TIDAK mengubah
+# frontmatter asli yang sudah ada di file markdown (untuk menjaga
+# integritas pipeline OCR).
+#
+# Tujuan enhanced metadata:
+#   1. Navigasi cepat — summary, key_figures, key_events, key_locations
+#   2. Mapping ke fase drama Nusantara (10 fase) yang sudah didefinisikan
+#   3. Identifikasi bab prioritas untuk produksi drama
+#   4. Siap dipakai untuk Phase 2 (naskah & storyboard)
+#
+# Cara pakai:
+#   - Untuk setiap bab yang akan diperkaya, buat file YAML di
+#     enhanced-chapters/<doc_id>.yaml (mis. si-j3-12-bab-7.yaml)
+#   - Field yang ada di enhanced YAML adalah SUPPLEMENT (tambahan),
+#     bukan duplikasi field frontmatter asli
+# =============================================================================
+
+schema_version: "1.0"
+schema_status: "draft"
+created_at: "2026-10-17"
+applies_to: "Kemenbud 2025 - 5 jilid Sejarah Indonesia"
+enhanced_chapters_folder: "enhanced-chapters/"
+
+# =============================================================================
+# DEFINISI FIELD ENHANCED METADATA
+# =============================================================================
+fields:
+
+  # --- IDENTITAS BAB (link ke frontmatter asli) ---
+  doc_id:
+    type: string
+    required: true
+    description: "ID unik bab, sama dengan field doc_id di frontmatter asli"
+    example: "si-j3-12-bab-7"
+
+  source_file:
+    type: string
+    required: true
+    description: "Path relatif ke file markdown asli"
+    example: "jilid-3/12-bab-7.md"
+
+  jilid:
+    type: integer
+    required: true
+    description: "Nomor jilid (1-5)"
+    example: 3
+
+  chapter_number:
+    type: integer
+    required: true
+    description: "Nomor bab di jilid (1-10)"
+    example: 7
+
+  title:
+    type: string
+    required: true
+    description: "Judul bab (sama dengan frontmatter asli)"
+    example: "Bab VII — Wali Songo Mengislamkan Jawa"
+
+  # --- RINGKASAN ISI BAB ---
+  summary:
+    type: string
+    required: true
+    description: >
+      Ringkasan isi bab dalam 3-5 kalimat. Harus mencakup:
+      (1) topik utama bab, (2) periode sejarah yang dibahas,
+      (3) kontribusi bab terhadap pemahaman sejarah Nusantara.
+    max_words: 150
+    example: >
+      Bab ini membahas peran Wali Songo (sembilan wali) dalam
+      Islamisasi Jawa abad 15-16 M. Penekanan pada strategi
+      kultural (seni wayang, gamelan, sinden) yang dipakai
+      Sunan Kalijaga dan pendekatan politik Sunan Ampel dan
+      Sunan Giri. Membahas pula hubungan Walisongo dengan
+      Majapahit (Brawijaya V) dan Demak (Raden Patah).
+
+  reading_time_minutes:
+    type: integer
+    required: true
+    description: "Estimasi waktu baca (word_count / 200 kata per menit)"
+    example: 141
+
+  # --- KEY FIGURES (tokoh penting dalam bab) ---
+  key_figures:
+    type: array
+    required: true
+    description: >
+      Daftar tokoh historis penting yang dibahas di bab ini.
+      Setiap tokoh minimal: nama, peran, periode.
+    items:
+      type: object
+      fields:
+        name:
+          type: string
+          required: true
+          description: "Nama tokoh (bisa nama lengkap atau nama umum)"
+          example: "Sunan Kalijaga"
+        role:
+          type: string
+          required: true
+          description: "Peran tokoh (raja, wali, jenderal, dll.)"
+          example: "Wali, penyebar Islam Jawa via kesenian"
+        period:
+          type: string
+          required: true
+          description: "Periode aktif tokoh"
+          example: "± 1450-1513 M"
+        drama_relevance:
+          type: string
+          enum: [high, medium, low]
+          description: "Seberapa penting tokoh ini untuk drama Nusantara"
+        notes:
+          type: string
+          description: "Catatan tambahan (sumber primer, anomali sejarah, dll.)"
+
+  # --- KEY EVENTS (peristiwa penting dalam bab) ---
+  key_events:
+    type: array
+    required: true
+    description: >
+      Daftar peristiwa historis penting yang dibahas di bab ini.
+      Diurutkan kronologis.
+    items:
+      type: object
+      fields:
+        date:
+          type: string
+          required: true
+          description: "Tanggal/tahun peristiwa (seakurat mungkin)"
+          example: "1475 M"
+        event:
+          type: string
+          required: true
+          description: "Deskripsi singkat peristiwa (1-2 kalimat)"
+          example: "Raden Patah mendirikan Kerajaan Demak"
+        location:
+          type: string
+          description: "Lokasi peristiwa"
+          example: "Demak, Jawa Tengah"
+        drama_relevance:
+          type: string
+          enum: [high, medium, low]
+          description: "Seberapa penting peristiwa ini untuk drama Nusantara"
+
+  # --- KEY LOCATIONS (lokasi penting dalam bab) ---
+  key_locations:
+    type: array
+    required: true
+    description: >
+      Daftar lokasi penting yang disebut di bab ini. Untuk Phase 3
+      (LoRA assets), lokasi ini bisa jadi kandidat LoRA training.
+    items:
+      type: object
+      fields:
+        name:
+          type: string
+          required: true
+          description: "Nama lokasi (modern atau historis)"
+          example: "Masjid Agung Demak"
+        type:
+          type: string
+          enum: [istana, candi, masjid, pelabuhan, medan-perang, kota, pegunungan, sungai, lainnya]
+          required: true
+        current_location:
+          type: string
+          description: "Lokasi modern (kota/provinsi)"
+          example: "Demak, Jawa Tengah"
+        drama_relevance:
+          type: string
+          enum: [high, medium, low]
+          description: "Seberapa penting lokasi ini untuk drama"
+        lora_candidate:
+          type: boolean
+          description: "Apakah lokasi ini kandidat untuk LoRA training di Phase 3?"
+
+  # --- KEY ARTIFACTS (benda/arsitektur penting dalam bab) ---
+  key_artifacts:
+    type: array
+    required: false
+    description: >
+      Daftar benda bersejarah, arsitektur, atau karya seni penting
+      yang disebut di bab ini.
+    items:
+      type: object
+      fields:
+        name:
+          type: string
+          required: true
+          example: "Candi Borobudur"
+        type:
+          type: string
+          enum: [candi, masjid, arca, prasasti, teks, senjata, keramik, lainnya]
+        current_location:
+          type: string
+          description: "Lokasi modern (jika masih ada)"
+
+  # --- MAPPING KE FASE DRAMA NUSANTARA ---
+  drama_phase_mapping:
+    type: object
+    required: true
+    description: >
+      Mapping bab buku ke fase drama Nusantara yang sudah didefinisikan
+      di repo drama-nusantara. Hanya fase yang RELEVAN dengan isi bab.
+    fields:
+      primary_phase:
+        type: integer
+        required: true
+        description: "Fase drama utama yang paling relevan (1-10)"
+        enum: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      secondary_phases:
+        type: array
+        description: "Fase lain yang juga relevan (mis. transisi era)"
+        items:
+          type: integer
+          enum: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      relevance_score:
+        type: string
+        enum: [critical, high, medium, low]
+        description: >
+          critical = bab wajib baca untuk fase ini
+          high = sangat relevan
+          medium = relevan parsial
+          low = hanya konteks
+      drama_anchors_relevant:
+        type: array
+        description: "Drama anchor (1-9) yang relevan dengan bab ini"
+        items:
+          type: integer
+          enum: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+  # --- ONTOLOGY YANG DIPERBAIKI ---
+  enhanced_ontology:
+    type: object
+    required: true
+    description: >
+      Ontology yang DIPERBAIKI dari frontmatter asli. Tag era dan region
+      yang lebih spesifik sesuai konten bab (bukan generik).
+    fields:
+      era_specific:
+        type: array
+        description: "Era yang SPESIFIK relevan dengan bab ini (1-3 tag saja)"
+        example: ["islam-awal-jawa"]
+      region_specific:
+        type: array
+        description: "Region spesifik yang dibahas bab ini"
+        example: ["jawa-tengah", "jawa-timur"]
+      themes:
+        type: array
+        description: "Tema utama bab (politik, agama, ekonomi, sosial, dll.)"
+        example: ["islamisasi", "politik-kerajaan", "kesenian"]
+      keywords_enhanced:
+        type: array
+        description: "Keywords yang lebih spesifik dari frontmatter asli"
+
+  # --- PROMPT T2I SEEDS (untuk Phase 4 produksi) ---
+  prompt_t2i_seeds:
+    type: array
+    required: false
+    description: >
+      Ide prompt T2I yang bisa di-generate dari bab ini. Untuk Phase 4
+      produksi film. Setiap seed: deskripsi scene singkat.
+    items:
+      type: object
+      fields:
+        scene_title:
+          type: string
+          required: true
+          example: "Sunan Kalijaga mengisi wayang di alun-alun Demak"
+        prompt:
+          type: string
+          required: true
+          description: "Prompt T2I siap pakai (English, cinematic style)"
+          example: >
+            Cinematic scene, 15th century Javanese town square at dusk,
+            Sunan Kalijaga (middle-aged Javanese man in white robe and
+            black peci) performing wayang kulit, audience of Javanese
+            villagers sitting cross-legged, traditional gamelan players
+            in background, warm firelight, hyperrealistic.
+        drama_phase:
+          type: integer
+          enum: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+  # --- CROSS-REFERENCES (sumber lain yang relevan) ---
+  cross_references:
+    type: array
+    required: false
+    description: >
+      Referensi ke sumber lain yang relevan dengan bab ini (buku lain,
+      prasasti, arsip, situs, dll.)
+    items:
+      type: object
+      fields:
+        type:
+          type: string
+          enum: [prasasti, babad, arsip-voc, anri, buku-akademis, situs-fisik, film, lainnya]
+        reference:
+          type: string
+          description: "Deskripsi sumber"
+          example: "Babad Tanah Jawi (abad 17-18)"
+
+  # --- METADATA PRODUKSI ---
+  metadata_production:
+    type: object
+    required: true
+    description: "Metadata produksi untuk enhanced chapter ini"
+    fields:
+      enhanced_by:
+        type: string
+        required: true
+        description: "Agent yang membuat enhanced metadata"
+        example: "Z.ai Main Agent"
+      enhanced_at:
+        type: string
+        required: true
+        description: "Timestamp ISO 8601"
+        example: "2026-10-17T01:35:00+07:00"
+      enhancement_version:
+        type: string
+        required: true
+        description: "Versi enhancement (sesuai schema_version di atas)"
+        example: "1.0"
+      source_extraction:
+        type: string
+        enum: [full-read, partial-read, summary-only, metadata-only]
+        description: >
+          full-read = seluruh bab dibaca
+          partial-read = sebagian bab dibaca (mis. pendahuluan + heading)
+          summary-only = hanya pendahuluan + ringkasan
+          metadata-only = hanya dari frontmatter + title
+
+# =============================================================================
+# PRIORITAS ENHANCEMENT
+# =============================================================================
+enhancement_priority:
+
+  critical:
+    description: "Bab yang WAJIB di-enhance untuk produksi drama (6 bab)"
+    chapters:
+      - doc_id: "si-j2-08-bab-3"
+        reason: "Dinamika Politik Kerajaan Nusantara - bab paling penting untuk Fase 1-3 drama"
+      - doc_id: "si-j2-10-bab-5"
+        reason: "Puncak Pencapaian Hindu-Buddha - bab terpanjang, fokus Majapahit"
+      - doc_id: "si-j3-12-bab-7"
+        reason: "Wali Songo Mengislamkan Jawa - BAB WAJIB untuk Fase 4 drama"
+      - doc_id: "si-j4-07-bab-2"
+        reason: "Hegemoni Kekuasaan Abad XVII-XVIII - Sultan Agung vs VOC"
+      - doc_id: "si-j4-11-bab-6"
+        reason: "VOC di Pulau Banda - pembantaian Banda 1621 oleh JP Coen"
+      - doc_id: "si-j5-11-bab-6"
+        reason: "Pemberontakan dan Perlawanan - Diponegoro, Padri, Aceh, Banten 1888"
+
+  high:
+    description: "Bab yang sangat relevan untuk drama (12 bab)"
+    chapters:
+      - doc_id: "si-j1-07-bab-2"   # Manusia: Persebaran
+      - doc_id: "si-j1-08-bab-3"   # Perkembangan Teknologi
+      - doc_id: "si-j1-09-bab-4"   # Religi, Seni, dan Tradisi
+      - doc_id: "si-j2-09-bab-4"   # Kehidupan Keseharian Masyarakat Nusantara
+      - doc_id: "si-j2-11-bab-6"   # Kemunduran dan Munculnya Tatanan Baru
+      - doc_id: "si-j3-08-bab-3"   # Pembentukan Kerajaan (Demak)
+      - doc_id: "si-j3-09-bab-4"   # Kerajaan dan Intensifikasi Islamisasi
+      - doc_id: "si-j3-13-bab-8"   # Kebudayaan Material Islam
+      - doc_id: "si-j4-09-bab-4"   # VOC di Nusantara: Monopoli dan Negosiasi
+      - doc_id: "si-j4-13-bab-8"   # Rivalitas dan Resistensi
+      - doc_id: "si-j5-09-bab-4"   # Fondasi Infrastruktur Publik
+      - doc_id: "si-j5-10-bab-5"   # Struktur Sosial dan Keagamaan
+
+  medium:
+    description: "Bab yang relevan parsial (20 bab)"
+    auto_generated: true
+    note: "Daftar lengkap 20 bab akan di-generate otomatis dari _quality-report.yaml"
+
+# =============================================================================
+# ATURAN ENHANCEMENT
+# =============================================================================
+enhancement_rules:
+
+  rule_1_no_modify_original:
+    description: >
+      JANGAN mengubah frontmatter asli di file markdown. Enhanced metadata
+      disimpan di file paralel (enhanced-chapters/<doc_id>.yaml).
+
+  rule_2_minimal_critical:
+    description: >
+      Untuk critical priority (6 bab), WAJIB baca seluruh bab (full-read)
+      dan ekstrak semua field: summary, key_figures (5-10), key_events (5-10),
+      key_locations (3-7), key_artifacts (jika ada), prompt_t2i_seeds (3-5).
+
+  rule_3_partial_for_high:
+    description: >
+      Untuk high priority (12 bab), cukup baca pendahuluan + daftar heading
+      (partial-read). Isi field wajib (summary, drama_phase_mapping, enhanced_ontology).
+
+  rule_4_metadata_only_for_medium:
+    description: >
+      Untuk medium priority (20 bab), cukup ekstrak dari frontmatter asli
+      (metadata-only). Tidak perlu baca isi bab. Drama_phase_mapping bisa
+      diturunkan dari title + keywords.
+
+  rule_5_cross_link_to_yaml_phases:
+    description: >
+      Setelah enhanced chapter dibuat, update kemenbud-2025-index.yaml
+      untuk menambah pointer ke file enhanced chapter.
+
+# =============================================================================
+# WORKFLOW
+# =============================================================================
+workflow:
+
+  step_1:
+    name: "Generate _quality-report.yaml"
+    description: "Audit semua bab, identifikasi apa yang kurang"
+    status: "completed"
+    script: "/home/z/my-project/scripts/build_quality_report.py"
+
+  step_2:
+    name: "Define _enhanced-schema.yaml"
+    description: "Definisikan schema ideal untuk enhanced metadata"
+    status: "current_step"
+    file: "_enhanced-schema.yaml"
+
+  step_3:
+    name: "Enhance critical chapters (6 bab)"
+    description: "Baca isi bab, ekstrak summary, key_figures, key_events, key_locations, prompt_t2i_seeds"
+    status: "pending"
+    output: "enhanced-chapters/si-j2-08-bab-3.yaml, etc."
+
+  step_4:
+    name: "Enhance high priority chapters (12 bab)"
+    description: "Baca pendahuluan + heading, isi field wajib"
+    status: "pending"
+    output: "enhanced-chapters/si-j1-07-bab-2.yaml, etc."
+
+  step_5:
+    name: "Enhance medium priority chapters (20 bab)"
+    description: "Metadata-only extraction (dari frontmatter)"
+    status: "pending"
+    output: "enhanced-chapters/si-j*-*.yaml"
+
+  step_6:
+    name: "Update _index.yaml & kemenbud-2025-index.yaml"
+    description: "Tambah pointer ke enhanced chapters"
+    status: "pending"
+
+  step_7:
+    name: "Commit & push ke GitHub"
+    description: "Push semua enhancement ke repo drama-nusantara"
+    status: "pending"

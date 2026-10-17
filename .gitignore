@@ -1,5 +1,7 @@
 # Sistem & OS
 .DS_Store
+__MACOSX/
+._*
 Thumbs.db
 *.swp
 *.swo
@@ -39,3 +41,14 @@ dist/
 # Personal access token (jangan pernah commit)
 .github-token
 *.pat
+*.pem
+*.key
+token*.txt
+
+# Nested git (jangan commit .git di subfolder)
+**/.git-backup-nested/
+
+# Konfigurasi & kredensial lokal
+.config/
+.env
+*.git-credentials

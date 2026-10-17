@@ -1,0 +1,1147 @@
+# =============================================================================
+# MASTER PHASE 3 — ERA MAJAPAHIT (1293–1527 M)
+# =============================================================================
+# Dokumen komprehensif: riset sejarah + master reference untuk T2I prompt
+# Format YAML untuk struktur data yang dapat dipakai oleh:
+#   - Penulis naskah drama (narrative + characters)
+#   - Artist/Art Director (wardrobe + visual)
+#   - AI prompt engineer (prompt library untuk Stable Diffusion)
+#
+# Status: AUDIT dengan cross-check ke sumber primer (Negarakretagama, Pararaton,
+#         Kidung Sunda, prasasti)
+# Tanggal: 17 Oktober 2026
+# Versi: 1.0 (master YAML phase 3)
+# =============================================================================
+
+meta:
+  era: "Majapahit"
+  periode: "1293–1527 M"
+  lokasi_geografis: "Jawa Timur (Trowulan/Mojokerto, Kediri, Blambangan/Lumajang)"
+  dinasti: "Wangsa Rajasa (kelanjutan dari Singasari), lalu Girindrawardhana (akhir)"
+  ibu_kota: "Trowulan (Mojokerto) → Daha/Kediri (periode akhir)"
+  sumber_primer:
+    - "Negarakretagama karya Mpu Prapanca (1365 M) - pupuh 45-49 silsilah Majapahit, seluruh teks untuk era Hayam Wuruk"
+    - "Pararaton (Kitab Raja-Raja, abad 16) - sumber naratif untuk Jayanegara, pemberontakan Ra Kuti, Perang Paregreg"
+    - "Kidung Sunda - sumber utama untuk Peristiwa Bubat 1357"
+    - "Kidung Harsawijaya - sumber sekunder naratif"
+    - "Prasasti Kudadu (1294 M) - Raden Wijaya & masyarakat Trawas"
+    - "Piagam Sidateka (1323) - Jayanegara"
+    - "Prasasti Jiyu (1489 M) - Girindrawardhana"
+    - "Prasasti Petak - Girindrawardhana"
+    - "Berita Cina Dinasti Ming - ekspedisi Mongol-Yuan 1293 dan hubungan Majapahit-Ming"
+  catatan_penting: >
+    Era Majapahit memiliki sumber primer paling lengkap dari semua era kuno Nusantara.
+    Negarakretagama adalah sumber resmi panegirik (tidak menyebut aib Majapahit seperti Bubat).
+    Pararaton dan Kidung Sunda mencatat versi naratif termasuk tragedi. Sumpah Palapa (1336 M)
+    hanya tercatat di Pararaton, tidak di Negarakretagama.
+
+# =============================================================================
+# NARASI SINGKAT — Storytelling untuk Drama
+# =============================================================================
+narrative:
+  era_overview: >
+    Dari reruntuhan Singasari yang dibakar Jayakatwang, Raden Wijaya membangun
+    Majapahit — kerajaan terbesar dalam sejarah Nusantara. Lahir dari tipu daya:
+    memanfaatkan pasukan Mongol-Yuan untuk mengalahkan Jayakatwang, lalu berbalik
+    menyerang sekutu Mongolnya sendiri. Selama 134 tahun, Majapahit mengalami
+    pasang surut — dari konsolidasi awal, keemasan Hayam Wuruk-Gajah Mada dengan
+    Sumpah Palapa, tragedi Bubat, perang saudara Paregreg, hingga keruntuhan
+    perlahan dan akhirnya serangan Demak 1527.
+
+  akt_1_founding: >
+    1293 M. Raden Wijaya memanfaatkan ekspedisi Mongol-Yuan (20.000 pasukan
+    Kubilai Khan) untuk mengalahkan Jayakatwang. Lalu ia berbalik menyerang
+    Mongolnya sendiri — mengusir mereka dari Jawa. Majapahit didirikan di
+    Trowulan, Mojokerto. Raden Wijaya bergelar Kertarajasa Jayawardhana.
+    Nama "Majapahit" berasal dari pohon maja yang berbuah pahit — simbol
+    kepahitan perjuangan.
+
+  akt_2_consolidation: >
+    Raden Wijaya wafat 1309. Jayanegara (Kala Gemet) naik takhta — pemerintahan
+    lemah dengan banyak pemberontakan (Ranggalawe, Nambi, Ra Kuti 1319). Gajah Mada
+    muncul sebagai penyelamat — membebaskan istana dari pemberontakan Ra Kuti.
+    Jayanegara wafat 1328 tanpa ahli waris. Tribhuwana Tunggadewi (saudarinya)
+    naik takhta — ratu yang berani. Mengangkat Gajah Mada sebagai patih 1336.
+    Saat itulah Gajah Mada mengucapkan Sumpah Palapa.
+
+  akt_3_golden_age: >
+    1350 M. Hayam Wuruk naik takhta usia 16 tahun. Puncak keemasan Majapahit.
+    Gajah Mada menaklukkan Bali, Palembang, Melayu, dll. Majapahit menjadi
+    imperium maritim terbesar di Asia Tenggara. Tapi 1357 — Peristiwa Bubat.
+    Gajah Mada menuntut Dyah Pitaloka (putri Sunda) sebagai tanda taklukan,
+    bukan sebagai permaisuri untuk Hayam Wuruk. Raja Sunda Linggabuana marah.
+    Pertempuran pecah — semua tewas termasuk Dyah Pitaloka. Hubungan
+    Majapahit-Sunda rusak permanen. Gajah Mada wafat 1364.
+
+  akt_4_civil_war: >
+    Hayam Wuruk wafat 1389. Wikramawardhana (menantu) naik takhta. Tapi
+    Bhre Wirabhumi (putra Hayam Wuruk dari selir) klaim takhta — membangun
+    istana Timur di Pamotan/Lumajang. Perang Paregreg 1404-1406 — perang
+    saudara Majapahit Barat vs Majapahit Timur. Bhre Wirabhumi kalah, dipenggal
+    oleh Raden Gajah. Majapahit lemah — banyak wilayah taklukan merdeka.
+
+  akt_5_decline_and_fall: >
+    Setelah Perang Paregreg, Majapahit melemah perlahan. Suhita (1429-1447)
+    membalas dendam kematian ayahnya. Kertawijaya, Rajasawardhana, Purwawisesa —
+    raja-raja singkat. Singhawikramawardhana pindah ke Daha (Kediri) 1466.
+    Girindrawardhana Dyah Ranawijaya (1474-1518) — raja terakhir di Daha.
+    Naiknya Islam di pesisir utara Jawa. Serangan Demak 1527 mengakhiri
+    sisa-sisa Majapahit. Akhir era Hindu-Buddha di Jawa.
+
+# =============================================================================
+# DAFTAR RAJA — Verifikasi ke Sumber Primer
+# =============================================================================
+kings_list:
+  source_primary: "Negarakretagama pupuh 45-49 + Pararaton + prasasti"
+  note: >
+    11 raja Majapahit (dari Raden Wijaya hingga Girindrawardhana).
+    Negarakretagama hanya menyebut raja hingga Hayam Wuruk (pupuh 49).
+    Pararaton dan prasasti melengkapi raja-raja setelahnya.
+  kings:
+    - number: 1
+      name: "Raden Wijaya"
+      full_title: "Sri Kertarajasa Jayawardhana"
+      alt_name: "Nararya Sanggramawijaya"
+      reign: "1293–1309 M"
+      source: "Negarakretagama pupuh 45-46, Pararaton, Prasasti Kudadu 1294 M"
+      note: "Pendiri Majapahit. Cicit Mahisa Wonga Teleng lewat garis ayah."
+    - number: 2
+      name: "Jayanegara"
+      full_title: "Sri Maharaja Jayanegara"
+      nickname: "Kala Gemet (jahat-lemah)"
+      reign: "1309–1328 M"
+      source: "Negarakretagama pupuh 46-47, Pararaton, Piagam Sidateka 1323"
+      note: "Banyak pemberontakan (Ranggalawe 1309, Nambi 1316, Ra Kuti 1319). Diselamatkan Gajah Mada. Wafat tanpa ahli waris."
+    - number: 3
+      name: "Tribhuwana Tunggadewi"
+      full_title: "Sri Tribhuwanottungadewi"
+      reign: "1328–1350 M"
+      source: "Negarakretagama pupuh 48, Pararaton"
+      note: "Ratu. Putri Raden Wijaya. Ibu Hayam Wuruk. Mengangkat Gajah Mada sebagai patih 1336."
+    - number: 4
+      name: "Hayam Wuruk"
+      full_title: "Sri Rajasanagara"
+      reign: "1350–1389 M"
+      source: "Negarakretagama (seluruh teks), Pararaton, Kidung Sunda"
+      note: "Puncak keemasan. Peristiwa Bubat 1357. Gajah Mada sebagai patih."
+    - number: 5
+      name: "Wikramawardhana"
+      full_title: "Sri Wikramawardhana / Bhre Hyang Wicesa"
+      alt_name: "Gagak Rajasa"
+      reign: "1389–1429 M"
+      source: "Negarakretagama pupuh 49 (bagian akhir), Pararaton"
+      note: "Menantu Hayam Wuruk. Terlibat Perang Paregreg 1404-1406."
+    - number: 6
+      name: "Suhita"
+      reign: "1429–1447 M"
+      source: "Pararaton"
+      note: "Ratu. Putri Wikramawardhana. Membalas dendam kematian ayahnya."
+    - number: 7
+      name: "Kertawijaya"
+      alt_name: "Brawijaya I"
+      reign: "1447–1451 M"
+      source: "Pararaton"
+      note: "Pemulihan setelah Perang Paregreg."
+    - number: 8
+      name: "Rajasawardhana"
+      reign: "1451–1453 M"
+      source: "Pararaton"
+      note: "Periode singkat."
+    - number: 9
+      name: "Purwawisesa"
+      alt_name: "Brawijaya II"
+      reign: "1456–1466 M"
+      source: "Prasasti"
+    - number: 10
+      name: "Singhawikramawardhana"
+      alt_name: "Suraprabhawa"
+      reign: "1466–1474 M"
+      source: "Prasasti"
+      note: "Pindah ke Daha."
+    - number: 11
+      name: "Girindrawardhana Dyah Ranawijaya"
+      reign: "1474–1518 M"
+      source: "Prasasti Jiyu 1489 M, Prasasti Petak"
+      note: "Raja terakhir Majapahit di Daha. Dari dinasti Girindrawardhana Kadiri."
+  parallel_figures:
+    - name: "Gajah Mada"
+      title: "Patih Amangkubhumi Majapahit"
+      period: "± 1290–1364 M"
+      role: "Patih terbesar Majapahit. Sumpah Palapa 1336. Penyelamat Jayanegara dari Ra Kuti 1319. Peristiwa Bubat 1357."
+      source: "Pararaton, Negarakretagama (tidak menyebut Sumpah Palapa)"
+    - name: "Bhre Wirabhumi"
+      title: "Bhatara Parameswara ring Pamotan"
+      period: "± 1390s–1406 M"
+      role: "Putra Hayam Wuruk dari selir. Pemimpin Majapahit Timur. Tewas di Perang Paregreg 1406, dipenggal oleh Raden Gajah."
+      source: "Pararaton, Negarakretagama"
+    - name: "Raden Gajah / Bhra Narapati"
+      role: "Ratu Angabhaya Majapahit Barat. Membunuh Bhre Wirabhumi 1406."
+      source: "Pararaton"
+
+# =============================================================================
+# KARAKTER & WARDROBE — Master Reference untuk T2I
+# =============================================================================
+characters:
+
+  # -------------------------------------------------------------------
+  # RADEN WIJAYA — Pendiri Majapahit
+  # -------------------------------------------------------------------
+  raden_wijaya_majapahit:
+    name: "Raden Wijaya"
+    full_title: "Sri Kertarajasa Jayawardhana"
+    alt_name: "Nararya Sanggramawijaya"
+    era_period: "1293–1309 M"
+    age_dramatic: "30-50 tahun"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Pendiri Majapahit. Nama asli Nararya Sanggramawijaya. Cicit Mahisa Wonga
+      Teleng lewat garis ayah (Dyah Lembu Tal adalah putri Narasinghamurti).
+      Menantu Kertanegara (suami Tribhuwaneswari). Berlindung di Kudadu (Trawas)
+      saat Jayakatwang menyerang Singasari 1292. Memanfaatkan ekspedisi Mongol-Yuan
+      (1293) untuk mengalahkan Jayakatwang, lalu berbalik menyerang Mongolnya
+      sendiri — mendirikan Majapahit. Wafat 1309.
+    visual_physical:
+      face: "Wajah Jawa klasik yang tampan, cerdas, dingin"
+      body: "Postur prajurit-bangsawan"
+      hair: "Rambut hitam diikat prajurit"
+    wardrobe:
+      headwear: "Makuta tinggi dengan ornamen naga dan Garuda"
+      upper_body: "Baju prajurit (jubah pendek) dengan sabuk emas, atau dada terbuka dengan upavita"
+      lower_body: "Kain jedor biru tua (warna kewibawaan)"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Gelang kankana emas"
+        - "Cincin kerajaan dengan permata"
+      accessories:
+        - "Keris pusaka di pinggang"
+        - "Pedang lurus Tiongkok"
+        - "Tongkat komando kayu berukir"
+      footwear: "Sandal kulit prajurit"
+    color_palette:
+      primary: "Biru tua (kain jedor)"
+      accent: "Emas (perhiasan, makuta)"
+      neutral: "Coklat tanah, hitam"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Raden Wijaya (Kertarajasa Jayawardhana), Javanese
+        king 14th century founder of Majapahit empire, intelligent cool
+        calculating man 30-50 with handsome Javanese face and determined eyes,
+        hair tied back as warrior, wearing tall makuta crown with naga and
+        Garuda ornaments, short warrior robe with golden belt over deep blue
+        kain jedor, leather warrior belt, keris pusaka and Chinese straight
+        sword at waist, gold kundala necklaces, kankana bracelets, holding
+        carved wooden command staff, Trowulan palace background with red brick
+        canal and pavilion, dramatic golden hour lighting, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Raden Wijaya 14th century founder of
+        Majapahit, tall makuta crown with naga and Garuda ornaments, short
+        warrior robe with golden belt over deep blue kain jedor with bebed
+        front fold, leather warrior belt, keris pusaka and Chinese straight
+        sword at waist, gold kundala necklaces, kankana gold bracelets, carved
+        wooden command staff, deep blue and gold color palette with matte
+        fabric texture and golden jewelry sheen, museum-quality detail shot,
+        hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # JAYANEGARA — Raja Lemah dengan Banyak Pemberontakan
+  # -------------------------------------------------------------------
+  jayanegara:
+    name: "Jayanegara"
+    full_title: "Sri Maharaja Jayanegara"
+    nickname: "Kala Gemet (jahat-lemah)"
+    era_period: "1309–1328 M"
+    age_dramatic: "20-30 tahun"
+    religion: "Hindu Siwa-Buddha"
+    narrative_short: >
+      Raja ke-2 Majapahit. Putra Raden Wijaya. Nama ejekan "Kala Gemet" karena
+      kepribadian amoral tapi lemah sebagai penguasa. Pemerintahannya diwarnai
+      banyak pemberontakan: Ranggalawe (1309), Nambi (1316), Ra Kuti (1319).
+      Pemberontakan Ra Kuti paling berbahaya — berhasil merebut istana,
+      Jayanegara mengungsi ke Desa Badander. Diselamatkan oleh Gajah Mada
+      (saat itu masih beksa/pengawal raja). Wafat 1328 tanpa ahli waris.
+    visual_physical:
+      face: "Wajah muda Jawa klasik, ekspresi lemah dan terjebak"
+      body: "Postur kurus, tegang"
+      hair: "Rambut disanggul sederhana"
+    wardrobe:
+      headwear: "Makuta sederhana, lebih kecil dari raja penuh"
+      upper_body: "Dada terbuka dengan upavita emas, atau jubah halus"
+      lower_body: "Kain jedor biru (warna kebesaran)"
+      jewelry:
+        - "Kalung kundala emas sederhana"
+        - "Gelang kankana emas"
+      accessories:
+        - "Keris pusaka di pinggang"
+      footwear: "Sandal kulit"
+    color_palette:
+      primary: "Biru (kain jedor)"
+      accent: "Emas pucat (perhiasan)"
+      neutral: "Hitam, abu-abu"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Jayanegara (Kala Gemet), Javanese king 14th century
+        second king of Majapahit, weak young man 20-30 with troubled expression
+        and insecure eyes, hair in simple sanggul, wearing small simple makuta
+        crown (less ornate than full king), bare chest with gold upavita sacred
+        thread, simple gold kundala necklace, blue kain jedor at waist with
+        bebed fold, gold belt, keris pusaka tucked at waist, dark palace
+        interior background with single candlelight, dramatic chiaroscuro
+        lighting, painterly style, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Jayanegara 14th century Javanese king, simple
+        small makuta crown (less ornate than full king), bare chest with gold
+        upavita sacred thread, simple gold kundala necklace, kankana gold
+        bracelets, blue kain jedor with bebed front fold, gold belt, keris pusaka
+        tucked at waist, blue and gold color palette with matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # TRIBHUWANA TUNGGADEWI — Ratu Besi
+  # -------------------------------------------------------------------
+  tribhuwana:
+    name: "Tribhuwana Tunggadewi"
+    full_title: "Sri Tribhuwanottungadewi"
+    era_period: "1328–1350 M"
+    age_dramatic: "40-50 tahun"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Ratu ke-3 Majapahit. Putri Raden Wijaya dari permaisuri Rajapatni (cicit
+      Ken Arok). Ibu Hayam Wuruk. Naik takhta menggantikan Jayanegara (adiknya).
+      Mengangkat Gajah Mada sebagai Patih Amangkubhumi (1336 M, 1258 Saka) —
+      saat itulah Gajah Mada mengucapkan Sumpah Palapa. "Sang Ratu Besi" — ratu
+      yang berani. Majapahit mulai ekspansi signifikan. Mundur dari takhta 1350.
+    visual_physical:
+      face: "Wajah matang Jawa klasik, tegas, mata tajam"
+      body: "Postur tegap, berwibawa"
+      hair: "Kondé tinggi berhiaskan cunduk emas"
+    wardrobe:
+      headwear: "Mahkota kebesaran permaisuri dengan ornamen naga dan Garuda"
+      upper_body: "Kemben sutera emas dengan benang emas, motif parang rusak"
+      lower_body: "Kain panjang emas dengan sabuk emas berpermata"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Gelang kankana emas"
+        - "Anting anten emas besar"
+        - "Cunduk bunga emas di sanggul"
+      accessories:
+        - "Kipas ekor burung merak"
+        - "Tongkat kerajaan emas"
+      footwear: "Sandal kulit halus"
+    color_palette:
+      primary: "Emas / merah marun (kemben dan kain)"
+      accent: "Emas (perhiasan), merah (kipas)"
+      neutral: "Krem, coklat muda"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Tribhuwana Tunggadewi, Javanese queen 14th century
+        third monarch of Majapahit, mature dignified woman 40-50 with strong
+        determined face and sharp eyes, tall kondé sanggul adorned with golden
+        cunduk flower ornaments, wearing golden silk kemben with gold-thread
+        embroidery and parang rusak motif, layered gold kundala necklaces, kankana
+        gold bracelets, large anten earrings, long golden kain with jeweled gold
+        belt, holding peacock feather fan and golden royal staff, Trowulan palace
+        background with golden pavilion, dramatic golden hour lighting, golden
+        and maroon color palette, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Tribhuwana Tunggadewi 14th century Javanese
+        queen, royal crown with naga and Garuda ornaments, golden silk kemben
+        with gold-thread embroidery and parang rusak motif, layered gold kundala
+        necklaces, kankana gold bracelets, large anten gold earrings, jeweled
+        gold belt over long golden kain, peacock feather fan in hand, golden
+        royal staff, golden and maroon color palette with matte fabric texture
+        and golden jewelry sheen, museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # GAJAH MADA — Patih Sumpah Palapa
+  # -------------------------------------------------------------------
+  gajah_mada:
+    name: "Gajah Mada"
+    full_title: "Patih Amangkubhumi Majapahit"
+    era_period: "± 1290–1364 M (patih 1336–1364)"
+    age_dramatic: "50-60 tahun (saat Sumpah Palapa dan Bubat)"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Patih terbesar Majapahit. Awalnya beksa (pengawal raja). Menyelamatkan
+      Jayanegara dari pemberontakan Ra Kuti 1319 — diangkat sebagai patih.
+      Mengucapkan Sumpah Palapa 1336 (1258 Saka) — tidak akan menikmati
+      kesenangan duniawi sebelum menyatukan Nusantara. Selama 28 tahun, ia
+      menaklukkan Bali, Palembang, Melayu, dll. Peristiwa Bubat 1357 — tragedi
+      yang menghancurkan reputasinya. Wafat 1364. Bukan raja, tetapi patih yang
+      berkuasa lebih dari raja.
+    visual_physical:
+      face: "Wajah matang berjenggot tipis, mata tajam dan berwibawa"
+      body: "Postur tegap prajurit-negarawan"
+      hair: "Rambut hitam diikat destar"
+    wardrobe:
+      headwear: "Destar coklat (bukan makuta — ia patih, bukan raja)"
+      upper_body: "Baju prajurit-bangsawan dengan sabuk emas"
+      lower_body: "Kain jedor coklat soga (warna kebesaran patih)"
+      jewelry:
+        - "Kalung kundala emas"
+        - "Gelang kankana emas"
+      accessories:
+        - "Keris pusaka di pinggang"
+        - "Tongkat komando kayu berukir"
+      footwear: "Sandal kulit"
+    color_palette:
+      primary: "Coklat soga (kain jedor)"
+      accent: "Emas (perhiasan)"
+      neutral: "Hitam, abu-abu"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Gajah Mada, Javanese prime minister 14th century
+        Majapahit empire, mature bearded man 50-60 with fierce determined eyes
+        and commanding presence, wearing brown destar headband (not makuta — he
+        is patih not king), brown soga-brown batik kain jedor with keris tucked
+        at waist, layered gold kundala necklaces, kankana gold bracelets, leather
+        belt, holding carved wooden command staff, standing on Trowulan palace
+        terrace overlooking Brantas river, dramatic golden hour lighting, soga-
+        brown and gold color palette, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Gajah Mada 14th century Javanese prime
+        minister, brown destar headband (not royal makuta — he is patih),
+        warrior-courtier robe with golden belt, soga-brown kain jedor with bebed
+        front fold, leather belt, keris pusaka tucked at waist, gold kundala
+        necklaces, kankana gold bracelets, carved wooden command staff, soga-
+        brown and gold color palette with matte fabric texture, museum-quality
+        detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # HAYAM WURUK — Raja Keemasan
+  # -------------------------------------------------------------------
+  hayam_wuruk:
+    name: "Hayam Wuruk"
+    full_title: "Sri Rajasanagara"
+    era_period: "1350–1389 M"
+    age_dramatic: "16 tahun saat naik takhta (1350), 40-an saat Bubat (1357), 55 tahun saat wafat (1389)"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Raja ke-4 Majapahit, puncak keemasan. Putra Tribhuwana Tunggadewi &
+      Kertawardhana. Naik takhta muda (16 tahun), pemerintahan efektif dijalankan
+      Gajah Mada. Setelah kematian Gajah Mada (1364), Hayam Wuruk memerintah
+      sendiri hingga 1389. Penyokong kesusastraan — Negarakretagama ditulis
+      untuknya oleh Mpu Prapanca (1365). Peristiwa Bubat 1357 — tragedi di mana
+      Gajah Mada menuntut Dyah Pitaloka sebagai tanda taklukan, bukan sebagai
+      permaisuri. Hayam Wuruk lemah di hadapan Gajah Mada.
+    visual_physical:
+      face: "Wajah Jawa klasik yang tampan, ekspresi tenang dan cendekia"
+      body: "Postur tegap bangsawan"
+      hair: "Rambut disanggul jatamakuta"
+    wardrobe:
+      headwear: "Makuta tinggi dengan ornamen naga emas dan Garuda"
+      upper_body: "Jubah sutera bermotif parang rusak, atau dada terbuka dengan upavita emas"
+      lower_body: "Kain jedor emas / biru tua (warna kebesaran)"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Gelang keyura emas"
+        - "Gelang kankana emas"
+        - "Cincin kerajaan dengan permata"
+      accessories:
+        - "Kitab kakawin (lontar) di tangan"
+        - "Keris pusaka di pinggang"
+      footwear: "Sandal kulit halus"
+    color_palette:
+      primary: "Emas / biru tua (jubah dan kain jedor)"
+      accent: "Emas (perhiasan, makuta)"
+      neutral: "Krem sutera"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Hayam Wuruk (Rajasanagara), Javanese king 14th
+        century golden age of Majapahit, serene intelligent man 40s with calm
+        scholarly expression and peaceful eyes, hair in jatamakuta sanggul,
+        wearing tall makuta crown with golden naga and Garuda ornaments, silk
+        robe with parang rusak batik motif in gold and deep blue, layered gold
+        kundala necklaces, keyura arm bracelets, kankana wrist bracelets, royal
+        ring with gemstone, holding kakawin palm-leaf manuscript, keris pusaka
+        tucked at waist, Trowulan palace pavilion background with red brick
+        canal, soft temple lighting, golden and deep blue color palette,
+        hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Hayam Wuruk 14th century Javanese king golden
+        age of Majapahit, tall makuta crown with golden naga and Garuda ornaments,
+        silk robe with parang rusak batik motif in gold and deep blue, layered
+        gold kundala necklaces, keyura arm bracelets, kankana wrist bracelets,
+        royal ring with gemstone, gold belt over kain jedor, keris pusaka tucked
+        at waist, kakawin palm-leaf manuscript in hand, golden and deep blue
+        color palette with matte silk fabric texture and golden jewelry sheen,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # BHRE WIRABHUMI — Raja Timur yang Tewas
+  # -------------------------------------------------------------------
+  bhre_wirabhumi:
+    name: "Bhre Wirabhumi"
+    full_title: "Bhatara Parameswara ring Pamotan"
+    era_period: "± 1390s–1406 M (tewas di Perang Paregreg)"
+    age_dramatic: "30-40 tahun saat tewas"
+    religion: "Hindu Siwa-Buddha"
+    narrative_short: >
+      Tokoh kunci Perang Paregreg. Putra Hayam Wuruk dari selir, diangkat anak
+      oleh Bhre Daha (Rajadewi, istri Wijayarajasa). Membangun istana Timur di
+      Pamotan/Lumajang — disebut "Bhatara Parameswara ring Pamotan". Klaim takhta
+      Majapahit setelah kematian Hayam Wuruk 1389. Meminta dukungan Cina (dinasti
+      Ming) 1403 — Cina mengakui kemerdekaan wilayahnya. Perang Paregreg 1404-1406
+      melawan Wikramawardhana (Majapahit Barat). Tewas 1406 — dipenggal oleh
+      Raden Gajah (Bhra Narapati).
+    visual_physical:
+      face: "Wajah Jawa klasik yang garang, mata ambisius dan dendam"
+      body: "Postur prajurit beringas"
+      hair: "Rambut hitam diikat prajurit"
+    wardrobe:
+      headwear: "Makuta sederhana prajurit-raja Timur"
+      upper_body: "Kawaca perunggu di atas jubah merah"
+      lower_body: "Kain jedor merah (warna Majapahit Timur)"
+      jewelry:
+        - "Kalung kundala emas sederhana"
+        - "Gelang perunggu"
+      accessories:
+        - "Pedang lurus Tiongkok"
+        - "Keris dengan pamor hitam"
+      footwear: "Sandal kulit prajurit"
+    color_palette:
+      primary: "Merah (kain jedor Majapahit Timur)"
+      accent: "Perunggu (kawaca), emas pucat (perhiasan)"
+      neutral: "Hitam, abu-abu"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Bhre Wirabhumi, Javanese rebel king 14th-15th
+        century eastern Majapahit, fierce ambitious man 30-40 with hard vengeful
+        eyes, hair tied back as warrior, wearing simple warrior-king makuta
+        crown, bronze kawaca chest armor over red robe, red kain jedor at waist,
+        leather warrior belt, Chinese straight sword and keris with black pamor
+        at waist, simple bronze bracelets, warrior sandals, eastern palace
+        background in Lumajang with Mount Semeru silhouette, dramatic menacing
+        red lighting, painterly style, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Bhre Wirabhumi 15th century Javanese rebel
+        king of eastern Majapahit, simple warrior-king makuta crown, bronze
+        kawaca chest armor over red robe, red kain jedor with bebed front fold,
+        leather warrior belt, Chinese straight sword and keris with black pamor
+        at waist, simple bronze bracelets, warrior sandals, red and bronze
+        color palette with matte fabric texture, museum-quality detail shot,
+        hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # WIKRAMAWARDHANA — Raja yang Menang Paregreg
+  # -------------------------------------------------------------------
+  wikramawardhana:
+    name: "Wikramawardhana"
+    full_title: "Sri Wikramawardhana / Bhre Hyang Wicesa"
+    alt_name: "Gagak Rajasa"
+    era_period: "1389–1429 M"
+    age_dramatic: "50-60 tahun"
+    religion: "Hindu Siwa-Buddha"
+    narrative_short: >
+      Raja ke-5 Majapahit. Menantu Hayam Wuruk (suami Kusumawardhani, putri
+      Hayam Wuruk). Nama asli Gagak Rajasa. Naik takhta 1389 setelah kematian
+      Hayam Wuruk. Terlibat Perang Paregreg (1404-1406) melawan Bhre Wirabhumi
+      (Majapahit Timur). Menang — Bhre Wirabhumi tewas dipenggal oleh Raden
+      Gajah. Tapi setelah Perang Paregreg, Majapahit lemah — banyak wilayah
+      taklukan merdeka (Palembang, Malayu, Malaka, Brunei).
+    visual_physical:
+      face: "Wajah matang tegas, mata ahli strategi"
+      body: "Postur negarawan tua"
+      hair: "Rambut hitam disanggul jatamakuta"
+    wardrobe:
+      headwear: "Makuta tinggi dengan ornamen Siwa"
+      upper_body: "Jubah kebesaran biru tua dengan sabuk emas"
+      lower_body: "Kain jedor biru tua (warna Majapahit Barat)"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Gelang kankana emas"
+      accessories:
+        - "Keris pusaka di pinggang"
+        - "Tongkat komando kayu berukir"
+      footwear: "Sandal kulit halus"
+    color_palette:
+      primary: "Biru tua (kain jedor Majapahit Barat)"
+      accent: "Emas (perhiasan)"
+      neutral: "Hitam, coklat"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Wikramawardhana, Javanese king 15th century fifth
+        king of Majapahit, mature strategic man 50-60 with determined eyes and
+        statesman bearing, hair in jatamakuta sanggul, wearing tall makuta crown
+        with Shiva ornaments, deep blue royal robe with golden belt over deep
+        blue kain jedor, layered gold kundala necklaces, kankana bracelets, keris
+        pusaka tucked at waist, holding carved wooden command staff, Trowulan
+        palace background with red brick canal and pavilion, dramatic golden
+        hour lighting, deep blue and gold color palette, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Wikramawardhana 15th century Javanese king,
+        tall makuta crown with Shiva ornaments, deep blue royal robe with golden
+        belt, deep blue kain jedor with bebed front fold, gold belt, keris pusaka
+        tucked at waist, layered gold kundala necklaces, kankana gold bracelets,
+        carved wooden command staff, deep blue and gold color palette with matte
+        fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  # -------------------------------------------------------------------
+  # SUHITA — Ratu Pembalas Dendam
+  # -------------------------------------------------------------------
+  suhita:
+    name: "Suhita"
+    era_period: "1429–1447 M"
+    age_dramatic: "30-40 tahun"
+    religion: "Hindu Siwa-Buddha"
+    narrative_short: >
+      Ratu ke-6 Majapahit. Putri Wikramawardhana. Membalas dendam kematian
+      ayahnya dengan mengeksekusi pendukung Bhre Wirabhumi. Periode pemulihan
+      setelah Perang Paregreg.
+    visual_physical:
+      face: "Wajah Jawa klasik yang tegas, mata pembalas dendam"
+      body: "Postur tegap ratu"
+      hair: "Kondé tinggi berhiaskan cunduk emas"
+    wardrobe:
+      headwear: "Mahkota kebesaran permaisuri dengan ornamen naga"
+      upper_body: "Kemben sutera merah marun dengan benang emas"
+      lower_body: "Kain panjang merah marun dengan sabuk emas"
+      jewelry:
+        - "Kalung kundala emas berlapis"
+        - "Gelang kankana emas"
+        - "Anting anten emas besar"
+      accessories:
+        - "Kipas ekor burung merak"
+      footwear: "Sandal kulit halus"
+    color_palette:
+      primary: "Merah marun (kemben dan kain)"
+      accent: "Emas (perhiasan)"
+      neutral: "Hitam, krem"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Suhita, Javanese queen 15th century sixth monarch
+        of Majapahit, mature vengeful woman 30-40 with determined face and
+        unforgiving eyes, tall kondé sanggul adorned with golden cunduk flower
+        ornaments, wearing maroon silk kemben with gold-thread embroidery, layered
+        gold kundala necklaces, kankana gold bracelets, large anten earrings,
+        long maroon kain with jeweled gold belt, holding peacock feather fan,
+        Trowulan palace background with red brick canal, dramatic golden hour
+        lighting, maroon and gold color palette, hyperdetailed hyperrealistic 8k
+        masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Suhita 15th century Javanese queen, royal
+        crown with naga ornaments, maroon silk kemben with gold-thread embroidery,
+        layered gold kundala necklaces, kankana gold bracelets, large anten gold
+        earrings, jeweled gold belt over long maroon kain, peacock feather fan
+        in hand, maroon and gold color palette with matte fabric texture, museum-
+        quality detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# LOKASI & SETTING — Master Reference untuk T2I
+# =============================================================================
+locations:
+
+  trowulan_capital:
+    name: "Trowulan — Ibu Kota Majapahit"
+    location: "Kecamatan Trowulan, Kabupaten Mojokerto, Jawa Timur"
+    era_active: "1293–1466 M (kemudian pindah ke Daha)"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Ibu kota Kerajaan Majapahit. Diperkirakan berpenduduk 100.000-200.000 jiwa
+      — kota terbesar di Asia Tenggara pada abad ke-14. Negarakretagama
+      menggambarkan istana raja dengan paviliun-paviliun bertingkat (rajasthana),
+      alun-alun luas, pasar besar dengan pedagang multinasional, taman-taman
+      keraton (tamansari), serta kompleks candi dalam kota. Arkeologi Trowulan
+      menemukan kanal-kanal air, kolam-kolam kerajaan (Kolam Segaran), gerbang-
+      gerbang bata merah, dan ratusan fragmen keramik Tiongkok.
+    landmarks:
+      - "Kolam Segaran (kolam kerajaan)"
+      - "Gerbang Bajang Ratu"
+      - "Gerbang Wringin Lawang"
+      - "Candi Brahu"
+      - "Candi Tikus"
+      - "Situs Trowulan Museum"
+      - "Kanal-kanal bata merah"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Trowulan capital city of Majapahit 14th century,
+        bustling metropolis with red-brick canal system, Chinese Song Dynasty
+        merchants in silk robes, Tamil traders in white veshti, Arab traders in
+        robes and turbans, Javanese nobility in golden kemben, horse carriages
+        and ox carts on cobblestone streets, pavilion palace with red teak roof
+        and tumpang architecture, alun-alun square with sacred beringin tree,
+        distant Mount Penanggungan, warm afternoon light, earth-tone palette
+        with gold accents, cinematic wide shot, hyperdetailed 8k masterpiece.
+      palace_interior: >
+        Cinematic scene of Majapahit palace interior 14th century Trowulan,
+        grand hall with carved red teak pillars and tumpang roof, sultan on
+        golden throne with golden umbrella (chatra), courtiers in velvet robes
+        and makuta crowns gathered around, gamelan perunggu orchestra on side,
+        incense smoke, warm candlelight, hyperrealistic cinematic, hyperdetailed
+        8k masterpiece.
+
+  candi_sukuh:
+    name: "Candi Sukuh — Candi Tantrik Akhir Majapahit"
+    location: "Desa Sukuh, Kecamatan Ngargoyoso, Karanganyar, Jawa Tengah"
+    era_active: "± 1437-1457 M (era akhir Majapahit)"
+    religion: "Hindu Siwa Tantrik sinkretis"
+    narrative_short: >
+      Candi unik di lereng Gunung Lawu — menyerupai piramida berundak seperti
+      candi-candi Mesoamerika. Relief erotik dan simbolik — pengaruh kultus
+      kesuburan dan Tantrayana sinkretis. Salah satu candi terakhir era Majapahit.
+    landmarks:
+      - "Piramida berundak"
+      - "Relief kura-kura raksasa"
+      - "Lingga-yoni besar"
+      - "Patung Garuda"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Candi Sukuh 15th century Majapahit era, stepped
+        pyramid structure on Mount Lawu slope at dawn, fog and mystic atmosphere,
+        Hindu Tantric statues and lingga-yoni, ritual offerings, unique
+        Mesoamerican-like architecture, surrounded by tropical forest, dramatic
+        orange sunrise light, cinematic landscape, hyperdetailed 8k masterpiece.
+      temple_detail: >
+        Detailed architectural study of Candi Sukuh 15th century, stepped pyramid
+        structure with andesite stone, carved relief with Tantric Buddhist and
+        Hindu Siwa fertility symbols, lingga-yoni, large turtle relief, unique
+        non-Javanese architectural style, surrounded by mist and tropical forest,
+        dramatic morning light, hyperdetailed architectural photography 8k.
+
+  candi_penataran:
+    name: "Candi Penataran — Candi Terbesar Jawa Timur"
+    location: "Desa Penataran, Kecamatan Nglegok, Blitar"
+    era_active: "Abad 12-15 M (era Kediri sampai Majapahit)"
+    religion: "Hindu Siwa"
+    narrative_short: >
+      Kompleks candi Hindu terbesar di Jawa Timur. Dibangun dari era Kediri
+      hingga Majapahit. Relief Ramayana dan Krisnayana yang panjang. Candi
+      kebesaran Majapahit.
+    prompt_t2i:
+      temple_detail: >
+        Cinematic architectural study of Candi Penataran 14th century Blitar,
+        largest Hindu temple complex in East Java, andesite stone with elaborate
+        carved Ramayana and Krishnayana reliefs, terraced structure with tall
+        shikhara, surrounded by tropical garden with frangipani trees, dramatic
+        golden hour lighting, hyperdetailed architectural photography 8k.
+
+  kudadu_trawas:
+    name: "Kudadu / Trawas — Tempat Berlindung Raden Wijaya"
+    location: "Desa Kemloko, Kecamatan Trawas, Kabupaten Mojokerto"
+    era_active: "1292–1293 M (saat Jayakatwang menyerang)"
+    religion: "Hindu Siwa-Buddha"
+    narrative_short: >
+      Tempat Raden Wijaya berlindung saat Jayakatwang menyerang istana Singasari
+      1292. Masyarakat Trawas membantu Raden Wijaya. Prasasti Kudadu (1294 M)
+      dikeluarkan Raden Wijaya untuk mengharga mereka.
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Kudadu-Trawas 13th century East Java, ancient
+        Javanese mountain village in forest clearing, wooden stilt houses with
+        thatched roofs, terraced rice fields, Raden Wijaya (young Javanese
+        prince in simple warrior attire) taking refuge with few loyal soldiers,
+        villagers helping them with food and shelter, dense tropical forest
+        with waterfall in background, Mount Butak silhouette, dramatic morning
+        light filtering through trees, painterly epic, hyperdetailed 8k
+        masterpiece.
+
+# =============================================================================
+# WARDALE — Master Reference Baju & Aksesoris
+# =============================================================================
+wardrobe:
+
+  royal_formal_majapahit:
+    name: "Busana Kebesaran Raja Majapahit"
+    era: "Abad 14-15 M"
+    religion: "Hindu Siwa-Buddha sinkretis"
+    narrative_short: >
+      Busana kebesaran untuk raja Majapahit. Jauh lebih kompleks dan
+      kosmopolitan dari era sebelumnya — pengaruh Tiongkok-Yuan dan Timur Tengah
+      terlihat dalam tekstil brokat dan kalung mutiara.
+    elements:
+      - name: "Kain Panjang Berlipat-lipit"
+        description: "Banyak lapisan — kain dalam (cawat pendek), kain tengah, kain luar (sampur) dijahit benang emas"
+        color: "Biru tua, merah marun, emas"
+      - name: "Makuta Tinggi Kompleks"
+        description: "Mahkota dengan sisir emas, tjas (mahkota bertingkat), kuluk (penutup kepala beludru)"
+        material: "Emas, dengan ornamen naga, Garuda, kala"
+      - name: "Jaket Pendek (Kutanga)"
+        description: "Jaket pendek berlengan pendek untuk upacara"
+      - name: "Upavita Tali Emas"
+        description: "Tali suci emas melintang dada"
+      - name: "Kalung Kundala Bertumpuk"
+        description: "Kalung emas berlapis"
+      - name: "Gelang Lengan Keyura"
+        description: "Gelang emas di lengan atas"
+      - name: "Gelang Tangan Kankana"
+        description: "Gelang emas di pergelangan"
+      - name: "Cincin Permata"
+        description: "Cincin kerajaan dengan permata"
+      - name: "Anting Anten Besar"
+        description: "Anting besar emas"
+      - name: "Sabuk Emas Berhias Permata"
+        description: "Sabuk emas dengan buckle permata"
+    footwear: "Sandal kulit halus"
+    prompt_t2i: >
+      Detailed ancient Javanese Majapahit royal formal wardrobe 14th century,
+      tall complex makuta crown with golden sisir, tjas tiers, and kuluk back
+      panel, bare chest with gold upavita sacred thread, layered kundala gold
+      necklaces, keyura arm bracelets, kankana wrist bracelets, royal ring with
+      gemstone, large anten earrings, deep blue or maroon kain jedor wrapped at
+      waist with bebed fold and gold-thread embroidery, jeweled gold belt,
+      sandal leather footwear, earth-tone palette with gold jewelry accents,
+      matte fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  queen_formal_majapahit:
+    name: "Busana Kebesaran Permaisuri Majapahit"
+    era: "Abad 14-15 M"
+    elements:
+      - name: "Kemben Sutera Berjahit Benang Emas"
+        description: "Kemben dengan motif kawung atau parang, benang emas"
+      - name: "Kain Panjang dengan Sabuk Emas Berpermata"
+        description: "Bawahan kain panjang dengan sabuk emas berpermata"
+      - name: "Kondé Tinggi dengan Cunduk Garuda/Naga"
+        description: "Sanggul tinggi dengan cunduk berbentuk burung Garuda atau naga"
+      - name: "Kalung Mutiara"
+        description: "Pengaruh Tiongkok-Timur Tengah"
+      - name: "Kalung Kundala Bertumpuk"
+        description: "Kalung emas berlapis"
+      - name: "Gelang Keyura"
+        description: "Gelang emas di lengan atas"
+      - name: "Gelang Kankana"
+        description: "Gelang emas di pergelangan"
+      - name: "Anting Anten Besar"
+        description: "Anting besar emas"
+    footwear: "Sandal kulit halus"
+    prompt_t2i: >
+      Detailed ancient Javanese Majapahit queen formal wardrobe 14th century,
+      tall kondé sanggul adorned with golden cunduk Garuda and naga ornaments,
+      silk kemben with gold-thread embroidery and kawung/parang motif, layered
+      gold kundala necklaces with pearl necklace (Chinese-Middle Eastern influence),
+      keyura arm bracelets, kankana wrist bracelets, large anten earrings, jeweled
+      gold belt over long kain, sandal leather footwear, cream silk and gold
+      color palette with pearl accents, matte fabric texture, museum-quality
+      detail shot, hyperdetailed 8k.
+
+  warrior_majapahit:
+    name: "Busana Prajurit Majapahit"
+    era: "Abad 14-15 M"
+    elements:
+      - name: "Kawaca Baja"
+        description: "Baju zirah baja lebih canggih dari era sebelumnya"
+      - name: "Pelindung Lengan Kulit"
+        description: "Pelindung lengan dari kulit"
+      - name: "Kain Bebed"
+        description: "Kain pendek sebatas lutut"
+        color: "Merah, kuning, biru"
+      - name: "Destar Merah"
+        description: "Ikat kepala kain merah"
+      - name: "Keris dengan Dhapur Kompleks"
+        description: "Keris 11 atau 13 luk, pamor kompleks (ngulit semangka, blarak ngirid)"
+      - name: "Pedang Lengkung Persia-Arab"
+        description: "Pengaruh Arab (saif atau scimitar)"
+      - name: "Tombak Bermata Kembar"
+        description: "Tumbak dobel, gagang kayu berukir"
+      - name: "Meriam Kecil (Cetbang)"
+        description: "Meriam perunggu pertama di Nusantara, untuk prajurit berkasta tinggi"
+      - name: "Perisai Segi Delapan Berukir Naga"
+        description: "Kayu atau kulit kerbau, berukir kepala kala"
+    footwear: "Sandal kayu atau telanjang"
+    prompt_t2i: >
+      Detailed ancient Javanese Majapahit warrior wardrobe 14th century, iron
+      kawaca chest armor (more advanced than earlier periods), leather arm guards,
+      red kain bebed sebatas lutut, red destar headband, keris with complex dhapur
+      (11 or 13 luk, ngulit semangka pamor) tucked at waist, Persian-Arab curved
+      sword at hip, double-bladed tombak spear in hand, octagonal shield with
+      naga and kala motif carving, small bronze cetbang cannon nearby, simple
+      sandals, earth-tone palette with iron and bronze armor accents, museum-
+      quality detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# SENJATA & PROPERTI
+# =============================================================================
+artifacts:
+
+  weapons:
+    - name: "Keris Majapahit"
+      type: "Keris kompleks"
+      era: "Abad 14-15 M"
+      description: >
+        Puncak seni pandai besi Jawa. Dhapur kompleks (11, 13 luk), pamor berpamor
+        (ngulit semangka, blarak ngirid, dll). Keris menjadi simbol kedewasaan
+        dan status.
+    - name: "Pedang Lurus Tiongkok"
+      type: "Pedang"
+      description: "Pengaruh Song-Yuan Dynasty, bilah lurus dengan gagang kuningan."
+    - name: "Pedang Lengkung Persia-Arab"
+      type: "Pedang (saif/scimitar)"
+      description: "Pengaruh Arab-Persia, bilah lengkung."
+    - name: "Tombak Bermata Kembar"
+      type: "Tumbak dobel"
+      description: "Bermata kembar, gagang kayu berukir."
+    - name: "Meriam Kecil (Cetbang)"
+      type: "Meriam perunggu"
+      description: "Meriam perunggu pertama di Nusantara, digunakan kapal perang Majapahit."
+    - name: "Panah Beracun"
+      type: "Anak panah"
+      description: "Racun dari getah ipoh, untuk unit prajurit khusus."
+    - name: "Perisai Naga"
+      type: "Perisai segi delapan"
+      description: "Kayu atau kulit kerbau, berukir kepala kala dan naga."
+
+  royal_regalia:
+    - name: "Payung Kebesaran Emas (Chatra)"
+      description: "Payung berlapis emas untuk raja"
+    - name: "Mahkota Bertingkat (Tjas)"
+      description: "Mahkota bertingkat untuk upacara"
+    - name: "Tongkat Komando Kayu Berukir"
+      description: "Tongkat kerajaan untuk komando militer"
+    - name: "Kipas Ekor Burung Merak"
+      description: "Kipas upacara untuk bangsawan wanita"
+
+  jewelry:
+    - name: "Makuta Tinggi Kompleks dengan Sisir, Tjas, Kuluk"
+      description: "Mahkota kompleks dengan berbagai ornamen"
+    - name: "Kalung Kundala Bertumpuk"
+      description: "Kalung emas berlapis"
+    - name: "Kalung Mutiara"
+      description: "Pengaruh Tiongkok-Timur Tengah"
+    - name: "Gelang Keyura"
+      description: "Gelang lengan atas emas"
+    - name: "Gelang Kankana"
+      description: "Gelang tangan emas"
+    - name: "Anting Anten Besar"
+      description: "Anting besar emas"
+    - name: "Cunduk Berbentuk Garuda/Naga"
+      description: "Tajuk emas untuk sanggul wanita"
+    - name: "Cincin Permata"
+      description: "Cincin kerajaan dengan permata"
+
+# =============================================================================
+# PROMPT LIBRARY — T2I Scene Library
+# =============================================================================
+prompt_library:
+
+  character_portraits:
+    - id: "p3_char_001"
+      character: "raden_wijaya_majapahit"
+      scene: "Raden Wijaya mendirikan Majapahit di Trowulan"
+      prompt: >
+        Cinematic portrait of Raden Wijaya (Kertarajasa Jayawardhana), Javanese
+        king 14th century founder of Majapahit empire, intelligent cool
+        calculating man 30-50 with handsome Javanese face and determined eyes,
+        wearing tall makuta crown with naga and Garuda ornaments, short warrior
+        robe with golden belt over deep blue kain jedor, keris pusaka and
+        Chinese straight sword at waist, gold kundala necklaces, holding carved
+        wooden command staff, Trowulan palace background with red brick canal,
+        dramatic golden hour lighting, hyperdetailed hyperrealistic 8k masterpiece.
+    - id: "p3_char_002"
+      character: "gajah_mada"
+      scene: "Gajah Mada mengucapkan Sumpah Palapa 1336"
+      prompt: >
+        Cinematic portrait of Gajah Mada, Javanese prime minister 14th century
+        Majapahit, mature bearded man 50-60 with fierce determined eyes and
+        commanding presence, wearing brown destar headband (not makuta — he is
+        patih not king), brown soga-brown batik kain jedor with keris tucked
+        at waist, layered gold kundala necklaces, holding carved wooden command
+        staff, standing in Majapahit palace hall during Sumpah Palapa ceremony
+        1336 AD, courtiers in attendance, dramatic candlelight, hyperdetailed
+        hyperrealistic 8k masterpiece.
+    - id: "p3_char_003"
+      character: "hayam_wuruk"
+      scene: "Hayam Wuruk di Trowulan puncak keemasan"
+      prompt: >
+        Cinematic portrait of Hayam Wuruk (Rajasanagara), Javanese king 14th
+        century golden age of Majapahit, serene intelligent man 40s with calm
+        scholarly expression, wearing tall makuta crown with golden naga and
+        Garuda ornaments, silk robe with parang rusak batik motif in gold and
+        deep blue, layered gold kundala necklaces, holding kakawin palm-leaf
+        manuscript, Trowulan palace pavilion background with red brick canal,
+        soft temple lighting, hyperdetailed hyperrealistic 8k masterpiece.
+    - id: "p3_char_004"
+      character: "tribhuwana"
+      scene: "Tribhuwana Tunggadewi ratu besi"
+      prompt: >
+        Cinematic portrait of Tribhuwana Tunggadewi, Javanese queen 14th century
+        third monarch of Majapahit, mature dignified woman 40-50 with strong
+        determined face and sharp eyes, tall kondé sanggul adorned with golden
+        cunduk flower ornaments, wearing golden silk kemben with gold-thread
+        embroidery and parang rusak motif, layered gold kundala necklaces,
+        holding peacock feather fan and golden royal staff, Trowulan palace
+        background, dramatic golden hour lighting, hyperdetailed hyperrealistic
+        8k masterpiece.
+
+  location_scenes:
+    - id: "p3_loc_001"
+      location: "trowulan_capital"
+      scene: "Trowulan ibu kota Majapahit abad 14"
+      prompt: >
+        Cinematic landscape of Trowulan capital city of Majapahit 14th century,
+        bustling metropolis with red-brick canal system, Chinese Song Dynasty
+        merchants in silk robes, Tamil traders in white veshti, Arab traders in
+        robes and turbans, Javanese nobility in golden kemben, horse carriages
+        and ox carts on cobblestone streets, pavilion palace with red teak roof
+        and tumpang architecture, alun-alun square with sacred beringin tree,
+        distant Mount Penanggungan, warm afternoon light, earth-tone palette
+        with gold accents, cinematic wide shot, hyperdetailed 8k masterpiece.
+    - id: "p3_loc_002"
+      location: "candi_sukuh"
+      scene: "Candi Sukuh di lereng Lawu"
+      prompt: >
+        Cinematic landscape of Candi Sukuh 15th century Majapahit era, stepped
+        pyramid structure on Mount Lawu slope at dawn, fog and mystic atmosphere,
+        Hindu Tantric statues and lingga-yoni, ritual offerings, unique
+        Mesoamerican-like architecture, surrounded by tropical forest, dramatic
+        orange sunrise light, cinematic landscape, hyperdetailed 8k masterpiece.
+    - id: "p3_loc_003"
+      location: "kudadu_trawas"
+      scene: "Raden Wijaya berlindung di Kudadu"
+      prompt: >
+        Cinematic scene of Raden Wijaya taking refuge at Kudadu-Trawas 13th
+        century, young Javanese prince 30s in simple warrior attire, sitting
+        in forest hermitage with waterfall, few loyal soldiers, villagers
+        bringing food, dense tropical forest background, Mount Butak silhouette,
+        dramatic morning light filtering through trees, painterly epic,
+        hyperdetailed 8k masterpiece.
+
+  historical_moments:
+    - id: "p3_mom_001"
+      title: "Raden Wijaya memanfaatkan Mongol 1293 M"
+      prompt: >
+        Cinematic epic scene of Raden Wijaya meeting Mongol-Yuan expedition 1293
+        AD East Java, young Javanese prince 30s in simple warrior attire
+        negotiating with Mongol generals in armor, Javanese and Mongol soldiers
+        facing each other, harbor with wooden ships, dramatic tense atmosphere,
+        painterly epic, hyperdetailed 8k masterpiece.
+    - id: "p3_mom_002"
+      title: "Gajah Mada menyelamatkan Jayanegara dari Ra Kuti 1319"
+      prompt: >
+        Cinematic chaotic scene of Gajah Mada (young Javanese warrior 30s in
+        bronze kawaca armor) rescuing Jayanegara (young weak king 20s) from Ra
+        Kuti's rebellion 1319 AD, burning Majapahit palace with red teak pillars,
+        soldiers fighting with keris and tombak, Jayanegara fleeing with Gajah
+        Mada's protection, fire and smoke, dramatic night scene, painterly epic,
+        hyperdetailed 8k masterpiece.
+    - id: "p3_mom_003"
+      title: "Sumpah Palapa 1336 M"
+      prompt: >
+        Cinematic scene of Gajah Mada taking Sumpah Palapa oath 1336 AD in
+        Majapahit palace, mature bearded man 50s in brown destar and soga-brown
+        kain jedor, raising right hand in oath, courtiers and scribes in
+        attendance, Queen Tribhuwana Tunggadewi on throne observing, palace
+        hall with carved teak pillars, dramatic candlelight, hyperrealistic
+        historical scene, hyperdetailed 8k masterpiece.
+    - id: "p3_mom_004"
+      title: "Peristiwa Bubat 1357 M"
+      prompt: >
+        Cinematic tragic scene of Battle of Bubat 1357 AD, Gajah Mada (mature
+        bearded man 50s in brown destar and armor) confronting Sunda royal family,
+        Dyah Pitaloka (beautiful Sundanese princess in white kemben) in distress,
+        King Sunda Linggabuana (Sundanese king in formal attire) enraged,
+        Majapahit warriors in bronze kawaca armor surrounding, battlefield at
+        Bubat square, dramatic stormy sky, painterly epic tragic scene,
+        hyperdetailed 8k masterpiece.
+    - id: "p3_mom_005"
+      title: "Perang Paregreg 1404-1406 M"
+      prompt: >
+        Cinematic epic battle scene of Perang Paregreg 1404-1406 AD, civil war
+        of Majapahit, Wikramawardhana (mature king 50s in deep blue royal attire)
+        leading western Majapahit troops against Bhre Wirabhumi (rebel king 40s
+        in red kain jedor and bronze armor) leading eastern Majapahit troops,
+        warriors in bronze kawaca armor with keris and tombak, banners of east
+        and west, bloody battlefield, dramatic stormy sky, painterly epic,
+        hyperdetailed 8k masterpiece.
+    - id: "p3_mom_006"
+      title: "Tewasnya Bhre Wirabhumi 1406 M"
+      prompt: >
+        Cinematic dramatic scene of Bhre Wirabhumi's death 1406 AD, rebel king
+        40s in red kain jedor and bronze armor fleeing by boat at night, pursued
+        by Raden Gajah (Bhra Narapati) in warrior attire, Bhre Wirabhumi's head
+        being cut off, dark river with torches, dramatic night scene, painterly
+        dramatic style, hyperdetailed 8k masterpiece.
+
+  daily_life:
+    - id: "p3_dl_001"
+      title: "Pasar Trowulan abad 14"
+      prompt: >
+        Cinematic market scene of Trowulan capital of Majapahit 14th century,
+        vendors selling spices, silk cloth, and Chinese ceramics, Chinese Song
+        Dynasty traders in silk robes, Tamil traders in white veshti, Arab
+        traders in robes and turbans, Javanese in kain jedor and blangkon,
+        gamelan orchestra on side, wooden shophouses with red tile roofs, warm
+        afternoon light, earth-tone palette, cinematic wide shot, hyperdetailed
+        genre painting 8k masterpiece.
+    - id: "p3_dl_002"
+      title: "Upacara keagamaan Majapahit"
+      prompt: >
+        Cinematic scene of Majapahit religious ceremony 14th century, Hindu and
+        Buddhist priests in saffron and white robes performing ritual, king and
+        queen in royal attire observing, gamelan perunggu orchestra, incense
+        smoke, candlelit temple interior with Hindu-Buddhist statues, hyperrealistic
+        cinematic, hyperdetailed 8k masterpiece.
+    - id: "p3_dl_003"
+      title: "Penulisan Negarakretagama oleh Mpu Prapanca 1365"
+      prompt: >
+        Cinematic scene of Mpu Prapanca writing Negarakretagama 1365 AD, Javanese
+        poet 50s in white Hindu priest robe sitting in forest hermitage on Mount
+        Kamalasana, writing on palm-leaf manuscript with stylus, scholarly
+        atmosphere, incense smoke, dramatic morning light filtering through
+        trees, hyperrealistic cinematic, hyperdetailed 8k masterpiece.
+
+# =============================================================================
+# CATATAN PRODUKSI — Untuk Tim Drama
+# =============================================================================
+production_notes:
+
+  color_palette_overall:
+    description: >
+      Palet warna Majapahit paling kaya dan kosmopolitan dari semua era kuno
+      Nusantara — pengaruh Tiongkok-Yuan, Persia-Arab, dan India terlihat
+      dalam tekstil brokat, kalung mutiara, dan warna-warna cerah.
+    primary_colors:
+      - "Biru tua (kain jedor kebesaran raja)"
+      - "Merah marun (kain jedor Majapahit Timur, permaisuri)"
+      - "Coklat soga (warna patih Gajah Mada)"
+      - "Emas (perhiasan, makuta, jubah)"
+      - "Krem sutera"
+    accent_colors:
+      - "Perunggu (kawaca prajurit)"
+      - "Putih (jubah pendeta)"
+      - "Saffron (jubah Buddha)"
+      - "Merah (destar prajurit, kain Majapahit Timur)"
+    forbidden_colors:
+      - "Warna sintetis cerah modern"
+      - "Pastel (tidak ada di era ini)"
+
+  texture_palette:
+    fabric:
+      - "Sutera Tiongkok (impor Song-Yuan-Ming)"
+      - "Beludru (untuk kuluk makuta)"
+      - "Katun halus (lokal)"
+      - "Kain batik (motif kompleks: parang rusak, kawung, lereng, truntum, ceplok)"
+      - "Brokat (pengaruh Tiongkok-Timur Tengah)"
+    metal:
+      - "Emas (perhiasan, makuta, sabuk)"
+      - "Baja (kawaca prajurit)"
+      - "Perunggu (meriam cetbang, perhiasan sederhana)"
+      - "Kuningan (gagang pedang Tiongkok)"
+    stone:
+      - "Andesit (candi)"
+      - "Bata merah (istana, kanal Trowulan)"
+
+  sound_design:
+    ambient:
+      - "Gamelan perunggu Majapahit (paling lengkap dari semua era)"
+      - "Kidung kakawin Sankrit-Kawi"
+      - "Suara pasar kosmopolitan (Tionghoa, Tamil, Arab, Persia, India, Jawa)"
+      - "Gending Majapahit (musik klasik keraton)"
+    music:
+      - "Gamelan lengkap (untuk upacara)"
+      - "Suling bambu"
+      - "Kidung Sunda (untuk adegan Bubat)"
+
+  cultural_authenticity:
+    important_details:
+      - "Raja Hindu masih dada terbuka dengan upavita, tapi kain jedor lebih berlapis"
+      - "Makuta paling tinggi dan kompleks dari semua era — dengan sisir, tjas, kuluk"
+      - "Pengaruh Tiongkok-Yuan dan Persia-Arab terlihat di brokat dan pedang lengkung"
+      - "Gajah Mada memakai destar coklat, BUKAN makuta — ia patih, bukan raja"
+      - "Permaisuri memakai cunduk berbentuk Garuda/Naga (lebih kompleks dari era sebelumnya)"
+      - "Bhre Wirabhumi (Majapahit Timur) memakai warna merah, kontras dengan Wikramawardhana (biru tua)"
+      - "Keris Majapahit puncak seni pandai besi — dhapur kompleks 11-13 luk dengan pamor ngulit semangka, blarak ngirid"
+      - "Meriam kecil (cetbang) pertama di Nusantara — digunakan kapal perang Majapahit"
+
+# =============================================================================
+# END OF MASTER PHASE 3
+# =============================================================================

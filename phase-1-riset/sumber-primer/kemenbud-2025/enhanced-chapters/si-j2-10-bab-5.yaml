@@ -1,0 +1,330 @@
+# =============================================================================
+# ENHANCED METADATA — Bab Puncak Pencapaian Persilangan dengan Hindu dan Buddha
+# =============================================================================
+# Source: Kemenbud 2025, Jilid 2, Bab 5
+# Source file: jilid-2/10-bab-5.md
+# Word count: 89,372 (PDF pages 749-1260, cetak 683-1194)
+# Reading time: ~447 minutes (BAB TERPANJANG di seluruh 5 jilid)
+# Enhancement: partial-read (headings + grep extraction)
+# =============================================================================
+
+doc_id: "si-j2-10-bab-5"
+source_file: "jilid-2/10-bab-5.md"
+jilid: 2
+chapter_number: 5
+title: "Bab V — Puncak Pencapaian Persilangan dengan Hindu dan Buddha"
+
+summary: >
+  Bab terpanjang di seluruh 5 jilid (89.372 kata). Membahas puncak pencapaian
+  peradaban Hindu-Buddha di Nusantara, terutama Majapahit di bawah Hayam Wuruk
+  (1350-1389) dan Mahapatih Gajah Mada. Membahas pula ide penyatuan Nusantara
+  yang dimulai sejak Wisnuwardhana Singasari (Prasasti Mula Malurung 1255 M),
+  diteruskan Kertanegara (Prasasti Camundi, ekspedisi Pamalayu 1275, arca
+  Amoghapasa ke Dharmasraya 1286), dan mencapai puncaknya dengan Sumpah Palapa
+  Gajah Mada 1331 M. Bab juga membahas Dinasti Girindra (Rajasawanda) di
+  Majapahit Akhir, periode Wikramawardhana (1389-1427), Perang Paregreg
+  1404-1406, hingga runtuhnya Majapahit 1478/1527. Membahas hubungan maritim
+  Majapahit dengan Tiongkok (Dinasti Ming), Siam, Champa, Kamboja, India, dan
+  kerajaan-kerajaan Nusantara bawahan.
+
+reading_time_minutes: 447
+
+key_figures:
+
+  - name: "Wisnuwardhana"
+    role: "Raja Singasari, perintis ide Nusantara"
+    period: "1248-1268 M"
+    drama_relevance: medium
+    notes: "Prasasti Mula Malurung (1255 M) — pertama kali menyebut 'Nusantara'."
+
+  - name: "Kertanegara"
+    role: "Raja Singasari terakhir, pelanjut ide Nusantara"
+    period: "1268-1292 M"
+    drama_relevance: high
+    notes: "Prasasti Camundi, Pamalayu 1275, arca Amoghapasa ke Dharmasraya 1286. Dibunuh Jayakatwang 1292."
+
+  - name: "Raden Wijaya (Sri Kertarajasa)"
+    role: "Pendiri Majapahit"
+    period: "1293-1309 M"
+    drama_relevance: high
+    notes: "Dinasti Rajasa/Girindra. Kerjasama Mongol kalahkan Jayakatwang, lalu usir Mongol."
+
+  - name: "Jayanegara"
+    role: "Raja Majapahit ke-2"
+    period: "1309-1328 M"
+    drama_relevance: medium
+    notes: "Dibunuh Ra Tanca 1328 M."
+
+  - name: "Tribhuwanatunggadewi"
+    role: "Ratu Majapahit ke-3"
+    period: "1328-1350 M"
+    drama_relevance: high
+    notes: "Ibu Hayam Wuruk. Mengangkat Gajah Mada sebagai Mahamantri."
+
+  - name: "Gajah Mada"
+    role: "Mahapatih Majapahit, Sumpah Palapa"
+    period: "1331-1364 M"
+    drama_relevance: high
+    notes: "Sumpah Palapa 1331 M — ekspansi Nusantara. Peristiwa Bubat 1357 M."
+
+  - name: "Hayam Wuruk (Sri Rajasanagara)"
+    role: "Raja Majapahit puncak"
+    period: "1350-1389 M"
+    drama_relevance: high
+    notes: "Puncak Majapahit. Negarakretagama 1365 M karya Mpu Prapanca."
+
+  - name: "Adityawarman"
+    role: "Werdhamantri Majapahit, Maharajadiraja Malayu"
+    period: "1347-1375 M"
+    drama_relevance: medium
+    notes: "Mitra setara Majapahit (mitreka satata). Berkuasa di Dharmasraya."
+
+  - name: "Wikramawardhana"
+    role: "Raja Majapahit (menantu Hayam Wuruk)"
+    period: "1389-1427 M"
+    drama_relevance: medium
+    notes: "Suami Kusumawardhani (putri Hayam Wuruk)."
+
+  - name: "Bhre Wirabhumi"
+    role: "Raja Majapahit timur (Blambangan)"
+    period: "± 1390-1404 M"
+    drama_relevance: medium
+    notes: "Perang Paregreg 1404-1406 vs Wikramawardhana."
+
+  - name: "Suhita"
+    role: "Ratu Majapahit"
+    period: "1429-1447 M"
+    drama_relevance: low
+
+  - name: "Girindrawarddhana (Dyah Wijayakarana)"
+    role: "Raja Majapahit Akhir"
+    period: "± 1447 M (Prasasti Waringin Pitu 1447 M)"
+    drama_relevance: medium
+    notes: "Dinasti Girindra di Majapahit Akhir."
+
+key_events:
+
+  - date: "1255 M"
+    event: "Prasasti Mula Malurung — pertama menyebut 'Nusantara' (Wisnuwardhana)"
+    location: "Singasari"
+    drama_relevance: medium
+
+  - date: "1275 M"
+    event: "Kertanegara luncurkan ekspedisi Pamalayu ke Dharmasraya"
+    location: "Melayu, Jambi"
+    drama_relevance: medium
+
+  - date: "1286 M"
+    event: "Arca Amoghapasa dikirim ke Dharmasraya — diplomasi religius"
+    location: "Dharmasraya, Sumatera Barat"
+    drama_relevance: medium
+
+  - date: "1289 M"
+    event: "Kertanegara potong telinga utusan Mongol Meng Qi"
+    location: "Singasari"
+    drama_relevance: high
+
+  - date: "1292 M"
+    event: "Jayakatwang (Kediri) bunuh Kertanegara — akhir Singasari"
+    location: "Singasari"
+    drama_relevance: high
+
+  - date: "1293 M"
+    event: "Raden Wijaya kerjasama Mongol kalahkan Jayakatwang, lalu usir Mongol — lahir Majapahit"
+    location: "Trowulan"
+    drama_relevance: high
+
+  - date: "1328 M"
+    event: "Jayanegara dibunuh Ra Tanca, Tribhuwanatunggadewi naik takhta"
+    location: "Majapahit"
+    drama_relevance: medium
+
+  - date: "1331 M"
+    event: "Gajah Mada Sumpah Palapa — ekspansi Nusantara"
+    location: "Majapahit"
+    drama_relevance: high
+
+  - date: "1350 M"
+    event: "Hayam Wuruk naik takhta — puncak Majapahit"
+    location: "Majapahit"
+    drama_relevance: high
+
+  - date: "1357 M"
+    event: "Peristiwa Bubat — Gajah Mada vs Pajajaran, Dyah Pitaloka tewas"
+    location: "Bubat, Pakuan"
+    drama_relevance: high
+
+  - date: "1364 M"
+    event: "Gajah Mada wafat"
+    location: "Majapahit"
+    drama_relevance: medium
+
+  - date: "1365 M"
+    event: "Mpu Prapanca tulis Negarakretagama — puncak Majapahit"
+    location: "Majapahit"
+    drama_relevance: high
+
+  - date: "1389 M"
+    event: "Hayam Wuruk wafat, Wikramawardhana naik takhta"
+    location: "Majapahit"
+    drama_relevance: medium
+
+  - date: "1404-1406 M"
+    event: "Perang Paregreg — Bhre Wirabhumi vs Wikramawardhana"
+    location: "Majapahit Timur"
+    drama_relevance: medium
+
+  - date: "1447 M"
+    event: "Prasasti Waringin Pitu — Girindrawarddhana, dinasti Girindra di Majapahit Akhir"
+    location: "Majapahit"
+    drama_relevance: low
+
+  - date: "1478/1527 M"
+    event: "Runtuhnya Majapahit (versi berbeda)"
+    location: "Trowulan"
+    drama_relevance: high
+
+key_locations:
+
+  - name: "Trowulan"
+    type: kota
+    current_location: "Trowulan, Mojokerto, Jawa Timur"
+    drama_relevance: high
+    lora_candidate: true
+    notes: "Ibu kota Majapahit. Pusat pemerintahan Hayam Wuruk."
+
+  - name: "Candi Sukuh"
+    type: candi
+    current_location: "Sukuh, Karanganyar, Jawa Tengah"
+    drama_relevance: medium
+    lora_candidate: true
+
+  - name: "Candi Cetho"
+    type: candi
+    current_location: "Cetho, Karanganyar, Jawa Tengah"
+    drama_relevance: medium
+    lora_candidate: false
+
+  - name: "Pelabuhan Banyaga / Kambang Putih"
+    type: pelabuhan
+    current_location: "Tuban, Gresik, Surabaya"
+    drama_relevance: medium
+    lora_candidate: false
+    notes: "Pelabuhan dagang Majapahit."
+
+key_artifacts:
+
+  - name: "Prasasti Mula Malurung (1255 M)"
+    type: prasasti
+    notes: "Pertama menyebut 'Nusantara' (Wisnuwardhana)."
+
+  - name: "Arca Amoghapasa (1286 M)"
+    type: arca
+    notes: "Arca Buddha dari Singasari ke Dharmasraya — diplomasi religius."
+
+  - name: "Prasasti Waringin Pitu (1447 M)"
+    type: prasasti
+    notes: "Girindrawarddhana di Majapahit Akhir."
+
+  - name: "Negarakretagama (1365 M)"
+    type: teks
+    notes: "Karya Mpu Prapanca — puncak Majapahit. 60+ wilayah bawahan."
+
+  - name: "Pararaton (abad 16)"
+    type: teks
+    notes: "Sumber sekunder Ken Arok dan raja-raja Singasari-Majapahit."
+
+drama_phase_mapping:
+  primary_phase: 3
+  secondary_phases: [2]
+  relevance_score: critical
+  drama_anchors_relevant: [3]
+  notes: >
+    BAB WAJIB untuk drama-03-peristiwa-bubat. Juga relevan untuk drama-02
+    (transisi Singasari ke Majapahit). Mencakup ide 'Nusantara' dari
+    Wisnuwardhana hingga Gajah Mada.
+
+enhanced_ontology:
+  era_specific:
+    - "hindu-buddha-jawa"
+    - "majapahit-puncak"
+  region_specific:
+    - "jawa-timur"
+    - "sumatra-barat"
+  themes:
+    - "ide-nusantara"
+    - "puncak-majapahit"
+    - "sumpah-palapa"
+    - "hubungan-diplomatik"
+    - "maritim"
+  keywords_enhanced:
+    - "majapahit"
+    - "hayam wuruk"
+    - "gajah mada"
+    - "sumpah palapa"
+    - "negarakretagama"
+    - "trowulan"
+    - "wisnuwardhana"
+    - "kertanegara"
+    - "raden wijaya"
+    - "tribhuwanatunggadewi"
+    - "peristiwa bubat"
+    - "perang paregreg"
+    - "wikramawardhana"
+    - "girindrawardhana"
+    - "prasasti mula malurung"
+    - "arca amoghapasa"
+    - "mitreka satata"
+    - "ide nusantara"
+
+prompt_t2i_seeds:
+
+  - scene_title: "Gajah Mada Sumpah Palapa di istana Majapahit"
+    prompt: >
+      Cinematic scene, 1331 CE Majapahit palace courtyard Trowulan, Gajah
+      Mada (stern Javanese mahapatih in royal attire with keris) raising
+      right hand taking oath before Queen Tribhuwanatunggadewi and court
+      officials, ornate Javanese palace architecture with carved stone
+      pillars and batik decorations, dramatic natural lighting, hyperrealistic.
+
+  - scene_title: "Hayam Wuruk di puncak Majapahit (1350-1389 M)"
+    prompt: >
+      Cinematic portrait, 1360 CE Majapahit Trowulan palace, Hayam Wuruk
+      (young Javanese king in golden royal attire with crown and keris)
+      seated on throne with Gajah Mada standing beside, courtiers paying
+      homage, ornate Javanese palace interior with bas-relief carvings,
+      golden hour light through carved windows, hyperrealistic cinematic.
+
+  - scene_title: "Peristiwa Bubat 1357 M"
+    prompt: >
+      Cinematic wide shot, 1357 CE Bubat field near Pakuan, Gajah Mada's
+      Majapahit forces in Javanese armor ambushing Sundanese-Pajajaran
+      royal wedding procession, King Linggabuana and Princess Dyah
+      Pitaloka in traditional Sundanese royal attire caught in battle,
+      chaos and bloodshed, dramatic overcast sky, hyperrealistic cinematic.
+
+  - scene_title: "Ekspedisi Pamalayu 1275 M"
+    prompt: >
+      Cinematic wide shot, 1275 M Singasari port, Kertanegara (Javanese
+      king) sending expedition fleet to Melayu (Sumatra), traditional
+      jong ships with sails departing, Javanese courtiers and soldiers
+      on dock, golden hour, hyperrealistic cinematic.
+
+cross_references:
+
+  - type: prasasti
+    reference: "Mula Malurung (1255 M), Camundi, Waringin Pitu (1447 M)"
+  - type: teks
+    reference: "Negarakretagama (Mpu Prapanca, 1365 M), Pararaton (abad 16)"
+  - type: buku-akademis
+    reference: "Pigeaud (1960-63) Java in the 14th Century; Slamet Muljana"
+
+metadata_production:
+  enhanced_by: "Z.ai Main Agent"
+  enhanced_at: "2026-10-17T01:55:00+07:00"
+  enhancement_version: "1.0"
+  source_extraction: "partial-read"
+  notes: >
+    BAB TERPANJANG di seluruh 5 jilid (89.372 kata). Untuk produksi drama
+    Fase 3 (Majapahit), prioritas pada puncak Majapahit: Hayam Wuruk, Gajah
+    Mada, Sumpah Palapa, Peristiwa Bubat.
