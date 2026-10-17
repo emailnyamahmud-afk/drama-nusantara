@@ -636,3 +636,28 @@ Stage Summary:
 - Tokoh baru: Tohjaya, Mahisa Wonga Teleng, Narasinghamurti, Jayakatwang, Raden Wijaya
 - Prasasti baru: Mula Malurung, Maribong, Kudadu
 - Total koreksi: 8 koreksi utama
+
+---
+Task ID: 9 (audit jilid 3 Kemenbud 2025 — PERDALAM)
+Agent: Main Agent (Z.ai)
+Task: Audit mendalam Jilid 3 "Nusantara dalam Jaringan Global: Timur Tengah" (Kemenbud 2025) — 17 file markdown, 230.624 kata
+
+Work Log:
+- Audit struktural otomatis: 17 file dianalisis (heading hierarchy, page markers, truncation, empty sections, weird chars, blank streaks)
+- Audit konsistensi terminologi: Samudra Pasai (53× konsisten), Wali Songo (226× vs variasi 39×), Sultan Malik al-Saleh (1267-1297 M ✓), Sunan Giri (1487-1506 M ✓), Buton (1540 M ✓)
+- Cross-jilid comparison: 211 instance ™ di 5 jilid (Jilid 3 paling bersih dengan 24 instance)
+- Cross-reference _meta.yaml: selisih word count ≤0,02% (tidak ada kehilangan konten)
+- Membuat 2 script audit Python persisten di /home/z/my-project/scripts/
+
+Stage Summary:
+- File laporan: /home/z/my-project/download/audit-jilid3-kemenbud-2025.md (510 baris, 3.322 kata)
+- File JSON detail: /home/z/my-project/riset-backup/.../jilid-3/_audit/structural-audit.json + structural-summary.json
+- Temuan: 6 kategori isu, ~57 titik masalah di 13 dari 17 file
+- Kritis (3): OCR garbage heading di 16-epilog.md (L153-155 "AB AD AD AD..."), OCR garbage di 06-bab-1.md (3 heading palsu + sampah tabel L509), catatan kaki sebagai heading di 12-bab-7.md (L heading "(75) al-nasi...")
+- Tinggi (9 heading terpotong): 05-pendahuluan-jilid L109-111, 06-bab-1 L228-230, 08-bab-3 L407+L560, 09-bab-4 L363-368, 11-bab-6 L111
+- Sedang (24): ™ sebagai OCR error di 8 file bab (pola: 12× setelah titik, 9× setelah apostrof)
+- Sedang (21): HTML <sup> tag bocor di 4 file (06-bab-1, 09-bab-4, 10-bab-5, 11-bab-6)
+- Sedang (4): Pipe `|` & `!I` menggantikan `I` di 03-pendahuluan-buku.md (SIGNIFIKANSI|, REFORMAS|, INSTITUSIONALISAS!I, TRANSAKS!)
+- Ringan: konsistensi "Wali Songo" di 12-bab-7.md (38 variasi dari 218 instance di file itu)
+- Positif: konsistensi penamaan tokoh sangat baik; tanggal kunci akurat; format tahun konsisten (M: 1.138× vs Masehi: 28×)
+- Rekomendasi 6 prioritas perbaikan dirinci dalam laporan
