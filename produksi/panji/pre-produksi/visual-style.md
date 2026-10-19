@@ -84,18 +84,43 @@ Light:     #FF8F00 (oranye hangat — api upacara)
 - **Bendera kerajaan Jenggala** (biru-emas) di menara gerbang
 - **Latar belakang**: kota istana dengan candi-candi kecil, kanal air, perahu dagang di kejauhan
 
-**T2I Prompt**:
+**T2I Prompt (Imagen 3 — format 5 komponen Google)**:
 ```
-Aerial wide shot, 12th century Javanese Hindu imperial palace complex of
-Jenggala kingdom, multi-building royal court with candi bentar split gate
-8m tall, two giant dwarapala guardian statues kneeling, large stone
-ceremonial courtyard, main pendopo hall with 16 teak pillars red-gold
-with gold carvings, three-tier tumpang sari roof with chandra-kapala
-finial, pringgitan platform, dalem inner chamber with velvet curtains,
-gold mesh curtains blowing in wind along corridors, 50 bronze torches,
-blue-gold royal banner on gate tower, background shows canal system with
-trading boats, distant small temples, 12th century East Java Kahuripan,
-cinematic, hyperdetailed, 8K
+SUBJECT: Aerial wide establishing shot of Javanese Hindu-Buddhist
+imperial palace complex of Jenggala kingdom at Kahuripan, East Java
+1100 CE. Multi-building royal court with candi bentar split gate 8m
+tall (red brick twin towers), two giant dwarapala guardian statues
+3m tall kneeling at gate, large stone ceremonial courtyard 200 sqm,
+main pendopo hall with 16 teak pillars blue-gold with gold carvings,
+three-tier tumpang sari roof with chandra-kapala (skull-crescent)
+finial at peak, pringgitan platform, dalem inner chamber with velvet
+curtains, gold mesh curtains blowing in wind along corridors, 50
+bronze torches lit, blue-gold royal banner on gate tower.
+
+SETTING: East Java 1100 CE, Brantas river delta. Background shows
+canal system with trading boats (jung, perahu), distant small
+supporting temples, palm groves, distant mountains (Arjuno, Welirang).
+Architecture inspired by Prambanan/Penataran temple relief style.
+
+LIGHTING: Golden hour 3500K warm sunrise from camera left (key
+light, long shadows, warm amber glow on stone), soft 6500K sky fill
+from above. Mist rising from canals.
+
+MOOD: Megah, tegas, imperial authority — a kingdom that controls
+maritime trade and commands respect.
+
+STYLE: Cinematic realistic landscape, Javanese classical aesthetic
+inspired by Chinese period drama epics, deep depth of field f/8,
+24mm wide lens equivalent, 8K hyperdetailed, photorealistic stone
+and wood textures, 35mm film grain, color graded warm amber
+highlights cool blue shadows.
+
+Aspect ratio 16:9.
+
+Negative prompt: modern buildings, cars, electric lights, Chinese
+pagoda roof, Indian temple, Thai architecture, anime style, cartoon,
+3D render, watermark, text, signature, low resolution, blurry,
+oversaturated.
 ```
 
 ### L002 — Tepi Sungai Brantas (Perbatasan, Dermaga Imperial)
@@ -112,17 +137,41 @@ cinematic, hyperdetailed, 8K
 - **Gunung** di latar belakang (Kelud/Kawi/Arjuno)
 - **Batu-batu besar** di tepi sungai berukir relief Panji
 
-**T2I Prompt**:
+**T2I Prompt (Imagen 3 — format 5 komponen Google)**:
 ```
-Wide cinematic shot, Brantas riverbank at dawn, 12th century East Java,
-wide river 300m, two imperial stone docks facing each other: left dock
-blue-gold Jenggala with carved ornaments and blue flag pole, right
-dock red-gold Kediri with carved ornaments and red flag pole, large
-royal boats 20m long with gold carvings and small pendopo roofs, fleet
-of 4-6 escort boats per kingdom with respective banners, misty river
-surface, old banyan tree, mountains in background (Kelud, Kawi, Arjuno),
-stones with Panji relief carvings, golden sunrise light, hyperdetailed,
-8K
+SUBJECT: Wide cinematic establishing shot of Brantas riverbank at
+dawn, East Java 1100 CE. Wide river 300m with two imperial stone
+docks facing each other across the water: left dock (north, Jenggala)
+with blue-gold carved ornaments and tall blue flag pole flying blue-
+gold banner, right dock (south, Kediri) with red-gold carved
+ornaments and tall red flag pole flying red-gold banner. Each dock
+hosts large royal boats 20m long with gold carvings and small
+pendopo roofs, fleet of 4-6 escort perahu with respective banners.
+Old banyan tree on riverbank, large andesite stones with carved
+Panji story reliefs.
+
+SETTING: East Java 1100 CE, Brantas river forming natural border
+between Jenggala (north) and Kediri (south). Mountains Kelud, Kawi,
+Arjuno in distant background. Tropical dawn mist rising from water.
+
+LIGHTING: Soft warm 3200K dawn light from horizon (key light, golden
+orange on water and stones), cool 5500K pre-dawn sky fill from above
+(deep blue ambient on shadowed areas). Low contrast ratio 2:1 for
+serene morning mood.
+
+MOOD: Sakral, antisipatif, damai — two ancient kingdoms meeting
+on neutral ground.
+
+STYLE: Cinematic realistic landscape, Javanese classical aesthetic,
+deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed,
+photorealistic water reflections and stone textures, 35mm film grain,
+color graded warm golden highlights cool blue shadows.
+
+Aspect ratio 16:9.
+
+Negative prompt: modern buildings, modern boats, electric lights,
+Chinese architecture, Indian temple, anime style, cartoon, 3D render,
+watermark, text, signature, low resolution, blurry, oversaturated.
 ```
 
 ### L003 — Kompleks Candi Upacara (Bukan Candi Tunggal)
@@ -139,17 +188,44 @@ stones with Panji relief carvings, golden sunrise light, hyperdetailed,
 - **Tiang-tiang panji** dengan banner dua kerajaan
 - **Patung dewa-dewi** (Kama Jaya-Kamaratih) di gerbang
 
-**T2I Prompt**:
+**T2I Prompt (Imagen 3 — format 5 komponen Google)**:
 ```
-Wide cinematic shot, Javanese Hindu temple complex courtyard at night,
-12th century East Java, multi-temple complex with main 3-tier candi
-15m tall featuring Panji story reliefs on walls, 6-8 smaller
-supporting candi around, large stone courtyard 50m, sacred fire
-altar 2m tall bronze carved, lotus and jasmine flowers, golden
-carpet 20m from altar to throne, 8 large bronze torches at corners,
-starry night sky, flag poles with two kingdom banners (blue-gold
-Jenggala and red-gold Kediri), statues of Kamajaya-Kamaratih at
-gateway, warm firelight, hyperdetailed, 8K
+SUBJECT: Wide cinematic shot of Javanese Hindu-Buddhist temple
+complex courtyard at night, East Java 1100 CE. Multi-temple complex
+with main 3-tier candi 15m tall featuring Panji story reliefs on
+walls (visible carvings of Panji Asmara Bangun and Candra Kirana),
+6-8 smaller supporting candi around, large stone courtyard 50 sqm,
+sacred fire altar (homa yajna) 2m tall bronze carved at center,
+lotus and jasmine flowers lining paths, golden carpet 20m from
+altar to throne, 8 large bronze torches blazing at corners, flag
+poles with two kingdom banners (blue-gold Jenggala left and red-
+gold Kediri right), statues of Kamajaya-Kamaratih at gateway.
+
+SETTING: East Java 1100 CE, Javanese Hindu-Buddhist temple complex
+(inspired by Penataran complex which spans 10 sq km). Architecture
+in Prambanan/Penataran relief style. Starry tropical night sky with
+faint Milky Way visible.
+
+LIGHTING: Intense warm 2200K sacred firelight from altar at center
+(key light, dramatic orange glow on surrounding stone and faces),
+soft 4500K torch fill from 8 perimeter torches, deep blue 5500K
+moonlight from above. Sparks rising from sacred fire floating
+upward. High contrast 4:1 for sacred dramatic chiaroscuro.
+
+MOOD: Sakral, megah, emosional — celestial union of two kingdoms
+witnessed by gods.
+
+STYLE: Cinematic realistic landscape, Javanese classical aesthetic
+inspired by Chinese period drama, deep depth of field f/5.6, 35mm
+lens equivalent, 8K hyperdetailed, photorealistic fire and stone
+textures, 35mm film grain, color graded warm fire-orange highlights
+cool blue-black shadows.
+
+Aspect ratio 16:9.
+
+Negative prompt: modern buildings, electric lights, Chinese temple,
+Indian temple, Thai chedi, anime style, cartoon, 3D render,
+watermark, text, signature, low resolution, blurry, oversaturated.
 ```
 
 ### L004 — Pelabuhan Hujung Galuh (Pelabuhan Imperial Jenggala)
@@ -166,16 +242,42 @@ gateway, warm firelight, hyperdetailed, 8K
 - **Pabean** (custom house) dengan patih pelabuhan
 - **Laut Madura** di latar belakang
 
-**T2I Prompt**:
+**T2I Prompt (Imagen 3 — format 5 komponen Google)**:
 ```
-Aerial wide shot, 12th century Javanese imperial harbor of Hujung
-Galuh at Jenggala kingdom, long stone dock 200m, large Chinese junk
-40m moored, Arab and Indian dhow ships, Javanese jong boats 20-30m,
-red brick trading warehouses along shore, cosmopolitan market with
-Chinese, Tamil, Arab, Javanese, Malay traders, blue-gold Jenggala
-flag at harbor gate, wooden watchtower 10m tall, custom house with
-harbor master, Madura Strait in background, 12th century East Java
-Surabaya area, golden hour, cinematic, hyperdetailed, 8K
+SUBJECT: Aerial wide establishing shot of Javanese imperial maritime
+harbor of Hujung Galuh at Jenggala kingdom, East Java 1100 CE. Long
+stone dock 200m extending into Madura Strait, large Chinese junk
+ship 40m moored (red sails furled), Arab dhow with lateen sails,
+Indian merchant ship, Javanese jong boats 20-30m with batik-pattern
+sails. Red brick trading warehouses along shore with tiled roofs,
+cosmopolitan market with colorful canopies. Multi-ethnic traders:
+Chinese in hanfu-style robes, Tamil in veshti, Arab in thobe, Javanese
+in kain, Malay in sarong. Blue-gold Jenggala flag at harbor gate,
+wooden watchtower 10m tall with harbor guard, custom house with
+patih pelabuhan official.
+
+SETTING: East Java 1100 CE, muara Sungai Brantas (modern Surabaya/
+Sidoarjo area). Madura Strait visible to north, distant Madura island
+silhouette on horizon. Tropical harbor with palm trees.
+
+LIGHTING: Golden hour 3200K warm sunset light from camera left (key
+light, warm amber on water and sails), cool 6500K sky fill from above.
+Long shadows of ships and figures on dock.
+
+MOOD: Sibuk, kosmopolitan, makmur — a wealthy maritime kingdom at
+the crossroads of Asian trade.
+
+STYLE: Cinematic realistic landscape, Javanese classical aesthetic
+inspired by Chinese period drama maritime epics, deep depth of field
+f/8, 24mm wide lens equivalent, 8K hyperdetailed, photorealistic
+water reflections and wood textures, 35mm film grain, color graded
+warm amber highlights cool teal shadows.
+
+Aspect ratio 16:9.
+
+Negative prompt: modern port, modern ships, cranes, electric lights,
+anime style, cartoon, 3D render, watermark, text, signature, low
+resolution, blurry, oversaturated.
 ```
 
 ### L005 — Kota Imperial Dahanapura (Ibukota Kediri)
@@ -192,18 +294,43 @@ Surabaya area, golden hour, cinematic, hyperdetailed, 8K
 - **Pedagang multi-etnis** (Tionghoa, Tamil, Arab, Khmer)
 - **Patung raksasa** dwarapala di gerbang utama
 
-**T2I Prompt**:
+**T2I Prompt (Imagen 3 — format 5 komponen Google)**:
 ```
-Aerial extreme wide shot, 12th century Javanese imperial city of
-Dahanapura, capital of Panjalu/Kediri kingdom, massive red brick
-city walls 5m tall with four candi bentar split gates, multi-building
-palace complex in center (pendopo, dalem, pringgitan, gadri),
-Siwa-Buddha main temple at city center, canal system from Brantas
-river to palace, large marketplace outside palace walls, silver and
-gold Kediri coins being traded, trading boats on canals, red-gold
-Kediri banners on main pole, multi-ethnic traders (Chinese, Tamil,
-Arab, Khmer), giant dwarapala statues at main gate, scale comparable
-to Angkor Thom, 12th century East Java, cinematic, hyperdetailed, 8K
+SUBJECT: Aerial extreme wide establishing shot of Javanese imperial
+city of Dahanapura, capital of Panjalu (Kediri) kingdom, East Java
+1100 CE. Massive red brick city walls 5m tall forming rectangle,
+four candi bentar split gates (one per cardinal direction) with
+giant dwarapala statues guarding each. Inside walls: multi-building
+palace complex (pendopo, dalem, pringgitan, gadri) in center, Siwa-
+Buddha main temple at city center with meru tower, canal system from
+Brantas river flowing through city, large marketplace outside palace
+walls with colorful canopies, trading boats on canals. Red-gold
+Kediri banners on main pole at palace. Multi-ethnic traders
+(Chinese, Tamil, Arab, Khmer) visible in market. Silver and gold
+Kediri coins being exchanged in market stalls.
+
+SETTING: East Java 1100 CE, Dahanapura (modern Kediri area, Brantas
+valley). Scale comparable to Angkor Thom. Tropical landscape with
+palm trees, distant Mount Kelud and Mount Kawi in background.
+
+LIGHTING: Midday 5500K sunlight from above (key light, even
+illumination showing city layout clearly), warm 4000K golden haze
+on horizon. Aerial drone perspective from 200m altitude.
+
+MOOD: Megah, kosmopolitan, imperial — a kingdom at the height of
+its maritime and cultural power.
+
+STYLE: Cinematic realistic aerial landscape, Javanese classical
+aesthetic inspired by Angkor Thom scale, deep depth of field f/11,
+16mm ultra-wide lens equivalent, 8K hyperdetailed, photorealistic
+brick and stone textures, 35mm film grain, color graded warm
+earthy highlights cool blue shadows.
+
+Aspect ratio 16:9.
+
+Negative prompt: modern city, modern buildings, cars, electric lights,
+Chinese palace, Indian temple, anime style, cartoon, 3D render,
+watermark, text, signature, low resolution, blurry, oversaturated.
 ```
 
 ---
