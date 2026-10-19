@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Koreksi storyboard-pilot.json:
-- Ganti semua referensi "Kameswara" → "Panji Asmoro Bangun" (atau "Panji")
+- Ganti semua referensi "Kameswara" → "Panji Asmara Bangun" (atau "Panji")
 - Ganti semua referensi "Sri Kirana" / "Kirana" (sebagai tokoh) → "Candra Kirana"
 - Ganti "Patih Kediri" → "Patih Jenggala"
 - Ganti "Kameswara ref" → "Panji ref" di prompt visual
@@ -12,7 +12,7 @@ Koreksi storyboard-pilot.json:
 - Tambahkan scene 3 di candi (lokal netral, bukan istana Kediri atau Jenggala)
 
 Logika:
-- C001 = Panji Asmoro Bangun (Pangeran Jenggala), bukan Kameswara
+- C001 = Panji Asmara Bangun (Pangeran Jenggala), bukan Kameswara
 - C002 = Dewi Candra Kirana (Putri Kediri), bukan "Sri Kirana"
 - C003 = Patih Jenggala, bukan "Patih Kediri"
 - C004 = Mpu Dharmaja (tetap)
@@ -31,8 +31,8 @@ STORYBOARD_PATH = Path(
 
 # Mapping nama tokoh
 CHAR_RENAME = {
-    "Sri Kameswara": "Panji Asmoro Bangun",
-    "Kameswara": "Panji Asmoro Bangun",
+    "Sri Kameswara": "Panji Asmara Bangun",
+    "Kameswara": "Panji Asmara Bangun",
     "Sri Kirana": "Candra Kirana",
     "Patih Kediri": "Patih Jenggala",
 }
@@ -58,7 +58,7 @@ COLOR_REPLACEMENTS = [
 DIALOG_REPLACEMENTS = [
     # Narator opening
     ("Kini, seorang raja baru naik takhta di Kediri — Sri Kameswara.",
-     "Kini, seorang pangeran muda bertahta di Jenggala — Panji Asmoro Bangun."),
+     "Kini, seorang pangeran muda bertahta di Jenggala — Panji Asmara Bangun."),
     ("Kediri di selatan, Jenggala di utara. Dua kerajaan yang lahir dari satu ayah, Airlangga.",
      "Jenggala di utara, Kediri di selatan. Dua kerajaan yang lahir dari satu ayah, Airlangga."),
     ("Yang membelah wilayahnya sebelum wafat. Selama 140 tahun, mereka bermusuhan.",
@@ -93,7 +93,7 @@ DIALOG_REPLACEMENTS = [
      "Aku berjanji, Putri. Bukan sebagai pangeran, tapi sebagai pria. Keduanya akan kubuktikan."),
     # Smaradahana
     ("Sang hyang Kameswara, inkarnasi Kamajaya, dewa cinta yang bersemayam di Dahanapura.",
-     "Sang hyang Panji Asmoro Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala."),
+     "Sang hyang Panji Asmara Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala."),
     ("Permaisuri Kirana, inkarnasi Kamaratih, ratu yang bersinar bagaikan rembulan.",
      "Putri Candra Kirana, inkarnasi Kamaratih, ratu yang bersinar bagaikan rembulan."),
     # Closing narration
@@ -121,7 +121,7 @@ PROMPT_REPLACEMENTS = [
     ("wearing golden Javanese crown (makuta), red-gold batik kain, golden chest plate",
      "wearing golden Javanese destar, blue-gold batik kain, golden tunic"),
     # Reference to "Kameswara" in prompts
-    ("Kameswara (C001 ref)", "Panji Asmoro Bangun (C001 ref)"),
+    ("Kameswara (C001 ref)", "Panji Asmara Bangun (C001 ref)"),
     ("Kameswara (C001)", "Panji (C001)"),
     # Candra Kirana wardrobe (already correct mostly, but ensure blue-gold → red-gold)
     ("golden kemben, blue-gold kain", "golden kemben, red-gold kain"),
@@ -135,8 +135,8 @@ PROMPT_REPLACEMENTS = [
      "Kediri royal boat docking at wooden pier, red-gold banner"),
     # Kameswara → Panji in descriptive text
     ("Kameswara listening, Patih (C003) standing before him bowing",
-     "Panji Asmoro Bangun listening, Patih (C003) standing before him bowing"),
-    ("Kameswara on throne", "Panji Asmoro Bangun on throne"),
+     "Panji Asmara Bangun listening, Patih (C003) standing before him bowing"),
+    ("Kameswara on throne", "Panji Asmara Bangun on throne"),
     ("Kameswara face, sharp eyes", "Panji face, sharp eyes"),
     ("Kameswara standing from throne", "Panji standing from throne"),
     ("Kameswara hand gripping keris pusaka", "Panji hand gripping keris pusaka"),
@@ -166,7 +166,7 @@ PROMPT_REPLACEMENTS = [
 
 # Mapping notes
 NOTES_REPLACEMENTS = [
-    ("First appearance Kameswara", "First appearance Panji Asmoro Bangun"),
+    ("First appearance Kameswara", "First appearance Panji Asmara Bangun"),
     ("Patih reports threat", "Patih reports Kediri threat"),
     ("Kameswara reveals plan", "Panji reveals plan"),
     ("Patih protests", "Patih protests Kediri alliance"),
@@ -214,7 +214,7 @@ LOKASI_REPLACEMENTS = [
 # Mapping character list
 CHARACTER_LIST_UPDATE = [
     # C001
-    ("Sri Kameswara", "Panji Asmoro Bangun"),
+    ("Sri Kameswara", "Panji Asmara Bangun"),
     ("Raja Kediri", "Pangeran Mahkota Jenggala"),
     ("Pria Jawa 28 tahun, kulit cokelat keemasan, mata tajam, rambut hitam panjang, mahkota emas Jawa Kuno, kain batik merah tua-emas, keris pusaka",
      "Pria Jawa 28 tahun, kulit cokelat keemasan, mata tajam, rambut hitam panjang, destar emas Jawa Kuno, kain batik biru tua-emas, keris pusaka"),
@@ -296,7 +296,7 @@ def main():
             print(f"  ✅ '{term}': bersih")
 
     # Verifikasi: pastikan nama baru muncul
-    new_terms = ["Panji Asmoro Bangun", "Candra Kirana", "Patih Jenggala",
+    new_terms = ["Panji Asmara Bangun", "Candra Kirana", "Patih Jenggala",
                  "Pangeran Mahkota Jenggala", "Putri Mahkota Kediri",
                  "Keraton Jenggala (Kahuripan)"]
     print("\nVerifikasi nama baru:")

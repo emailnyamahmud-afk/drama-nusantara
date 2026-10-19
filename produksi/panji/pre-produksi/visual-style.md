@@ -32,7 +32,7 @@ Background:#0D1117 (hitam kebiruan — interior keraton malam)
 Light:     #FFE082 (kuning lembut — obor, matahari terbit)
 ```
 
-**Mood**: Tegas, kuat, sedikit menekan. Panji Asmoro Bangun adalah pangeran yang berkuasa dan berwibawa.
+**Mood**: Tegas, kuat, sedikit menekan. Panji Asmara Bangun adalah pangeran yang berkuasa dan berwibawa.
 
 ### Babak 2 — "Pertemuan di Brantas" (Perbatasan)
 
@@ -210,7 +210,7 @@ to Angkor Thom, 12th century East Java, cinematic, hyperdetailed, 8K
 
 ## Costume Detail
 
-### Kostum Pangeran Jenggala (C001 — Panji Asmoro Bangun)
+### Kostum Pangeran Jenggala (C001 — Panji Asmara Bangun)
 
 ```
 Layer 1 (dalam): Kain putih tipis (inner robe)

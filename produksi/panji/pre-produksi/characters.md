@@ -8,11 +8,11 @@
 
 ## Karakter Utama
 
-### C001 — Panji Asmoro Bangun (Inu Kertapati)
+### C001 — Panji Asmara Bangun (Inu Kertapati)
 
 | Field | Value |
 |---|---|
-| **Nama** | Raden Panji Asmoro Bangun |
+| **Nama** | Raden Panji Asmara Bangun |
 | **Nama lain** | Inu Kertapati, Raden Panji Inu, Cekel Wanengpati, Kuda Wanengpati |
 | **Peran** | Pangeran mahkota Kerajaan Jenggala, calon suami Candra Kirana |
 | **Usia** | ± 25-28 tahun |
@@ -163,7 +163,7 @@ firelight, 8K, hyperdetailed, realistic portrait
 
 | ID | Karakter | Generate 1x | Simpan ke |
 |---|---|---|---|
-| C001 | Panji Asmoro Bangun | T2I base prompt | `refs/C001_base.png` |
+| C001 | Panji Asmara Bangun | T2I base prompt | `refs/C001_base.png` |
 | C002 | Candra Kirana | T2I base prompt | `refs/C002_base.png` |
 | C003 | Patih Jenggala | T2I base prompt | `refs/C003_base.png` |
 | C004 | Mpu Dharmaja | T2I base prompt | `refs/C004_base.png` |

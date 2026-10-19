@@ -1029,12 +1029,12 @@ Stage Summary:
 ---
 Task ID: KOREKSI-PANJI-01
 Agent: Main Agent (Z.ai)
-Task: Koreksi pre-produksi film "Panji: Asmara Bangun" — ganti tokoh utama dari "Kameswara & Sri Kirana" ke "Panji Asmoro Bangun & Candra Kirana" sesuai siklus Panji (UNESCO Memory of the World 2017)
+Task: Koreksi pre-produksi film "Panji: Asmara Bangun" — ganti tokoh utama dari "Kameswara & Sri Kirana" ke "Panji Asmara Bangun & Candra Kirana" sesuai siklus Panji (UNESCO Memory of the World 2017)
 
 Work Log:
-- User koreksi kesalahan: tokoh utama film harusnya Panji Asmoro Bangun (pangeran Jenggala), bukan Kameswara (raja Kediri)
+- User koreksi kesalahan: tokoh utama film harusnya Panji Asmara Bangun (pangeran Jenggala), bukan Kameswara (raja Kediri)
 - WebSearch "Panji Asmara Bangun" + Wikipedia Panji tales + Museum Nasional + BBC Indonesia
-- Konfirmasi: Panji Asmoro Bangun (alias Inu Kertapati) = pangeran Jenggala, tunangan Candra Kirana (alias Sekartaji) = putri Kediri/Daha
+- Konfirmasi: Panji Asmara Bangun (alias Inu Kertapati) = pangeran Jenggala, tunangan Candra Kirana (alias Sekartaji) = putri Kediri/Daha
 - Plot inti otentik: pernikahan politik Jenggala-Kediri untuk menyatukan dua kerajaan pecahan Airlangga (sumber: Wikipedia "Dewi Anggraeni" episode, UNESCO 2017)
 - Edit story-bible.md: ganti logline, premis, struktur 3 babak, narasi, dialog
 - Edit characters.md: ganti profil C001 (Panji) & C002 (Candra Kirana), update T2I prompts dengan warna biru-emas (Jenggala) vs merah-emas (Kediri)
@@ -1053,7 +1053,7 @@ Stage Summary:
 - File baru:
   - /home/z/my-project/scripts/koreksi_storyboard_panji.py
   - /home/z/my-project/produksi/panji/pre-produksi/storyboard-pilot.json.bak (backup)
-- Tokoh utama final: Panji Asmoro Bangun (pangeran Jenggala) + Candra Kirana (putri Kediri)
+- Tokoh utama final: Panji Asmara Bangun (pangeran Jenggala) + Candra Kirana (putri Kediri)
 - Plot: pernikahan politik Jenggala-Kediri untuk menyatukan dua kerajaan pecahan Airlangga
 - Sumber otentik: UNESCO Memory of the World 2017 (Panji Tales) + Kakawin Smaradahana (Mpu Dharmaja, era Kameswara)
 - Status: 36 segmen draft siap untuk pipeline T2I → TTS → I2V → assembly

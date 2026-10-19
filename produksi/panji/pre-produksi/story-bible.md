@@ -6,13 +6,13 @@
 > **Era latar**: Abad ke-12, Jawa Timur (kerajaan Jenggala & Kediri/Daha pasca-Airlangga)
 > **Gaya**: Cinematic realistic, inspirasi drama sejarah China dengan estetika Nusantara Hindu-Buddha
 > **Sumber**: Kemenbud RI 2025 Jilid 2 + UNESCO Memory of the World (Panji Tales, 2017) + Kakawin Smaradahana (Mpu Dharmaja) + Wikipedia Panji tales
-> **Status**: Pre-production (revisi tokoh utama — Panji Asmoro Bangun + Candra Kirana)
+> **Status**: Pre-production (revisi tokoh utama — Panji Asmara Bangun + Candra Kirana)
 
 ---
 
 ## Logline
 
-Sebuah pernikahan politik antara **Pangeran Panji Asmoro Bangun** dari Kerajaan Jenggala dan **Dewi Candra Kirana** dari Kerajaan Kediri (Daha) menyatukan dua kerajaan pecahan Airlangga yang bermusuhan selama 140 tahun — dan melahirkan kisah cinta yang akan menginspirasi seluruh Asia Tenggara selama berabad-abad.
+Sebuah pernikahan politik antara **Pangeran Panji Asmara Bangun** dari Kerajaan Jenggala dan **Dewi Candra Kirana** dari Kerajaan Kediri (Daha) menyatukan dua kerajaan pecahan Airlangga yang bermusuhan selama 140 tahun — dan melahirkan kisah cinta yang akan menginspirasi seluruh Asia Tenggara selama berabad-abad.
 
 ---
 
@@ -28,7 +28,7 @@ Pada abad ke-12, Jawa Timur terbelah menjadi dua kerajaan saudara yang bermusuha
 >
 > Visually, Dahanapura setara dengan Angkor Thom atau Konstantinopel di zamannya — bukan desa kecil. Visual film harus merefleksikan skala imperial maritime ini.
 
-Kini, kedua kerajaan sepakat: perdamainan harus diikat — dengan pernikahan politik. **Panji Asmoro Bangun** (juga dikenal sebagai Inu Kertapati), putra mahkota Jenggala, ditunangkan dengan **Dewi Candra Kirana** (juga dikenal sebagai Sekartaji), putri mahkota Kediri.
+Kini, kedua kerajaan sepakat: perdamainan harus diikat — dengan pernikahan politik. **Panji Asmara Bangun** (juga dikenal sebagai Inu Kertapati), putra mahkota Jenggala, ditunangkan dengan **Dewi Candra Kirana** (juga dikenal sebagai Sekartaji), putri mahkota Kediri.
 
 Tapi Candra Kirana bukan sekadar hadiah politik — ia wanita cerdas yang punya syarat sendiri. Pertemuan mereka di tepi Sungai Brantas (perbatasan netral) menentukan bukan hanya masa depan dua kerajaan, tapi melahirkan epos yang akan dikenang sebagai **Smaradahana — "Api Cinta"** — kisah yang akan menyebar dari Jawa ke Siam, Khmer, dan Birma.
 
@@ -39,7 +39,7 @@ Tapi Candra Kirana bukan sekadar hadiah politik — ia wanita cerdas yang punya 
 Siklus Panji adalah folklor yang terdaftar di UNESCO Memory of the World (2017). Tokoh **Panji** dan **Candra Kirana** adalah tokoh folklorik, bukan tokoh historis yang terverifikasi prasasti. Para cendekiawan (Rassers, Poerbatjaraka, Pigeaud) meyakini kisah Panji terinspirasi dari pasangan historis **Raja Kameswara** (raja Kediri, r. 1182-1191 M) dan permaisurinya **Sri Kirana**, yang diabadikan dalam Kakawin Smaradahana karya Mpu Dharmaja.
 
 **Pilihan adaptasi film ini:**
-- **Tokoh utama** = versi folklorik: **Panji Asmoro Bangun** + **Candra Kirana** (lebih sesuai dengan siklus Panji yang diakui UNESCO)
+- **Tokoh utama** = versi folklorik: **Panji Asmara Bangun** + **Candra Kirana** (lebih sesuai dengan siklus Panji yang diakui UNESCO)
 - **Latar kerajaan** = dua kerajaan Jenggala & Kediri yang masih terpisah (sesuai latar siklus Panji)
 - **Mpu Dharmaja & Smaradahana** = dipakai sebagai elemen naratif: pujangga istana menyusun kakawin untuk merayakan pernikahan Panji-Candra Kirana, mengangkat mereka sebagai titisan Kama Jaya-Kamaratih
 - **Era** = abad 12 (masa keemasan sastra Kediri, selaras denganSmearadahana)
@@ -55,12 +55,12 @@ Siklus Panji adalah folklor yang terdaftar di UNESCO Memory of the World (2017).
 | Segmen | Detik | Isi |
 |---|---|---|
 | 01-04 | 0-20s | **Opening**: Sungai Brantas fajar, dua keraton (Jenggala utara, Kediri selatan), bendera dua kerajaan berkibar |
-| 05-08 | 20-40s | **Panji Asmoro Bangun** di pendopo Jenggala, menerima laporan patih tentang ketegangan perbatasan dengan Kediri |
+| 05-08 | 20-40s | **Panji Asmara Bangun** di pendopo Jenggala, menerima laporan patih tentang ketegangan perbatasan dengan Kediri |
 | 09-12 | 40-60s | **Keputusan**: Panji putuskan — pernikahan politik dengan putri Kediri. Patih protes. Panji tegas. |
 
 ### Babak 2 — "Pertemuan di Brantas" (1 menit, 12 segmen)
 
-**Tujuan**: First meeting — Panji Asmoro Bangun dan Candra Kirana bertemu di tepi Sungai Brantas (perbatasan netral).
+**Tujuan**: First meeting — Panji Asmara Bangun dan Candra Kirana bertemu di tepi Sungai Brantas (perbatasan netral).
 
 | Segmen | Detik | Isi |
 |---|---|---|
@@ -90,7 +90,7 @@ Siklus Panji adalah folklor yang terdaftar di UNESCO Memory of the World (2017).
 > **Candra Kirana**: "Penyatuan bukan dengan pernikahan, Baginda. Penyatuan adalah dengan kepercayaan."
 
 ### Babak 3 — Narator + Mpu Dharmaja
-> **Mpu Dharmaja** (membaca): *"Sang hyang Panji Asmoro Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala. Putri Candra Kirana, inkarnasi Kamaratih, ratu Daha yang bersinar bagaikan rembulan..."*
+> **Mpu Dharmaja** (membaca): *"Sang hyang Panji Asmara Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala. Putri Candra Kirana, inkarnasi Kamaratih, ratu Daha yang bersinar bagaikan rembulan..."*
 > **Narator**: *"Dari pernikahan inilah lahir Smaradahana — Api Cinta. Kisah yang akan menyeberang lautan, ke Siam, ke Khmer, ke Birma. Kisah yang dikenal sebagai Panji."*
 
 ---
@@ -99,7 +99,7 @@ Siklus Panji adalah folklor yang terdaftar di UNESCO Memory of the World (2017).
 
 ### Dari Sumber Primer (Kemenbud 2025 + UNESCO + Wikipedia)
 - **Siklus Panji** — UNESCO Memory of the World International Register (30 Oktober 2017), 260+ manuskrip dalam 8 bahasa
-- **Panji Asmoro Bangun** (alias Inu Kertapati, Raden Panji, Cekel Wanengpati) — pangeran Jenggala — Wikipedia *Panji tales*
+- **Panji Asmara Bangun** (alias Inu Kertapati, Raden Panji, Cekel Wanengpati) — pangeran Jenggala — Wikipedia *Panji tales*
 - **Dewi Candra Kirana** (alias Sekartaji, Galuh Candra Kirana) — putri Kediri/Daha — Wikipedia + Museum Nasional Indonesia
 - **Airlangga bagi kerajaan** 1042 M → Jenggala + Panjalu (Kediri) — sumber primer Jilid 2 Kemenbud
 - **Mpu Dharmaja** menyusun **Kakawin Smaradahana** di era Kameswara (raja Kediri r. 1182-1191 M) — sumber primer Jilid 2
@@ -114,7 +114,7 @@ Siklus Panji adalah folklor yang terdaftar di UNESCO Memory of the World (2017).
 - **Panji tegas ke patih**: Improvisasi karakter — pangeran yang kuat dan berani, bukan boneka.
 
 ### Catatan Akurasi
-- ✅ Panji Asmoro Bangun pangeran Jenggala — **terverifikasi** siklus Panji (UNESCO 2017)
+- ✅ Panji Asmara Bangun pangeran Jenggala — **terverifikasi** siklus Panji (UNESCO 2017)
 - ✅ Candra Kirana putri Kediri/Daha — **terverifikasi** siklus Panji
 - ✅ Pernikahan politik Jenggala-Kediri untuk menyatukan dua kerajaan — **terverifikasi** (episode *Dewi Anggraeni*)
 - ✅ Airlangga bagi kerajaan 1042 M — **terverifikasi** sumber primer

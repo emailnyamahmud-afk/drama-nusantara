@@ -13,7 +13,7 @@
   "characters": [
     {
       "id": "C001",
-      "nama": "Panji Asmoro Bangun",
+      "nama": "Panji Asmara Bangun",
       "peran": "Pangeran Mahkota Jenggala",
       "deskripsi": "Pria Jawa 28 tahun, kulit cokelat keemasan, mata tajam, rambut hitam panjang, destar emas Jawa Kuno, kain batik biru tua-emas, keris pusaka",
       "voice": "id-ID-Ardi",
@@ -134,21 +134,21 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, Panji Asmoro Bangun (C001 ref) seated on stone throne in Javanese palace hall, torches along corridor, red-gold banner, dramatic low angle, 12th century Kediri, cinematic, 8K, hyperdetailed",
+                "prompt": "Wide shot, Panji Asmara Bangun (C001 ref) seated on stone throne in Javanese palace hall, torches along corridor, red-gold banner, dramatic low angle, 12th century Kediri, cinematic, 8K, hyperdetailed",
                 "camera": "wide, low angle, slow push in",
                 "negative_prompt": "modern, western, text, watermark",
                 "character_ref": "C001"
               },
               "audio": {
                 "type": "narration",
-                "tts_text": "Kini, seorang raja baru naik takhta di Kediri. Panji Asmoro Bangun.",
+                "tts_text": "Kini, seorang raja baru naik takhta di Kediri. Panji Asmara Bangun.",
                 "tts_voice": "id-ID-Ardi",
                 "bgm": "gamelan, royal motif"
               },
               "characters_present": [
                 "C001"
               ],
-              "notes": "First appearance Panji Asmoro Bangun"
+              "notes": "First appearance Panji Asmara Bangun"
             }
           ]
         },
@@ -685,7 +685,7 @@
               },
               "audio": {
                 "type": "dialog",
-                "tts_text": "Sang hyang Panji Asmoro Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala.",
+                "tts_text": "Sang hyang Panji Asmara Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala.",
                 "tts_voice": "id-ID-Ardi",
                 "bgm": "gamelan recitation"
               },
