@@ -129,12 +129,12 @@ print("=" * 80)
 print("4. PATH REFERENSI SALAH (referensi path lama yang sudah dihapus)")
 print("=" * 80)
 
-old_paths = [
-    "riset-backup/",
-    "phase-1-riset/",
+old_paths_to_check = [  # daftar path yang SUDAH DIHAPUS, untuk verifikasi cleanup
+    "",
+    "phase-1/",
     "download/",
-    "tool-results/",
-    "upload/",
+    "scripts/",
+    "",
     "skills/",
     "push-to-github.sh",
 ]

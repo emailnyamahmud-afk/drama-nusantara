@@ -15,7 +15,7 @@ import json
 from pathlib import Path
 from collections import Counter, defaultdict
 
-JILID_DIR = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/jilid-3")
+JILID_DIR = Path("/home/z/my-project/sumber-primer/jilid-3")
 OUT_DIR = JILID_DIR / "_audit"
 OUT_DIR.mkdir(exist_ok=True)
 

@@ -493,8 +493,8 @@ Audit ini dilakukan dengan pendekatan berlapis:
 ## Lampiran
 
 ### A. File JSON Audit
-- `/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/jilid-3/_audit/structural-audit.json` — detail per file
-- `/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/jilid-3/_audit/structural-summary.json` — ringkasan agregat
+- `/home/z/my-project/sumber-primer/jilid-3/_audit/structural-audit.json` — detail per file
+- `/home/z/my-project/sumber-primer/jilid-3/_audit/structural-summary.json` — ringkasan agregat
 
 ### B. Script Audit
 - `/home/z/my-project/scripts/audit_jilid3_struktural.py` — script utama audit struktural

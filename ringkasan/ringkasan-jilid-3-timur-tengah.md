@@ -1095,7 +1095,7 @@ Dua era kosmopolis memengaruhi cara berpikir masyarakat Nusantara:
 
 *Ringkasan ini disusun oleh Z.ai Main Agent berdasarkan **pembacaan mendalam** (bukan parsing) buku "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global" Jilid 3 (Kemenbud RI 2025). Setiap bab dibaca section-by-section dengan ekstraksi konflik, intrik, narasi, dan data tokoh-tahun-lokasi-komoditas-hukum.*
 
-*Untuk referensi lengkap, baca buku asli di `phase-1-riset/sumber-primer/kemenbud-2025/jilid-3/`.*
+*Untuk referensi lengkap, baca buku asli di `phase-1/sumber-primer/kemenbud-2025/jilid-3/`.*
 
 ---
 

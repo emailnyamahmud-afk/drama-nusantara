@@ -114,12 +114,12 @@
    - Berisi scene suggestion, visual setting, props, tokoh prioritas casting
 
 4. **Audit tersedia**:
-   - `download/audit-jilid3-kemenbud-2025.md` — audit struktural Jilid 3
-   - `download/audit-ringkasan-jilid4.md` — audit cross-check 228 klaim Jilid 4
+   - `audit/audit-jilid3-kemenbud-2025.md` — audit struktural Jilid 3
+   - `audit/audit-ringkasan-jilid4.md` — audit cross-check 228 klaim Jilid 4
 
 5. **GitHub**: https://github.com/emailnyamahmud-afk/drama-nusantara
    - Branch: main
-   - Path ringkasan: `riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/`
+   - Path ringkasan: `ringkasan/`
 
 ---
 

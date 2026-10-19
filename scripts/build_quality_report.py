@@ -7,7 +7,7 @@ import os, yaml
 from pathlib import Path
 from datetime import datetime
 
-ROOT = Path('/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025')
+ROOT = Path('/home/z/my-project/phase-1/sumber-primer/kemenbud-2025')
 
 # Collect all chapter files
 all_files = sorted(ROOT.glob('jilid-*/*.md'))

@@ -6,7 +6,7 @@ import re
 import json
 from pathlib import Path
 
-JILID_DIR = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/jilid-3")
+JILID_DIR = Path("/home/z/my-project/sumber-primer/jilid-3")
 
 with open(JILID_DIR / "_audit" / "structural-audit.json", encoding="utf-8") as f:
     data = json.load(f)

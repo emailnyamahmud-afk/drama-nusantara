@@ -6,8 +6,8 @@ Ekstrak semua heading + sub-bab untuk identifikasi topik.
 import re
 from pathlib import Path
 
-JILID = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/jilid-4")
-RINGKASAN = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/ringkasan-jilid-4-interaksi-awal-barat.md")
+JILID = Path("/home/z/my-project/sumber-primer/jilid-4")
+RINGKASAN = Path("/home/z/my-project/ringkasan/ringkasan-jilid-4-interaksi-awal-barat.md")
 
 # Baca ringkasan, ekstrak semua judul "Temuan Kunci" (####)
 ringkasan_text = RINGKASAN.read_text(encoding="utf-8")

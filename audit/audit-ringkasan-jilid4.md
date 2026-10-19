@@ -1,7 +1,7 @@
 # Audit Ringkasan Eksklusif Jilid 4 — Cross-Check ke Sumber Primer
 
 **Tanggal audit**: 2026-10-17
-**Objek audit**: `/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/ringkasan-jilid-4-interaksi-awal-barat.md` (218 KB, 29.383 kata, 10 bab)
+**Objek audit**: `/home/z/my-project/ringkasan/ringkasan-jilid-4-interaksi-awal-barat.md` (218 KB, 29.383 kata, 10 bab)
 **Sumber pembanding**: File markdown bab-bab Jilid 4 Kemenbud 2025 (`06-bab-1.md` s/d `15-bab-10.md`)
 **Metode**: Verifikasi sampel klaim kunci per bab via `grep` ke sumber primer
 **Auditor**: Main Agent (Z.ai)
@@ -459,7 +459,7 @@ Klaim-klaim berikut **tidak salah secara historis** dan konsisten dengan konsens
 2. **Metode**: `grep` pattern matching ke file markdown bab-bab sumber primer (`06-bab-1.md` s/d `15-bab-10.md`)
 3. **Tidak diaudit**: Klaim minor (deskripsi scene, dialog, "Detail drama") yang tidak memiliki klaim faktual verifiable
 4. **Limitasi**: Audit tidak mencakup verifikasi sumber-sumber sekunder yang dikutip subagent (Ricklefs, de Graaf, Lombard, Reid, Andaya, dll.) — subagent klaim sitasi dari buku-buku ini, dan cross-check ke buku-buku tersebut di luar cakupan audit ini
-5. **Sumber primer referensi**: 5 jilid Kemenbud 2025 — `riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/jilid-4/*.md` (10 file bab utama + 7 file front/back matter, total 1,4 MB)
+5. **Sumber primer referensi**: 5 jilid Kemenbud 2025 — `sumber-primer/jilid-4/*.md` (10 file bab utama + 7 file front/back matter, total 1,4 MB)
 
 ---
 

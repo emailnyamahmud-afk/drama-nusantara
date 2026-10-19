@@ -867,7 +867,7 @@ Bab ini menandai titik balik penting: **kemunduran tidak dipahami semata-mata se
 
 *Ringkasan ini disusun oleh Z.ai Main Agent berdasarkan **pembacaan mendalam** (bukan parsing) buku "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global" Jilid 2 (Kemenbud RI 2025). Setiap bab dibaca section-by-section dengan ekstraksi analisis konsep, tokoh, konteks, kutipan langsung, dan multi-perspektif para ahli.*
 
-*Untuk referensi lengkap, baca buku asli di `phase-1-riset/sumber-primer/kemenbud-2025/jilid-2/`.*
+*Untuk referensi lengkap, baca buku asli di `phase-1/sumber-primer/kemenbud-2025/jilid-2/`.*
 
 ---
 

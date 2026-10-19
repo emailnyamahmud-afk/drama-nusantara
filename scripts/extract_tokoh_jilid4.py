@@ -8,9 +8,9 @@ import re
 from pathlib import Path
 from collections import Counter, defaultdict
 
-JILID = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/jilid-4")
-RINGKASAN_UTAMA = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/ringkasan-jilid-4-interaksi-awal-barat.md")
-SUPLEMEN = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/ringkasan-jilid-4-suplemen.md")
+JILID = Path("/home/z/my-project/sumber-primer/jilid-4")
+RINGKASAN_UTAMA = Path("/home/z/my-project/ringkasan/ringkasan-jilid-4-interaksi-awal-barat.md")
+SUPLEMEN = Path("/home/z/my-project/ringkasan/ringkasan-jilid-4-suplemen.md")
 
 # Baca ringkasan + suplemen
 ringkasan_text = (RINGKASAN_UTAMA.read_text(encoding="utf-8") + "\n" + SUPLEMEN.read_text(encoding="utf-8")).lower()

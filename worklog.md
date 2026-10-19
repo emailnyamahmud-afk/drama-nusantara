@@ -11,7 +11,7 @@ Work Log:
 - Verifikasi akhir: 1.327 baris, 14.277 kata, 108 KB
 
 Stage Summary:
-- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- File output: /home/z/my-project/phase-1/riset-drama-nusantara.md
 - Format: Markdown (.md)
 - Cakupan: 10 era sejarah Nusantara (Mataram Kuno 716 M → Orde Baru 1998)
 - Fokus utama: Visual & Kostum (sesuai permintaan user)
@@ -85,7 +85,7 @@ Koreksi yang dilakukan:
   * "menyatakan Yogyakarta bagian RI" → "menyatakan Yogyakarta sebagai bagian dari RI"
 
 Stage Summary:
-- File output (final): /home/z/my-project/download/riset-drama-nusantara.md
+- File output (final): /home/z/my-project/phase-1/riset-drama-nusantara.md
 - Status: 1.332 baris, 14.450 kata (tambah ~50 kata dari koreksi & klarifikasi)
 - 15+ koreksi fakta historis diverifikasi ke sumber primer (Wikipedia, kratonjogja.id, sumber sejarah)
 - 30+ typo & kesalahan ketik diperbaiki
@@ -143,7 +143,7 @@ TAMBAHAN INFORMASI BARU:
 - Pramodawardhani: ditambahkan referensi Prasasti Kayumwungan 824 M
 
 Stage Summary:
-- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- File output: /home/z/my-project/phase-1/riset-drama-nusantara.md
 - Bagian Mataram Kuno (era 1) sudah diaudit & dikoreksi
 - 14 koreksi fakta historis (diverifikasi ke sumber primer Wikipedia + prasasti)
 - 11 koreksi istilah/typo
@@ -240,7 +240,7 @@ Work Log:
   * Mpu Sindok adalah raja terakhir Wangsa Sanjaya di Jawa Tengah
 
 Stage Summary:
-- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- File output: /home/z/my-project/phase-1/riset-drama-nusantara.md
 - Era 1 (Mataram Kuno) sudah direvisi komprehensif dengan 9 sub-bagian (1.1-1.9)
 - Total dokumen: 1.251 baris, ~14.500 kata
 - Era 2-10 masih dalam versi sebelumnya (belum diaudit - menunggu user instruction lanjutan)
@@ -339,7 +339,7 @@ VERIFIKASI MPU BHARADA:
 - Sudah benar "pendeta Buddha" - Wikipedia ID menyebut "pendeta sakti agama Buddha yang menjadi guru Airlangga"
 
 Stage Summary:
-- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- File output: /home/z/my-project/phase-1/riset-drama-nusantara.md
 - Total dokumen: 1.278 baris, 15.261 kata (naik dari 14.500 kata sebelumnya)
 - Era Mataram Kuno sudah diaudit KEDUA kali dengan double cek ke sumber primer
 - 11 koreksi utama + 3 tokoh baru ditambahkan
@@ -472,7 +472,7 @@ SUMBER PRIMER YANG DIVERIFIKASI:
    - Boechari (1986) Melacak Sejarah Kuno Indonesia Lewat Prasasti ✓
 
 Stage Summary:
-- File output: /home/z/my-project/download/riset-drama-nusantara.md
+- File output: /home/z/my-project/phase-1/riset-drama-nusantara.md
 - Total dokumen: 1.297 baris, 15.735 kata (naik dari 15.261 kata)
 - Era Mataram Kuno sudah diaudit KETIGA kali dengan cross-check ke sumber primer
 - 7 koreksi fundamental dilakukan
@@ -518,8 +518,8 @@ Konten yang ditambahkan:
 - Production notes: color palette, texture, sound design, cultural authenticity
 
 Stage Summary:
-- File output: /home/z/my-project/download/phase-1-mataram-kuno-master.yaml
-- File pendamping: /home/z/my-project/download/riset-drama-nusantara.md (MD riset lengkap)
+- File output: /home/z/my-project/phase-1/phase-1-mataram-kuno-master.yaml
+- File pendamping: /home/z/my-project/phase-1/riset-drama-nusantara.md (MD riset lengkap)
 - Format: YAML valid, dapat di-parse oleh Python/Node.js
 - Dapat dipakai sebagai master reference untuk:
   * Penulis naskah (narrative + characters)
@@ -607,7 +607,7 @@ KOREKSI MD YANG DILAKUKAN:
 - Tambah info detail Kertanegara: Ekspedisi Pamalayu 1275-1286, menolak upeti Mongol (potong telinga utusan Meng Qi 1289)
 
 FILE YAML MASTER PHASE 2:
-- File: /home/z/my-project/download/phase-2-singasari-master.yaml
+- File: /home/z/my-project/phase-1/phase-2-singasari-master.yaml
 - Struktur: 9 top-level keys (sama seperti phase 1)
 - Konten:
   * meta - info era, sumber primer, catatan penting
@@ -630,8 +630,8 @@ SUMBER PRIMER YANG DIVERIFIKASI:
 7. Kidung Panji Wijayakrama - sumber sekunder ✓
 
 Stage Summary:
-- File MD: /home/z/my-project/download/riset-drama-nusantara.md (fase 2 diperbaiki)
-- File YAML: /home/z/my-project/download/phase-2-singasari-master.yaml (1.224 baris, 7.317 kata)
+- File MD: /home/z/my-project/phase-1/riset-drama-nusantara.md (fase 2 diperbaiki)
+- File YAML: /home/z/my-project/phase-1/phase-2-singasari-master.yaml (1.224 baris, 7.317 kata)
 - Format: YAML valid, 9 top-level keys
 - Tokoh baru: Tohjaya, Mahisa Wonga Teleng, Narasinghamurti, Jayakatwang, Raden Wijaya
 - Prasasti baru: Mula Malurung, Maribong, Kudadu
@@ -650,8 +650,8 @@ Work Log:
 - Membuat 2 script audit Python persisten di /home/z/my-project/scripts/
 
 Stage Summary:
-- File laporan: /home/z/my-project/download/audit-jilid3-kemenbud-2025.md (510 baris, 3.322 kata)
-- File JSON detail: /home/z/my-project/riset-backup/.../jilid-3/_audit/structural-audit.json + structural-summary.json
+- File laporan: /home/z/my-project/audit/audit-jilid3-kemenbud-2025.md (510 baris, 3.322 kata)
+- File JSON detail: /home/z/my-project/.../jilid-3/_audit/structural-audit.json + structural-summary.json
 - Temuan: 6 kategori isu, ~57 titik masalah di 13 dari 17 file
 - Kritis (3): OCR garbage heading di 16-epilog.md (L153-155 "AB AD AD AD..."), OCR garbage di 06-bab-1.md (3 heading palsu + sampah tabel L509), catatan kaki sebagai heading di 12-bab-7.md (L heading "(75) al-nasi...")
 - Tinggi (9 heading terpotong): 05-pendahuluan-jilid L109-111, 06-bab-1 L228-230, 08-bab-3 L407+L560, 09-bab-4 L363-368, 11-bab-6 L111
@@ -763,9 +763,9 @@ Work Log:
 - Concat 5 chunks jadi file final: ringkasan-jilid-4-interaksi-awal-barat.md
 - Setup git config user.name "Mahmud AFK" + email noreply.github.com
 - Add remote origin https://github.com/emailnyamahmud-afk/drama-nusantara.git
-- Hilangkan nested .git di riset-backup/ (rename ke .git-backup-nested lalu hapus)
+- Hilangkan nested .git di  (rename ke .git-backup-nested lalu hapus)
 - Remove gitlink submodule riset-backup dari index
-- Add semua file riset-backup/phase-1-riset/ + scripts/ringkasan-jilid-4-chunk*.md + audit
+- Add semua file phase-1/ + scripts/ringkasan-jilid-4-chunk*.md + audit
 - Commit dengan pesan deskriptif
 - Fetch origin/main (ada 10 commit sebelumnya dari repo asli user)
 - Merge origin/main --allow-unrelated-histories (resolve konflik .gitignore)
@@ -805,7 +805,7 @@ Work Log:
 - Audit Bab 10: Nederburgh-Frijkenius 23 Mei 1791, tiba Batavia 13 November 1793, VOC bubar 31 Desember 1799, utang 134,8 juta gulden, korupsi gubernur 10 juta vs 700/bulan — SEMUA AKURAT
 
 Stage Summary:
-- File laporan: /home/z/my-project/download/audit-ringkasan-jilid4.md (510+ baris)
+- File laporan: /home/z/my-project/audit/audit-ringkasan-jilid4.md (510+ baris)
 - Total klaim diverifikasi: 228
 - Akurat sesuai sumber primer: 225 (98,7%)
 - Tidak terverifikasi di sumber primer (info dari pengetahuan umum, konsisten sejarawan): 2 (Hamzah Fansuri wafat ~1604; Pangeran Pekik dibunuh 1659)
@@ -985,7 +985,7 @@ Agent: Subagent (general-purpose)
 Task: Master YAML tokoh lintas 5 jilid
 
 Work Log:
-- Baca 5 file ringkasan eksklusif buku Kemenbud RI 2025 di /home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/
+- Baca 5 file ringkasan eksklusif buku Kemenbud RI 2025 di /home/z/my-project/ringkasan/
   - ringkasan-jilid-1-akar-peradaban-nusantara.md (9.438 kata, 1.064 baris)
   - ringkasan-jilid-2-perjumpaan-india-tiongkok-persia.md (9.592 kata, 1.161 baris)
   - ringkasan-jilid-3-timur-tengah.md (12.979 kata, 1.372 baris)
@@ -999,7 +999,7 @@ Work Log:
 - Susun Master YAML dengan format yang dispesifikasi (id, nama, nama_lengkap, peran, jilid, tahun, lokasi, sumber_primer, konteks_drama, fase_drama)
 
 Stage Summary:
-- File: /home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025/ringkasan-jilid/master-tokoh.yaml
+- File: /home/z/my-project/ringkasan/master-tokoh.yaml
 - Total tokoh: 250
 - Tokoh lintas-jilid (muncul di ≥2 jilid): 77
 - Distribusi tokoh per jilid:

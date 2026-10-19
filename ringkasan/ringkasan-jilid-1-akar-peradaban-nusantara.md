@@ -925,7 +925,7 @@ Nusantara adalah laboratorium maritim sejak Pleistosen. Aktivitas maritim berkem
 
 *Ringkasan ini disusun oleh Z.ai Main Agent berdasarkan **pembacaan mendalam** (bukan parsing) buku "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global" Jilid 1 (Kemenbud RI 2025). Setiap bab dibaca section-by-section dengan ekstraksi analisis konsep, tokoh, konteks ilmiah, kutipan langsung, dan multi-perspektif para ahli.*
 
-*Untuk referensi lengkap, baca buku asli di `phase-1-riset/sumber-primer/kemenbud-2025/jilid-1/`.*
+*Untuk referensi lengkap, baca buku asli di `phase-1/sumber-primer/kemenbud-2025/jilid-1/`.*
 
 ---
 

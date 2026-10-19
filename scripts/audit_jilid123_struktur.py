@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path("/home/z/my-project/riset-backup/phase-1-riset/sumber-primer/kemenbud-2025")
+BASE = Path("/home/z/my-project/phase-1/sumber-primer/kemenbud-2025")
 
 for jilid in [1, 2, 3]:
     print(f"\n{'#'*100}")
