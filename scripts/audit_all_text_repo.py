@@ -132,7 +132,7 @@ print("=" * 80)
 old_paths_to_check = [  # daftar path yang SUDAH DIHAPUS, untuk verifikasi cleanup
     "",
     "phase-1/",
-    "download/",
+    # "download/",  # sudah dihapus
     "scripts/",
     "",
     "skills/",
