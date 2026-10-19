@@ -80,7 +80,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Extreme wide shot, Sungai Brantas at dawn, 12th century East Java, misty river surface, mountains in background, golden sunrise light, banyan tree silhouette, cinematic establishing shot, 8K, hyperdetailed",
+                "prompt": "Extreme wide aerial shot, Brantas river at dawn, 12th century East Java, wide imperial river 300m, misty surface, two stone imperial docks facing each other (left blue-gold Jenggala, right red-gold Kediri), fleet of royal boats with gold carvings, mountains in background (Kelud Kawi Arjuno), banyan tree silhouette, Panji relief stones on riverbank, golden sunrise light, cinematic establishing shot, hyperdetailed, 8K",
                 "camera": "extreme wide, static, slow zoom in",
                 "negative_prompt": "modern, building, text, watermark"
               },
@@ -98,7 +98,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, Jenggala royal palace (Kahuripan) exterior at dawn, 12th century Javanese Hindu architecture, stone candi-style pillars, palm fiber roof, blue-gold royal banner on rooftop, torches, cinematic, 8K, hyperdetailed",
+                "prompt": "Aerial wide shot, 12th century Javanese Hindu imperial palace complex of Jenggala kingdom at Kahuripan, multi-building royal court with candi bentar split gate 8m tall, two giant dwarapala guardian statues, large stone ceremonial courtyard, main pendopo hall with 16 teak pillars blue-gold, three-tier tumpang sari roof with chandra-kapala finial, gold mesh curtains, 50 bronze torches, blue-gold royal banner on gate tower, background canal system with trading boats and distant small temples, cinematic, hyperdetailed, 8K",
                 "camera": "wide, slow dolly forward",
                 "negative_prompt": "modern, building, text, watermark"
               },
@@ -116,7 +116,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Close-up, golden Javanese royal crown (makuta) on stone pedestal, fire torch light reflection on gold, intricate temple motifs, 12th century, macro shot, 8K, hyperdetailed",
+                "prompt": "Close-up, golden Javanese royal destar (panji-crown) on carved stone pedestal, fire torch light reflection on gold, intricate temple motifs of chandra-kapala and kala-makara, 12th century, background shows palace hall with stone pillars and gold mesh curtains, macro shot, hyperdetailed, 8K",
                 "camera": "extreme close-up, static",
                 "negative_prompt": "modern, western, text"
               },
@@ -277,7 +277,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, Javanese royal boat (blue-gold Jenggala colors) on Brantas river at dawn, golden sunrise, mist, soldiers rowing, red-gold banner, 12th century, cinematic, 8K, hyperdetailed",
+                "prompt": "Wide shot, Javanese imperial fleet on Brantas river at dawn, lead royal boat 20m long with blue-gold Jenggala colors and gold carvings, small pendopo roof, escorted by 4-6 smaller perahu with blue-gold banners, soldiers rowing in unison, golden sunrise, mist, mountains in background, 12th century, cinematic, hyperdetailed, 8K",
                 "camera": "wide, tracking shot",
                 "negative_prompt": "modern, western, text, watermark"
               },
@@ -316,7 +316,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, riverbank at dawn, wooden pier, mist, another royal boat approaching from distance, Kediri banner red-gold, 12th century, cinematic, 8K, hyperdetailed",
+                "prompt": "Wide shot, riverbank at dawn, large imperial stone dock with red-gold Kediri ornaments, mist, Kediri imperial fleet approaching from distance with 5 royal boats 20m long each, red-gold Kediri banners, escort perahu, mountains in background, 12th century, cinematic, hyperdetailed, 8K",
                 "camera": "wide, static",
                 "negative_prompt": "modern, western, text, watermark"
               },
@@ -348,7 +348,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, Kediri royal boat docking at wooden pier, red-gold banner, Javanese soldiers, 12th century, misty dawn, cinematic, 8K, hyperdetailed",
+                "prompt": "Wide shot, Kediri imperial fleet docking at large stone dock with red-gold ornaments, 5 royal boats 20m long with gold carvings, red-gold Kediri banners, Javanese soldiers in formation, dayang with ceremonial parasols, misty dawn, 12th century, cinematic, hyperdetailed, 8K",
                 "camera": "wide, eye level",
                 "negative_prompt": "modern, western, text, watermark"
               },
@@ -631,7 +631,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, Javanese Hindu wedding ceremony at temple courtyard, sacred fire altar center, Panji (C001) and Kirana (C002) in ceremonial attire, priests, torches, stars, 12th century, cinematic, 8K, hyperdetailed",
+                "prompt": "Wide shot, Javanese Hindu wedding ceremony at large temple complex courtyard, 12th century, multi-temple complex with main 3-tier candi 15m tall featuring Panji story reliefs, 6-8 smaller supporting candi around, sacred fire altar 2m tall bronze carved, Panji (C001) and Candra Kirana (C002) in ceremonial attire, priests, 8 large bronze torches at corners, flag poles with two kingdom banners (blue-gold Jenggala and red-gold Kediri), statues of Kamajaya-Kamaratih at gateway, starry night sky, cinematic, hyperdetailed, 8K",
                 "camera": "wide, symmetrical, static",
                 "negative_prompt": "modern, western, text, watermark",
                 "character_ref": "C001, C002"
@@ -728,7 +728,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, temple fire blazing, sparks rising to stars, Panji and Candra Kirana silhouettes against fire, ceremony, 12th century, cinematic, 8K, hyperdetailed",
+                "prompt": "Wide shot, temple complex fire blazing at climax of ceremony, sparks rising to stars, Panji and Candra Kirana silhouettes against massive sacred fire, 8 large bronze torches blazing around courtyard, multi-temple complex with Panji story reliefs, two kingdom banners (blue-gold Jenggala and red-gold Kediri) united above, ceremonial smoke, 12th century, cinematic, hyperdetailed, 8K",
                 "camera": "wide, low angle",
                 "negative_prompt": "modern, western, text, watermark"
               },
@@ -772,7 +772,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, Panji (C001) and Kirana (C002) on palace balcony overlooking unified kingdom, dawn light, Kediri landscape, mountains, river, 12th century, cinematic, 8K, hyperdetailed",
+                "prompt": "Wide shot, Panji (C001) and Candra Kirana (C002) on palace balcony overlooking unified imperial kingdom at dawn, 12th century, massive Dahanapura imperial city with red brick walls 5m tall, four candi bentar split gates, multi-building palace complex, canal system from Brantas river, large marketplace outside palace walls, trading boats on canals with Chinese junks and Indian dhows, multi-ethnic traders, mountains and river in background, golden sunrise light, cinematic, hyperdetailed, 8K",
                 "camera": "wide, slow pull back",
                 "negative_prompt": "modern, western, text, watermark",
                 "character_ref": "C001, C002"
@@ -824,7 +824,7 @@
               "durasi": 5,
               "status": "draft",
               "visual": {
-                "prompt": "Wide shot, sunrise over Kediri kingdom, palace, river, mountains, golden light, birds flying, 12th century, cinematic, 8K, hyperdetailed",
+                "prompt": "Extreme wide aerial shot, sunrise over unified imperial kingdom, 12th century East Java, massive Dahanapura imperial city with red brick walls 5m tall and four candi bentar split gates, multi-building palace complex, Siwa-Buddha main temple at city center, canal system from Brantas river, large marketplace, trading boats on canals including Chinese junks and Indian dhows, distant Hujung Galuh harbor with cosmopolitan ships, mountains (Kelud Kawi Arjuno) in background, golden sunrise light, birds flying, cinematic, hyperdetailed, 8K",
                 "camera": "extreme wide, slow zoom out",
                 "negative_prompt": "modern, western, text, watermark"
               },

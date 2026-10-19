@@ -62,60 +62,148 @@ Light:     #FF8F00 (oranye hangat — api upacara)
 
 ## Set Design
 
-### L001 — Keraton Jenggala (Kahuripan)
+> **Filosofi skala**: Kediri/Daha (Dahanapura) dan Jenggala (Kahuripan) bukan kota kecil. Mereka adalah ibukota maritime imperial — setara Angkor Thom atau Konstantinopel di abad 12. Set harus merefleksikan:
+> - Kompleks istana multi-bangunan (pendopo, pringgitan, dalem, gadri, pasren, kaputren)
+> - Pelabuhan internasional dengan armada perahu dagang (Jung China, perahu Arab, dhows India)
+> - Pasar kosmopolitan dengan pedagang multi-etnis
+> - Sistem kanal (Brantas navigable ke ibukota)
+> - Candi komplek (bukan candi tunggal) — Penataran span 10 km² sebagai referensi
 
-**Deskripsi**: Istana kerajaan Jenggala abad 12. Berdasarkan arsitektur Jawa Hindu-Buddha:
-- **Pilar batu candi** (mirip Candi Penataran/Kediri)
-- **Atap ijuk** (merang / aren palm)
-- **Lantai batu** (andesit)
-- **Ornamen** motif kala-makara, daun-daunan, lotus
-- **Tirai kain tipis** (kasa emas) berkibar angin
-- **Obor** di sepanjang koridor
-- **Bendera kerajaan Jenggala** (biru-emas) di atas
+### L001 — Kompleks Keraton Jenggala (Kahuripan)
+
+**Deskripsi**: Kompleks istana Kerajaan Jenggala abad 12 — kota istana di muara Sungai Brantas, dekat pelabuhan Hujung Galuh. Berdasarkan arsitektur Jawa Hindu-Buddha skala imperial:
+- **Gerbang utama**: Candi Bentar megah (gerbang belah dua menara) — 8 m tinggi, bata merah
+- **Dwarapala** raksasa berlutut di kiri-kanan gerbang (setinggi 3 m)
+- **Halaman upacara** luas berbatu andesit (200 m²)
+- **Pendopo agung** dengan 16 tiang kayu jati (bukan 8) — merah-emas + emas ukir
+- **Atap tumpang sari 3 tingkat** dengan mustaka chandra-kapala
+- **Pringgitan** (platform tengah untuk pertunjukan)
+- **Dalem** (bilik dalam) dengan tirai beludru
+- **Tirai kasa emas** berkibar angin di koridor panjang
+- **Obor perunggu** 50+ sepanjang koridor
+- **Bendera kerajaan Jenggala** (biru-emas) di menara gerbang
+- **Latar belakang**: kota istana dengan candi-candi kecil, kanal air, perahu dagang di kejauhan
 
 **T2I Prompt**:
 ```
-Javanese Hindu palace interior, 12th century Jenggala kingdom, blue-gold
-royal theme, stone pillars with kala-makara ornaments, palm fiber roof,
-andesite floor, gold silk curtains blowing in wind, torches along
-corridor, blue-gold royal banner above, cinematic, dramatic lighting, 8K,
-hyperdetailed
+Aerial wide shot, 12th century Javanese Hindu imperial palace complex of
+Jenggala kingdom, multi-building royal court with candi bentar split gate
+8m tall, two giant dwarapala guardian statues kneeling, large stone
+ceremonial courtyard, main pendopo hall with 16 teak pillars red-gold
+with gold carvings, three-tier tumpang sari roof with chandra-kapala
+finial, pringgitan platform, dalem inner chamber with velvet curtains,
+gold mesh curtains blowing in wind along corridors, 50 bronze torches,
+blue-gold royal banner on gate tower, background shows canal system with
+trading boats, distant small temples, 12th century East Java Kahuripan,
+cinematic, hyperdetailed, 8K
 ```
 
-### L002 — Tepi Sungai Brantas (Perbatasan)
+### L002 — Tepi Sungai Brantas (Perbatasan, Dermaga Imperial)
 
-**Deskripsi**: Tepi Sungai Brantas di fajar — perbatasan alami antara Jenggala di utara dan Kediri di selatan.
-- **Sungai besar** mengalir tenang
+**Deskripsi**: Tepi Sungai Brantas di fajar — perbatasan alami antara Jenggala di utara dan Kediri di selatan. Bukan pangkalan kayu kecil — dermaga imperial dengan dua sisi (biru-emas utara, merah-emas selatan).
+- **Sungai Brantas** lebar (300+ m), mengalir tenang, navigable untuk perahu besar
 - **Pohon beringin** tua di tepi
-- **Pangkalan kayu** kecil (dermaga perahu kerajaan, dua sisi — biru utara, merah selatan)
+- **Dermaga batu imperial** dua sisi:
+  - Dermaga Jenggala (kiri): batu andesit dengan ornamen biru-emas, tiang bendera biru
+  - Dermaga Kediri (kanan): batu andesit dengan ornamen merah-emas, tiang bendera merah
+- **Perahu kerajaan besar** (bukan perahu kayu kecil) — 20 m panjang, ukiran emas, atap pendopo kecil
+- **Armada pengawal** 4-6 perahu per kerajaan, banner masing-masing warna
 - **Kabut fajar** di permukaan air
-- **Gunung** di latar belakang (Kelud/Kawi)
-- **Batu-batu besar** di tepi sungai
+- **Gunung** di latar belakang (Kelud/Kawi/Arjuno)
+- **Batu-batu besar** di tepi sungai berukir relief Panji
 
 **T2I Prompt**:
 ```
-Brantas riverbank at dawn, 12th century East Java, misty river surface,
-old banyan tree, two wooden royal piers (one blue-gold Jenggala side,
-one red-gold Kediri side), mountains in background, golden sunrise
-light, serene, cinematic wide shot, 8K, hyperdetailed
+Wide cinematic shot, Brantas riverbank at dawn, 12th century East Java,
+wide river 300m, two imperial stone docks facing each other: left dock
+blue-gold Jenggala with carved ornaments and blue flag pole, right
+dock red-gold Kediri with carved ornaments and red flag pole, large
+royal boats 20m long with gold carvings and small pendopo roofs, fleet
+of 4-6 escort boats per kingdom with respective banners, misty river
+surface, old banyan tree, mountains in background (Kelud, Kawi, Arjuno),
+stones with Panji relief carvings, golden sunrise light, hyperdetailed,
+8K
 ```
 
-### L003 — Candi / Altar Upacara
+### L003 — Kompleks Candi Upacara (Bukan Candi Tunggal)
 
-**Deskripsi**: Halaman candi untuk upacara pernikahan Panji-Candra Kirana.
-- **Candi batu** kecil (mirip candi di Kediri/Tulungagung)
-- **Altar api suci** (homa yajna)
-- **Bunga teratai** dan melati di sekitar
-- **Karpet kain emas** dari altar ke singgasana
-- **Obor** di empat penjuru
+**Deskripsi**: Kompleks candi besar untuk upacara pernikahan Panji-Candra Kirana — bukan satu candi kecil, tapi kumpulan candi (refleksi Candi Penataran yang membentang 10 km²).
+- **Candi utama** (3 tingkat, 15 m tinggi) dengan relief Panji di dinding
+- **Candi-candi kecil** di sekeliling (6-8 candi pendukung)
+- **Halaman batu** luas (50 m²)
+- **Altar api suci** (homa yajna) — 2 m tinggi, perunggu berukir
+- **Bunga teratai** dan melati di sekitar, karpet bunga
+- **Karpet kain emas** dari altar ke singgasana — 20 m panjang
+- **Obor perunggu** besar di 8 penjuru
 - **Bintang/malam** di langit
+- **Tiang-tiang panji** dengan banner dua kerajaan
+- **Patung dewa-dewi** (Kama Jaya-Kamaratih) di gerbang
 
 **T2I Prompt**:
 ```
-Javanese Hindu temple courtyard at night, 12th century, sacred fire
-altar, stone candi, lotus and jasmine flowers, golden carpet from
-altar to throne, four torches at corners, starry night sky, warm
-firelight, cinematic, 8K, hyperdetailed
+Wide cinematic shot, Javanese Hindu temple complex courtyard at night,
+12th century East Java, multi-temple complex with main 3-tier candi
+15m tall featuring Panji story reliefs on walls, 6-8 smaller
+supporting candi around, large stone courtyard 50m, sacred fire
+altar 2m tall bronze carved, lotus and jasmine flowers, golden
+carpet 20m from altar to throne, 8 large bronze torches at corners,
+starry night sky, flag poles with two kingdom banners (blue-gold
+Jenggala and red-gold Kediri), statues of Kamajaya-Kamaratih at
+gateway, warm firelight, hyperdetailed, 8K
+```
+
+### L004 — Pelabuhan Hujung Galuh (Pelabuhan Imperial Jenggala)
+
+**Deskripsi**: Pelabuhan maritime imperial Kerajaan Jenggala di muara Sungai Brantas (modern Surabaya/Sidoarjo). Pusat dagang Asia Tenggara abad 12.
+- **Dermaga panjang** batu 200+ m
+- **Jung China** besar (40+ m) bersandar
+- **Perahu Arab/India** (dhows) berlayar
+- **Perahu Jawa** khas (jong, pelang) — 20-30 m
+- **Gudang dagang** bata merah di tepi
+- **Pasar kosmopolitan** — pedagang Tionghoa, Tamil, Arab, Jawa, Melayu
+- **Tiang bendera** biru-emas di gerbang pelabuhan
+- **Menara pengawas** kayu setinggi 10 m
+- **Pabean** (custom house) dengan patih pelabuhan
+- **Laut Madura** di latar belakang
+
+**T2I Prompt**:
+```
+Aerial wide shot, 12th century Javanese imperial harbor of Hujung
+Galuh at Jenggala kingdom, long stone dock 200m, large Chinese junk
+40m moored, Arab and Indian dhow ships, Javanese jong boats 20-30m,
+red brick trading warehouses along shore, cosmopolitan market with
+Chinese, Tamil, Arab, Javanese, Malay traders, blue-gold Jenggala
+flag at harbor gate, wooden watchtower 10m tall, custom house with
+harbor master, Madura Strait in background, 12th century East Java
+Surabaya area, golden hour, cinematic, hyperdetailed, 8K
+```
+
+### L005 — Kota Imperial Dahanapura (Ibukota Kediri)
+
+**Deskripsi**: Ibukota imperial Kerajaan Panjalu (Kediri) — kota kosmopolitan besar dengan kompleks istana, candi, kanal, dan pasar. Setara Angkor Thom di zamannya.
+- **Tembok kota** batu bata merah 5 m tinggi, 4 gerbang (candi bentar megah)
+- **Kompleks istana** multi-bangunan di tengah (pendopo, dalem, pringgitan, gadri)
+- **Candi utama** Siwa-Buddha di pusat kota
+- **Kanal air** membentang dari Sungai Brantas ke istana
+- **Pasar besar** di luar tembok istana
+- **Mata uang perak-emas** Kediri (tanda monetisasi)
+- **Perahu dagang** di kanal
+- **Bendera merah-emas** Kediri di tiang utama
+- **Pedagang multi-etnis** (Tionghoa, Tamil, Arab, Khmer)
+- **Patung raksasa** dwarapala di gerbang utama
+
+**T2I Prompt**:
+```
+Aerial extreme wide shot, 12th century Javanese imperial city of
+Dahanapura, capital of Panjalu/Kediri kingdom, massive red brick
+city walls 5m tall with four candi bentar split gates, multi-building
+palace complex in center (pendopo, dalem, pringgitan, gadri),
+Siwa-Buddha main temple at city center, canal system from Brantas
+river to palace, large marketplace outside palace walls, silver and
+gold Kediri coins being traded, trading boats on canals, red-gold
+Kediri banners on main pole, multi-ethnic traders (Chinese, Tamil,
+Arab, Khmer), giant dwarapala statues at main gate, scale comparable
+to Angkor Thom, 12th century East Java, cinematic, hyperdetailed, 8K
 ```
 
 ---
@@ -232,7 +320,12 @@ Bit depth: 8-bit (pilot), 10-bit (production)
 Step 1: Generate 4 character refs (C001-C004)
   → Save to refs/C00X_base.png
 
-Step 2: Generate 3 location refs (L001-L003)
+Step 2: Generate 5 location refs (L001-L005)
+  → L001 Kompleks Keraton Jenggala (Kahuripan)
+  → L002 Tepi Sungai Brantas (Dermaga Imperial)
+  → L003 Kompleks Candi Upacara
+  → L004 Pelabuhan Hujung Galuh (Pelabuhan Imperial)
+  → L005 Kota Imperial Dahanapura (Ibukota Kediri)
   → Save to refs/L00X_base.png
 
 Step 3: Generate 36 segmen images

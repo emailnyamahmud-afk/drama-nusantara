@@ -18,7 +18,15 @@ Sebuah pernikahan politik antara **Pangeran Panji Asmoro Bangun** dari Kerajaan 
 
 ## Premis
 
-Pada abad ke-12, Jawa Timur terbelah menjadi dua kerajaan saudara yang bermusuhan: **Jenggala** di utara (ibukota Kahuripan) dan **Kediri/Daha** di selatan (ibukota Dahanapura). Dua kerajaan yang lahir dari satu ayah, Raja Airlangga, yang membelah wilayahnya pada 1042 M sebelum wafat. Selama 140 tahun, mereka bermusuhan, bersaing, dan berperang.
+Pada abad ke-12, Jawa Timur terbelah menjadi dua kerajaan saudara yang bermusuhan: **Jenggala** di utara (ibukota Kahuripan, pelabuhan Hujung Galuh di muara Sungai Brantas) dan **Kediri/Daha** di selatan (ibukota **Dahanapura**, "Kota Api" — pusat kekuasaan maritime Asia Tenggara). Dua kerajaan yang lahir dari satu ayah, Raja Airlangga, yang membelah wilayahnya pada 1042 M sebelum wafat. Selama 140 tahun, mereka bermusuhan, bersaing, dan berperang.
+
+> **Catatan penting tentang skala**: "Kediri" / "Daha" di kisah Panji **BUKAN** Kabupaten Kediri di masa modern. **Dahanapura** adalah ibukota imperial Kerajaan Panjalu (Kediri kuno) — kota kosmopolitan besar yang menguasai:
+> - Armada laut (gelar *Senapati Sarwwajala* = laksamana angkatan laut, tercatat prasasti Gandra 1181 M)
+> - Perdagangan rempah dari Maluku (negara vazal sejak Jayabhaya)
+> - Hubungan dagang dengan China (catatan *Ling-wai-tai-ta* 1178 M menyebut "Pu-chia-lung" = Panjalu) dan India
+> - Mata uang perak & emas sendiri (Kediri adalah salah satu kerajaan pertama di Nusantara yang monetisasi ekonomi)
+>
+> Visually, Dahanapura setara dengan Angkor Thom atau Konstantinopel di zamannya — bukan desa kecil. Visual film harus merefleksikan skala imperial maritime ini.
 
 Kini, kedua kerajaan sepakat: perdamainan harus diikat — dengan pernikahan politik. **Panji Asmoro Bangun** (juga dikenal sebagai Inu Kertapati), putra mahkota Jenggala, ditunangkan dengan **Dewi Candra Kirana** (juga dikenal sebagai Sekartaji), putri mahkota Kediri.
 
