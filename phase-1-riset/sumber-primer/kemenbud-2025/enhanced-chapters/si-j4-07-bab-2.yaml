@@ -1,0 +1,371 @@
+# =============================================================================
+# ENHANCED METADATA — Bab Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII
+# =============================================================================
+# Source: Kemenbud 2025, Jilid 4, Bab 2
+# Source file: jilid-4/07-bab-2.md
+# Word count: 30,701 (PDF pages 153-340, cetak 137-324)
+# Reading time: ~154 minutes
+# Enhancement: partial-read (headings + grep extraction)
+# =============================================================================
+
+doc_id: "si-j4-07-bab-2"
+source_file: "jilid-4/07-bab-2.md"
+jilid: 4
+chapter_number: 2
+title: "Bab II — Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII"
+
+summary: >
+  Bab kunci untuk memahami dinamika politik Nusantara abad 17-18, dengan
+  fokus pada tiga kesultanan Islam besar: Aceh (Iskandar Muda), Mataram
+  (Sultan Agung), dan Gowa-Tallo (Sultan Hasanuddin). Bab menantang narasi
+  kolonial yang sentral-Eropa dengan menempatkan kesultanan Nusantara
+  sebagai aktor utama dengan horizon politik global. Membahas ekspansi
+  Sultan Agung ke Jawa Timur (Pasuruan 1614, Wirasaba 1615, Surabaya 1625,
+  Giri-Gresik 1636), serangan Mataram ke Batavia 1628 dan 1629 (gagal),
+  strategi politik pernikahan Pangeran Pekik, islamisasi Sultan Agung
+  pasca-kekalahan Batavia (kalender Jawa 1633, ziarah Tembayat), hingga
+  pemberontakan internal (Tembayat 1630). Bab juga membahas hubungan Aceh
+  dengan Turki Usmani dan ekspansi Iskandar Muda ke Johor (1613) dan
+  Malaka-Portugis (1615, 1629 gagal).
+
+reading_time_minutes: 154
+
+key_figures:
+
+  - name: "Sultan Agung (Raden Mas Jatmiko / Pangeran Rangsang)"
+    role: "Sultan Mataram ketiga, ekspansi dan serang Batavia"
+    period: "1613-1645 M (lahir ± 1593, naik takhta usia 20-an)"
+    drama_relevance: high
+    notes: >
+      Sultan Agung Senapati ing Ngalaga Abdurrahman. Putra tertua Panembahan
+      Seda ing Krapyak (raja Mataram ke-2). Garwa padmi: Ratu Adi asal Pajang.
+      Ekspansi Jawa: Pasuruan 1614, Wirasaba 1615, Lasem 1616, Pasuruan 1617,
+      Tuban 1619, Surabaya 1625, Giri-Gresik 1636. Serang VOC Batavia 1628
+      dan 1629 (gagal). Ziarah Tembayat 1633 — islamisasi.
+
+  - name: "Iskandar Muda"
+    role: "Sultan Aceh, ekspansi ke Sumatera dan Malaka"
+    period: "1607-1636 M"
+    drama_relevance: high
+    notes: >
+      Ekspansi ke Deli 1612, Aru 1613, Johor 1613 (serang VOC di Batu Sawar),
+      Pahang 1617, serang Malaka-Portugis 1615 dan 1629 (gagal besar — 19.000
+      prajurit tewas). Hubungan diplomatik dengan Turki Usmani.
+
+  - name: "Sultan Hasanuddin"
+    role: "Sultan Gowa, melawan VOC"
+    period: "1653-1669 M"
+    drama_relevance: high
+    notes: "Peperangan Makassar-VOC 1666-1669, Perjanjian Bungaya 1669."
+
+  - name: "Pangeran Pekik"
+    role: "Putra Jayalengkara (Surabaya), menantu Sultan Agung"
+    period: "± 1620-1630-an M"
+    drama_relevance: medium
+    notes: >
+      Dinikahkan dengan Ratu Pandan Sari (adik Sultan Agung). Putrinya
+      dinikahkan dengan Amangkurat I. Memimpin serangan Mataram ke Giri-Gresik
+      1636 karena keturunan Walisongo. Pengarang Serat Jayalengkara Wulang,
+      suluk, Damarwulan.
+
+  - name: "Jan Pieterszoon Coen"
+    role: "Gubernur Jenderal VOC di Batavia"
+    period: "1619-1623, 1627-1629 M"
+    drama_relevance: high
+    notes: "Pendiri Batavia 1619. Menolak bantu Sultan Agung serang Surabaya. Wafat 1629."
+
+  - name: "Jayalengkara"
+    role: "Adipati Surabaya, takluk ke Mataram 1625"
+    period: "± 1610-1625 M"
+    drama_relevance: medium
+    notes: "Surabaya dikepung Mataram, kelaparan, populasi 50-60 ribu turun ke 1.000."
+
+  - name: "Amangkurat I"
+    role: "Putra Sultan Agung, Sultan Mataram ke-4"
+    period: "1646-1677 M"
+    drama_relevance: medium
+    notes: "Suami putri Pangeran Pekik. Tirani, kerusuhan istana 1647-1653."
+
+  - name: "Sunan Giri (Giri Kedaton)"
+    role: "Raja-ulama Gresik, takluk Mataram 1636"
+    period: "± 1600-1636 M"
+    drama_relevance: medium
+    notes: "Penerus Sunan Giri asli. Pusat politik-agama Islam pesisir, ditaklukkan Sultan Agung 1636."
+
+key_events:
+
+  - date: "1612 M"
+    event: "Aceh taklukkan Deli"
+    location: "Sumatera Utara"
+    drama_relevance: low
+
+  - date: "1613 M"
+    event: "Aceh taklukkan Aru, lalu serang Johor (VOC kantor di Batu Sawar hancur)"
+    location: "Johor (Malaysia)"
+    drama_relevance: medium
+
+  - date: "1613 M"
+    event: "Sultan Agung naik takhta Mataram (usia 20-an)"
+    location: "Mataram (Karta/Yogyakarta)"
+    drama_relevance: high
+
+  - date: "1614 M"
+    event: "Ekspansi pertama Sultan Agung: Pasuruan ditaklukkan via Winongan"
+    location: "Pasuruan, Jawa Timur"
+    drama_relevance: medium
+
+  - date: "1615 M"
+    event: "Mataram taklukkan Wirasaba (Mojoagung) — strategis lembah Brantas"
+    location: "Wirasaba, Jawa Timur"
+    drama_relevance: medium
+
+  - date: "1615 M"
+    event: "Aceh serang Malaka-Portugis (gagal)"
+    location: "Malaka"
+    drama_relevance: low
+
+  - date: "1616 M"
+    event: "Mataram taklukkan Lasem, lalu kalahkan persekutuan Surabaya-Pajang di Siwalan"
+    location: "Lasem, Jawa Tengah"
+    drama_relevance: medium
+
+  - date: "1617 M"
+    event: "Mataram taklukkan Pasuruan"
+    location: "Pasuruan"
+    drama_relevance: medium
+
+  - date: "1617 M"
+    event: "Aceh taklukkan Pahang"
+    location: "Pahang (Malaysia)"
+    drama_relevance: low
+
+  - date: "1619 M"
+    event: "Jan Pieterszoon Coen dirikan Batavia, lalu Mataram taklukkan Tuban"
+    location: "Batavia (Jakarta) + Tuban"
+    drama_relevance: high
+
+  - date: "1620 M"
+    event: "Serangan Mataram pertama ke Surabaya dihambat kapal Belanda Neptunes"
+    location: "Laut Jawa sekitar Gresik"
+    drama_relevance: medium
+
+  - date: "1622 M"
+    event: "Mataram taklukkan Sukadana (penyuplai Surabaya)"
+    location: "Sukadana, Kalimantan Barat"
+    drama_relevance: low
+
+  - date: "1624 M"
+    event: "Mataram taklukkan Madura (80.000 prajurit)"
+    location: "Madura (Sampang, Pamekasan, Sumenep)"
+    drama_relevance: medium
+
+  - date: "1625 M"
+    event: "Mataram taklukkan Surabaya — pengepungan kelaparan, Jayalengkara takluk"
+    location: "Surabaya"
+    drama_relevance: high
+
+  - date: "1628 M"
+    event: "Sultan Agung serang Batavia pertama (gagal)"
+    location: "Batavia"
+    drama_relevance: high
+
+  - date: "1629 M"
+    event: "Sultan Agung serang Batavia kedua (gagal), Coen wafat"
+    location: "Batavia"
+    drama_relevance: high
+
+  - date: "1629 M"
+    event: "Iskandar Muda serang Malaka-Portugis (gagal besar — 19.000 prajurit tewas)"
+    location: "Malaka"
+    drama_relevance: medium
+
+  - date: "1630 M"
+    event: "Pemberontakan Tembayat ditumpas Sultan Agung"
+    location: "Tembayat, Jawa Tengah"
+    drama_relevance: medium
+
+  - date: "1633 M"
+    event: "Sultan Agung ziarah makam Sunan Bayat di Tembayat — islamisasi Mataram"
+    location: "Tembayat"
+    drama_relevance: high
+
+  - date: "1633 M"
+    event: "Sultan Agung ubah kalender Saka jadi Islam-Jawa (Anno Javanico)"
+    location: "Mataram"
+    drama_relevance: high
+
+  - date: "1635 M"
+    event: "Mataram tumpas pemberontakan Ukur dan Sumedang (40.000 prajurit)"
+    location: "Priangan, Jawa Barat"
+    drama_relevance: medium
+
+  - date: "1636 M"
+    event: "Mataram taklukkan Giri-Gresik (Pangeran Pekik pimpin, akhir raja-ulama pesisir)"
+    location: "Gresik"
+    drama_relevance: high
+
+key_locations:
+
+  - name: "Keraton Mataram (Karta)"
+    type: istana
+    current_location: "Karta, Yogyakarta"
+    drama_relevance: high
+    lora_candidate: true
+    notes: "Ibu kota Mataram Islam era Sultan Agung."
+
+  - name: "Batavia 1628-1629"
+    type: kota
+    current_location: "Kota Tua, Jakarta"
+    drama_relevance: high
+    lora_candidate: true
+    notes: "Loji VOC. Diserang Sultan Agung 2x."
+
+  - name: "Surabaya 1625"
+    type: kota
+    current_location: "Surabaya, Jawa Timur"
+    drama_relevance: high
+    lora_candidate: true
+    notes: "Dikepung Mataram 1624-1625, kelaparan, Jayalengkara takluk."
+
+  - name: "Giri Kedaton Gresik"
+    type: istana
+    current_location: "Gresik, Jawa Timur"
+    drama_relevance: medium
+    lora_candidate: true
+    notes: "Pusat raja-ulama pesisir, takluk Mataram 1636."
+
+  - name: "Makam Sunan Bayat (Tembayat)"
+    type: lainnya
+    current_location: "Bayat, Klaten, Jawa Tengah"
+    drama_relevance: medium
+    lora_candidate: false
+    notes: "Ziarah Sultan Agung 1633 — islamisasi."
+
+  - name: "Pelabuhan Batu Sawar (Johor)"
+    type: pelabuhan
+    current_location: "Johor, Malaysia"
+    drama_relevance: low
+    lora_candidate: false
+    notes: "Kantor VOC dihancurkan Aceh 1613."
+
+key_artifacts:
+
+  - name: "Kalender Jawa (Anno Javanico, 1633 M)"
+    type: teks
+    notes: "Sultan Agung menggabungkan kalender Saka Hindu dengan Hijriah Islam-Jawa."
+
+  - name: "Serat Jayalengkara Wulang"
+    type: teks
+    notes: "Karya Pangeran Pekik — budaya pesisir Surabaya masuk Mataram."
+
+  - name: "Pertempuran Sultan Agung dan J.P. Coen (1973)"
+    type: lainnya
+    notes: "Lukisan karya S. Sudjojono, Museum Sejarah Jakarta. Referensi visual modern."
+
+drama_phase_mapping:
+  primary_phase: 6
+  secondary_phases: [7]
+  relevance_score: critical
+  drama_anchors_relevant: [5]
+  notes: >
+    BAB KUNCI untuk drama-05-sultan-agung-batavia. Mencakup ekspansi
+    Sultan Agung 1614-1636, serangan Batavia 1628-1629, islamisasi
+    pasca-kekalahan. Juga konteks untuk Fase 7 (Kolonial awal).
+
+enhanced_ontology:
+  era_specific:
+    - "islam-jawa-mataram"
+    - "kolonial-awal-voc"
+  region_specific:
+    - "jawa-tengah"
+    - "jawa-timur"
+    - "jawa-barat"
+    - "sumatra-utara-aceh"
+    - "malaysia-johor"
+  themes:
+    - "hegemoni-kesultanan"
+    - "ekspansi-militer"
+    - "diplomasi-islam"
+    - "konflik-voc"
+    - "islamisasi-mataram"
+  keywords_enhanced:
+    - "sultan agung"
+    - "iskandar muda"
+    - "hasanuddin"
+    - "mataram islam"
+    - "aceh"
+    - "gowa-tallo"
+    - "voc"
+    - "batavia"
+    - "jan pieterszoon coen"
+    - "pangeran pekik"
+    - "jayalengkara"
+    - "amangkurat i"
+    - "ekspansi mataram"
+    - "serangan batavia 1628"
+    - "serangan batavia 1629"
+    - "kalender jawa"
+    - "anno javanico"
+    - "ziarah tembayat"
+    - "sunan bayat"
+    - "giri kedaton"
+    - "mitreka satata"
+    - "turki usmani"
+
+prompt_t2i_seeds:
+
+  - scene_title: "Sultan Agung ekspansi Surabaya 1625"
+    prompt: >
+      Cinematic wide shot, 1625 CE Surabaya siege by Mataram forces,
+      Sultan Agung (Javanese sultan in royal Islamic attire with turban
+      and keris) on horseback overseeing siege, Surabaya city in
+      background with barricades and emaciated defenders, Mataram
+      soldiers in traditional Javanese armor, smoke from burning
+      outposts, dramatic overcast sky, hyperrealistic cinematic.
+
+  - scene_title: "Sultan Agung serang Batavia 1628"
+    prompt: >
+      Cinematic wide shot, October 1628 CE Batavia siege, Sultan Agung's
+      Mataram army (thousands of Javanese soldiers in traditional armor
+      with keris, tombak, perisai) attacking VOC fortification walls,
+      Dutch VOC soldiers defending with cannons and matchlocks, smoke
+      and chaos, tropical heat, dramatic late afternoon light, hyperrealistic
+      cinematic.
+
+  - scene_title: "Sultan Agung ziarah Tembayat 1633"
+    prompt: >
+      Cinematic scene, 1633 CE Tembayat hillside shrine, Sultan Agung
+      (middle-aged Javanese sultan in white robe with peci, humbled)
+      praying at tomb of Sunan Bayat, Islamic scholars in white robes
+      nearby, simple Javanese-Islamic shrine with carved stone, golden
+      hour sunlight filtering through trees, hyperrealistic cinematic.
+
+  - scene_title: "Iskandar Muda serang Malaka 1629"
+    prompt: >
+      Cinematic wide shot, 1629 CE Malaka harbor naval battle, Iskandar
+      Muda's Aceh fleet (hundreds of traditional Malay ships) attacking
+      Portuguese Malaka fortress, cannons firing from Portuguese fort,
+      burning ships, dramatic sea battle, hyperrealistic cinematic.
+
+cross_references:
+
+  - type: buku-akademis
+    reference: "H.J. De Graaf, Puncak Kekuasaan Mataram: Politik Ekspansi Sultan Agung (1986)"
+  - type: buku-akademis
+    reference: "H.J. De Graaf & T.G. Pigeaud, Kerajaan-kerajaan Islam Pertama di Jawa (1985)"
+  - type: arsip-voc
+    reference: "Daghregister (catatan harian VOC) 1 Mei 1642"
+  - type: buku-akademis
+    reference: "M.C. Ricklefs, A History of Modern Indonesia since c.1200"
+  - type: buku-akademis
+    reference: "Clifford Geertz, The Javanese Kijaji (1960)"
+
+metadata_production:
+  enhanced_by: "Z.ai Main Agent"
+  enhanced_at: "2026-10-17T02:00:00+07:00"
+  enhancement_version: "1.0"
+  source_extraction: "partial-read"
+  notes: >
+    Bab 30.701 kata — cukup detail untuk drama Sultan Agung. Prioritas
+    pada 4 peristiwa kunci: ekspansi Surabaya 1625, serangan Batavia
+    1628-1629, ziarah Tembayat 1633, taklukan Giri-Gresik 1636.

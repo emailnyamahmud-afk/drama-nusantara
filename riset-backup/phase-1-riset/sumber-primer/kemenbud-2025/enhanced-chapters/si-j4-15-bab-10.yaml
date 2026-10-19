@@ -1,0 +1,46 @@
+doc_id: si-j4-15-bab-10
+source_file: jilid-4/15-bab-10.md
+jilid: 4
+chapter_number: 10
+title: Bab X — Kemunduran VOC
+summary: '[PENDING ENHANCEMENT] Bab ini belum di-enhance manual. Konten: Bab X — Kemunduran VOC. Word
+  count: 13052. Untuk produksi drama, baca isi bab atau enhance manual jika prioritas tinggi.'
+reading_time_minutes: 65
+key_figures: []
+key_events: []
+key_locations: []
+drama_phase_mapping:
+  primary_phase: 7
+  secondary_phases: []
+  relevance_score: medium
+  drama_anchors_relevant: []
+  notes: Auto-generated mapping berdasarkan judul bab. Belum diverifikasi via pembacaan isi.
+enhanced_ontology:
+  era_specific:
+  - hindu-buddha
+  - islam
+  - kolonial-awal
+  region_specific:
+  - nusantara
+  - jawa
+  - sumatra
+  - bali
+  - sulawesi
+  themes:
+  - lingkungan
+  - manusia
+  - teknologi
+  - religi
+  - seni
+  keywords_enhanced:
+  - cultuurstelsel
+  - lingua franca
+  - voc
+  - portugis
+  - rempah
+metadata_production:
+  enhanced_by: Z.ai Main Agent (auto-generated)
+  enhanced_at: '2026-10-17T01:40:43.140875'
+  enhancement_version: '1.0'
+  source_extraction: metadata-only
+  notes: Auto-generated dari frontmatter asli. Untuk produksi drama, enhance manual diperlukan.

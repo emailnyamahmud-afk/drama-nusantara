@@ -1,0 +1,1007 @@
+# =============================================================================
+# MASTER PHASE 6 — ERA MATARAM ISLAM (1587–1755 M)
+# =============================================================================
+# Dokumen komprehensif: riset sejarah + master reference untuk T2I prompt
+# Format YAML untuk struktur data yang dapat dipakai oleh:
+#   - Penulis naskah drama (narrative + characters)
+#   - Artist/Art Director (wardrobe + visual)
+#   - AI prompt engineer (prompt library untuk Stable Diffusion)
+#
+# Status: AUDIT 2 — Diperluas dengan 3 Perang Suksesi, 4 Keraton, Untung Surapati,
+#         Raden Mas Said, detail lengkap 11 raja
+# Tanggal: 17 Oktober 2026
+# Versi: 2.0 (master YAML phase 6 — diperluas)
+# =============================================================================
+
+meta:
+  era: "Kesultanan Mataram Islam"
+  periode: "1587–1755 M"
+  lokasi_geografis: "Jawa Tengah-Yogyakarta (Kota Gede → Karta → Plered → Kartasura → Surakarta/Yogyakarta)"
+  dinasti: "Wangsa Mataram (keturunan Ki Ageng Pemanahan → Sutawijaya)"
+  ibu_kota: "Kota Gede (1587-1613) → Karta (1613-1645) → Plered (1645-1680) → Kartasura (1680-1745) → Surakarta/Yogyakarta (1745/1755)"
+  agama: "Islam Sunni (sinkretis Jawa)"
+  sumber_primer:
+    - "Babad Tanah Jawi (abad 18-19) — sumber utama naratif"
+    - "Babad Mataram — untuk era awal (Senapati-Sultan Agung)"
+    - "Serat Kanda dan Serat Menak — sumber sekunder"
+    - "Arsip VOC — untuk hubungan Mataram-Belanda (era Amangkurat dan setelahnya)"
+    - "H.J. de Graaf dan T.H. Pigeaud — kajian akademis modern"
+    - "Moedjianto (1987) Konsep Kekuasaan Jawa"
+    - "Perjanjian Giyanti (13 Februari 1755) — pembagian Mataram"
+  catatan_penting: >
+    Tidak ada prasasti resmi dari era Mataram awal (Senapati-Sultan Agung).
+    Sejarah direkonstruksi dari Babad Tanah Jawi. Arsip VOC menjadi sumber
+    Eropa penting untuk era Amangkurat dan setelahnya. 11 raja dari Senapati
+    hingga Hamengkubuwana I.
+
+# =============================================================================
+# NARASI SINGKAT — Storytelling untuk Drama
+# =============================================================================
+narrative:
+  era_overview: >
+    Dari Kota Gede di kaki Gunung Merapi, Sutawijaya mendirikan Mataram Islam
+    — kerajaan Islam terbesar di Jawa. Selama 168 tahun, Mataram mengalami
+    pasang surut: dari pendirian, keemasan Sultan Agung yang menyerang Batavia
+    dan membuat kalender Jawa, kemunduran di bawah Amangkurat yang tiran,
+    pemberontakan Trunojoyo, perang suksesi yang dimanipulasi VOC, hingga
+    akhirnya pembelahan Mataram menjadi Surakarta dan Yogyakarta oleh
+    Perjanjian Giyanti 1755.
+
+  # SUMBER KEMENBUD 2025 (Jilid 4 Bab 2) — Detail ekspansi Sultan Agung
+  sultan_agung_ekspansi_detail:
+    sumber: "Kemenbud RI 2025, Jilid 4 Bab 2 'Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII'"
+    identitas_sultan_agung: >
+      Bernama kecil Raden Mas Jatmiko, kemudian Pangeran Rangsang. Naik takhta
+      1613 M usia 20-an, bergelar Sultan Agung Senapati ing Ngalaga Abdurrahman.
+      Putra tertua Panembahan Seda ing Krapyak (raja Mataram ke-2, bertakhta
+      1601-1613) dengan garwa padmi Ratu Adi asal Pajang. Pernyataan politik
+      Sultan Agung: "Aku adalah seorang raja sekaligus tentara, bukan pedagang
+      seperti raja-raja Jawa lain" — definisi budaya politik Jawa pedalaman
+      yang menganggap pesisir sebagai ancaman.
+
+    kronologi_ekspansi_1614_1636:
+      1614:
+        event: "Ekspansi pertama: Pasuruan ditaklukkan via Winongan, Malang dikuasai tanpa perlawanan"
+        strategis: "Jalur masuk Jawa Timur"
+      1615:
+        event: "Wirasaba (Mojoagung) ditaklukkan — strategis lembah Brantas, dekat peninggalan Majapahit, memperkuat legitimasi politik Sultan Agung"
+      1616:
+        event: "Lasem ditaklukkan, persekutuan Surabaya-Pajang dikalahkan di Siwalan (Pajang batal kirim suplai)"
+      1617:
+        event: "Pasuruan sepenuhnya ditaklukkan Mataram"
+      1619:
+        event: "Tuban ditaklukkan — pendukung utama Surabaya"
+        catatan: "Tahun yang sama JP Coen dirikan Batavia"
+      1620:
+        event: "Serangan pertama ke Surabaya dihambat kapal Belanda Neptunes di Laut Jawa sekitar Gresik"
+      1621:
+        event: "Gresik dibakar Mataram (terbatas karena ditahan Belanda)"
+      1622:
+        event: "Sukadana (penyuplai Surabaya) ditaklukkan"
+      1623_1624:
+        event: "Pengepungan Surabaya gagal karena logistik tidak memadai — pamer kekuatan"
+      juli_1624:
+        event: "Pertempuran intensif di Madura — Mataram kirim 80.000 prajurit"
+      agustus_1624:
+        event: "Seluruh Madura takluk — Cakraningrat diangkat (sejak 1678)"
+      1625:
+        event: "Surabaya takluk setelah pengepungan kelaparan — populasi turun dari 50-60 ribu jadi 1.000. Adipati Jayalengkara jadi vasal Mataram"
+        catatan: "Strategi: bendung sungai lewat Mojokerto, kontaminasi air, wabah penyakit"
+      1628:
+        event: "Serangan pertama Mataram ke Batavia — GAGAL. Dipimpin Tumenggung Baureksa"
+      1629:
+        event: "Serangan kedua Mataram ke Batavia — GAGAL. Dipimpin Dipati Ukur. JP Coen wafat 1629"
+      1630:
+        event: "Pemberontakan Tembayat ditumpas Sultan Agung — pemimpin agama dari daerah makam Sunan Bayat"
+      1633:
+        event: "Sultan Agung ziarah makam Sunan Bayat di Tembayat — islamisasi Mataram. Ubah kalender Saka jadi Anno Javanico (kalender Islam-Jawa)"
+      1635:
+        event: "Pemberontakan Ukur dan Sumedang ditumpas Mataram (40.000 prajurit) — Priangan kembali tenang 1636"
+      1636:
+        event: "Penaklukan Giri-Gresik — akhir raja-ulama pesisir. Pangeran Pekik pimpin serangan (keturunan Walisongo, syarat agar pasukan Mataram mau berperang melawan wali)"
+
+    pangeran_pekik:
+      sumber: "Kemenbud RI 2025, Jilid 4 Bab 2"
+      peran: >
+        Putra Jayalengkara (Adipati Surabaya yang takluk 1625). Diambil Sultan
+        Agung jadi keluarga Mataram. Dinikahkan dengan Ratu Pandan Sari
+        (adik Sultan Agung). Putrinya dinikahkan dengan Amangkurat I (putra
+        Sultan Agung, masa depan raja Mataram ke-4).
+      strategi_politik: >
+        Pemimpin serangan Mataram ke Giri-Gresik 1636 — karena keturunan
+        Walisongo (Sunan Ampel Denta), pasukan Mataram mau berperang
+        melawan raja-ulama. Pangeran Pekik menjalani kehidupan asketik
+        di Ampel yang keramat.
+      kontribusi_budaya: >
+        Pengarang Serat Jayalengkara Wulang, beberapa suluk, Damarwulan.
+        Memperkenalkan budaya pesisir Surabaya yang kosmopolit ke pola
+        kultural Mataram di pedalaman. Atas inisiatifnya, naskah Melayu
+        tentang cerita Kalila dan Dimna diterjemahkan.
+      sumber_primer: "Kemenbud RI 2025, Jilid 4 Bab 2; De Graaf, Puncak Kekuasaan Mataram (1986)"
+
+    aceh_iskandar_muda:
+      sumber: "Kemenbud RI 2025, Jilid 4 Bab 2"
+      peran_paralel: >
+        Sambil Sultan Agung ber ekspansi di Jawa, di Sumatera Sultan Iskandar
+        Muda Aceh (1607-1636) juga ber ekspansi: Deli 1612, Aru 1613, Johor
+        1613 (serang VOC di Batu Sawar), Pahang 1617, serang Malaka-Portugis
+        1615 dan 1629 (gagal besar — 19.000 prajurit tewas). Hubungan Aceh
+        dengan Turki Usmani.
+      signifikansi: >
+        Dua kesultanan Islam Nusantara (Mataram dan Aceh) sezaman ekspansi
+        abad 17, sama-sama berhadapan dengan VOC/Portugis. Bisa dijadikan
+        drama paralel untuk konteks geopolitik.
+
+    catatan_ekspansi:
+      sumber: "Kemenbud RI 2025, Jilid 4 Bab 2"
+      narasi_kemenbud: >
+        "Nusantara pada abad ke-16 dan ke-17 bukanlah ruang pasif yang
+        semata-mata bereaksi terhadap ekspansi Eropa, melainkan sebuah
+        lanskap politik yang telah lebih dahulu dihuni oleh kekuatan-
+        kekuatan regional dengan kapasitas hegemoni yang nyata. Kesultanan-
+        kesultanan Islam besar seperti Aceh, Mataram, dan Gowa-Tallo telah
+        membangun sistem kekuasaan yang kompleks dengan memadukan supremasi
+        militer, penguasaan ekonomi, legitimasi kultural-keagamaan, serta
+        praktik diplomasi lintas kawasan."
+
+  akt_1_founding: >
+    1587 M. Sutawijaya menerima takhta Pajang dari Pangeran Benawa.
+    Memindahkan pusat ke Kota Gede. Bergelar Panembahan Senapati Khalifatullah
+    Sayyidin Panatagama. Era konsolidasi — menaklukkan Jawa Timur, Surabaya.
+    Wafat 1601 di Jenar.
+
+  akt_2_golden_age: >
+    1613 M. Sultan Agung (Raden Mas Jatmika) naik takhta. Puncak keemasan
+    Mataram. Menyatukan hampir seluruh Jawa. Membuat kalender Jawa 1633
+    (1 Sura 1555 Jawa = 8 Juli 1633 M = 1 Muharram 1043 H). Dua kali
+    menyerang Batavia (1628 dipimpin Tumenggung Baureksa, 1629 dipimpin
+    Dipati Ukur) — dua kali gagal karena logistik dan wabah. Sultan Agung
+    wafat 1645, dimakamkan di Imogiri.
+
+  akt_3_decline_and_rebellion: >
+    Amangkurat I (1645-1677) — tiran, membantai ulama di Alas Gambiran 1646.
+    1674-1680: pemberontakan Trunojoyo dari Madura. 1677: Trunojoyo merebut
+    Plered. Amangkurat I melarikan diri, wafat di Tegalarum. Amangkurat II
+    ("Sunan Amral" — raja Jawa pertama pakai baju Eropa) bersekutu VOC
+    menumpas Trunojoyo. Memindahkan ibu kota ke Kartasura. Menampung
+    Untung Surapati — Kapten François Tack tewas 1686.
+
+  akt_4_succession_wars: >
+    1703-1755. Tiga Perang Suksesi Jawa, dimanipulasi VOC. Perang I (1704-1708):
+    Amangkurat III vs Pangeran Puger (Pakubuwana I) — PB I menang dengan VOC,
+    Amangkurat III diasingkan ke Ceylon. Perang II (1719-1723). Perang III
+    (1749-1757): Pakubuwana II menyerahkan kedaulatan ke VOC 1749. Pemberontakan
+    Pangeran Mangkubumi. 1755: Perjanjian Giyanti membelah Mataram menjadi
+    Surakarta (Pakubuwana III) dan Yogyakarta (Hamengkubuwana I).
+
+# =============================================================================
+# DAFTAR RAJA
+# =============================================================================
+kings_list:
+  source_primary: "Babad Tanah Jawi + arsip VOC + H.J. de Graaf & Pigeaud"
+  note: >
+    11 raja Mataram Islam (dari Senapati hingga Hamengkubuwana I).
+    Setelah Giyanti 1755, garis terbelah menjadi Surakarta dan Yogyakarta.
+  kings:
+    - number: 1
+      name: "Panembahan Senapati"
+      alt_name: "Danang Sutawijaya"
+      reign: "1587–1601 M"
+      note: "Pendiri Mataram Islam. Wafat di Jenar 1601."
+    - number: 2
+      name: "Panembahan Hanyokrowati"
+      alt_name: "Seda ing Krapyak"
+      reign: "1601–1613 M"
+      note: "Putra Senapati. Ayah Sultan Agung."
+    - number: 3
+      name: "Sultan Agung Hanyokrokusumo"
+      alt_names: ["Raden Mas Jatmika", "Raden Mas Rangsang"]
+      reign: "1613–1645 M"
+      note: "Raja terbesar. Lahir 1593 di Kotagede. Kalender Jawa 1633. Serangan Batavia 1628-1629. Wafat 1645, dimakamkan di Imogiri."
+    - number: 4
+      name: "Amangkurat I"
+      alt_name: "Sunan Tegalarum"
+      reign: "1645–1677 M"
+      note: "Tiran. Membantai ulama (Alas Gambiran 1646). Memindahkan ibu kota ke Plered. Tewas dalam pelarian dari Trunojoyo."
+    - number: 5
+      name: "Amangkurat II"
+      alt_name: "Sunan Amral"
+      reign: "1680–1703 M"
+      note: "Dijuluki 'Sunan Amral' (Admiral) karena pakai baju Eropa. Bersekutu VOC. Menampung Untung Surapati. Memindahkan ibu kota ke Kartasura."
+    - number: 6
+      name: "Amangkurat III"
+      reign: "1703–1708 M"
+      note: "Perang Suksesi Jawa I vs Pangeran Puger. Kalah, diasingkan ke Ceylon."
+    - number: 7
+      name: "Pakubuwana I"
+      alt_name: "Pangeran Puger"
+      reign: "1704–1719 M"
+      note: "Adik Amangkurat II. Naik takhta dengan dukungan VOC. Leluhur semua raja Surakarta-Yogyakarta."
+    - number: 8
+      name: "Amangkurat IV"
+      reign: "1719–1726 M"
+      note: "Periode singkat, konflik internal."
+    - number: 9
+      name: "Pakubuwana II"
+      reign: "1726–1749 M"
+      note: "Memindahkan keraton ke Surakarta (1745). Menyerahkan kedaulatan ke VOC (1749)."
+    - number: 10
+      name: "Pakubuwana III"
+      reign: "1749–1788 M"
+      note: "Sultan terakhir Mataram unified, lalu sultan pertama Surakarta setelah Giyanti 1755."
+    - number: 11
+      name: "Hamengkubuwana I"
+      alt_name: "Pangeran Mangkubumi"
+      reign: "1755–1792 M"
+      note: "Pendiri Kesultanan Yogyakarta. Lahir 5 Agustus 1717."
+  parallel_figures:
+    - name: "Trunojoyo"
+      period: "1674–1680 M"
+      role: "Pemberontak Madura yang hampir menghancurkan Mataram. Merebut Plered 1677. Dikalahkan VOC-Amangkurat II. Dieksekusi 1680."
+      source: "Babad Tanah Jawi, arsip VOC"
+    - name: "Untung Surapati"
+      period: "1660–1706 M"
+      role: "Pahlawan anti-VOC. Lahir di Gelgel, Bali. Budak VOC yang memberontak. Ditampung Amangkurat II (1685). Kapten François Tack tewas di Kartasura (1686). Menjadi bupati Pasuruan. Tewas 1706 melawan aliansi VOC-Pakubuwana I."
+      source: "Babad Tanah Jawi, arsip VOC, Babad Untung Surapati"
+    - name: "Raden Mas Said / Pangeran Sambernyawa"
+      period: "1749–1757 M"
+      role: "Pendiri Mangkunagaran. Putra Pangeran Arya Mangkunegara. Awalnya bersekutu dengan Pangeran Mangkubumi, lalu merasa dikhianati setelah Giyanti 1755. Perjanjian Salatiga 1757 — mendapat Mangkunagaran."
+      source: "Babad Tanah Jawi, Perjanjian Salatiga 1757"
+    - name: "Pangeran Puger / Pakubuwana I"
+      period: "1704–1719 M"
+      role: "Adik Amangkurat II. Naik takhta dengan dukungan VOC dalam Perang Suksesi I. Leluhur semua raja Surakarta-Yogyakarta."
+      source: "Babad Tanah Jawi, arsip VOC"
+    - name: "Amangkurat III"
+      period: "1703–1708 M"
+      role: "Putra Amangkurat II. Kalah dalam Perang Suksesi I melawan Pangeran Puger (Pakubuwana I). Diasingkan ke Ceylon, wafat 1734."
+      source: "Babad Tanah Jawi, arsip VOC"
+    - name: "Amangkurat IV"
+      period: "1719–1726 M"
+      role: "Putra Pakubuwana I. Perang Suksesi II melawan adik-adiknya (Pangeran Blitar, Pangeran Purbaya). Menang dengan VOC."
+      source: "Babad Tanah Jawi, arsip VOC"
+
+# =============================================================================
+# 3 PERANG SUKSESI JAWA
+# =============================================================================
+succession_wars:
+  note: >
+    Tiga Perang Suksesi Jawa (1704-1757) yang dimanipulasi VOC untuk melemahkan
+    Mataram dan menguasai wilayahnya. Berakhir dengan pembagian Mataram menjadi
+    Surakarta, Yogyakarta, dan Mangkunagaran.
+  wars:
+    - name: "Perang Suksesi Jawa I"
+      period: "1704–1708 M"
+      conflict: "Amangkurat III (raja sah) vs Pangeran Puger (Pakubuwana I)"
+      cause: "Amangkurat III dianggap lemah dan zalim. Pangeran Puger mengklaim takhta dengan dukungan VOC."
+      allies_amangkurat_iii: ["Untung Surapati (atau anak-anaknya setelah Surapati wafat 1706)"]
+      allies_puger: ["VOC"]
+      result: "Pangeran Puger menang, menjadi Pakubuwana I. Amangkurat III diasingkan ke Ceylon, wafat 1734."
+      consequences:
+        - "Mataram menyerahkan Priangan (Jawa Barat), Madura, Semarang kepada VOC"
+        - "Cirebon menjadi protektorat VOC"
+        - "Mataram kehilangan kedaulatan penuh"
+      source: "Babad Tanah Jawi, arsip VOC"
+    - name: "Perang Suksesi Jawa II"
+      period: "1719–1723 M"
+      conflict: "Amangkurat IV vs adik-adiknya (Pangeran Blitar, Pangeran Purbaya)"
+      cause: "Amangkurat IV naik takhta 1719. Adik-adiknya menolak dan memberontak."
+      allies_amangkurat_iv: ["VOC"]
+      allies_rebels: ["Pemimpin Islam", "Rakyat"]
+      result: "Amangkurat IV menang dengan bantuan VOC. Pangeran Blitar dan Purbaya diasingkan."
+      consequences:
+        - "VOC semakin dalam mencengkeram Mataram"
+      source: "Babad Tanah Jawi, arsip VOC"
+    - name: "Perang Suksesi Jawa III"
+      period: "1749–1757 M"
+      conflict: "Pakubuwana III vs Pangeran Mangkubumi vs Raden Mas Said (Pangeran Sambernyawa)"
+      cause: "Pakubuwana II menyerahkan kedaulatan Mataram ke VOC 1749. Banyak pangeran dan rakyat menolak."
+      key_figures:
+        - name: "Pangeran Mangkubumi"
+          role: "Paman PB III, memberontak melawan VOC. Kemudian menjadi Hamengkubuwana I."
+        - name: "Raden Mas Said / Pangeran Sambernyawa"
+          role: "Awalnya bersekutu dengan Mangkubumi, lalu merasa dikhianati setelah Giyanti 1755."
+      treaties:
+        - name: "Perjanjian Giyanti"
+          date: "13 Februari 1755"
+          result: "Mataram dibagi menjadi Kasunanan Surakarta (PB III) dan Kasultanan Yogyakarta (Hamengkubuwana I)."
+        - name: "Perjanjian Salatiga"
+          date: "1757"
+          result: "Raden Mas Said mendapat Mangkunagaran."
+      consequences:
+        - "Mataram terbagi menjadi TIGA negara: Surakarta, Yogyakarta, Mangkunagaran"
+        - "Kemudian 1813 dibentuk Pakualaman — menjadi EMPAT keraton"
+      source: "Babad Tanah Jawi, Perjanjian Giyanti, Perjanjian Salatiga"
+
+# =============================================================================
+# EMPAT KERATON PASCA-PERPECAHAN
+# =============================================================================
+four_keratons:
+  note: >
+    Setelah Perang Suksesi III, Mataram terbagi menjadi empat pusat kekuasaan
+    yang masih ada hingga kini. Sistem Catur Sagotra — empat garis keturunan
+    dari satu leluhur (Sultan Agung / Ki Ageng Pemanahan).
+  keratons:
+    - name: "Kasunanan Surakarta"
+      founded: "1745/1755"
+      founder: "Pakubuwana III"
+      title: "Susuhunan (Sunan)"
+      territory: "Surakarta dan sekitarnya"
+      color: "Hitam"
+      note: "Penerus garis utama Mataram. Keraton di Surakarta."
+    - name: "Kasultanan Yogyakarta"
+      founded: "1755"
+      founder: "Hamengkubuwana I (Pangeran Mangkubumi)"
+      title: "Sultan"
+      territory: "Yogyakarta dan sekitarnya"
+      color: "Hijau"
+      note: "Didirikan setelah Perjanjian Giyanti. Keraton di Yogyakarta."
+    - name: "Mangkunagaran"
+      founded: "1757"
+      founder: "Raden Mas Said (Pangeran Sambernyawa)"
+      title: "Pangeran Adipati"
+      territory: "Enklave di Surakarta"
+      color: "Merah marun"
+      note: "Didirikan setelah Perjanjian Salatiga. Pangeran kecil di dalam wilayah Surakarta."
+    - name: "Pakualaman"
+      founded: "1813"
+      founder: "Pangeran Notokusumo (putra Hamengkubuwana I)"
+      title: "Pangeran Adipati"
+      territory: "Enklave di Yogyakarta"
+      color: "Biru dongker"
+      note: "Didirikan era Daendels. Pangeran kecil di dalam wilayah Yogyakarta."
+
+# =============================================================================
+# KARAKTER & WARDROBE
+# =============================================================================
+characters:
+
+  panembahan_senapati:
+    name: "Panembahan Senapati"
+    alt_name: "Danang Sutawijaya"
+    era_period: "1587–1601 M"
+    age_dramatic: "30-40 tahun"
+    narrative_short: >
+      Pendiri Kesultanan Mataram Islam. Putra Ki Ageng Pemanahan. Anak angkat
+      Sultan Hadiwijaya. Menerima takhta Pajang dari Pangeran Benawa 1587.
+      Wafat di Jenar 1601.
+    wardrobe:
+      headwear: "Blangkon hitam (warna kebesaran Mataram)"
+      upper_body: "Jubah gelap (hitam atau biru tua) dari beludru"
+      lower_body: "Kain batik kawung"
+      accessories: ["Keris pusaka berpamor hitam", "Pedang lurus Tiongkok"]
+    color_palette:
+      primary: "Hitam / biru tua (jubah Mataram)"
+      accent: "Emas (keris, perhiasan), coklat soga (kain batik)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Panembahan Senapati (Danang Sutawijaya), Javanese
+        Islamic warrior-king 16th century founder of Mataram Islam Sultanate,
+        fierce ambitious man 30-40 with determined eyes and commanding presence,
+        wearing dark velvet jubah with black blangkon, kain batik kawung at waist,
+        leather belt with black-pamor keris pusaka, 99-bead tasbih, standing on
+        Kota Gede hilltop with Mount Merapi silhouette, dramatic moonlight,
+        hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Panembahan Senapati 16th century Javanese
+        Islamic warrior-king, black blangkon, dark velvet jubah, kain batik
+        kawung at waist, leather belt with black-pamor keris, 99-bead tasbih,
+        gold kundala necklace, black and gold color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  sultan_agung:
+    name: "Sultan Agung Hanyokrokusumo"
+    alt_names: ["Raden Mas Jatmika", "Raden Mas Rangsang"]
+    era_period: "1613–1645 M"
+    age_dramatic: "30-50 tahun"
+    narrative_short: >
+      Raja terbesar Mataram. Lahir 1593 di Kotagede. Nama asli Raden Mas Jatmika
+      / Raden Mas Rangsang. Putra Panembahan Hanyokrowati. Menyerang VOC di
+      Batavia (1628 dipimpin Tumenggung Baureksa, 1629 dipimpin Dipati Ukur) —
+      dua kali gagal karena logistik dan wabah. Membuat kalender Jawa 1633
+      (1 Sura 1555 Jawa = 8 Juli 1633 M = 1 Muharram 1043 H). Menyatukan hampir
+      seluruh Jawa. Wafat 1645, dimakamkan di Imogiri.
+    wardrobe:
+      headwear: "Kuluk tinggi berornamen emas (makuta Islam-Jawa)"
+      upper_body: "Jubah gelap dari beludru dengan sabuk emas"
+      lower_body: "Kain batik Parang Rusak (khusus raja)"
+      jewelry: ["Kalung kundala emas berlapis", "Kalung tasbih", "Cincin kerajaan"]
+      accessories: ["Keris pusaka di pinggang", "Tongkat komando emas"]
+    color_palette:
+      primary: "Hitam / biru tua (jubah kebesaran)"
+      accent: "Emas (kuluk, perhiasan), coklat soga (kain batik parang)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Sultan Agung Hanyokrokusumo, Javanese Islamic sultan
+        17th century greatest king of Mataram, authoritative bearded man 30-50
+        with fierce intelligent eyes, wearing tall kuluk crown with gold ornaments,
+        dark velvet jubah with golden belt, kain batik parang rusak at waist, keris
+        pusaka tucked in, layered gold kundala necklaces, Karta palace background
+        with red teak pillars, dramatic golden hour, hyperdetailed hyperrealistic
+        8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Sultan Agung 17th century Javanese king,
+        tall kuluk crown with gold ornaments, dark velvet jubah with golden belt,
+        kain batik parang rusak at waist, layered gold kundala necklaces, keris
+        pusaka, 99-bead tasbih, black and gold color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  amangkurat_i:
+    name: "Amangkurat I"
+    alt_name: "Sunan Tegalarum"
+    era_period: "1645–1677 M"
+    age_dramatic: "40-50 tahun"
+    narrative_short: >
+      Sultan ke-4 Mataram. Putra Sultan Agung. Tiran — membantai ulama di Alas
+      Gambiran 1646. Memindahkan ibu kota dari Karta ke Plered. Bersekutu VOC.
+      Tewas dalam pelarian setelah pemberontakan Trunojoyo merebut Plered 1677.
+    wardrobe:
+      headwear: "Kuluk sederhana (lebih gelap dari Sultan Agung)"
+      upper_body: "Jubah gelap (hitam) dari beludru"
+      lower_body: "Kain batik soga"
+      accessories: ["Keris pusaka", "Tasbih"]
+    color_palette:
+      primary: "Hitam (jubah — warna kegelasan/kesedihan)"
+      accent: "Emas pucat (perhiasan)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Amangkurat I, Javanese Islamic sultan 17th century
+        fourth king of Mataram, paranoid cruel man 40-50 with brooding expression
+        and fearful eyes, wearing dark black velvet jubah with simple kuluk, kain
+        batik soga at waist, keris pusaka, 99-bead tasbih, Plered palace background
+        with dark atmosphere, dramatic shadowy lighting, hyperdetailed hyperrealistic
+        8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Amangkurat I 17th century Javanese sultan,
+        simple dark kuluk, black velvet jubah, kain batik soga, keris pusaka,
+        99-bead tasbih, black and dark gold color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  amangkurat_ii:
+    name: "Amangkurat II"
+    alt_name: "Sunan Amral"
+    era_period: "1680–1703 M"
+    age_dramatic: "40-50 tahun"
+    narrative_short: >
+      Sultan ke-5 Mataram. Dijuluki "Sunan Amral" (Admiral) — raja Jawa pertama
+      yang memakai pakaian dinas ala Eropa. Bersekutu VOC untuk menumpas Trunojoyo.
+      Menampung buronan Untung Surapati (1685). Kapten François Tack tewas di
+      Kartasura (1686). Memindahkan ibu kota dari Plered ke Kartasura.
+    wardrobe:
+      headwear: "Blangkon (kombinasi Jawa-Eropa)"
+      upper_body: "Jas Eropa (justaucorps) dengan kain batik — sinkretisme"
+      lower_body: "Kain batik parang dengan celana Eropa"
+      accessories: ["Keris di pinggang", "Pedang sisi Eropa (rapier)"]
+    color_palette:
+      primary: "Biru tua / hitam (jas Eropa)"
+      accent: "Emas (keris, perhiasan), coklat soga (kain batik)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Amangkurat II (Sunan Amral), Javanese Islamic
+        sultan 17th century fifth king of Mataram, pragmatic man 40-50 with
+        cunning eyes, wearing European-style justaucorps coat with blangkon cap
+        (syncretism Jawa-Eropa), kain batik parang at waist with European trousers,
+        leather belt with keris and European rapier sword, Kartasura palace
+        background, dramatic golden hour, hyperdetailed hyperrealistic 8k
+        masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Amangkurat II (Sunan Amral) 17th century
+        Javanese sultan with European influence, blangkon cap, European justaucorps
+        coat, kain batik parang with European trousers, leather belt with keris
+        and rapier sword, dark blue and gold color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  untung_surapati:
+    name: "Untung Surapati"
+    era_period: "1660–1706 M"
+    age_dramatic: "30-40 tahun"
+    religion: "Islam (lahir Hindu Bali)"
+    narrative_short: >
+      Pahlawan anti-VOC. Lahir di Gelgel, Bali. Putra bangsawan Bali yang dibawa
+      VOC ke Batavia sebagai budak. Menjadi tentara VOC, lalu memberontak.
+      1685: ditampung Amangkurat II di Kartasura. 1686: Kapten François Tack
+      tewas di Kartasura. Surapati melarikan diri ke Pasuruan, menjadi bupati
+      di sana. 1706: tewas melawan aliansi VOC-Pakubuwana I.
+    visual_physical:
+      face: "Wajah Bali-Jawa, mata garang dan patriotik"
+      body: "Postur prajurit-laut tangguh"
+      hair: "Rambut hitam panjang diikat"
+    wardrobe:
+      headwear: "Ikat kepala kain (blangkon sederhana atau ikat Bali)"
+      upper_body: "Jubah prajurit gelap (hitam/coklat)"
+      lower_body: "Kain pendek sebatas lutut untuk mobilitas"
+      jewelry: ["Kalung tasbih", "Gelang perunggu"]
+      accessories: ["Keris lurus di pinggang", "Pedang lurus"]
+      footwear: "Sandal prajurit"
+    color_palette:
+      primary: "Hitam (jubah prajurit)"
+      accent: "Perunggu (senjata), putih (tasbih)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Untung Surapati, Javanese-Balinese warrior hero
+        17th century who fought against VOC, fierce patriotic man 30-40 with
+        Balinese-Javanese features and determined eyes, wearing simple dark
+        warrior jubah with cloth headband, short kain bebed, leather belt with
+        straight keris and sword, 99-bead tasbih, Pasuruan palace background,
+        dramatic golden hour lighting, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Untung Surapati 17th century warrior hero,
+        cloth headband, dark warrior jubah, short kain bebed, leather belt with
+        straight keris and sword, 99-bead tasbih, bronze bracelets, warrior
+        sandals, black and bronze color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  raden_mas_said:
+    name: "Raden Mas Said / Pangeran Sambernyawa"
+    era_period: "1749–1757 M"
+    age_dramatic: "30-40 tahun"
+    religion: "Islam Sunni"
+    narrative_short: >
+      Pendiri Mangkunagaran. Putra Pangeran Arya Mangkunegara (yang dieksekusi
+      Amangkurat II). Awalnya bersekutu dengan Pangeran Mangkubumi melawan
+      VOC dan PB III. Setelah Giyanti 1755, merasa dikhianati Mangkubumi.
+      Melanjutkan perlawanan sendiri sampai Perjanjian Salatiga 1757 — mendapat
+      Mangkunagaran.
+    visual_physical:
+      face: "Wajah Jawa klasik, karismatik, mata idealis"
+      body: "Postur prajurit-bangsawan"
+      hair: "Rambut hitam dengan blangkon"
+    wardrobe:
+      headwear: "Blangkon merah marun (warna Mangkunagaran)"
+      upper_body: "Jubah merah marun dari beludru"
+      lower_body: "Kain batik dengan motif Mangkunagaran"
+      jewelry: ["Kalung tasbih", "Kalung kundala emas sederhana"]
+      accessories: ["Keris pusaka", "Pedang"]
+      footwear: "Sandal kulit"
+    color_palette:
+      primary: "Merah marun (warna Mangkunagaran)"
+      accent: "Emas (keris, perhiasan)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Raden Mas Said (Pangeran Sambernyawa), Javanese
+        Islamic warrior-prince 18th century founder of Mangkunagaran, charismatic
+        idealistic man 30-40 with determined eyes, wearing dark maroon velvet
+        jubah with maroon blangkon, kain batik at waist, leather belt with keris
+        pusaka, 99-bead tasbih, forest camp background with loyal soldiers,
+        dramatic morning light, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Raden Mas Said 18th century Javanese
+        warrior-prince, maroon blangkon, dark maroon velvet jubah, kain batik
+        at waist, leather belt with keris pusaka, 99-bead tasbih, gold kundala
+        necklace, maroon and gold color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  pakubuwana_i:
+    name: "Pakubuwana I"
+    alt_name: "Pangeran Puger"
+    era_period: "1704–1719 M"
+    age_dramatic: "50-60 tahun"
+    religion: "Islam Sunni"
+    narrative_short: >
+      Raja ke-7 Mataram. Adik Amangkurat II. Naik takhta dengan dukungan VOC
+      dalam Perang Suksesi I (1704-1708). Leluhur semua raja Surakarta-
+      Yogyakarta. Mataram kehilangan Priangan, Madura, Semarang kepada VOC.
+    visual_physical:
+      face: "Wajah matang Jawa, tegas, mata politisi"
+      body: "Postur negarawan tua"
+      hair: "Rambut hitam dengan kuluk"
+    wardrobe:
+      headwear: "Kuluk biru (warna kebesaran)"
+      upper_body: "Jubah biru dari beludru dengan sabuk emas"
+      lower_body: "Kain batik parang"
+      jewelry: ["Kalung kundala emas", "Kalung tasbih"]
+      accessories: ["Keris pusaka", "Tongkat komando"]
+    color_palette:
+      primary: "Biru (jubah)"
+      accent: "Emas (perhiasan)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Pakubuwana I (Pangeran Puger), Javanese Islamic
+        sultan 18th century seventh king of Mataram who rose to power with VOC
+        support, mature strategic man 50-60 with determined eyes, wearing dark
+        blue velvet jubah with kuluk, kain batik parang, keris pusaka, holding
+        command staff, Kartasura palace background, dramatic golden hour,
+        hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Pakubuwana I 18th century Javanese sultan,
+        kuluk, dark blue velvet jubah, kain batik parang, leather belt with keris
+        pusaka, 99-bead tasbih, gold kundala necklace, blue and gold color
+        palette, matte fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  amangkurat_iii:
+    name: "Amangkurat III"
+    era_period: "1703–1708 M"
+    age_dramatic: "30-40 tahun"
+    religion: "Islam Sunni"
+    narrative_short: >
+      Raja ke-6 Mataram. Putra Amangkurat II. Kalah dalam Perang Suksesi I
+      melawan Pangeran Puger (Pakubuwana I). Bersekutu dengan anak-anak Untung
+      Surapati. Diasingkan ke Ceylon 1708, wafat 1734.
+    visual_physical:
+      face: "Wajah Jawa, ekspresi terjepik"
+      body: "Postur lemah"
+      hair: "Rambut hitam dengan kuluk"
+    wardrobe:
+      headwear: "Kuluk sederhana"
+      upper_body: "Jubah gelap"
+      lower_body: "Kain batik"
+      accessories: ["Keris pusaka"]
+    color_palette:
+      primary: "Hitam (jubah)"
+      accent: "Emas pucat"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Amangkurat III, Javanese Islamic sultan 18th
+        century sixth king of Mataram who lost the First Javanese War of
+        Succession, troubled man 30-40 with fearful eyes, wearing dark jubah
+        with simple kuluk, kain batik, keris pusaka, Kartasura palace
+        background, dramatic shadowy lighting, hyperdetailed hyperrealistic 8k
+        masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Amangkurat III 18th century Javanese sultan,
+        simple kuluk, dark jubah, kain batik, leather belt with keris, black
+        and dark gold color palette, matte fabric texture, museum-quality
+        detail shot, hyperdetailed 8k.
+
+  trunojoyo:
+    name: "Trunojoyo"
+    era_period: "1674–1680 M"
+    age_dramatic: "30-40 tahun"
+    religion: "Islam Sunni"
+    narrative_short: >
+      Pemberontak Madura yang hampir menghancurkan Mataram. Pangeran Madura
+      yang merasa diabaikan Mataram. Bersekutu dengan Makasar. Merebut Plered
+      1677. Dikalahkan VOC-Amangkurat II. Dieksekusi 1680.
+    visual_physical:
+      face: "Wajah Madura, karismatik, mata garang"
+      body: "Postur prajurit beringas"
+      hair: "Rambut hitam dengan blangkon Madura"
+    wardrobe:
+      headwear: "Blangkon Madura (lebih kecil dari Mataram)"
+      upper_body: "Jubah gelap Madura (lebih prajurit)"
+      lower_body: "Kain batik Madura (motif berbeda dari Mataram)"
+      jewelry: ["Kalung tasbih", "Gelang perunggu"]
+      accessories: ["Keris Madura (lurus, lebih panjang)", "Pedang lengkung"]
+      footwear: "Sandal prajurit"
+    color_palette:
+      primary: "Merah gelap / hitam (kain Madura)"
+      accent: "Perunggu (senjata)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Trunojoyo, Javanese Madurese rebel 17th century
+        who almost destroyed Mataram, charismatic bearded warrior 30-40 with
+        fierce vengeful eyes, wearing dark Madurese jubah with blangkon, dark
+        red kain batik at waist, leather belt with straight Madurese keris and
+        curved sword, standing on captured Mataram Plered palace terrace,
+        dramatic stormy sky, painterly epic, hyperdetailed hyperrealistic 8k
+        masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Trunojoyo 17th century Madurese rebel,
+        Madurese blangkon, dark Madurese jubah, dark red kain batik, leather
+        belt with straight Madurese keris and curved sword, dark red and bronze
+        color palette, matte fabric texture, museum-quality detail shot,
+        hyperdetailed 8k.
+
+  hamengkubuwana_i:
+    name: "Hamengkubuwana I"
+    alt_name: "Pangeran Mangkubumi"
+    era_period: "1755–1792 M"
+    age_dramatic: "40-50 tahun (saat Giyanti 1755)"
+    narrative_short: >
+      Pendiri Kesultanan Yogyakarta. Lahir 5 Agustus 1717 dengan nama Pangeran
+      Mangkubumi (Raden Mas Sujana). Berperang melawan keponakannya Pakubuwana
+      III, lalu menyetujui pembagian Mataram (Perjanjian Giyanti 13 Februari 1755).
+    wardrobe:
+      headwear: "Kuluk hijau (warna kebesaran Yogyakarta)"
+      upper_body: "Jubah hijau gelap dari beludru"
+      lower_body: "Kain batik Parang Rusak (warna hijau)"
+      accessories: ["Keris pusaka", "Tongkat komando emas"]
+    color_palette:
+      primary: "Hijau gelap (jubah — warna Yogyakarta)"
+      accent: "Emas (keris, perhiasan)"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Hamengkubuwana I (Pangeran Mangkubumi), Javanese
+        Islamic sultan 18th century founder of Yogyakarta Sultanate, mature
+        strategic man 40-50 with determined eyes, wearing dark green velvet jubah
+        with green kuluk, kain batik parang rusak in green at waist, leather
+        belt with keris pusaka, holding golden command staff, Yogyakarta keraton
+        background under construction, dramatic golden hour, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Hamengkubuwana I 18th century Javanese sultan
+        founder of Yogyakarta, green kuluk, dark green velvet jubah, kain batik
+        parang rusak in green, leather belt with keris pusaka, golden command
+        staff, dark green and gold color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# LOKASI
+# =============================================================================
+locations:
+
+  kota_gede:
+    name: "Kota Gede — Ibu Kota Awal Mataram"
+    location: "Kota Gede, Yogyakarta"
+    era_active: "1587–1613 M"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Kota Gede 16th century, first capital of Mataram
+        Islam Sultanate, simple wooden palace complex with carved teak pillars,
+        alun-alun with beringin tree, masjid with three-tiered roof, Mount Merapi
+        silhouette, Javanese farmers in sawah, golden morning light, earth-tone
+        palette, cinematic wide shot, hyperdetailed 8k masterpiece.
+
+  karta_palace:
+    name: "Karta — Istana Sultan Agung"
+    location: "Kecamatan Kerta, Kabupaten Sleman, Yogyakarta"
+    era_active: "1613–1645 M (era Sultan Agung)"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Karta palace 17th century, capital of Mataram
+        under Sultan Agung, grand wooden palace with carved red teak pillars
+        and tumpang roof, alun-alun with sacred beringin tree, masjid with
+        three-tiered roof, gamelan orchestra, soldiers in velvet baju prajurit,
+        warm afternoon light, earth-tone palette with gold accents, cinematic
+        wide shot, hyperdetailed 8k masterpiece.
+
+  plered_palace:
+    name: "Plered — Istana Era Amangkurat"
+    location: "Pleret, Bantul, Yogyakarta"
+    era_active: "1645–1680 M"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Plered palace 17th century, capital of Mataram
+        under Amangkurat I and II, brick palace with high walls (different from
+        wooden Karta), alun-alun, Mount Merapi silhouette, dramatic stormy sky
+        (foreshadowing Trunojoyo's attack), earth-tone palette, cinematic wide
+        shot, hyperdetailed 8k masterpiece.
+
+  kartasura:
+    name: "Kartasura — Istana Era VOC"
+    location: "Kartasura, Sukoharjo, Jawa Tengah"
+    era_active: "1680–1745 M"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Kartasura palace 17th-18th century, capital of
+        Mataram under Amangkurat II to Pakubuwana II, wooden palace with VOC
+        influence visible in architecture, alun-alun, Dutch VOC soldiers
+        patrolling alongside Javanese guards, tension between Javanese and
+        European elements, warm afternoon light, earth-tone palette with European
+        accents, cinematic wide shot, hyperdetailed 8k masterpiece.
+
+  taman_sari:
+    name: "Taman Sari — Istana Air Yogyakarta"
+    location: "Yogyakarta"
+    era_active: "Abad 18 (era Hamengkubuwana I)"
+    prompt_t2i:
+      landscape: >
+        Cinematic landscape of Taman Sari water castle 18th century Yogyakarta,
+        ornate bathing pools with Portuguese-influenced architecture, Javanese
+        princesses in kebaya labuh and kain batik bathing, golden sunset
+        reflection on water, mystical atmosphere, cinematic landscape,
+        hyperdetailed 8k masterpiece.
+
+# =============================================================================
+# WARDALE
+# =============================================================================
+wardrobe:
+
+  sultan_formal_mataram:
+    name: "Busana Kebesaran Sultan Mataram (Ageman Kebesaran/Basahan)"
+    era: "Abad 17-18 M"
+    elements:
+      - name: "Kain Panjang (Kain Jedor)"
+        description: "Batik motif Parang Rusak (khusus raja — dilarang untuk rakyat)"
+      - name: "Baju Atasan"
+        description: "Kebaya labuh, beskap, atau jubah panjang beludru"
+      - name: "Kuluk"
+        description: "Blangkon yang lebih tinggi, dengan cunduk (ornamen emas)"
+      - name: "Keris"
+        description: "Terselip di pinggang dengan wesi kancing (pengait) emas"
+      - name: "Perhiasan Emas"
+        description: "Kalung, cincin, gelang, jampe (talisman)"
+      - name: "Selendang Kebesaran"
+        description: "Dari sutera brokat"
+    footwear: "Sandal kulit atau sepatu beludru"
+    prompt_t2i: >
+      Detailed ancient Javanese Mataram Islamic sultan formal wardrobe 17th
+      century, tall kuluk with gold cunduk ornament, dark velvet jubah with
+      golden belt, kain batik parang rusak at waist with bebed fold, leather
+      belt with keris pusaka, layered gold kundala necklaces, selendang from
+      silk brokat, sandal leather footwear, black/green and gold color palette,
+      matte fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  queen_formal_mataram:
+    name: "Busana Kebesaran Permaisuri Mataram"
+    era: "Abad 17-18 M"
+    elements:
+      - name: "Kebaya Labuh"
+        description: "Panjang dari beludru atau sutera"
+      - name: "Kain Panjang Berbatik"
+        description: "Motif Parang atau Kawung"
+      - name: "Kondé Tinggi"
+        description: "Dihiasi cunduk berbentuk garuda emas atau sekarpinandita"
+      - name: "Perhiasan Emas"
+        description: "Kalung molo, gelang kankana, anting anten, cincin"
+    prompt_t2i: >
+      Detailed ancient Javanese Mataram queen formal wardrobe 17th century,
+      tall kondé with golden garuda cunduk, long velvet kebaya labuh, kain
+      batik parang at waist, layered gold necklaces, kankana gold bracelets,
+      large anten earrings, dark green or maroon color palette, matte fabric
+      texture, museum-quality detail shot, hyperdetailed 8k.
+
+  warrior_mataram:
+    name: "Busana Prajurit Mataram (Kasenopaten)"
+    era: "Abad 17-18 M"
+    elements:
+      - name: "Baju Prajurit"
+        description: "Jas berkancing depan dari katun tebal"
+      - name: "Celana Panjang"
+        description: "Hitam atau coklat"
+      - name: "Kain Jedor"
+        description: "Dililitkan"
+      - name: "Kuluk Prajurit"
+        description: "Blangkon tinggi dengan ornamen logam"
+      - name: "Senjata"
+        description: "Keris, pedang, tombak"
+    prompt_t2i: >
+      Detailed ancient Javanese Mataram warrior wardrobe 17th century, dark
+      velvet baju prajurit with brass buttons, black trousers, kain jedor at
+      waist, tall kuluk prajurit with metal ornament, leather belt with keris
+      and sword, sandals, black and gold color palette, matte fabric texture,
+      museum-quality detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# SENJATA & PROPERTI
+# =============================================================================
+artifacts:
+  weapons:
+    - name: "Keris Mataram"
+      description: "Puncak seni keris. Tiga periode: Senopaten, Sultan Agung, Amangkurat."
+    - name: "Tombak Kyai Plered"
+      description: "Pusaka kerajaan Mataram."
+    - name: "Pedang Kyai Condongcampur"
+      description: "Pedang pusaka Mataram."
+    - name: "Meriam Ki Amuk"
+      description: "Meriam besar era Sultan Agung."
+  royal_regalia:
+    - name: "Payung Kebesaran Kuning"
+      description: "Payung keemasan dengan hiasan"
+    - name: "Selendang Emas"
+      description: "Untuk upacara"
+    - name: "Kotak Sirih"
+      description: "Dari perak atau kayu cendana"
+    - name: "Gamolan (Gamelan)"
+      description: "Perunggu untuk upacara keraton"
+    - name: "Wayang Kulit"
+      description: "Instrumen dakwah dan budaya"
+
+# =============================================================================
+# PROMPT LIBRARY
+# =============================================================================
+prompt_library:
+  character_portraits:
+    - id: "p6_char_001"
+      character: "sultan_agung"
+      scene: "Sultan Agung di Karta palace"
+      prompt: >
+        Cinematic portrait of Sultan Agung Hanyokrokusumo, Javanese Islamic
+        sultan 17th century greatest king of Mataram, authoritative bearded
+        man 40s with fierce intelligent eyes, wearing tall kuluk crown with
+        gold ornaments, dark velvet jubah with golden belt, kain batik parang
+        rusak, keris pusaka, layered gold kundala, Karta palace background,
+        dramatic golden hour, hyperdetailed hyperrealistic 8k masterpiece.
+    - id: "p6_char_002"
+      character: "trunojoyo"
+      scene: "Trunojoyo merebut Plered 1677"
+      prompt: >
+        Cinematic portrait of Trunojoyo, Madurese rebel 17th century who
+        captured Mataram's Plered palace, charismatic bearded warrior 30s
+        with fierce eyes, dark Madurese jubah with blangkon, dark red kain
+        batik, keris and curved sword, standing on captured Plered palace
+        terrace, dramatic stormy sky, hyperdetailed hyperrealistic 8k
+        masterpiece.
+    - id: "p6_char_003"
+      character: "amangkurat_ii"
+      scene: "Amangkurat II Sunan Amral di Kartasura"
+      prompt: >
+        Cinematic portrait of Amangkurat II (Sunan Amral), Javanese Islamic
+        sultan 17th century fifth king of Mataram, pragmatic man 40s with
+        cunning eyes, wearing European-style justaucorps coat with blangkon
+        cap (syncretism Jawa-Eropa), kain batik parang, keris and rapier,
+        Kartasura palace background, dramatic golden hour, hyperdetailed
+        hyperrealistic 8k masterpiece.
+
+  location_scenes:
+    - id: "p6_loc_001"
+      location: "karta_palace"
+      scene: "Karta palace era Sultan Agung"
+      prompt: >
+        Cinematic landscape of Karta palace 17th century, capital of Mataram
+        under Sultan Agung, grand wooden palace with carved red teak pillars,
+        alun-alun, masjid, gamelan orchestra, soldiers in velvet baju prajurit,
+        warm afternoon light, cinematic wide shot, hyperdetailed 8k masterpiece.
+    - id: "p6_loc_002"
+      location: "taman_sari"
+      scene: "Taman Sari water castle Yogyakarta"
+      prompt: >
+        Cinematic landscape of Taman Sari water castle 18th century Yogyakarta,
+        ornate bathing pools with Portuguese-influenced architecture, Javanese
+        princesses in kebaya labuh and kain batik bathing, golden sunset
+        reflection on water, mystical atmosphere, cinematic landscape,
+        hyperdetailed 8k masterpiece.
+
+  historical_moments:
+    - id: "p6_mom_001"
+      title: "Sultan Agung menyerang Batavia 1628"
+      prompt: >
+        Cinematic epic battle scene of Sultan Agung's attack on Batavia 1628 AD,
+        Javanese Mataram warriors in dark velvet baju prajurit with keris and
+        tombak spears, storming Dutch VOC fortress walls with ladders, cannons
+        firing, Tumenggung Baureksa commanding, stormy dramatic sky, painterly
+        epic battle, hyperdetailed 8k masterpiece.
+    - id: "p6_mom_002"
+      title: "Pembuatan kalender Jawa 1633"
+      prompt: >
+        Cinematic scene of Sultan Agung creating Javanese calendar 1633 AD,
+        Javanese sultan 40s in dark velvet jubah with kuluk, sitting with
+        ulama and astronomers, calculating lunar calendar based on Hijriah
+        with Saka year numbering, palace hall with carved teak pillars,
+        dramatic candlelight, hyperrealistic historical scene, hyperdetailed 8k
+        masterpiece.
+    - id: "p6_mom_003"
+      title: "Trunojoyo merebut Plered 1677"
+      prompt: >
+        Cinematic chaotic scene of Trunojoyo's capture of Plered palace 1677 AD,
+        Madurese rebels storming brick palace with high walls, Amangkurat I
+        fleeing with loyal guards, fire and smoke, dramatic stormy night,
+        painterly epic battle, hyperdetailed 8k masterpiece.
+    - id: "p6_mom_004"
+      title: "Perjanjian Giyanti 13 Februari 1755"
+      prompt: >
+        Cinematic scene of Treaty of Giyanti 13 February 1755, Pangeran
+        Mangkubumi (mature man 40s in green jubah) and Pakubuwana III (young
+        man 20s in blue jubah) signing treaty dividing Mataram into Surakarta
+        and Yogyakarta, VOC representative observing, simple pavilion in Giyanti
+        village, dramatic morning light, painterly historic, hyperdetailed 8k
+        masterpiece.
+
+  daily_life:
+    - id: "p6_dl_001"
+      title: "Keraton Mataram abad 17"
+      prompt: >
+        Cinematic scene of Mataram keraton 17th century, sultan on golden throne
+        with golden umbrella, courtiers in velvet beskap and blangkon, gamelan
+        perunggu orchestra, incense smoke, warm candlelight, hyperrealistic
+        cinematic, hyperdetailed 8k masterpiece.
+
+# =============================================================================
+# CATATAN PRODUKSI
+# =============================================================================
+production_notes:
+  color_palette_overall:
+    description: >
+      Palet warna Mataram Islam paling formal dari semua era — busana keraton
+      Jawa yang masih hidup hingga kini (Surakarta-Yogyakarta).
+    primary_colors:
+      - "Hitam (warna kebesaran Surakarta)"
+      - "Hijau gelap (warna kebesaran Yogyakarta)"
+      - "Coklat soga (kain batik)"
+      - "Biru dongker"
+      - "Merah marun"
+    accent_colors:
+      - "Emas (perhiasan, kuluk, keris)"
+      - "Putih (jubah ulama)"
+  cultural_authenticity:
+    important_details:
+      - "Sultan memakai kuluk tinggi dengan cunduk emas — bukan sorban (berbeda dari Demak)"
+      - "Kain batik Parang Rusak khusus raja — dilarang untuk rakyat"
+      - "Amangkurat II 'Sunan Amral' memakai jas Eropa dengan blangkon — sinkretisme"
+      - "Keris Mataram puncak seni keris — tiga periode (Senopaten, Sultan Agung, Amangkurat)"
+      - "Warna hitam = Surakarta, hijau = Yogyakarta (setelah Giyanti 1755)"
+      - "Ibu kota berpindah: Kota Gede → Karta → Plered → Kartasura → Surakarta/Yogyakarta"
+      - "Sultan Agung membuat kalender Jawa 1633 (perpaduan Saka + Hijriah)"
+
+# =============================================================================
+# END OF MASTER PHASE 6
+# =============================================================================

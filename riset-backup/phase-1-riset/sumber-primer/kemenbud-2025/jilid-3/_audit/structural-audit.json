@@ -1,0 +1,1756 @@
+[
+  {
+    "filename": "00-cover-kredit.md",
+    "size_bytes": 3957,
+    "line_count": 154,
+    "word_count": 493,
+    "char_count": 3951,
+    "headings_count": 7,
+    "headings_levels": {
+      "1": 1,
+      "2": 5,
+      "3": 1
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "SEJARAH INDONESIA",
+        "line": 66
+      },
+      {
+        "level": 2,
+        "text": "Dinamika Kebangsaan dalam Arus Global",
+        "line": 68
+      },
+      {
+        "level": 3,
+        "text": "Jilid III — Nusantara dalam Jaringan Global: Timur Tengah",
+        "line": 70
+      },
+      {
+        "level": 2,
+        "text": "Halaman Kredit",
+        "line": 74
+      },
+      {
+        "level": 2,
+        "text": "Diterbitkan Oleh",
+        "line": 134
+      },
+      {
+        "level": 2,
+        "text": "Dikeluarkan Oleh",
+        "line": 140
+      },
+      {
+        "level": 2,
+        "text": "Nomor ISBN",
+        "line": 146
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 2,
+    "page_markers_sample": [
+      {
+        "line": 138,
+        "raw": "2025",
+        "page": "2025"
+      },
+      {
+        "line": 153,
+        "raw": "> **Catatan konversi**: Halaman asli PDF (1-6) berisi cover depan dengan ilustra",
+        "page": "4"
+      }
+    ],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 5,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 39,
+        "samples": [
+          "---",
+          "- 1",
+          "- 6"
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "SEJARAH INDONESIA",
+        "line": 66,
+        "words_between": 0,
+        "next_heading": "Dinamika Kebangsaan dalam Arus Global"
+      },
+      {
+        "heading": "Dinamika Kebangsaan dalam Arus Global",
+        "line": 68,
+        "words_between": 0,
+        "next_heading": "Jilid III — Nusantara dalam Jaringan Global: Timur Tengah"
+      },
+      {
+        "heading": "Jilid III — Nusantara dalam Jaringan Global: Timur Tengah",
+        "line": 70,
+        "words_between": 1,
+        "next_heading": "Halaman Kredit"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {},
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "01-kata-sambutan.md",
+    "size_bytes": 8405,
+    "line_count": 93,
+    "word_count": 1021,
+    "char_count": 8401,
+    "headings_count": 1,
+    "headings_levels": {
+      "1": 1
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "MENTERI KEBUDAYAAN REPUBLIK INDONESIA",
+        "line": 68
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 4,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 15,
+        "samples": [
+          "---",
+          "- 7",
+          "---"
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {},
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "02-persembahan.md",
+    "size_bytes": 3406,
+    "line_count": 76,
+    "word_count": 382,
+    "char_count": 3402,
+    "headings_count": 2,
+    "headings_levels": {
+      "2": 1,
+      "1": 1
+    },
+    "headings": [
+      {
+        "level": 2,
+        "text": "PERSEMBAHAN",
+        "line": 61
+      },
+      {
+        "level": 1,
+        "text": "DIREKTUR JENDERAL PELINDUNGAN KEBUDAYAAN DAN TRADISI",
+        "line": 63
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 5,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 10,
+        "samples": [
+          "---",
+          "- x",
+          "---"
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "PERSEMBAHAN",
+        "line": 61,
+        "words_between": 0,
+        "next_heading": "DIREKTUR JENDERAL PELINDUNGAN KEBUDAYAAN DAN TRADISI"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {},
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "03-pendahuluan-buku.md",
+    "size_bytes": 56089,
+    "line_count": 342,
+    "word_count": 6994,
+    "char_count": 55865,
+    "headings_count": 14,
+    "headings_levels": {
+      "1": 1,
+      "3": 7,
+      "2": 6
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "PENDAHULUAN BUKU",
+        "line": 96
+      },
+      {
+        "level": 3,
+        "text": "SIGNIFIKANSI| DAN URGENSI",
+        "line": 98
+      },
+      {
+        "level": 2,
+        "text": "MERAJUT BENANG MERAH KEINDONESIAAN",
+        "line": 115
+      },
+      {
+        "level": 2,
+        "text": "DINAMIKA KEBANGSAAN",
+        "line": 141
+      },
+      {
+        "level": 3,
+        "text": "FONDASI KONSTITUSIONAL KEBANGSAAN",
+        "line": 148
+      },
+      {
+        "level": 3,
+        "text": "PERANG KEMERDEKAAN, FRAGMENTASI IDEOLOGI, DAN KONSOLIDASI KEBANGSAAN",
+        "line": 155
+      },
+      {
+        "level": 2,
+        "text": "DEMOKRASI PARLEMENTER DAN UPAYA INSTITUSIONALISAS!I KEBANGSAAN",
+        "line": 164
+      },
+      {
+        "level": 2,
+        "text": "KEBANGSAAN SEBAGAI GERAKAN REVOLUSIONER",
+        "line": 172
+      },
+      {
+        "level": 3,
+        "text": "KEBANGSAAN DALAM BINGKAI PEMBANGUNAN DAN OTORITARIANISME",
+        "line": 184
+      },
+      {
+        "level": 3,
+        "text": "ERA REFORMAS| DAN TANTANGAN BARU KEBANGSAAN",
+        "line": 197
+      },
+      {
+        "level": 2,
+        "text": "BEBERAPA CATATAN METODOLOGIS",
+        "line": 207
+      },
+      {
+        "level": 3,
+        "text": "GAMBARAN ISI BUKU",
+        "line": 213
+      },
+      {
+        "level": 3,
+        "text": "PENUTUP",
+        "line": 241
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 295
+      }
+    ],
+    "hierarchy_violations": [
+      {
+        "line": 98,
+        "prev_level": 1,
+        "jumped_to": 3,
+        "text": "SIGNIFIKANSI| DAN URGENSI"
+      }
+    ],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 116,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "PENDAHULUAN BUKU",
+        "line": 96,
+        "words_between": 0,
+        "next_heading": "SIGNIFIKANSI| DAN URGENSI"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "“": 46,
+      "”": 46,
+      "’": 9,
+      "™": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "04-daftar-isi-gambar-tabel.md",
+    "size_bytes": 15352,
+    "line_count": 415,
+    "word_count": 2902,
+    "char_count": 15330,
+    "headings_count": 15,
+    "headings_levels": {
+      "1": 3,
+      "2": 12
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "DAFTAR ISI",
+        "line": 94
+      },
+      {
+        "level": 2,
+        "text": "Bagian Awal",
+        "line": 96
+      },
+      {
+        "level": 2,
+        "text": "Pendahuluan Jilid",
+        "line": 108
+      },
+      {
+        "level": 2,
+        "text": "BAB I — Nusantara dalam Arus Perdagangan Jarak Jauh",
+        "line": 118
+      },
+      {
+        "level": 2,
+        "text": "BAB II — Komunitas Muslim di Bandar Dagang",
+        "line": 140
+      },
+      {
+        "level": 2,
+        "text": "BAB III — Pembentukan Kerajaan",
+        "line": 171
+      },
+      {
+        "level": 2,
+        "text": "BAB IV — Kerajaan dan Intensifikasi Islamisasi",
+        "line": 201
+      },
+      {
+        "level": 2,
+        "text": "BAB V — Perkembangan Perdagangan",
+        "line": 221
+      },
+      {
+        "level": 2,
+        "text": "BAB VI — Islam dalam Budaya Politik Kerajaan",
+        "line": 249
+      },
+      {
+        "level": 2,
+        "text": "BAB VII — Wali Songo Mengislamkan Jawa",
+        "line": 270
+      },
+      {
+        "level": 2,
+        "text": "BAB VIII — Kebudayaan Material: Warisan Budaya Bendawi Bercorak Islam",
+        "line": 292
+      },
+      {
+        "level": 2,
+        "text": "BAB IX — Teks, Ritual, dan Aksara",
+        "line": 304
+      },
+      {
+        "level": 2,
+        "text": "Bagian Akhir",
+        "line": 324
+      },
+      {
+        "level": 1,
+        "text": "DAFTAR GAMBAR",
+        "line": 333
+      },
+      {
+        "level": 1,
+        "text": "DAFTAR TABEL",
+        "line": 402
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 1,
+    "page_markers_sample": [
+      {
+        "line": 414,
+        "raw": "> **Catatan konversi**: Daftar Isi di-rekonstruksi manual dari OCR halaman 45-56",
+        "page": "45"
+      }
+    ],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 4,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 38,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "DAFTAR ISI",
+        "line": 94,
+        "words_between": 0,
+        "next_heading": "Bagian Awal"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 270,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {},
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "05-pendahuluan-jilid.md",
+    "size_bytes": 26956,
+    "line_count": 208,
+    "word_count": 3431,
+    "char_count": 26888,
+    "headings_count": 6,
+    "headings_levels": {
+      "1": 1,
+      "2": 4,
+      "3": 1
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "PENDAHULUAN JILID",
+        "line": 94
+      },
+      {
+        "level": 2,
+        "text": "JARINGAN MARITIM DAN KOMUNITAS DAGANG NUSANTARA",
+        "line": 100
+      },
+      {
+        "level": 3,
+        "text": "KOMUNITAS MUSLIM",
+        "line": 109
+      },
+      {
+        "level": 2,
+        "text": "DAN KERAJAAN ISLAM AWAL NUSANTARA",
+        "line": 111
+      },
+      {
+        "level": 2,
+        "text": "JARINGAN PERDAGANGAN DAN PERADABAN ISLAM KULTURAL",
+        "line": 146
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 195
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 59,
+        "samples": [
+          "---",
+          "- 1",
+          "---"
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "KOMUNITAS MUSLIM",
+        "line": 109,
+        "words_between": 0,
+        "next_heading": "DAN KERAJAAN ISLAM AWAL NUSANTARA"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "“": 11,
+      "”": 9,
+      "’": 7,
+      "‘": 2,
+      "é": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "06-bab-1.md",
+    "size_bytes": 107818,
+    "line_count": 882,
+    "word_count": 14771,
+    "char_count": 107124,
+    "headings_count": 14,
+    "headings_levels": {
+      "1": 1,
+      "2": 10,
+      "3": 3
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "Nusantara dalam Arus Perdagangan Jarak Jauh",
+        "line": 100
+      },
+      {
+        "level": 2,
+        "text": "A. ANGIN MUSON SAMUDRA HINDIA",
+        "line": 109
+      },
+      {
+        "level": 2,
+        "text": "C. AL-HIND DALAM JARINGAN NIAGA MARITIM GLOBAL",
+        "line": 185
+      },
+      {
+        "level": 3,
+        "text": "WAJAH TIMUR TENGAH DI NUSANTARA",
+        "line": 230
+      },
+      {
+        "level": 2,
+        "text": "HY661-1498M,67.—",
+        "line": 234
+      },
+      {
+        "level": 2,
+        "text": "1. Penemuan Koin-koin Islam di Situs Bongal",
+        "line": 249
+      },
+      {
+        "level": 2,
+        "text": "2. Manik-Manik Islam",
+        "line": 287
+      },
+      {
+        "level": 2,
+        "text": "3. Penemuan Kaca Islam",
+        "line": 320
+      },
+      {
+        "level": 2,
+        "text": "a <r",
+        "line": 394
+      },
+      {
+        "level": 3,
+        "text": "AROMATIKA ENDEMIK NUSANTARA",
+        "line": 402
+      },
+      {
+        "level": 2,
+        "text": "F. REMPAH NUSANTARA DAN PERTEMUAN BUDAYA",
+        "line": 443
+      },
+      {
+        "level": 3,
+        "text": "eee EeEo",
+        "line": 456
+      },
+      {
+        "level": 2,
+        "text": "telah mengeras itu menunjukkan rentang waktu antara tahun 680 M-750 M dan 770 M-890 M (lihat Tabel 2).”",
+        "line": 484
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 765
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 2,
+    "page_markers_sample": [
+      {
+        "line": 518,
+        "raw": "1",
+        "page": "1"
+      },
+      {
+        "line": 521,
+        "raw": "42",
+        "page": "42"
+      }
+    ],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 409,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 18,
+    "gambar_refs": 16,
+    "tabel_refs": 4,
+    "weird_chars": {
+      "”": 94,
+      "“": 93,
+      "’": 59,
+      "‘": 58,
+      "é": 3,
+      "¢": 1,
+      "™": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "07-bab-2.md",
+    "size_bytes": 199248,
+    "line_count": 1174,
+    "word_count": 27333,
+    "char_count": 198049,
+    "headings_count": 14,
+    "headings_levels": {
+      "1": 1,
+      "2": 10,
+      "3": 3
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "A. SRIWIJAYA ATAU ZABAJ",
+        "line": 110
+      },
+      {
+        "level": 2,
+        "text": "2. Sumber-Sumber Sejarah tentang Sriwijaya",
+        "line": 141
+      },
+      {
+        "level": 2,
+        "text": "3. Arkeologi, Numismatik, dan Jejak Islam Awal",
+        "line": 177
+      },
+      {
+        "level": 2,
+        "text": "4. Belitung Shipwreck: Bukti Konkret Jaringan Islam-—Sriwijaya",
+        "line": 188
+      },
+      {
+        "level": 2,
+        "text": "6. Kehadiran Komunitas Muslim di Kawasan Sriwijaya",
+        "line": 221
+      },
+      {
+        "level": 2,
+        "text": "8. Sriwijaya sebagai Federasi Maritim dan Perdagangan Global",
+        "line": 274
+      },
+      {
+        "level": 2,
+        "text": "9. Kemunduran Sriwijaya dan Transformasi Jaringan Islam-Samudra Hindia",
+        "line": 324
+      },
+      {
+        "level": 2,
+        "text": "2. Tentang Kapur dan Kapur Barus",
+        "line": 400
+      },
+      {
+        "level": 2,
+        "text": "3. Situs Lobu Tua: Jejak Awal Islam di Barus Abad ke-9 M",
+        "line": 413
+      },
+      {
+        "level": 2,
+        "text": "5. Dinamika Sosial-Budaya",
+        "line": 472
+      },
+      {
+        "level": 3,
+        "text": "a. Struktur Pelabuhan",
+        "line": 571
+      },
+      {
+        "level": 3,
+        "text": "b. Ornamen Batu Nisan",
+        "line": 595
+      },
+      {
+        "level": 3,
+        "text": "c. Komoditas Setempat",
+        "line": 669
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 947
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 497,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 15,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 187,
+      "“": 164,
+      "’": 90,
+      "é": 38,
+      "‘": 26,
+      "©": 3,
+      "¢": 2,
+      "¥": 2
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "08-bab-3.md",
+    "size_bytes": 237706,
+    "line_count": 1311,
+    "word_count": 31889,
+    "char_count": 236146,
+    "headings_count": 14,
+    "headings_levels": {
+      "1": 1,
+      "2": 10,
+      "3": 3
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "PEMBENTUKAN KERAJAAN",
+        "line": 107
+      },
+      {
+        "level": 2,
+        "text": "B. ISLAMISASI DI KAWASAN BARAT NUSANTARA",
+        "line": 198
+      },
+      {
+        "level": 2,
+        "text": "C. JARINGAN ISLAMISASI ACEH DARUSSALAM",
+        "line": 322
+      },
+      {
+        "level": 2,
+        "text": "D. DARI SRIWIJAYA KE KERAJAAN",
+        "line": 407
+      },
+      {
+        "level": 3,
+        "text": "ISLAM JAMBI DAN PALEMBANG",
+        "line": 409
+      },
+      {
+        "level": 2,
+        "text": "1. Kesultanan Jambi",
+        "line": 414
+      },
+      {
+        "level": 3,
+        "text": "press.2010).",
+        "line": 426
+      },
+      {
+        "level": 2,
+        "text": "2. Kesultanan Palembang",
+        "line": 434
+      },
+      {
+        "level": 2,
+        "text": "E. PEMBENTUKAN KESULTANAN DI JAWA: DARI PESISIR KE PEDALAMAN",
+        "line": 457
+      },
+      {
+        "level": 2,
+        "text": "1. Sulawesi Selatan: Gowa-Tallo dan Sekitarnya",
+        "line": 540
+      },
+      {
+        "level": 3,
+        "text": "(Makassar) berperan sebagai pusat kekuatan politik sekaligu pusat penyebaran Islam di kawasan ini.",
+        "line": 560
+      },
+      {
+        "level": 2,
+        "text": "2. Sulawesi Tenggara: Kesultanan Buton dan Sekitarnya",
+        "line": 562
+      },
+      {
+        "level": 2,
+        "text": "H. Kalimantan",
+        "line": 627
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 916
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 2,
+        "samples": [
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 546,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "D. DARI SRIWIJAYA KE KERAJAAN",
+        "line": 407,
+        "words_between": 0,
+        "next_heading": "ISLAM JAMBI DAN PALEMBANG"
+      },
+      {
+        "heading": "(Makassar) berperan sebagai pusat kekuatan politik sekaligu pusat penyebaran Islam di kawasan ini.",
+        "line": 560,
+        "words_between": 0,
+        "next_heading": "2. Sulawesi Tenggara: Kesultanan Buton dan Sekitarnya"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 2,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 236,
+      "“": 178,
+      "’": 108,
+      "é": 48,
+      "‘": 13,
+      "¥": 4,
+      "©": 1,
+      "™": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "09-bab-4.md",
+    "size_bytes": 208241,
+    "line_count": 994,
+    "word_count": 27624,
+    "char_count": 206942,
+    "headings_count": 9,
+    "headings_levels": {
+      "1": 1,
+      "2": 8
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "KERAJAAN DAN INTENSIFIKASI ISLAMISASI",
+        "line": 104
+      },
+      {
+        "level": 2,
+        "text": "A. KETERHUBUNGAN GLOBAL",
+        "line": 108
+      },
+      {
+        "level": 2,
+        "text": "B. PENGGERAK INTENSIFIKASI ISLAM",
+        "line": 134
+      },
+      {
+        "level": 2,
+        "text": "2. Minangkabau",
+        "line": 292
+      },
+      {
+        "level": 2,
+        "text": "E. DARI PUSAT EKUMENE ISLAM DI JAWA",
+        "line": 363
+      },
+      {
+        "level": 2,
+        "text": "1. Giri-Gresik",
+        "line": 365
+      },
+      {
+        "level": 2,
+        "text": "2. Jaringan Intensifikasi Islam",
+        "line": 413
+      },
+      {
+        "level": 2,
+        "text": "G. DINAMIKA ISLAMISASI KERAJAAN KUTAI",
+        "line": 540
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 783
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 2,
+        "samples": [
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 392,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "E. DARI PUSAT EKUMENE ISLAM DI JAWA",
+        "line": 363,
+        "words_between": 0,
+        "next_heading": "1. Giri-Gresik"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 1,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 192,
+      "“": 175,
+      "’": 104,
+      "é": 36,
+      "‘": 27,
+      "™": 4,
+      "¥": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "10-bab-5.md",
+    "size_bytes": 175528,
+    "line_count": 1075,
+    "word_count": 24109,
+    "char_count": 174692,
+    "headings_count": 10,
+    "headings_levels": {
+      "1": 1,
+      "2": 7,
+      "3": 2
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "PERKEMBANGAN PERDAGANGAN",
+        "line": 103
+      },
+      {
+        "level": 2,
+        "text": "2. Komoditas Impor",
+        "line": 150
+      },
+      {
+        "level": 3,
+        "text": "a QO —s",
+        "line": 163
+      },
+      {
+        "level": 2,
+        "text": "B. SISTEM TRANSAKS! PERDAGANGAN",
+        "line": 175
+      },
+      {
+        "level": 3,
+        "text": "PERANAN SYAHBANDAR",
+        "line": 262
+      },
+      {
+        "level": 2,
+        "text": "2. Undang-undang Laut Melaka",
+        "line": 398
+      },
+      {
+        "level": 2,
+        "text": "5. Bea cukai dan pajak pelabuhan",
+        "line": 557
+      },
+      {
+        "level": 2,
+        "text": "7. Masalah Budak",
+        "line": 573
+      },
+      {
+        "level": 2,
+        "text": "F. PENGORGANISASIAN PELAYARAN NIAGA",
+        "line": 678
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 842
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 432,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 1,
+    "gambar_refs": 4,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 132,
+      "“": 105,
+      "’": 77,
+      "é": 26,
+      "‘": 11,
+      "™": 6,
+      "©": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "11-bab-6.md",
+    "size_bytes": 172281,
+    "line_count": 924,
+    "word_count": 23273,
+    "char_count": 171141,
+    "headings_count": 8,
+    "headings_levels": {
+      "1": 1,
+      "2": 6,
+      "3": 1
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "ISLAM DALAM BUDAYA POLITIK KERAJAAN",
+        "line": 102
+      },
+      {
+        "level": 2,
+        "text": "A. ISLAM DAN GAGASAN",
+        "line": 111
+      },
+      {
+        "level": 3,
+        "text": "POLITIK-BERORIENTASI KERAJAAN",
+        "line": 113
+      },
+      {
+        "level": 2,
+        "text": "1. Hubungan Raja dengan Ulama",
+        "line": 170
+      },
+      {
+        "level": 2,
+        "text": "2. Hubungan Raja dengan Elite Ekonomi",
+        "line": 278
+      },
+      {
+        "level": 2,
+        "text": "4. Pakih Najmuddin",
+        "line": 505
+      },
+      {
+        "level": 2,
+        "text": "D. PENUTUP",
+        "line": 544
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 727
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 1,
+    "page_markers_sample": [
+      {
+        "line": 550,
+        "raw": "575",
+        "page": "575"
+      }
+    ],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 375,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "A. ISLAM DAN GAGASAN",
+        "line": 111,
+        "words_between": 0,
+        "next_heading": "POLITIK-BERORIENTASI KERAJAAN"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 161,
+      "“": 141,
+      "’": 122,
+      "‘": 49,
+      "é": 25,
+      "™": 3,
+      "©": 1,
+      "¥": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "12-bab-7.md",
+    "size_bytes": 201458,
+    "line_count": 1196,
+    "word_count": 27267,
+    "char_count": 200444,
+    "headings_count": 11,
+    "headings_levels": {
+      "1": 1,
+      "2": 9,
+      "3": 1
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "WALI SONGO MENGISLAMKAN JAWA",
+        "line": 97
+      },
+      {
+        "level": 2,
+        "text": "A. LATAR BELAKANG ISLAM JAWA",
+        "line": 102
+      },
+      {
+        "level": 3,
+        "text": "DALAM HISTORIOGRAFI TRADISIONAL",
+        "line": 155
+      },
+      {
+        "level": 2,
+        "text": "(75) al-nasi. “Munabbihat’.",
+        "line": 162
+      },
+      {
+        "level": 2,
+        "text": "C. WALI SONGO SEBAGAI REALITAS SEJARAH",
+        "line": 234
+      },
+      {
+        "level": 2,
+        "text": "D. WALI SONGO: PROFIL SOSIAL-INTELEKTUAL",
+        "line": 290
+      },
+      {
+        "level": 2,
+        "text": "3. Makdum Ibrahim (Sunan Bonang)",
+        "line": 344
+      },
+      {
+        "level": 2,
+        "text": "4. Raden Syarifudin (Sunan Drajat)",
+        "line": 362
+      },
+      {
+        "level": 2,
+        "text": "9. Sunan Gunung Jati (Syarif Hidayatullah)",
+        "line": 442
+      },
+      {
+        "level": 2,
+        "text": "F. PENUTUP",
+        "line": 615
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 875
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 1,
+    "page_markers_sample": [
+      {
+        "line": 382,
+        "raw": "637",
+        "page": "637"
+      }
+    ],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 505,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 3,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 157,
+      "“": 99,
+      "’": 86,
+      "‘": 26,
+      "é": 6,
+      "™": 5,
+      "©": 2,
+      "¢": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "13-bab-8.md",
+    "size_bytes": 168250,
+    "line_count": 929,
+    "word_count": 22823,
+    "char_count": 167215,
+    "headings_count": 7,
+    "headings_levels": {
+      "1": 1,
+      "2": 4,
+      "3": 2
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "KEBUDAYAAN MATERIAL: WARISAN BUDAYA BENDAWI BERCORAK ISLAM",
+        "line": 97
+      },
+      {
+        "level": 2,
+        "text": "A. KERATON (ISTANA)",
+        "line": 104
+      },
+      {
+        "level": 3,
+        "text": "Beaulieu juga menulis,",
+        "line": 116
+      },
+      {
+        "level": 2,
+        "text": "C. MAKAM DAN NISAN",
+        "line": 321
+      },
+      {
+        "level": 3,
+        "text": "BERCORAK ISLAM LAINNYA",
+        "line": 409
+      },
+      {
+        "level": 2,
+        "text": "E. PENUTUP",
+        "line": 508
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 720
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 378,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 5,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 180,
+      "“": 138,
+      "’": 76,
+      "‘": 22,
+      "é": 20,
+      "™": 3,
+      "¢": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "14-bab-9.md",
+    "size_bytes": 72767,
+    "line_count": 533,
+    "word_count": 9886,
+    "char_count": 72323,
+    "headings_count": 10,
+    "headings_levels": {
+      "1": 1,
+      "2": 6,
+      "3": 3
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "BAB IX TEKS, RITUAL, DAN AKSARA",
+        "line": 97
+      },
+      {
+        "level": 2,
+        "text": "A. SIRKULASI DAN VERNAKULARISASI TEKS",
+        "line": 104
+      },
+      {
+        "level": 3,
+        "text": "b. Caritanira Amir",
+        "line": 123
+      },
+      {
+        "level": 3,
+        "text": "c. Aspek Islam dalam Caritanira Amir",
+        "line": 157
+      },
+      {
+        "level": 3,
+        "text": "d. Hikayat Muhammad Hanafiyyah",
+        "line": 211
+      },
+      {
+        "level": 2,
+        "text": "1. Aksara sebagai Penanda Identitas",
+        "line": 256
+      },
+      {
+        "level": 2,
+        "text": "C. AKSARA JAWI DAN IDENTITAS MUSLIM NUSANTARA",
+        "line": 326
+      },
+      {
+        "level": 2,
+        "text": "D. AKSARA PEGON DAN LITERASI JAWA-ISLAM",
+        "line": 366
+      },
+      {
+        "level": 2,
+        "text": "E. DIMENSI AGAMA DAN POLITIK",
+        "line": 379
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 392
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 198,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      },
+      {
+        "pattern": "<!--.*?-->",
+        "label": "HTML comment",
+        "count": 1,
+        "samples": [
+          "<!-- page-break -->"
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 7,
+    "gambar_refs": 3,
+    "tabel_refs": 2,
+    "weird_chars": {
+      "”": 57,
+      "“": 52,
+      "’": 44,
+      "é": 43,
+      "‘": 13,
+      "¢": 4,
+      "€": 3,
+      "©": 1,
+      "£": 1
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "15-penutup-jilid.md",
+    "size_bytes": 23570,
+    "line_count": 247,
+    "word_count": 3110,
+    "char_count": 23376,
+    "headings_count": 1,
+    "headings_levels": {
+      "1": 1
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "PENUTUP JILID",
+        "line": 219
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 71,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "”": 33,
+      "“": 31,
+      "é": 6,
+      "‘": 4,
+      "’": 3
+    },
+    "blank_streaks_3plus": []
+  },
+  {
+    "filename": "16-epilog.md",
+    "size_bytes": 26178,
+    "line_count": 164,
+    "word_count": 3316,
+    "char_count": 26114,
+    "headings_count": 3,
+    "headings_levels": {
+      "1": 1,
+      "2": 2
+    },
+    "headings": [
+      {
+        "level": 1,
+        "text": "MENGULIK MASA LAMPAU, MENJAGA INGATAN, MENJEMPUT MASA DEPAN",
+        "line": 79
+      },
+      {
+        "level": 2,
+        "text": "AB AD AD AD AD AD AD AD AD AD AD",
+        "line": 155
+      },
+      {
+        "level": 2,
+        "text": "Catatan Kaki",
+        "line": 159
+      }
+    ],
+    "hierarchy_violations": [],
+    "page_markers_count": 0,
+    "page_markers_sample": [],
+    "truncation_indicators": [
+      {
+        "pattern": "\\[.{0,10}\\]$",
+        "label": "kurung siku di akhir",
+        "count": 3,
+        "samples": [
+          "[]",
+          "[]",
+          "[]"
+        ]
+      },
+      {
+        "pattern": "^.{0,3}$",
+        "label": "baris sangat pendek di akhir",
+        "count": 43,
+        "samples": [
+          "---",
+          "---",
+          ""
+        ]
+      }
+    ],
+    "empty_sections": [
+      {
+        "heading": "AB AD AD AD AD AD AD AD AD AD AD",
+        "line": 155,
+        "words_between": 1,
+        "next_heading": "Catatan Kaki"
+      }
+    ],
+    "image_refs": 0,
+    "table_rows": 0,
+    "gambar_refs": 0,
+    "tabel_refs": 0,
+    "weird_chars": {
+      "“": 14,
+      "”": 14,
+      "‘": 1
+    },
+    "blank_streaks_3plus": []
+  }
+]
