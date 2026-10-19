@@ -14,12 +14,10 @@ Thumbs.db
 .tmp/
 *.log
 
-# Skill artifacts (internal)
-skills/_cache/
-skills/.cache/
-
-# Tool results (ephemeral)
+# Internal sistem (bukan deliverable)
+skills/
 tool-results/
+upload/
 
 # Python
 __pycache__/
@@ -33,22 +31,19 @@ node_modules/
 .next/
 dist/
 
-# Environment
+# Environment & secrets
 .env
 .env.local
 .env.*.local
-
-# Personal access token (jangan pernah commit)
+.config/
 .github-token
 *.pat
 *.pem
 *.key
 token*.txt
 
-# Nested git (jangan commit .git di subfolder)
+# Nested git artifacts
 **/.git-backup-nested/
 
-# Konfigurasi & kredensial lokal
-.config/
-.env
-*.git-credentials
+# Intermediate chunks (sudah di-concat ke final)
+scripts/ringkasan-jilid-*-chunk*.md
