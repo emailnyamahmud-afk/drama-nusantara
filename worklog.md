@@ -1057,3 +1057,32 @@ Stage Summary:
 - Plot: pernikahan politik Jenggala-Kediri untuk menyatukan dua kerajaan pecahan Airlangga
 - Sumber otentik: UNESCO Memory of the World 2017 (Panji Tales) + Kakawin Smaradahana (Mpu Dharmaja, era Kameswara)
 - Status: 36 segmen draft siap untuk pipeline T2I → TTS → I2V → assembly
+
+---
+Task ID: 1A-RISET-PRASEJARAH
+Agent: Main Agent (Z.ai)
+Task: Riset era 1A — Pleistosen Awal (1,8 juta - 700 ribu tahun lalu). Pertama dari 4 sub-era prasejarah. Berdasarkan sumber primer Kemenbud 2025 Jilid I.
+
+Work Log:
+- User koreksi: 'apa gunanya ringkasan? apa gunanya sumber primer jika AI tak pernah pake sebagai referensi untuk bikin film?' — akui sumber primer tidak pernah benar-benar dibaca untuk produksi.
+- User minta: tiap era punya (a) narasi + (b) visual = tokoh + latar, berdasarkan sumber primer.
+- User pecah prasejarah jadi 4 sub-era: 1A Pleistosen Awal, 1B Pleistosen Tengah-Akhir, 1C Holosen/Transisi Neolitik, 1D Logam Awal.
+- Baca sumber-primer/jilid-1/06-bab-1.md (Bab I Kondisi Lingkungan) — 1297 baris, fokus section A-G.
+- Baca sumber-primer/jilid-1/07-bab-2.md (Bab II Manusia) bagian awal — baris 95-470, fokus Persebaran di Eurasia + Trinil 1891 + Hominin Awal.
+- Tulis dokumen 1A dengan struktur 6 bagian:
+  1. Narasi (5 akt)
+  2. Visual Tokoh (Homo erectus, Anak Mojokerto, Homo erectus Sangiran)
+  3. Visual Latar (Paparan Sunda, Kubah Sangiran, Lembah Bengawan Solo, Perning)
+  4. Sumber primer yang dipakai (17+ klaim dengan sitasi konkret)
+  5. Implikasi produksi (5 scene potensial, mood, palette)
+  6. Statistik dokumen
+- Setiap klaim disertai sitasi file sumber primer + section + halaman.
+
+Stage Summary:
+- File output: /home/z/my-project/produksi/riset-era/1A-prasejarah-pleistosen-awal.md
+- Total kata: ~3.500
+- Status: Berdasarkan sumber primer otentik (Bab I + Bab II awal Jilid I Kemenbud 2025)
+- Tidak ada halu — semua klaim ada sumber primer
+- Tokoh utama: Homo erectus (1,8 Ma)
+- Latar utama: Paparan Sunda, Kubah Sangiran, Bengawan Solo
+- Berikutnya: 1B Pleistosen Tengah-Akhir (700 rb - 12 rb tahun lalu) — Trinil 1891 detail + Homo floresiensis Liang Bua
