@@ -1,0 +1,11 @@
+SUBJECT: Medium close-up portrait of a 28-year-old Javanese crown prince, three-quarter view facing camera left, calm determined expression with slight confident smile, long black hair partially tied in sanggul topknot with blue-gold destar headwrap, thin mustache, golden brown skin, sharp dark brown eyes. Wearing dark blue Javanese prince tunic with gold thread embroidery (kala-makara motif on chest, foliate scrolls on shoulders), blue-gold batik kain (parang rusak pattern) from waist down, gold keyura armlet on left upper arm, gold kankana bracelets on both wrists, kris pusaka with golden hilt at left waist.
+
+SETTING: Interior of Javanese Hindu-Buddhist imperial palace, East Java 1100 CE, Prambanan/Penataran temple relief style architecture. Stone andesite pillars with carved kala-makara, palm fiber (ijuk) roof visible at top, gold mesh curtains blowing softly in wind, multiple bronze torches along corridor in background.
+
+LIGHTING: Warm 2700K torch light from camera right (key light, warm amber glow on face), cool 5600K moonlight from window left (fill light, blue rim on hair and shoulder), low ambient 400K. Contrast ratio 4:1.
+
+MOOD: Tegas, berkuasa, slightly contemplative — a prince who carries the weight of two kingdoms.
+
+STYLE: Cinematic realistic portrait, Javanese classical aesthetic inspired by Chinese period drama, shallow depth of field f/2.0, 50mm lens equivalent, 8K hyperdetailed, photorealistic skin texture, 35mm film grain, color graded teal-orange shadows warm highlights. Aspect ratio 9:16.
+
+Negative prompt: modern clothing, western architecture, Chinese temple roof, Indian deity iconography, anime style, cartoon, 3D render, plastic smooth skin, deformed hands, extra fingers, watermark, text, signature, low resolution, blurry, oversaturated.

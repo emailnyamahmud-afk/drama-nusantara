@@ -1,0 +1,11 @@
+SUBJECT: Medium close-up portrait of a 22-year-old Javanese crown princess, three-quarter view facing camera right, serene yet firm expression with subtle knowing smile, large expressive dark brown eyes, fair golden skin, long black hair adorned with fresh jasmine flowers (melati) and small gold ornaments. Wearing golden kemben brocade top with lotus (teratai) motif embroidery, red-gold batik kain (parang klawu pattern) from waist down, small golden crown (makuta kecil) with melati flower ornaments, gold hara necklace with lotus pendant, gold kankana bracelets on wrists and ankles, gold kundala earrings.
+
+SETTING: Javanese Hindu-Buddhist imperial palace garden, East Java 1100 CE, Prambanan/Penataran temple relief style. Background shows carved stone pillars with foliate scrolls, lotus pond, frangipani (kamboja) tree in soft focus, stone pathway with carved Panji reliefs.
+
+LIGHTING: Soft warm 3200K morning sunlight from camera left (key light, golden glow on skin), cool 5600K sky fill from camera right (soft blue ambient on hair), low contrast ratio 2:1 for feminine soft portrait.
+
+MOOD: Cerdas, anggun, dengan ketegasan tersembunyi — a princess who knows her worth and demands to be seen as equal, not as gift.
+
+STYLE: Cinematic realistic portrait, Javanese classical aesthetic inspired by Chinese period drama heroines, shallow depth of field f/1.8, 85mm lens equivalent for flattering compression, 8K hyperdetailed, photorealistic skin texture with subtle pore detail, 35mm film grain, color graded warm golden highlights soft pink shadows. Aspect ratio 9:16.
+
+Negative prompt: modern clothing, western architecture, Chinese palace, Indian temple, anime style, cartoon, 3D render, plastic smooth skin, deformed hands, extra fingers, heavy makeup, false eyelashes, watermark, text, signature, low resolution, blurry, oversaturated.

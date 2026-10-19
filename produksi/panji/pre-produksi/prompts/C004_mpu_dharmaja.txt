@@ -1,0 +1,11 @@
+SUBJECT: Medium shot portrait of a 45-year-old Javanese poet priest (Mpu Dharmaja), three-quarter view facing camera left, contemplative expression with slight serene smile, deep-set dark brown eyes with subtle crow's feet, short gray-streaked beard, weathered golden brown skin. Hair tied in sanggul topknot with simple white cloth band. Wearing white-yellow Siwa priest robe (jubah) with thin gold-thread border, stone bead rudraksha necklace, holding palm leaf manuscript (lontar) with Javanese Kawi script in right hand, stylus in left hand.
+
+SETTING: Javanese Hindu-Buddhist temple complex courtyard at night, East Java 1100 CE. Background shows stone candi with carved reliefs in soft focus, sacred fire (homa yajna) altar glowing, scattered palm leaf manuscripts on stone table.
+
+LIGHTING: Warm 2200K firelight from camera right (key light, intense orange glow on right side of face and lontar), low ambient 500K moonlight fill from camera left. High contrast 6:1 for sacred dramatic chiaroscuro. Sparks from sacred fire floating in air.
+
+MOOD: Tenang, spiritual, dengan beban sejarah — a poet who knows he is writing eternal words.
+
+STYLE: Cinematic realistic portrait, Javanese classical aesthetic inspired by Chinese period drama, shallow depth of field f/2.0, 50mm lens equivalent, 8K hyperdetailed, photorealistic skin texture, 35mm film grain, color graded warm fire-orange highlights cool blue-black shadows. Aspect ratio 9:16.
+
+Negative prompt: modern clothing, western architecture, Buddhist monk, Christian priest, anime style, cartoon, 3D render, plastic smooth skin, deformed hands, extra fingers, modern glasses, watermark, text, signature, low resolution, blurry, oversaturated.

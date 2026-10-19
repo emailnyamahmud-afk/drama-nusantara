@@ -1,0 +1,11 @@
+SUBJECT: Medium shot portrait of a 50-year-old Javanese patih (minister), three-quarter view facing camera right, serious vigilant expression with deep wrinkles around eyes and mouth, full white beard, weathered dark brown skin, sharp dark eyes with crow's feet. Wearing simple brown cotton kain (jedor pattern), dark brown leather vest without ornament, plain cloth headwrap (blangkon style without gold), simple leather sandals. No crown, no jewelry — symbol of humble loyal servant. Hands clasped in front, slightly hunched posture.
+
+SETTING: Interior of Javanese Hindu-Buddhist imperial palace hall, East Java 1100 CE. Background shows carved stone pillars with kala-makara in soft focus, bronze torches flickering, blue-gold Jenggala banner dimly visible on wall.
+
+LIGHTING: Harsh warm 2700K torch light from camera left (key light, strong shadows on right side of face — dramatic chiaroscuro), low ambient fill. High contrast ratio 4:1 for weathered dramatic look.
+
+MOOD: Wise, conservative, wary — a loyal advisor who fears betrayal from old enemy.
+
+STYLE: Cinematic realistic portrait, Javanese classical aesthetic, shallow depth of field f/2.8, 50mm lens equivalent, 8K hyperdetailed, photorealistic skin texture with deep pore detail, 35mm film grain, color graded warm amber highlights deep brown shadows. Aspect ratio 9:16.
+
+Negative prompt: modern clothing, western architecture, Chinese clothing, Indian ascetic, anime style, cartoon, 3D render, plastic smooth skin, deformed hands, extra fingers, watermark, text, signature, low resolution, blurry, oversaturated, gold jewelry on subject.
