@@ -1,0 +1,848 @@
+{
+  "episode": {
+    "id": "P001",
+    "judul": "Panji: Asmara Bangun — Pilot",
+    "era": "Kediri abad 12",
+    "jilid_sumber": 2,
+    "sumber_tambahan": "UNESCO Memory of the World (Panji Tales, 2017) + Kakawin Smaradahana (Mpu Dharmaja)",
+    "durasi_target": 180,
+    "resolusi": "1920x1080",
+    "fps": 24,
+    "style": "cinematic realistic, Chinese period drama aesthetic + Nusantara Hindu-Buddha"
+  },
+  "characters": [
+    {
+      "id": "C001",
+      "nama": "Sri Kameswara",
+      "peran": "Raja Kediri",
+      "deskripsi": "Pria Jawa 28 tahun, kulit cokelat keemasan, mata tajam, rambut hitam panjang, mahkota emas Jawa Kuno, kain batik merah tua-emas, keris pusaka",
+      "voice": "id-ID-Ardi",
+      "status": "draft"
+    },
+    {
+      "id": "C002",
+      "nama": "Sri Kirana",
+      "peran": "Putri Jenggala",
+      "deskripsi": "Wanita Jawa 22 tahun, kulit kuning langsat, mata besar ekspresif, rambut panjang dengan melati, kemben emas-brocade, kain biru-emas",
+      "voice": "id-ID-Sari",
+      "status": "draft"
+    },
+    {
+      "id": "C003",
+      "nama": "Patih Kediri",
+      "peran": "Penasihat militer",
+      "deskripsi": "Pria 50 tahun, jenggot putih, wajah kerutan, kain cokelat, kulit hitam",
+      "voice": "id-ID-Budi",
+      "status": "draft"
+    },
+    {
+      "id": "C004",
+      "nama": "Mpu Dharmaja",
+      "peran": "Pujangga kerajaan",
+      "deskripsi": "Pria 45 tahun, sanggul rambut, janggut pendek, jubah putih-kuning, tasbih batu, lontar",
+      "voice": "id-ID-Ardi",
+      "status": "draft"
+    }
+  ],
+  "locations": [
+    {
+      "id": "L001",
+      "nama": "Keraton Kediri (Dahanapura)",
+      "deskripsi": "Interior istana batu, pilar candi, atap ijuk, obor, bendera merah-emas",
+      "status": "draft"
+    },
+    {
+      "id": "L002",
+      "nama": "Tepi Sungai Brantas",
+      "deskripsi": "Sungai fajar, kabut, pohon beringin, pangkalan kayu, gunung di latar",
+      "status": "draft"
+    },
+    {
+      "id": "L003",
+      "nama": "Candi / Altar Upacara",
+      "deskripsi": "Halaman candi malam, api suci, teratai, obor, karpet emas, bintang",
+      "status": "draft"
+    }
+  ],
+  "acts": [
+    {
+      "id": "A1",
+      "judul": "Dua Kerajaan, Satu Sungai",
+      "scenes": [
+        {
+          "id": "S001",
+          "judul": "Fajar di Brantas",
+          "lokasi": "L002",
+          "mood": "tegas, kuasa, sedikit tegang",
+          "segments": [
+            {
+              "id": "S001_seg01",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Extreme wide shot, Sungai Brantas at dawn, 12th century East Java, misty river surface, mountains in background, golden sunrise light, banyan tree silhouette, cinematic establishing shot, 8K, hyperdetailed",
+                "camera": "extreme wide, static, slow zoom in",
+                "negative_prompt": "modern, building, text, watermark"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Tahun 1182 masa Saka. Sungai Brantas membelah Jawa Timur menjadi dua kerajaan.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan soft opening, strings"
+              },
+              "characters_present": [],
+              "notes": "Opening shot, no character"
+            },
+            {
+              "id": "S001_seg02",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, Kediri royal palace (Dahanapura) exterior at dawn, 12th century Javanese Hindu architecture, stone candi-style pillars, palm fiber roof, red-gold royal banner on rooftop, torches, cinematic, 8K, hyperdetailed",
+                "camera": "wide, slow dolly forward",
+                "negative_prompt": "modern, building, text, watermark"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Kediri di selatan, Jenggala di utara. Dua kerajaan yang lahir dari satu ayah, Airlangga.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan continues"
+              },
+              "characters_present": [],
+              "notes": "Establishing keraton"
+            },
+            {
+              "id": "S001_seg03",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, golden Javanese royal crown (makuta) on stone pedestal, fire torch light reflection on gold, intricate temple motifs, 12th century, macro shot, 8K, hyperdetailed",
+                "camera": "extreme close-up, static",
+                "negative_prompt": "modern, western, text"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Yang membelah wilayahnya sebelum wafat. Selama 140 tahun, mereka bermusuhan.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan, low tension note"
+              },
+              "characters_present": [],
+              "notes": "Symbol: crown = power"
+            },
+            {
+              "id": "S001_seg04",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, Kameswara (C001 ref) seated on stone throne in Javanese palace hall, torches along corridor, red-gold banner, dramatic low angle, 12th century Kediri, cinematic, 8K, hyperdetailed",
+                "camera": "wide, low angle, slow push in",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Kini, seorang raja baru naik takhta di Kediri. Sri Kameswara.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan, royal motif"
+              },
+              "characters_present": ["C001"],
+              "notes": "First appearance Kameswara"
+            }
+          ]
+        },
+        {
+          "id": "S002",
+          "judul": "Keputusan Raja",
+          "lokasi": "L001",
+          "mood": "tegas, konflik internal",
+          "segments": [
+            {
+              "id": "S002_seg05",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, Kameswara (C001) on throne listening, Patih (C003) standing before him bowing, Javanese palace hall, torches, dramatic shadow, 12th century, 8K, hyperdetailed",
+                "camera": "medium, eye level",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C003"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Baginda, Jenggala menggerudi pasukan di perbatasan. Mereka siap menyerang.",
+                "tts_voice": "id-ID-Budi",
+                "bgm": "gamelan tension"
+              },
+              "characters_present": ["C001", "C003"],
+              "notes": "Patih reports threat"
+            },
+            {
+              "id": "S002_seg06",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Kameswara (C001) face, sharp eyes, calm but determined expression, golden crown, fire torch light on face, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, slight tilt",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Bukan perang yang aku inginkan, Patih. Tapi perdamaian.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan softens"
+              },
+              "characters_present": ["C001"],
+              "notes": "Kameswara reveals plan"
+            },
+            {
+              "id": "S002_seg07",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, Patih (C003) shocked expression, old Javanese minister, white beard, palace background, dramatic lighting, 12th century, 8K, hyperdetailed",
+                "camera": "medium, eye level",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C003"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Perdamaian? Dengan Jenggala? Mereka pengkhianat, Baginda!",
+                "tts_voice": "id-ID-Budi",
+                "bgm": "tension rises"
+              },
+              "characters_present": ["C003"],
+              "notes": "Patih protests"
+            },
+            {
+              "id": "S002_seg08",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Low angle wide shot, Kameswara (C001) standing from throne, commanding presence, red-gold kain, golden crown, keris at waist, torches, palace hall, 12th century, cinematic dramatic, 8K, hyperdetailed",
+                "camera": "wide, low angle",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Aku akan menikahi putri mereka. Sri Kirana. Dua kerajaan menjadi satu.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan royal fanfare"
+              },
+              "characters_present": ["C001"],
+              "notes": "Decision announced"
+            }
+          ]
+        },
+        {
+          "id": "S003",
+          "judul": "Persiapan",
+          "lokasi": "L001",
+          "mood": "determined, transitional",
+          "segments": [
+            {
+              "id": "S003_seg09",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Kameswara (C001) hand gripping keris pusaka at waist, golden hilt, intricate Javanese keris, fire light, 12th century, macro, 8K, hyperdetailed",
+                "camera": "extreme close-up, static",
+                "negative_prompt": "modern, western, text",
+                "character_ref": "C001"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Dan ia punya rencana yang berani. Bukan peperangan, tapi penyatuan.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "transition music"
+              },
+              "characters_present": ["C001"],
+              "notes": "Symbol: keris = resolve"
+            },
+            {
+              "id": "S003_seg10",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, Javanese royal boat on Brantas river at dawn, golden sunrise, mist, soldiers rowing, red-gold banner, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "wide, tracking shot",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "sfx": "water splashing, boat rowing, morning birds"
+              },
+              "characters_present": [],
+              "notes": "Transition to Act 2"
+            },
+            {
+              "id": "S003_seg11",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, Kameswara (C001) on royal boat, standing at bow, wind blowing hair and kain, determined face, sunrise ahead, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, slow dolly",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Kameswara berlayar ke perbatasan. Ke tepi Sungai Brantas. Tempat netral. Tempat pertemuan.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan adventurous"
+              },
+              "characters_present": ["C001"],
+              "notes": "Kameswara journey"
+            },
+            {
+              "id": "S003_seg12",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, riverbank at dawn, wooden pier, mist, another royal boat approaching from distance, Jenggala banner blue-gold, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "wide, static",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "sfx": "water, distant boat, wind"
+              },
+              "characters_present": [],
+              "notes": "Jenggala boat approaching"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "judul": "Pertemuan di Brantas",
+      "scenes": [
+        {
+          "id": "S004",
+          "judul": "Kedatangan Kirana",
+          "lokasi": "L002",
+          "mood": "misterius, penasaran",
+          "segments": [
+            {
+              "id": "S004_seg13",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, Jenggala royal boat docking at wooden pier, blue-gold banner, Javanese soldiers, 12th century, misty dawn, cinematic, 8K, hyperdetailed",
+                "camera": "wide, eye level",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "sfx": "boat docking, wood creaking, soldiers marching"
+              },
+              "characters_present": [],
+              "notes": "Jenggala arrives"
+            },
+            {
+              "id": "S004_seg14",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "High angle medium shot, Sri Kirana (C002) stepping off boat onto pier, golden kemben, blue-gold kain, jasmine in hair, graceful, surrounded by dayang, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, high angle",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C002"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Sri Kirana. Putri mahkota Jenggala. Bukan sekadar hadiah politik.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan soft, romantic"
+              },
+              "characters_present": ["C002"],
+              "notes": "First appearance Kirana"
+            },
+            {
+              "id": "S004_seg15",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, Kameswara (C001) watching from riverbank, sunrise behind Kirana, silhouette of Kirana approaching, fire torch in hand, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, over Kameswara shoulder",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan slow build"
+              },
+              "characters_present": ["C001"],
+              "notes": "POV Kameswara sees Kirana"
+            },
+            {
+              "id": "S004_seg16",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Sri Kirana (C002) face emerging from mist, sunrise golden light on face, large expressive eyes, jasmine flowers, beautiful Javanese princess, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, slow dolly in",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C002"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Ia adalah wanita yang punya syarat sendiri.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan romantic peak"
+              },
+              "characters_present": ["C002"],
+              "notes": "Reveal Kirana face"
+            }
+          ]
+        },
+        {
+          "id": "S005",
+          "judul": "Dialog Kameswara & Kirana",
+          "lokasi": "L002",
+          "mood": "tegang, romantis, konfrontatif",
+          "segments": [
+            {
+              "id": "S005_seg17",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium two-shot, Kameswara (C001) and Kirana (C002) facing each other at riverside, sunrise, mist, banyan tree, both in royal attire, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, eye level, static",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Putri Jenggala, aku bukan datang untuk menaklukkan. Aku datang untuk menyatukan.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan soft"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Kameswara opens"
+            },
+            {
+              "id": "S005_seg18",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Kirana (C002) face, calm but firm expression, sunrise light, jasmine, beautiful determined Javanese princess, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, eye level",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C002"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Penyatuan bukan dengan pernikahan, Baginda. Penyatuan adalah dengan kepercayaan.",
+                "tts_voice": "id-ID-Sari",
+                "bgm": "gamelan pause"
+              },
+              "characters_present": ["C002"],
+              "notes": "Kirana challenges"
+            },
+            {
+              "id": "S005_seg19",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Kameswara (C001) face, surprised then impressed, slight smile, golden crown, sunrise, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, eye level",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan warm note",
+                "sfx": "wind, river"
+              },
+              "characters_present": ["C001"],
+              "notes": "Kameswara impressed"
+            },
+            {
+              "id": "S005_seg20",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Extreme close-up, two hands reaching — Kameswara's hand (golden bracelet, kairo) and Kirana's hand (gold lotus bracelet) almost touching, sunrise, 12th century, macro, 8K, hyperdetailed",
+                "camera": "extreme close-up, slow motion",
+                "negative_prompt": "modern, western, text",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Maka buktikan, Baginda. Bahwa kau pantas. Bukan sekadar raja, tapi seorang ksatria.",
+                "tts_voice": "id-ID-Sari",
+                "bgm": "gamelan builds"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Kirana's challenge"
+            }
+          ]
+        },
+        {
+          "id": "S006",
+          "judul": "Kepercayaan",
+          "lokasi": "L002",
+          "mood": "resolve, transition to ceremony",
+          "segments": [
+            {
+              "id": "S006_seg21",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, Kameswara (C001) kneeling before Kirana (C002), hand on heart, sunset transition, riverbank, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, eye level",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Aku berjanji, Putri. Bukan sebagai raja, tapi sebagai pria. Keduanya akan kubuktikan.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan emotional"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Kameswara pledges"
+            },
+            {
+              "id": "S006_seg22",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Kirana (C002) smile, first genuine smile, eyes glistening, sunrise, jasmine, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, slight tilt",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C002"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan warm",
+                "sfx": "birds, river"
+              },
+              "characters_present": ["C002"],
+              "notes": "Kirana accepts"
+            },
+            {
+              "id": "S006_seg23",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, Kameswara and Kirana walking together along riverbank toward palace, sunset/sunrise, banyan tree, mist clearing, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "wide, tracking",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Dan di tepi Sungai Brantas, dua kerajaan berjanji untuk menyatu. Bukan dengan pedang, tapi dengan kata.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan transition"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Walking together"
+            },
+            {
+              "id": "S006_seg24",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, transition to night, Javanese Hindu temple courtyard with sacred fire altar, torches, starry sky, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "wide, static",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan sacred",
+                "sfx": "fire crackling, night insects"
+              },
+              "characters_present": [],
+              "notes": "Transition to Act 3 — ceremony"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "judul": "Smaradahana",
+      "scenes": [
+        {
+          "id": "S007",
+          "judul": "Upacara Pernikahan",
+          "lokasi": "L003",
+          "mood": "sakral, megah",
+          "segments": [
+            {
+              "id": "S007_seg25",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, Javanese Hindu wedding ceremony at temple courtyard, sacred fire altar center, Kameswara (C001) and Kirana (C002) in ceremonial attire, priests, torches, stars, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "wide, symmetrical, static",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan sacred wedding",
+                "sfx": "fire, chanting"
+              },
+              "characters_present": ["C001", "C002", "C004"],
+              "notes": "Wedding ceremony wide"
+            },
+            {
+              "id": "S007_seg26",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, Kameswara (C001) and Kirana (C002) hands joining over sacred fire, golden light, wedding ritual, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, eye level",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan peak",
+                "sfx": "fire, gamelan"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Hands over fire"
+            },
+            {
+              "id": "S007_seg27",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, Mpu Dharmaja (C004) standing with palm leaf manuscript (lontar), reading, temple fire light, white-yellow priest robe, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, eye level",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C004"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Sang hyang Kameswara, inkarnasi Kamajaya, dewa cinta yang bersemayam di Dahanapura.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan recitation"
+              },
+              "characters_present": ["C004"],
+              "notes": "Mpu Dharmaja reads Smaradahana part 1"
+            },
+            {
+              "id": "S007_seg28",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Kirana (C002) face in firelight, serene, beautiful, golden glow, sacred fire reflection in eyes, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, slight tilt",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C002"
+              },
+              "audio": {
+                "type": "dialog",
+                "tts_text": "Permaisuri Kirana, inkarnasi Kamaratih, ratu yang bersinar bagaikan rembulan.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan emotional peak"
+              },
+              "characters_present": ["C002"],
+              "notes": "Smaradahana part 2 — Kirana described"
+            }
+          ]
+        },
+        {
+          "id": "S008",
+          "judul": "Smaradahana — Api Cinta",
+          "lokasi": "L003",
+          "mood": "emosional, epik",
+          "segments": [
+            {
+              "id": "S008_seg29",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, temple fire blazing, sparks rising to stars, Kameswara and Kirana silhouettes against fire, ceremony, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "wide, low angle",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Dari pernikahan inilah lahir Smaradahana. Api Cinta.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan epic crescendo"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Fire climax"
+            },
+            {
+              "id": "S008_seg30",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Kameswara (C001) and Kirana (C002) foreheads touching, eyes closed, firelight, intimate moment, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, static",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan soft, emotional",
+                "sfx": "fire, wind"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Intimate climax"
+            },
+            {
+              "id": "S008_seg31",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, Kameswara (C001) and Kirana (C002) on palace balcony overlooking unified kingdom, dawn light, Kediri landscape, mountains, river, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "wide, slow pull back",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C001, C002"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Kisah yang akan menyeberang lautan. Ke Siam. Ke Khmer. Ke Birma.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan epic"
+              },
+              "characters_present": ["C001", "C002"],
+              "notes": "Overlooking kingdom"
+            },
+            {
+              "id": "S008_seg32",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, Mpu Dharmaja (C004) writing on palm leaf, fire light, quiet, manuscript, ink, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "close-up, over shoulder",
+                "negative_prompt": "modern, western, text, watermark",
+                "character_ref": "C004"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan quiet",
+                "sfx": "writing on lontar, fire"
+              },
+              "characters_present": ["C004"],
+              "notes": "Mpu writes history"
+            }
+          ]
+        },
+        {
+          "id": "S009",
+          "judul": "Closing — Kisah Panji",
+          "lokasi": "L003",
+          "mood": "hopeful, legendary",
+          "segments": [
+            {
+              "id": "S009_seg33",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Wide shot, sunrise over Kediri kingdom, palace, river, mountains, golden light, birds flying, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "extreme wide, slow zoom out",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Kisah yang dikenal sebagai Panji.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan final theme"
+              },
+              "characters_present": [],
+              "notes": "Final establishing"
+            },
+            {
+              "id": "S009_seg34",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Medium shot, relief carving of Panji story on temple wall, stone, ancient Javanese art, sunlight, 12th century, cinematic, 8K, hyperdetailed",
+                "camera": "medium, slow pan",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Yang akan diukir di dinding candi. Dinyanyikan di istana. Ditari di keraton.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan continues"
+              },
+              "characters_present": [],
+              "notes": "Relief = legacy"
+            },
+            {
+              "id": "S009_seg35",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Close-up, palm leaf manuscript (lontar) with Javanese Kawi script, fire light, ancient text, 12th century, macro, 8K, hyperdetailed",
+                "camera": "extreme close-up, static",
+                "negative_prompt": "modern, western, text, watermark"
+              },
+              "audio": {
+                "type": "narration",
+                "tts_text": "Dan diingat sepanjang masa.",
+                "tts_voice": "id-ID-Ardi",
+                "bgm": "gamelan fading"
+              },
+              "characters_present": [],
+              "notes": "Manuscript = eternal"
+            },
+            {
+              "id": "S009_seg36",
+              "durasi": 5,
+              "status": "draft",
+              "visual": {
+                "prompt": "Black screen, golden Javanese text appears: PANJI — ASMARA BANGUN, fire glow fade, title card, 12th century style, cinematic, 8K",
+                "camera": "static",
+                "negative_prompt": "modern, western"
+              },
+              "audio": {
+                "type": "ambient",
+                "tts_text": null,
+                "tts_voice": null,
+                "bgm": "gamelan final note, silence"
+              },
+              "characters_present": [],
+              "notes": "Title card — end of pilot"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "render_status": {
+    "total_segments": 36,
+    "draft": 36,
+    "approved": 0,
+    "image_generated": 0,
+    "audio_generated": 0,
+    "video_generated": 0,
+    "rendered": 0,
+    "failed": 0
+  }
+}
