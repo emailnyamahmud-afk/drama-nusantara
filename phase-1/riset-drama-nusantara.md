@@ -3,10 +3,13 @@
 
 > **Dokumen Riset Historis** — Fokus pada aspek visual, kostum, arsitektur, senjata, dan tokoh kunci per era. Disusun sebagai referensi produksi drama lintas-zaman Nusantara.
 >
+> **Sumber**: Disusun berdasarkan riset awal + sinkronisasi dengan **Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global** (Kemenbud RI 2025, 5 jilid). Cross-reference: `ringkasan/` (5 file, 106.680 kata) + `ringkasan/master-tokoh.yaml` (250 tokoh) + `sumber-primer/` (78 file, 1.257.120 kata).
+>
 > **Bahasa**: Bahasa Indonesia
 > **Cakupan Era**: 10 periode (Mataram Kuno → Orde Baru)
 > **Kedalaman**: Mendalam (~6-10 halaman per era)
 > **Plus**: Profil tokoh historis & prompt Stable Diffusion siap pakai
+> **Update**: Sinkronisasi Kemenbud 2025 — Era 1 (Mataram Kuno), Era 4 (Demak), Era 6 (Mataram Islam), Era 7 (Kolonial)
 
 ---
 
@@ -380,6 +383,121 @@ Berikut daftar prasasti-prasasti penting era Mataram Kuno yang menjadi sumber ut
     stormy sky, painterly epic, hyperdetailed.
 ```
 
+### 1.10 Sinkronisasi Sumber Primer Kemenbud 2025 (Jilid 2)
+
+> **Catatan**: Sub-bagian ini menambahkan temuan dari buku *Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global* Jilid 2 (Kemenbud RI 2025) yang belum tercakup di sub-bagian sebelumnya. Cross-reference: `ringkasan/ringkasan-jilid-2-perjumpaan-india-tiongkok-persia.md` + `ringkasan/ringkasan-jilid-1-2-3-suplemen.md` + `ringkasan/master-tokoh.yaml` (T024-T031).
+
+#### Konsep Kosmogoni & Politik Kerajaan
+
+Kemenbud 2025 Jilid 2 mengidentifikasi tiga konsep kosmogoni yang berkembang di masa Hindu-Buddha Nusantara, penting untuk pemahaman dunia drama:
+
+1. **Dewaraja** (Raja-Dewa) — raja bukan sekadar pemimpin politik, melainkan manifestasi dewa di bumi. Raja Siwa (Hindu) atau Bodhisattwa (Buddha). Konsep ini menentukan bagaimana raja berbicara, berpakaian, dan dipuja.
+
+2. **Astabrata** (Delapan Sifat Raja) — raja harus meneladani delapan sifat kosmik: matahari (memberi cahaya/keadilan), bulan (ketenangan), bintang (ketetapan), angin (kemerataan), langit (keagungan), bumi (kesabaran), air (kelembutan), api (kemarahan terkontrol). Sumber: kakawin dan relief candi.
+
+3. **Cakrawarti** (Penguasa Dunia) — raja yang menaklukkan seluruh penjuru mata angin. Konsep ini melahirkan aspirasi ekspansi (Gajah Mada dengan Sumpah Palapa, Kertanegara dengan Ekspedisi Pamalayu).
+
+**Implikasi drama**: Dialog raja Mataram Kuno harus mencerminkan kedudukan kosmiknya — bukan sekadar pemimpin suku, tapi perwujudan dewa. Kostum dan upacara keraton merefleksikan hierarki kosmik.
+
+#### Bali Kuno (Belum Tercover Sebelumnya)
+
+Kemenbud 2025 Jilid 2 mencatat **Kerajaan Bali Kuno** sebagai bagian integral dunia Hindu-Buddha Nusantara — yang sepenuhnya belum tercakup di sub-bagian sebelumnya:
+
+| Raja Bali Kuno | Periode | Catatan |
+|---|---|---|
+| **Sri Aji** | Pendiri awal | — |
+| **Sang Ratu Sri Aji Taganendra Dharmmadewa** | — | — |
+| **Paduka Haji Anak Wungsu** | 1050-1077 M | Puncak kejayaan Bali Kuno, banyak prasasti |
+| **Paduka Sri Maharaja Sri Sakalendukiritegana** | 1100-1117 M | — |
+| **Paduka Bhatara Guru** | — | — |
+| **Paduka Bhatara Sri Walajaya Krttaningrat** | — | — |
+
+Bali Kuno memiliki sistem administrasi tersendiri: *raja → rajapatih → hulu → sirikan → pangarasan*. Prasasti Bali Kuno menggunakan bahasa Bali Kuno dan aksara Kawi. Seni sastra Bali berkembang dengan kidung dan kakawin. Pada masa Majapahit (1343 M), Bali Kuno ditaklukkan Gajah Mada.
+
+**Implikasi drama**: Bali Kuno bisa jadi lokasi pelarian atau sekutu politik Mataram Kuno — Airlangga lahir di Bali (± 1002 M), ibunya adalah putri Raja Bali.
+
+#### Aksara Nusantara (Belum Tercover)
+
+Kemenbud 2025 Jilid 2 Bab 2 mencatat perkembangan aksara di Nusantara:
+
+| Aksara | Periode | Wilayah | Asal |
+|---|---|---|---|
+| **Pallawa** | Abad 5-7 M | Seluruh Nusantara | India Selatan |
+| **Kawi (Jawa Kuno)** | Abad 8-15 M | Jawa, Bali, Sumatra | Evolusi Pallawa |
+| **Sunda Kuno** | Abad 14-16 M | Tatar Sunda | Evolusi Kawi |
+| **Bali** | Abad 10-sekarang | Bali | Evolusi Kawi |
+| **Batak** | Abad 14-19 M | Tapanuli | Evolusi Pallawa |
+| **Nanapra/Kaganga** | Abad 14-19 M | Rejang-Lepong (Sumatra Selatan) | Lokal |
+| **Modang** | Abad 14-19 M | Kalimantan Timur | Lokal |
+| **Rencong** | Abad 14-19 M | Aceh | Evolusi Pallawa |
+| **Arab-Melayu (Jawi)** | Abad 13-sekarang | Dunia Melayu | Arab + Melayu |
+| **Merapi-Merbabu** | Abad 15-16 M | Pegunungan Jawa Tengah | Variasi Kawi |
+
+**Prasasti Dieng (808 M)** adalah prasasti tertua beraksara Jawa Kuno — menandai Dieng sebagai pusat penulisan aksara Jawa pertama yang terdokumentasi. Aksara ini berkembang dari Pallawa yang dibawa pedagang India.
+
+**Implikasi drama**: Prasasti yang muncul di adegan harus menggunakan aksara yang sesuai era. Era Mataram Kuno: aksara Kawi (bukan Pallawa — Pallawa lebih awal). Bali Kuno: aksara Bali/Kawi.
+
+#### Mandala & Kadewagurwan — Sistem Pendidikan Hindu-Buddha
+
+Kemenbud 2025 Jilid 2 Bab 4 mencatat sistem pendidikan Hindu-Buddha:
+
+- **Mandala** — pusat pendidikan di hutan/pegunungan, jauh dari keraton. Resi/bhagawan mengajar murid-murid yang menggolong jadi beberapa tingkat. Lokasi: Dieng, pegunungan Prambanan, hutan-hutan sakral.
+- **Kadewagurwan** — sistem guru-murid formal dengan tingkatan: siswa → brahmacari → resi. Pengetahuan: Weda, sastra Sanskrit, astronomi, hukum, filsafat.
+- **Rsi** — resi/bhagawan adalah kelas intelektual yang dihormati raja. Mereka menulis prasasti, merancang ritual, menasehati raja.
+
+Tokoh penting: **Mpu Tantular** (penulis Sutasoma — "Bhinneka Tunggal Ika"), **Mpu Prapanca** (penulis Negarakretagama 1365), **Mpu Sedah & Mpu Panuluh** (penulis Bharatayuda era Kadiri), **Empu Kanwa** (penulis Arjunawiwaha era Mataram Kuno).
+
+**Implikasi drama**: Adegan di mandala/ashram — resi mengajar, raja berkonsultasi. Tidak semua pendeta tinggal di keraton — ada yang di hutan, pegunungan.
+
+#### Sistem Tanah & Perpajakan
+
+Kemenbud 2025 Jilid 2 mencatat konsep agraria Hindu-Buddha:
+
+- **Triloka** — tiga dunia: atas (dewa), tengah (manusia), bawah (iblis). Lahan pertanian dibagi berdasarkan konsep kosmik ini.
+- **WTU** — sistem klasifikasi tanah berdasarkan kesuburan dan fungsi. Tanah sawah, tegal, huma, kebon — masing-masing dengan kewajiban pajak berbeda.
+- **Sistem perpajakan Mataram Kuno**: hasil bumi (padi, palawija, kain, emas) dikumpulkan ke keraton via rakai/kepala daerah. Prasasti sering mencatat pembebasan pajak (sima) untuk desa yang berjasa.
+- **Sistem hukum**: kitab hukum seperti **Sarasamuccaya** (kompilasi hukum Hindu-Buddha) dan **Pirwadhigama** mengatur pernikahan, warisan, perdagangan, pidana.
+
+#### Orang Asing di Nusantara Hindu-Buddha
+
+Kemenbud 2025 Jilid 2 Bab 4 mencatat kehadiran komunitas asing di Nusantara sejak awal Masehi:
+
+- **Orang India** (Tamil, Bengali, Gujarat) — pedagang + pendeta + ahli sastra. Membawa aksara Pallawa, agama Hindu-Buddha, sastra Sanskrit.
+- **Orang Persia** — pedagang kapur barus, rempah. Catatan: Prasasti Sojomerto menggunakan bahasa Melayu Kuno + aksara Pallawa — bukan Persia — menunjukkan adaptasi budaya.
+- **Orang Tiongkok** — pedagang keramik, sutra. Berita Dinasti Tang mencatat kerajaan Ho-ling (Kalingga) dan Ratu Shima (abad 7).
+- **Orang Arab** — pedagang aromatika, mulai abad 7 M (lihat Era 4 untuk Islamisasi).
+
+#### Raja-Raja Bali Kuno (Detail Tambahan dari Suplemen)
+
+Suplemen Jilid 2 menambahkan tokoh Bali Kuno yang sebelumnya tidak ada di dokumen ini:
+
+- **Sang Ratu Sri Aji Taganendra Dharmmadewa** — raja Bali Kuno
+- **Sang Ratu Sri Sang Ajfiadewi** — permaisuri
+- **Paduka Haji Anak Wungsu** (1050-1077 M) — puncak kejayaan, banyak prasasti
+- **Paduka Sri Maharaja Sri Sakalendukiritegana** (1100-1117 M)
+- **Rajapatih Kbo Parud** — patih Bali Kuno
+- **Paduka Bhatara Guru** — raja Bali
+- **Paduka Bhatara Sri Walajaya Krttaningrat** — raja Bali
+
+#### Tokoh Tambahan dari Master YAML (T024-T031)
+
+Dari `ringkasan/master-tokoh.yaml`, tokoh Mataram Kuno yang sudah terverifikasi:
+
+| ID YAML | Nama | Jilid | Peran | Tahun |
+|---|---|---|---|---|
+| T024 | Sanjaya | 2 | Pendiri Mataram Kuno | ±732-746 M |
+| T025 | Rakai Panangkaran | 2 | Raja ke-2, bangun Candi Kalasan | 746-784 M |
+| T026 | Rakai Balitung | 2 | Raja, keluarkan Prasasti Mantyasih | 898-910 M |
+| T027 | Mpu Sindok | 2 | Pendiri Wangsa Isyana, pindah ke Jawa Timur | 929-947 M |
+| T031 | Airlangga | 2 | Pendiri Kahuripan | 1003-1049 M |
+
+#### Sastra & Pengetahuan Mataram Kuno
+
+Karya sastra penting era Mataram Kuno (dari Kemenbud 2025):
+- **Arjunawiwaha** (Empu Kanwa, era Mataram Kuno abad 11) — kakawin pertama yang terdokumentasi
+- **Kalender Saka** — sistem penanggalan Hindu-Buddha, dimulai 78 M. Tahun Saka digunakan di semua prasasti Mataram Kuno. Konversi: Tahun Saka + 78 = Tahun Masehi.
+- **Sakala Dihyang** — konsep waktu sakral, hari-hari tertentu dianggap penting untuk ritual kerajaan.
+
 ---
 
 ## 2. Era Singasari / Tumapel (1222–1292 M)
@@ -745,6 +863,76 @@ Pusat kerajaan Demak adalah **Kota Demak** di pesisir utara Jawa. **Masjid Agung
    warm afternoon light, cinematic genre painting.
 ```
 
+### 4.X Sinkronisasi Sumber Primer Kemenbud 2025 (Jilid 3)
+
+> **Cross-reference**: `ringkasan/ringkasan-jilid-3-timur-tengah.md` + `ringkasan/ringkasan-jilid-1-2-3-suplemen.md` + `ringkasan/master-tokoh.yaml` (T059-T083)
+
+#### Wali Songo — Nama Asli Lengkap
+
+Kemenbud 2025 Jilid 3 Bab 7 memberikan nama asli lengkap Wali Songo yang sebelumnya hanya disebut nama populer:
+
+| Nama Populer | Nama Asli | Asal | Peran |
+|---|---|---|---|
+| **Maulana Malik Ibrahim** | Syekh Ibrahim Asmarakandi | Campa-Turki | Wali pertama, mukim Gresik (1419 M) |
+| **Sunan Ampel** | Raden Rahmat | Campa-Arab | Pendiri pesantren Ampel Denta |
+| **Sunan Bonang** | Makdum Ibrahim | Jawa (anak Sunan Ampel) | Penulis suluk |
+| **Sunan Drajat** | Raden Syarifudin | Jawa (anak Sunan Ampel) | Mubalig Jawa Timur |
+| **Sunan Giri** | Raden Paku / Muhammad Ainul Yaqin | Blambangan-Bali | Pendiri Giri Kedaton |
+| **Sunan Kudus** | Ja'far Shadiq | Hadramaut | Pendiri Masjid Menara Kudus |
+| **Sunan Kalijaga** | Syaikh Said / Raden Mas Syahid | Majapahit | Seniman, wayang |
+| **Sunan Muria** | Raden Umar Said | Jawa (anak Sunan Kalijaga) | Mubalig Gunung Muria |
+| **Sunan Gunung Jati** | Syarif Hidayatullah | Mekkah-Campa | Pendiri Cirebon-Banten |
+
+#### Tokoh Wali Lainnya (Belum Tercover)
+
+Suplemen Jilid 3 menambahkan tokoh wali selain Wali Songo:
+
+- **Syekh Siti Jenar** — sufI kontroversial, hukum mati (ditenggelamkan ke laut). Ajarannya: manunggaling kawula-Gusti (penyatuan hamba-Tuhan).
+- **Sunan Bayat** (Ki Ageng Pandanus aras) — hukum mati
+- **Ki Ageng Pengging** — ulama Mataram, hukum mati
+- **Syekh Panggung** — sufI heterodoks
+- **Syekh Lemah Abang** — sufI heterodoks
+- **Syekh Lemah Putih** — sufI heterodoks
+- **Ki Kebo Kenanga** — murid Syekh Siti Jenar
+- **Ki Ageng Selo** — leluhur Mataram
+- **Ki Ageng Pemanahan** — pendiri Mataram (sebelum Senopati)
+- **Ki Penjawi** — Adipati Pati, anak Ki Pemanahan
+
+#### Samudra Pasai-Malaka (Belum Tercover Detail)
+
+Kemenbud 2025 Jilid 3 mencatat detail kerajaan Islam awal yang belum tercover:
+
+- **Marah Silu / Merah Silu** — pendiri Samudra Pasai (akhir abad 13)
+- **Sultan Malik al-Saleh** — Marah Silu setelah masuk Islam, wafat 1297 M
+- **Sultan al-Malik al-Zahir** — Sultan Pasai (abad 14)
+- **Bendahara Tun Perak** — Bendahara Malaka (abad 15)
+- **Bendahara Tun Mutahir** — Bendahara Malaka (1500-1510), disuap pedagang Gujarat-Jawa
+- **Hang Tuah** — Laksamana Malaka (legenda)
+- **Hang Nadim** — Laksamana Melayu-Johor, koalisi dengan Ratu Kalinyamat
+
+#### 16 Sultan Aceh (Belum Tercover)
+
+Dari suplemen Jilid 3, daftar lengkap Sultan Aceh:
+
+| Sultan | Periode | Catatan |
+|---|---|---|
+| Ali Mughayat Syah | 1514-1530 | Pendiri Aceh Darussalam |
+| Sultan Alauddin al-Qahhar | 1537-1571 | Koresponden Sultan Suleyman Usmani |
+| Sultan Iskandar Muda | 1607-1636 | Puncak Aceh, serang Malaka 1629 |
+| Sultan Iskandar Thani/Tsani | 1636-1641 | Menantu Iskandar Muda |
+| Sultanah Tajul Alam | 1641-1675 | Perempuan! 34 tahun memerintah |
+| Sultanah Nur Alam | 1675-1678 | Perempuan |
+| Sultanah Inayat Zakiatuddin | 1678-1688 | Perempuan |
+| Sultanah Kamalat Syah | 1688-1699 | Perempuan, terakhir |
+
+#### Hukum & Perdagangan Islam Awal
+
+- **Undang-Undang Melaka** — kitab hukum maritim Malaka
+- **Hukum Laut Amanna Gappa** — kodifikasi adat pelaut Bugis
+- **Syahbandar** — pejabat pelabuhan, mengatur bea cukai dan perdagangan
+- **Komoditas**: lada (Sumatra-Jawa), cengkeh (Maluku), pala-fuli (Banda), kapur barus (Barus), gaharu (Nusantara)
+- **Mata uang**: dirham (koin Islam), koin emas Pasai, real Spanyol (era Portugis)
+
 ---
 
 ## 5. Era Kesultanan Pajang (1568–1586 M)
@@ -904,6 +1092,53 @@ Pusat Mataram Islam adalah **Kota Gede** (awal), kemudian **Karta** dan **Plered
    dramatic stormy sky, painterly epic portrait, hyperdetailed.
 ```
 
+### 6.X Sinkronisasi Sumber Primer Kemenbud 2025 (Jilid 3 + Jilid 4)
+
+> **Cross-reference**: `ringkasan/ringkasan-jilid-3-timur-tengah.md` + `ringkasan/ringkasan-jilid-4-interaksi-awal-barat.md` + `ringkasan/master-tokoh.yaml` (T084-T108, T109-T172)
+
+#### Sultan Agung — Detail dari Kemenbud 2025
+
+Kemenbud 2025 Jilid 4 Bab 2 memberikan detail Sultan Agung yang belum tercover:
+
+- **Nama kecil**: Raden Mas Jatmiko / Pangeran Rangsang
+- **Pengepungan Surabaya 1620-1625**: bendung Sungai Brantas, air tercemar, wabah penyakit, populasi turun dari 50-60 ribu → 1.000. Adipati Jayalengkara takluk.
+- **Ratu Pandan Sari** — adik Sultan Agung, istri Pangeran Pekik, ikut berperang di Bukit Giri, kasih uang ke prajurit.
+- **Pangeran Pekik** — putra Jayalengkara (Surabaya), berdarah Sunan Ampel, nikah Ratu Pandan Sari. Dipaksa Sultan Agung untuk takluk Giri karena pasukan Mataram tak mau berperang melawan pasukan wali tanpa perintah dari yang ber-genealogi wali.
+- **Endrasena** — Tionghoa Muslim, anak angkat Pandita Giri, buyut Sunan Giri. Tewas di Bukit Giri.
+- **Serangan Batavia 1628 & 1629**: gagal. Strategi bendung Sungai Ciliwung untuk putus pasokan air — gagal di Batavia (berhasil di Surabaya).
+- **Kematian JP Coen** — 20 September 1829, diduga terkait serangan Mataram & epidemi Batavia.
+- **Kalender Anno Javanico** — 1633, Sultan Agung ubah kalender Saka jadi Anno Javanico.
+- **Ziarah Tembayat** — 1633, ziarah ke makam Sunan Bayat.
+- **Duta ke Makkah** — 1639, dapat gelar "Sultan".
+
+#### Amangkurat I — Tiran Mataram (1646-1677)
+
+- **Genosida ulama pesisir**: 5.000-6.000 ulama beserta keluarga & anak-anak dibunuh.
+- **1652**: tutup permanen semua pelabuhan Pesisir Utara Jawa.
+- **Trunojoyo pemberontakan** (1674-1680): Madura, bantu Makassar, rebut Plered.
+- **Perjanjian Mataram-VOC 1677-1678**: VOC dapat Jepara, Semarang, Surabaya, Rembang, Demak, Tegal.
+
+#### Gowa-Tallo & Perjanjian Bongaya 1667
+
+- **Sultan Hasanuddin** (r. 1653-1670, "Ayam Jantan dari Timur") — Gowa, kalah VOC.
+- **Mare liberum vs mare clausum**: Gowa pegang laut terbuka, VOC pegang laut tertutup.
+- **Karaeng Pattinggalloang** — mangkubumi Gowa, mahir 6 bahasa, pesan bola dunia Joan Blaeu 160 inci (406 cm).
+- **Perjanjian Bongaya 18 November 1667**: VOC monopoli, denda 250.000 ringgit, Gowa kehilangan Sumbawa-Buton-Celebes.
+- **Arung Palakka** — pemberontak Bone, sekutu VOC, jadi Arumpone 1672.
+
+#### Aceh — Sultan Iskandar Muda (1607-1636)
+
+- Lahir 1583, naik takhta usia 24.
+- **Serangan Malaka 1629**: beberapa ratus kapal + 19.000 prajurit + 200 meriam Turki. Gagal — Portugis hanya 200 prajurit tapi dapat bantuan Goa. Sri Maharaja + Laksamana tewas.
+- **Inong Balee** — pasukan perempuan Aceh (janda-janda pahlawan).
+- **Hubungan Aceh-Usmani**: 1547-1571 korespondensi dengan Istanbul. 1562 Lutfi (utusan) tenggelam di Laut Merah. 1566 Huseyin tiba di Istanbul saat Suleyman wafat.
+
+#### Perjanjian Giyanti 1755
+
+- Mataram terpecah: **Hamengkubuwana I** (Yogyakarta) vs **Pakubuwana III** (Surakarta).
+- **Mas Said** jadi **Mangkunegara I** 1757.
+- VOC sebagai mediator-tipu-daya.
+
 ---
 
 ## 7. Era Kolonial (VOC 1602–1799 & Hindia Belanda 1800–1942)
@@ -1012,6 +1247,70 @@ Era kolonial memperkenalkan **arsitektur kolonial Hindia** — perpaduan gaya Er
    colonial pendopo pavilion background, soft morning light,
    hyperrealistic portrait.
 ```
+
+### 7.X Sinkronisasi Sumber Primer Kemenbud 2025 (Jilid 4 + Jilid 5)
+
+> **Cross-reference**: `ringkasan/ringkasan-jilid-4-interaksi-awal-barat.md` + `ringkasan/ringkasan-jilid-5-negara-kolonial-1800-1900.md` + `ringkasan/master-tokoh.yaml` (T173-T250)
+
+#### VOC — Detail dari Kemenbud 2025 Jilid 4
+
+- **Genosida Banda 1621**: JP Coen menyerang Lonthor, populasi 15.000 → ±1.000. 8 orang kaya dieksekusi, 210 pria dirantai seumur hidup, 347 wanita-anak dijual budak.
+- **Surat Coen-Sonck 3 Maret 1622**: "seluruh kelompok mereka harus disingkirkan sepenuhnya."
+- **Geger Pecinan 1740**: ±10.000 Cina tewas (9-20 Oktober). Nie Hoe-Kong kabur berdandan perempuan. Valckenier label "semua Cina musuh."
+- **Raden Mas Garendi (Sunan Kuning)** — cucu Amangkurat III, aliansi Cina-Jawa 1741-1743, kuasai Kartasura Juni 1742.
+- **Kemunduran VOC**: bubar 31 Desember 1799, utang 134,8 juta gulden. Komisi Tinggi Nederburgh-Frijkenius gagal reformasi.
+
+#### Perang Diponegoro 1825-1830 (Detail dari Jilid 5)
+
+- **Pangeran Diponegoro** (1785-1855), putra Sultan Hamengkubuwana III.
+- **Pemicu**: proyek jalan Smissaert melintasi makam leluhur Tegalrejo 1825.
+- **Strategi gerilya**: robohkan jembatan, tebang pohon, patok bambu tajam.
+- **Benteng Stelsel De Kock 1827**: ~250 benteng pohon kelapa.
+- **Kiai Madja** — penasihat keagamaan, semboyan perang sabil. Ditangkap di Klaten Nov 1828, dibuang Manado.
+- **Sentot membelot** 16 Okt 1829.
+- **Penangkapan**: 28 Maret 1830 di Magelang, dalam perundingan damai dengan De Kock.
+- **Pengasingan**: Manado → Benteng Rotterdam Makassar → wafat 8 Januari 1855.
+
+#### Cultuurstelsel 1830-1870 (Detail dari Jilid 5)
+
+- **Johannes van den Bosch** (Gubernur Jenderal 1830-1833).
+- Setiap desa wajib sediakan 1/5 lahan subur untuk tanaman komersial (indigo, kopi, tebu).
+- 22% lahan Jawa diserap, 12,5% buruh Jawa terserap.
+- 20% pendapatan tahunan Belanda 1832-1850 dari cultuurstelsel.
+- Laba 800 juta gulden antara 1830-1877.
+- **Multatuli** — novel *Max Havelaar* 1860, bom sastra yang mengguncang Belanda.
+- **Kelaparan Jawa 1840-an**: produksi beras stabil tapi rakyat kelaparan karena tidak punya uang.
+- **UU Agraria 1870** (erfpacht 75 tahun): dibuka untuk swasta.
+- **Deli Maatschappij 1869**: Jacobus Nienhuys + Said Abdullah Bilsagih, konsesi 99 tahun dari Sultan Deli.
+
+#### Perang Lain Abad 19 (Detail dari Jilid 5)
+
+- **Perang Padri 1821-1837**: Tuanku Imam Bonjol, menyerah 1837, wafat 1864.
+- **Perang Tondano II 1808-1809**: Daendels rekrut 2.000 pemuda Minahasa, burung merpati berkalung sumbu api.
+- **Perang Bone 1824-1860**: **Besse Kajuara** — ratu perlawanan yang kibarkan bendera Belanda terbalik.
+- **Perang Bali 1846-1849**: Jenderal Michiels tewas tertembak jam 3 pagi di Kusumba. Mads Lange (Denmark) mediator.
+- **Perang Banjar 1859-1906**: Pangeran Antasari wafat cacar, Muhammad Seman tewas 1905.
+- **Perang Aceh 1873-1904**: Sisingamangaraja XII di tanah Batak.
+- **Perang Lombok 1891-1894**: Mayor Jenderal van Ham tewas, Puputan Sasari.
+- **Banten 1888**: Haji Abdul Karim, slogan "Sabil Allah".
+- **Pattimura 1817**: Thomas Matulessy, Benteng Duurstede, digantung di Nieuw Victoria.
+
+#### Tokoh Intelektual Abad 19 (Detail dari Jilid 5)
+
+- **Christiaan Snouck Hurgronje** (1857-1936) — masuk Mekah 1885-86, penasihat kolonial, "Islam as a problem".
+- **Alfred Russel Wallace** (1823-1913) — Garis Wallace, co-penemu seleksi alam, Ternate 1858, asisten Ali (Melayu).
+- **Eugène Dubois** — Pithecanthropus erectus, Trinil 1891.
+- **Ranggawarsita** — "pujangga pungkasan" Jawa, *Serat Kalatidha* ("jaman edan").
+- **Mangkunegara IV** — *Serat Wedhatama*, pabrik gula Colomadu 1861 & Tasikmadu 1871. Ikut Perang Jawa di pihak Belanda melawan Diponegoro.
+- **Raja Ali Haji** (1808-1872) — *Tuhfat al-Nafis*, Pulau Penyengat, Riau.
+
+#### Infrastruktur Kolonial (Detail dari Jilid 5)
+
+- **Jalan Raya Pos Daendels** (1808-1811): 1.100 km Anyer-Panarukan, 12.000 korban rodi. **Pangeran Kornel** (Bupati Sumedang) jabat tangan kiri, tangan kanan di gagang keris.
+- **Kereta api**: NISM 1863 ("Firma Oplichterij en Nijverheid"), kontrak Fried. Krupp Essen 1895 (2.255.284 kg baja Bessemer).
+- **KPM** (Koninklijke Paketvaart-Maatschappij): 4 September 1888, 13 rute, subsidi f 660.000/tahun.
+- **Terusan Suez 1869**: kapal uap Singapura naik 5x lipat.
+- **Tambora 5 April 1815**: 4.200m → 2.800m, "tahun tanpa musim panas" di Eropa.
 
 ---
 
