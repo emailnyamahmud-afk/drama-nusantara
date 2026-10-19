@@ -1,0 +1,11 @@
+SUBJECT: Aerial wide establishing shot of Javanese imperial maritime harbor of Hujung Galuh at Jenggala kingdom, East Java 1100 CE. Long stone dock 200m extending into Madura Strait, large Chinese junk ship 40m moored (red sails furled), Arab dhow with lateen sails, Indian merchant ship, Javanese jong boats 20-30m with batik-pattern sails. Red brick trading warehouses along shore with tiled roofs, cosmopolitan market with colorful canopies. Multi-ethnic traders: Chinese in hanfu-style robes, Tamil in veshti, Arab in thobe, Javanese in kain, Malay in sarong. Blue-gold Jenggala flag at harbor gate, wooden watchtower 10m tall with harbor guard, custom house with patih pelabuhan official.
+
+SETTING: East Java 1100 CE, muara Sungai Brantas (modern Surabaya/Sidoarjo area). Madura Strait visible to north, distant Madura island silhouette on horizon. Tropical harbor with palm trees.
+
+LIGHTING: Golden hour 3200K warm sunset light from camera left (key light, warm amber on water and sails), cool 6500K sky fill from above. Long shadows of ships and figures on dock.
+
+MOOD: Sibuk, kosmopolitan, makmur — a wealthy maritime kingdom at the crossroads of Asian trade.
+
+STYLE: Cinematic realistic landscape, Javanese classical aesthetic inspired by Chinese period drama maritime epics, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, photorealistic water reflections and wood textures, 35mm film grain, color graded warm amber highlights cool teal shadows. Aspect ratio 16:9.
+
+Negative prompt: modern port, modern ships, cranes, electric lights, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated.

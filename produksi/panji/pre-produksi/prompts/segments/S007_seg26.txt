@@ -1,0 +1,22 @@
+# S007_seg26
+# Act: A3 - Smaradahana
+# Scene: S007 - Upacara Pernikahan
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: sakral, megah
+# Camera: medium, eye level
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana
+# Notes: Panji & Candra Kirana hands over fire
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium shot, Panji (C001) and Kirana (C002) hands joining over sacred fire, golden light, wedding ritual, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

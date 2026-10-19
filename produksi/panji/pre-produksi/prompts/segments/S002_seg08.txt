@@ -1,0 +1,22 @@
+# S002_seg08
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S002 - Keputusan Raja
+# Lokasi: L001 - Keraton Jenggala (Kahuripan)
+# Mood: tegas, konflik internal
+# Camera: wide, low angle
+# Karakter: C001=Panji Asmara Bangun
+# Notes: Decision to marry Candra Kirana announced
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Low angle wide shot, Panji (C001) standing from throne, commanding presence, red-gold kain, golden crown, keris at waist, torches, palace hall, 12th century, cinematic dramatic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Aku akan menikahi putri mereka. Candra Kirana. Dua kerajaan menjadi satu.
+

@@ -1,0 +1,22 @@
+# S001_seg03
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S001 - Fajar di Brantas
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegas, kuasa, sedikit tegang
+# Camera: extreme close-up, static
+# Karakter: none
+# Notes: Symbol: crown = power
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, golden Javanese royal destar (panji-crown) on carved stone pedestal, fire torch light reflection on gold, intricate temple motifs of chandra-kapala and kala-makara, 12th century, background shows palace hall with stone pillars and gold mesh curtains, macro shot, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Yang membelah wilayahnya sebelum wafat. Selama 140 tahun, mereka bermusuhan.
+

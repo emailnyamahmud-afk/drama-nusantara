@@ -1,0 +1,22 @@
+# S004_seg13
+# Act: A2 - Pertemuan di Brantas
+# Scene: S004 - Kedatangan Kirana
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: misterius, penasaran
+# Camera: wide, eye level
+# Karakter: none
+# Notes: Kediri arrives
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, Kediri imperial fleet docking at large stone dock with red-gold ornaments, 5 royal boats 20m long with gold carvings, red-gold Kediri banners, Javanese soldiers in formation, dayang with ceremonial parasols, misty dawn, 12th century, cinematic, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

@@ -1,0 +1,11 @@
+SUBJECT: Aerial wide establishing shot of Javanese Hindu-Buddhist imperial palace complex of Jenggala kingdom at Kahuripan, East Java 1100 CE. Multi-building royal court with candi bentar split gate 8m tall (red brick twin towers), two giant dwarapala guardian statues 3m tall kneeling at gate, large stone ceremonial courtyard 200 sqm, main pendopo hall with 16 teak pillars blue-gold with gold carvings, three-tier tumpang sari roof with chandra-kapala (skull-crescent) finial at peak, pringgitan platform, dalem inner chamber with velvet curtains, gold mesh curtains blowing in wind along corridors, 50 bronze torches lit, blue-gold royal banner on gate tower.
+
+SETTING: East Java 1100 CE, Brantas river delta. Background shows canal system with trading boats (jung, perahu), distant small supporting temples, palm groves, distant mountains (Arjuno, Welirang). Architecture inspired by Prambanan/Penataran temple relief style.
+
+LIGHTING: Golden hour 3500K warm sunrise from camera left (key light, long shadows, warm amber glow on stone), soft 6500K sky fill from above. Mist rising from canals.
+
+MOOD: Megah, tegas, imperial authority — a kingdom that controls maritime trade and commands respect.
+
+STYLE: Cinematic realistic landscape, Javanese classical aesthetic inspired by Chinese period drama epics, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, photorealistic stone and wood textures, 35mm film grain, color graded warm amber highlights cool blue shadows. Aspect ratio 16:9.
+
+Negative prompt: modern buildings, cars, electric lights, Chinese pagoda roof, Indian temple, Thai architecture, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated.

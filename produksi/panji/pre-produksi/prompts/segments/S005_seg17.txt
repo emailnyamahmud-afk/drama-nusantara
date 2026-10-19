@@ -1,0 +1,22 @@
+# S005_seg17
+# Act: A2 - Pertemuan di Brantas
+# Scene: S005 - Dialog Panji & Candra Kirana
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegang, romantis, konfrontatif
+# Camera: medium, eye level, static
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana
+# Notes: Panji opens
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium two-shot, Panji (C001) and Kirana (C002) facing each other at riverside, sunrise, mist, banyan tree, both in royal attire, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Putri Mahkota Kediri, aku bukan datang untuk menaklukkan. Aku datang untuk menyatukan.
+

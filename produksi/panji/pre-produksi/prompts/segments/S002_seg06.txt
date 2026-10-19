@@ -1,0 +1,22 @@
+# S002_seg06
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S002 - Keputusan Raja
+# Lokasi: L001 - Keraton Jenggala (Kahuripan)
+# Mood: tegas, konflik internal
+# Camera: close-up, slight tilt
+# Karakter: C001=Panji Asmara Bangun
+# Notes: Panji reveals plan
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, Panji (C001) face, sharp eyes, calm but determined expression, golden crown, fire torch light on face, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Bukan perang yang aku inginkan, Patih. Tapi perdamaian.
+

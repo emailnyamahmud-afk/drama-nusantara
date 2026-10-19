@@ -1,0 +1,22 @@
+# S001_seg04
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S001 - Fajar di Brantas
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegas, kuasa, sedikit tegang
+# Camera: wide, low angle, slow push in
+# Karakter: C001=Panji Asmara Bangun
+# Notes: First appearance Panji Asmara Bangun
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, Panji Asmara Bangun (C001 ref) seated on stone throne in Javanese palace hall, torches along corridor, red-gold banner, dramatic low angle, 12th century Kediri, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Kini, seorang raja baru naik takhta di Kediri. Panji Asmara Bangun.
+

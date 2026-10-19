@@ -1,0 +1,22 @@
+# S009_seg36
+# Act: A3 - Smaradahana
+# Scene: S009 - Closing — Kisah Panji
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: hopeful, legendary
+# Camera: static
+# Karakter: none
+# Notes: Title card — end of pilot
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Black screen, golden Javanese text appears: PANJI — ASMARA BANGUN, fire glow fade, title card, 12th century style, cinematic, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

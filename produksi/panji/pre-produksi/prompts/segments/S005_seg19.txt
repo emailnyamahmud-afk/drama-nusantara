@@ -1,0 +1,22 @@
+# S005_seg19
+# Act: A2 - Pertemuan di Brantas
+# Scene: S005 - Dialog Panji & Candra Kirana
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegang, romantis, konfrontatif
+# Camera: close-up, eye level
+# Karakter: C001=Panji Asmara Bangun
+# Notes: Panji impressed
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, Panji (C001) face, surprised then impressed, slight smile, golden crown, sunrise, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

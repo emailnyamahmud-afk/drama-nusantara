@@ -1,0 +1,22 @@
+# S004_seg14
+# Act: A2 - Pertemuan di Brantas
+# Scene: S004 - Kedatangan Kirana
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: misterius, penasaran
+# Camera: medium, high angle
+# Karakter: C002=Candra Kirana
+# Notes: First appearance Candra Kirana
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+High angle medium shot, Candra Kirana (C002) stepping off boat onto pier, golden kemben, red-gold kain, jasmine in hair, graceful, surrounded by dayang, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Candra Kirana. Putri mahkota Jenggala. Bukan sekadar hadiah politik.
+

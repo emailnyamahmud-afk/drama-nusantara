@@ -1,0 +1,22 @@
+# S003_seg12
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S003 - Persiapan
+# Lokasi: L001 - Keraton Jenggala (Kahuripan)
+# Mood: determined, transitional
+# Camera: wide, static
+# Karakter: none
+# Notes: Kediri boat approaching
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, riverbank at dawn, large imperial stone dock with red-gold Kediri ornaments, mist, Kediri imperial fleet approaching from distance with 5 royal boats 20m long each, red-gold Kediri banners, escort perahu, mountains in background, 12th century, cinematic, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

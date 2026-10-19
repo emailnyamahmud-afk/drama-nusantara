@@ -1,0 +1,22 @@
+# S006_seg23
+# Act: A2 - Pertemuan di Brantas
+# Scene: S006 - Kepercayaan
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: resolve, transition to ceremony
+# Camera: wide, tracking
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana
+# Notes: Panji & Candra Kirana walk together
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, Panji and Candra Kirana walking together along riverbank toward palace, sunset/sunrise, banyan tree, mist clearing, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Dan di tepi Sungai Brantas, dua kerajaan berjanji untuk menyatu. Bukan dengan pedang, tapi dengan kata.
+

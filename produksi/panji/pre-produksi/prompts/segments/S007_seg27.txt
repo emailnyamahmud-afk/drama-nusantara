@@ -1,0 +1,22 @@
+# S007_seg27
+# Act: A3 - Smaradahana
+# Scene: S007 - Upacara Pernikahan
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: sakral, megah
+# Camera: medium, eye level
+# Karakter: C004=Mpu Dharmaja
+# Notes: Mpu Dharmaja reads Smaradahana — Panji as Kamajaya
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium shot, Mpu Dharmaja (C004) standing with palm leaf manuscript (lontar), reading, temple fire light, white-yellow priest robe, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Sang hyang Panji Asmara Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala.
+

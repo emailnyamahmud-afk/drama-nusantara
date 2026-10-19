@@ -1,0 +1,22 @@
+# S006_seg21
+# Act: A2 - Pertemuan di Brantas
+# Scene: S006 - Kepercayaan
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: resolve, transition to ceremony
+# Camera: medium, eye level
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana
+# Notes: Panji pledges
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium shot, Panji (C001) kneeling before Kirana (C002), hand on heart, sunset transition, riverbank, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Aku berjanji, Putri. Bukan sebagai pangeran, tapi sebagai pria. Keduanya akan kubuktikan.
+

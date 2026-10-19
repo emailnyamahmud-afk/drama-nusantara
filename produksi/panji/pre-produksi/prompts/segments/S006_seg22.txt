@@ -1,0 +1,22 @@
+# S006_seg22
+# Act: A2 - Pertemuan di Brantas
+# Scene: S006 - Kepercayaan
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: resolve, transition to ceremony
+# Camera: close-up, slight tilt
+# Karakter: C002=Candra Kirana
+# Notes: Candra Kirana accepts
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, Candra Kirana (C002) smile, first genuine smile, eyes glistening, sunrise, jasmine, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

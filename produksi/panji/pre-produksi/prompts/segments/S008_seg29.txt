@@ -1,0 +1,22 @@
+# S008_seg29
+# Act: A3 - Smaradahana
+# Scene: S008 - Smaradahana — Api Cinta
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: emosional, epik
+# Camera: wide, low angle
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana
+# Notes: Smaradahana fire climax
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, temple complex fire blazing at climax of ceremony, sparks rising to stars, Panji and Candra Kirana silhouettes against massive sacred fire, 8 large bronze torches blazing around courtyard, multi-temple complex with Panji story reliefs, two kingdom banners (blue-gold Jenggala and red-gold Kediri) united above, ceremonial smoke, 12th century, cinematic, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Dari pernikahan inilah lahir Smaradahana. Api Cinta.
+

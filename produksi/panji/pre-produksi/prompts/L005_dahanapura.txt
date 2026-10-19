@@ -1,0 +1,11 @@
+SUBJECT: Aerial extreme wide establishing shot of Javanese imperial city of Dahanapura, capital of Panjalu (Kediri) kingdom, East Java 1100 CE. Massive red brick city walls 5m tall forming rectangle, four candi bentar split gates (one per cardinal direction) with giant dwarapala statues guarding each. Inside walls: multi-building palace complex (pendopo, dalem, pringgitan, gadri) in center, Siwa-Buddha main temple at city center with meru tower, canal system from Brantas river flowing through city, large marketplace outside palace walls with colorful canopies, trading boats on canals. Red-gold Kediri banners on main pole at palace. Multi-ethnic traders (Chinese, Tamil, Arab, Khmer) visible in market. Silver and gold Kediri coins being exchanged in market stalls.
+
+SETTING: East Java 1100 CE, Dahanapura (modern Kediri area, Brantas valley). Scale comparable to Angkor Thom. Tropical landscape with palm trees, distant Mount Kelud and Mount Kawi in background.
+
+LIGHTING: Midday 5500K sunlight from above (key light, even illumination showing city layout clearly), warm 4000K golden haze on horizon. Aerial drone perspective from 200m altitude.
+
+MOOD: Megah, kosmopolitan, imperial — a kingdom at the height of its maritime and cultural power.
+
+STYLE: Cinematic realistic aerial landscape, Javanese classical aesthetic inspired by Angkor Thom scale, deep depth of field f/11, 16mm ultra-wide lens equivalent, 8K hyperdetailed, photorealistic brick and stone textures, 35mm film grain, color graded warm earthy highlights cool blue shadows. Aspect ratio 16:9.
+
+Negative prompt: modern city, modern buildings, cars, electric lights, Chinese palace, Indian temple, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated.

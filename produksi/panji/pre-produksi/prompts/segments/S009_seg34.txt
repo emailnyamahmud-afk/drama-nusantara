@@ -1,0 +1,22 @@
+# S009_seg34
+# Act: A3 - Smaradahana
+# Scene: S009 - Closing — Kisah Panji
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: hopeful, legendary
+# Camera: medium, slow pan
+# Karakter: none
+# Notes: Relief of Panji story on candi wall
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium shot, relief carving of Panji story on temple wall, stone, ancient Javanese art, sunlight, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Yang akan diukir di dinding candi. Dinyanyikan di istana. Ditari di keraton.
+

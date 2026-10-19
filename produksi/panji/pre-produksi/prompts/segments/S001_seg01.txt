@@ -1,0 +1,22 @@
+# S001_seg01
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S001 - Fajar di Brantas
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegas, kuasa, sedikit tegang
+# Camera: extreme wide, static, slow zoom in
+# Karakter: none
+# Notes: Opening shot, no character
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Extreme wide aerial shot, Brantas river at dawn, 12th century East Java, wide imperial river 300m, misty surface, two stone imperial docks facing each other (left blue-gold Jenggala, right red-gold Kediri), fleet of royal boats with gold carvings, mountains in background (Kelud Kawi Arjuno), banyan tree silhouette, Panji relief stones on riverbank, golden sunrise light, cinematic establishing shot, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, building, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Tahun 1182 masa Saka. Sungai Brantas membelah Jawa Timur menjadi dua kerajaan.
+

@@ -1,0 +1,22 @@
+# S008_seg31
+# Act: A3 - Smaradahana
+# Scene: S008 - Smaradahana — Api Cinta
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: emosional, epik
+# Camera: wide, slow pull back
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana
+# Notes: Panji & Candra Kirana overlooking unified kingdom
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, Panji (C001) and Candra Kirana (C002) on palace balcony overlooking unified imperial kingdom at dawn, 12th century, massive Dahanapura imperial city with red brick walls 5m tall, four candi bentar split gates, multi-building palace complex, canal system from Brantas river, large marketplace outside palace walls, trading boats on canals with Chinese junks and Indian dhows, multi-ethnic traders, mountains and river in background, golden sunrise light, cinematic, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Kisah yang akan menyeberang lautan. Ke Siam. Ke Khmer. Ke Birma.
+

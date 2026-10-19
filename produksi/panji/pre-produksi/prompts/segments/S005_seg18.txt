@@ -1,0 +1,22 @@
+# S005_seg18
+# Act: A2 - Pertemuan di Brantas
+# Scene: S005 - Dialog Panji & Candra Kirana
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegang, romantis, konfrontatif
+# Camera: close-up, eye level
+# Karakter: C002=Candra Kirana
+# Notes: Candra Kirana challenges
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, Candra Kirana (C002) face, calm but firm expression, sunrise light, jasmine, beautiful determined Javanese princess, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Sari
+TTS Text: Penyatuan bukan dengan pernikahan, Baginda. Penyatuan adalah dengan kepercayaan.
+

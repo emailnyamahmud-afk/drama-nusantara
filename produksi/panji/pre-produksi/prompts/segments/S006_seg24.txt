@@ -1,0 +1,22 @@
+# S006_seg24
+# Act: A2 - Pertemuan di Brantas
+# Scene: S006 - Kepercayaan
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: resolve, transition to ceremony
+# Camera: wide, static
+# Karakter: none
+# Notes: Transition to Act 3 — wedding ceremony
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, transition to night, Javanese Hindu temple courtyard with sacred fire altar, torches, starry sky, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

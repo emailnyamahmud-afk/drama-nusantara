@@ -1,0 +1,22 @@
+# S002_seg05
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S002 - Keputusan Raja
+# Lokasi: L001 - Keraton Jenggala (Kahuripan)
+# Mood: tegas, konflik internal
+# Camera: medium, eye level
+# Karakter: C001=Panji Asmara Bangun, C003=Patih Jenggala
+# Notes: Patih reports Kediri threat
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium shot, Panji (C001) on throne listening, Patih (C003) standing before him bowing, Javanese palace hall, torches, dramatic shadow, 12th century, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Budi
+TTS Text: Baginda Pangeran, Kediri menggerudi pasukan di perbatasan. Mereka siap menyerang.
+

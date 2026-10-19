@@ -1,0 +1,22 @@
+# S005_seg20
+# Act: A2 - Pertemuan di Brantas
+# Scene: S005 - Dialog Panji & Candra Kirana
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegang, romantis, konfrontatif
+# Camera: extreme close-up, slow motion
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana
+# Notes: Candra Kirana's challenge
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Extreme close-up, two hands reaching — Panji's hand (golden bracelet, kairo) and Candra Kirana's hand (gold lotus bracelet) almost touching, sunrise, 12th century, macro, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Sari
+TTS Text: Maka buktikan, Baginda. Bahwa kau pantas. Bukan sekadar pangeran, tapi seorang ksatria.
+

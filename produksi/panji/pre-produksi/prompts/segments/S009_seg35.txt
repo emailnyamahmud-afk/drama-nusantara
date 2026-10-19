@@ -1,0 +1,22 @@
+# S009_seg35
+# Act: A3 - Smaradahana
+# Scene: S009 - Closing — Kisah Panji
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: hopeful, legendary
+# Camera: extreme close-up, static
+# Karakter: none
+# Notes: Smaradahana lontar — eternal legacy
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, palm leaf manuscript (lontar) with Javanese Kawi script, fire light, ancient text, 12th century, macro, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Dan diingat sepanjang masa.
+

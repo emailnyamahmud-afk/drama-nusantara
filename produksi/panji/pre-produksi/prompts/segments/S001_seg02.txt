@@ -1,0 +1,22 @@
+# S001_seg02
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S001 - Fajar di Brantas
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: tegas, kuasa, sedikit tegang
+# Camera: wide, slow dolly forward
+# Karakter: none
+# Notes: Establishing keraton
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Aerial wide shot, 12th century Javanese Hindu imperial palace complex of Jenggala kingdom at Kahuripan, multi-building royal court with candi bentar split gate 8m tall, two giant dwarapala guardian statues, large stone ceremonial courtyard, main pendopo hall with 16 teak pillars blue-gold, three-tier tumpang sari roof with chandra-kapala finial, gold mesh curtains, 50 bronze torches, blue-gold royal banner on gate tower, background canal system with trading boats and distant small temples, cinematic, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, building, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Jenggala di utara, Kediri di selatan. Dua kerajaan yang lahir dari satu ayah, Airlangga.
+

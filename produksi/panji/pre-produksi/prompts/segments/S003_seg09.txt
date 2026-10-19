@@ -1,0 +1,22 @@
+# S003_seg09
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S003 - Persiapan
+# Lokasi: L001 - Keraton Jenggala (Kahuripan)
+# Mood: determined, transitional
+# Camera: extreme close-up, static
+# Karakter: C001=Panji Asmara Bangun
+# Notes: Symbol: keris = resolve
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, Panji (C001) hand gripping keris pusaka at waist, golden hilt, intricate Javanese keris, fire light, 12th century, macro, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Dan ia punya rencana yang berani. Bukan peperangan, tapi penyatuan.
+

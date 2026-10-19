@@ -1,0 +1,22 @@
+# S004_seg15
+# Act: A2 - Pertemuan di Brantas
+# Scene: S004 - Kedatangan Kirana
+# Lokasi: L002 - Tepi Sungai Brantas
+# Mood: misterius, penasaran
+# Camera: medium, over Panji shoulder
+# Karakter: C001=Panji Asmara Bangun
+# Notes: POV Panji sees Candra Kirana
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium shot, Panji (C001) watching from riverbank, sunrise behind Candra Kirana, silhouette of Candra Kirana approaching, fire torch in hand, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

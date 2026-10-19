@@ -1,0 +1,22 @@
+# S008_seg32
+# Act: A3 - Smaradahana
+# Scene: S008 - Smaradahana — Api Cinta
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: emosional, epik
+# Camera: close-up, over shoulder
+# Karakter: C004=Mpu Dharmaja
+# Notes: Mpu Dharmaja writes Smaradahana manuscript
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, Mpu Dharmaja (C004) writing on palm leaf, fire light, quiet, manuscript, ink, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

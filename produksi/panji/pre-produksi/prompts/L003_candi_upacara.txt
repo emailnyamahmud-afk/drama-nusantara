@@ -1,0 +1,11 @@
+SUBJECT: Wide cinematic shot of Javanese Hindu-Buddhist temple complex courtyard at night, East Java 1100 CE. Multi-temple complex with main 3-tier candi 15m tall featuring Panji story reliefs on walls (visible carvings of Panji Asmara Bangun and Candra Kirana), 6-8 smaller supporting candi around, large stone courtyard 50 sqm, sacred fire altar (homa yajna) 2m tall bronze carved at center, lotus and jasmine flowers lining paths, golden carpet 20m from altar to throne, 8 large bronze torches blazing at corners, flag poles with two kingdom banners (blue-gold Jenggala left and red-gold Kediri right), statues of Kamajaya-Kamaratih at gateway.
+
+SETTING: East Java 1100 CE, Javanese Hindu-Buddhist temple complex (inspired by Penataran complex which spans 10 sq km). Architecture in Prambanan/Penataran relief style. Starry tropical night sky with faint Milky Way visible.
+
+LIGHTING: Intense warm 2200K sacred firelight from altar at center (key light, dramatic orange glow on surrounding stone and faces), soft 4500K torch fill from 8 perimeter torches, deep blue 5500K moonlight from above. Sparks rising from sacred fire floating upward. High contrast 4:1 for sacred dramatic chiaroscuro.
+
+MOOD: Sakral, megah, emosional — celestial union of two kingdoms witnessed by gods.
+
+STYLE: Cinematic realistic landscape, Javanese classical aesthetic inspired by Chinese period drama, deep depth of field f/5.6, 35mm lens equivalent, 8K hyperdetailed, photorealistic fire and stone textures, 35mm film grain, color graded warm fire-orange highlights cool blue-black shadows. Aspect ratio 16:9.
+
+Negative prompt: modern buildings, electric lights, Chinese temple, Indian temple, Thai chedi, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated.

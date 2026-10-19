@@ -1,0 +1,22 @@
+# S007_seg28
+# Act: A3 - Smaradahana
+# Scene: S007 - Upacara Pernikahan
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: sakral, megah
+# Camera: close-up, slight tilt
+# Karakter: C002=Candra Kirana
+# Notes: Smaradahana part 2 — Candra Kirana as Kamaratih
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Close-up, Kirana (C002) face in firelight, serene, beautiful, golden glow, sacred fire reflection in eyes, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Putri Candra Kirana, inkarnasi Kamaratih, ratu yang bersinar bagaikan rembulan.
+

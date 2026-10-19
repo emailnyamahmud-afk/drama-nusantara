@@ -1,0 +1,22 @@
+# S007_seg25
+# Act: A3 - Smaradahana
+# Scene: S007 - Upacara Pernikahan
+# Lokasi: L003 - Candi / Altar Upacara
+# Mood: sakral, megah
+# Camera: wide, symmetrical, static
+# Karakter: C001=Panji Asmara Bangun, C002=Candra Kirana, C004=Mpu Dharmaja
+# Notes: Wedding ceremony Panji-Candra Kirana wide
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, Javanese Hindu wedding ceremony at large temple complex courtyard, 12th century, multi-temple complex with main 3-tier candi 15m tall featuring Panji story reliefs, 6-8 smaller supporting candi around, sacred fire altar 2m tall bronze carved, Panji (C001) and Candra Kirana (C002) in ceremonial attire, priests, 8 large bronze torches at corners, flag poles with two kingdom banners (blue-gold Jenggala and red-gold Kediri), statues of Kamajaya-Kamaratih at gateway, starry night sky, cinematic, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+

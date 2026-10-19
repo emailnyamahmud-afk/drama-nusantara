@@ -1,0 +1,22 @@
+# S003_seg11
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S003 - Persiapan
+# Lokasi: L001 - Keraton Jenggala (Kahuripan)
+# Mood: determined, transitional
+# Camera: medium, slow dolly
+# Karakter: C001=Panji Asmara Bangun
+# Notes: Panji journey to Brantas
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Medium shot, Panji (C001) on royal boat, standing at bow, wind blowing hair and kain, determined face, sunrise ahead, 12th century, cinematic, 8K, hyperdetailed
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: id-ID-Ardi
+TTS Text: Panji berlayar ke perbatasan. Ke tepi Sungai Brantas. Tempat netral. Tempat pertemuan.
+

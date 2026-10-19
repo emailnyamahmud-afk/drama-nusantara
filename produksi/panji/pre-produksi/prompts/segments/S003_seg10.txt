@@ -1,0 +1,22 @@
+# S003_seg10
+# Act: A1 - Dua Kerajaan, Satu Sungai
+# Scene: S003 - Persiapan
+# Lokasi: L001 - Keraton Jenggala (Kahuripan)
+# Mood: determined, transitional
+# Camera: wide, tracking shot
+# Karakter: none
+# Notes: Transition to Act 2 — journey to Brantas
+
+# === T2I PROMPT (copy ke Google Flow) ===
+
+Wide shot, Javanese imperial fleet on Brantas river at dawn, lead royal boat 20m long with blue-gold Jenggala colors and gold carvings, small pendopo roof, escorted by 4-6 smaller perahu with blue-gold banners, soldiers rowing in unison, golden sunrise, mist, mountains in background, 12th century, cinematic, hyperdetailed, 8K
+
+# === NEGATIVE PROMPT (jika Flow support field terpisah) ===
+
+modern, western, text, watermark
+
+# === AUDIO METADATA ===
+
+TTS Voice: none
+TTS Text: none
+
