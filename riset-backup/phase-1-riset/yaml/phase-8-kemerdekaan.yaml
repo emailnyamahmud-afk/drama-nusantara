@@ -1,0 +1,656 @@
+# =============================================================================
+# MASTER PHASE 8 — ERA KEMERDEKAAN / REVOLUSI (1945–1949 M)
+# =============================================================================
+# Dokumen komprehensif: riset sejarah + master reference untuk T2I prompt
+# Format YAML untuk struktur data yang dapat dipakai oleh:
+#   - Penulis naskah drama (narrative + characters)
+#   - Artist/Art Director (wardrobe + visual)
+#   - AI prompt engineer (prompt library untuk Stable Diffusion)
+#
+# Status: AUDIT dengan cross-check ke sumber primer termasuk dokumen Marxis
+#         (Madilog Tan Malaka, arsip PKI/Comintern, arsip Sneevliet IISG)
+# Tanggal: 17 Oktober 2026
+# Versi: 1.0 (master YAML phase 8)
+# =============================================================================
+
+meta:
+  era: "Era Kemerdekaan / Revolusi Nasional Indonesia"
+  periode: "1945–1949 M (4 tahun)"
+  lokasi_geografis: "Jakarta → Yogyakarta (ibu kota revolusi) → seluruh Indonesia"
+  penguasa: "Republik Indonesia (RI) vs Belanda (NICA/KNIL) vs Jepang (awal)"
+  ibu_kota: "Jakarta (1945-1946) → Yogyakarta (1946-1949)"
+  agama: "Islam (mayoritas), Kristen, Hindu-Buddha, Marxisme/Ateisme"
+  sumber_primer:
+    - "Naskah Proklamasi (asli, Museum Nasional)"
+    - "Arsip BPUPKI/PPKI — di ANRI"
+    - "Madilog karya Tan Malaka (1943) — karya filsafat Marxis terbesar Indonesia"
+    - "Dari Penjara ke Penjara karya Tan Malaka — otobiografi"
+    - "Dokumen PKI (1920-1965) — di ANRI dan IISG Amsterdam"
+    - "Arsip Comintern di RGASPI Moscow — komunikasi PKI-Moscow"
+    - "Arsip Sneevliet di IISG Amsterdam — pendiri ISDV/PKI"
+    - "Laporan polisi rahasia Hindia Belanda (Politieke Inlichtingendienst)"
+    - "Sumber akademis: M.C. Ricklefs, Ruth McVey (The Rise of Indonesian Communism), Robert Cribb"
+  catatan_penting: >
+    Era Kemerdekaan tidak bisa dipahami tanpa memahami garis panjang
+    pergerakan Marxis-Komunis di Indonesia (1914-1965). Tokoh Marxis seperti
+    Tan Malaka, Musso, Semaun, dan Aidit memainkan peran sentral dalam era ini.
+
+# =============================================================================
+# NARASI SINGKAT
+# =============================================================================
+narrative:
+  era_overview: >
+    Dari vacuum of power setelah Jepang menyerah, melalui proklamasi yang
+    dipaksakan oleh pemuda, melalui empat tahun perang revolusi dan diplomasi,
+    hingga pengakuan kedaulatan 27 Desember 1949. Era ini juga dipenuhi
+    konflik internal: nasionalis vs Marxis, diplomasi vs perjuangan bersenjata,
+    Soekarno vs Tan Malaka, yang memuncak dalam Peristiwa Madiun 1948.
+
+  akt_1_proclamation: >
+    17 Agustus 1945. Soekarno dan Hatta memproklamasikan kemerdekaan di
+    Jalan Pegangsaan Timur 56. Naskah diketik oleh Sayuti Melik (anggota
+    Menteng 31, sayap kiri). BPUPKI dan PPKI dibentuk. Vacuum of power
+    setelah Jepang menyerah.
+
+  akt_2_revolution: >
+    Pertempuran 10 November 1945 di Surabaya — Bung Tomo berorasi lewat
+    radio, arek Surabaya melawan Inggris. Bandung Lautan Api 1946.
+    Ibu kota pindah ke Yogyakarta. Sultan Hamengkubuwana IX mendukung RI.
+    Diplomasi: Linggarjati (1946), Renville (1948).
+
+  akt_3_marxist_challenge: >
+    Tan Malaka mendirikan Persatuan Perjuangan (Januari 1946) — koalisi
+    140 sayap kiri. Menuntut diplomasi keras vs Belanda. Soekarno membubarkan
+    (Juli 1946). Tan Malaka ditangkap. Musso kembali dari Moscow (Agustus 1948).
+    Peristiwa Madiun 18 September 1948 — PKI/FDR memberontak. Musso tewas.
+    Tan Malaka dibebaskan, lalu dieksekusi TNI (Februari 1949).
+
+  akt_4_recognition: >
+    Agresi Militer Belanda II (Desember 1948) — Yogyakarta diduduki.
+    Soekarno-Hatta ditangkap. Sudirman memimpin gerilya. Serangan Umum
+    1 Maret 1949 — TNI merebut Yogyakarta sebentar. Perjanjian Roem-van
+    Royen (1949). KMB di Den Haag. Pengakuan kedaulatan 27 Desember 1949.
+
+# =============================================================================
+# GARIS WAKTU PERGERAKAN MARXIS-KOMUNIS (1914–1965)
+# =============================================================================
+marxist_timeline:
+  note: >
+    Era Kemerdekaan tidak bisa dipahami tanpa memahami garis panjang
+    pergerakan Marxis-Komunis di Indonesia.
+  events:
+    - year: "1914"
+      event: "ISDV (Indische Sociaal-Democratische Vereeniging) didirikan di Surabaya oleh Henk Sneevliet"
+      key_figures: ["Sneevliet", "Semaun", "Baars"]
+    - year: "1917"
+      event: "Revolusi Bolshevik Rusia — inspirasi bagi Marxis Hindia"
+      key_figures: ["Tan Malaka (di Belanda)"]
+    - year: "1920"
+      event: "ISDV berubah menjadi PKH/PKI (23 Mei 1920). Semaun menjadi ketua pertama PKI."
+      key_figures: ["Semaun", "Alimin", "Darsono"]
+    - year: "1921"
+      event: "Sarekat Islam pecah: SI Merah (komunis) vs SI Putih (Islam)"
+      key_figures: ["Semaun", "Tjokroaminoto"]
+    - year: "1923"
+      event: "Tan Malaka menjadi ketua PKI (menggantikan Semaun yang ke Moskow)"
+      key_figures: ["Tan Malaka"]
+    - year: "1926-1927"
+      event: "Pemberontakan PKI di Banten (12-13 November 1926) dan Silungkang (1 Januari 1927). Gagal. Tan Malaka menolak rencana ini. Ribuan dibuang ke Boven Digul."
+      key_figures: ["Alimin", "Musso", "Tan Malaka (menolak)"]
+    - year: "1927-1948"
+      event: "Tan Malaka mengembara di Asia dengan 23 nama samaran. Menulis Madilog (1943)."
+      key_figures: ["Tan Malaka"]
+    - year: "1935"
+      event: "PKI bawah tanah dibentuk kembali oleh Musso, Alimin"
+      key_figures: ["Musso", "Alimin"]
+    - year: "1945"
+      event: "Proklamasi. Tan Malaka kembali ke Indonesia."
+      key_figures: ["Tan Malaka", "Soekarno"]
+    - year: "1946"
+      event: "Tan Malaka mendirikan Persatuan Perjuangan (Januari 1946) — koalisi 140 sayap kiri. Dibubarkan Soekarno (Juli 1946). Tan Malaka ditangkap."
+      key_figures: ["Tan Malaka", "Soekarno"]
+    - year: "1948"
+      event: "Musso kembali dari Moscow (Agustus). Peristiwa Madiun 18 September 1948. Musso tewas 31 Oktober. Tan Malaka dieksekusi TNI (Februari 1949)."
+      key_figures: ["Musso", "Tan Malaka", "Soekarno"]
+    - year: "1951"
+      event: "DN Aidit, Lukman, Njoto, Sudisman mengambil alih PKI. PKI jadi partai massa 3 juta."
+      key_figures: ["DN Aidit", "Lukman", "Njoto"]
+    - year: "1965"
+      event: "G30S/PKI (30 September 1965). Pembantaian massal terhadap PKI (1965-1966)."
+      key_figures: ["DN Aidit", "Njoto", "Lukman", "Soeharto"]
+
+# =============================================================================
+# KARAKTER & WARDROBE
+# =============================================================================
+characters:
+
+  # === TOKOH NASIONALIS ===
+
+  soekarno:
+    name: "Soekarno"
+    era_period: "1945-1949 M (Proklamasi & Revolusi)"
+    age_dramatic: "40-50 tahun"
+    narrative_short: >
+      Proklamator. Presiden pertama RI. Karismatik, orator ulung.
+      Berkonflik dengan Tan Malaka tentang strategi diplomasi.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas putih dengan dasi hitam (formal) atau baju safari"
+      lower_body: "Celana panjang hitam atau kain batik"
+      accessories: ["Kacamata hitam (untuk acara lapangan)"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Soekarno proclaiming Indonesian independence
+        17 August 1945, man 40s with slicked back hair, wearing white colonial
+        suit jacket with black peci cap and batik kain, holding paper proclamation,
+        Gedung Proklamasi Jakarta background, dramatic morning light, hyperrealistic
+        cinematic portrait, hyperdetailed 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Soekarno 1945, black peci cap, white colonial
+        suit jacket with black tie, batik kain at waist, black trousers, black
+        sunglasses, white and black color palette with batik accents, matte fabric
+        texture, museum-quality detail shot, hyperdetailed 8k.
+
+  sultan_hamengkubuwana_ix:
+    name: "Sultan Hamengkubuwana IX"
+    era_period: "1945-1949 M"
+    age_dramatic: "30-40 tahun"
+    narrative_short: >
+      Sultan Yogyakarta, pendukung utama RI. Menyatakan Yogyakarta bagian RI.
+      Ibu kota revolusi di Yogyakarta karena dukungannya.
+    wardrobe:
+      headwear: "Kuluk hijau (keraton) atau peci hitam (nasional)"
+      upper_body: "Ageman kebesaran Yogyakarta (keraton) atau jas putih (nasional)"
+      lower_body: "Kain batik Parang"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Sultan Hamengkubuwana IX, young Sultan of Yogyakarta
+        1940s, modern man 30-40 with intelligent eyes, wearing Yogyakarta keraton
+        ageman (green kuluk, green jubah, kain batik parang), Yogyakarta keraton
+        background, dramatic golden hour, hyperdetailed hyperrealistic 8k masterpiece.
+
+  bung_tomo:
+    name: "Sutomo / Bung Tomo"
+    era_period: "1945 M (Pertempuran Surabaya)"
+    age_dramatic: "25 tahun"
+    narrative_short: >
+      Pemimpin oratorik Perang Surabaya 10 November 1945. Berorasi lewat radio.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas hitam pendek"
+      lower_body: "Celana panjang hitam"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Bung Tomo oration in Surabaya 1945, charismatic
+        young man 20s with beard and peci, wearing dark jacket, hand raised in
+        speech, crowd of pemuda youth with bambu runcing and red-white armband,
+        dramatic speaker's platform, sunset light, hyperrealistic 8k masterpiece.
+
+  sudirman:
+    name: "Jenderal Sudirman"
+    era_period: "1945-1950 M"
+    age_dramatic: "30-an"
+    narrative_short: >
+      Jenderal Besar TNI pertama. Memimpin gerilya 1948-1949. Sakit paru-paru,
+      wafat 29 Januari 1950.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Seragam hijau zaitun dengan emblem bintang"
+      lower_body: "Celana panjang militer"
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of General Sudirman guerrilla warfare 1948, sick
+        Javanese general 30s in olive military uniform with peci, carried on
+        stretcher through jungle by soldiers, emaciated but determined expression,
+        misty forest, dramatic morning light, hyperrealistic 8k masterpiece.
+
+  # === TOKOH MARXIS-KOMUNIS ===
+
+  henk_sneevliet:
+    name: "Henk Sneevliet"
+    era_period: "1883-1942 M (ISDV 1914, PKI 1920)"
+    age_dramatic: "30-40 tahun (saat di Hindia)"
+    narrative_short: >
+      Pendiri ISDV (1914) yang menjadi PKI (1920). Revolusioner internasionalis
+      Belanda. Juga membantu pendirian Partai Komunis Cina 1921. Dieksekusi
+      Nazi 1942.
+    wardrobe:
+      headwear: "Topi tinggi (top hat) atau tanpa topi"
+      upper_body: "Jas hitam Eropa abad awal 20"
+      lower_body: "Celana panjang hitam"
+      accessories: ["Kacamata bulat", "Dokumen/surat"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Henk Sneevliet, Dutch socialist revolutionary
+        1910s Hindia Belanda, intellectual man 30-40 with round glasses and
+        intense eyes, wearing dark European suit with documents in hand, Surabaya
+        harbor background with Dutch colonial buildings and Indonesian workers,
+        dramatic afternoon light, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Henk Sneevliet 1910s Dutch socialist, dark
+        European suit, white collar shirt, round glasses, documents, top hat,
+        black and white color palette, matte fabric texture, museum-quality
+        detail shot, hyperdetailed 8k.
+
+  semaun:
+    name: "Semaun"
+    era_period: "1899-1971 M (Ketua PKI 1920-1923)"
+    age_dramatic: "20-an (saat jadi ketua PKI)"
+    narrative_short: >
+      Ketua pertama PKI (usia 21 tahun). Pegawai kereta api Surabaya yang
+      menjadi pemimpin revolusioner. Pemimpin SI cabang Semarang.
+    wardrobe:
+      headwear: "Peci hitam atau tanpa topi"
+      upper_body: "Kemeja putih sederhana"
+      lower_body: "Celana panjang hitam"
+      accessories: ["Dokumen/surat", "Koran"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Semaun, young Indonesian communist leader 1920s
+        first chairman of PKI, charismatic young man 20s with determined eyes,
+        wearing simple white shirt and black trousers with peci, holding
+        documents and newspaper, Surabaya railway station background with
+        Indonesian workers, dramatic golden hour, hyperdetailed hyperrealistic
+        8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Semaun 1920s Indonesian communist leader,
+        peci hitam, simple white cotton shirt, black trousers, documents in
+        hand, newspaper, white and black color palette, matte fabric texture,
+        museum-quality detail shot, hyperdetailed 8k.
+
+  tan_malaka:
+    name: "Tan Malaka"
+    full_name: "Ibrahim Datuk Sutan Malaka"
+    era_period: "1897-1949 M"
+    age_dramatic: "40-50 tahun (era revolusi)"
+    narrative_short: >
+      Filsuf Marxis terbesar Indonesia. Pendiri Persatuan Perjuangan (1946)
+      dan Partai Murba. Penulis Madilog. 23 nama samaran. "Bapak Republik
+      Indonesia" menurut Tempo. Ditangkap dan dieksekusi TNI Februari 1949.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas hitam sederhana atau kemeja putih"
+      lower_body: "Celana panjang hitam"
+      accessories: ["Dokumen/surat", "Buku (Madilog)"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Tan Malaka, Indonesian Marxist philosopher and
+        revolutionary 1940s, mysterious intelligent man 40-50 with sharp
+        penetrating eyes, wearing simple dark jacket with white shirt and black
+        peci, holding manuscript (Madilog) and documents, dark room with map
+        of Southeast Asia on wall, dramatic chiaroscuro lighting, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Tan Malaka 1940s Indonesian Marxist
+        philosopher, black peci, simple dark jacket, white shirt, black
+        trousers, manuscript and documents in hand, black and white color
+        palette, matte fabric texture, museum-quality detail shot, hyperdetailed
+        8k.
+
+  musso:
+    name: "Musso"
+    full_name: "Munawar Musso"
+    era_period: "1897-1948 M"
+    age_dramatic: "40-50 tahun"
+    narrative_short: >
+      Pemimpin PKI. Tokoh kunci Peristiwa Madiun 1948. Kembali dari Moscow
+      Agustus 1948. Membentuk FDR. Tewas ditembak 31 Oktober 1948 di Ponorogo.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas hitam sederhana, kemeja putih"
+      lower_body: "Celana panjang hitam"
+      accessories: ["Dokumen", "Mata tajam ideologis"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Musso, Indonesian communist leader 1948 returning
+        from Moscow, stern ideological man 40-50 with sharp eyes, wearing simple
+        dark jacket with white shirt and black peci, holding documents, Madiun
+        background with FDR flags, dramatic tense atmosphere, hyperdetailed
+        hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of Musso 1948 Indonesian communist leader,
+        black peci, simple dark jacket, white shirt, black trousers, documents,
+        black and white color palette, matte fabric texture, museum-quality
+        detail shot, hyperdetailed 8k.
+
+  dn_aidit:
+    name: "D.N. Aidit"
+    full_name: "Dipa Nusantara Aidit"
+    era_period: "1923-1965 M (Sekjen PKI 1951-1965)"
+    age_dramatic: "30-40 tahun (era puncak PKI)"
+    narrative_short: >
+      Sekjen PKI (1951-1965). Membawa PKI dari partai kecil menjadi partai
+      massa 3 juta anggota. Bersekutu dengan Soekarno (NASAKOM). Dieksekusi
+      22 November 1965 setelah G30S.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas hitam sederhana, kemeja putih"
+      lower_body: "Celana panjang hitam"
+      accessories: ["Dokumen", "Beret merah (kadang)"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of D.N. Aidit, Indonesian communist leader 1950s-60s
+        Secretary General of PKI, charismatic ideological man 30-40 with
+        determined eyes, wearing simple dark suit with white shirt and black peci,
+        holding documents, Jakarta rally background with red flags and crowd,
+        dramatic golden hour, hyperdetailed hyperrealistic 8k masterpiece.
+      wardrobe_detail: >
+        Detailed wardrobe study of D.N. Aidit 1950s-60s Indonesian communist
+        leader, black peci, simple dark suit, white shirt, black trousers,
+        documents, red star pin, black and white color palette with red accent,
+        matte fabric texture, museum-quality detail shot, hyperdetailed 8k.
+
+  mh_lukman:
+    name: "M.H. Lukman"
+    era_period: "1920-1966 M"
+    age_dramatic: "40-an"
+    narrative_short: >
+      Wakil Sekjen PKI. Rekan dekat Aidit. Tumbuh di Boven Digul (ayah dibuang
+      PKI 1926). Dieksekusi 1966 setelah G30S.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas hitam, kemeja putih"
+      lower_body: "Celana panjang hitam"
+      accessories: ["Kacamata", "Dokumen"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of M.H. Lukman, Indonesian communist deputy leader
+        1950s-60s, intellectual man 40s with glasses and calm demeanor, wearing
+        simple dark suit with white shirt and black peci, holding documents,
+        Jakarta PKI office background, dramatic afternoon light, hyperdetailed
+        hyperrealistic 8k masterpiece.
+
+  njoto:
+    name: "Njoto"
+    era_period: "1927-1965 M"
+    age_dramatic: "30-40 tahun"
+    narrative_short: >
+      Anggota Politbiro PKI. Ideolog dan orator. Dieksekusi setelah G30S 1965.
+    wardrobe:
+      headwear: "Peci hitam"
+      upper_body: "Jas hitam, kemeja putih"
+      lower_body: "Celana panjang hitam"
+      accessories: ["Dokumen"]
+    prompt_t2i:
+      character_portrait: >
+        Cinematic portrait of Njoto, Indonesian communist ideologue and orator
+        1950s-60s, charismatic man 30-40 with passionate eyes, wearing simple
+        dark suit with white shirt and black peci, raising hand in speech,
+        Jakarta rally background with crowd, dramatic golden hour, hyperdetailed
+        hyperrealistic 8k masterpiece.
+
+# =============================================================================
+# LOKASI
+# =============================================================================
+locations:
+
+  gedung_proklamasi:
+    name: "Gedung Proklamasi (Jalan Pegangsaan Timur 56)"
+    era: "17 Agustus 1945"
+    prompt_t2i:
+      landscape: >
+        Cinematic scene of Indonesian Proclamation of Independence 17 August
+        1945, Soekarno and Hatta in front of Gedung Proklamasi at Pegangsaan
+        Timur 56, crowd of Indonesians, Japanese soldiers observing, morning
+        light, dramatic historical scene, hyperdetailed 8k masterpiece.
+
+  surabaya_battle:
+    name: "Surabaya — Pertempuran 10 November 1945"
+    era: "Oktober-November 1945"
+    prompt_t2i:
+      landscape: >
+        Cinematic epic battle scene of Battle of Surabaya 10 November 1945,
+        young Indonesian fighters in mixed clothing - some in white sarung and
+        peci, some in Japanese-style military uniform, charging with bambu
+        runcing bamboo spears and rifles, British tanks burning, urban Surabaya
+        battle scene, dramatic smoke and fire, painterly epic, hyperdetailed 8k
+        masterpiece.
+
+  yogyakarta_revolutionary_capital:
+    name: "Yogyakarta — Ibu Kota Revolusi (1946-1949)"
+    era: "1946-1949"
+    prompt_t2i:
+      landscape: >
+        Cinematic scene of Yogyakarta 1946-1949 revolutionary capital, Jalan
+        Malioboro with Dutch colonial shophouses, horse-drawn dokar carts,
+        Indonesian soldiers in olive uniform and peci, students in white shirt
+        and peci, Gedung Agung presidential palace background, warm afternoon
+        light, cinematic wide shot, hyperdetailed 8k masterpiece.
+
+  madiun_1948:
+    name: "Madiun — Peristiwa Madiun 1948"
+    era: "18 September 1948"
+    prompt_t2i:
+      landscape: >
+        Cinematic tense scene of Madiun affair September 1948, Musso (communist
+        leader in dark suit) and FDR supporters seizing Madiun, Indonesian
+        republican soldiers confronting, tense atmosphere with red flags and
+        Indonesian flags, dramatic stormy sky, painterly dramatic, hyperdetailed
+        8k masterpiece.
+
+# =============================================================================
+# WARDALE
+# =============================================================================
+wardrobe:
+
+  soekarno_formal:
+    name: "Busana Soekarno (Jas Putih + Peci)"
+    elements: ["Jas putih", "Dasi hitam", "Peci hitam", "Kain batik", "Kacamata hitam"]
+    prompt_t2i: >
+      Detailed Soekarno formal wardrobe 1945, black peci cap, white colonial suit
+      jacket with black tie, batik kain at waist, black trousers, black sunglasses,
+      white and black color palette with batik accents, matte fabric texture,
+      museum-quality detail shot, hyperdetailed 8k.
+
+  revolutionary_fighter:
+    name: "Busana Pejuang Revolusi"
+    elements: ["Seragam militer bekas Jepang (Heiho/PETA)", "Jas lokan", "Kain batik", "Baju putih", "Sarung dan koko", "Peci hitam", "Ikat kepala merah putih"]
+    prompt_t2i: >
+      Detailed Indonesian revolutionary fighter wardrobe 1945-1949, mixed
+      Japanese military uniform with civilian clothing, olive green jacket,
+      batik kain, peci hitam, red-white armband, bambu runcing spear, captured
+      Arisaka rifle, earth-tone palette, matte fabric texture, museum-quality
+      detail shot, hyperdetailed 8k.
+
+  hizbullah_sabilillah:
+    name: "Busana Pasukan Hizbullah & Sabilillah"
+    elements: ["Jubah putih", "Sorban putih", "Keris", "Senapan rampasan"]
+    prompt_t2i: >
+      Detailed Indonesian Islamic militia (Hizbullah) wardrobe 1945-1949, white
+      jubah robe, white sorban turban, keris at waist, captured Japanese rifle,
+      white color palette, matte fabric texture, museum-quality detail shot,
+      hyperdetailed 8k.
+
+  marxist_intellectual:
+    name: "Busana Tokoh Marxis (Tan Malaka, Musso, Aidit)"
+    elements: ["Jas hitam sederhana", "Kemeja putih", "Peci hitam", "Celana panjang hitam", "Dokumen/surat", "Beret merah (kadang)"]
+    prompt_t2i: >
+      Detailed Indonesian Marxist intellectual wardrobe 1940s-60s, black peci,
+      simple dark jacket, white shirt, black trousers, documents, red star pin
+      or red beret, black and white color palette with red accent, matte fabric
+      texture, museum-quality detail shot, hyperdetailed 8k.
+
+# =============================================================================
+# SENJATA & PROPERTI
+# =============================================================================
+artifacts:
+  weapons:
+    - name: "Senapan Arisaka (Type 99, Type 38)"
+      description: "Rampasan dari Jepang, kaliber 6.5mm dan 7.7mm"
+    - name: "Senapan Mannlicher"
+      description: "Rampasan dari Belanda"
+    - name: "Bambu Runcing"
+      description: "Senjata simbolik pemuda — bambu yang diruncingkan"
+    - name: "Garda Asta"
+      description: "Pedang lurus untuk pasukan garis depan"
+    - name: "Pistol Nambu (Jepang) dan Colt (USA)"
+    - name: "Granat tangan"
+  key_documents:
+    - name: "Naskah Proklamasi (diketik Sayuti Melik)"
+    - name: "Madilog (1943) karya Tan Malaka"
+    - name: "Dari Penjara ke Penjara karya Tan Malaka"
+    - name: "Dokumen PKI/Comintern (di IISG Amsterdam & RGASPI Moscow)"
+    - name: "Piagam Jakarta (Pancasila awal)"
+    - name: "Bendera Merah Putih (dijahit dari kain sprei)"
+
+# =============================================================================
+# PROMPT LIBRARY
+# =============================================================================
+prompt_library:
+  character_portraits:
+    - id: "p8_char_001"
+      character: "soekarno"
+      scene: "Soekarno membacakan Proklamasi 17 Agustus 1945"
+      prompt: >
+        Cinematic portrait of Soekarno proclaiming Indonesian independence
+        17 August 1945, man 40s with slicked back hair, wearing white colonial
+        suit jacket with black peci cap and batik kain, holding paper proclamation,
+        Gedung Proklamasi Jakarta background, dramatic morning light, hyperrealistic
+        cinematic portrait, hyperdetailed 8k masterpiece.
+    - id: "p8_char_002"
+      character: "tan_malaka"
+      scene: "Tan Malaka — filsuf Marxis yang misterius"
+      prompt: >
+        Cinematic portrait of Tan Malaka, Indonesian Marxist philosopher and
+        revolutionary 1940s, mysterious intelligent man 40-50 with sharp
+        penetrating eyes, wearing simple dark jacket with white shirt and black
+        peci, holding manuscript (Madilog) and documents, dark room with map
+        of Southeast Asia on wall, dramatic chiaroscuro lighting, hyperdetailed
+        hyperrealistic 8k masterpiece.
+    - id: "p8_char_003"
+      character: "musso"
+      scene: "Musso kembali dari Moscow 1948"
+      prompt: >
+        Cinematic portrait of Musso, Indonesian communist leader 1948 returning
+        from Moscow, stern ideological man 40-50 with sharp eyes, wearing simple
+        dark jacket with white shirt and black peci, holding documents, Madiun
+        background with FDR flags, dramatic tense atmosphere, hyperdetailed
+        hyperrealistic 8k masterpiece.
+    - id: "p8_char_004"
+      character: "dn_aidit"
+      scene: "D.N. Aidit di puncak PKI 1960an"
+      prompt: >
+        Cinematic portrait of D.N. Aidit, Indonesian communist leader 1960s
+        Secretary General of PKI, charismatic ideological man 30-40 with
+        determined eyes, wearing simple dark suit with white shirt and black peci,
+        holding documents, Jakarta rally background with red flags and crowd,
+        dramatic golden hour, hyperdetailed hyperrealistic 8k masterpiece.
+
+  location_scenes:
+    - id: "p8_loc_001"
+      location: "gedung_proklamasi"
+      scene: "Proklamasi Kemerdekaan 17 Agustus 1945"
+      prompt: >
+        Cinematic scene of Indonesian Proclamation of Independence 17 August
+        1945, Soekarno and Hatta in front of Gedung Proklamasi, crowd,
+        morning light, dramatic historical scene, hyperdetailed 8k masterpiece.
+    - id: "p8_loc_002"
+      location: "surabaya_battle"
+      scene: "Pertempuran Surabaya 10 November 1945"
+      prompt: >
+        Cinematic epic battle scene of Battle of Surabaya 10 November 1945,
+        young Indonesian fighters charging with bambu runcing and rifles,
+        British tanks burning, dramatic smoke and fire, painterly epic,
+        hyperdetailed 8k masterpiece.
+    - id: "p8_loc_003"
+      location: "madiun_1948"
+      scene: "Peristiwa Madiun 1948"
+      prompt: >
+        Cinematic tense scene of Madiun affair September 1948, Musso and FDR
+        supporters seizing Madiun, Indonesian republican soldiers confronting,
+        tense atmosphere with red flags and Indonesian flags, dramatic stormy
+        sky, painterly dramatic, hyperdetailed 8k masterpiece.
+
+  historical_moments:
+    - id: "p8_mom_001"
+      title: "Proklamasi Kemerdekaan 17 Agustus 1945"
+      prompt: >
+        Cinematic scene of Indonesian Proclamation of Independence 17 August
+        1945, Soekarno (man 40s in white suit with peci) reading proclamation,
+        Hatta (man 40s in grey suit with peci and glasses) beside him, crowd
+        of Indonesians cheering, Japanese officers observing, Gedung Proklamasi
+        background, dramatic morning light, painterly historic, hyperdetailed 8k
+        masterpiece.
+    - id: "p8_mom_002"
+      title: "Persatuan Perjuangan Tan Malaka 1946"
+      prompt: >
+        Cinematic scene of Tan Malaka founding Persatuan Perjuangan January
+        1946, Indonesian Marxist philosopher 40-50 in dark jacket with peci,
+        speaking to coalition of 140 left-wing organizations, tense atmosphere
+        with Soekarno supporters observing, Yogyakarta hall background, dramatic
+        candlelight, hyperrealistic historical scene, hyperdetailed 8k masterpiece.
+    - id: "p8_mom_003"
+      title: "Peristiwa Madiun 18 September 1948"
+      prompt: >
+        Cinematic dramatic scene of Madiun affair 18 September 1948, Musso
+        (communist leader 50s in dark suit with peci) declaring FDR government
+        in Madiun, Indonesian republican soldiers confronting, red flags and
+        Indonesian flags side by side, tense atmosphere, dramatic stormy sky,
+        painterly dramatic, hyperdetailed 8k masterpiece.
+    - id: "p8_mom_004"
+      title: "Eksekusi Tan Malaka Februari 1949"
+      prompt: >
+        Cinematic tragic scene of Tan Malaka's execution February 1949,
+        Indonesian Marxist philosopher 50s in simple dark clothing with peci,
+        facing TNI firing squad in forest near Kediri, mysterious atmosphere,
+        dramatic dawn light, painterly tragic, hyperdetailed 8k masterpiece.
+    - id: "p8_mom_005"
+      title: "Serangan Umum 1 Maret 1949"
+      prompt: >
+        Cinematic epic scene of General Offensive 1 March 1949, Indonesian
+        TNI soldiers attacking Dutch positions in Yogyakarta, Lieutenant Colonel
+        Soeharto commanding, dawn attack with gunfire and explosions, Dutch
+        soldiers surprised, dramatic stormy dawn sky, painterly epic battle,
+        hyperdetailed 8k masterpiece.
+
+  daily_life:
+    - id: "p8_dl_001"
+      title: "Yogyakarta ibu kota revolusi 1946-1949"
+      prompt: >
+        Cinematic scene of Yogyakarta 1946-1949 revolutionary capital, Jalan
+        Malioboro with Dutch colonial shophouses, horse-drawn dokar carts,
+        Indonesian soldiers in olive uniform and peci, students in white shirt
+        and peci, Gedung Agung presidential palace background, warm afternoon
+        light, cinematic wide shot, hyperdetailed 8k masterpiece.
+    - id: "p8_dl_002"
+      title: "Pertemuan tokoh Marxis di Yogyakarta 1946"
+      prompt: >
+        Cinematic scene of Marxist leaders meeting in Yogyakarta 1946, Tan
+        Malaka (man 40-50 in dark jacket with peci) discussing with Musso
+        (man 40-50 in dark suit), Alimin (man 50-60 in dark suit with glasses),
+        documents and maps on table, tense ideological atmosphere, dramatic
+        candlelight, hyperrealistic historical scene, hyperdetailed 8k
+        masterpiece.
+
+# =============================================================================
+# CATATAN PRODUKSI
+# =============================================================================
+production_notes:
+  color_palette_overall:
+    description: >
+      Era Kemerdekaan memiliki palet warna yang mencerminkan kontras:
+      putih (nasionalis/kemerdekaan), hitam (Marxis/formal), hijau zaitun (militer),
+      merah (komunis/Marxis), merah-putih (bendera).
+    primary_colors:
+      - "Putih (jas Soekarno, jubah Hizbullah)"
+      - "Hitam (jas Marxis, peci)"
+      - "Hijau zaitun (seragam militer)"
+      - "Coklat (kain batik, jas lokan)"
+    accent_colors:
+      - "Merah (bendera, beret Marxis, bintang)"
+      - "Emas (keris, perhiasan keraton)"
+
+  cultural_authenticity:
+    important_details:
+      - "Soekarno: jas putih + peci hitam — simbol nasionalis-modernis"
+      - "Hatta: jas abu-abu + kacamata — simbol intelektual-pragmatis"
+      - "Tan Malaka: jas hitam sederhana + peci — master of disguise (23 identitas)"
+      - "Musso: jas hitam + peci — ortodoks Moskow-line"
+      - "Aidit: jas hitam + peci + beret merah (kadang) — Marxis populis"
+      - "Pejuang revolusi: pakaian campuran (militer Jepang + batik + peci)"
+      - "Hizbullah: jubah putih + sorban — pasukan Islam"
+      - "Bambu runcing: simbol perjuangan rakyat yang tidak punya senjata modern"
+
+# =============================================================================
+# END OF MASTER PHASE 8
+# =============================================================================

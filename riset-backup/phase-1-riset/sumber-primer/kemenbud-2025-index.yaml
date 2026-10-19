@@ -1,0 +1,562 @@
+# =============================================================================
+# INDEX SUMBER PRIMER — 5 Jilid Sejarah Indonesia (Kemenbud RI 2025)
+# =============================================================================
+# Sumber resmi: Kementerian Kebudayaan Republik Indonesia (2025)
+# Judul: Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global
+# URL: https://pustakabudaya.id
+# Tahun terbit: 2025 (cetak), 2026 (ebook)
+# Total: 5 jilid, 78 bab, 5.204 halaman, 1.310.456 kata
+# Diolah oleh: Akhmad Mahmud & Asisten AI GLM 5.2 — Yayasan Jaya Sanga Nusantara
+# Konverter: pymupdf4llm v1.28.2 (OCR: ind+eng)
+# =============================================================================
+
+meta:
+  source_type: "buku resmi terbitan pemerintah"
+  publisher: "Kementerian Kebudayaan Republik Indonesia"
+  published_year: 2025
+  physical_launch_date: "2025-12-14"
+  ebook_release_date: "2026-08-31"
+  official_url: "https://pustakabudaya.id"
+  total_jilid: 5
+  total_chapters: 78
+  total_pages: 5204
+  total_words: 1310456
+  total_md_size_mb: 9.8
+  license: "Penggunaan terbuka untuk tujuan edukasi (sesuai kebijakan Kemenbud RI)"
+  catatan: >
+    Sumber primer TERPERCAYA untuk riset drama Nusantara. Buku ini ditulis
+    oleh tim sejarawan Indonesia, diawasi Kementerian Kebudayaan RI, dengan
+    standar akademis tinggi. Lebih otoritatif daripada Wikipedia untuk
+    produksi drama formal.
+
+# =============================================================================
+# RINGKASAN 5 JILID
+# =============================================================================
+jilid:
+
+  jilid_1_akar_peradaban:
+    nomor: 1
+    judul: "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"
+    subjudul: "Jilid I — Akar Peradaban Nusantara"
+    halaman: 1252
+    kata: 319637
+    bab_jumlah: 6
+    periode: "Prasejarah — awal Masehi (sebelum 300 M)"
+    fokus: >
+      Geologi Nusantara, persebaran manusia purba, teknologi prasejarah,
+      religi-seni-tradisi asli, organisasi sosial awal, maritim dan jaringan
+      budaya Nusantara sebelum pengaruh India.
+    relevan_untuk_fase_drama:
+      - "Fase 1 (Mataram Kuno) — latar akar: religi-seni prasejarah, teknologi"
+    bab:
+      - nomor: 1
+        judul: "Kondisi Lingkungan Alam Nusantara Masa Lampau"
+        halaman: "1-130"
+        kata: 23024
+        relevan_fase: ["Fase 1 (latar geologis Mataram Kuno)"]
+      - nomor: 2
+        judul: "Manusia: Persebaran dan Perkembangannya"
+        halaman: "131-380"
+        kata: 55568
+        relevan_fase: ["Pra-Mataram (Kutai, Tarumanagara) — asal-usul manusia Jawa"]
+      - nomor: 3
+        judul: "Perkembangan Teknologi"
+        halaman: "381-660"
+        kata: 59615
+        relevan_fase: ["Fase 1 (Mataram Kuno) — teknologi perunggu, besi, candi"]
+      - nomor: 4
+        judul: "Religi, Seni, dan Tradisi"
+        halaman: "661-960"
+        kata: 58981
+        relevan_fase: ["Fase 1 (Mataram Kuno) — religi pra-Hindu, animisme"]
+      - nomor: 5
+        judul: "Organisasi Sosial dan Perkembangan Masyarakat"
+        halaman: "961-1180"
+        kata: 50792
+        relevan_fase: ["Pra-Mataram — struktur sosial awal"]
+      - nomor: 6
+        judul: "Maritim dan Jaringan Budaya Nusantara"
+        halaman: "1181-1240"
+        kata: 27683
+        relevan_fase: ["Fase 1 (Mataram Kuno) — jaringan dagang pra-India"]
+
+  jilid_2_india_tiongkok_persia:
+    nomor: 2
+    judul: "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"
+    subjudul: "Jilid II — Nusantara dalam Jaringan Global: Perjumpaan Budaya dengan India, Tiongkok dan Persia"
+    halaman: 1260
+    kata: 308215
+    bab_jumlah: 6
+    periode: "Abad 1 SM — abad 16 M (era Hindu-Buddha)"
+    fokus: >
+      Perjumpaan budaya dengan India (Hindu-Buddha), Tiongkok (Konfusianisme,
+      dagang), Persia (manusia, agama). Dinamika politik kerajaan Nusantara
+      (Kutai, Tarumanagara, Kalingga, Sriwijaya, Mataram Kuno, Singasari,
+      Majapahit). Kehidupan keseharian masyarakat.
+    relevan_untuk_fase_drama:
+      - "Fase 1 (Mataram Kuno) — konteks lengkap Sanjaya sampai Airlangga"
+      - "Fase 2 (Singasari) — Dinamika politik Ken Arok-Kertanegara"
+      - "Fase 3 (Majapahit) — Puncak pencapaian Hindu-Buddha"
+    bab:
+      - nomor: 1
+        judul: "Masyarakat Nusantara dalam Perjumpaan Budaya dengan India, Tiongkok, dan Persia"
+        kata: 4834
+        relevan_fase: ["Fase 1, 2, 3 (pengantar umum)"]
+      - nomor: 2
+        judul: "Persilangan Budaya dengan India, Tiongkok dan Persia"
+        kata: 63574
+        relevan_fase: ["Pra-Mataram (Kutai, Tarumanagara)"]
+      - nomor: 3
+        judul: "Dinamika Politik Kerajaan Nusantara"
+        kata: 76077
+        relevan_fase: ["Fase 1 (Mataram Kuno)", "Fase 2 (Singasari)", "Fase 3 (Majapahit)"]
+        catatan: >
+          BAB PALING PENTING untuk Fase 1-3 drama. Berisi detail politik semua
+          kerajaan Hindu-Buddha Nusantara dari Sanjaya sampai Brawijaya.
+      - nomor: 4
+        judul: "Kehidupan Keseharian Masyarakat Nusantara"
+        kata: 46281
+        relevan_fase: ["Fase 1, 2, 3 (kehidupan sehari-hari, kostum, makanan, perdagangan)"]
+      - nomor: 5
+        judul: "Puncak Pencapaian Persilangan dengan Hindu dan Buddha"
+        kata: 89372
+        relevan_fase: ["Fase 3 (Majapahit) — BAB TERPANJANG, puncak Hindu-Buddha"]
+        catatan: >
+          Bab terpanjang di Jilid 2 (89.372 kata). Fokus pada puncak Majapahit
+          (Hayam Wuruk, Gajah Mada). WAJIB baca untuk drama Majapahit.
+      - nomor: 6
+        judul: "Kemunduran dan Munculnya Tatanan Baru"
+        kata: 9945
+        relevan_fase: ["Fase 3 → Fase 4 (Majapahit runtuh → Demak muncul)"]
+        catatan: >
+          Transisi Majapahit-Demak. Penting untuk memahami peralihan dari
+          Hindu-Buddha ke Islam.
+
+  jilid_3_timur_tengah:
+    nomor: 3
+    judul: "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"
+    subjudul: "Jilid III — Nusantara dalam Jaringan Global: Timur Tengah"
+    halaman: 902
+    kata: 235379
+    bab_jumlah: 9
+    periode: "Abad 7 — abad 16 M (era Islamisasi)"
+    fokus: >
+      Islamisasi Nusantara dari Timur Tengah via bandar dagang. Pembentukan
+      kerajaan Islam (Samudra Pasai, Demak, Aceh, Mataram Islam). Wali Songo.
+      Budaya material Islam (arsitektur masjid, seni kaligrafi).
+    relevan_untuk_fase_drama:
+      - "Fase 4 (Demak) — Walisongo, Raden Patah, Sultan Trenggana"
+      - "Fase 5 (Pajang) — transisi ke Mataram Islam"
+      - "Fase 6 (Mataram Islam) — Sultan Agung"
+    bab:
+      - nomor: 1
+        judul: "Nusantara dalam Arus Perdagangan Jarak Jauh"
+        kata: 14955
+        relevan_fase: ["Fase 4 (Demak) — jaringan dagang Islam"]
+      - nomor: 2
+        judul: "Komunitas Muslim di Bandar Dagang"
+        kata: 28299
+        relevan_fase: ["Pra-Demak (Samudra Pasai, Gresik, Tuban)"]
+      - nomor: 3
+        judul: "Pembentukan Kerajaan"
+        kata: 33211
+        relevan_fase: ["Fase 4 (Demak) — Raden Patah"]
+      - nomor: 4
+        judul: "Kerajaan dan Intensifikasi Islamisasi"
+        kata: 28083
+        relevan_fase: ["Fase 4 (Demak) — Sultan Trenggana"]
+      - nomor: 5
+        judul: "Perkembangan Perdagangan"
+        kata: 24989
+        relevan_fase: ["Fase 4, 5, 6 (Demak, Pajang, Mataram Islam)"]
+      - nomor: 6
+        judul: "Islam dalam Budaya Politik Kerajaan"
+        kata: 23584
+        relevan_fase: ["Fase 6 (Mataram Islam) — Sultan Agung"]
+      - nomor: 7
+        judul: "Wali Songo Mengislamkan Jawa"
+        kata: 28230
+        relevan_fase: ["Fase 4 (Demak) — BAB WAJIB untuk drama Walisongo"]
+        catatan: >
+          BAB PALING PENTING untuk Fase 4 drama. Berisi detail 9 wali (Sunan
+          Ampel, Sunan Bonang, Sunan Drajat, Sunan Giri, Sunan Kalijaga, Sunan
+          Muria, Sunan Gunung Jati, Sunan Kudus, Sunan Ngampel).
+      - nomor: 8
+        judul: "Kebudayaan Material: Warisan Budaya Bendawi Bercorak Islam"
+        kata: 23406
+        relevan_fase: ["Fase 4, 6 — masjid Demak, Kudus, Keraton Mataram"]
+      - nomor: 9
+        judul: "Teks, Ritual, dan Aksara"
+        kata: 10020
+        relevan_fase: ["Fase 4-6 (sastra Islam Jawa, primbon, suluk)"]
+
+  jilid_4_barat:
+    nomor: 4
+    judul: "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"
+    subjudul: "Jilid IV — Interaksi Awal dengan Barat: Kompetisi dan Aliansi"
+    halaman: 908
+    kata: 232076
+    bab_jumlah: 10
+    periode: "Abad 16 — awal 19 M (VOC 1602-1799, interim British 1811-1816)"
+    fokus: >
+      Interaksi awal dengan Eropa (Portugis, Spanyol, Belanda, Inggris).
+      VOC di Nusantara. Hegemoni kekuasaan dan diplomasi. Dinamika keagamaan
+      (aktivisme Islam). Diaspora Nusantara. Rivalitas dan resistensi.
+    relevan_untuk_fase_drama:
+      - "Fase 6 (Mataram Islam akhir — Sultan Agung vs VOC 1628-1629)"
+      - "Fase 7 (Kolonial awal — VOC, Daendels, Raffles)"
+    bab:
+      - nomor: 1
+        judul: "Nusantara dan Jaringan Perdagangan Eropa"
+        kata: 37560
+        relevan_fase: ["Fase 7 (Kolonial) — bab pengantar"]
+      - nomor: 2
+        judul: "Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII"
+        kata: 30701
+        relevan_fase: ["Fase 6 (Mataram Islam) — Sultan Agung vs VOC"]
+        catatan: >
+          BAB KUNCI untuk drama Sultan Agung serang Batavia (1628, 1629).
+      - nomor: 3
+        judul: "Dinamika Keagamaan Baru: Aktivisme dan Intelektualisme Islam"
+        kata: 13898
+        relevan_fase: ["Fase 6 (Mataram Islam) — aktivisme Islam abad 17-18"]
+      - nomor: 4
+        judul: "VOC di Nusantara: Monopoli dan Negosiasi"
+        kata: 19158
+        relevan_fase: ["Fase 7 (Kolonial) — VOC"]
+      - nomor: 5
+        judul: "Dari Jaringan Dagang ke Kekuasaan Kolonial: Papua Barat dalam Dinamika Dunia Maritim Timur Nusantara, 1500-1800"
+        kata: 17789
+        relevan_fase: ["Fase 7 (Kolonial) — Papua, ekspansi timur"]
+      - nomor: 6
+        judul: "VOC di Pulau Banda: Monopoli Rempah, Kekerasan, dan Perbudakan"
+        kata: 15982
+        relevan_fase: ["Fase 7 (Kolonial) — pembantaian Banda 1621"]
+        catatan: >
+          BAB DRAMATIK untuk drama pembantaian Banda oleh JP Coen (1621).
+      - nomor: 7
+        judul: "Diaspora Nusantara: Migrasi dan Perjumpaan Etnik dalam Sejarah Indonesia"
+        kata: 26526
+        relevan_fase: ["Fase 7 (Kolonial) — diaspora Tionghoa, Arab, India"]
+      - nomor: 8
+        judul: "Rivalitas dan Resistensi"
+        kata: 24427
+        relevan_fase: ["Fase 7 (Kolonial) — pemberontakan lokal vs VOC"]
+        catatan: >
+          BAB PENTING untuk drama pemberontakan daerah (Trunojoyo, Surapati,
+          dll.).
+      - nomor: 9
+        judul: "Riau-Johor dan Aceh di Barat Nusantara Abad XVII: Dari Rivalitas Regional menuju Konfrontasi dengan VOC"
+        kata: 11477
+        relevan_fase: ["Fase 7 (Kolonial) — Aceh, Riau"]
+      - nomor: 10
+        judul: "Kemunduran VOC"
+        kata: 13052
+        relevan_fase: ["Fase 7 (Kolonial) — VOC bangkrut 1799"]
+
+  jilid_5_kolonial_1800_1900:
+    nomor: 5
+    judul: "Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global"
+    subjudul: "Jilid V — Masyarakat Indonesia dan Terbentuknya Negara Kolonial 1800-1900"
+    halaman: 882
+    kata: 215149
+    bab_jumlah: 7
+    periode: "1800-1900 M (Hindia Belanda abad 19)"
+    fokus: >
+      Pembentukan negara kolonial terpusat (Hindia Belanda). Sistem hukum,
+      ekonomi (Cultuurstelsel 1830), infrastruktur (jalan kereta api),
+      struktur sosial-keagamaan, pemberontakan dan perlawanan (Diponegoro,
+      padri, Aceh), produksi pengetahuan kolonial.
+    relevan_untuk_fase_drama:
+      - "Fase 7 (Kolonial) — abad 19 (Diponegoro, Cultuurstelsel, Aceh)"
+    bab:
+      - nomor: 1
+        judul: "Pemerintahan dan Sistem Administrasi: Dari Kekuasaan Lokal menuju Negara Kolonial Terpusat"
+        kata: 26096
+        relevan_fase: ["Fase 7 (Kolonial) — administrasi Hindia Belanda"]
+      - nomor: 2
+        judul: "Sistem Hukum, Perundang-undangan dan Peradilan: Dari Transplantasi Hukum Eropa menuju Tata Hukum Kolonial Berlapis"
+        kata: 26845
+        relevan_fase: ["Fase 7 (Kolonial) — sistem hukum"]
+      - nomor: 3
+        judul: "Sistem dan Institusi Ekonomi: Dari Ekonomi Kolonial Awal hingga Krisis Akhir Abad XIX"
+        kata: 28859
+        relevan_fase: ["Fase 7 (Kolonial) — Cultuurstelsel, krisis 1880-an"]
+        catatan: >
+          BAB KUNCI untuk drama Cultuurstelsel (Van den Bosch 1830) dan
+          Max Havelaar (Multatuli 1860).
+      - nomor: 4
+        judul: "Fondasi Infrastruktur Publik: Penguatan Konektivitas Kepulauan"
+        kata: 29001
+        relevan_fase: ["Fase 7 (Kolonial) — jalan raya Pos, kereta api 1867"]
+      - nomor: 5
+        judul: "Struktur Sosial dan Keagamaan: Dari Rekayasa Sosial Kolonial menuju Dinamika Keberagaman"
+        kata: 39140
+        relevan_fase: ["Fase 7 (Kolonial) — stratifikasi sosial kolonial"]
+        catatan: >
+          Bab terpanjang di Jilid 5 (39.140 kata). Fokus pada etika kolonial
+          dan respons Islam Kristen.
+      - nomor: 6
+        judul: "Pemberontakan dan Perlawanan: Dari Resistensi Lokal menuju Pengalaman Kolektif Perlawanan Kolonial"
+        kata: 21745
+        relevan_fase: ["Fase 7 (Kolonial) — Diponegoro, Padri, Aceh, Banten 1888"]
+        catatan: >
+          BAB KUNCI untuk drama pemberontakan abad 19. Termasuk Diponegoro
+          (1825-1830), Perang Padri (1803-1838), Perang Aceh (1873-1904),
+          Banten 1888.
+      - nomor: 7
+        judul: "Produksi Pengetahuan dan Penguatan Kekuasaan Kolonial: Dari Eksplorasi Ilmiah menuju Dominasi Epistemik"
+        kata: 23523
+        relevan_fase: ["Fase 7 (Kolonial) — etnografi kolonial, Snouck Hurgronje"]
+
+# =============================================================================
+# PEMETAAN BAB → FASE DRAMA NUSANTARA
+# =============================================================================
+mapping_ke_fase_drama:
+
+  fase_1_mataram_kuno:
+    periode_drama: "732-1016 M"
+    sumber_utama:
+      - jilid: 2
+        bab: 3
+        judul: "Dinamika Politik Kerajaan Nusantara"
+        alasan: "Detail politik Mataram Kuno (Sanjaya → Airlangga)"
+      - jilid: 2
+        bab: 4
+        judul: "Kehidupan Keseharian Masyarakat Nusantara"
+        alasan: "Detail kostum, makanan, kehidupan rakyat"
+      - jilid: 2
+        bab: 5
+        judul: "Puncak Pencapaian Persilangan dengan Hindu dan Buddha"
+        alasan: "Puncak Mataram Kuno — Borobudur, Prambanan"
+      - jilid: 2
+        bab: 6
+        judul: "Kemunduran dan Munculnya Tatanan Baru"
+        alasan: "Akhir Mataram Kuno, muncul Islam"
+      - jilid: 1
+        bab: 3
+        judul: "Perkembangan Teknologi"
+        alasan: "Teknologi perunggu, besi, arsitektur candi"
+      - jilid: 1
+        bab: 6
+        judul: "Maritim dan Jaringan Budaya Nusantara"
+        alasan: "Jaringan dagang maritim"
+
+  fase_2_singasari:
+    periode_drama: "1222-1292 M"
+    sumber_utama:
+      - jilid: 2
+        bab: 3
+        judul: "Dinamika Politik Kerajaan Nusantara"
+        alasan: "Ken Arok, Anusapati, Tohjaya, Wisnuwardhana, Kertanegara"
+      - jilid: 2
+        bab: 5
+        judul: "Puncak Pencapaian Persilangan dengan Hindu dan Buddha"
+        alasan: "Puncak Singasari, Kertanegara, Pamalayu"
+
+  fase_3_majapahit:
+    periode_drama: "1293-1527 M"
+    sumber_utama:
+      - jilid: 2
+        bab: 3
+        judul: "Dinamika Politik Kerajaan Nusantara"
+        alasan: "Raden Wijaya, Hayam Wuruk, Gajah Mada"
+      - jilid: 2
+        bab: 5
+        judul: "Puncak Pencapaian Persilangan dengan Hindu dan Buddha"
+        alasan: "PUNCAK Majapahit — bab terpanjang di Jilid 2"
+      - jilid: 2
+        bab: 6
+        judul: "Kemunduran dan Munculnya Tatanan Baru"
+        alasan: "Akhir Majapahit 1527"
+
+  fase_4_demak:
+    periode_drama: "1475-1548 M"
+    sumber_utama:
+      - jilid: 3
+        bab: 7
+        judul: "Wali Songo Mengislamkan Jawa"
+        alasan: "BAB WAJIB untuk drama Walisongo — detail 9 wali"
+      - jilid: 3
+        bab: 3
+        judul: "Pembentukan Kerajaan"
+        alasan: "Raden Patah dirikan Demak"
+      - jilid: 3
+        bab: 4
+        judul: "Kerajaan dan Intensifikasi Islamisasi"
+        alasan: "Sultan Trenggana, ekspansi Demak"
+      - jilid: 3
+        bab: 8
+        judul: "Kebudayaan Material: Warisan Budaya Bendawi Bercorak Islam"
+        alasan: "Masjid Demak, arsitektur kayu"
+
+  fase_5_pajang:
+    periode_drama: "1568-1587 M"
+    sumber_utama:
+      - jilid: 3
+        bab: 5
+        judul: "Perkembangan Perdagangan"
+        alasan: "Pajang sebagai pusat dagang"
+      - jilid: 3
+        bab: 6
+        judul: "Islam dalam Budaya Politik Kerajaan"
+        alasan: "Transisi Demak → Pajang → Mataram"
+
+  fase_6_mataram_islam:
+    periode_drama: "1587-1755 M"
+    sumber_utama:
+      - jilid: 4
+        bab: 2
+        judul: "Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII"
+        alasan: "BAB KUNCI — Sultan Agung vs VOC 1628-1629"
+      - jilid: 4
+        bab: 3
+        judul: "Dinamika Keagamaan Baru: Aktivisme dan Intelektualisme Islam"
+        alasan: "Aktivisme Islam abad 17-18"
+      - jilid: 3
+        bab: 6
+        judul: "Islam dalam Budaya Politik Kerajaan"
+        alasan: "Mataram Islam, Sultan Agung"
+
+  fase_7_kolonial:
+    periode_drama: "1602-1942 M"
+    sumber_utama:
+      - jilid: 4
+        bab: 1
+        judul: "Nusantara dan Jaringan Perdagangan Eropa"
+        alasan: "Pengantar kolonial Eropa"
+      - jilid: 4
+        bab: 4
+        judul: "VOC di Nusantara: Monopoli dan Negosiasi"
+        alasan: "VOC 1602-1799"
+      - jilid: 4
+        bab: 6
+        judul: "VOC di Pulau Banda: Monopoli Rempah, Kekerasan, dan Perbudakan"
+        alasan: "Drama pembantaian Banda 1621 oleh JP Coen"
+      - jilid: 4
+        bab: 8
+        judul: "Rivalitas dan Resistensi"
+        alasan: "Pemberontakan lokal vs VOC (Trunojoyo, Surapati)"
+      - jilid: 4
+        bab: 10
+        judul: "Kemunduran VOC"
+        alasan: "VOC bangkrut 1799"
+      - jilid: 5
+        bab: 1
+        judul: "Pemerintahan dan Sistem Administrasi"
+        alasan: "Hindia Belanda abad 19"
+      - jilid: 5
+        bab: 3
+        judul: "Sistem dan Institusi Ekonomi"
+        alasan: "Cultuurstelsel 1830, krisis 1880-an"
+      - jilid: 5
+        bab: 4
+        judul: "Fondasi Infrastruktur Publik"
+        alasan: "Jalan raya Pos, kereta api 1867"
+      - jilid: 5
+        bab: 6
+        judul: "Pemberontakan dan Perlawanan"
+        alasan: "BAB KUNCI — Diponegoro, Padri, Aceh, Banten 1888"
+
+  fase_8_kemerdekaan:
+    periode_drama: "1945-1949 M"
+    sumber_tidak_tersedia: >
+      Sumber dari 5 jilid Kemenbud 2025 hanya mencakup sampai tahun 1900.
+      Untuk fase 8 (Kemerdekaan 1945-1949), gunakan sumber lain yang sudah
+      ada di yaml/phase-8-kemerdekaan.yaml (ANRI, Madilog, arsip Comintern).
+
+  fase_9_orde_lama:
+    periode_drama: "1950-1965 M"
+    sumber_tidak_tersedia: >
+      Tidak ada di 5 jilid Kemenbud 2025. Gunakan sumber di
+      yaml/phase-9-orde-lama.yaml (ANRI, CIA FOIA, John Roosa).
+
+  fase_10_orde_baru:
+    periode_drama: "1966-1998 M"
+    sumber_tidak_tersedia: >
+      Tidak ada di 5 jilid Kemenbud 2025. Gunakan sumber di
+      yaml/phase-10-orde-baru.yaml (Komnas HAM, KontraS, CAVR, CIA FOIA,
+      Adam Schwarz, Harold Crouch).
+
+# =============================================================================
+# PRIORITAS BACA UNTUK SETIAP FASE
+# =============================================================================
+prioritas_baca:
+
+  drama_01_pralaya_mataram:
+    fase: 1
+    prioritas_tinggi:
+      - "Jilid 2 Bab 3 — Dinamika Politik Kerajaan Nusantara"
+      - "Jilid 2 Bab 5 — Puncak Pencapaian Persilangan dengan Hindu dan Buddha"
+      - "Jilid 2 Bab 6 — Kemunduran dan Munculnya Tatanan Baru"
+    halaman_relevan: ~340 halaman
+
+  drama_02_ken_arok:
+    fase: 2
+    prioritas_tinggi:
+      - "Jilid 2 Bab 3 — Dinamika Politik Kerajaan Nusantara"
+      - "Jilid 2 Bab 5 — Puncak Pencapaian Persilangan dengan Hindu dan Buddha"
+    halaman_relevan: ~200 halaman
+
+  drama_03_peristiwa_bubat:
+    fase: 3
+    prioritas_tinggi:
+      - "Jilid 2 Bab 5 — Puncak Pencapaian Persilangan dengan Hindu dan Buddha (terpanjang)"
+      - "Jilid 2 Bab 3 — Dinamika Politik Kerajaan Nusantara"
+    halaman_relevan: ~280 halaman
+
+  drama_04_walisongo:
+    fase: 4
+    prioritas_tinggi:
+      - "Jilid 3 Bab 7 — Wali Songo Mengislamkan Jawa (BAB WAJIB)"
+      - "Jilid 3 Bab 3 — Pembentukan Kerajaan"
+      - "Jilid 3 Bab 4 — Kerajaan dan Intensifikasi Islamisasi"
+      - "Jilid 3 Bab 8 — Kebudayaan Material Islam"
+    halaman_relevan: ~330 halaman
+
+  drama_05_sultan_agung_batavia:
+    fase: 6
+    prioritas_tinggi:
+      - "Jilid 4 Bab 2 — Hegemoni Kekuasaan dan Diplomasi di Nusantara Abad XVII-XVIII"
+      - "Jilid 4 Bab 4 — VOC di Nusantara: Monopoli dan Negosiasi"
+      - "Jilid 4 Bab 6 — VOC di Pulau Banda"
+    halaman_relevan: ~220 halaman
+
+  drama_06_diponegoro:
+    fase: 7
+    prioritas_tinggi:
+      - "Jilid 5 Bab 6 — Pemberontakan dan Perlawanan"
+      - "Jilid 5 Bab 3 — Sistem dan Institusi Ekonomi (Cultuurstelsel)"
+      - "Jilid 5 Bab 1 — Pemerintahan dan Sistem Administrasi"
+    halaman_relevan: ~250 halaman
+
+# =============================================================================
+# CATATAN PENGGUNAAN
+# =============================================================================
+catatan:
+  coverage: >
+    5 jilid Kemenbud 2025 mencakup periode prasejarah hingga 1900 M.
+    Untuk fase drama 8 (1945-1949), 9 (1950-1965), 10 (1966-1998),
+    gunakan sumber primer lain yang sudah ada di file YAML fase masing-masing.
+
+  kualitas_sumber: >
+    Sumber resmi terbitan pemerintah Indonesia (Kemenbud RI 2025).
+    Ditulis oleh tim sejarawan Indonesia, diawasi Kementerian Kebudayaan.
+    Lebih otoritatif daripada Wikipedia untuk produksi drama formal.
+    Setiap bab sudah ditag ontology (era, region, topics) di frontmatter
+    YAML-nya.
+
+  cara_pakai_untuk_drama: >
+    1. Pilih drama yang ingin ditulis (mis. drama-04-walisongo)
+    2. Lihat 'prioritas_baca' di index ini untuk tahu bab mana yang harus dibaca
+    3. Buka file bab di folder jilid-X/ yang sesuai
+    4. Ekstrak detail tokoh, lokasi, kostum, dan scene drama
+    5. Cross-check dengan file YAML fase (mis. yaml/phase-4-demak.yaml) untuk
+       menambah data yang belum ada
+
+  hak_cipta: >
+    Buku ini terbitan Kementerian Kebudayaan Republik Indonesia 2025.
+    Penggunaan untuk tujuan edukasi dan riset diperbolehkan. Untuk
+    produksi komersial, hubungi penerbit (pustakabudaya.id).
+    Konversi markdown dilakukan oleh Akhmad Mahmud & Asisten AI GLM 5.2
+    dari Yayasan Jaya Sanga Nusantara menggunakan pymupdf4llm.
