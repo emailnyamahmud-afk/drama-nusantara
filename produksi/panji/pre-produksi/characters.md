@@ -8,59 +8,62 @@
 
 ## Karakter Utama
 
-### C001 — Sri Kameswara
+### C001 — Panji Asmoro Bangun (Inu Kertapati)
 
 | Field | Value |
 |---|---|
-| **Nama** | Sri Kameswara |
-| **Gelar lengkap** | Sri Maharaja Sri Kameswara Triwikramawatara Niwaryyawiryya Parakrama Digjayottunggadewanama |
-| **Peran** | Raja Kediri (Panjalu), pangeran yang akan menjadi legenda |
-| **Usia** | ± 25-30 tahun |
-| **Periode historis** | r. 1182-1191 M |
-| **Sumber primer** | Prasasti Ceker (1182 M), Kakawin Smaradahana (Mpu Dharmaja) |
-| **Lokasi** | Dahanapura (Kediri), tepi Sungai Brantas |
+| **Nama** | Raden Panji Asmoro Bangun |
+| **Nama lain** | Inu Kertapati, Raden Panji Inu, Cekel Wanengpati, Kuda Wanengpati |
+| **Peran** | Pangeran mahkota Kerajaan Jenggala, calon suami Candra Kirana |
+| **Usia** | ± 25-28 tahun |
+| **Lokasi** | Kahuripan (ibukota Jenggala), utara Sungai Brantas |
+| **Sumber primer** | Siklus Panji — UNESCO Memory of the World (2017); Wikipedia *Panji tales*; Kakawin Smaradahana (Mpu Dharmaja) |
 
 **Deskripsi fisik**:
 - Pria Jawa, ± 28 tahun
 - Wajah tampan, rahang tegas, mata tajam
 - Kulit cokelat keemasan
-- Rambut hitam panjang terurai (gaya Jawa Kuno)
+- Rambut hitam panjang, sebagian terikat di atas (sanggul) dengan destar
 - Kumis tipis, janggut pendek
 - Tinggi ± 175 cm, postur tegap
+- Biasanya digambarkan memakai cap/helm khas Panji (panji-cap, mirip topeng Malang)
 
 **Kostum**:
-- Mahkota emas Jawa Kuno (mirip makuta candi relief)
-- Kain batik/gedog (corak parang, warna merah tua-emas)
-- Kulit (atasan) emas dengan ukiran motif candi
-- Kalung emas dengan liontin Siwa (lingga-yoni miniatur)
-- Gelang kairo emas di lengan
-- Keris pusaka di pinggang
+- Destar/ikat kepala khas pangeran Jenggala (kadang dengan panji-cap bulat)
+- Kain kamus (atasan) lengan panjang, warna biru tua/nila (warna Jenggala)
+- Kain batik/gedog (corak parang, biru-emas) dari pinggang ke bawah
+- Kalung emas sederhana (bukan sehebat raja)
+- Keris pusaka di pinggang (gagang emas-kayu)
+- Gelang kairo emas di lengan atas dan pergelangan
+- Selendang emas-tipis di bahu
 
-**Karakter**: Tegas, berani, cerdas, tetapi punya sisi romantis. Bukan raja yang pasif — ia pejuang yang berpikir strategis. Pernikahan dengan Kirana bukan kelemahan, tapi kebijaksanaan.
+**Karakter**: Tegas, berani, cerdas, romantis. Bukan pangeran pasif — ia pejuang yang berpikir strategis. Pernikahan dengan Candra Kirana bukan kelemahan, tapi kebijaksanaan. Sosok yang menjadi原型 dewa cinta Kamajaya dalam Smaradahana.
 
 **T2I Base Prompt**:
 ```
-Handsome Javanese king, 28 years old, golden brown skin, sharp eyes,
-long black hair, thin mustache, regal bearing, wearing golden Javanese
-crown (makuta), red-gold batik kain, golden chest plate with temple
-motifs, gold necklace with Shiva linga pendant, kris at waist,
-standing in Javanese Hindu palace, 12th century Kediri kingdom,
-cinematic lighting, 8K, hyperdetailed, realistic portrait
+Handsome Javanese crown prince, 28 years old, golden brown skin, sharp
+eyes, long black hair partly tied in topknot with destar headwrap, thin
+mustache, regal bearing, wearing blue-dark Javanese prince tunic with
+gold embroidery, blue-gold batik kain, gold necklace, kris at waist,
+gold kairo bracelets, standing in Javanese Hindu palace, 12th century
+Jenggala kingdom East Java, cinematic lighting, 8K, hyperdetailed,
+realistic portrait
 ```
 
 **Negative prompt**: `modern, western, building, text, watermark, anime, cartoon`
 
 ---
 
-### C002 — Sri Kirana
+### C002 — Dewi Candra Kirana (Sekartaji)
 
 | Field | Value |
 |---|---|
-| **Nama** | Sri Kirana |
-| **Peran** | Putri mahkota Jenggala, calon permaisuri Kameswara |
-| **Usia** | ± 20-25 tahun |
-| **Sumber primer** | Kakawin Smaradahana (Mpu Dharmaja) — "inkarnasi Kamaratih, dewi cinta" |
-| **Lokasi** | Jenggala (Malang) → Kediri |
+| **Nama** | Dewi Candra Kirana |
+| **Nama lain** | Sekartaji, Galuh Candra Kirana, Kuda Narawangsa (saat menyamar) |
+| **Peran** | Putri mahkota Kerajaan Kediri/Daha, calon permaisuri Panji |
+| **Usia** | ± 20-23 tahun |
+| **Lokasi** | Dahanapura (ibukota Kediri), selatan Sungai Brantas |
+| **Sumber primer** | Siklus Panji — UNESCO Memory of the World (2017); Wikipedia *Panji tales*; Kakawin Smaradahana (Mpu Dharmaja) |
 
 **Deskripsi fisik**:
 - Wanita Jawa, ± 22 tahun
@@ -70,23 +73,25 @@ cinematic lighting, 8K, hyperdetailed, realistic portrait
 - Tinggi ± 160 cm, postur anggun
 
 **Kostum**:
-- Kemben emas-brocade (atasan terbuka selangkangan dada, gaya relief candi)
-- Kain batik (corak parang klawu, biru tua-emas)
-- Mahkota emas kecil dengan hiasan bunga
-- Kalung emas dengan liontin lotus
+- Kemben emas-brocade (atasan, gaya relief candi Prambanan/Penataran)
+- Kain batik (corak parang klawu, merah tua-emas — warna Kediri)
+- Mahkota emas kecil dengan hiasan bunga melati
+- Kalung emas dengan liontin teratai (lotus)
 - Gelang kairo emas di pergelangan tangan dan kaki
+- Anting-anting emas
+- Cincin emas
 
-**Karakter**: Bukan putri yang pasif. Cerdas, punya pendapat, tahu nilai dirinya. Saat Kameswara datang melamar, ia tidak terima jadi "hadiah politik" — ia menuntut kepercayaan. Ini improvisasi dramatik yang membuatnya karakter modern.
+**Karakter**: Bukan putri yang pasif. Cerdas, punya pendapat, tahu nilai dirinya. Saat Panji datang melamar, ia tidak terima jadi "hadiah politik" — ia menuntut kepercayaan. Improvisasi dramatik yang membuatnya karakter modern, sesuai semangat siklus Panji (di episode *Panji Semirang*, ia juga aktif menyamar sebagai pria untuk melarikan diri).
 
 **T2I Base Prompt**:
 ```
-Beautiful Javanese princess, 22 years old, fair golden skin, large
-expressive eyes, long black hair adorned with jasmine flowers,
-graceful posture, wearing golden kemben brocade, blue-gold batik
-kain, small golden crown with flower ornaments, gold lotus pendant
-necklace, gold kairo bracelets, standing in Javanese palace garden,
-12th century, cinematic soft lighting, 8K, hyperdetailed, realistic
-portrait
+Beautiful Javanese crown princess, 22 years old, fair golden skin, large
+expressive eyes, long black hair adorned with jasmine flowers, graceful
+posture, wearing golden kemben brocade with temple motifs, red-gold
+batik kain, small golden crown with flower ornaments, gold lotus
+pendant necklace, gold kairo bracelets on wrists and ankles, standing
+in Javanese palace garden, 12th century Daha Kediri kingdom, cinematic
+soft lighting, 8K, hyperdetailed, realistic portrait
 ```
 
 **Negative prompt**: `modern, western, building, text, watermark, anime, cartoon`
@@ -95,24 +100,24 @@ portrait
 
 ## Karakter Pendukung
 
-### C003 — Patih Kediri
+### C003 — Patih Jenggala
 
 | Field | Value |
 |---|---|
-| **Nama** | Patih (tidak tercatat nama historis) |
-| **Peran** | Patih Kerajaan Kediri, penasihat militer |
+| **Nama** | Patih (tidak tercatat nama historis spesifik) |
+| **Peran** | Patih Kerajaan Jenggala, penasihat militer pangeran Panji |
 | **Usia** | ± 50 tahun |
 
-**Deskripsi**: Pria tua, jenggot putih, wajah penuh kerutan, mata bijan tapi waspada. Kostum sederhana — kain cokelat, kulit hitam (bukan emas), tanpa mahkota. Simbol loyalitas tetapi konservatif.
+**Deskripsi**: Pria tua, jenggot putih, wajah penuh kerutan, mata bijak tapi waspada. Kostum sederhana — kain cokelat, kulit hitam (bukan emas), tanpa mahkota. Simbol loyalitas tetapi konservatif.
 
-**Karakter**: Menentang pernikahan — takut Jenggala berkhianat. Tapi patuh pada raja.
+**Karakter**: Menentang pernikahan — takut Kediri berkhianat. Tapi patuh pada pangeran.
 
 **T2I Base Prompt**:
 ```
 Old Javanese patih minister, 50 years old, white beard, wrinkled wise
 face, vigilant eyes, wearing simple brown kain, dark leather vest,
-no crown, standing in Javanese palace hall, 12th century, dramatic
-side lighting, 8K, hyperdetailed, realistic portrait
+no crown, standing in Javanese palace hall, 12th century Jenggala,
+dramatic side lighting, 8K, hyperdetailed, realistic portrait
 ```
 
 ---
@@ -122,20 +127,22 @@ side lighting, 8K, hyperdetailed, realistic portrait
 | Field | Value |
 |---|---|
 | **Nama** | Mpu Dharmaja |
-| **Peran** | Pujangga kerajaan Kediri, penulis Kakawin Smaradahana |
+| **Peran** | Pujangga kerajaan, penulis Kakawin Smaradahana |
 | **Usia** | ± 40-50 tahun |
-| **Sumber primer** | Kakawin Smaradahana (karya historisnya) |
+| **Sumber primer** | Kakawin Smaradahana (karya historisnya, era Kameswara r. 1182-1191 M) |
 
 **Deskripsi**: Pria paruh baya, rambut diikat sanggul, janggut pendek, mata dalam (berpikir). Memakai jubah pendeta Siwa — putih-kuning, tasbih batu. Membawa lontar (manuskrip daun palem).
 
-**Karakter**: Tenang, spiritual, pengamat. Ia yang merangkai kata-kata yang akan abadi. Saat membaca Smaradahana di upacara, suaranya bergetar — ia tahu sedang menciptakan sejarah.
+**Karakter**: Tenang, spiritual, pengamat. Ia yang merangkai kata-kata yang akan abadi. Saat membaca Smaradahana di upacara pernikahan Panji-Candra Kirana, suaranya bergetar — ia tahu sedang menciptakan sejarah.
+
+**Catatan adaptasi**: Mpu Dharmaja secara historis adalah pujangga istana Kameswara (raja Kediri). Dalam adaptasi folklor Panji ini, ia dipindahkan menjadi pujangga yang menyusun Smaradahana untuk merayakan pernikahan Panji-Candra Kirana — masuk akal karena Smaradahana mengangkat pasangan pangeran-putri sebagai titisan Kama Jaya-Kamaratih.
 
 **T2I Base Prompt**:
 ```
 Middle-aged Javanese poet priest, 45 years old, hair in topknot,
 short beard, deep contemplative eyes, wearing white-yellow Siwa
 priest robe, stone bead necklace, holding palm leaf manuscript
-(lontar), standing near temple fire, 12th century Kediri, warm
+(lontar), standing near temple fire, 12th century East Java, warm
 firelight, 8K, hyperdetailed, realistic portrait
 ```
 
@@ -145,10 +152,10 @@ firelight, 8K, hyperdetailed, realistic portrait
 
 | ID | Deskripsi | Segmen muncul |
 |---|---|---|
-| **E001** | Pengawal Kediri (4 orang) | Segmen 5-8, 25-28 |
-| **E002** | Pengawal Jenggala (4 orang) | Segmen 13-16 |
+| **E001** | Pengawal Jenggala (4 orang, biru-emas) | Segmen 5-8, 25-28 |
+| **E002** | Pengawal Kediri (4 orang, merah-emas) | Segmen 13-16 |
 | **E003** | Pendeta upacara (2 orang) | Segmen 25-28 |
-| **E004** | Dayang Kirana (2 orang) | Segmen 13-16, 25-28 |
+| **E004** | Dayang Candra Kirana (2 orang) | Segmen 13-16, 25-28 |
 
 ---
 
@@ -156,9 +163,9 @@ firelight, 8K, hyperdetailed, realistic portrait
 
 | ID | Karakter | Generate 1x | Simpan ke |
 |---|---|---|---|
-| C001 | Kameswara | T2I base prompt | `refs/C001_base.png` |
-| C002 | Sri Kirana | T2I base prompt | `refs/C002_base.png` |
-| C003 | Patih Kediri | T2I base prompt | `refs/C003_base.png` |
+| C001 | Panji Asmoro Bangun | T2I base prompt | `refs/C001_base.png` |
+| C002 | Candra Kirana | T2I base prompt | `refs/C002_base.png` |
+| C003 | Patih Jenggala | T2I base prompt | `refs/C003_base.png` |
 | C004 | Mpu Dharmaja | T2I base prompt | `refs/C004_base.png` |
 
 **Catatan**: Untuk pilot, generate 4 ref images. Setiap segmen yang melibatkan karakter tertentu akan reference `refs/C00X_base.png` di prompt untuk konsistensi.

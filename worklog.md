@@ -1025,3 +1025,35 @@ Stage Summary:
 - Format YAML valid; setiap entry punya 9 field wajib (id, nama, nama_lengkap, peran, jilid, tahun, lokasi, sumber_primer, konteks_drama, fase_drama)
 - File size: ~4.000 baris, ~85 KB
 
+
+---
+Task ID: KOREKSI-PANJI-01
+Agent: Main Agent (Z.ai)
+Task: Koreksi pre-produksi film "Panji: Asmara Bangun" — ganti tokoh utama dari "Kameswara & Sri Kirana" ke "Panji Asmoro Bangun & Candra Kirana" sesuai siklus Panji (UNESCO Memory of the World 2017)
+
+Work Log:
+- User koreksi kesalahan: tokoh utama film harusnya Panji Asmoro Bangun (pangeran Jenggala), bukan Kameswara (raja Kediri)
+- WebSearch "Panji Asmara Bangun" + Wikipedia Panji tales + Museum Nasional + BBC Indonesia
+- Konfirmasi: Panji Asmoro Bangun (alias Inu Kertapati) = pangeran Jenggala, tunangan Candra Kirana (alias Sekartaji) = putri Kediri/Daha
+- Plot inti otentik: pernikahan politik Jenggala-Kediri untuk menyatukan dua kerajaan pecahan Airlangga (sumber: Wikipedia "Dewi Anggraeni" episode, UNESCO 2017)
+- Edit story-bible.md: ganti logline, premis, struktur 3 babak, narasi, dialog
+- Edit characters.md: ganti profil C001 (Panji) & C002 (Candra Kirana), update T2I prompts dengan warna biru-emas (Jenggala) vs merah-emas (Kediri)
+- Edit visual-style.md: koreksi palette warna per babak, set design, costume per kerajaan
+- Buat script Python scripts/koreksi_storyboard_panji.py untuk koreksi massal storyboard-pilot.json
+- Eksekusi script: 36 segmen dikoreksi, backup .json.bak dibuat
+- Manual edit 4 sisa "Kameswara"/"Kirana" yang luput dari auto-replace (di prompt segmen 15, judul scene S005, prompt segmen 20)
+- Final verifikasi: 0 sisa "Kameswara/Sri Kirana/Patih Kediri/Putri Jenggala/Dahanapura", JSON valid
+
+Stage Summary:
+- File yang dikoreksi:
+  - /home/z/my-project/produksi/panji/pre-produksi/story-bible.md
+  - /home/z/my-project/produksi/panji/pre-produksi/characters.md
+  - /home/z/my-project/produksi/panji/pre-produksi/visual-style.md
+  - /home/z/my-project/produksi/panji/pre-produksi/storyboard-pilot.json
+- File baru:
+  - /home/z/my-project/scripts/koreksi_storyboard_panji.py
+  - /home/z/my-project/produksi/panji/pre-produksi/storyboard-pilot.json.bak (backup)
+- Tokoh utama final: Panji Asmoro Bangun (pangeran Jenggala) + Candra Kirana (putri Kediri)
+- Plot: pernikahan politik Jenggala-Kediri untuk menyatukan dua kerajaan pecahan Airlangga
+- Sumber otentik: UNESCO Memory of the World 2017 (Panji Tales) + Kakawin Smaradahana (Mpu Dharmaja, era Kameswara)
+- Status: 36 segmen draft siap untuk pipeline T2I → TTS → I2V → assembly

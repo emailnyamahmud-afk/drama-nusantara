@@ -2,25 +2,39 @@
 
 ## Pilot 3 Menit (36 segmen × 5 detik)
 
-> **Proyek**: Drama Nusantara — Siklus Panji
-> **Era**: Kediri abad 12 (Sri Kameswara, r. 1182-1191 M)
+> **Proyek**: Drama Nusantara — Siklus Panji (AI-generated film)
+> **Era latar**: Abad ke-12, Jawa Timur (kerajaan Jenggala & Kediri/Daha pasca-Airlangga)
 > **Gaya**: Cinematic realistic, inspirasi drama sejarah China dengan estetika Nusantara Hindu-Buddha
-> **Sumber**: Kemenbud RI 2025 Jilid 2 + UNESCO Memory of the World (Panji Tales, 2017) + Kakawin Smaradahana (Mpu Dharmaja)
-> **Status**: Pre-production
+> **Sumber**: Kemenbud RI 2025 Jilid 2 + UNESCO Memory of the World (Panji Tales, 2017) + Kakawin Smaradahana (Mpu Dharmaja) + Wikipedia Panji tales
+> **Status**: Pre-production (revisi tokoh utama — Panji Asmoro Bangun + Candra Kirana)
 
 ---
 
 ## Logline
 
-Sebuah pernikahan politik antara raja Kediri dan putri Jenggala menyatukan dua kerajaan yang bermusuhan selama 140 tahun — dan melahirkan kisah cinta yang akan menginspirasi seluruh Asia Tenggara selama berabad-abad.
+Sebuah pernikahan politik antara **Pangeran Panji Asmoro Bangun** dari Kerajaan Jenggala dan **Dewi Candra Kirana** dari Kerajaan Kediri (Daha) menyatukan dua kerajaan pecahan Airlangga yang bermusuhan selama 140 tahun — dan melahirkan kisah cinta yang akan menginspirasi seluruh Asia Tenggara selama berabad-abad.
 
 ---
 
 ## Premis
 
-Tahun 1182 M. Sri Kameswara baru saja naik takhta Kerajaan Kediri (Panjalu) — kerajaan terkuat di Jawa Timur. Tapi di utara, Kerajaan Jenggala (saudara sekutu yang bermusuhan, pecahan Airlangga 1042 M) masih menyimpan dendam. Perdamaian harus diikat — dengan pernikahan.
+Pada abad ke-12, Jawa Timur terbelah menjadi dua kerajaan saudara yang bermusuhan: **Jenggala** di utara (ibukota Kahuripan) dan **Kediri/Daha** di selatan (ibukota Dahanapura). Dua kerajaan yang lahir dari satu ayah, Raja Airlangga, yang membelah wilayahnya pada 1042 M sebelum wafat. Selama 140 tahun, mereka bermusuhan, bersaing, dan berperang.
 
-Kameswara meminang Sri Kirana, putri mahkota Jenggala. Tapi Kirana bukan sekadar hadiah politik — ia adalah wanita cerdas yang punya syarat sendiri. Pertemuan mereka di tepi Sungai Brantas menentukan bukan hanya masa depan dua kerajaan, tapi melahirkan epos yang akan dikenang sebagai **Smaradahana** — "Api Cinta" — kisah yang akan menyebar dari Jawa ke Siam, Khmer, dan Birma.
+Kini, kedua kerajaan sepakat: perdamainan harus diikat — dengan pernikahan politik. **Panji Asmoro Bangun** (juga dikenal sebagai Inu Kertapati), putra mahkota Jenggala, ditunangkan dengan **Dewi Candra Kirana** (juga dikenal sebagai Sekartaji), putri mahkota Kediri.
+
+Tapi Candra Kirana bukan sekadar hadiah politik — ia wanita cerdas yang punya syarat sendiri. Pertemuan mereka di tepi Sungai Brantas (perbatasan netral) menentukan bukan hanya masa depan dua kerajaan, tapi melahirkan epos yang akan dikenang sebagai **Smaradahana — "Api Cinta"** — kisah yang akan menyebar dari Jawa ke Siam, Khmer, dan Birma.
+
+---
+
+## Catatan Akurasi Historis vs Folklor
+
+Siklus Panji adalah folklor yang terdaftar di UNESCO Memory of the World (2017). Tokoh **Panji** dan **Candra Kirana** adalah tokoh folklorik, bukan tokoh historis yang terverifikasi prasasti. Para cendekiawan (Rassers, Poerbatjaraka, Pigeaud) meyakini kisah Panji terinspirasi dari pasangan historis **Raja Kameswara** (raja Kediri, r. 1182-1191 M) dan permaisurinya **Sri Kirana**, yang diabadikan dalam Kakawin Smaradahana karya Mpu Dharmaja.
+
+**Pilihan adaptasi film ini:**
+- **Tokoh utama** = versi folklorik: **Panji Asmoro Bangun** + **Candra Kirana** (lebih sesuai dengan siklus Panji yang diakui UNESCO)
+- **Latar kerajaan** = dua kerajaan Jenggala & Kediri yang masih terpisah (sesuai latar siklus Panji)
+- **Mpu Dharmaja & Smaradahana** = dipakai sebagai elemen naratif: pujangga istana menyusun kakawin untuk merayakan pernikahan Panji-Candra Kirana, mengangkat mereka sebagai titisan Kama Jaya-Kamaratih
+- **Era** = abad 12 (masa keemasan sastra Kediri, selaras denganSmearadahana)
 
 ---
 
@@ -28,23 +42,23 @@ Kameswara meminang Sri Kirana, putri mahkota Jenggala. Tapi Kirana bukan sekadar
 
 ### Babak 1 — "Dua Kerajaan, Satu Sungai" (1 menit, 12 segmen)
 
-**Tujuan**: Establishing — tunjukkan dunia Kediri abad 12, kekuasaan Kameswara, ketegangan dengan Jenggala.
+**Tujuan**: Establishing — tunjukkan dunia Jawa abad 12, ketegangan Jenggala-Kediri, keputusan pernikahan politik.
 
 | Segmen | Detik | Isi |
 |---|---|---|
-| 01-04 | 0-20s | **Opening**: Sungai Brantas fajar, keraton Kediri (Dahanapura), bendera kerajaan berkibar |
-| 05-08 | 20-40s | **Kameswara** di singgasana, menerima laporan patih tentang perbatasan Jenggala yang tegang |
-| 09-12 | 40-60s | **Keputusan**: Kameswara putuskan — pernikahan politik dengan putri Jenggala. Patih protes. Kameswara tegas. |
+| 01-04 | 0-20s | **Opening**: Sungai Brantas fajar, dua keraton (Jenggala utara, Kediri selatan), bendera dua kerajaan berkibar |
+| 05-08 | 20-40s | **Panji Asmoro Bangun** di pendopo Jenggala, menerima laporan patih tentang ketegangan perbatasan dengan Kediri |
+| 09-12 | 40-60s | **Keputusan**: Panji putuskan — pernikahan politik dengan putri Kediri. Patih protes. Panji tegas. |
 
 ### Babak 2 — "Pertemuan di Brantas" (1 menit, 12 segmen)
 
-**Tujuan**: First meeting — Kameswara dan Sri Kirana bertemu di tepi Sungai Brantas (perbatasan netral).
+**Tujuan**: First meeting — Panji Asmoro Bangun dan Candra Kirana bertemu di tepi Sungai Brantas (perbatasan netral).
 
 | Segmen | Detik | Isi |
 |---|---|---|
-| 13-16 | 60-80s | **Kedatangan**: Kirana tiba dengan kapal kerajaan Jenggala, diiringi pengawal |
-| 17-20 | 80-100s | **Pertemuan**: Kameswara dan Kirana bertatap muka. Ketegangan → kekaguman |
-| 21-24 | 100-120s | **Dialog**: Kirana tidak mau jadi "hadiah". Ia menuntut syarat: Kameswara harus buktikan bahwa ia pantas — bukan sekadar raja, tapi seorang ksatria. |
+| 13-16 | 60-80s | **Kedatangan**: Candra Kirana tiba dengan kapal kerajaan Kediri, diiringi pengawal |
+| 17-20 | 80-100s | **Pertemuan**: Panji dan Candra Kirana bertatap muka. Ketegangan → kekaguman |
+| 21-24 | 100-120s | **Dialog**: Candra Kirana tidak mau jadi "hadiah". Ia menuntut syarat: Panji harus buktikan bahwa ia pantas — bukan sekadar pangeran, tapi seorang ksatria. |
 
 ### Babak 3 — "Smaradahana" (1 menit, 12 segmen)
 
@@ -53,48 +67,50 @@ Kameswara meminang Sri Kirana, putri mahkota Jenggala. Tapi Kirana bukan sekadar
 | Segmen | Detik | Isi |
 |---|---|---|
 | 25-28 | 120-140s | **Upacara**: Pernikahan di candi, api suci, kedua kerajaan bersatu |
-| 29-32 | 140-160s | **Smaradahana**: Mpu Dharmaja membacakan kakawin — "Raja adalah Kamajaya, permaisuri adalah Kamaratih" |
-| 33-36 | 160-180s | **Closing**: Kameswara dan Kirana di balkon keraton, memandang Kerajaan Kediri yang bersatu. Narasi: "Dari pertemuan ini lahirlah kisah yang akan dikenang sepanjang masa — kisah Panji." |
+| 29-32 | 140-160s | **Smaradahana**: Mpu Dharmaja membacakan kakawin — "Pangeran adalah Kamajaya, putri adalah Kamaratih" |
+| 33-36 | 160-180s | **Closing**: Panji dan Candra Kirana di balkon keraton, memandang dua kerajaan yang bersatu. Narasi: "Dari pertemuan ini lahirlah kisah yang akan dikenang sepanjang masa — kisah Panji." |
 
 ---
 
 ## Narasi Voiceover (Hybrid)
 
 ### Babak 1 — Narator
-> *"Tahun 1182 masa Saka. Sungai Brantas membelah Jawa Timur menjadi dua kerajaan — Kediri di selatan, Jenggala di utara. Dua kerajaan yang lahir dari satu ayah, Airlangga, yang membelah wilayahnya sebelum wafat. Selama 140 tahun, mereka bermusuhan. Kini, seorang raja baru naik takhta di Kediri — Sri Kameswara. Dan ia punya rencani yang berani."*
+> *"Tahun Saka 1100-an. Sungai Brantas membelah Jawa Timur menjadi dua kerajaan — Jenggala di utara, Kediri di selatan. Dua kerajaan yang lahir dari satu ayah, Airlangga, yang membelah wilayahnya sebelum wafat. Selama 140 tahun, mereka bermusuhan. Kini, seorang pangeran muda di Jenggala membuat keputusan yang berani."*
 
-### Babak 2 — Dialog Kameswara & Kirana
-> **Kameswara**: "Putri Jenggala, aku bukan datang untuk menaklukkan. Aku datang untuk menyatukan."
-> **Kirana**: "Penyatuan bukan dengan pernikahan, Baginda. Penyatuan adalah dengan kepercayaan."
+### Babak 2 — Dialog Panji & Candra Kirana
+> **Panji**: "Putri Kediri, aku bukan datang untuk menaklukkan. Aku datang untuk menyatukan."
+> **Candra Kirana**: "Penyatuan bukan dengan pernikahan, Baginda. Penyatuan adalah dengan kepercayaan."
 
 ### Babak 3 — Narator + Mpu Dharmaja
-> **Mpu Dharmaja** (membaca): *"Sang hyang Kameswara, inkarnasi Kamajaya, dewa cinta yang bersemayam di Dahanapura. Permaisuri Kirana, inkarnasi Kamaratih, ratu yang bersinar bagaikan rembulan..."*
+> **Mpu Dharmaja** (membaca): *"Sang hyang Panji Asmoro Bangun, inkarnasi Kamajaya, dewa cinta yang bersemayam di Jenggala. Putri Candra Kirana, inkarnasi Kamaratih, ratu Daha yang bersinar bagaikan rembulan..."*
 > **Narator**: *"Dari pernikahan inilah lahir Smaradahana — Api Cinta. Kisah yang akan menyeberang lautan, ke Siam, ke Khmer, ke Birma. Kisah yang dikenal sebagai Panji."*
 
 ---
 
 ## Sumber & Improvisasi
 
-### Dari Sumber Primer (Kemenbud 2025 + UNESCO)
-- **Kameswara raja Kediri** (r. 1182-1191 M) — Prasasti Ceker (1182 M)
-- **Sri Kirana** putri Jenggala — Kakawin Smaradahana (Mpu Dharmaja)
-- **Airlangga bagi kerajaan** 1042 M → Jenggala + Panjalu (Kediri) — sumber primer Jilid 2
-- **Jayabhaya** (raja Kediri sebelum Kameswara) takluk Jenggala 1135 M — penyatuan politik
-- **Mapanji Garasakan** (raja Janggala pertama, r. 1042-1052) — sumber primer Jilid 2
+### Dari Sumber Primer (Kemenbud 2025 + UNESCO + Wikipedia)
+- **Siklus Panji** — UNESCO Memory of the World International Register (30 Oktober 2017), 260+ manuskrip dalam 8 bahasa
+- **Panji Asmoro Bangun** (alias Inu Kertapati, Raden Panji, Cekel Wanengpati) — pangeran Jenggala — Wikipedia *Panji tales*
+- **Dewi Candra Kirana** (alias Sekartaji, Galuh Candra Kirana) — putri Kediri/Daha — Wikipedia + Museum Nasional Indonesia
+- **Airlangga bagi kerajaan** 1042 M → Jenggala + Panjalu (Kediri) — sumber primer Jilid 2 Kemenbud
+- **Mpu Dharmaja** menyusun **Kakawin Smaradahana** di era Kameswara (raja Kediri r. 1182-1191 M) — sumber primer Jilid 2
+- **Basis historis**: Raja Kameswara + permaisuri Sri Kirana dianggap inspirasi tokoh Panji-Candra Kirana — para cendekiawan (Rassers, Pigeaud)
 - **Cerita Panji dipopulerkan** sebagai "upaya menyaingi kisah India" — Kemenbud Jilid 2 Bab 2
-- **UNESCO Memory of the World** (2017) — Panji Tales manuscripts, 260+ naskah, 8 bahasa
+- **Episode referensi**: *Dewi Anggraeni* (prequel), *Panji Semirang* (Kirana menyamar), *Ande Ande Lumut*, *Keong Emas*
 
 ### Improvisasi (Karena Sumber Primer Tidak Detail)
-- **Adegan pertemuan Kameswara-Kirana di Brantas**: TIDAK ada di sumber primer. Diimprovisasi dari konteks politik (Jenggala-Kediri bermusuhan, pernikahan politik adalah solusi umum).
-- **Dialog Kirana menolak jadi "hadiah"**: TIDAK ada di sumber. Diimprovisasi untuk drama — Kirana sebagai karakter kuat, bukan pasif.
-- **Mpu Dharmaja membaca Smaradahana di upacara**: TIDAK ada catatan historis. Diimprovisasi — masuk akal bahwa pujangga kerajaan membaca karyanya di upacara pernikahan raja.
-- **Kameswara tegas ke patih**: Improvisasi karakter — raja yang kuat dan berani, bukan boneka.
+- **Adegan pertemuan Panji-Candra Kirana di Brantas**: TIDAK ada di sumber primer. Diimprovisasi dari konteks politik (Jenggala-Kediri bermusuhan, pernikahan politik adalah solusi umum dalam siklus Panji).
+- **Dialog Candra Kirana menolak jadi "hadiah"**: TIDAK ada di sumber. Diimprovisasi untuk drama — Candra Kirana sebagai karakter kuat, bukan pasif.
+- **Mpu Dharmaja membaca Smaradahana di upacara**: TIDAK ada catatan historis. Diimprovisasi — masuk akal bahwa pujangga kerajaan menyusun karyanya untuk pernikahan pangeran-putri kerajaan.
+- **Panji tegas ke patih**: Improvisasi karakter — pangeran yang kuat dan berani, bukan boneka.
 
 ### Catatan Akurasi
-- ✅ Kameswara raja Kediri 1182-1191 M — **terverifikasi** prasasti
-- ✅ Sri Kirana putri Jenggala — **terverifikasi** Smaradahana
-- ✅ Kediri dan Jenggala bermusuhan — **terverifikasi** sejarah (Airlangga bagi kerajaan 1042)
-- ✅ Jayabhaya takluk Jenggala 1135 — **terverifikasi** sumber primer
+- ✅ Panji Asmoro Bangun pangeran Jenggala — **terverifikasi** siklus Panji (UNESCO 2017)
+- ✅ Candra Kirana putri Kediri/Daha — **terverifikasi** siklus Panji
+- ✅ Pernikahan politik Jenggala-Kediri untuk menyatukan dua kerajaan — **terverifikasi** (episode *Dewi Anggraeni*)
+- ✅ Airlangga bagi kerajaan 1042 M — **terverifikasi** sumber primer
+- ✅ Mpu Dharmaja & Smaradahana era Kameswara — **terverifikasi** sumber primer
 - ⚠️ Pertemuan di Brantas — **improvisasi** (lokasi plausibel, Brantas adalah batas alami)
 - ⚠️ Dialog spesifik — **improvisasi** (karakterisasi dramatik)
 - ⚠️ Mpu Dharmaja di upacara — **improvisasi** (masuk akal, tidak ada sumber yang menyangkal)
@@ -105,7 +121,7 @@ Kameswara meminang Sri Kirana, putri mahkota Jenggala. Tapi Kirana bukan sekadar
 
 | Babak | Tone | Color Palette | Camera |
 |---|---|---|---|
-| Babak 1 | Tegas, kuasa, sedikit tegang | Emas, merah tua, cokelat gelap | Wide shots, low angle untuk Kameswara |
+| Babak 1 | Tegas, kuasa, sedikit tegang | Merah-emas (Jenggala), biru-ungu (Kediri), cokelat gelap | Wide shots, low angle untuk Panji |
 | Babak 2 | Misterius, penasaran, romantis | Biru-ungu (fajar), hijau (sungai) | Medium shots, eye-level, slow dolly |
 | Babak 3 | Sakral, megah, emosional | Emas-putih (api upacara), kuning hangat | Close-ups, slow motion, over-the-shoulder |
 
