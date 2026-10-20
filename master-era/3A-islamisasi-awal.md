@@ -40,7 +40,7 @@
 | **Ampeldenta** | Sebelah timur Gresik, Surabaya | sejak ±1401 M (Raden Rahmat) | `12-bab-7.md` D.2 |
 | **Giri Kedaton** | Sidomukti, Kebomas, Gresik — di atas bukit | 1485 M (didirikan) | `12-bab-7.md` D.6 |
 | **Cirebon** | Pesisir utara Jawa Barat | sejak ±1479 M (Sunan Gunung Jati) | `08-bab-3.md` A.2; `12-bab-7.md` D.9 |
-| **Demak** | Pantai utara Jawa Tengah | ±1478-1540-an M | `08-bab-3.md` A.2; `12-bab-7.md` A |
+| **Demak** | Pantai utara Jawa Tengah | ±1481-1540-an M | `08-bab-3.md` A.2; `12-bab-7.md` A |
 
 ## 1.3 Kerangka Sosial-Budaya
 
@@ -254,17 +254,19 @@ Era berikutnya (3B) akan mencakup konsolidasi kerajaan-kerajaan Islam di Jawa (D
 | Istri | Nyai Babadan; Pakungwati; Nyai Kawunganten (Banten); Nyai Tepasari (Lumajang); Ong Tien (Cina) | `12-bab-7.md` D.9 |
 | Wafat | ±1570 M; dimakamkan di Astana, Gunung Jati, Cirebon | `12-bab-7.md` D.9 |
 
-## 3.8 Raden Patah / Sultan Demak pertama (±1455-1518 M)
+## 3.8 Raden Patah / Sultan Demak pertama (abad 15-16 M)
 
 | Atribut | Nilai | Sumber primer |
 |---------|-------|---------------|
-| Nama | Raden Patah / Raden Fatah | `12-bab-7.md` A; `08-bab-3.md` A.2 |
-| Lahir | ±1455 M | `12-bab-7.md` A |
-| Asal | Keturunan raja Majapahit dari garis ibu Tionghoa | `08-bab-3.md` A.2 |
+| Nama | Raden Patah / Raden Fatah | `12-bab-7.md` A; `08-bab-3.md` A.2, D |
+| Gelar lengkap | Senapati Jimbun Ngabdurrahman Panembahan Palembang Sayidin Panatagama | `08-bab-3.md` D |
+| Lahir | Di Palembang (putra Prabu Kertabhumi Majapahit + putri Tionghoa Muslim) | `08-bab-3.md` D |
+| Ayah angkat | Arya Damar / Ario Abdillah (Adipati Palembang, masuk Islam) | `08-bab-3.md` D |
+| Pendirian Demak | ±1481 M (Raden Patah kembali ke Jawa setelah runtuhnya Majapahit, diangkat penguasa Demak oleh Walisongo) | `08-bab-3.md` D |
 | Pengesahan | Diangkat Sultan Demak pertama oleh Wali Songo (Babad Tanah Jawi) | `08-bab-3.md` A.2 |
-| Klaim legitimasi | Sebut diri keturunan Kertabhumi Majapahit — sintesis mistik (kebatinan Jawa + tasawuf Islam, per Ricklefs) | `08-bab-3.md` A.2 |
+| Klaim legitimasi | Menyebut diri keturunan Kertabhumi Majapahit (Ricklefs) | `08-bab-3.md` A.2 |
+| Catatan | Sumber primer tidak menyebut tahun lahir-wafat eksplisit. Tradisi Ricklefs: ±1455-1518 M (dari sumber sekunder) | `08-bab-3.md` D; Ricklefs |
 | Pendiri Masjid Agung Demak | 1466 M (1 Dulkaidah 1420 H) dengan Wali Songo | `12-bab-7.md` C |
-| Wafat | ±1518 M (per Ricklefs: 1455-1588 rentang hidup — periksa sumber) | `12-bab-7.md` A |
 
 ## 3.9 Sultan Muhammad Sulaiman (Lamuri, w. 1404 M)
 
@@ -391,7 +393,7 @@ Era berikutnya (3B) akan mencakup konsolidasi kerajaan-kerajaan Islam di Jawa (D
 | Atribut | Nilai | Sumber primer |
 |---------|-------|---------------|
 | Lokasi | Pantai utara Jawa Tengah | `08-bab-3.md` A.2; `12-bab-7.md` A |
-| Berdiri | ±1478 M (akhir abad 15) | `12-bab-7.md` A |
+| Berdiri | ±1481 M (akhir abad 15, per sumber primer Jilid III line 439) | `12-bab-7.md` A; `08-bab-3.md` D |
 | Sultan pertama | Raden Patah, diangkat oleh Wali Songo | `08-bab-3.md` A.2 |
 | Karakter | Talasokrasi (negara maritim) — kuasai pelabuhan penting + jalur niaga | `08-bab-3.md` A.2 |
 | Masjid Agung Demak | 1466 M (1 Dulkaidah 1420 H), arsitek Wali Songo (Sunan Kalijaga pimpin); 4 sakaguru oleh 4 wali; Pintu Bledeg ornamen naga; atap tumpang 3 | `12-bab-7.md` C |
@@ -430,7 +432,7 @@ Era berikutnya (3B) akan mencakup konsolidasi kerajaan-kerajaan Islam di Jawa (D
 | 25 | Tiongkok tarik diri 1435 M → raja Malaka masuk Islam | `08-bab-3.md` | B.1 |
 | 26 | Undang-Undang Melaka: hukum adat Melayu + prinsip syariat | `08-bab-3.md` | A.1 |
 | 27 | Struktur Malaka: Bendahara, Laksamana, Syahbandar + kadi | `08-bab-3.md` | A.1 |
-| 28 | Demak berdiri akhir abad 15 M; Raden Patah pendiri (Babad Tanah Jawi) | `08-bab-3.md` | A.2 |
+| 28 | Demak berdiri ±1481 M; Raden Patah pendiri (Babad Tanah Jawi + Jilid III line 439) | `08-bab-3.md` | A.2, D |
 | 29 | Raden Patah: keturunan raja Majapahit dari garis ibu Tionghoa | `08-bab-3.md` | A.2 |
 | 30 | Wali Songo esahkan Raden Patah sebagai Sultan Demak pertama | `08-bab-3.md` | A.2 |
 | 31 | Ricklefs: "sintesis mistik" (kebatinan Jawa + tasawuf Islam) — model Demak | `08-bab-3.md` | A.2 |

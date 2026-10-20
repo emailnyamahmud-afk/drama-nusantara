@@ -114,11 +114,19 @@ Perang Paregreg (1404-1406 M) — Wikramawardhana vs Wirabhumi. Zheng He (Tiongk
 
 Suhita (putri Wikramawardhana) 1429-1447 M. Kertawijaya 1447-1451 M. Interregnum 3 tahun. Rajasawardhana 1456-1466 M. Suraprabhawa 1466-1468 M.
 
-## 2.6 Akt 6 — Runtuhnya Majapahit (1478-1527 M)
+## 2.6 Akt 6 — Akhir Majapahit: Kertabhumi vs Ranawijaya (1466-1519 M)
 
-Bhre Kertabhumi kalahkan Suraprabhawa 1478 M → Girindrawardhana Dyah Ranawijaya (putra Suraprabhawa) perlawanan. Prasasti Jiyu (1486 M) — Ranawijaya klaim penguasa tunggal Jawa (yawabhumyekadhipa).
+Suraprabhawa (Bhre Pandan Salas, anak Rajasawardhana) memerintah Majapahit hanya ±2 tahun (±1466-1468 M). Ia diserang dan dikalahkan oleh Bhre Kertabhumi (anak bungsu Sang Sinagara/Rajasawardhana) — Kertabhumi merebut takhta.
 
-Majapahit semakin lemah karena perang saudara. Demak (Islam) naik. Majapahit runtuh ± 1527 M.
+Bhre Kertabhumi memerintah Majapahit ±1468-1478 M. Prasasti Pamintihan (1473 M) — Kertabhumi masih memerintah dengan gelar Sri Maharaja Sri Giripatiprasutabhupatikétubhuta, mengaku penguasa tunggal Jawa (yawabhumyekadhipa). Empu Tanakung dalam kitab Siwaratrikalpa menyebut Kertabhumi sebagai keturunan keluarga Girindra.
+
+**1478 M** — Bhre Kertabhumi dikalahkan oleh **Girindrawardhana Dyah Ranawijaya** (anak Dyah Suraprabhawa). Keluarga Kertabhumi mengungsi ke Blambangan di ujung timur Jawa.
+
+Girindrawardhana Dyah Ranawijaya memerintah 1478-1519 M dengan gelar **Sri Paduka Maharaja Sri Wilwatiktapurda Janggala Kadhiri Prabhunatha** — gelar yang mengklaim penguasa Majapahit (Wilwatikta), Jenggala, dan Kediri sekaligus. Prasasti Jiyu/Trailokyapuri (1408 Saka/1486 M) — Ranawijaya menganugerahkan tanah pradesa di Petak kepada Sri Brahmaraja Ganggadhara; sezaman dengan Prasasti Petak (1408 Saka/1486 M) yang juga meneguhkan legitimasi Ranawijaya sebagai raja Majapahit. Ranawijaya juga menyelenggarakan upacara srdddha (1408 Saka/1486 M) untuk memperingati 12 tahun kematian ayahnya (Bhattara ring Dahanapura).
+
+Setelah Ranawijaya wafat 1519 M, Majapahit melemah. Pemerintahan dilanjutkan Patih Udara (Pate Udra) — wilayah makin sempit, hanya meliputi ibukota kerajaan. Vasal-vasal menyatakan kemerdekaan. Upeti tidak lagi ke istana.
+
+Demak (Islam) naik di pesisir. Tomé Pires (Suma Oriental, ±1500 M) mencatat kekuatan nyata di Jawa bukan lagi raja Majapahit, melainkan penguasa lokal semi-otonom. Sisa Majapahit Girindrawardhana di Daha/Kediri akhirnya runtuh ±1527 M setelah diserang Demak (Trenggana + Sunan Kudus).
 
 ---
 

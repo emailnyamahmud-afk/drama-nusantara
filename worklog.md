@@ -1332,3 +1332,36 @@ Stage Summary:
 - Artefak kunci: Lawang Bledeg (naga+kala, Surah Al-Imran 133-136), Menara Banten (mercusuar ±24 m), Keramik Tionghoa Keraton Kasepuhan (naga-Phoenix-ikan), Pancuran Mas Banten, Manuskrip Sharab al-Ashigin Hamzah Fansuri, Wayang Punakawan sufistik
 - Cutoff: 1582 M (Hadiwijaya wafat; Pajang runtuh) — era berikutnya 3C Mataram Islam abad 17-18 M
 - Status: ✅ Berdasar sumber primer Jilid III Kementerian Kebudayaan RI 2025
+
+---
+Task ID: audit-parsing
+Agent: Main Agent (Z.ai)
+Task: Audit ulang semua master era (1A-3B) — verifikasi parsing langsung dari sumber primer Jilid I-V
+
+Work Log:
+- Audit 1A Pleistosen Awal: VERIFIED CLEAN. Klaim Mayr 1950 Cold Spring Harbor confirmed di Jilid I line 452. Formasi Pucangan 1,9-1,67 Ma confirmed di Jilid I line 352. Tidak ada kesalahan parsing.
+- Audit 1B Pleistosen Tengah-Akhir: VERIFIED CLEAN. Toba 74 ka, Lida Ajer 73-63 ka, Homo floresiensis Liang Bua 18 ka, Homo erectus soloensis Ngandong, ter Haar 1932, Old Toba Tuff tertua, tektit Australasia — semua konsisten dengan sumber primer Jilid I.
+- Audit 1C Holosen/Neolitik: VERIFIED CLEAN. Klaim Hoabinhian Gua Harimau, Leang Panningge 7.300 thn, Liang Jon 4.070 + 4.100 thn, Jeriji Saleh, Toalian Maros — semua confirmed di Jilid I.
+- Audit 1D Logam Awal: VERIFIED CLEAN. Klaim Gunung Padang, Pasir Angin, Kalumpang, primus inter pares, undagi — semua confirmed di Jilid I Bab V.
+- Audit 2A Hindu-Buddha Awal: VERIFIED CLEAN. Yupa 7 prasasti (5 masih bisa dibaca), Mulawarman-Aswawarman-Kundungga, 5 prasasti Tarumanagara (Ciaruteun-Kebon Kopi-Jambu-Cidanghiang-Tugu), ritual 20.000 + 10.000 sapi — semua confirmed di Jilid II Bab II line 124, 126, 285, 293.
+- Audit 2B Mataram-Sriwijaya: VERIFIED CLEAN. Dapunta Hyang 682 siddhayatra, Sanjaya 732 Canggal, Gajayana 760 Kanjuruhan, Balitung 898-912, Pu Sindok 929 Tamwlang, Airlangga 1019-1042, Pralaya 1016, Narottama, Mpu Bharada — semua confirmed di Jilid II Bab III.
+- Audit 2C Singasari-Kediri: VERIFIED CLEAN. Jayabhaya 1135-1157, Kameswara 1185, Ken Arok 1222, Kertanagara 1268-1292, Raden Wijaya 1293, Jayakatwang 1292, Pararaton — semua confirmed di Jilid II Bab V-VI.
+- Audit 2D Majapahit: FIXED Akt 6 (Runtuhnya Majapahit). Sumber primer Jilid II line 1906-1915:
+  * Sebelumnya saya tulis: "Bhre Kertabhumi kalahkan Suraprabhawa 1478 M → Girindrawardhana Dyah Ranawijaya (putra Suraprabhawa) perlawanan" — SALAH PARSING.
+  * Yang benar: Suraprabhawa (1466-1468) dikalahkan Kertabhumi (sebelum 1473); Kertabhumi memerintah 1468-1478 (prasasti Pamintihan 1473); 1478 M: Kertabhumi kalah oleh Girindrawardhana Dyah Ranawijaya (anak Suraprabhawa); Ranawijaya memerintah 1478-1519 M dengan gelar Sri Wilwatiktapurda Janggala Kadhiri Prabhunatha; prasasti Petak + Jiyu/Trailokyapuri 1408 Saka/1486 M (per Jilid II Bab V line 1232, 2306).
+  * Setelah Ranawijaya wafat 1519 M: Patih Udara (Pate Udra).
+- Audit 3A Islamisasi Awal: FIXED pendirian Demak dari ±1478 M → ±1481 M (per sumber primer Jilid III Bab III.D line 439: "mendirikan Kesultanan Demak sekitar tahun 1481 M"). Tambah detail Raden Patah: lahir di Palembang, gelar Senapati Jimbun Ngabdurrahman Panembahan Palembang Sayidin Panatagama, ayah angkat Arya Damar (Ario Abdillah). Hapus klaim tahun lahir ±1455 M (dari Ricklefs, bukan dari sumber primer — tandai sebagai catatan).
+- Audit 3B Demak-Pajang: FIXED 5 hal:
+  1. Pendirian Demak: 1478 M → 1481 M (per Jilid III line 439)
+  2. Klaim "Sunan Kudus menggantikan Sunan Ampel (Rahmatullah) sejak 1521 M": sebelumnya saya tuduh sumber primer salah internal — TERNYATA PARSING SAYA YANG SALAH. Sumber primer BENAR: ada dua jabatan berbeda di Masjid Demak (imam = Sunan Bonang lalu Sunan Ngudung lalu Sunan Kudus; penghulu kesultanan = Sunan Bonang 1490-1506 → Sunan Ampel [lembaga/penerus] 1521-1524 → Sunan Kudus 1524-1550). Saya meminta maaf atas tuduhan tolol sebelumnya.
+  3. Arya Penangsang: hapus klaim nasab "putra Sultan Trenggana / putra Pangeran Sekar Seda Lepen" karena tidak ada di sumber primer Jilid III line 481. Nasab per Babad Tanah Jawi (sumber sekunder) ditandai sebagai catatan.
+  4. Tambah 4 tokoh baru: Sunan Prawoto (Sultan Demak ke-4, per Jilid III Bab VII line 1195), Sunan Ngudung (senopati + imam Masjid Demak, ayah Sunan Kudus, per Jilid III Bab VII.D.7 line 421), Pati Unus (Sultan Demak ke-2, per Jilid III Bab III.D line 440), Girindrawardhana Dyah Ranawijaya (penguasa Majapahit terakhir di Daha/Kediri, per Jilid II Bab III line 1915)
+  5. Tambah 2 latar baru: Daha/Kediri (ibukota Majapahit Girindrawardhana 1478-1527 M) + Jipang-Panolan (Blora utara, basis Arya Penangsang)
+
+Stage Summary:
+- Master era 1A, 1B, 1C, 1D, 2A, 2B, 2C: VERIFIED CLEAN — tidak ada kesalahan parsing
+- Master era 2D: FIXED Akt 6 (urutan peristiwa Kertabhumi-Ranawijaya 1466-1519 M)
+- Master era 3A: FIXED pendirian Demak 1481 M (bukan 1478 M) + detail Raden Patah Palembang
+- Master era 3B: FIXED pendirian Demak 1481 M + narasi Arya Penangsang + 4 tokoh baru + 2 latar baru
+- Pembenahan terbesar di era 3B karena saya parsing terburu-buru sebelumnya dan mengambil angka 1478 dari Wikipedia (tahun Trowulan jatuh), bukan dari sumber primer Jilid III yang menyebut 1481 M
+- Catatan penting: tuduhan sebelumnya bahwa "sumber primer Jilid III salah internal soal Sunan Ampel" = SALAH. Sumber primer BENAR — saya parsing tidak teliti. Saya mohon maaf atas kesalahan ini.

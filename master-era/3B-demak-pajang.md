@@ -1,6 +1,6 @@
 # MASTER ERA 3B — Demak-Pajang (Abad 15-16 M)
 
-> **Periode**: 1478-1582 M (dari Raden Patah dirajakan hingga runtuhnya Pajang dan naiknya Mataram Islam)
+> **Periode**: 1481-1582 M (dari Raden Patah dirajakan hingga runtuhnya Pajang dan naiknya Mataram Islam)
 > **Sub-era**: 3B dari 17 era
 > **Sumber primer utama**: Kementerian Kebudayaan RI 2025, Jilid III — *Nusantara dalam Jaringan Global: Timur Tengah*
 >   - Bab III.E — Pembentukan Kesultanan di Jawa: Dari Pesisir ke Pedalaman (hal. 249-261)
@@ -20,7 +20,7 @@
 
 | Parameter | Nilai |
 |-----------|-------|
-| Awal | 1478 M (Raden Patah didirikan Demak; catatan: Masjid Agung Demak 1466 M sudah lebih awal) |
+| Awal | 1481 M (Raden Patah didirikan Demak, per sumber primer Jilid III Bab III.D line 439; catatan: Masjid Agung Demak 1466 M sudah lebih awal) |
 | Akhir | 1582 M (wafatnya Sultan Hadiwijaya; Pajang runtuh; Sutawijaya naik jadi Senapati Mataram Islam ±1584 M) |
 | Durasi | ± 104 tahun |
 | Puncak | 1527 M (Trenggana taklukkan ibukota Majapahit di Kediri) dan 1549-1568 M (era Sultan Hadiwijaya Pajang) |
@@ -32,7 +32,7 @@
 
 | Kerajaan | Lokasi | Periode | Sumber primer |
 |----------|--------|---------|---------------|
-| **Demak** | Pantai utara Jawa Tengah (pesisir) | ±1478-1546 M (era Raden Patah → Trenggana); runtuh 1549 M setelah perang saudara | `08-bab-3.md` E; `09-bab-4.md` D |
+| **Demak** | Pantai utara Jawa Tengah (pesisir) | ±1481-1546 M (era Raden Patah → Trenggana); perang saudara 1546-1549 M (Sunan Prawoto vs Arya Penangsang) | `08-bab-3.md` E; `09-bab-4.md` D; `12-bab-7.md` A |
 | **Pajang** | Pajang (dekat Surakarta saat ini, pedalaman Jawa Tengah) | ±1549-1582 M (Sultan Hadiwijaya / Jaka Tingkir) | `08-bab-3.md` E |
 | **Cirebon** | Pesisir utara Jawa Barat | sejak ±1479 M (Sunan Gunung Jati); Keraton Kasepuhan 1529 M | `08-bab-3.md` E; `13-bab-8.md` A |
 | **Banten** | Surosowan, pesisir barat Jawa | sejak 1552 M (Maulana Hasanuddin sultan pertama, putra Sunan Gunung Jati) | `08-bab-3.md` E; `13-bab-8.md` A |
@@ -59,7 +59,7 @@
 
 # BAGIAN 2 — NARASI KRONOLOGI
 
-## 2.1 Akt 1 — Raden Patah & Konsolidasi Demak (±1478-1518 M)
+## 2.1 Akt 1 — Raden Patah & Konsolidasi Demak (±1481-1518 M)
 
 Raden Patah, putra raja Majapahit dari garis ibu Tionghoa, diangkat Sultan Demak pertama oleh Wali Songo (per Babad Tanah Jawi) — aliansi erat antara kekuasaan politik baru dan otoritas keagamaan. Sumber Jawa (de Graaf dan Pigeaud) sangat bias Mataram, sehingga pembahasan Demak penuh dengan legenda yang menghubungkan kerajaan tersebut dengan runtuhnya Majapahit. Raden Patah digambarkan sebagai putra raja terakhir Majapahit, Brawijaya — tradisi Jawa yang menekankan keberlanjutan sejarah (historical continuity): Demak sebagai pewaris langsung Majapahit.
 
@@ -88,9 +88,9 @@ Sunan Kudus dikenal ahli tauhid, usul hadis, mantiq, fikih, pujangga (Gending Ma
 
 ## 2.4 Akt 4 — Perang Saudara Demak (1546-1549 M)
 
-Sultan Trenggana wafat 1546 M. Terjadi perebutan kekuasaan antara:
-- **Arya Penangsang** di Jipang (putra Sultan Trenggana / putra Pangeran Sekar Seda Lepen) — berusaha mengambil alih hegemoni Demak
-- **Jaka Tingkir (Hadiwijaya)** — menantu Sultan Trenggana, bupati Pajang
+Sultan Trenggana wafat 1546 M. Terjadi perebutan kekuasaan: **Sunan Prawoto** (Sultan Demak ke-4, penerus Trenggana) bersaing dengan **Arya Penangsang** (pangeran Jipang, Panolan — Blora utara) yang berusaha mengambil alih hegemoni Demak. Perang saudara 1546-1549 M (Sunan Prawoto vs Arya Penangsang).
+
+Catatan nasab: Sumber primer Jilid III Bab III.E line 481 hanya menyebut Arya Penangsang "di Jipang" tanpa nasab eksplisit. Nasab "putra Pangeran Sekar Seda Lepen (Raden Kikin), cucu Raden Patah" berasal dari Babad Tanah Jawi + sumber sekunder — bukan dari Jilid III.
 
 Dalam pertarungan 1549 M, Arya Penangsang ditumpas oleh Jaka Tingkir dengan bantuan para bangsawan terkemuka:
 - **Ki Ageng Pemanahan** — kelak diberi alas Mentaok (cikal-bakal Mataram)
@@ -226,7 +226,7 @@ Dua tokoh sufi terkemuka di Aceh abad 16-17 M:
 
 # BAGIAN 3 — TOKOH
 
-## 3.1 Raden Patah (Sultan Demak pertama, ±1478-1518 M)
+## 3.1 Raden Patah (Sultan Demak pertama, ±1481-1518 M)
 
 | Atribut | Nilai | Sumber primer |
 |---------|-------|---------------|
@@ -281,11 +281,58 @@ Dua tokoh sufi terkemuka di Aceh abad 16-17 M:
 
 | Atribut | Nilai | Sumber primer |
 |---------|-------|---------------|
-| Nama | Arya Penangsang | `08-bab-3.md` E |
-| Asal | Jipang (Panolan, Blora utara); putra Sultan Trenggana / Pangeran Sekar Seda Lepen | `08-bab-3.md` E |
-| Peran | Berusaha ambil hegemoni Demak pasca Trenggana wafat 1546 M | `08-bab-3.md` E |
+| Nama | Arya Penangsang | `08-bab-3.md` E; `12-bab-7.md` A |
+| Asal | Jipang (Panolan, Blora utara) | `08-bab-3.md` E; `12-bab-7.md` D.7 |
+| Nasab | Sumber primer Jilid III tidak menyebut nasab eksplisit. Babad Tanah Jawi + sumber sekunder: putra Pangeran Sekar Seda Lepen (Raden Kikin), cucu Raden Patah | `08-bab-3.md` E (tidak ada); Babad Tanah Jawi (sumber sekunder) |
+| Peran | Berusaha ambil hegemoni Demak pasca Trenggana wafat 1546 M; perang saudara vs Sunan Prawoto 1546-1549 M | `08-bab-3.md` E; `12-bab-7.md` A |
 | Kekalahan | 1549 M — ditumpas Jaka Tingkir (Hadiwijaya) dengan bantuan Ki Ageng Pemanahan + Ki Juru Martani | `08-bab-3.md` E |
 | Signifikansi | Kematian = berakhirnya garis keturunan langsung Raden Patah + eksistensi Demak sebagai entitas berdaulat | `08-bab-3.md` E |
+
+## 3.5.1 Sunan Prawoto (Sultan Demak ke-4, 1546-1549 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Sunan Prawoto | `12-bab-7.md` A (line 1195) |
+| Periode | Sultan Demak ke-4 (penerus Trenggana wafat 1546 M) | `12-bab-7.md` A |
+| Peran | Saingan Arya Penangsang dalam perang saudara 1546-1549 M | `12-bab-7.md` A (line 1195) |
+| Catatan | Sumber primer Jilid III menyebut "perang saudara antara Sunan Prawoto dan Arya Penangsang, 1546-1549 M" (Bab VII line 1195) | `12-bab-7.md` A |
+| Signifikansi | Penguasa sah Demak setelah Trenggana; terlibat perang saudara dengan Arya Penangsang yang berakhir dengan kejatuhan keduanya (Arya Penangsang ditumpas Hadiwijaya 1549 M) | `12-bab-7.md` A |
+
+## 3.5.2 Sunan Ngudung (Demak, sebelum 1524 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | R. Usman Haji / Sunan Ngudung | `12-bab-7.md` D.7 (line 421) |
+| Peran | Senopati Kerajaan Bintoro Demak + imam Masjid Agung Demak | `12-bab-7.md` D.7 |
+| Anak | Sunan Kudus (Jafar Sodiq) — penerus sebagai penghulu kesultanan Demak 1524-1550 M | `12-bab-7.md` D.7 |
+| Hubungan dengan Wali Songo | Termasuk dalam pertemuan kedua Wali Songo di Demak (pembangunan masjid), per Serat Babak Demak pupuh III | `12-bab-7.md` A |
+| Signifikansi | Ayah Sunan Kudus; pendahulu Sunan Kudus sebagai imam Masjid Agung Demak | `12-bab-7.md` D.7 |
+
+## 3.5.3 Pati Unus (Sultan Demak ke-2)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Pati Unus / Pangeran Sabrang Lor | `08-bab-3.md` D; `12-bab-7.md` D.7 |
+| Gelar | Pangeran Sabrang Lor (raja kedua Demak) | `12-bab-7.md` D.7 |
+| Peran | Sultan Demak ke-2 (pendahulu Trenggana) | `12-bab-7.md` D.7 |
+| Putra | Pangeran Sido Ing Lautan — ditunjuk sebagai wakil Demak di Palembang setelah Arya Dillah wafat 1528 M | `08-bab-3.md` D (line 440) |
+| Cucu | Kiai Gede ing Suro (Ki Gede Ing Suro) — penerus ayahnya di Palembang | `08-bab-3.md` D |
+| Signifikansi | Pendahulu Trenggana; keturunannya memerintah Palembang sebagai vasal Demak | `08-bab-3.md` D |
+
+## 3.5.4 Girindrawardhana Dyah Ranawijaya (Majapahit, 1478-1519 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Girindrawardhana Dyah Ranawijaya | Jilid II `08-bab-3.md` (line 1915) |
+| Nasab | Anak Dyah Suraprabhawa / Bhre Pandan Salas | Jilid II `08-bab-3.md` |
+| Periode | 1478-1519 M (raja terakhir Majapahit) | Jilid II `08-bab-3.md` |
+| Gelar | Sri Paduka Maharaja Sri Wilwatiktapurda Janggala Kadhiri Prabhunatha (klaim penguasa Majapahit + Jenggala + Kediri) | Jilid II `08-bab-3.md` |
+| Prasasti Petak | 1408 Saka/1486 M — menganugerahkan tanah pradesa di Petak kepada Sri Brahmaraja Ganggadhara | Jilid II `10-bab-5.md` (line 1232, 2304, 2306) |
+| Prasasti Jiyu/Trailokyapuri | 1408 Saka/1486 M — sezaman dengan Prasasti Petak; meneguhkan legitimasi Ranawijaya sebagai raja Majapahit | Jilid II `10-bab-5.md` (line 1232, 2306) |
+| Ibu kota | Daha/Kediri (sejak 1478 M setelah Ranawijaya kalahkan Kertabhumi di Trowulan) | Jilid II `08-bab-3.md` |
+| Upacara srdddha | 1408 Saka/1486 M — peringati 12 tahun kematian ayahnya Bhattara ring Dahanapura | Jilid II `08-bab-3.md` |
+| Penerus | Patih Udara (Pate Udra) — wilayah makin sempit setelah 1519 M | Jilid II `08-bab-3.md` |
+| Signifikansi (era 3B) | Penguasa Majapahit terakhir yang beribukota di Daha/Kediri — sasaran penaklukan Demak (Trenggana + Sunan Kudus) 1527 M | Jilid II `08-bab-3.md` + cross-ref Jilid III `08-bab-3.md` E |
 
 ## 3.6 Panembahan Senapati / Danang Sutawijaya (Mataram Islam ±1584-1601 M)
 
@@ -503,6 +550,31 @@ Dua tokoh sufi terkemuka di Aceh abad 16-17 M:
 | Legitimasi spiritual | Pertemuan Senapati dengan Nyai Roro Kidul (Ratu Kidul) — penguasa Laut Selatan bersekutu | `08-bab-3.md` E |
 | Gelar | Panembahan Senapati Ingalaga (bukan "Sultan") — kesinambungan kemonarkian Jawa kuno dengan spirit Islam | `08-bab-3.md` E |
 | Sultan Agung (cucu) | 1613-1645 M; resmi gelar Sultan; kalender Jawa Islam 1633 M; taklukkan Surabaya 1625 M; "Majapahit Baru" | `08-bab-3.md` E |
+
+## 4.10 Daha/Kediri (ibukota Majapahit Girindrawardhana, 1478-1527 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Kediri, Jawa Timur (daerah historis Daha/Kediri sejak Kerajaan Kediri abad 11-13 M) | Jilid II `08-bab-3.md`; cross-ref Jilid III `08-bab-3.md` E |
+| Signifikansi historis | Daha/Kediri = ibukota lama Kerajaan Kediri (Pañjalu) 1042-1222 M (pra-Singasari); kemudian pusat pemberontakan Jayakatwang 1292 M; ibukota Majapahit Girindrawardhana sejak 1478 M (setelah Trowulan jatuh) | Jilid II `08-bab-3.md` |
+| Ibukota Majapahit Girindrawardhana | 1478-1519 M (era Ranawijaya); Ranawijaya kalahkan Kertabhumi 1478 M di Trowulan, pindah ibukota ke Daha/Kediri | Jilid II `08-bab-3.md` |
+| Prasasti Petak + Jiyu/Trailokyapuri | 1408 Saka/1486 M — Ranawijaya menganugerahkan tanah pradesa di Petak kepada Sri Brahmaraja Ganggadhara; meneguhkan legitimasi Ranawijaya sebagai raja Majapahit | Jilid II `10-bab-5.md` |
+| Gelar Ranawijaya | Sri Wilwatiktapurda Janggala Kadhiri Prabhunatha — klaim penguasa Majapahit (Wilwatikta) + Jenggala + Kediri sekaligus | Jilid II `08-bab-3.md` |
+| Penerus | Patih Udara (Pate Udra) sejak 1519 M — wilayah makin sempit | Jilid II `08-bab-3.md` |
+| Penaklukan Demak 1527 M | Trenggana + Sunan Kudus menyerang Daha/Kediri — sisa-sisa terakhir Majapahit Girindrawardhana runtuh | Jilid III `08-bab-3.md` E + cross-ref Jilid II |
+| Signifikansi (era 3B) | Penaklukan Daha/Kediri 1527 M = momen krusial: kerajaan Hindu-Buddha terakhir Jawa runtuh, Islam jadi identitas politik dominan Jawa | Jilid III `08-bab-3.md` E |
+
+## 4.11 Jipang-Panolan (Blora utara, abad 16 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Jipang/Panolan, sebelah utara Kota Blora, Jawa Tengah | `08-bab-3.md` E; `12-bab-7.md` D.7 (line 421) |
+| Karakter | Kadipaten vasal Demak | `08-bab-3.md` E |
+| Penguasa terkenal | Arya Penangsang (pangeran Jipang yang berusaha ambil hegemoni Demak 1546-1549 M) | `08-bab-3.md` E |
+| Penguasa lain | Sunan Kudus lahir di Jipang-Panolan ±1500 M (putra Sunan Ngudung, senopati Demak) — sebelum pindah ke Kudus | `12-bab-7.md` D.7 |
+| Peristiwa kunci | Perang saudara Demak 1546-1549 M: Arya Penangsang vs Sunan Prawoto; Arya Penangsang ditumpas Jaka Tingkir (Hadiwijaya) 1549 M dengan bantuan Ki Ageng Pemanahan + Ki Juru Martani | `08-bab-3.md` E; `12-bab-7.md` A (line 1195) |
+| Pasca-1549 M | Pangeran Benawa (putra Hadiwijaya) diangkat Adipati Jipang | Sumber sekunder (Babad Tanah Jawi) |
+| Signifikansi | Lokasi perseteruan Demak vs Jipang (Blora) yang menutup era Demak sebagai entitas berdaulat | `08-bab-3.md` E |
 
 ---
 
