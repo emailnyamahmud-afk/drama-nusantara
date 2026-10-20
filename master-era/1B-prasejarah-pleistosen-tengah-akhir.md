@@ -540,6 +540,169 @@ Sejak ± 15.000 tahun lalu, terbentuk dua jenis populasi manusia modern di Nusan
 | Kaifu dkk. | Analisis dentognatik Sangiran, morfologi tengkorak Homo erectus Jawa | kontemporer | `07-bab-2.md` section C-5 |
 | Carlhoff dkk. | Genom Leang Panninge (Holosen Tengah, Wallacea) | 2021 | `07-bab-2.md` section E-1 |
 | Jacobs dkk. | Dua garis Denisova di Papua | 2019 | `07-bab-2.md` section C-5 |
+| Tim Ryan Maloney dkk. | "Surgical Amputation of a Limb 31,000 Years Ago in Borneo" (Nature 609, 2022) — Liang Tebo TB1 | 2022 | `07-bab-2.md` section D |
+| Samper-Carro dkk. | Tron Bon Lei (Alor) — 3 kubur Terminal Pleistosen-Holosen | kontemporer | `07-bab-2.md` section D |
+| Stuart Hawkins dkk. | "Earliest Known Funerary Rites in Wallacea after the Last Glacial Maximum" (Scientific Reports 14, 2024) — Gua Ratu Mali 2 | 2024 | `07-bab-2.md` section D |
+| Storm & Nelson | Fauna Wajak subresen; pertanggalan Wajak Holosen | kontemporer | `07-bab-2.md` section D |
+| Noerwidi dkk. (2020) | Analisis morfometrik gigi Indonesia bagian barat: Preneolitik = Holosen Awal; Wajak-Lida Ajer-Gua Harimau-Gua Pawon berbagi karakter | 2020 | `07-bab-2.md` section D |
+| Richard Leakey | Aktivitas evolusioner 500.000-34.000 thn lalu; pola dasar anatomi Homo erectus bertahan sampai ~500 Ka | — | `07-bab-2.md` section D |
+| Weidenreich | Kesamaan Wajak dengan spesimen Australia; model kontinuitas multiregional | — | `07-bab-2.md` section D |
+| Coon | Model kontinuitas multiregional; Wajak dan Keilor "saudara" | — | `07-bab-2.md` section D |
+| Thorne & Wolpoff (1992); Wolpoff (1985); Wolpoff et al. (1994) | Model kontinuitas multiregional | — | `07-bab-2.md` section D |
+
+## 3.11 Tokoh 11 — Liang Tebo TB1 (Kalimantan Timur, 31 Ka — amputasi bedah tertua di dunia)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama spesimen | TB1 (rangka Liang Tebo) | `07-bab-2.md` section D |
+| Lokasi | Gua Liang Tebo, kawasan karst Sangkulirang-Mangkalihat, Kalimantan Timur | `07-bab-2.md` |
+| Periode | 31.000-30.000 tahun lalu (14C arang asosiasi) | `07-bab-2.md` |
+| Signifikansi | **Penguburan primer tertua MMAA di Kepulauan Asia Tenggara** | `07-bab-2.md` |
+| Penemu | Tim Ryan Maloney et al. (2022, Nature 609) | `07-bab-2.md` |
+| Usia kematian | Dewasa muda, 19-20 tahun | `07-bab-2.md` |
+| Kelamin | (tidak disebut eksplisit di sumber primer) | — |
+| Kondisi rangka | 75% elemen tulang utuh; gigi lengkap | `07-bab-2.md` |
+| Posisi penguburan | Utara-selatan; kaki kiri-kanan ditekuk; kaki kanan lutut di dada; lutut kiri di bawah panggul; tangan kiri di bawah, tangan kanan di atas | `07-bab-2.md` |
+| Bekal kubur | Artefak rijang terserpih + bongkah oker merah di dekat rahang; batu kapur di atas kepala + setiap lengan | `07-bab-2.md` |
+| **Bukti amputasi** | Sepertiga distal tungkai kaki kiri bawah diamputasi melalui pembedahan disengaja (poros tibia + fibula distal); tulang batang tibia-fibula tertekan di bawah tulang paha kiri; pertumbuhan tulang distal tidak biasa; tulang batang tibia-fibula distal dibentuk ulang menutupi permukaan amputasi — menunjukkan penyembuhan | `07-bab-2.md` |
+| Usia amputasi | Saat masih anak-anak | `07-bab-2.md` |
+| Lama bertahan pasca-amputasi | 6-9 tahun lagi sebelum dikubur | `07-bab-2.md` |
+| Implikasi medis | Ahli bedah MMAA Pleistosen Akhir punya pengetahuan anatomi anggota tubuh + sistem otot + pembuluh darah untuk cegah kehilangan darah + infeksi fatal; kemungkinan pakai obat antiseptik dari flora endemik Kalimantan | `07-bab-2.md` |
+| Penipisan margin kortikal tibia kanan | TB1 jarang bergerak karena sifat cedera melumpuhkan kaki kiri bawah | `07-bab-2.md` |
+
+**Sumber**: `07-bab-2.md` section D; refs Tim Ryan Maloney et al. 2022 (Nature 609, ref 381).
+
+## 3.12 Tokoh 12 — Tron Bon Lei, Alor (3 individu Terminal Pleistosen-Holosen)
+
+| Individu | Periode | Kelamin | Usia | Tinggi | Posisi kubur | Bekal kubur | Modifikasi | Sumber primer |
+|----------|---------|---------|------|--------|-------------|-------------|------------|---------------|
+| **TLB-1** | 12.000 thn lalu (Terminal Pleistosen) | Perempuan | >50 thn | 151,9 ± 5,94 cm | Primer, barat-timur, terlipat, terbaring miring ke kiri; tangan kanan di siku kiri, tangan kiri di siku kanan | 5 mata kail + 1 kerang bivalvia berlubang di leher; bebatuan bulat + lapisan oker di atas+samping tengkorak | Tidak ada modifikasi antropogenik | `07-bab-2.md` D |
+| **DE B2** | 10.000 thn lalu (Terminal Pleistosen) | Perempuan | >55 thn | — | Primer, barat-timur, duduk/jongkok | Batu bulat + lapisan oker + batu asah; serpihan basal + rijang di seluruh timbunan | Tidak ada modifikasi antropogenik; atrisi gigi ekstrem | `07-bab-2.md` D |
+| **E16b** | 7.500 thn lalu (Holosen Tengah) | Laki-laki | 20-25 thn | — | Sekunder | 8 bongkahan batu tertabur oker; jejak kemerahan gigi = bekas pinang (bukan oker) | **Tanda irisan di tulang rusuk** — pemotongan tubuh disengaja sebelum penguburan; oker di tulang rusuk + tulang belakang | `07-bab-2.md` D |
+
+**Signifikansi**: TLB-1 tinggi 151,9 cm — rentang perempuan Liang Toge + perempuan Jawa + perempuan Asia Tenggara modern. Dimensi postur kecil = populasi terisolasi secara genetik di pulau.
+
+**Sumber**: `07-bab-2.md` section D; refs Samper-Carro dkk. (ref 392).
+
+## 3.13 Tokoh 13 — Leang Bulu Bettue (Sulawesi, 25-16 Ka)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Leang Bulu Bettue (LBB), semenanjung barat daya Pulau Sulawesi | `07-bab-2.md` section D |
+| Spesimen | Rahang atas (maxilla) MMAA | `07-bab-2.md` |
+| Periode | 25.000-16.000 tahun lalu | `07-bab-2.md` |
+| Individu | Tua; usia + kelamin tidak diketahui | `07-bab-2.md` |
+| Gigi | Kecil; M1-M3 masih ada; keausan oklusal parah; patologi gigi dengan pola keausan tidak biasa | `07-bab-2.md` |
+| Signifikansi | Satu-satunya catatan fosil identitas masyarakat Sulawesi pada Akhir Pleistosen | `07-bab-2.md` |
+
+## 3.14 Tokoh 14 — Pulau Rote (Pia Hudale, Lua Manggetek, Lua Meko)
+
+### 3.14.1 Pia Hudale
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Pia Hudale, Pulau Rote | `07-bab-2.md` section D |
+| Periode hunian | Terminal Pleistosen Akhir → awal Holosen → sporadis akhir Holosen | `07-bab-2.md` |
+| Ekskavasi 1997 | 39 fragmen tulang manusia: 1 geraham kedua, 2 clavicles, 1 scapula, 2 tulang rusuk, 2 humerus/ulna, 3 ulna, 2 radii, 1 metacarpal-4, 2 proximal manual phalanges, 1 medial, 2 femur/humerus, 2 femur fragmen, 2 tibia, 1 fibula, 1 metatarsal-3, 1 metatarsal-5. Tidak ada tengkorak | `07-bab-2.md` |
+| Individu | 1 laki-laki dewasa + 1 perempuan dewasa + 1 laki-laki remaja | `07-bab-2.md` |
+| Pembakaran tulang | Indikasi pembakaran tulang secara sengaja sebelum dikubur | `07-bab-2.md` |
+| Afinitas | Fragmen femur laki-laki dewasa punya persamaan dengan Aborigin Australia | `07-bab-2.md` |
+| Pinang | Noda pada gigi — bekas pengunyahan sirih pinang | `07-bab-2.md` |
+
+### 3.14.2 Lua Manggetek
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Lua Manggetek, Desa Tuanatuk, Pulau Rote | `07-bab-2.md` |
+| Periode | 13.390 ± 430 → 7.050 ± 480 thn lalu | `07-bab-2.md` |
+| Fungsi | Awalnya situs kubur → situs hunian → Holosen Tengah-Resen | `07-bab-2.md` |
+| Individu | Laki-laki dewasa (kotak F3, semi-fosilisasi) + anak-anak (terfosilisasi sempurna); dewasa kemungkinan perempuan (kotak C3D3) | `07-bab-2.md` |
+
+### 3.14.3 Lua Meko
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Lua Meko, Desa Tuanatuk, Pulau Rote (kompleks sama dengan Lua Manggetek) | `07-bab-2.md` |
+| Periode | 24.420 ± 250 thn lalu — **sisa rangka manusia tertua di Nusa Tenggara Timur** | `07-bab-2.md` |
+| Individu | 54 fragmen rangka manusia; ciri fisik kedekatan dengan Aborigin Australia (ukuran metatarsal laki-laki dewasa) | `07-bab-2.md` |
+| Periode lain | 10.030 ± 120 → 4.720 ± 100 thn lalu | `07-bab-2.md` |
+| Metode pertanggalan | C-14 dari cangkang Kerang species strobus | `07-bab-2.md` |
+
+## 3.15 Tokoh 15 — Gua Ratu Mali 2 (Pulau Kisar, 14.700 thn lalu)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Gua Ratu Mali 2, pesisir Pulau Kisar, Maluku | `07-bab-2.md` section D |
+| Periode | 14.700 thn lalu — **bukti kubur manusia tertua di Wallacea** | `07-bab-2.md` |
+| Individu | 2 rangka: pria + wanita | `07-bab-2.md` |
+| Posisi kubur | Terlipat, di tumpukan kerang + obsidian; satu lubang dangkal diameter 90 cm, 50 cm di bawah permukaan; arah timur-barat; batu bongkahan kapur besar di dekat kepala; tertekuk ke kanan; tangan terselip di bawah kepala (pria) / dagu (wanita) | `07-bab-2.md` |
+| Isotop stronsium | Kedua rangka habiskan masa kecil di Pulau Kisar atau pulau lain dengan geologi batu kapur serupa | `07-bab-2.md` |
+| Obsidian | Serpihan batu obsidian dari sumber geokimia eksotik **Grup 138** — mungkin mewakili jaringan maritim luas paling awal dalam sejarah manusia | `07-bab-2.md` |
+| Peneliti | Stuart Hawkins dkk. 2024 (Scientific Reports 14, ref 396) | `07-bab-2.md` |
+| Signifikansi | Bukti pertama penguburan pada tumpukan kerang di Asia Tenggara Kepulauan; daya adaptasi manusia di lingkungan pulau kecil | `07-bab-2.md` |
+
+## 3.16 Tokoh 16 — Punung Hominin (Gunung Dawung, 115 Ka)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Spesimen | Premolar Homo sapiens (diklaim) | `07-bab-2.md` section C-5 |
+| Lokasi | Daerah Gunung Dawung, Punung, Jawa Timur | `07-bab-2.md` |
+| Periode | 115 Ka | `07-bab-2.md` |
+| Klasifikasi | Anggota tipe Wajak dalam penelitian terkini | `07-bab-2.md` |
+| Signifikansi | Bukti potensial Homo sapiens tertua di Jawa (sebelum Lida Ajer 73-63 Ka) | `07-bab-2.md` |
+
+## 3.17 Tokoh 17 — Song Terus (ST06 + ST04 — model transisi)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Song Terus, Jawa Timur | `07-bab-2.md` section C-5 |
+| Spesimen | Dua gigi sulung dari lapisan arkeologi berbeda | `07-bab-2.md` |
+| ST06 | ≥80 Ka — kesamaan fitur OES + EDJ dengan Hominin purba Pleistosen Awal-Tengah (kemungkinan anak Homo erectus) | `07-bab-2.md` |
+| ST04 | 60 Ka — Homo sapiens (analisis metrik + morfologi vs Hominin awal pertengahan Pleistosen + Neanderthal + Homo sapiens) | `07-bab-2.md` |
+| Signifikansi | **Model transisi anatomis Pleistosen Akhir** antara Hominin purba dan manusia modern | `07-bab-2.md` |
+| Industri serpihan | Pleistosen Song Terus muncul sejak 230 Ka; berhenti 80 Ka tepat di bawah endapan abu vulkanik tebal | `07-bab-2.md` |
+| Tingkat arkeologi bawah | Eksploitasi sejumlah besar cervid + bovid (perilaku baru) | `07-bab-2.md` |
+| Tingkat 39 Ka | Tidak ada artefak litik — hanya beberapa serpihan rijang + batu palu andesit besar dengan bekas luka baru; mungkin pakai kayu/bambu/bahan organik (seperti Homo sapiens) | `07-bab-2.md` |
+
+## 3.18 Tokoh 18 — Manusia Wajak I + Wajak II (diperluas)
+
+| Atribut | Wajak I | Wajak II | Sumber primer |
+|---------|---------|----------|---------------|
+| Kelamin | Wanita | Laki-laki | `07-bab-2.md` D |
+| Tinggi | ± 170 cm | ± 170 cm | `07-bab-2.md` |
+| Kapasitas tengkorak | **1.550 cc** (sangat besar untuk wanita) | **1.650 cc** (lebih besar lagi) | `07-bab-2.md` |
+| Bentuk tengkorak | Panjang (dolichocephalic), atap tebal | Muka lebar (perkembangan lateral tulang pipi) | `07-bab-2.md` |
+| Rahang + gigi | Sangat kekar, gigi besar | Sangat kekar, gigi besar | `07-bab-2.md` |
+| Ciri Australoid | Ya | Ja | `07-bab-2.md` |
+| Interpretasi Dubois | Proto-Australoid | Proto-Australoid | `07-bab-2.md` |
+| Interpretasi Jacob | Australomelanesid + Mongoloid (percampuran) — salah satu manusia modern pertama di Asia Tenggara | Sama | `07-bab-2.md` |
+| Interpretasi Weidenreich | Kesamaan dengan spesimen Australia (ukuran, proporsi, muka rata) | Sama | `07-bab-2.md` |
+| Interpretasi Coon | Wajak dan Keilor "saudara" | — | `07-bab-2.md` |
+| tuberculum precondylus | Ada di dasar tengkorak — mengingatkan Polinesia + Mikronesia | — | `07-bab-2.md` |
+| Perdebatan pertanggalan | 40.000-5.000 thn (Koenigswald, kisaran sangat besar); uranium 2 ppm (Holosen); C-14 fauna 10.560 ± 75 BP (Holosen awal); Gua Jimbe 2.650 ± 55 BP; Gua Kecil 3.060 ± 85 BP; fragmen tulang paha 6.560 ± 140 BP; Storm & Nelson: fauna subresen, tulang paha lebih muda dari fauna; kemungkinan 11.000 atau 6.500 thn; atau lebih tua dari 11.000 thn (perbedaan mineralisasi tengkorak vs tulang paha) | — | `07-bab-2.md` |
+| Hubungan Lida Ajer | Tipe Wajak berbagi karakter dengan Lida Ajer Pleistosen Akhir (Noerwidi et al. 2020) | — | `07-bab-2.md` |
+| Situs pembanding | Niah (Sarawak), Tabon (Filipina), Talgai, Cohuna, Keiter (Australia), Liujiang (Cina) | — | `07-bab-2.md` |
+| Manusia Moh Khiew | Thailand — pembanding MMAA Asia Tenggara | — | `07-bab-2.md` |
+
+## 3.19 Tokoh 19 — Denisova Selatan (hipotesis)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Bukti genetik | Denisova (Siberia + Tibet) menunjukkan perkawinan silang antara Hominin purba dengan nenek moyang populasi Australomelanesia | `07-bab-2.md` section C-5 |
+| Hipotesis "Denisova selatan" | Mungkin berlokasi di cekungan Solo atau pegunungan Selatan Jawa | `07-bab-2.md` |
+| Jacobs et al. 2019 | Dua garis keturunan Denisova berbeda bercampur ke leluhur individu Papua (Cell 177, ref 342) | `07-bab-2.md` |
+| Reich dkk. | "Genetic History of an Archaic Hominin Group from Denisova Cave in Siberia" | `07-bab-2.md` |
+| Signifikansi | Membuka tantangan kemungkinan melacak bukti "Denisova selatan" di Nusantara | `07-bab-2.md` |
+
+## 3.20 Tokoh 20 — Ngebung + Pucung (tipe Wajak di Kubah Sangiran)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Ngebung (Sangiran) | Gigi tipe Wajak sejak 0,8 Ma — uji mekanisme "kontinuitas multiregional" | `07-bab-2.md` section C-5 |
+| Pucung (Sangiran) | Gigi Pleistosen Tengah tipe Wajak + tulang postkranial manusia (ciri morfologis halus) + artefak bola eksotis bahan allokton (kemungkinan diimpor dari pegunungan selatan) | `07-bab-2.md` |
+| Signifikansi | Bukti populasi tipe Wajak sudah ada di Jawa sejak 0,8 Ma — sebelum MMAA "Out of Africa" 100 Ka | `07-bab-2.md` |
+| Artefak cangkang ukiran Trinil | 0,5 Ma — dibuat oleh Homo erectus; bukti perkembangan kognitif + kontrol neuromotor Homo erectus Asia | `07-bab-2.md` |
+| Gua Zhoukoudian (pembanding) | Bukti domestikasi api Homo erectus — TIDAK ditemukan di Jawa | `07-bab-2.md` |
 
 ---
 
@@ -721,6 +884,54 @@ Sejak ± 15.000 tahun lalu, terbentuk dua jenis populasi manusia modern di Nusan
 | Hunian Homo sapiens | Goa Topogaro (Sulawesi), Bubog (Mindoro) — adaptasi laut-darat | `07-bab-2.md` section D |
 | Situs maritim | Leang Sarru, Kepulauan Talaud — hunian berkala, navigasi maritim primitif | `07-bab-2.md` |
 | Genetika | Populasi terbentuk oleh gelombang migrasi & percampuran: Austronesia + pemburu-pengumpul pribumi + Papua + Asia | `07-bab-2.md` |
+
+## 4.13 Latar 13 — Sangkulirang-Mangkalihat (Kalimantan Timur, lukisan figuratif ≥40 Ka)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Kawasan karst Sangkulirang-Mangkalihat, Kalimantan Timur | `07-bab-2.md` section D |
+| Karakter | Bentang alam karst luas — tepi paling timur daratan Eurasia selama Pleistosen Akhir | `07-bab-2.md` |
+| Lukisan figuratif | ≥40.000 tahun lalu — **lukisan figuratif tertua di dunia** | `07-bab-2.md` |
+| Gua Liang Tebo | Luas ± 160 m²; 3 ruang; 9 layer stratigrafi; penggalian 2020; TB1 penguburan 31 Ka + bukti amputasi bedah tertua di dunia | `07-bab-2.md` |
+| Signifikansi | Buktii keberadaan MMAA + seni figuratif tertua di dunia + pengetahuan medis canggih Pleistosen Akhir | `07-bab-2.md` |
+
+## 4.14 Latar 14 — Leang Bulu Bettue (Sulawesi barat daya, 25-16 Ka)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Leang Bulu Bettue (LBB), semenanjung barat daya Pulau Sulawesi | `07-bab-2.md` section D |
+| Spesimen MMAA | Rahang atas (maxilla), individu tua, 25.000-16.000 thn lalu | `07-bab-2.md` |
+| Signifikansi | Satu-satunya catatan fosil MMAA di Sulawesi pada Akhir Pleistosen | `07-bab-2.md` |
+
+## 4.15 Latar 15 — Pulau Rote (Pia Hudale, Lua Manggetek, Lua Meko, 24-7 Ka)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Pulau Rote, Nusa Tenggara Timur | `07-bab-2.md` section D |
+| Pia Hudale | Terminal Pleistosen-Awal Holosen → sporadis akhir Holosen; 39 fragmen tulang manusia (1 laki-laki dewasa + 1 perempuan dewasa + 1 laki-laki remaja); pembakaran tulang sebelum dikubur; afinitas Aborigin Australia; bekas sirih pinang | `07-bab-2.md` |
+| Lua Manggetek | 13.390-7.050 thn lalu; Desa Tuanatuk; kubur → hunian; laki-laki dewasa + anak-anak | `07-bab-2.md` |
+| Lua Meko | 24.420 thn lalu — sisa rangka tertua di NTT; 54 fragmen; afinitas Aborigin Australia; kompleks sama dengan Lua Manggetek | `07-bab-2.md` |
+| Signifikansi | Bukti hunian MMAA tertua di NTT (24.420 thn lalu); afinitas morphologis dengan Aborigin Australia | `07-bab-2.md` |
+
+## 4.16 Latar 16 — Gua Ratu Mali 2 (Pulau Kisar, Maluku, 14.700 thn lalu)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Gua Ratu Mali 2, pesisir Pulau Kisar, Maluku | `07-bab-2.md` section D |
+| Periode | 14.700 thn lalu — **bukti kubur manusia tertua di Wallacea** | `07-bab-2.md` |
+| Kubur | 2 rangka (pria + wanita) di tumpukan kerang + obsidian; posisi terlipat; batu bongkahan kapur; diameter 90 cm; 50 cm di bawah permukaan | `07-bab-2.md` |
+| Isotop stronsium | Masa kecil di Pulau Kisar atau pulau batu kapur serupa | `07-bab-2.md` |
+| Obsidian | Sumber geokimia eksotik Grup 138 — jaringan maritim paling awal | `07-bab-2.md` |
+| Signifikansi | Bukti pertama penguburan tumpukan kerang di Asia Tenggara Kepulauan; adaptasi manusia di pulau kecil | `07-bab-2.md` |
+
+## 4.17 Latar 17 — Pulau Alor / Tron Bon Lei (NTT, 12-7,5 Ka)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Gua Tron Bon Lei, Pulau Alor, Nusa Tenggara Timur | `07-bab-2.md` section D |
+| 3 individu | TLB-1 (perempuan >50 thn, 12 Ka, 5 mata kail + kerang bivalvia + oker); DE B2 (perempuan >55 thn, 10 Ka, posisi duduk/jongkok, batu bulat + oker + batu asah + serpihan basal + rijang); E16b (laki-laki 20-25 thn, 7,5 Ka, penguburan sekunder, irisan tulang rusuk, oker, bekas pinang, 8 bongkahan batu) | `07-bab-2.md` |
+| Tinggi TLB-1 | 151,9 ± 5,94 cm — rentang perempuan Liang Toge + perempuan Jawa + perempuan Asia Tenggara modern | `07-bab-2.md` |
+| Signifikansi | Evolusi praktik penguburan dari Terminal Pleistosen ke Holosen; dimensi postur kecil = populasi terisolasi secara genetik | `07-bab-2.md` |
 
 ---
 
