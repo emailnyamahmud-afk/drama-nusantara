@@ -352,6 +352,52 @@ Sriwijaya akan dibahas detail di era berikutnya (2B — Mataram Kuno & Sriwijaya
 | Majumdar, Casparis, Sastri | Kan-to-li berkedudukan di hilir Batanghari | `08-bab-3.md` A.1.c |
 | Nasha bin Rodziadi Khaw | Aksara Brahmi Akhir Yupa tertua di Asia Tenggara | `08-bab-3.md` A.1.a |
 | Sartono (1992) | Lokasi awal Sriwijaya sebelum pindah Palembang | `08-bab-3.md` A.1.c |
+| Chhabra | Aksara Kampung Pahat lebih muda dari Yupa | `08-bab-3.md` A.1.a |
+| M.M. Soekarto K. Atmodjo | Identifikasi prasasti Kampung Pahat = mantra Buddha (ye te mantra) | `08-bab-3.md` A.1.a |
+| Yijing / I-Tsing | Biksu Tiongkok; singgah Malayu 671 M (15 hari pelayaran utara dari Fo-shih/Palembang) | `08-bab-3.md` A.1.c |
+| Kang-tai (Fu-nan-tu-su-cwe'en) | Berita Tiongkok 245-250 M; pelabuhan Tu-po di Tebo, Jambi | `08-bab-3.md` A.1.c |
+| Munoz | Barus muncul abad 9-12 M (Barusai/Varocu) — dibantah penelitian Bongal 2021-2023 | `08-bab-3.md` A.1.c |
+
+## 3.11 Tokoh 11 — Gautama Subhadra (Kan-to-li, abad 6 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Gautama Subhadra | `08-bab-3.md` A.1.c |
+| Kerajaan | Kan-to-li (pantai timur Sumatra) | `08-bab-3.md` |
+| Periode | Abad 6 M | `08-bab-3.md` |
+| Penerus | Pyravarman Vinyavarman (anaknya) | `08-bab-3.md` |
+| Signifikansi | Penguasa Kan-to-li abad 6 M; nama "Gautama" menunjukkan pengaruh Buddha | `08-bab-3.md` |
+
+## 3.12 Tokoh 12 — Pyravarman Vinyavarman (Kan-to-li, 519 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Pyravarman Vinyavarman | `08-bab-3.md` A.1.c |
+| Kerajaan | Kan-to-li | `08-bab-3.md` |
+| Periode | 519 M (kirim utusan ke Tiongkok) | `08-bab-3.md` |
+| Hubungan | Anak Gautama Subhadra | `08-bab-3.md` |
+| Gelar | Varman (= pelindung) — strategi politik untuk menyetarakan diri dengan penguasa India | `08-bab-3.md` |
+| Signifikansi | Penguasa terakhir Kan-to-li yang tercatat dalam berita Tiongkok | `08-bab-3.md` |
+
+## 3.13 Tokoh 13 — Rudra (utusan Kan-to-li)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Rudra | `08-bab-3.md` A.1.c |
+| Peran | Utusan dagang Kan-to-li ke Tiongkok | `08-bab-3.md` |
+| Penguasa yang diwakili | Varanarendra | `08-bab-3.md` |
+| Periode | Abad 5 M (Kaisar Xiao-Wudi, Dinasti Liu Song 420-422 M) | `08-bab-3.md` |
+| Signifikansi | Nama "Rudra" (dewa Hindu) — menunjukkan penguasa Kan-to-li masih Hindu abad 5 M | `08-bab-3.md` |
+
+## 3.14 Tokoh 14 — Da-ru-da (utusan Kan-to-li)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Da-ru-da | `08-bab-3.md` A.1.c |
+| Peran | Utusan dagang Kan-to-li ke Tiongkok | `08-bab-3.md` |
+| Penguasa yang diwakili | Saba-la-na-lin-da | `08-bab-3.md` |
+| Periode | 454-464 M (Kaisar Xiaowu, Dinasti Song) | `08-bab-3.md` |
+| Hadiah | Emas + perak | `08-bab-3.md` |
 
 ---
 
@@ -482,6 +528,101 @@ Sriwijaya akan dibahas detail di era berikutnya (2B — Mataram Kuno & Sriwijaya
 | Periode | Proto sejarah (Zaman Logem Awal, lanjutan dari era 1D) | `08-bab-3.md` A.1 |
 | Bukti | Gerabah pola Rolet mirip India | `08-bab-3.md` A.1 |
 | Signifikansi | Bukti interaksi India-Jawa Tengah sebelum era Holing/Mataram Kuno | `08-bab-3.md` A.1 |
+
+## 4.11 Latar 11 — Sambas (Kalimantan Barat, abad 4-7 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Sambas, Kalimantan Barat | `08-bab-3.md` A.1.a |
+| Temuan | Pedupaan + arca Buddha emas + perak; artefak emas; sisa Hindu | `08-bab-3.md` |
+| Peneliti | Tom Harrison 1970 — jalur pelayaran India-Tiongkok; Braddell 1936 — pusat kontak | `08-bab-3.md` |
+| Signifikansi | Bukti kontak India-Tiongkok di pantai barat Kalimantan sejak awal abad Masehi | `08-bab-3.md` |
+
+## 4.12 Latar 12 — Nanga Sepauk + Nanga Serawai (Sintang, Kalimantan Barat)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Nanga Sepauk + Nanga Serawai (Lembah Merawai), Kab. Sintang, Kalimantan Barat | `08-bab-3.md` A.1.a |
+| Temuan Nanga Sepauk | 2 lingga + yoni + Arca Siwa perunggu bertangan empat | `08-bab-3.md` |
+| Temuan Nanga Serawai | Lingga + yoni | `08-bab-3.md` |
+| Signifikansi | Bukti Hindu-Saiwa berkembang di pedalaman Kalimantan Barat | `08-bab-3.md` |
+
+## 4.13 Latar 13 — Santubong + Limbang (Sarawak, Malaysia)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Santubong, Sarawak + Limbang, Malaysia (Kalimantan Utara) | `08-bab-3.md` A.1.a |
+| Temuan | Benda emas + lingga + yoni + Ganesa | `08-bab-3.md` |
+| Signifikansi | Bukti persebaran Hindu melewati Kalimantan ke Sarawak | `08-bab-3.md` |
+
+## 4.14 Latar 14 — Candi Agung + Candi Laras (Kalimantan Selatan)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Candi Agung (dikelilingi 4 sungai) + Candi Laras/Margasari (30 km selatan Nagara), Kalimantan Selatan | `08-bab-3.md` A.1.a |
+| Temuan Candi Agung | Reruntuhan bangunan batu bata | `08-bab-3.md` |
+| Temuan Candi Laras | Arca Buddha Dipangkara + fragmen prasasti batu "....jayasiddha...." (kemungkinan "Sriwijaya Jayasiddhayatra") | `08-bab-3.md` |
+| Signifikansi | Prasasti pendek Sriwijaya di Kalimantan → bagian dari Kedatuan Sriwijaya | `08-bab-3.md` |
+
+## 4.15 Latar 15 — Tu-po / Tebo (Jambi, abad 3 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Sekitar Tebo, hulu Sungai Batanghari, Jambi | `08-bab-3.md` A.1.c |
+| Sumber | Berita Tiongkok Fu-nan-tu-su-cwe'en oleh Kang-tai, 245-250 M | `08-bab-3.md` |
+| Karakter | Pelabuhan di hulu Sungai Batanghari | `08-bab-3.md` |
+| Temuan arkeologi | Situs percandian di sekitar Tebo | `08-bab-3.md` |
+| Signifikansi | Salah satu kekuatan politik tertua di Sumatra (abad 3 M) | `08-bab-3.md` |
+
+## 4.16 Latar 16 — To-Lang Po-Huang / Tulang Bawang (Lampung, abad 5 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Sekitar wilayah Lampung | `08-bab-3.md` A.1.c |
+| Sumber | Kitab Sejarah Dinasti Liu, periode Liu Sung (420-479 M) | `08-bab-3.md` |
+| Temuan | 41 jenis komoditas unggulan; utusan ke Tiongkok 442, 449, 451, 455, 456, 459, 464, 466 M | `08-bab-3.md` |
+| Situs arkeologi | Batu Bedil (abad 10 M); Pugung Raharjo (arca Buddha, prasasti Bungkuk, prasasti Hujung Langit abad 10 M) | `08-bab-3.md` |
+| Signifikansi | Kekuatan politik mengendalikan Selat Sunda (abad 5-10 M); berlanjut hingga Sriwijaya | `08-bab-3.md` |
+
+## 4.17 Latar 17 — Po-lou / Po-li / Barus (Sumatra Utara, abad 4-11 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Barus, pantai barat Sumatra Utara; Teluk Tapanuli / Tapian Nauli | `08-bab-3.md` A.1.c |
+| Nama asing | Barusai (Timur Tengah); Varocu (Tamil); Po-Su / Po-lou / Po-li (Tiongkok) | `08-bab-3.md` |
+| Periode aktif | Abad 4-11 M (situs Bongal); abad 7-10 M (puncak); abad 9-12 M (Lobu Tua per Munoz) | `08-bab-3.md` |
+| Sumber Timur Tengah | Ibn Khordadbeh (Al Masalik wal Mamalik); Sulaiman (851 M); Iskah bin Imran (907 M); Masudi (943 M); ibn Wafid (10 M) | `08-bab-3.md` |
+| Penelitian terbaru | Bongal (2021-2023) — bukti bandar dagang global sejak abad 4 M, 70 km dari Lobu Tua | `08-bab-3.md` |
+| Signifikansi | Pelabuhan transit kapal Persia-India → Selat Sunda → Tarumanagara → Malayu/Fo-shi | `08-bab-3.md` |
+
+## 4.18 Latar 18 — Sarolangun (Jambi)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Sarolangun, dekat aliran Sungai Batanghari, Jambi | `08-bab-3.md` A.1.c |
+| Temuan | Arca Ganesa | `08-bab-3.md` |
+| Signifikansi | Bukti Hindu di daerah hulu Batanghari (konteks Kan-to-li) | `08-bab-3.md` |
+
+## 4.19 Latar 19 — Takola (Sumatra / Semenanjung Malaya)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Takola (diduga di Sumatra atau Semenanjung Malaya) | `08-bab-3.md` A.1.c |
+| Karakter | Permukiman semi-permanen serikat dagang Tamil di Swarnadwipa | `08-bab-3.md` |
+| Naskah lokal Barus | Manifestasi ingatan kolektif perjumpaan dengan pedagang Tamil | `08-bab-3.md` |
+| Nama Sumatra oleh asing | Karpuradwipa (pulau kapur); Kanakapuri (kota emas); Swarnadwipa (pulau emas) | `08-bab-3.md` |
+| Nama Tiongkok | shi-li-fo-shih ("tiga wijaya" = Palembang + Malayu + Kedah) | `08-bab-3.md` |
+
+## 4.20 Latar 20 — Kerajaan Wijayapura (Kalimantan Barat Daya, abad 7 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Kalimantan Barat Daya | `08-bab-3.md` A.1.a |
+| Sumber | Berita Cina (Wolters) | `08-bab-3.md` |
+| Periode | Abad 7 M | `08-bab-3.md` |
+| Prasasti Kampung Pahat | Mantra Buddha "ye te mantra" + kata "jeya, wijaya, posya masa sake 578" | `08-bab-3.md` |
+| Lokasi prasasti | Kampung Pahat, Kec. Nanga Mahap, Kab. Sanggau, ±400 km dari Pontianak; batu 5,70m x 3,46m; 7 relief stupa dengan chattra bersusun 13 | `08-bab-3.md` |
+| Signifikansi | Mungkin Kerajaan Wijayapura yang disebut berita Cina abad 7 M | `08-bab-3.md` |
 
 ---
 
