@@ -338,6 +338,85 @@ Prasasti Wurara (1211 Saka/1289 M): "Mpu Bharada membagi Jawa menjadi 2 dengan a
 | J.G. de Casparis | Kriteria raja besar; Prasasti Siwagrha = Prambanan | `07-bab-2.md`; `08-bab-3.md` A.2 |
 | Johannes Gijsbertus de Casparis | Analisis Prasasti Tri Tepusan (842 M) = Borobudur = bhumisambhara | `07-bab-2.md` |
 | Mpu Sedah + Mpu Panuluh | Bharatayuddha (1157 M) — era 2C | `07-bab-2.md` |
+| Stutterheim | Pembacaan prasasti Blanjong; Gurun = Nusa Penida; Singhadwala = keraton Sri Kesari | `08-bab-3.md` B.3 |
+| Goris | Klasifikasi prasasti Yumu Pakatahu; Gurun = Lombok; panglapuan = pengadilan tinggi | `08-bab-3.md` B.3 |
+| Damais | Pembacaan Singharcala (varian Singhadwala) | `08-bab-3.md` B.3 |
+| Pandit Shastri | Pembacaan Singhadwara = pintu gerbang kota; Singhadwarapura | `08-bab-3.md` B.3 |
+| Prihatmoko | Pembacaan ulang prasasti Blanjong: srikesarivarmmand(ma) | `08-bab-3.md` B.3 |
+| Ardika | Ekskavasi Blanjong Sanur — keramik Tang-Sung-Yuan abad 7-10 M | `08-bab-3.md` B.3 |
+| R.C. Majumdar | Ancient Indian Colonies in the Far East, Vol II: Suvarnadvipa | `08-bab-3.md` A.1.c |
+| Slamat Muljana | Kuntala, Sriwijaya, dan Suvarnabhumi | `08-bab-3.md` A.1.c |
+| Hall (2011) | Penyatuan Malayu ke Sriwijaya via perang (bukan diplomasi) | `08-bab-3.md` A.1.d |
+| Junjiro Takakusu | Terjemahan catatan I-Tsing (A Record of the Buddhist Religion) | `08-bab-3.md` A.1.c |
+
+## 3.14 Tokoh 14 — Raja-raja Mataram Lengkap (Prasasti Mantyasih + Wanua Tengah III)
+
+| Raja | Tahun Saka | Tahun Masehi | Gelar | Sumber primer |
+|------|-----------|-------------|-------|---------------|
+| Sanjaya (Rahyangtai Hara) | — | — | Rakai Mataram Sang Ratu | `08-bab-3.md` B.1.a |
+| Rakai Panangkaran | 668 | 746 | — | `08-bab-3.md` |
+| Rake Panaraban | 706 | 784 | — | `08-bab-3.md` |
+| Rakai Warak Dyah Manara | 725 | 803 | — | `08-bab-3.md` |
+| Dyah Gula | 749 | 827 | — | `08-bab-3.md` |
+| Rakai Garung | 750 | 828 | — | `08-bab-3.md` |
+| Rake Pikatan Dyah Salada | 768 | 846 | — | `08-bab-3.md` |
+| Rakai Kayuwangi Dyah Lokapala | 777 | 855 | — | `08-bab-3.md` |
+| Dyah Tagwas | 806 | 884 | — | `08-bab-3.md` |
+| Rake Panumwangan Dyah Dewendra | 807 | 885 | — | `08-bab-3.md` |
+| Rake Gurunwangi Dyah Badra | 808 | 886 | — | `08-bab-3.md` |
+| Rake Wungkal Humalang Dyah Jbang | 816 | 894 | — | `08-bab-3.md` |
+| Rakai Balitung | 820 | 898-912 | — | `08-bab-3.md` |
+| Raja Daksa | 833 | 911 | — | `08-bab-3.md` |
+| Rakai Layang Dyah Tulodong | 837 | 915 | — | `08-bab-3.md` |
+| Rakai Sumba Dyah Wawa | 849 | 927 | — | `08-bab-3.md` |
+
+## 3.15 Tokoh 15 — Raja-raja Bali Kuno
+
+| Raja | Periode | Gelar/Istana | Sumber primer |
+|------|---------|-------------|---------------|
+| Sri Kesari Warmmadewa | 835 Saka/913 M | Adhipatih; Singhadwarapura; 4 prasasti jayastambha (Blanjong, Malat Gede, Pukuh, Panempahan) | `08-bab-3.md` B.3 |
+| Sang Ratu Sri Ugrasena | 804-888 Saka/882-966 M | Panglapuan Singhamandawa; 14 prasasti Yumu Pakatahu | `08-bab-3.md` B.3 |
+| Sri Aji Taganendra Warmmadewa | 877 Saka/955 M | + permaisuri Sang Ratu Luhur Sri Subhadrika Dharmmadewi | `08-bab-3.md` B.3 |
+| Sri Janasadhu Warmmadewa | — | — | `08-bab-3.md` B.3 |
+| Sri Dharmodayana Warmmadewa (Udayana) | ±915 Saka/993 M | + permaisuri Gunapriyadharmapatni; Singhamandawa | `08-bab-3.md` B.3 |
+| Marakata Pangkaja | — | Putra Udayana | `08-bab-3.md` B.3 |
+| Anakwungsu | 1049 M | Perwujudan Wisnu | `08-bab-3.md` B.3 |
+| Jayasakti | 1133-1150 M | Perwujudan Wisnu | `08-bab-3.md` B.3 |
+| Jayapangus | 1177-1181 M | — | `08-bab-3.md` B.3 |
+| Sri Sakalendukiritegana | — | — | `08-bab-3.md` B.3 |
+| Bhatara Guru | — | — | `08-bab-3.md` B.3 |
+| Sri Walajaya Krttaningrat | — | Rajapatih Kbo Parud | `08-bab-3.md` B.3 |
+
+## 3.16 Tokoh 16 — Dharmawangsa Tguh (Mataram Jawa Timur, ±990-1016 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Dharmawangsa Tguh | `08-bab-3.md` B.1.a |
+| Hubungan | Saudara laki-laki Gunapriyadharmapatni | `08-bab-3.md` |
+| Periode | ±990-1016 M (sebelum pralaya) | `08-bab-3.md` |
+| Naskah | Wirata Parwa (disadur dari Sanskerta ke Jawa Kuno, 918 Saka) | `08-bab-3.md` |
+| Peristiwa | Pralaya 1016 M — istana diserang raja bawahan Wurawari; istri+raja gugur; Airlangga lolos | `08-bab-3.md` |
+| Signifikansi | Raja terakhir Mataram Jawa Timur sebelum Airlangga | `08-bab-3.md` |
+
+## 3.17 Tokoh 17 — Adityawarman (Sumatra, abad 13-14 M — jembatan era 2B-2C)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Adityawarman | `08-bab-3.md` A.1.c |
+| Orang tua | Ayah: Adwayawarman (bangsawan Singhasari); Ibu: putri Maharaja Tribuana Mauli Warmadewa (Malayu) | `08-bab-3.md` |
+| Hubungan | Cucu Srimat Tribhuwana Mauli Warmadewa (raja Malayu) | `08-bab-3.md` |
+| Prasasti | Kubu Rajo I (abad 14 M) — ayah Adityawarman = Adyawarman, petinggi Singhasari, ikut rombongan pengiriman arca Amoghapasa | `08-bab-3.md` |
+| Signifikansi | Jembatan politik Malayu-Singhasari-Majapahit; Werdhamantri Mahapratihata | `08-bab-3.md` |
+
+## 3.18 Tokoh 18 — Srimat Tribhuwana Mauli Warmadewa (Malayu, abad 13 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Nama | Srimat Tribhuwana Mauli Warmadewa | `08-bab-3.md` A.1.c |
+| Kerajaan | Malayu (Kemaharajaan Malayu pasca-Sriwijaya) | `08-bab-3.md` |
+| Gelar | Maharaja-Srimat → Maharajadiraja-Srimat → Srimat Tribuana → Sri-Maharajadiraja | `08-bab-3.md` |
+| Hubungan | Kakek Adityawarman (via putri yang menikah dengan Adwayawarman Singhasari) | `08-bab-3.md` |
+| Signifikansi | Penguasa Malayu yang berhubungan politik dengan Singhasari (pengiriman arca Amoghapasa) | `08-bab-3.md` |
 
 ---
 
@@ -437,6 +516,91 @@ Prasasti Wurara (1211 Saka/1289 M): "Mpu Bharada membagi Jawa menjadi 2 dengan a
 | Lokasi | Palembang, Sumatra Selatan | `08-bab-3.md` A.1.d |
 | Signifikansi | Wilayah sakral (arupadhatu) | `08-bab-3.md` A.1.d |
 | Bukti | 11 prasasti siddhayatra (D 156-160 di Museum Nasional; Kambang Unglen I-II, Kambang Purun I-VIII di Museum Balaputradewa) | `08-bab-3.md` A.1.d |
+
+## 4.11 Latar 11 — Bali Kuno (Singhadwarapura + Singhamandawa, abad 9-14 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Bali | `08-bab-3.md` B.3 |
+| Periode | 804 Saka/882 M (prasasti Sukawana A I) — abad 14 M | `08-bab-3.md` |
+| Istana Sri Kesari | Singhadwarapura (Sanur-Blanjong) — 4 prasasti jayastambha 835 Saka/913 M | `08-bab-3.md` |
+| Istana Sri Ugrasena | Panglapuan Singhamandawa — 14 prasasti Yumu Pakatahu (804-888 Saka) | `08-bab-3.md` |
+| Prasasti Blanjong | Dua aksara (Pre-Nagari + Kawi) + dua bahasa (Bali Kuno + Sanskerta); toponim: Walidwipa, Singhadwala, Gurun (Lombok?), Suwal (Ketewel?) | `08-bab-3.md` |
+| Ekskavasi Blanjong | Ardika — keramik Tang-Sung-Yuan abad 7-10 M; situs pelabuhan | `08-bab-3.md` |
+| Udayana + Gunapriyadharmapatni | ±915 Saka/993 M; Singhamandawa | `08-bab-3.md` |
+| Prasasti kunci | Sukawana A I (804 Saka/882), Bebetin A I (818/896), Trunyan A I (813/891), Trunyan B (833/911), Munduktemu I (835/913), Gobleg Pura Desa I (836/914), Srokodan (837/915), Sembiran A I (844/922), Pengotan A I (846/924), Batunya A I (855/933), Dausa Pura Bukit Indrakila (857/935), Serai A I (888/966), Manik Liu A I (877/955) | `08-bab-3.md` |
+| Pejabat kunci | Cakra (nayakan makarun → diriana); Nanda, Astra, Yajna (manuratang ajna) | `08-bab-3.md` |
+| Signifikansi | Bali Kuno punya 2 kerajaan simultan abad 10 M: Sri Kesari (selatan) + Sri Ugrasena (utara) | `08-bab-3.md` |
+
+## 4.12 Latar 12 — Kanjuruhan / Kanuruhan (Malang, Jawa Timur, 760-abad 9 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Malang, Jawa Timur | `08-bab-3.md` B.1.a-b |
+| Raja | Gajayana (Prasasti Kanjuruhan/Dinoyo, 682 Saka/760 M) | `08-bab-3.md` |
+| Transformasi | Kerajaan Kanjuruhan → bawahan Mataram (jadi Kanuruhan) setelah invasi Balitung | `08-bab-3.md` |
+| Prasasti Kubu-kubu | 827 Saka/905 — prasasti pertama Raja Mataram di Jawa Timur; invasi ke Bantan (= Kanjuruhan); Rakai Kanuruhan muncul pertama | `08-bab-3.md` |
+| Candi Badut | Desa Merjosari, Besuki, Ketawang Gede — arsitektur candi tua | `08-bab-3.md` |
+| Narottama | Hamba Airlangga → Rakai Kanuruhan Pu Dharmmamurtti Narottama (Prasasti Baru 952 Saka/1030 M; Prasasti Terep 954/1032; 957/1035) | `08-bab-3.md` |
+| Kejuron | Desa Kejuron di tepi Kali Merto — toponim kontinu | `08-bab-3.md` |
+
+## 4.13 Latar 13 — Panai (Sumatra Utara, abad 11-15 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Sumatra Utara (pantai timur) | `08-bab-3.md` B.4 |
+| Periode | Abad 11-15 M (pasca kemunduran Sriwijaya) | `08-bab-3.md` |
+| Karakter | Kerajaan politik baru pasca-Sriwijaya; penguasa bergelar Datu → Haji → Mahasenapati | `08-bab-3.md` |
+| Hubungan | Otonomi dalam mandala Malayu; gelar di bawah Maharaja-Srimat Malayu | `08-bab-3.md` |
+| Signifikansi | Salah satu kerajaan penerus Sriwijaya di pantai timur Sumatra | `08-bab-3.md` |
+
+## 4.14 Latar 14 — Lamuri / Ilamuridesa (Aceh, abad 11-15 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Aceh (ujung utara Sumatra) | `08-bab-3.md` B.4 |
+| Nama Tiongkok | Ilamuridesa | `08-bab-3.md` |
+| Periode | Abad 11-15 M (pasca kemunduran Sriwijaya; sebelumnya bagian Kedatuan) | `08-bab-3.md` |
+| Karakter | Bandar dagang Islam mulai berkembang abad 11-12 M (jalur Seljuk-Mamluk) | `08-bab-3.md` |
+| Hubungan | Otonomi dalam mandala Malayu | `08-bab-3.md` |
+
+## 4.15 Latar 15 — Mandailing (Sumatra Utara, abad 11-15 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Mandailing, Sumatra Utara | `08-bab-3.md` B.4 |
+| Periode | Abad 11-15 M (pasca kemunduran Sriwijaya) | `08-bab-3.md` |
+| Karakter | Kerajaan penerus Sriwijaya di pantai barat Sumatra | `08-bab-3.md` |
+| Geopolitik | Hubungan dengan Malayu, Panai, Lamuri dalam jaringan perdagangan pantai barat-timur Sumatra | `08-bab-3.md` |
+
+## 4.16 Latar 16 — Teluk Kuali / Candi Tuo Sumai (Tebo, Jambi)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Tebo, hulu Sungai Batanghari, Jambi | `08-bab-3.md` A.1.c |
+| Temuan | Candi Tuo Sumai (bata); arca Buddha bergaya Post-Gupta abad 7 M; pecahan keramik Tiongkok dinasti Tang + Song | `08-bab-3.md` |
+| Peneliti | Sartono (1992) — menduga lokasi awal sebelum Sriwijaya pindah ke Palembang | `08-bab-3.md` |
+| Signifikansi | Lokasi strategis: pertemuan Sungai Batang Tabir (Kerinci) + Sungai Batang Tebo (Bungo) + Sungai Batanghari hulu (Dharmasraya) | `08-bab-3.md` |
+
+## 4.17 Latar 17 — Muarajambi (Jambi, abad 7-13 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Hilir Sungai Batanghari, Jambi | `08-bab-3.md` A.1.c |
+| Temuan | Arca Ganesa (Sarolangun); arca Nandi + pecahan arca Wisnu; fragmen arca Buddha perunggu abad 6 M; makara solok Sipin (tinggi 140 cm, inskripsi Mpu Dharma Wira 986 Saka/1064 M); stupa batu andesit; lapik arca teratai; sebaran struktur bata | `08-bab-3.md` |
+| Periode | Abad 6-13 M (Kan-to-li → Malayu → Sriwijaya) | `08-bab-3.md` |
+| Signifikansi | Situs percandian terbesar di Sumatra; pusat politik Kan-to-li → Malayu | `08-bab-3.md` |
+
+## 4.18 Latar 18 — Kedah / Kataha (Semennanjung Malaya, abad 7-11 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Kedah, Semenanjung Malaya | `08-bab-3.md` A.1.c |
+| Nama | Kataha (Sanskerta); Kedah (Melayu) | `08-bab-3.md` |
+| Periode | Abad 2-14 M (jalur perdagangan Sino-Indian) | `08-bab-3.md` |
+| Karakter | Salah satu 3 pelabuhan utama shi-li-fo-shih (Palembang + Malayu + Kedah) | `08-bab-3.md` |
+| Mandala Sriwijaya | Bagian mandala inti Sriwijaya | `08-bab-3.md` |
+| Representasi | Wihara Sriwijaya di Nagapattinam + Nalanda (India) sebagai mandala pendukung | `08-bab-3.md` |
 
 ---
 
