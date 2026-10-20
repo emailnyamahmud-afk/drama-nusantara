@@ -731,6 +731,191 @@ Sudah dibahas di 1B (transisi). Untuk 1C, rangka-rangka Holosen Awal-Tengah:
 | Karakter | Gua bawah air, lorong terpanjang 37,5 m | `06-bab-1.md` E |
 | Temuan | Karapas penyu, tulang ikan, tanduk kijang, keong, rahang, tulang manusia | `06-bab-1.md` E |
 
+## 4.13 Latar 13 — Liang Abu (Kalimantan Timur, Pleistosen Akhir-Holosen)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Sungai Marang + Sungai Jelai, karst Gunung Marang, Sangatta, Semenanjung Mangkalihat (01°28'05.9"U, 117°17'16.3"T) | `08-bab-3.md` C |
+| Karakter | Ceruk di hutan hujan, pegunungan karst antara DAS Lesan/Kelai + Sungai Karangan; panjang maks ±25 m, lebar 5-8 m, menghadap timur | `08-bab-3.md` |
+| Ekskavasi | 2009 + 2012 | `08-bab-3.md` |
+| Artefak 2009 | 440 fragmen + splinters + serpih kecil <20 mm; 138 serpih >20 mm; 24 chunks; 7 pebbles/fragmen; 3 batu inti serpih | `08-bab-3.md` |
+
+## 4.14 Latar 14 — Awang Bangkal (Kalimantan Selatan, Pleistosen-Holosen)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Awang Bangkal, Kalimantan Selatan | `08-bab-3.md` C |
+| Penemu awal | H. Kupper 1939; Toer Soetardjo 1958 (kapak perimbas batu kuarsa, tajaman konveks); D.D. Bintarti 1973 (kapak perimbas lebih kecil) | `08-bab-3.md` |
+| Status | Lokasi tidak bisa ditemukan lagi — pemekaran wilayah + pembendungan sungai | `08-bab-3.md` |
+| Klasifikasi van Heekeren | Budaya kapak perimbas | `08-bab-3.md` |
+
+## 4.15 Latar 15 — Matja Kuru 1 + 2 (Timor Leste, 36-15 Ka)
+
+### 4.15.1 Matja Kuru 1
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Timur laut Desa Poros, utara Danau Ira Lalaro, Timor Leste; ±370 mdpl; ±6 km dari pesisir utara | `08-bab-3.md` C |
+| Karakter | Gua batu kapur; bersebelahan dengan Matja Kuru 2, menghadap selatan ke Danau Ira Lalaro | `08-bab-3.md` |
+| Ekskavasi | Kotak 1x2 m (A + AA) | `08-bab-3.md` |
+| Pertanggalan tertua | 16.355-15.566 cal BP (kotak AA) | `08-bab-3.md` |
+| Manik kerang | Nassarius (58 buah, 2 dalam pengerjaan); Oliva; cakram Strombus; cakram pipih Trochus; cakram Nautilus; Cypraeidae | `08-bab-3.md` |
+
+### 4.15.2 Matja Kuru 2
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Bersebelahan dengan Matja Kuru 1 | `08-bab-3.md` C |
+| Pertanggalan tertua | 36.000 tahun lalu | `08-bab-3.md` |
+| Artefak batu | 3.886 buah — obsidian, batu kapur, batu pasir, chert dominan; serpih (71%), flaked pieces (24%), serpih diretus (2,5%), core (0,8%) | `08-bab-3.md` |
+| Oker | 491 fragmen — vermilion terang hingga merah gelap keunguan, kuning, jingga, merah gelap; 148 dengan use-wear (faceting, penghalusan, striasi, "krayon" 4 sisi) | `08-bab-3.md` |
+| Artefak kerang | Cakram pipih Nautilus; Rochia nilotica; Oliva spp.; Strombidae; Nassarius (1 buah) | `08-bab-3.md` |
+| Artefak tulang | 4 buah — tulang bertakik (notched); tulang belakang ikan pari dimodifikasi; fragmen lancipan | `08-bab-3.md` |
+
+## 4.16 Latar 16 — Gua Makpan (Pulau Alor, 15 Ka)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Pesisir barat daya Pulau Alor, antara Desa Halmin + Desa Ling Al; 386 m dari pantai; ±37,5 mdpl | `08-bab-3.md` C |
+| Karakter | Gua lorong lava (lava tube) besar; pintu masuk menghadap laut | `08-bab-3.md` |
+| Ekskavasi | 2016 — Universitas Gadjah Mada + Australian National University | `08-bab-3.md` |
+| Mata kail | Calon mata kail + mata kail + fragmen dari cangkang Turbo sp., Rochia nilotica; 3 tipe J dari Scuttellastra sp. (Patellidae) | `08-bab-3.md` |
+| Umpan tiruan | 4 buah dari cangkang kerang; pemberat pancing dari koral | `08-bab-3.md` |
+| Pertanggalan tertua | 15.208-14.680 thn lalu (kerang spit 54) — Pleistosen | `08-bab-3.md` |
+| Signifikansi | **Situs tertua dengan temuan mata kail paling banyak**; produksi manik + mata pancing sejak Pleistosen Akhir di NTT | `08-bab-3.md` |
+
+## 4.17 Latar 17 — Kendeng Lembu (Jawa Timur, Neolitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Antara Jember dan Banyuwangi, Jawa Timur | `08-bab-3.md` D |
+| Signifikansi | **Situs hunian Neolitik pertama yang dilaporkan di Jawa** | `08-bab-3.md` |
+| Penggali | H.R. van Heekeren (1941); R.P. Soejono (1968); Goenadi Notohaminoto (1986); Sofwan Noerwidi (kontemporer) | `08-bab-3.md` |
+| Temuan | Artefak batu Neolitik + pecahan tembikar (lokasi hunian); bengkel pembuatan alat batu (300 m barat laut lokasi pertama) — batu lempung silikaan hijau abu-abu dari Sungai Sawojajar, Kampung Anyar, ±3 km utara Kendeng Lembu | `08-bab-3.md` |
+| Chaine opératoire | Tahapan operasional pembuatan beliung: batu lempung silikaan abu kehijauan-coklat dari Pegunungan Merawan, ±1-5 km dari situs | `08-bab-3.md` |
+
+## 4.18 Latar 18 — Bomo-Teleng (Gunung Sewu, Jawa Timur, Neolitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Perbatasan Dusun Bomo (Kec. Punung) + Dusun Sumberjo (Kec. Pringkuku), Gunung Sewu, Jawa Timur | `08-bab-3.md` D |
+| Peneliti | Daud Tanudirdjo | `08-bab-3.md` |
+| Signifikansi | Seluruh proses pembuatan beliung dikerjakan di tempat (penambangan → produk jadi diupam); pengaturan spasial kegiatan perbengkelan | `08-bab-3.md` |
+
+## 4.19 Latar 19 — Song Gupuh (Gunung Sewu, Jawa Timur, Holosen)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Gunung Sewu, Jawa Timur | `08-bab-3.md` D |
+| Signifikansi | Situs Holosen dengan temuan fauna + artefak | `08-bab-3.md` |
+
+## 4.20 Latar 20 — Siulak Tenang (Dataran Tinggi Jambi, Neolitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Dataran Tinggi Jambi | `08-bab-3.md` E |
+| Ekskavasi | 2013 — Balai Arkeologi Palembang | `08-bab-3.md` |
+| Temuan | 19 tempayan kubur | `08-bab-3.md` |
+| Tempayan kubur | 1 bertutup (periuk berslip merah, bibir motif gerigi, badan polos) — "tempayan kubur sepasang" (tutup = tempayan ukuran sama) | `08-bab-3.md` |
+| Situs pembanding | Melolo, Gilimanuk, Plawangan, Kunduran, Muara Betung, Muara Sepan; Dataran Tinggi Jambi: Ulu Muak, Talang Semerah, Lolo Gedang | `08-bab-3.md` |
+
+## 4.21 Latar 21 — Loyang Mendale (Aceh Tengah, Neolitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Bukit ±50 m di tepi utara Danau Lut Tawar, Kec. Kebayakan, Kab. Aceh Tengah, Nanggroe Aceh Darussalam | `08-bab-3.md` E |
+| Ekskavasi | 2009 — Balai Arkeologi Medan | `08-bab-3.md` |
+| Temuan | Beliung persegi + calon beliung; artefak cangkang kerang; tembikar + keramik; tulang binatang; cangkang kerang laut + air tawar; kerangka manusia | `08-bab-3.md` |
+| Signifikansi | Salah satu situs Neolitik tertua di Aceh | `08-bab-3.md` |
+
+## 4.22 Latar 22 — Bukit Tengkorak (Sabah, Malaysia, Neolitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Dekat Semporna, tenggara Sabah, Malaysia | `08-bab-3.md` E |
+| Temuan | Tembikar berhias gores + cap bergerigi menyerupai Lapita; serpih obsidian dari Talasea (utara New Britain, Kepulauan Bismarck); artefak kerang; tungku tembikar untuk perahu | `08-bab-3.md` |
+| Signifikansi | Penghuni = pelaut; hubungan dengan New Britain — sezaman dengan Lapita | `08-bab-3.md` |
+| Tradisi | Sa Huyn-Kalanay (tembikar berhias gores/tekan, persebaran Austronesia) | `08-bab-3.md` |
+
+## 4.23 Latar 23 — Ceruk Hagop Bilo + Madai (Sabah, Malaysia, Neolitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Baturong (30 km dari pantai) + perbukitan gamping Madai (±15 km dari pantai), Sabah | `08-bab-3.md` E |
+| Fase Atas Awal | 1.000-500 SM — tembikar polos/berslip merah, bentuk sederhana | `08-bab-3.md` |
+| Fase Mature Atas | 200 SM-1.000 M — tembikar berhias gores scroll + meander | `08-bab-3.md` |
+| Fase Transisi Atas-Idahan | 1.000-1.550 M — goresan sisir pada tembikar; kubur tempayan di gua | `08-bab-3.md` |
+| Tradisi | Sa Huyn-Kalanay; kesamaan dengan Leang Tuwo Mane'e + Leang Buidane (Talaud), Gua Tabon + Kalanay (Filipina) | `08-bab-3.md` |
+
+## 4.24 Latar 24 — Situs-situs di Semenanjung Mangkalihat (Kalimantan Timur)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Semenanjung Mangkalihat, Kalimantan Timur | `08-bab-3.md` E |
+| Situs kunci | Diang Kaung, Diang Balu, Liang Abu, Liang Jon, Jeriji Saleh, Liang Tebo | `08-bab-3.md` |
+| Tembikar | Tradisi Sa Huyn-Kalanay + kesamaan dengan Talaud + Filipina | `08-bab-3.md` |
+
+## 4.25 Latar 25 — Gua Tenggera (Sulawesi Tenggara, Holosen)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Konawe Utara, Sulawesi Tenggara | `08-bab-3.md` C |
+| Artefak elemen fauna | 237 (230 tulang/gigi + 7 cangkang kerang); 5 Tridacna (beliung, penyerut, liontin); 2 Cyclotellina remies; 1 jarum, 2 sudip, 169 lancipan; 61 lancipan dari tulang ikan; 6 tulang panjang burung terbakar + digosok | `08-bab-3.md` |
+| Teknik alat tulang | Bakar, asah, serut, potong (183 dibakar, 214 diasah, 58 diserut, 6 dipotong) | `08-bab-3.md` |
+| Pertanggalan | 3.635 ± 27, 3.693 ± 33, 3.705 ± 32, 10.455 ± 30 thn lalu | `08-bab-3.md` |
+| Liontin + beliung Tridacna | 3.693 ± 33 thn lalu; fragmen beliung 10.455 ± 30 thn lalu | `08-bab-3.md` |
+| Jarak dari pantai | ±30 km — artifak Tridacna = hasil pertukaran dengan populasi pesisir | `08-bab-3.md` |
+| Beliung Tridacna vs Pulau Gebe | Pulau Gebe 12.000 thn lalu (lebih tua) | `08-bab-3.md` |
+
+## 4.26 Latar 26 — Kawasan Mallawa (Sulawesi Selatan, Holosen)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Mallawa, Sulawesi Selatan | `08-bab-3.md` C |
+| Situs | Gua Panningnge, Leang Jarie, Gua Uttangnge 1, Liang Sibokoreng, Situs Gua Uttange 1 | `08-bab-3.md` |
+| Lancipan Maros | Lapisan 3: 103 buah (puncak penggunaan) berasosiasi 32 Megachiroptera + 59 tikus; Lapisan 2 (4.000-5.000 thn): 171 mikrolit + 4 Megachiroptera + 9 tikus | `08-bab-3.md` |
+| Alat tulang Toala | Unipoint + bipoint; Leang Sibokoreng 8.160 thn lalu → Leang Uttangnge 1 3.330 thn lalu (kontinu); tidak berubah setelah gerabah dikenal | `08-bab-3.md` |
+| Gigi hiu macan | 2 buah dimodifikasi — Gua Panningnge (Maros) + Gua Bulu Sippong 1 (Pangkep); bilah bergagang untuk konflik + ritual; kontak pedalaman-pesisir (Panningnge 450 mdpl) | `08-bab-3.md` |
+| Alat musik tiup tulang | Gua Uttange 1 — 2 mata panah bergerigi kerang bivalvia + alat musik tiup tulang (3000 thn lalu) — **alat musik tulang tertua di Nusantara** | `08-bab-3.md` |
+
+## 4.27 Latar 27 — Situs Logam Awal di Bali (Manikliyu, Pangkung Paruk, Sembiran, Pacung, Gilimanuk, Tigawasa)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Manikliyu | Bali, 122-331 M — individu dengan bekal kubur manik kaca + emas | `08-bab-3.md` G |
+| Pangkung Paruk | Bali, 122-331 M — individu dengan bekal kubur manik kaca + emas | `08-bab-3.md` G |
+| Sembiran | Bali timur laut, 163 SM-137 M — situs perdagangan awal Masehi | `08-bab-3.md` G |
+| Pacung | Bali timur laut, 163 SM-137 M — situs perdagangan awal Masehi | `08-bab-3.md` G |
+| Gilimanuk | Bali, awal Masehi — kubur tempayan + manik kaca + logam | `08-bab-3.md` G |
+| Tigawasa | Bali — situs logam awal | `08-bab-3.md` G |
+
+## 4.28 Latar 28 — Situs Logam Awal di Kalimantan (Palemba, Bukit Batu Larung, Pondok, Banjarmasin)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Palemba | Sulawesi Selatan, 2.000 thn lalu — situs logam awal | `08-bab-3.md` G |
+| Bukit Batu Larung | Dataran Tinggi Jambi | `08-bab-3.md` G |
+| Pondok | Dataran Tinggi Jambi | `08-bab-3.md` G |
+| Lambanapu | Sumba — situs logam awal | `08-bab-3.md` G |
+
+## 4.29 Latar 29 — Situs Logam Awal Sulawesi (Palemba, Gua Bulu Taroa 2, Gua Topogaro, Gua Talimbue, Gua Andomo)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Palemba | Sulawesi Selatan, 2.000 thn lalu | `08-bab-3.md` G |
+| Gua Bulu Taroa 2 | Sulawesi Utara | `08-bab-3.md` G |
+| Gua Topogaro | Sulawesi Tengah | `08-bab-3.md` G |
+| Gua Talimbue | Sulawesi Tenggara | `08-bab-3.md` G |
+| Gua Andomo | Sulawesi Tenggara | `08-bab-3.md` G |
+| Ceruk Jareng Bori | Sulawesi Selatan | `08-bab-3.md` G |
+
+## 4.30 Latar 30 — Lambanapu (Sumba, Logam Awal)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Sumba, Nusa Tenggara Timur | `08-bab-3.md` G |
+| Signifikansi | Situs logam awal di Nusa Tenggara | `08-bab-3.md` |
+
 ---
 
 # BAGIAN 5 — SUMBER PRIMER YANG DIPAKAI
