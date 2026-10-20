@@ -1634,3 +1634,47 @@ Stage Summary:
 - Status: ✅ Berdasarkan sumber primer Kementerian Kebudayaan RI 2025 Jilid III Bab I-IX
 - Commit + push: 2ad3d69 → GitHub
 - Plan lanjutan: rewrite lengkap 3B Demak-Pajang — sekarang 756 baris, 80 klaim, 6 dari 9 Bab Jilid III dipakai (kurang Bab 1, 2, 9)
+
+---
+Task ID: 3B-REWRITE-LENGKAP
+Agent: Main Agent (Z.ai)
+Task: Rewrite lengkap 3B Demak-Pajang — pola yang sama dengan 1A-2C + 3A (parsing sistematis Bab sumber primer)
+
+Work Log:
+- Audit state 3B sebelumnya: 756 baris, 10.489 kata, 80 klaim, 6 dari 9 Bab Jilid III dipakai tapi dangkal
+- Bab yang belum dipakai mendalam: Bab 3.E (Pembentukan Kesultanan Jawa pesisir→pedalaman), Bab 3.H (Kalimantan lengkap — Banjar+Kutai+Brunei+Sintang+Pontianak), Bab 4.D-E (Demak-Banjar+Giri-Gresik jaringan dakwah Nusantara Timur), Bab 4.G (Kutai), Bab 6 (Sufisme+Hamzah Fansuri+Syamsuddin+Tajussalatin+Bustan as-Salatin+lembaga hukum Islam lengkap), Bab 7 (profil 9 Wali detail — Bonang+Kudus+Muria+Giri+Kalijaga), Bab 8 (keraton+masjid+makam+nisan detail), Bab 9 (Hikayat Amir Hamzah+Caritanira Amir+Sérat Menak+aksara Jawi-Pegon)
+
+- Baca semua Bab Jilid III yang relevan secara sistematis:
+  * Bab 3 (line 457-540, 627-810): E. Pembentukan Kesultanan Jawa (Demak→Pajang→Mataram); H. Kalimantan (Banjar+Kutai+Brunei+Sintang+Pontianak)
+  * Bab 4 (line 327-620): D. Demak-Banjar peran ulama; E.1-3 Giri-Gresik + jaringan dakwah (Lembu Mangkurat+Datu Bandan+Sunan Prapen); G. Kutai (Tuan Tunggang Parangan 1575 M)
+  * Bab 6 (line 111-544): A. Islam dan Gagasan Politik (sultan=zhillu Allah); B.1 Hubungan Raja-Ulama (Tajussalatin+Bustan as-Salatin); B.2 Hubungan Raja-Elite Ekonomi (Undang-Undang Melaka, orang kaya, Syahbandar); B.3-5 Sufisme+Hamzah Fansuri+Syamsuddin as-Sumatrani+Qadi+Syaikh al-Islam+Pakih Najmuddin+Daengte Kaliya+Parewa Sara+Babato Akhirat
+  * Bab 7 (line 290-615): D. Wali Songo profil sosial-intelektual — Sunan Bonang (1465-1525), Sunan Drajat (±1470-1522), Sunan Kalijaga (±1450-1586), Sunan Giri (1443-1505), Sunan Kudus (±1500-1550), Sunan Muria (±1450-1551), Sunan Gunung Jati (1448-±1570)
+  * Bab 8 (line 104-508): A. Keraton (Kasepuhan Cirebon 1529+Surosowan Banten 1552+Istana Aceh per Beaulieu 3 pelataran+4000 pasukan+300 gajah); B. Masjid Tipe Jawa 6 ciri Pijper 1947+Masjid Agung Demak 1466+Masjid Menara Kudus 1549+Masjid Agung Banten 1552-1570; C. Makam+Nisan (tipe Aceh/Demak-Troloyo/Bugis-Makasar/Ternate-Tidore; kompleks 9 tingkat Sunan Gunung Jati; 7 pintu Sunan Kudus; Sendang Duwur; makam di bukit vs dataran)
+  * Bab 9 (line 100-379): A. Sirkulasi Teks (Kosmopolis Sanskerta 300-1500 → Arab abad 15-19; Hikayat Amir Hamzah; Caritanira Amir Bodleian Oxford; Sérat Menak Kartasura 1715; aksara Jawi-Pegon-Rambang-Serang-Buri Wolio)
+
+- Rewrite lengkap 3B:
+  * 12 akt narasi kronologi (sebelumnya 12 akt tapi dangkal)
+  * 21 tokoh utama + 20+ tokoh pendukung (sebelumnya 13 tokoh)
+  * 18 latar utama (sebelumnya 11)
+  * 133 klaim dengan sitasi (sebelumnya 80)
+  * 30 referensi sekunder disitir (sebelumnya 17)
+  * 20 naskah sastra disitir (sebelumnya 7)
+  * 9 masjid disitir (sebelumnya 6)
+  * 4 keraton disitir (sebelumnya 3)
+  * 8 kompleks makam disitir (sebelumnya 5)
+
+- Audit halu: ✅ Setiap klaim dengan sitasi file+line; tidak ada tahun karangan sendiri; semua periode/tanggal ada di sumber primer
+- Pola: ✅ Rewrite lengkap (bukan koreksi) — parsing sistematis 6 dari 9 Bab Jilid III yang relevan dengan era 3B (Bab 3, 4, 6, 7, 8, 9; Bab 1, 2, 5 sebagai konteks dari era 3A)
+
+Stage Summary:
+- File output: /home/z/my-project/master-era/3B-demak-pajang.md
+- Total baris: 1058 (sebelumnya 756 — 1,4x lebih besar)
+- Total kata: 20.237 (sebelumnya 10.489 — 1,9x lebih banyak)
+- Klaim dengan sitasi: 133 (sebelumnya 80 — 1,7x lebih banyak)
+- Tokoh: 21 utama + 20+ pendukung (sebelumnya 13)
+- Latar: 18 (sebelumnya 11)
+- Bab dipakai langsung: 6 dari 9 (Bab 3, 4, 6, 7, 8, 9)
+- Status: ✅ Berdasarkan sumber primer Kementerian Kebudayaan RI 2025 Jilid III
+- Commit + push: c8fa694 → GitHub
+- Era Islam LENGKAP (3A-3B): ~35.000 kata, abad 7-16 M
+- Plan lanjutan: era 3C Mataram Islam (abad 17-18 M) menggunakan Jilid IV
