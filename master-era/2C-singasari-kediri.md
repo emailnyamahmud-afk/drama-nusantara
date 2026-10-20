@@ -208,6 +208,73 @@ Smaradahana — "Api Cinta" — mengisahkan Kameswara (raja Kadiri) dan permaisu
 | Peristiwa | Kertanagara tewas, Raden Wijaya lolos | `08-bab-3.md` A.4 |
 | Akhir | Dihancurkan Raden Wijaya + pasukan Tartar (1293 M) | `08-bab-3.md` A.4 |
 
+## 3.10 Tokoh 10 — Raja-raja Janggala (1042-1117 M)
+
+| Raja | Periode | Sumber primer |
+|------|---------|---------------|
+| Mapanji Garasakan | 966-975 Saka/1044-1053 M | `08-bab-3.md` C.1.a |
+| Alanjung Ahyes | 974 Saka/1052 M (perebutan tahta vs Garasakan) | `08-bab-3.md` C.1.a |
+| Srimaharaja Samarotsaha | 981 Saka/1059 M | `08-bab-3.md` C.1.a |
+| Lambang | Garudamukha (lambang Airlangga) | `08-bab-3.md` C.1.a |
+| Prasasti kunci | Turunhyang B (966/1044); Malenga (974/1052); Banjaran (974/1052); Garaman (975/1053); Kambang Putih (Tuban); Sumengka (981/1059); Horrén (tinulad Majapahit) | `08-bab-3.md` |
+
+## 3.11 Tokoh 11 — Raja-raja Pangjalu / Kadiri Lengkap (1042-1222 M)
+
+| Raja | Periode | Gelar lengkap | Sumber primer |
+|------|---------|--------------|---------------|
+| Samarawijaya Dharmasuparnna | ±1042 M (raja pertama Pangjalu; ipar Airlangga; "satru sunda") | — | `08-bab-3.md` C.1.b |
+| Jitendrakara Wuryyawiryya Parakrama Bhakta | 973 Saka/1051 M (Prasasti Mataji) | Sri Maharaja | `08-bab-3.md` C.1.b |
+| Bameswara Sakalabhuwanatustikirana | 1039-1050 Saka/1117-1129 M (6 prasasti) | Sri Maharaja Rakai Sirikan | `08-bab-3.md` C.1.b |
+| Jayabhaya | 1057-1079 Saka/1135-1157 M | Sri Warmeswara Madhusudhanawataranindita Suhrtsingha | `08-bab-3.md` C.1.b |
+| Sarwweswara I | 1081-1083 Saka/1159-1161 M | Janardanawatara Wijayagrajasama Singhanadaniwaryyawiryya | `08-bab-3.md` C.1.b |
+| Aryyeswara | 1091-1093 Saka/1169-1171 M | Rakai Hino Madhusudanawatara | `08-bab-3.md` C.1.b |
+| Kameswara | 1107 Saka/1185 M | Atriwikramawataraniwaryyawiryya | `08-bab-3.md` C.1.b |
+| Sarwweswara II | 1112-1113 Saka/1190-1191 M | Triwikramawataranindita Srenggalanchana | `08-bab-3.md` C.1.b |
+| Kertajaya (Dangdang Gendis) | ±1213-1222 M (raja terakhir; dikalahkan Ken Arok 1222 M) | — | `08-bab-3.md` A.1 |
+
+## 3.12 Tokoh 12 — Raja-raja Singasari Lengkap (Prasasti Mula Malurung 1177 Saka/1255 M)
+
+| Raja (Prasasti Mula Malurung) | Nama di Pararaton/NKG | Hubungan | Sumber primer |
+|-----|-----|------|---------------|
+| Bhatara Siwa | Ken Arok / Ranggah Rajasa Sang Amurwabhumi | Pendiri; tewas 1227 M | `08-bab-3.md` A.3 |
+| Ramanira Nararyya Waninhyun | Anusapati (Pararaton) | Ayah Nararyya Waninhyun; mertua+paman Wisnuwardhana | `08-bab-3.md` A.3 |
+| Nararyya Gunin Bhaya (Gunging) | Tohjaya? | Paman Wisnuwardhana | `08-bab-3.md` A.3 |
+| Nararyya Toh Jaya | Tohjaya (Pararaton) | Kakak Gunin Bhaya; paman Wisnuwardhana | `08-bab-3.md` A.3 |
+| Nararyya Smi ning Rat | Wisnuwardhana (NKG.41) | Putra; angkat Kertanagara sebagai raja di Daha | `08-bab-3.md` A.3 |
+| Nararyya Murddhaya | Kertanagara | Putra Wisnuwardhana; raja terakhir Singasari 1268-1292 M | `08-bab-3.md` A.3 |
+
+## 3.13 Tokoh 13 — Sunda / Pajajaran (abad 10-16 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Prasasti tertua | Rakryan Juru Pangambat 854 Saka/932 M — "memulihkan raja Sunda"; Kebon Kopi, Bogor; bahasa Melayu Kuno | `08-bab-3.md` C.2 |
+| Sang Hyang Tapak I-II | 1030 M — Desa Pangcalikan + Bantarmuncang, Sukabumi; Raja Jayabhupati; peraturan lingkungan | `08-bab-3.md` |
+| Prasasti Horrén | Abad 11 (tinulad Majapahit) — Raja Garasakan (Janggala); serangan "satru Sunda" (= Samarawijaya Pangjalu) | `08-bab-3.md` |
+| Berita Tiongkok | Dinasti Song (960-1279): Sin-t'o | `08-bab-3.md` |
+| 6 pelabuhan (Pires) | Banten, Pontang (Serang), Cigede, Tangerang, Kalapa (terpenting), Cimanuk | `08-bab-3.md` |
+| Komoditas | Beras + lada (utama) | `08-bab-3.md` |
+| Naskah | Siksa Kanda ng Karésian (1518); Carita Parahyangan; Kidung Sundayana; Kidung Sunda | `08-bab-3.md` |
+| Pusat kerajaan | Galuh, Pakwan Pajajaran, Pajajaran, Kawali (berpindah-pindah) | `08-bab-3.md` |
+
+## 3.14 Tokoh 14 — Karya Sastra Kadiri
+
+| Karya | Pengarang | Raja pengayom | Sumber primer |
+|-------|-----------|-------------|---------------|
+| Hariwangsa | Empu Panuluh | Kameswara (1185 M) | `08-bab-3.md` C.2 |
+| Bharatayuddha | Empu Sedah + Empu Panuluh | Jayabhaya (1157 M) | `08-bab-3.md` C.2 |
+| Gatotkacasraya | Empu Panuluh | Kameswara/Aryyeswara | `08-bab-3.md` C.2 |
+| Smaradahana | Empu Dharmaja | Kameswara | `08-bab-3.md` C.2 |
+
+## 3.15 Tokoh 15 — Administrasi Kadiri (inovasi)
+
+| Aspek | Detail | Sumber primer |
+|-------|--------|---------------|
+| Hierarki kewilayahan | thani (desa) → duwan (subdivisi) → wisaya (koordinasi desa) → bhumi (negara); pusat = nagara/rajya; istana = kadatwan | `08-bab-3.md` C.2 |
+| Militer | makasirkasir (pembawa panji binatang: kerbau, rusa, gajah); nama depan binatang = status Ksatria (Kbo, Gajah, Hayam, Lembu) | `08-bab-3.md` |
+| Senapati Sarwwajala | Pejabat khusus pengelolaan air (pengairan + transportasi) — pertama di Nusantara | `08-bab-3.md` |
+| undahagi laficang | Ahli membuat kapal — pendukung transportasi sungai | `08-bab-3.md` |
+| DAS Brantas | Pusat perdagangan Kadiri di sepanjang sungai | `08-bab-3.md` |
+
 ---
 
 # BAGIAN 4 — LATAR
@@ -264,6 +331,65 @@ Smaradahana — "Api Cinta" — mengisahkan Kameswara (raja Kadiri) dan permaisu
 |---------|-------|---------------|
 | Antahpura | Didharmakan arca Jina (Kertarajasa) | `08-bab-3.md` A.4 |
 | Simping (Sumberjati, Blitar) | Didharmakan arca Siwa/Harihara (Kertarajasa) | `08-bab-3.md` A.4 |
+
+## 4.8 Latar 8 — Sungai Ndempol (batas Janggala-Pangjalu, abad 11 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Desa Pandan Krojan + Desa Truneng, Kec. Kemlagi, Mojokerto | `08-bab-3.md` C.1.a |
+| Karakter | Sungai kecil yang menjadi batas alam pemisah Janggala-Pangjalu | `08-bab-3.md` |
+| Bukti | Prasasti Pandan (964 Saka/1042) di Pandan Krojan + Prasasti Turunhyang A-B (958+966 Saka) di Truneng — dipisahkan Sungai Ndempol | `08-bab-3.md` |
+| Simbolisme | Mpu Bharada membagi kerajaan dengan air dari kendi → air = batas pembagian (Prasasti Wurara 1211 Saka/1289; NKG; Pararaton) | `08-bab-3.md` |
+
+## 4.9 Latar 9 — Sunda / Pajajaran (Jawa Barat, abad 10-16 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Jawa Barat (Bogor, Sukabumi, Banten, Jakarta) | `08-bab-3.md` C.2 |
+| Prasasti tertua | Rakryan Juru Pangambat 854 Saka/932 M — "memulihkan raja Sunda" — Kebon Kopi, Bogor; bahasa Melayu Kuno | `08-bab-3.md` |
+| Sang Hyang Tapak I-II | 1030 M — Pangcalikan + Bantarmuncang, Sukabumi; Raja Jayabhupati; peraturan lingkungan | `08-bab-3.md` |
+| Periode kerajaan kuat | Abad 14 M (bukan vasal lagi); prasasti berbahasa Sunda Kuno | `08-bab-3.md` |
+| 6 pelabuhan (Pires) | Banten, Pontang, Cigede, Tangerang, Kalapa (terpenting), Cimanuk | `08-bab-3.md` |
+| Komoditas | Beras + lada | `08-bab-3.md` |
+| Pusat kerajaan | Galuh, Pakwan Pajajaran, Pajajaran, Kawali | `08-bab-3.md` |
+| Naskah | Siksa Kanda ng Karésian (1518); Carita Parahyangan; Kidung Sundayana; Kidung Sunda | `08-bab-3.md` |
+
+## 4.10 Latar 10 — Mandailing / Simangambat (Sumatra Utara, abad 10-14 M)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Mandailing, Sumatra Utara — Sepanjang Sungai Batang Gadis | `08-bab-3.md` C.4 |
+| Situs kunci | Candi Simangambat (Desa Simangambat, Kec. Siabu); Saba Uduk; Huta Siantar; Saba Biara | `08-bab-3.md` |
+| Periode | Abad 10-14 M (bandar dagang) | `08-bab-3.md` |
+| Temuan | Keramik Tiongkok Song abad 10 M; pecahan kaca Timur Tengah; resin damar; komiri | `08-bab-3.md` |
+| Prasasti Sorik Marapi | D.53 + D.65 — Mahasenapati Pamanan Ekalabira + Sri Mpuku Kalus Hyam Jayasu | `08-bab-3.md` |
+| Geopolitik | Abad 14 M: bagian Kemaharajaan Malayu; disebut Nagarakretagama pupuh 13 | `08-bab-3.md` |
+| Signifikansi | Bandar perantara: komoditas hulu (kayu aromatik, rempah, emas) → Sipamutung/Padanglawas | `08-bab-3.md` |
+
+## 4.11 Latar 11 — Candi-candi Singasari + Kadiri (abad 12-13 M)
+
+| Candi | Lokasi | Periode | Fungsi | Sumber primer |
+|-------|--------|---------|--------|---------------|
+| Penataran | Blitar | Abad 12-13 M (terbesar di Jawa Timur) | Candi Siwa; relief Ramayana + Krisnayana | `09-bab-4.md` |
+| Kidal | Malang | 1268 M (didharmakan Anusapati) | Candi Siwa | `09-bab-4.md` |
+| Jago | Malang | ±1268-1280 M (didharmakan Wisnuwardhana) | Candi Buddha-Siwa; relief Tantri + Kunjarakarna | `09-bab-4.md` |
+| Jawi | Pasuruan | ±1300 M (didharmakan Kertanagara) | Candi Buddha-Siwa | `09-bab-4.md` |
+| Singosari | Malang | Abad 13 M | Candi Siwa | `09-bab-4.md` |
+| Surawana | Kediri | Abad 14 M | Candi Siwa | `09-bab-4.md` |
+| Tegowangi | Kediri | ±1350 M | Candi Siwa | `09-bab-4.md` |
+| Kagenengan | Pasuruan | Abad 13 M | Candi Buddha | `09-bab-4.md` |
+| Selareng | Pasuruan | Abad 13 M | Candi Buddha | `09-bab-4.md` |
+
+## 4.12 Latar 12 — Daha / Kadiri (ibukota Kadiri, diperluas)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Kediri, Jawa Timur — DAS Brantas | `08-bab-3.md` C.2 |
+| Periode | 1042-1222 M (Pangjalu → Kadiri) | `08-bab-3.md` |
+| Administrasi | Hierarki thani → duwan → wisaya → bhumi; Senapati Sarwwajala; undahagi laficang | `08-bab-3.md` |
+| Sastra | Hariwangsa, Bharatayuddha, Gatotkacasraya (Empu Panuluh); Smaradahana (Empu Dharmaja) | `08-bab-3.md` |
+| Prasasti kunci | Mataji (973/1051); Hantang (1057/1135); Jaring (1075/1153); Ngantang (1083/1161); Talan (1116/1194); Wurara (1211/1289); Mula Malurung (1177/1255) | `08-bab-3.md` |
+| Raja terakhir | Kertajaya (Dangdang Gendis) — dikalahkan Ken Arok 1222 M | `08-bab-3.md` |
 
 ---
 
