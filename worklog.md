@@ -1268,3 +1268,34 @@ T2I Prompts untuk 2A:
 - Total 12 file flat siap copy-paste ke Dola AI
 
 Update README: 5 dari 17 era selesai (master + T2I), 54 T2I prompt total.
+
+---
+Task ID: 3A-master + 3A-t2i
+Agent: Main Agent (Z.ai)
+Task: Lanjut Era 3A — Islamisasi Awal (Abad 13-15 M) — baca sumber primer Jilid III, tulis master era + 21 T2I flat prompts untuk Dola AI
+
+Work Log:
+- Baca pendahuluan Jilid III (hal. 1-13): jaringan maritim, komunitas Muslim awal, akulturasi Islam-budaya lokal
+- Baca Bab II — Komunitas Muslim di Bandar Dagang (hal. 79-177): Situs Bongal (koin Abbasiyah 698 M), Lobu Tua Barus (>10.000 artefak Islam abad 9-12, cap kaca Khorasan), Lamuri/Lamreh (Sultan Muhammad Sulaiman w. 1404 M)
+- Baca Bab III — Pembentukan Kerajaan (hal. 185-295): 3 tipologi (integrasi elite lama, mobilisasi elite baru, konversi politik); Samudra Pasai (Malik al-Saleh 1297 M); Malaka (Parameswara/Iskandar Shah ±1400-1414 M); Demak (Raden Patah ±1478 M); Cirebon-Banten (Sunan Gunung Jati 1482-1526 M)
+- Baca Bab VII — Wali Songo Mengislamkan Jawa (hal. 589-681): profil 9 wali (Maulana Malik Ibrahim, Sunan Ampel, Sunan Bonang, Sunan Drajat, Sunan Kalijaga, Sunan Giri, Sunan Kudus, Sunan Muria, Sunan Gunung Jati) + Masjid Agung Demak (1466 M), Masjid Jami Ampel (1421 M), Masjid Menara Kudus (1549 M), Giri Kedaton (1485 M)
+- Tulis master era: /home/z/my-project/master-era/3A-islamisasi-awal.md (569 baris, ~7.842 kata)
+  - 8 bagian mengikuti template: konteks era, narasi kronologi (8 akt), 10 tokoh, 9 latar, 64 klaim dengan sitasi, aset visual, statistik, transisi ke 3B
+  - Periode 1297-1511 M (dari batu nisan Malik al-Saleh hingga Malaka jatuh ke Portugis)
+- Tulis 21 T2I flat prompts di /home/z/my-project/produksi/t2i-prompts/3A-islamisasi-awal/prompts/:
+  - 7 Karakter (K01-K07): Malik al-Saleh, Parameswara/Iskandar Shah, Sunan Gresik, Sunan Ampel, Sunan Kalijaga, Sunan Giri, Sunan Gunung Jati
+  - 8 Latar (L01-L08): Samudra Pasai, Malaka, Lobu Tua Barus, Lamuri/Lamreh, Gresik, Ampeldenta, Giri Kedaton, Masjid Agung Demak
+  - 6 Artefak (A01-A06): nisan Malik al-Saleh 1297, cap kaca Khorasan 10-11 M, nisan Sultan Muhammad Sulaiman 1404, Sakatatal Demak 1466, Menara Kudus 1549, nisan Maulana Malik Ibrahim 1419 (marmer Cambay)
+- Format flat prompt sesuai GUIDE-dola-ai.md: STYLE_KEYWORD di awal + paragraf natural + quality tag + Avoid list
+- Setiap prompt menyertakan: aspek rasio 9:16 portrait, referensi sumber primer (file + section), konteks historis singkat di section "Mood"
+
+Stage Summary:
+- File master era: /home/z/my-project/master-era/3A-islamisasi-awal.md (569 baris, 7.842 kata, 64 klaim dengan sitasi)
+- Folder T2I: /home/z/my-project/produksi/t2i-prompts/3A-islamisasi-awal/prompts/ (21 file .txt flat prompt)
+- Era periode: 1297-1511 M
+- Tokoh kunci: Malik al-Saleh, Parameswara/Iskandar Shah, Sultan Muhammad Sulaiman (Lamuri), Syekh Mahmud (Barus), 9 Wali Songo (fokus 5: Gresik, Ampel, Kalijaga, Giri, Gunung Jati), Raden Patah
+- Latar kunci: Samudra Pasai, Malaka, Lobu Tua, Lamuri, Gresik, Ampeldenta, Giri Kedaton, Masjid Agung Demak, Cirebon, Banten
+- Artefak kunci: 5 nisan (Malik al-Saleh, Sultan Sulaiman, Maulana Malik Ibrahim), cap kaca Khorasan, Sakatatal Demak, Menara Kudus
+- Cutoff: 1511 M (jatuh Malaka ke Portugis) — era berikutnya 3B Demak-Pajang abad 15-16 M
+- Status: ✅ Berdasar sumber primer Jilid III Kementerian Kebudayaan RI 2025
+- Catatan: Semua klaim konten adalah sintesis orisinal dari fakta historis yang terdokumentasi di sumber primer Jilid III. Tidak ada kutipan panjang.
