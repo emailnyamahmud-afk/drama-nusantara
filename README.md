@@ -2,141 +2,119 @@
 
 > Riset sejarah untuk produksi drama/dokumenter Nusantara berbasis buku **Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global** (Kementerian Kebudayaan RI, 2025)
 
-## Alur Kerja (Phase)
+## Alur Kerja
 
 ```
-Phase 1: RISET              → baca sumber primer, ringkasan, audit
+1. SUMBER PRIMER          → baca Jilid 1-5 (Kemenbud 2025) — hanya file asli, no ringkasan
    ↓
-Phase 2: MASTER ERA         → tiap era = narasi + tokoh + latar (berdasar sumber primer)
+2. MASTER ERA             → tiap era = parsing sistematis sumber primer → narasi + tokoh + latar
    ↓
-Phase 3: PRODUKSI           → T2I prompts (copy-paste ke Dola AI) + output drama/dokumenter
+3. T2I PROMPTS            → copy-paste ke Dola AI → output drama/dokumenter
 ```
 
-**Status saat ini**: Phase 2 — Master Era + T2I Prompts (pola hibrida: tiap selesai 1 era master → langsung buat T2I prompts)
+**Status saat ini**: Era 1A-1D sudah di-rewrite lengkap (parsing sistematis). Era 2A-3B sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B.
 
 ## Struktur Repo
 
 ```
 drama-nusantara/
-├── README.md                          ← file ini
-├── worklog.md                         ← log semua task IDs
-├── .gitignore
+├── README.md                              ← file ini
+├── worklog.md                             ← log semua task
+├── push-to-github.sh                      ← helper script untuk push
 │
-├── riset/                             ← PHASE 1: sumber primer + ringkasan + audit
-│   ├── sumber-primer/                 ← 123 file MD, 1,257 juta kata
-│   │   ├── jilid-1/                   ← 13 file (Akar Peradaban Nusantara)
-│   │   ├── jilid-2/                   ← 15 file (Perjumpaan India-Tiongkok-Persia)
-│   │   ├── jilid-3/                   ← 17 file (Timur Tengah / Islamisasi)
-│   │   ├── jilid-4/                   ← 18 file (Interaksi Awal dengan Barat)
-│   │   ├── jilid-5/                   ← 15 file (Negara Kolonial 1800-1900)
-│   │   └── enhanced-chapters/         ← 38 YAML ontology per bab
-│   │
-│   ├── ringkasan/                    ← 10 file, 106.680 kata
-│   │   ├── INDEX.md                   ← panduan navigasi 5 jilid
-│   │   ├── master-tokoh.yaml         ← 250 tokoh lintas-jilid
-│   │   ├── ringkasan-jilid-{1-5}-*.md ← 5 ringkasan utama
-│   │   └── ringkasan-jilid-*-suplemen*.md ← 3 suplemen
-│   │
-│   ├── audit/                         ← 3 laporan cross-check
-│   │   ├── audit-jilid3-kemenbud-2025.md
-│   │   ├── audit-ringkasan-jilid4.md  (228 klaim cross-check, 98,7% akurat)
-│   │   └── audit-ringkasan-jilid5.md  (≥98% akurat)
-│   │
-│   └── phase-1/                       ← riset drama awal (sebelum Kemenbud 2025)
-│       ├── phase-1-mataram-kuno-master.yaml  (79 KB)
-│       └── phase-2-singasari-master.yaml     (64 KB)
+├── riset/
+│   └── sumber-primer/                     ← SUMBER PRIMER: 83 file MD asli dari Kemenbud 2025
+│       ├── jilid-1/                       ← 13 file (Akar Peradaban Nusantara)
+│       ├── jilid-2/                       ← 15 file (Perjumpaan India-Tiongkok-Persia)
+│       ├── jilid-3/                       ← 17 file (Timur Tengah / Islamisasi)
+│       ├── jilid-4/                       ← 18 file (Interaksi Awal dengan Barat)
+│       └── jilid-5/                       ← 15 file (Negara Kolonial 1800-1900)
 │
-├── master-era/                        ← PHASE 2: master era per periode
-│   ├── TEMPLATE-master-era.md        ← template wajib untuk semua era
-│   ├── 1A-prasejarah-pleistosen-awal.md          ✅ ~5.200 kata
-│   ├── 1B-prasejarah-pleistosen-tengah-akhir.md ✅ ~8.500 kata
-│   ├── 1C-prasejarah-holosen-neolitik.md         ✅ ~11.000 kata
-│   ├── 1D-prasejarah-logam-awal.md                ✅ ~13.500 kata
-│   ├── 2A-hindu-buddha-awal.md                    ✅ ~9.500 kata
-│   ├── 2B-mataram-sriwijaya.md                    ✅ ~11.000 kata
-│   └── 2C-singasari-kediri.md                       ✅ ~9.000 kata
-│   ├── 2C-singasari-kediri.md                    ⏳ berikutnya
-│   └── 2D-majapahit.md                              ✅ ~8.500 kata
-│   ├── 3B-demak-pajang.md                         ⏳
-│   ├── 3C-mataram-islam.md                        ⏳
-│   ├── 4A-voc-awal.md                             ⏳
-│   ├── 4B-kolonial-19.md                          ⏳
-│   ├── 4C-pergerakan-kebangsaan.md                ⏳
-│   ├── 4D-pendudukan-kemerdekaan.md               ⏳
-│   └── 4E-orde-lama-baru.md                       ⏳
+├── master-era/                            ← MASTER ERA: parsing sistematis per periode
+│   ├── TEMPLATE-master-era.md            ← template wajib untuk semua era
+│   ├── 1A-prasejarah-pleistosen-awal.md          ✅ 1171 baris (rewrite lengkap)
+│   ├── 1B-prasejarah-pleistosen-tengah-akhir.md   ✅ 1214 baris (rewrite lengkap)
+│   ├── 1C-prasejarah-holosen-neolitik.md          ✅ 1205 baris (rewrite lengkap)
+│   ├── 1D-prasejarah-logam-awal.md                  ✅ 1264 baris (rewrite lengkap)
+│   ├── 2A-hindu-buddha-awal.md                       ✅ 690 baris
+│   ├── 2B-mataram-sriwijaya.md                       ✅ 641 baris
+│   ├── 2C-singasari-kediri.md                        ✅ 393 baris
+│   ├── 2D-majapahit.md                                ✅ 327 baris (koreksi parsing Akt 6)
+│   ├── 3A-islamisasi-awal.md                          ✅ 571 baris (koreksi pendirian Demak 1481 M)
+│   └── 3B-demak-pajang.md                             ✅ 756 baris (koreksi + 4 tokoh baru + 2 latar baru)
 │
-├── produksi/                          ← PHASE 3: T2I prompts + output
-│   ├── t2i-prompts/                   ← T2I prompts per era (siap copy-paste ke Dola AI)
-│   │   ├── GUIDE-dola-ai.md           ← panduan cara pakai Dola AI
+├── produksi/
+│   ├── t2i-prompts/                       ← T2I prompts per era (siap copy-paste ke Dola AI)
+│   │   ├── GUIDE-dola-ai.md              ← panduan cara pakai Dola AI
 │   │   ├── 1A-prasejarah-pleistosen-awal/prompts/         ✅ 10 file
 │   │   ├── 1B-prasejarah-pleistosen-tengah-akhir/prompts/ ✅ 10 file
 │   │   ├── 1C-prasejarah-holosen-neolitik/prompts/        ✅ 10 file
 │   │   ├── 1D-prasejarah-logam-awal/prompts/              ✅ 12 file
 │   │   ├── 2A-hindu-buddha-awal/prompts/                   ✅ 18 file
 │   │   ├── 2B-mataram-sriwijaya/prompts/                  ✅ 37 file
-│   │   └── 2D-majapahit/prompts/                           ✅ 17 file
-│   └── panji/                         ← (contoh — DITUNDA, bukan prioritas)
+│   │   ├── 2C-singasari-kediri/prompts/                    ✅ 17 file
+│   │   ├── 2D-majapahit/prompts/                           ✅ 17 file
+│   │   ├── 3A-islamisasi-awal/prompts/                     ✅ 21 file
+│   │   └── 3B-demak-pajang/prompts/                        ✅ 21 file
+│   └── panji/                             ← pre-produksi Panji (DITUNDA)
 │
-└── scripts/                           ← script Python pendukung
-    ├── audit_*.py                     ← audit script
-    ├── extract_*.py                   ← ekstraksi tokoh/struktur
-    ├── koreksi_*.py                   ← koreksi massal
-    ├── regenerate_t2i_prompts.py      ← generate ulang 1A-1D prompts
-    ├── generate_2B_prompts.py        ← generate 2B prompts
-    ├── generate_2B_room_prompts.py    ← generate 2B ruang istana
-    └── clean_humans_from_L.py         ← bersihkan manusia dari file L
+└── scripts/                               ← script Python/JS pendukung
+    ├── audit_*.py                         ← audit script
+    ├── extract_*.py                       ← ekstraksi tokoh/struktur
+    └── generate_*.py                     ← generate T2I prompts
 ```
+
+## Aturan Repo
+
+1. **`riset/sumber-primer/`** = HANYA file asli dari buku Kemenbud 2025 (Jilid 1-5). Tidak ada ringkasan, tidak ada enhanced YAML, tidak ada audit JSON. Jika perlu cari info, baca langsung file asli.
+2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D sudah di-rewrite lengkap (parsing semua entitas bernama). Era 2A-3B sudah ditulis + dikoreksi parsing, perlu audit coverage.
+3. **`produksi/t2i-prompts/`** = file .txt siap copy-paste ke Dola AI. Format flat natural-language.
 
 ## Quick Start
 
-1. **Baca `riset/ringkasan/INDEX.md`** untuk panduan navigasi 5 jilid
-2. **Cari tokoh** di `riset/ringkasan/master-tokoh.yaml` (250 tokoh)
-3. **Baca master era** di `master-era/<era>.md` (mulai dari 1A)
-4. **Verifikasi fakta** di `riset/audit/` (3 laporan cross-check)
-5. **Baca sumber primer** di `riset/sumber-primer/jilid-X/` untuk detail
-6. **Generate image** di Dola AI: baca `produksi/t2i-prompts/GUIDE-dola-ai.md`
-7. **Copy-paste prompt** dari `produksi/t2i-prompts/<era>/prompts/*.txt`
+1. **Baca master era** di `master-era/<era>.md` (mulai dari 1A)
+2. **Verifikasi klaim** di `riset/sumber-primer/jilid-X/` — baca file asli yang disitir
+3. **Generate image** di Dola AI: baca `produksi/t2i-prompts/GUIDE-dola-ai.md`
+4. **Copy-paste prompt** dari `produksi/t2i-prompts/<era>/prompts/*.txt`
 
 ## Statistik
 
 | Metrik | Angka |
 |---|---|
-| Total file di repo | 200+ |
-| Sumber primer (5 jilid) | 1,257 juta kata |
-| Ringkasan 5 jilid + suplemen | 106.680 kata |
-| Master YAML tokoh | 250 (77 lintas-jilid) |
-| Audit cross-check | 3 laporan, akurasi ≥98,7% |
-| Master era selesai | 8 dari 17 (1A-1D + 2A-2D) |
-| Master era dalam proses | 3A Islamisasi Awal (berikutnya) |
-| T2I prompts selesai | 8 dari 17 era (131 prompt total) |
-| T2I prompts dalam proses | 3A Islamisasi Awal (berikutnya) |
-| Total kata master era | ~58.700 kata |
-| Total T2I prompt file | 131 file .txt siap copy-paste |
+| Sumber primer (5 jilid) | 83 file MD asli |
+| Master era selesai | 10 dari 17 (1A-1D rewrite lengkap + 2A-3B) |
+| T2I prompts selesai | 10 era (173 file .txt total) |
+| Total kata master era | ~87.000 kata |
+| Total file di repo | 345 |
 
-## Status Master Era + T2I Prompts (Pola Hibrida)
+## Status Master Era + T2I Prompts
 
-Setiap selesai 1 era master → langsung buat prompt T2I komprehensif untuk era itu.
+| Era | Periode | Master | Baris | T2I | T2I file |
+|-----|---------|--------|-------|-----|----------|
+| 1A Pleistosen Awal | 1,8 jt – 700 rb thn lalu | ✅ rewrite | 1171 | ✅ | 10 |
+| 1B Pleistosen Tengah-Akhir | 700 rb – 12 rb thn lalu | ✅ rewrite | 1214 | ✅ | 10 |
+| 1C Holosen / Neolitik | 12 rb – 2.500 SM | ✅ rewrite | 1205 | ✅ | 10 |
+| 1D Logam Awal | 2.500 SM – abad 5 M | ✅ rewrite | 1264 | ✅ | 12 |
+| **TOTAL PRASEJARAH** | | | **4854** | | **42** |
+| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ | 690 | ✅ | 18 |
+| 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ | 641 | ✅ | 37 |
+| 2C Singasari-Kediri | Abad 11-13 M | ✅ | 393 | ✅ | 17 |
+| 2D Majapahit | Abad 13-16 M | ✅ koreksi | 327 | ✅ | 17 |
+| **TOTAL HINDU-BUDDHA** | | | **2051** | | **89** |
+| 3A Islamisasi Awal | Abad 13-15 M | ✅ koreksi | 571 | ✅ | 21 |
+| 3B Demak-Pajang | Abad 15-16 M | ✅ koreksi | 756 | ✅ | 21 |
+| **TOTAL ISLAM** | | | **1327** | | **42** |
+| 3C Mataram Islam | Abad 17-18 M | ⏳ | — | ⏳ | — |
+| 4A VOC Awal | Abad 17-18 M | ⏳ | — | ⏳ | — |
+| 4B Kolonial 19 | 1800-1900 | ⏳ | — | ⏳ | — |
+| 4C Pergerakan Kebangsaan | 1900-1942 | ⏳ | — | ⏳ | — |
+| 4D Pendudukan-Kemerdekaan | 1942-1949 | ⏳ | — | ⏳ | — |
+| 4E Orde Lama-Baru | 1949-1998 | ⏳ | — | ⏳ | — |
 
-| Era | Periode | Master | T2I | File |
-|-----|---------|--------|-----|------|
-| 1A Pleistosen Awal | 1,8 jt – 700 rb thn lalu | ✅ ~5.200 kata | ✅ | 10 |
-| 1B Pleistosen Tengah-Akhir | 700 rb – 12 rb thn lalu | ✅ ~8.500 kata | ✅ | 10 |
-| 1C Holosen / Transisi Neolitik | 12 rb – 2.500 SM | ✅ ~11.000 kata | ✅ | 10 |
-| 1D Logam Awal | 2.500 SM – abad 5 M | ✅ ~13.500 kata | ✅ | 12 |
-| **TOTAL PRASEJARAH** | **1,8 jt thn – abad 5 M** | ✅ ~38.200 kata | ✅ | **42** |
-| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ ~9.500 kata | ✅ | 18 |
-| 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ ~11.000 kata | ✅ | 37 |
-| **TOTAL HINDU-BUDDHA AWAL** | **Abad 4-11 M** | ✅ ~20.500 kata | ✅ | **55** |
-| 2C Singasari-Kediri | Abad 11-13 M | ✅ ~9.000 kata | ✅ | 17 prompt |
-| 2D Majapahit | Abad 13-16 M | ✅ ~8.500 kata | ✅ | 17 prompt |
-| 3A Islamisasi Awal | Abad 13-15 M | ⏳ | ⏳ | — |
-| 3B Demak-Pajang | Abad 15-16 M | ⏳ | ⏳ | — |
-| 3C Mataram Islam | Abad 17-18 M | ⏳ | ⏳ | — |
-| 4A VOC Awal | Abad 17-18 M | ⏳ | ⏳ | — |
-| 4B Kolonial 19 | 1800-1900 | ⏳ | ⏳ | — |
-| 4C Pergerakan Kebangsaan | 1900-1942 | ⏳ | ⏳ | — |
-| 4D Pendudukan-Kemerdekaan | 1942-1949 | ⏳ | ⏳ | — |
-| 4E Orde Lama-Baru | 1949-1998 | ⏳ | ⏳ | — |
+### Catatan: Rewrite vs Koreksi
+
+- **Rewrite lengkap** (1A-1D): Parsing sistematis semua entitas bernama dari sumber primer. Setiap tokoh, spesimen, situs, formasi geologi, biozona fauna diekstrak. Coverage 80-100%.
+- **Koreksi parsing** (2D, 3A, 3B): Verifikasi langsung dari sumber primer, koreksi klaim yang salah, tambah tokoh/latar yang terlewat. Coverage 50-70% — perlu audit coverage tambahan.
 
 ### T2I Prompts — Struktur per Era
 
@@ -155,11 +133,6 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 - Color grading per era
 - "Avoid:" section dengan negative prompt lengkap
 - Semua file L: "No people, no characters, no humans — empty location reference"
-
-**Naming convention (era 2B+):**
-- `2B-K01-SRIWIJAYA-dapunta-hyang.txt` (Karakter, kerajaan, nama)
-- `2B-L07-MATARAM-istana-eksterior-sindoro-sumbing.txt` (Lokasi, kerajaan, deskripsi)
-- `2B-A02-MATARAM-borobudur-stupa.txt` (Artefak, kerajaan, objek)
 
 ### Dola AI Workflow
 
@@ -182,28 +155,17 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 
 ## Riwayat Pengerjaan (Ringkas)
 
-| Phase | Task | Status |
-|-------|------|--------|
-| Phase 1 | Riset drama awal (10 era) + master YAML Mataram Kuno & Singasari | ✅ |
-| Phase 1 | Audit struktural Jilid 3 Kemenbud 2025 | ✅ |
-| Phase 1 | Ekstrak drama material Jilid 4 (5 subagent paralel) | ✅ |
-| Phase 1 | Sintesis ringkasan Jilid 4 | ✅ |
-| Phase 1 | Audit cross-check Jilid 4 (228 klaim, 98,7% akurat) | ✅ |
-| Phase 1 | Suplemen Jilid 4 (24 sub-bab + 420 tokoh) | ✅ |
-| Phase 1 | Ekstrak drama material Jilid 5 (4 subagent paralel) | ✅ |
-| Phase 1 | Audit Jilid 1, 2, 3 (80 sub-bab + 150 tokoh) | ✅ |
-| Phase 1 | Ringkasan Jilid 5 + merge suplemen + INDEX | ✅ |
-| Phase 1 | Audit Jilid 5 (≥98% akurat) + Master YAML 250 tokoh | ✅ |
-| Cleanup | Restrukturisasi repo: 1.496 → 150 file | ✅ |
-| Phase 3 (ditunda) | Pre-produksi Panji (story bible + characters + visual style + storyboard) | ✅ Dibuat, lalu ditunda |
-| Phase 2 | Restructure folder riset/master-era/produksi | ✅ |
-| Phase 2 | Master Era 1A Pleistosen Awal + T2I prompts | ✅ |
-| Phase 2 | Master Era 1B Pleistosen Tengah-Akhir + T2I prompts | ✅ |
-| Phase 2 | Master Era 1C Holosen / Transisi Neolitik + T2I prompts | ✅ |
-| Phase 2 | Master Era 1D Logam Awal + T2I prompts | ✅ |
-| Phase 2 | Master Era 2A Hindu-Buddha Awal + T2I prompts (18 file) | ✅ |
-| Phase 2 | Master Era 2B Mataram-Sriwijaya + T2I prompts (37 file) | ✅ |
-| Phase 2 | Audit + bersihkan semua 97 file T2I (hapus manusia dari L, fix lensa, fix China architecture) | ✅ |
-| Phase 2 | Rename file 2B dengan prefix MATARAM/SRIWIJAYA | ✅ |
-| Phase 2 | Riset Dola AI + buat GUIDE-dola-ai.md | ✅ |
-| Phase 2 | Master Era 2C Singasari-Kediri + T2I prompts | ⏳ Berikutnya |
+| Tanggal | Task | Status |
+|---------|------|--------|
+| 2026-10-17 | Riset awal + struktur repo | ✅ |
+| 2026-10-18 | Master era 1A-2B + T2I prompts | ✅ |
+| 2026-10-19 | Master era 2C-2D + T2I prompts | ✅ |
+| 2026-10-19 | Audit + bersihkan 97 file T2I | ✅ |
+| 2026-10-20 | Master era 3A Islamisasi Awal + 21 T2I prompts | ✅ |
+| 2026-10-20 | Master era 3B Demak-Pajang + 21 T2I prompts | ✅ |
+| 2026-10-20 | Koreksi parsing: 2D Akt 6 (Ranawijaya), 3A (Demak 1481 M), 3B (Arya Penangsang + 4 tokoh baru + 2 latar baru) | ✅ |
+| 2026-10-20 | **Rewrite lengkap 1A** — parsing sistematis (620→1171 baris, +551 baris) | ✅ |
+| 2026-10-20 | **Rewrite lengkap 1B** — +10 tokoh +5 latar (1003→1214 baris) | ✅ |
+| 2026-10-20 | **Rewrite lengkap 1C** — +18 latar baru (1020→1205 baris) | ✅ |
+| 2026-10-20 | **Rewrite lengkap 1D** — +7 latar + bagian 4B primus inter pares (1098→1264 baris) | ✅ |
+| 2026-10-20 | **Cleanup repo** — hapus 55 file sampah (ringkasan/audit/enhanced-chapters/phase-1), update README | ✅ |
