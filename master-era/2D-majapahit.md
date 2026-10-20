@@ -174,7 +174,7 @@ Naskah **Bujanggamanik** (akhir abad 14-awal 15) mencatat wilayah Semarang sudah
 
 **Tomé Pires** mencatat ±50.000 tapa (pertapa Hindu-Buddha) masih hidup di pedalaman Jawa Tengah, terbagi 3-4 kelompok keagamaan, sebagian dilarang makan nasi/minum; mereka dihormati oleh orang Muslim (moor) di pesisir. **Korpus Merapi-Merbabu** — naskah dimayoritasi pemikiran Hindu-Buddha, ditemukan di Merbabu tapi asal abad 16-17 M dari skriptoria di kaki-puncak Merapi-Merbabu-Ungaran-Telomoyo-Wilis. **Naskah Uttarasabda** versi E dari Karungrungan (Ungaran) — diselesaikan di pertapaan baru ("lagya binanun anar) oleh pendeta gundul ("munda). **Naskah Nabi Aparas** — kisah Nabi Muhammad memotong rambut + asal kopiah, menjadi jimat; juga ditemukan di Lombok (Kutara, perintah Anak Agung Géde Ngurah Karangasém 1892 M). **Wejangan Seh Bari** (abad 16) — teks sufistik Jawa yang ditransmisikan lewat Sunan Bonang, bukti sinambungan literer didaktis Hindu-Buddha → Islam (`11-bab-6.md` A.2 line 178-246).
 
-Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, ±1437 M) — berkembang pemujaan khusus terhadap tokoh **Bima**; diduga karakter keagamaan di sana adalah **Kultus Kala-Bhairawa** yang mengalami lokalisasi. India Selatan (Kerajaan Vijayanagara 1336-1565) memainkan peran dalam revivalisme Hindu di Jawa; muncul **Jnanasiddhanta** dan **Jnanasidhantasastra** (entitas tekstual kedua membentuk Bhuvanoksa) — karya Sanskerta-Jawa Kuna dari masa Majapahit yang memperkenalkan doktrin-ritual Saiva baru. Hamzah Fansuri (abad 16, Barus) dalam puisi **Asrar al-Arifin** mengkritik praktik yogi di hutan (pranayama, cakra, visualisasi, siddhi via sadhana, yoga seksual) — bukti dialog antara Islam pesisir dan Hindu-Buddha pedalaman (`11-bab-6.md` A.2 line 178-246).
+Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, periode akhir Majapahit — sumber primer tidak menyebut tahun spesifik) — berkembang pemujaan khusus terhadap tokoh **Bima**; diduga karakter keagamaan di sana adalah **Kultus Kala-Bhairawa** yang mengalami lokalisasi. India Selatan (Kerajaan Vijayanagara 1336-1565) memainkan peran dalam revivalisme Hindu di Jawa; muncul **Jnanasiddhanta** dan **Jnanasidhantasastra** (entitas tekstual kedua membentuk Bhuvanoksa) — karya Sanskerta-Jawa Kuna dari masa Majapahit yang memperkenalkan doktrin-ritual Saiva baru. Hamzah Fansuri (abad 16, Barus) dalam puisi **Asrar al-Arifin** mengkritik praktik yogi di hutan (pranayama, cakra, visualisasi, siddhi via sadhana, yoga seksual) — bukti dialog antara Islam pesisir dan Hindu-Buddha pedalaman (`11-bab-6.md` A.2 line 178-246 + `10-bab-5.md` line 2412-2423).
 
 ---
 
@@ -488,12 +488,15 @@ Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, ±1437 M) — berkembang pemuj
 | Bukti sedimentologi Danau Rawapening | Penurunan pollen konifer abad 14 M — pembukaan hutan untuk pemukiman | `11-bab-6.md` A.2 |
 | Tomé Pires | ±50.000 tapa (pertapa) di pedalaman Jawa Tengah, terbagi 3-4 kelompok keagamaan, sebagian dilarang makan nasi-minum; dihormati Muslim pesisir | `11-bab-6.md` A.2 |
 
-## 4.11 Candi Sukuh (Kaki Gunung Lawu, ±1437 M)
+## 4.11 Candi Sukuh (Kaki Gunung Lawu, periode akhir Majapahit)
 
 | Atribut | Nilai | Sumber primer |
 |---------|-------|---------------|
-| Lokasi | Kaki Gunung Lawu, Jawa Timur (perbatasan Jateng-Jatim) | `11-bab-6.md` A.2 line 208 |
-| Karakter keagamaan | Pemujaan khusus terhadap tokoh **Bima**; diduga **Kultus Kala-Bhairawa** yang mengalami lokalisasi | `11-bab-6.md` A.2 |
+| Lokasi | Kaki Gunung Lawu, Jawa Timur (perbatasan Jateng-Jatim) | `11-bab-6.md` A.2 line 208 + `10-bab-5.md` line 2412-2423 |
+| Periode | Akhir Majapahit — sumber primer tidak menyebut tahun spesifik, hanya "periode akhir persilangan Hindu-Buddha" | `10-bab-5.md` line 2412 |
+| Candi pasangan | Candi Cetho (juga di Gunung Lawu, periode akhir Majapahit) | `10-bab-5.md` line 2412 |
+| Ciri arsitektur | Punden berundak tanpa bilik (altar persajian) — interpretasi ulang hierarki ruang Jawa Tengah (Prambanan-Barong-Ijo) + Jawa Timur (Jago) | `10-bab-5.md` line 2412 |
+| Karakter keagamaan | Pemujaan khusus terhadap tokoh **Bima**; diduga **Kultus Kala-Bhairawa** yang mengalami lokalisasi. Ornamen simbol kesuburan, relief naratif tantris (penyucian diri, pelepasan), visualisasi berlebihan alat kelamin — ekspresi kultus Bhima | `11-bab-6.md` A.2 line 208 + `10-bab-5.md` line 2423 |
 | Konteks | Akhir Majapahit; revivalisme Hindu di pegunungan sebagai respon terhadap Islam yang berkembang di pesisir | `11-bab-6.md` A.2 |
 | Signifikansi | Bukti transformasi religius akhir Hindu-Buddha — aliran keagamaan khas yang berbeda dari mainstream Siwa Siddhanta istana | `11-bab-6.md` A.2 |
 
@@ -764,7 +767,7 @@ Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, ±1437 M) — berkembang pemuj
   - Bujanggamanik (akhir abad 14-awal 15) — wilayah Semarang sudah jadi vasal Demak ("ka kenca jajahan demak")
   - Tomé Pires (±1512-1515) — ±50.000 tapa Hindu-Buddha masih hidup di pedalaman Jawa Tengah, dihormati Muslim pesisir → **dialog bukan konflik fisik**
   - Korpus Merapi-Merbabu — 40 naskah abad 16-17 M yang mulai memuat aksara Arab/kosakata Arab/teks Islam → **sinambungan literer Hindu-Buddha → Islam**
-  - Candi Sukuh (±1437 M) + Kultus Kala-Bhairawa → **revivalisme Hindu sebagai respon terhadap Islam yang berkembang di pesisir**
+  - Candi Sukuh (periode akhir Majapahit — sumber primer tidak menyebut tahun spesifik) + Kultus Kala-Bhairawa → **revivalisme Hindu sebagai respon terhadap Islam yang berkembang di pesisir**
 
 ### Status era Hindu-Buddha (2A-2D lengkap)
 - **2A Hindu-Buddha Awal** (abad 4-7 M): Kutai, Tarumanagara, Kan-to-li, awal Sriwijaya — 47 KB
