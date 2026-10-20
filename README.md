@@ -56,8 +56,7 @@ drama-nusantara/
 │   ├── 2B-mataram-sriwijaya.md                    ✅ ~11.000 kata
 │   └── 2C-singasari-kediri.md                       ✅ ~9.000 kata
 │   ├── 2C-singasari-kediri.md                    ⏳ berikutnya
-│   ├── 2D-majapahit.md                            ⏳
-│   ├── 3A-islamisasi-awal.md                      ⏳
+│   └── 2D-majapahit.md                              ✅ ~8.500 kata
 │   ├── 3B-demak-pajang.md                         ⏳
 │   ├── 3C-mataram-islam.md                        ⏳
 │   ├── 4A-voc-awal.md                             ⏳
@@ -75,7 +74,7 @@ drama-nusantara/
 │   │   ├── 1D-prasejarah-logam-awal/prompts/              ✅ 12 file
 │   │   ├── 2A-hindu-buddha-awal/prompts/                   ✅ 18 file
 │   │   ├── 2B-mataram-sriwijaya/prompts/                  ✅ 37 file
-│   │   └── 2C-singasari-kediri/prompts/                   ✅ 17 file
+│   │   └── 2D-majapahit/prompts/                           ✅ 17 file
 │   └── panji/                         ← (contoh — DITUNDA, bukan prioritas)
 │
 └── scripts/                           ← script Python pendukung
@@ -107,12 +106,12 @@ drama-nusantara/
 | Ringkasan 5 jilid + suplemen | 106.680 kata |
 | Master YAML tokoh | 250 (77 lintas-jilid) |
 | Audit cross-check | 3 laporan, akurasi ≥98,7% |
-| Master era selesai | 7 dari 17 (1A-1D + 2A-2C) |
-| Master era dalam proses | 2D Majapahit (berikutnya) |
-| T2I prompts selesai | 7 dari 17 era (114 prompt total) |
-| T2I prompts dalam proses | 2D Majapahit (berikutnya) |
+| Master era selesai | 8 dari 17 (1A-1D + 2A-2D) |
+| Master era dalam proses | 3A Islamisasi Awal (berikutnya) |
+| T2I prompts selesai | 8 dari 17 era (131 prompt total) |
+| T2I prompts dalam proses | 3A Islamisasi Awal (berikutnya) |
 | Total kata master era | ~58.700 kata |
-| Total T2I prompt file | 114 file .txt siap copy-paste |
+| Total T2I prompt file | 131 file .txt siap copy-paste |
 
 ## Status Master Era + T2I Prompts (Pola Hibrida)
 
@@ -129,7 +128,7 @@ Setiap selesai 1 era master → langsung buat prompt T2I komprehensif untuk era 
 | 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ ~11.000 kata | ✅ | 37 |
 | **TOTAL HINDU-BUDDHA AWAL** | **Abad 4-11 M** | ✅ ~20.500 kata | ✅ | **55** |
 | 2C Singasari-Kediri | Abad 11-13 M | ✅ ~9.000 kata | ✅ | 17 prompt |
-| 2D Majapahit | Abad 13-16 M | ⏳ | ⏳ | — |
+| 2D Majapahit | Abad 13-16 M | ✅ ~8.500 kata | ✅ | 17 prompt |
 | 3A Islamisasi Awal | Abad 13-15 M | ⏳ | ⏳ | — |
 | 3B Demak-Pajang | Abad 15-16 M | ⏳ | ⏳ | — |
 | 3C Mataram Islam | Abad 17-18 M | ⏳ | ⏳ | — |
