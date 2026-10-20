@@ -1086,3 +1086,33 @@ Stage Summary:
 - Tokoh utama: Homo erectus (1,8 Ma)
 - Latar utama: Paparan Sunda, Kubah Sangiran, Bengawan Solo
 - Berikutnya: 1B Pleistosen Tengah-Akhir (700 rb - 12 rb tahun lalu) — Trinil 1891 detail + Homo floresiensis Liang Bua
+
+---
+Task ID: 1B-RISET-PRASEJARAH
+Agent: Main Agent (Z.ai)
+Task: Riset era 1B — Pleistosen Tengah-Akhir (700 ribu - 12 ribu tahun lalu). Kedua dari 4 sub-era prasejarah. Berdasarkan sumber primer Kemenbud 2025 Jilid I Bab I + Bab II section C-D-E.
+
+Work Log:
+- Baca sumber-primer/jilid-1/07-bab-2.md section C-4 (Puncak Penghunian Homo erectus: Lembah Bengawan Solo) — baris 540-605.
+- Baca section C-5 (Kepunahan Homo erectus: Introgresi Gen dan Toba Supervolcano) — baris 605-644.
+- Baca section D (Manusia Modern Anatomis Awal di Indonesia) — baris 644-747.
+- Baca section E (Manusia Modern di Nusantara) — baris 747-847.
+- Cross-check Toba di 06-bab-1.md section C.
+- Tulis dokumen 1B dengan struktur 8 bagian sesuai TEMPLATE-master-era.md:
+  1. Konteks Era (batas periode 700 rb - 12 rb thn, geografi, iklim, geologi)
+  2. Narasi Kronologi (7 akt: transisi Homo erectus, Manusia Solo, Old Toba + supervolcano Toba, Homo floresiensis, MMAA, Song Terus, transisi Holosen)
+  3. Tokoh (10 tokoh: Homo erectus soloensis, Homo floresiensis, Manusia Wajak, MMAA Lida Ajer, Song Terus, Gua Pawon, Gua Harimau, Leang Panninge, Meganthropus, peneliti kunci)
+  4. Latar (12 latar historis: Bengawan Solo, Sangiran Formasi Kabuh, Liang Bua, Karst Payakumbuh, Karst Campurdarat, Toba, Paparan Sunda transisi, Gunung Sewu, Gua Pawon, Gua Harimau, Leang Panninge, Wallacea)
+  5. Sumber primer dipakai (47 klaim dengan sitasi file+section+halaman + 24 referensi sekunder)
+  6. Aset visual (13 kategori bahan siap pakai)
+  7. Statistik dokumen
+  8. Transisi ke 1C
+
+Stage Summary:
+- File output: /home/z/my-project/produksi/riset-era/1B-prasejarah-pleistosen-tengah-akhir.md
+- Total kata: ~8.500
+- Status: Berdasarkan sumber primer otentik (Bab I + Bab II section C-D-E Jilid I Kemenbud 2025)
+- Tidak ada halu — semua klaim disitasi
+- Tokoh kunci: Homo erectus soloensis (Ngandong 117-40 ka), Homo floresiensis (Liang Bua 2003), Manusia Wajak (37-28 ka), MMAA Lida Ajer (73-63 ka), Individu Gua Pawon (11-7 ka)
+- Latar kunci: Lembah Bengawan Solo, Kubah Sangiran Formasi Kabuh, Liang Bua Flores, Toba supervolcano
+- Berikutnya: 1C Holosen / Transisi Neolitik (12 rb - 2.500 SM)
