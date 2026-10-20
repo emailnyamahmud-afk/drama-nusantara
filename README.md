@@ -71,7 +71,7 @@ drama-nusantara/
 │   │   ├── 1B-prasejarah-pleistosen-tengah-akhir/ ✅ 10 prompt
 │   │   ├── 1C-prasejarah-holosen-neolitik/        ✅ 10 prompt
 │   │   ├── 1D-prasejarah-logam-awal/              ✅ 12 prompt
-│   │   └── 2A-hindu-buddha-awal/                   ✅ 12 prompt
+│   │   └── 2A-hindu-buddha-awal/                   ✅ 15 prompt
 │   └── panji/                         ← (contoh — DITUNDA, bukan prioritas)
 │       └── pre-produksi/
 │
@@ -101,7 +101,7 @@ drama-nusantara/
 | Audit cross-check | 3 laporan, akurasi ≥98,7% |
 | Master era selesai | 5 dari 17 (1A-1D prasejarah + 2A Hindu-Buddha Awal) |
 | Master era dalam proses | 2B Mataram Kuno (berikutnya) |
-| T2I prompts selesai | 5 dari 17 era (54 prompt total) |
+| T2I prompts selesai | 5 dari 17 era (57 prompt total) |
 | T2I prompts dalam proses | 2B Mataram Kuno (berikutnya) |
 
 ## Status Master Era + T2I Prompts (Pola Hibrida)
@@ -115,7 +115,7 @@ Setiap selesai 1 era master → langsung buat prompt T2I komprehensif untuk era 
 | 1C Holosen / Transisi Neolitik | 12 ribu – 2.500 SM | ✅ ~11.000 kata | ✅ | 10 prompt |
 | 1D Logam Awal | 2.500 SM – abad 5 M | ✅ ~13.500 kata | ✅ | 12 prompt |
 | **TOTAL ERA PRASEJARAH** | **1,8 juta thn lalu – abad 5 M** | ✅ ~38.200 kata | ✅ | **42 prompt** |
-| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ ~9.500 kata | ✅ | 12 prompt |
+| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ ~9.500 kata | ✅ | 15 prompt |
 | 2B Mataram Kuno | Abad 8-10 M | ⏳ | ⏳ | — |
 | 2C Singasari-Kediri | Abad 11-13 M | ⏳ | ⏳ | — |
 | 2D Majapahit | Abad 13-16 M | ⏳ | ⏳ | — |
