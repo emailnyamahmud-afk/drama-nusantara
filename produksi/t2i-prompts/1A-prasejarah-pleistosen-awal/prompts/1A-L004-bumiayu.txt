@@ -1,11 +1,9 @@
-Cinematic realistic documentary wide establishing shot of Bumiayu site, western Central Java, 1.8 million years ago. Open volcanic landscape at edge of Paparan Sunda, with small group of Homo erectus (3-4 individuals) in middle distance exploring new territory, one picking up chert cobble to make a flake tool. Foreground shows scattered volcanic cobbles (chert, andesite, basalt) suitable for tool-making. Distant volcanic cones smoking faintly. Pleistocene fauna (Stegodon, deer) visible in far distance. No modern elements.
+Cinematic realistic documentary landscape of Bumiayu site, western Central Java, 1.8 million years ago. Open volcanic landscape at edge of Paparan Sunda. Foreground shows scattered volcanic cobbles (chert, andesite, basalt) suitable for tool-making. Distant volcanic cones smoking faintly. Pleistocene fauna (Stegodon, deer) visible in far distance. No main character in foreground (landscape only, tiny silhouettes for scale acceptable).
 
-Setting: Bumiayu, western Central Java, 1.8 million years ago. One of oldest Homo erectus occupation sites in Java (artifacts + anatomical remains). Volcanic landscape at edge of Paparan Sunda, near Formasi Kalibiuk (correlated with Kalibeng Sangiran).
+Lighting: warm 3500K morning sun from camera right (key light, long shadows, fresh morning atmosphere), cool 6500K sky fill from above. Mid contrast 3:1.
 
-Lighting: warm 3500K morning sun from camera right (key light, long shadows, fresh morning atmosphere), cool 6500K sky fill from above. Mid contrast 3:1 for clear visibility of tools and figures.
+Mood: first footsteps, discovery of a new land - the earliest documented presence of Homo erectus in Java.
 
-Mood: first footsteps, discovery of a new land - the earliest documented presence of Homo erectus in Java, pioneers arriving in unfamiliar territory.
+Style: photorealistic volcanic rock and grass textures, 35mm film grain, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, color graded warm earth tones, National Geographic documentary aesthetic. Aspect ratio 9:16 portrait. High detail, 4K, sharp focus.
 
-Style: photorealistic volcanic rock and grass textures, 35mm film grain, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, color graded warm earth tones, National Geographic documentary aesthetic. Aspect ratio 16:9 cinematic wide. High detail, 4K, sharp focus.
-
-Avoid: modern buildings, modern excavations, modern vegetation, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated, Homo sapiens features (high forehead, thin brow ridge).
+Avoid: modern buildings, modern excavations, modern vegetation, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated.

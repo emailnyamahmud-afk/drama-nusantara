@@ -1,11 +1,9 @@
-Cinematic realistic documentary wide establishing shot of Leang Panningge cave entrance, Mallawa, Maros, South Sulawesi, 5 thousand years ago. Cave at 400 mdpl, distant from coast. Group of Papuamelanesia Toalian (4-5 figures) at cave entrance and courtyard - one woman feeding a half-tamed pig (Sus celebensis) with food scraps, two men preparing microlith tools, a child watching the pig. Scattered food scraps in courtyard (attracting the pig - the beginning of taming). Cave interior with smoke from hearth. Tropical forest around cave. No modern elements.
+Cinematic realistic documentary landscape of Leang Panningge cave entrance, Mallawa, Maros, South Sulawesi, 5 thousand years ago. Cave at 400 mdpl, distant from coast. Scattered food scraps in courtyard (attracting a wild pig Sus celebensis). Cave interior with smoke from hearth. Tropical forest around cave. No main character in foreground (landscape only, tiny silhouettes for scale acceptable).
 
-Setting: Leang Panningge, Kecamatan Mallawa, Kabupaten Maros, South Sulawesi, 5 thousand years ago. Toalian culture. Cave at 400 mdpl, distant from coast. Evidence of pig taming (Sus celebensis) at 5 ka - pre-domestication without reproduction control.
+Lighting: warm 3500K afternoon sun from camera right (key light, long shadows, golden amber on courtyard and pig), cool 6500K sky fill from above left. Mid contrast 3:1.
 
-Lighting: warm 3500K afternoon sun from camera right (key light, long shadows, golden amber on courtyard and pig), cool 6500K sky fill from above left. Mid contrast 3:1 for documentary atmosphere.
+Mood: dawn of domestication, the first taming - food scraps attracting a wild pig that has learned to come to the cave entrance.
 
-Mood: dawn of domestication, the first taming - a woman throwing food scraps to a wild pig that has learned to come to the cave entrance for food. Not yet domestication (no reproduction control), but the beginning of human-animal relationship that will transform societies.
-
-Style: photorealistic pig (Sus celebensis - wild Sulawesi pig with bristly hair), skin and stone tool textures, 35mm film grain, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, color graded warm amber highlights cool blue shadows, BBC Earth documentary aesthetic. Aspect ratio 16:9 cinematic wide. High detail, 4K, sharp focus.
+Style: photorealistic pig (Sus celebensis - wild Sulawesi pig with bristly hair), skin and stone tool textures, 35mm film grain, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, color graded warm amber highlights cool blue shadows, BBC Earth documentary aesthetic. Aspect ratio 9:16 portrait. High detail, 4K, sharp focus.
 
 Avoid: modern domestic pig (must be wild Sus celebensis with bristly hair and slender build), modern clothing, modern buildings, modern pig farming equipment, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated, modern cave tourism.

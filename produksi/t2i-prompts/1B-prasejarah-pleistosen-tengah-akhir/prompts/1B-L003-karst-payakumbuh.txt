@@ -1,11 +1,9 @@
-Cinematic realistic documentary wide establishing shot of Karst Payakumbuh landscape, West Sumatra, 68 thousand years ago. Dense tropical rainforest covering karst limestone hills with dramatic cliff faces and cave openings. A small stream flowing through valley foreground, with ferns and tropical vegetation. Small group of MMAA (3-4 modern humans, tiny silhouettes) foraging along stream, one climbing for fruit, others digging for tubers. Distant smoke from a hearth. No modern elements.
+Cinematic realistic documentary landscape of Karst Payakumbuh landscape, West Sumatra, 73-63 thousand years ago. Dense tropical rainforest covering karst limestone hills with dramatic cliff faces and cave openings. Small stream flowing through valley foreground, with ferns and tropical vegetation. Distant smoke from a hearth. No modern elements. No main character in foreground (landscape only, tiny silhouettes for scale acceptable).
 
-Setting: Karst Payakumbuh, West Sumatra, 73-63 thousand years ago (Lida Ajer period - earliest modern human in Indonesia). Dense rainforest, karst limestone caves. Earliest rainforest occupation by MMAA. Major evolutionary milestone - first Homo sapiens to adapt to rainforest environment.
+Lighting: warm 4500K filtered sunlight through rainforest canopy (key light, dappled pattern on landscape), cool 6500K sky fill from above. Mid contrast 3:1. Mist rising from stream, light beams through canopy.
 
-Lighting: warm 4500K filtered sunlight through rainforest canopy (key light, dappled pattern on landscape), cool 6500K sky fill from above. Mid contrast 3:1 for rainforest atmosphere. Mist rising from stream, light beams through canopy.
+Mood: rainforest frontier, the dawn of modern humanity in Nusantara - Homo sapiens adapting to dense tropical rainforest.
 
-Mood: rainforest frontier, the dawn of modern humanity in Nusantara - Homo sapiens adapting to dense tropical rainforest, a feat Homo erectus never achieved. Lush, mysterious, full of possibility.
-
-Style: photorealistic rainforest foliage textures (fern, palm, vine, moss), 35mm film grain, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, color graded warm green-golden highlights cool blue shadows, BBC Earth rainforest documentary aesthetic. Aspect ratio 16:9 cinematic wide. High detail, 4K, sharp focus.
+Style: photorealistic rainforest foliage textures (fern, palm, vine, moss), 35mm film grain, deep depth of field f/8, 24mm wide lens equivalent, 8K hyperdetailed, color graded warm green-golden highlights cool blue shadows, BBC Earth rainforest documentary aesthetic. Aspect ratio 9:16 portrait. High detail, 4K, sharp focus.
 
 Avoid: modern buildings, modern agriculture, modern roads, modern logging, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated, modern researchers, modern equipment.
