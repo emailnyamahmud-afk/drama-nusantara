@@ -12,7 +12,7 @@
 3. T2I PROMPTS            → copy-paste ke Dola AI → output drama/dokumenter
 ```
 
-**Status saat ini**: Era 1A-1D + 2D + 3A sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C + 3B sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B.
+**Status saat ini**: Era 1A-1D + 2D + 3A-3B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B.
 
 ## Struktur Repo
 
@@ -41,7 +41,7 @@ drama-nusantara/
 │   ├── 2C-singasari-kediri.md                        ✅ 519 baris
 │   ├── 2D-majapahit.md                                ✅ 816 baris (expand lengkap — Bab II+III+IV+V+VI Jilid 2)
 │   ├── 3A-islamisasi-awal.md                          ✅ 815 baris (rewrite lengkap — semua 9 Bab Jilid III)
-│   └── 3B-demak-pajang.md                             ✅ 756 baris (koreksi + 4 tokoh baru + 2 latar baru)
+│   └── 3B-demak-pajang.md                             ✅ 1058 baris (rewrite lengkap — 6 dari 9 Bab Jilid III langsung)
 │
 ├── produksi/
 │   ├── t2i-prompts/                       ← T2I prompts per era (siap copy-paste ke Dola AI)
@@ -67,7 +67,7 @@ drama-nusantara/
 ## Aturan Repo
 
 1. **`riset/sumber-primer/`** = HANYA file asli dari buku Kemenbud 2025 (Jilid 1-5). Tidak ada ringkasan, tidak ada enhanced YAML, tidak ada audit JSON. Jika perlu cari info, baca langsung file asli.
-2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2D + 3A sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C + 3B sudah ditulis + dikoreksi parsing, perlu audit coverage tambahan.
+2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2D + 3A-3B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C sudah ditulis + dikoreksi parsing, perlu audit coverage tambahan.
 3. **`produksi/t2i-prompts/`** = file .txt siap copy-paste ke Dola AI. Format flat natural-language.
 
 ## Quick Start
@@ -82,9 +82,9 @@ drama-nusantara/
 | Metrik | Angka |
 |---|---|
 | Sumber primer (5 jilid) | 83 file MD asli |
-| Master era selesai | 10 dari 17 (1A-1D + 2D expand lengkap + 2A-2C + 3A rewrite lengkap + 3B) |
+| Master era selesai | 10 dari 17 (1A-1D + 2D expand lengkap + 2A-2C + 3A-3B rewrite lengkap) |
 | T2I prompts selesai | 10 era (173 file .txt total) |
-| Total kata master era | ~112.000 kata (9.964+ baris era docs) |
+| Total kata master era | ~121.000 kata (10.774+ baris era docs) |
 | Total file di repo | 345 |
 
 ## Status Master Era + T2I Prompts
@@ -102,7 +102,7 @@ drama-nusantara/
 | 2D Majapahit | Abad 13-16 M | ✅ expand | 816 | ✅ | 17 |
 | **TOTAL HINDU-BUDDHA** | | | **2930** | | **89** |
 | 3A Islamisasi Awal | Abad 7-1511 M | ✅ rewrite | 815 | ✅ | 21 |
-| 3B Demak-Pajang | Abad 15-16 M | ✅ koreksi | 756 | ✅ | 21 |
+| 3B Demak-Pajang | Abad 15-16 M | ✅ rewrite | 1058 | ✅ | 21 |
 | **TOTAL ISLAM** | | | **1327** | | **42** |
 | 3C Mataram Islam | Abad 17-18 M | ⏳ | — | ⏳ | — |
 | 4A VOC Awal | Abad 17-18 M | ⏳ | — | ⏳ | — |
@@ -172,3 +172,4 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 | 2026-10-20 | **Expand lengkap 2D Majapahit** — Bab III A.4 + Bab IV-V-VI, 327→775 baris, 8.500→13.044 kata, 35→93 klaim, +9 tokoh +9 latar (Adityawarman, Wirabhumi, Kertabhumi, Ranawijaya, Patih Udara, Canggu, Trung, Daha/Kadiri, Candi Sukuh, pegunungan skriptoria) | ✅ |
 | 2026-10-20 | **Audit halu 2D expand** — ditemukan + fixed: Candi Sukuh ±1437 M (tahun halu, hapus); Meng Qi utusan Mongol 1289 (tahun halu, hapus); '100 keluarga' → '100 anggota keluarga' (sesuai sumber primer); add Bab 2 Jilid II content (dharmadyaksa kasaiwan/karsian/kasogatan, Candi Brahu+Prasasti Alasantan Pu Sindok 861/939, Aksara Merapi-Merbabu/Prasasti Damalung 1371/1449, Aksara Arab Jawi-Pegon-Serang) → 775→816 baris, 93→112 klaim | ✅ |
 | 2026-10-20 | **Rewrite lengkap 3A Islamisasi Awal** — parsing sistematis semua 9 Bab Jilid III (Bab 1-9), 571→815 baris, 7.903→15.167 kata, 64→136 klaim. Add: 3A periode diperluas jadi abad 7-1511 M (sebelumnya cuma abad 13-15); Bab 1 Bongal+koin Umayyah/Abbasiyah abad 7-10 M; Bab 4 Giri-Gresik+Minangkabau+Kutai; Bab 5 sistem transaksi+Undang-Undang Laut Melaka+syahbandar; Bab 6 gagasan politik+sultan+genealogi Iskandar Zulkarnain+hubungan Raja-Ulama-Elite+lembaga qadi/syaikh al-Islam/pakih najmuddin/Daengte Kaliya/Parewa Sara/Babato Akhirat; Bab 8 keraton+masjid Tipe Jawa 6 ciri Pijper+makam+nisan tipe Aceh/Demak-Troloyo/Bugis-Makasar/Ternate-Tidore/Plak Plieng; Bab 9 kosmopolis Sanskerta-Arab+Hikayat Amir Hamzah+Caritanira Amir+Sérat Menak Kartasura 1715+aksara Jawi-Pegon-Rambang-Serang-Buri Wolio | ✅ |
+| 2026-10-20 | **Rewrite lengkap 3B Demak-Pajang** — parsing sistematis 6 dari 9 Bab Jilid III langsung (Bab 3, 4, 6, 7, 8, 9), 756→1058 baris, 10.489→20.237 kata, 80→133 klaim. Add: Bab 3.E Pembentukan Kesultanan Jawa pesisir→pedalaman + 3.H Kalimantan (Banjar+Kutai+Brunei+Sintang+Pontianak); Bab 4.D Demak-Banjar peran ulama + 4.E Giri-Gresik jaringan dakwah Nusantara Timur (Lembu Mangkurat+Datu Bandan+Sunan Prapen ke Bali-Lombok-Sumbawa; Sultan Zainal Abidin Ternate belajar ke Giri 1494 M) + 4.G Kutai (Tuan Tunggang Parangan 1575 M); Bab 6 Sufisme+Hamzah Fansuri+Syamsuddin as-Sumatrani+Tajussalatin/Bustan as-Salatin+qadi/syaikh al-Islam/pakih najmuddin/Daengte Kaliya/Parewa Sara/Babato Akhirat/Fala Jawa; Bab 7 profil 9 Wali detail (Bonang 1465-1525, Kudus ±1500-1550, Muria ±1450-1551, Giri 1443-1505, Kalijaga ±1450-1586); Bab 8 keraton+masjid Tipe Jawa+makam nisan+Istana Aceh per Beaulieu; Bab 9 Hikayat Amir Hamzah+Caritanira Amir+Sérat Menak+aksara Jawi-Pegon | ✅ |
