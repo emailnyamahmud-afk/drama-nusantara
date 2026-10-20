@@ -41,7 +41,8 @@ drama-nusantara/
 │   ├── 2C-singasari-kediri.md                        ✅ 519 baris
 │   ├── 2D-majapahit.md                                ✅ 816 baris (expand lengkap — Bab II+III+IV+V+VI Jilid 2)
 │   ├── 3A-islamisasi-awal.md                          ✅ 815 baris (rewrite lengkap — semua 9 Bab Jilid III)
-│   └── 3B-demak-pajang.md                             ✅ 1058 baris (rewrite lengkap — 6 dari 9 Bab Jilid III langsung)
+│   ├── 3B-demak-pajang.md                             ✅ 1058 baris (rewrite lengkap — 6 dari 9 Bab Jilid III langsung)
+│   └── 3C-mataram-islam.md                            ✅ 873 baris (rewrite lengkap — Jilid III+IV)
 │
 ├── produksi/
 │   ├── t2i-prompts/                       ← T2I prompts per era (siap copy-paste ke Dola AI)
@@ -103,8 +104,8 @@ drama-nusantara/
 | **TOTAL HINDU-BUDDHA** | | | **2930** | | **89** |
 | 3A Islamisasi Awal | Abad 7-1511 M | ✅ rewrite | 815 | ✅ | 21 |
 | 3B Demak-Pajang | Abad 15-16 M | ✅ rewrite | 1058 | ✅ | 21 |
-| **TOTAL ISLAM** | | | **1327** | | **42** |
-| 3C Mataram Islam | Abad 17-18 M | ⏳ | — | ⏳ | — |
+| 3C Mataram Islam | Abad 17-18 M | ✅ rewrite | 873 | ⏳ | — |
+| **TOTAL ISLAM** | | | **3756** | | **42** |
 | 4A VOC Awal | Abad 17-18 M | ⏳ | — | ⏳ | — |
 | 4B Kolonial 19 | 1800-1900 | ⏳ | — | ⏳ | — |
 | 4C Pergerakan Kebangsaan | 1900-1942 | ⏳ | — | ⏳ | — |
