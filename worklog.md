@@ -1299,3 +1299,36 @@ Stage Summary:
 - Cutoff: 1511 M (jatuh Malaka ke Portugis) — era berikutnya 3B Demak-Pajang abad 15-16 M
 - Status: ✅ Berdasar sumber primer Jilid III Kementerian Kebudayaan RI 2025
 - Catatan: Semua klaim konten adalah sintesis orisinal dari fakta historis yang terdokumentasi di sumber primer Jilid III. Tidak ada kutipan panjang.
+
+---
+Task ID: 3B-master + 3B-t2i
+Agent: Main Agent (Z.ai)
+Task: Lanjut Era 3B — Demak-Pajang (abad 15-16 M) — baca sumber primer Jilid III Bab III.E/IV.D-IV.E/VI.B.4-5/VIII.A-B, tulis master era + 21 T2I flat prompts untuk Dola AI
+
+Work Log:
+- Baca Bab III.E — Pembentukan Kesultanan di Jawa: Dari Pesisir ke Pedalaman (hal. 249-261): Demak berdiri akhir abad 15 M (Raden Patah); Trenggana taklukkan Majapahit di Kediri 1527 M; perang saudara Arya Penangsang vs Jaka Tingkir 1549 M; Pajang 1549-1582 M (Sultan Hadiwijaya pindah pusat ke pedalaman + pindah pusaka Majapahit); Mataram Islam awal ±1584 M (Panembahan Senapati / Danang Sutawijaya); Sultan Agung (1613-1645 M) — "Majapahit Baru"
+- Baca Bab IV.D — Demak dan Banjar: Peran Ulama Kerajaan: Demak sebagai episentrum Islamisasi Nusantara; ulama (Sunan Kalijaga, Sunan Kudus) peran sentral; serangan 1527 M ke Majapahit dipimpin Sunan Kudus (pangulu masjid Demak); ekspansi ke Palembang-Banjarmasin 1526 M (Sultan Suriansyah); Masjid Sultan Suriansyah (masjid tertua Kalimantan); Syaikh Muhammad Arsyad al-Banjari (abad 18, Sabil al-Muhtadin)
+- Baca Bab IV.E.1-3 — Giri-Gresik + jaringan intensifikasi Islam: Giri Kedaton didirikan Sunan Giri 1485 M; priester-vorstendom (kerajaan ulama); puncak era Sunan Prapen ±1548-1605 M; jaringan dakwah ke Madura-NTT-Sulawesi-Maluku-Kalimantan-Sumatra; Babad Giri: Sunan Giri II utus Lembu Mangkurat ke Banjarmasin, Datu Bandan ke Sulawesi-Maluku, Sunan Prapen ke Bali-Lombok-Sumbawa; kurikulum pesantren Giri (fikih Syafi'i, tauhid Asy'ari, tasawuf Al-Ghazali, tafsir-hadis, ilmu dakwah, bahasa Arab)
+- Baca Bab IV.E.3 — Dari Giri-Gresik ke Ternate-Tidore dan Lombok-Bima-Sumba: Ternate (Raja Marhum 1432-1486 M; Datu Maulana Husein ±1465 M; Sultan Zainal Abidin 1486 M menyantri di Giri 1495 M; Tuhubahahul; Jolebe / Bobato Akhirat; Fala Jawa); Tidore (Sultan Jamaluddin ±1512 M); Lombok (Sunan Prapen ±1540-an, Bayan komunitas Muslim tertua, wayang Sasak, Islam Wetu Telu); Bima (Raja Bima masuk Islam 7 Februari 1621 M oleh Dato' ri Bandang); Gowa-Tallo (Datuk Tallu: Dato' ri Bandang, Dato' ri Patimang, Dato' ri Tiro; Raja Luwu 5 Februari 1605 M; Karaeng Matoaya 22 September 1605 M; Masjid Tallo 1607 M)
+- Baca Bab VI.B.4-5 — Hamzah Fansuri & Syamsuddin as-Sumatrani: Hamzah Fansuri dari Barus, abad 16 M; tasawuf wujudiyah pertama di Nusantara (Ibnu Arabi 1165-1240 M); karya Sharab al-Ashigin, Asrar al-Arifin. Syamsuddin as-Sumatrani (1575-1630 M), murid Hamzah, Syaikh al-Islam era Iskandar Muda; karya Jawhar al-Haqa'iq; pemikiran Ibnu Arabi + Syekh Abdul Karim al-Jilli
+- Baca Bab VIII.A — Keraton (Istana): parit buatan melingkari keraton (Cirebon, Demak, Banda Aceh, Samudra Pasai); 3 pelataran (tribhuwana/triloka → sufistik: nasut-jabarut-malakut); Keraton Kasepuhan Cirebon 1529 M (pancaniti 20 tiang, semar tinandu 2 tiang=syahadat, Pancapandawa 5 tiang=rukun Islam, keramik Tionghoa: naga-Phoenix-ikan); Keraton Surosowan Banten 1552 M (dinding batu karang tebal 5 m, 3 hektar, bastion 4 sudut, Pancuran Mas); Istana Aceh per Beaulieu (3 pelataran, meriam perunggu, 4000 pasukan + 300 gajah, balai penghadapan dinding kain emas-beludru-damas)
+- Baca Bab VIII.B — Masjid: atap tumpang (kelanjutan meru Hindu-Bali); Masjid Agung Demak 1466 M (atap tumpang 3 Iman-Islam-Ihsan, 4 saka guru, Lawang Bledeg naga+kala, candra sengkala "Naga Mulat Salira Wani" 1388 Saka=1466 M, relief Surah Al-Imran 133-136); Masjid Sang Cipta Rasa Cirebon ±1480 M (Sunan Kalijaga arsitek + sakatatal); Masjid Agung Banten 1552-1570 M (atap tumpang 5, 2 tumpukan teratas mirip pagoda Cina, menara ±24 m mercusuar, Tiyamah Eropa); Masjid Menara Kudus 1549 M; Masjid Mantingan Jepara 1549 M; Masjid Sendang Duwur; transformasi atap masjid abad 19 M → kubah (Pan-Islamisme Usmaniyah)
+- Tulis master era: /home/z/my-project/master-era/3B-demak-pajang.md (684 baris, ~9.421 kata, 80 klaim dengan sitasi)
+  - 8 bagian mengikuti template: konteks era, narasi kronologi (12 akt), 13 tokoh, 9 latar, 80 klaim, aset visual, statistik, transisi ke 3C
+  - Periode 1478-1582 M (dari Raden Patah didirikan Demak hingga runtuhnya Pajang dan naiknya Mataram Islam)
+- Tulis 21 T2I flat prompts di /home/z/my-project/produksi/t2i-prompts/3B-demak-pajang/prompts/:
+  - 7 Karakter (K01-K07): Sultan Trenggana, Sultan Hadiwijaya/Jaka Tingkir, Arya Penangsang, Panembahan Senapati, Sunan Prapen, Maulana Hasanuddin, Hamzah Fansuri
+  - 8 Latar (L01-L08): Demak peak, Pajang kerajaan, Keraton Kasepuhan Cirebon, Keraton Surosowan Banten, Masjid Agung Banten, Giri Kedaton era Prapen, Istana Aceh, Mataram awal
+  - 6 Artefak (A01-A06): Lawang Bledeg Demak, Menara Banten, Keramik Tionghoa Cirebon, Pancuran Mas Banten, Manuskrip Sharab al-Ashigin Hamzah Fansuri, Wayang Punakawan sufistik Pajang
+- Format flat prompt sesuai GUIDE-dola-ai.md: STYLE_KEYWORD di awal + paragraf natural + quality tag + Avoid list
+- Setiap prompt menyertakan: aspek rasio 9:16 portrait, referensi sumber primer (file + section), konteks historis singkat di section "Mood"
+
+Stage Summary:
+- File master era: /home/z/my-project/master-era/3B-demak-pajang.md (684 baris, 9.421 kata, 80 klaim dengan sitasi)
+- Folder T2I: /home/z/my-project/produksi/t2i-prompts/3B-demak-pajang/prompts/ (21 file .txt flat prompt)
+- Era periode: 1478-1582 M (Demak didirikan → Pajang runtuh → Mataram Islam naik)
+- Tokoh kunci: Raden Patah, Sultan Trenggana, Sunan Kudus, Arya Penangsang, Sultan Hadiwijaya (Jaka Tingkir), Panembahan Senapati (Danang Sutawijaya), Sunan Prapen, Maulana Hasanuddin, Hamzah Fansuri, Syamsuddin as-Sumatrani, Sultan Suriansyah (Banjar), Sultan Zainal Abidin (Ternate), Dato' ri Bandang (Gowa)
+- Latar kunci: Demak, Pajang, Cirebon (Keraton Kasepuhan), Banten (Keraton Surosowan + Masjid Agung Banten + menara ±24 m), Giri Kedaton era Prapen, Kudus, Banjarmasin, Banda Aceh (Istana), Mataram awal (Kota Gede)
+- Artefak kunci: Lawang Bledeg (naga+kala, Surah Al-Imran 133-136), Menara Banten (mercusuar ±24 m), Keramik Tionghoa Keraton Kasepuhan (naga-Phoenix-ikan), Pancuran Mas Banten, Manuskrip Sharab al-Ashigin Hamzah Fansuri, Wayang Punakawan sufistik
+- Cutoff: 1582 M (Hadiwijaya wafat; Pajang runtuh) — era berikutnya 3C Mataram Islam abad 17-18 M
+- Status: ✅ Berdasar sumber primer Jilid III Kementerian Kebudayaan RI 2025
