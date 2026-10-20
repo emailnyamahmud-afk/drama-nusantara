@@ -1158,3 +1158,47 @@ Stage Summary:
 - File riset (sumber primer, ringkasan, audit, phase-1) dipindah ke folder root `riset/`
 - Folder `produksi/panji/` tetap sebagai contoh yang ditunda
 - README.md diupdate dengan struktur baru + alur kerja + status phase
+
+---
+Task ID: 1C-RISET-PRASEJARAH
+Agent: Main Agent (Z.ai)
+Task: Riset era 1C — Holosen / Transisi Neolitik (12 ribu - 2.500 SM). Ketiga dari 4 sub-era prasejarah. Berdasarkan sumber primer Kemenbud 2025 Jilid I Bab II section E + Bab III + Bab IV + Bab V.
+
+Work Log:
+- Baca riset/sumber-primer/jilid-1/08-bab-3.md section C (Teknologi Pleistosen Akhir-Holosen) — baris 406-570.
+- Baca section E (Teknologi Tembikar) — baris 951-1240.
+- Baca section F (Teknologi Kain/Barkcloth) — baris 1234-1250.
+- Baca section G (Teknologi Logam Awal) — baris 1251-1290.
+- Baca riset/sumber-primer/jilid-1/09-bab-4.md section B (Gambar Cadas motif) + F (Kekunoan) — baris 148-260, 579-680.
+- Baca riset/sumber-primer/jilid-1/10-bab-5.md section A.2 (Pemburu-Pengumpul) + A.3 (Komunitas Petani-Peternak) — baris 174-394.
+- Cross-check Bab II section E-1 (Papuamelanesia, Gua Pawon, Gua Harimau, Leang Panningge).
+- Tulis dokumen 1C dengan struktur 8 bagian sesuai TEMPLATE-master-era.md:
+  1. Konteks Era (batas periode 12 rb - 2.500 SM, geografi, iklim, sosial-budaya)
+  2. Narasi Kronologi (9 akt: tenggelamnya Paparan Sunda, lukisan cadas pra-Austronesia,
+     hunian gua & perhiasan awal, tradisi Hoabinhian Sumatra, hunian gua Jawa, penjinakan
+     babi Leang Panningge, awal Neolitik, migrasi Austronesia, barkcloth)
+  3. Tokoh (10 tokoh: Papuamelanesia, Leang Panningge, Liang Tebo amputasi, Gua Pawon,
+     Gua Harimau, Song Keplek, Tron Bon Lei, Liang Jon, Jeriji Saleh, 14 peneliti)
+  4. Latar (12 latar: Maros-Pangkep, Sangkulirang-Mangkalihat, Muna, Gunung Sewu,
+     Rajamandala, Bukit Kerang Sumatra, Payakumbuh, Gua Harimau, Kalumpang, Pulau Kampai,
+     Song Gede Nusa Penida, Song Toyapakeh)
+  5. Sumber primer dipakai (55 klaim dengan sitasi file+section+halaman + 16 referensi sekunder)
+  6. Aset visual (13 kategori bahan siap pakai)
+  7. Statistik dokumen
+  8. Transisi ke 1D
+
+Stage Summary:
+- File output: /home/z/my-project/master-era/1C-prasejarah-holosen-neolitik.md
+- Total kata: ~11.000
+- Status: Berdasarkan sumber primer otentik (Jilid I Bab II section E + Bab III + Bab IV + Bab V)
+- Tidak ada halu — semua klaim disitasi
+- Tokoh kunci: Papuamelanesia (Manusia Modern Holosen Awal), Liang Tebo amputasi 31 ka,
+  Gua Pawon 11.788 ka, Gua Harimau 84 kubur, Song Keplek 12 rangka, Leang Panningge
+  penjinakan babi 5 ka
+- Latar kunci: Karst Maros-Pangkep (530 gua), Sangkulirang-Mangkalihat (3 fase lukisan),
+  Bukit Kerang Sumatra (Hoabinhian), Kalumpang (Neolitik)
+- Temuan kunci: Cap tangan tertua di dunia 67.800 thn lalu (Gua Metanduno, Muna — Nature
+  2025), lukisan perburuan tertua di dunia 48 ka (Leang Bulu Sipong 4), amputasi tertua di
+  dunia 31 ka (Liang Tebo), penjinakan babi 5 ka (Leang Panningge), barkcloth beater
+  tertua 7.900 thn lalu (Dingmo, Cina) — barkcloth Sulawesi 2.500-1.500 ka
+- Berikutnya: 1D Logam Awal (2.500 SM - abad 5 M)
