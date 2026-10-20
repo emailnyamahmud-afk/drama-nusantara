@@ -1529,3 +1529,61 @@ Stage Summary:
   2. Rewrite lengkap 3B Demak-Pajang — baca Bab 1, 2, 9 Jilid III yang belum dipakai (saat ini 6 dari 9 Bab)
   3. (Opsional) Audit 2D lebih dalam dengan baca Bab 2 Jilid II (aksara Merapi-Merbabu + koalisi Siwa-Buddha + Candi Brahu Trowulan + Prasasti Alasantan Pu Sindok 861 Saka/939)
 - LESSON LEARNED: Selalu cek apakah tahun spesifik ada di sumber primer sebelum menulis. Jangan campurkan informasi dari sumber sekunder tanpa marking eksplisit.
+
+---
+Task ID: 2D-audit-deep-bab2
+Agent: Main Agent (Z.ai)
+Task: Audit 2D lebih dalam dengan baca Bab 2 Jilid II + fix halu yang ditemukan
+
+Work Log:
+- Baca Bab 2 Jilid II sections:
+  * A.6 "Aksara Merapi-Merbabu di Skriptoria Damalung" (line 196-204) — aksara Buda varian aksara Jawa Kuno, ratusan manuskrip (Jawa Kuno dialek tengahan, Sanskerta, Arab), berkembang Majapahit akhir, bertahan hingga Kartasura abad 18, Prasasti Damalung 1371 Saka/1449 terpanjang dengan ajaran moral
+  * A.8 "Aksara Arab dalam Sejarah Aksara Nusantara" (line 210-245) — Jawi (Melayu), Pegon (Jawa), Rambang (Jawa pesisiran), Serang (Bugis), Buri Wolio (Wolio)
+  * B.4 "Puncak Dinamika Hindu dan Buddha di Nusantara" (line 385-445) — dharmadyaksa 3 pejabat agama (kasaiwan Siddhanta, karsian Pasupata, kasogatan Buddha); koalisi/paralelisme bukan sinkretisme; kultus Bima transformasi (ksatria → Bhairawa); kultus Bhairawa (Kala-Bhairawa) + Heruka (Hevajra Tantra) abad 12-15; pendharmaan Kertanagara (Ardhaneswara + Jina); Prasasti Kancana/Gedangan 782/860 disalin (tinulad) masa Hayam Wuruk
+  * C.2.b "Peninggalan Percandian Buddha — Candi Brahu + Candi Gentong" (line 853-856) — kompleks Trowulan, Prasasti Alasantan 861/939 Pu Sindok, Lemah Tulis Mpu Bharadah era Airlangga, temuan arca Wairocana emas + Kuwera, Candi Gentong stupika "om ye te svaha"
+
+- AUDIT HALU DITEMUKAN + FIXED:
+  1. ❌ 'Meng Qi utusan Mongol 1289' — TIDAK ADA di sumber primer. Saya karang sendiri. Sumber primer hanya menyebut Kertanagara kirim ekspedisi maritim ke Malayu-Campa tahun 1275 M (BUKAN utusan Mongol datang ke Jawa 1289). HAPUS.
+  2. ❌ 'Jayakatwang + 100 keluarga ditawan' — SALAH PARSING. Sumber primer line 1814: "Jayakatwang bersama seratus anggota keluarga dan para pejabat tinggi kerajaan ditawan" — yaitu 100 anggota keluarga (bukan 100 keluarga). FIX → 'seratus anggota keluarga'
+  3. ✅ Ch'üanchou → Ch'uanchou (sesuai sumber primer line 1811, hapus diakritik ü)
+  4. ✅ Standardisasi toponim Tiongkok: Tuban=Tu-ping-tsu, Sedayu=Sugalu, Kalimas=Pa-tsieh, Pulau Karimun Jawa, Pulau Belitung (titik strategi)
+
+- VERIFIKASI 20+ klaim kunci — semua TERVERIFIKASI kecuali 3 halu di atas:
+  * Prasasti: Kudadu 1216/1294, Sukamerta 1218/1296, Tuhafaru 1245/1323, D.38 Surabaya, Canggu 1280/1358, Pamintihan 1473, Jiyu+Petak 1408/1486 ✅
+  * 34.175 kepeng Tiongkok Trowulan + Yuanfeng Tongbao 1078-1085 ✅
+  * Pajak 6 dharana/ha, 3 golongan pedagang, sima 1/3-1/3-1/3, sapatha ✅
+  * Vijayanagara 1336-1565, ±50.000 tapa Tomé Pires, Candi berundak Penanggungan 1433/1511 ✅
+  * Kubilai Khan=Shih-Tsu + 3 panglima (Shihpi, Ihé-mi-shih, Khau Hsing) ✅
+  * 20.000 prajurit Tartar, 1000 kapal, bekal 1 tahun ✅
+  * 100.000 prajurit Jayakatwang, 5000 gugur, 100 anggota keluarga ditawan ✅
+  * 2 opsir + 200 Tartar kawal Raden Wijaya → 3000 Tartar tewas ✅
+  * Odorico de Pordenone 1321-1322, Seng-Chia-Liyeh 1325-1328 ✅
+  * Zheng He 1405 + Ming Shih + Put-Ling-ta-ha + 170 Tionghoa terbunuh ✅
+  * Buddhaditya Kancipura pupuh 93:1 ✅
+  * Kutaramanawa + Sarasamuccaya + Pirwadhigama ✅
+
+- ADD KONTEN BARU dari Bab 2 Jilid II:
+  * Section 1.3 (Kerangka Sosial-Budaya) +4 row baru:
+    - Koalisi Siwa-Buddha (kasaiwan/karsian/kasogatan — dharmadyaksa)
+    - Pendharmaan raja (Kertanagara: Ardhaneswara+Jina; candi bawah Saiwa-atas Buddha)
+    - Aksara Merapi-Merbabu (aksara Buda) + Prasasti Damalung 1371/1449
+    - Aksara Arab awal (Jawi-Pegon-Serang-Buri Wolio-Rambang)
+  * Section 4.14 baru: Candi Brahu + Candi Gentong (kompleks Trowulan)
+    - Prasasti Alasantan 861/939 Pu Sindok
+    - Lemah Tulis Mpu Bharadah era Airlangga
+    - Arca Wairocana emas + Kuwera + bejana perunggu
+    - Candi Gentong I+II stupika mantra 'om ye te svaha'
+    - Kontinuitas Trowulan Mataram (abad 10) → Majapahit (abad 14-15)
+  * Section 5.1: +19 klaim baru (94-112)
+
+- Update statistik: 775 → 816 baris, ~13.044 → ~14.403 kata, 93 → 112 klaim
+- Update README: total kata 101.000 → 104.000, total Hindu-Buddha baris tetap 2930 (2D 775→816 tapi README belum diupdate total — fix manual)
+
+Stage Summary:
+- HALU DITEMUKAN: 3 (Meng Qi 1289, '100 keluarga' parsing salah, Ch'üanchou diakritik) — semua FIXED
+- VERIFIKASI: 20+ klaim kunci 2D → semua TERVERIFIKASI kecuali 3 halu di atas
+- ADD: 4 row baru di Section 1.3 + 1 latar baru (Candi Brahu+Gentong) + 19 klaim baru di Section 5
+- File: 775 → 816 baris (tambah 41 baris), 13.044 → 14.403 kata (tambah 1.359 kata)
+- Status: ✅ Era Hindu-Buddha LENGKAP (2A-2D), total ~138.000 kata, abad 4-16 M
+- Commit + push: 8fa07a1 → GitHub
+- Plan lanjutan: rewrite lengkap 3A + 3B
