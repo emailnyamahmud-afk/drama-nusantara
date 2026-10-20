@@ -12,7 +12,7 @@
 3. T2I PROMPTS            → copy-paste ke Dola AI → output drama/dokumenter
 ```
 
-**Status saat ini**: Era 1A-1D + 2D + 3A-3B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B.
+**Status saat ini**: Era 1A-1D + 2D + 3A-3C + 4A sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B (3C+4A belum).
 
 ## Struktur Repo
 
@@ -42,7 +42,8 @@ drama-nusantara/
 │   ├── 2D-majapahit.md                                ✅ 816 baris (expand lengkap — Bab II+III+IV+V+VI Jilid 2)
 │   ├── 3A-islamisasi-awal.md                          ✅ 815 baris (rewrite lengkap — semua 9 Bab Jilid III)
 │   ├── 3B-demak-pajang.md                             ✅ 1058 baris (rewrite lengkap — 6 dari 9 Bab Jilid III langsung)
-│   └── 3C-mataram-islam.md                            ✅ 873 baris (rewrite lengkap — Jilid III+IV)
+│   ├── 3C-mataram-islam.md                            ✅ 873 baris (rewrite lengkap — Jilid III+IV)
+│   └── 4A-voc-awal.md                                 ✅ 722 baris (rewrite lengkap — Jilid IV+V)
 │
 ├── produksi/
 │   ├── t2i-prompts/                       ← T2I prompts per era (siap copy-paste ke Dola AI)
@@ -68,7 +69,7 @@ drama-nusantara/
 ## Aturan Repo
 
 1. **`riset/sumber-primer/`** = HANYA file asli dari buku Kemenbud 2025 (Jilid 1-5). Tidak ada ringkasan, tidak ada enhanced YAML, tidak ada audit JSON. Jika perlu cari info, baca langsung file asli.
-2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2D + 3A-3B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C sudah ditulis + dikoreksi parsing, perlu audit coverage tambahan.
+2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2D + 3A-3C + 4A sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C sudah ditulis + dikoreksi parsing, perlu audit coverage tambahan.
 3. **`produksi/t2i-prompts/`** = file .txt siap copy-paste ke Dola AI. Format flat natural-language.
 
 ## Quick Start
@@ -83,9 +84,9 @@ drama-nusantara/
 | Metrik | Angka |
 |---|---|
 | Sumber primer (5 jilid) | 83 file MD asli |
-| Master era selesai | 10 dari 17 (1A-1D + 2D expand lengkap + 2A-2C + 3A-3B rewrite lengkap) |
-| T2I prompts selesai | 10 era (173 file .txt total) |
-| Total kata master era | ~121.000 kata (10.774+ baris era docs) |
+| Master era selesai | 12 dari 17 (1A-1D + 2D expand + 2A-2C + 3A-3C + 4A rewrite lengkap) |
+| T2I prompts selesai | 10 era (173 file .txt total — 3C+4A belum) |
+| Total kata master era | ~146.000 kata (12.369+ baris era docs) |
 | Total file di repo | 345 |
 
 ## Status Master Era + T2I Prompts
@@ -106,7 +107,7 @@ drama-nusantara/
 | 3B Demak-Pajang | Abad 15-16 M | ✅ rewrite | 1058 | ✅ | 21 |
 | 3C Mataram Islam | Abad 17-18 M | ✅ rewrite | 873 | ⏳ | — |
 | **TOTAL ISLAM** | | | **3756** | | **42** |
-| 4A VOC Awal | Abad 17-18 M | ⏳ | — | ⏳ | — |
+| 4A VOC Awal | Abad 17-18 M | ✅ rewrite | 722 | ⏳ | — |
 | 4B Kolonial 19 | 1800-1900 | ⏳ | — | ⏳ | — |
 | 4C Pergerakan Kebangsaan | 1900-1942 | ⏳ | — | ⏳ | — |
 | 4D Pendudukan-Kemerdekaan | 1942-1949 | ⏳ | — | ⏳ | — |
