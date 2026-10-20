@@ -1,3 +1,35 @@
-Cinematic realistic documentary landscape of the grand royal palace complex (keraton) of Mataram Kuno, set in the vast volcanic valley between Mount Sindoro and Mount Sumbing, Jawa Tengah, abad 8-9 Masehi. Massive royal complex spanning hundreds of hectares: main pendopo agung (great audience hall) with 24 carved teak pillars painted red-gold, towering peaked roof with palm fiber (ijuk) rising 20 meters, golden chandra-kapala ornament at peak. Multiple courtyards with stone pathways, gardens with lotus ponds, royal bathing pools. Secondary buildings: dalem (royal residence), pringgitan (ceremonial platform), gadri (archive), kaputren (women's quarters), pasantren (workshops). Front gateway 10 meters tall with stone dwarapala guardians flanking. Wide ceremonial plaza capable of holding thousands. Agricultural fields (sawah) extending to horizon with irrigation canals. Mount Sindoro (3,136m) on left, Mount Sumbing (3,371m) on right, both towering over the complex. Lush tropical forest on mountain slopes. High stone wall 2km long surrounding the entire complex. Hindu Siwa + Buddhist Mahayana elements coexisting. No modern elements. No people, no characters, no humans — empty location reference. Setting: Royal palace complex of Mataram Kuno, between Mount Sindoro and Mount Sumbing, Jawa Tengah, abad 8-9 Masehi (era Sanjaya-Syailendra). Vast royal domain spanning hundreds of hectares in the fertile volcanic valley, with sawah (rice fields), irrigation systems, and tropical forest. The complex is the political, religious, and economic center of Mataram Kuno — not a single building but an entire royal city. Lighting: warm 3500K late afternoon sun from camera right (key light, golden on vast palace complex, sawah, and twin volcanoes Sindoro-Sumbing), cool 6500K sky fill from above left. Mid contrast 3:1. Mist in valley between the two mountains, smoke from cooking fires across the complex. Mood: vast royal domain — a kingdom of hundreds of hectares between two sacred volcanoes, where Hindu Sanjaya and Buddhist Syailendra coexisted, where Borobudur and Prambanan were commissioned, the political and religious center of Mataram Kuno. Style: photorealistic wood, stone, gold, water, sawah, and tropical foliage textures, 35mm film grain, deep depth of field f/11, 16mm ultra-wide lens equivalent for epic scale, 8K hyperdetailed, color graded warm amber highlights cool blue shadows, BBC Earth documentary aesthetic. Aspect ratio 9:16 portrait. High detail, 4K, sharp focus. 
+Cinematic realistic documentary landscape of the grand royal palace complex (keraton) of Mataram Kuno, set in the vast volcanic valley between Mount Sindoro (3,136m, towering on left) and Mount Sumbing (3,371m, towering on right), Jawa Tengah, abad 8-9 Masehi. Massive royal complex spanning 500 hectares — an entire royal city, NOT a single building.
 
-Avoid: people, characters, humans, modern buildings, modern Yogyakarta, stone candi (must be wooden palace complex), single small house (must be vast royal complex spanning hectares), Majapahit architecture, modern tourism, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated, rumah adat individual (must be grand royal complex of hundreds of hectares), narrow view (must show vast expanse with sawah, multiple buildings, twin volcanoes Sindoro-Sumbing).
+ARCHITECTURE — JAVANESE HINDU-BUDDHIST, NOT CHINESE:
+- Buildings are JAVANESE wooden structures on stone foundations, NOT Chinese pagoda or Chinese imperial palace
+- Roofs are TUMPANG SARI (multi-tiered pyramid roof) made of palm fiber (ijuk/sirap), NOT curved Chinese tiled roofs, NOT upturned eaves, NOT dragon ridge ornaments
+- Roof shape: steep pyramid tiers rising to a single peak (like traditional Javanese joglo but monumental scale), NOT curved swooping roofs
+- Pillars are SQUARE cross-section teak wood (soko guru), NOT round Chinese columns
+- Colors: natural wood brown, dark red from natural dye, gold leaf accents — NOT Chinese imperial red-and-gold lacquer
+- No Chinese gates (paifang), no Chinese roof tiles, no Chinese dragon ornaments
+- Gateways are CANDI BENTAR (split gate — two separate towers with gap between), NOT Chinese gate arches
+- Ornaments: Javanese kala-makara (demon face + crocodile jaw), lotus motifs, boddhisattva relief — NOT Chinese dragon/phoenix
+- Dwarapala guardians are JAVANESE style (kneeling giant with club), NOT Chinese lion statues
+
+LAYOUT:
+- Main pendopo agung (great audience hall, 50m x 30m, 36 square teak pillars, tumpang sari roof 20m tall, golden chandra-kapala at peak)
+- Dozens of secondary buildings: dalem, pringgitan, gadri, kaputren, wihara (with Buddhist stupa), pura (with lingga-yoni)
+- Candi bentar gateways at entrances
+- Stone pathways 10m wide
+- Multiple courtyards with lotus ponds, bathing pools
+- Pasar (market 2 hectares), bengkel (workshops), kandang (stables), taman (gardens 5 hectares)
+- Sawah (rice fields) extending to horizon with irrigation canals
+- High stone wall 3km long enclosing complex
+- Mount Sindoro (3,136m) on left, Mount Sumbing (3,371m) on right
+
+No people, no characters, no humans — empty location reference.
+
+Setting: Grand royal palace complex of Mataram Kuno, 500 hectares between Mount Sindoro and Mount Sumbing, Jawa Tengah, abad 8-9 Masehi. JAVANESE Hindu-Buddhist architecture (tumpang sari roof, candi bentar gate, square teak pillars, kala-makara ornaments). NOT Chinese, NOT Indian, NOT Thai — specifically Javanese Mataram Kuno style. The complex is the political, religious, and economic center of Mataram Kuno.
+
+Lighting: warm 3500K late afternoon golden hour sun from camera right (key light, long dramatic shadows across the vast complex, golden amber on dozens of rooftops and sawah), cool 6500K sky fill from above left. Mid contrast 3:1. Mist in valley between Sindoro and Sumbing.
+
+Mood: vast Javanese royal city — 500 hectares of Javanese Hindu-Buddhist architecture between two sacred volcanoes, the seat of Mataram Kuno's power.
+
+Style: photorealistic JAVANESE wood, stone, gold, palm fiber (ijuk) roof, and tropical foliage textures, 35mm film grain, deep depth of field f/11, 16mm ultra-wide lens equivalent for epic massive scale, 8K hyperdetailed, color graded warm amber highlights cool blue shadows, BBC Earth aerial documentary aesthetic. Aspect ratio 9:16 portrait. High detail, 4K, sharp focus.
+
+Avoid: people, characters, humans, CHINESE architecture (no pagoda, no curved roofs, no upturned eaves, no dragon ridge, no paifang gate, no red-and-gold lacquer, no Chinese lion statues), INDIAN architecture (no shikhara, no gopuram), THAI architecture (no prang, no chofa), modern buildings, modern Yogyakarta, stone candi as main structures (must be wooden palace with tumpang sari roof), single small house, single building (must be dozens of grand Javanese buildings across 500 hectares), Majapahit architecture (this is Mataram Kuno era, not Majapahit), narrow view, modern tourism, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated, small scale (must look like an entire Javanese royal city).
