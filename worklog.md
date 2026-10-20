@@ -1587,3 +1587,50 @@ Stage Summary:
 - Status: ✅ Era Hindu-Buddha LENGKAP (2A-2D), total ~138.000 kata, abad 4-16 M
 - Commit + push: 8fa07a1 → GitHub
 - Plan lanjutan: rewrite lengkap 3A + 3B
+
+---
+Task ID: 3A-REWRITE-LENGKAP
+Agent: Main Agent (Z.ai)
+Task: Rewrite lengkap 3A Islamisasi Awal — pola yang sama dengan 1A-2C (parsing sistematis semua Bab sumber primer)
+
+Work Log:
+- Audit state 3A sebelumnya: 571 baris, 7.903 kata, 64 klaim, hanya 4 dari 9 Bab Jilid III (Bab 1,2,3,7)
+- Bab yang belum dipakai: Bab 4 (Penggerak Intensifikasi Islam + Giri-Gresik+Minangkabau+Kutai), Bab 5 (Sistem Transaksi Perdagangan + Undang-Undang Laut Melaka + Syahbandar), Bab 6 (Islam dan Gagasan Politik + hubungan Raja-Ulama-Elite Ekonomi + qadi/syaikh al-Islam/pakih najmuddin/Daengte Kaliya/Parewa Sara/Babato Akhirat), Bab 8 (Keraton+Masjid+Makam dan Nisan), Bab 9 (Sirkulasi Teks + Hikayat Amir Hamzah + Caritanira Amir + Aksara Jawi/Pegon)
+
+- Baca semua 9 Bab Jilid III secara sistematis:
+  * Bab 1 (line 109-484): Bongal koin Umayyah-Abbasiyah abad 7-10 M; manik-manik; kaca Iran+Timur Tengah; botol kaca; keramik Iran OGW lustre emas
+  * Bab 2 (line 141-460): Lobu Tua Barus abad 9-12 M; Prasasti Tamil 946 Saka/1088 M; benteng tanah 375 m; >10.000 artefak
+  * Bab 3 (line 198-540): Pasai+Malaka+Aceh+Demak+Cirebon+Banten; tipologi 3 pola pembentukan kerajaan Islam
+  * Bab 4 (line 134-620): Konsep mandala; Minangkabau+Pagaruyung; Giri-Gresik; Kutai
+  * Bab 5 (line 175-678): Sistem commenda; Undang-Undang Laut Melaka; syahbandar; bea cukai 6%; mata uang emas masa 2,4-2,5 g
+  * Bab 6 (line 111-544): Sultan = zhillu Allah; Sejarah Melayu 1612 Iskandar Zulkarnain; Bima dekrit 1645; Raja-Ulama-Elite Ekonomi; qadi/syaikh al-Islam/pakih najmuddin/Daengte Kaliya/Parewa Sara/Babato Akhirat/Fala Jawa/Boboto Akhirat
+  * Bab 7 (line 102-615): Wali Songo 9 wali standar (Salam 1960 + Hamka 1961) + 6 periode penggantian + 9 dewa pelindung mata angin; profil 9 wali detail; Syekh Siti Jenar
+  * Bab 8 (line 104-508): Keraton 3 pelataran + parit buatan; Masjid Tipe Jawa 6 ciri Pijper 1947; Masjid Agung Demak 1466 (atap 3 Iman-Islam-Ihsan + 4 saka guru + Lawang Bledeg naga+kala + Surah Al-Imran 133-136); Masjid Menara Kudus 1549 (menara batu bata candi Hindu + kosod + bedug + candra sengkala Gapura Rusak Ewahing Jagad); Masjid Agung Banten 1552-1570 (atap 5 + pagoda Cina + menara ±24 m Tiyamah); nisan tipe Aceh/Demak-Troloyo/Bugis-Makasar/Ternate-Tidore/Plak Plieng; makam di bukit vs dataran
+  * Bab 9 (line 100-379): Kosmopolis Sanskerta (300-1500) → Arab (abad 15-19); Hikayat Amir Hamzah + Caritanira Amir (Bodleian Oxford hibah Earl of Pembroke 1629 dari Banten 1614); Sérat Menak Kartasura 1715 Ratu Mas Blitar; Menak Yasadipuran 1729-1803; Menak van Dorp 1882-1889; Menak Balai Pustaka 1933-1937; Aksara Jawi-Pegon-Rambang-Serang-Buri Wolio
+
+- Rewrite lengkap 3A:
+  * Periode diperluas: abad 13-15 M → abad 7-1511 M (9 abad)
+  * 8 akt narasi kronologi (sebelumnya 8 akt tapi dangkal)
+  * 20 tokoh (sebelumnya 10): 9 Wali Songo + Malik al-Saleh + Parameswara/Iskandar Shah + Ali Mughayat Syah + Raden Patah + Ratu Nahrasyiyah + Maulana Hasanuddin + 3 Sultan Lamuri (Muhammad Sulaiman w. 1404; Muhammad bin 'Alawuddin w. 1431; Muhammad Syah w. 1503) + Syekh Mahmud/Papan Tinggi (Barus w. 1425) + Tomé Pires + Tun Sri Lanang
+  * 11 latar utama: Bongal, Lobu Tua, Barus 5 kompleks, Samudra Pasai, Lamuri/Lamreh, Malaka, Aceh Darussalam, Gresik+Ampeldenta, Demak+Kudus+Jepara, Cirebon+Banten, Minangkabau+Pagaruyung
+  * 136 klaim dengan sitasi (sebelumnya 64) — semua dengan file+line
+  * 19 referensi sekunder disitir (sebelumnya 17)
+  * 12 naskah sastra disitir (Hikayat Amir Hamzah, Caritanira Amir, Hikayat Muhammad Hanafiyyah, Sérat Menak Kartasura, Menak Yasadipuran, Menak van Dorp, Menak Balai Pustaka, Sejarah Melayu, Hikayat Aceh, Hikayat Raja-Raja Pasai, Suluk Wujil, Suluk Bonang)
+  * 8 masjid disitir (Pesucinan Leran 1389, Agung Demak 1466, Sang Cipta Rasa Cirebon ±1480, Menara Kudus 1549, Mantingan Jepara 1549, Sendang Duwur, Agung Banten 1552-1570, Indrapuri Aceh ±1607-1636)
+  * 3 keraton disitir (Kasepuhan Cirebon 1529, Surosowan Banten 1552, Istana Aceh per Beaulieu)
+  * 12+ nisan disitir (Malik al-Saleh 1297, Nahrasyiyah 1428, Abdul Rahman al-Fasi+Abdullah Cambay, Cowan 1420, Maulana Malik Ibrahim 1419 Cambay, Troloyo 1457, Tuhar Ami Suri 1223/1224, Suy 1370, Rukn al-Din 1397, Syaikh Mahmud 1425, Sultan Muhammad Sulaiman 1404, Sultan Muhammad bin 'Alawuddin 1431, Sultan Muhammad Syah 1503)
+
+- Audit halu: ✅ Setiap klaim dengan sitasi file+line; tidak ada tahun karangan sendiri; semua periode/tanggal ada di sumber primer
+- Pola: ✅ Rewrite lengkap (bukan koreksi) — parsing sistematis semua 9 Bab Jilid III
+
+Stage Summary:
+- File output: /home/z/my-project/master-era/3A-islamisasi-awal.md
+- Total baris: 815 (sebelumnya 571 — 1,4x lebih besar)
+- Total kata: 15.167 (sebelumnya 7.903 — 1,9x lebih banyak)
+- Klaim dengan sitasi: 136 (sebelumnya 64 — 2,1x lebih banyak)
+- Tokoh: 20 (sebelumnya 10)
+- Latar: 11 (sebelumnya 9)
+- Bab dipakai: SEMUA 9 dari 9 Bab Jilid III (sebelumnya 4 dari 9)
+- Status: ✅ Berdasarkan sumber primer Kementerian Kebudayaan RI 2025 Jilid III Bab I-IX
+- Commit + push: 2ad3d69 → GitHub
+- Plan lanjutan: rewrite lengkap 3B Demak-Pajang — sekarang 756 baris, 80 klaim, 6 dari 9 Bab Jilid III dipakai (kurang Bab 1, 2, 9)
