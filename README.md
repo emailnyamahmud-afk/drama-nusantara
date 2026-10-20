@@ -12,7 +12,9 @@
 3. T2I PROMPTS            → copy-paste ke Dola AI → output drama/dokumenter
 ```
 
-**Status saat ini**: Era 1A-1D + 2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B (3C+4A+4B belum).
+**Status saat ini**: Era 1A-1D + 2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (13 era, ~154.000 kata, 1.176 klaim). Era 2A-2C sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B (3C+4A+4B belum).
+
+**BLOCKED**: Era 4C-4E (Pergerakan Kebangsaan → Orde Baru) tidak dapat dikerjakan karena **Jilid VI-X belum terbit** (Kementerian Kebudayaan RI 2025). Jilid V secara eksplisit menyebut di Bab VII line 558: "Jilid berikutnya, 'Jilid VI: Pergerakan Kebangsaan', akan menelusuri fase ketika kesadaran tersebut menemukan bentuk organisasinya." Folder `riset/sumber-primer/jilid-6/` belum ada.
 
 ## Struktur Repo
 
@@ -84,10 +86,12 @@ drama-nusantara/
 
 | Metrik | Angka |
 |---|---|
-| Sumber primer (5 jilid) | 83 file MD asli |
+| Sumber primer (5 jilid) | 83 file MD asli (Jilid I-V; Jilid VI-X belum terbit) |
 | Master era selesai | 13 dari 17 (1A-1D + 2D expand + 2A-2C + 3A-3C + 4A-4B rewrite lengkap) |
+| Master era BLOCKED | 4 era (4C-4E) — menunggu Jilid VI-X |
 | T2I prompts selesai | 10 era (173 file .txt total — 3C+4A+4B belum) |
-| Total kata master era | ~156.000 kata (12.987+ baris era docs) |
+| Total kata master era | ~154.000 kata (12.010 baris era docs) |
+| Total klaim dengan sitasi | 1.176 klaim |
 | Total file di repo | 345 |
 
 ## Status Master Era + T2I Prompts
@@ -110,9 +114,9 @@ drama-nusantara/
 | **TOTAL ISLAM** | | | **3756** | | **42** |
 | 4A VOC Awal | Abad 17-18 M | ✅ rewrite | 722 | ⏳ | — |
 | 4B Kolonial 19 | 1800-1900 | ✅ rewrite | 618 | ⏳ | — |
-| 4C Pergerakan Kebangsaan | 1900-1942 | ⏳ | — | ⏳ | — |
-| 4D Pendudukan-Kemerdekaan | 1942-1949 | ⏳ | — | ⏳ | — |
-| 4E Orde Lama-Baru | 1949-1998 | ⏳ | — | ⏳ | — |
+| 4C Pergerakan Kebangsaan | 1900-1942 | 🔒 BLOCKED | — | ⏳ | — |
+| 4D Pendudukan-Kemerdekaan | 1942-1949 | 🔒 BLOCKED | — | ⏳ | — |
+| 4E Orde Lama-Baru | 1949-1998 | 🔒 BLOCKED | — | ⏳ | — |
 
 ### Catatan: Rewrite vs Koreksi
 
@@ -179,3 +183,37 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 | 2026-10-20 | **Rewrite lengkap 3C Mataram Islam** — Jilid III+IV, 873 baris, ~13.500 kata, 93 klaim. Sultan Agung (1613-1645) 'Majapahit Baru'+ekspansi Surabaya 1625+Giri-Gresik 1636+Blambangan 1636-1640+serang Batavia 1628+1629 gagal+kalender Islam-Jawa 1633; Amangkurat I (1646-1677) absolutisme+bunuh 5.000-6.000 ulama; Trunojoyo 1674-1679+Perjanjian Mataram-VOC 1677-1678; Geger Pecinan 1740; Perjanjian Giyanti 1755 (Mataram pecah Yogyakarta+Surakarta)+Salatiga 1757 (Mangkunegaran); Aceh Iskandar Muda (1607-1636)+serang Malaka 1629 gagal 19.000 prajurit+Turki Usmani; Gowa-Tallo (1593-1639)+Perang Makassar 1666-1669; VOC+J.P. Coen Batavia 1619+genosida Banda 1621+sistem Perken; Hamzah Fansuri+Syamsuddin as-Sumatrani+Tajussalatin+Bustan as-Salatin+Islamic Republic of Letters | ✅ |
 | 2026-10-20 | **Rewrite lengkap 4A VOC Awal** — Jilid IV (Bab 2,4,6,7,8,9)+Jilid V (Bab 1,3), 722 baris, ~11.094 kata, 85 klaim. Ekspedisi De Houtman 1595-1597; Frederick de Houtman kamus Melayu-Belanda pertama 1603; Linschoten Itinerario 1596; VOC berdiri 20 Maret 1602 (oktroi hak istimewa); J.P. Coen Batavia 1619+genosida Banda 1621+sistem Perken+hongi tochten; perlawanan Hoamoal 1651-1656+Iha 1632-1652; Perang Makassar 1666-1669; Perjanjian Mataram-VOC 1677-1678+Geger Pecinan 1740+Giyanti 1755+Salatiga 1757; VOC bangkrut 1800; Daendels 1808-1811 (Jalan Raya Pos); Raffles 1811-1816 (landrent system+Geger Sepehi 1812); van den Bosch Cultuurstelsel 1830-1833 | ✅ |
 | 2026-10-20 | **Rewrite lengkap 4B Kolonial 19** — Jilid V (Bab 1,3,6), 618 baris, ~9.694 kata, 74 klaim. Cultuurstelsel 1830-1870 (van den Bosch, 1/5 lahan untuk negara, cultuurprocenten, NHM, 20% pendapatan Belanda 1832-1850); Multatuli Max Havelaar 1860; Ekonomi Liberal 1860-1880 (UUA 1870, erfpacht 75 tahun, 383 perusahaan 1890); Perang Padri 1821-1837 (Tuanku Imam Bonjol, 3 periode, Piagam Marapalam, Bonjol jatuh 25 Oktober 1837, wafat 1864); Perang Jawa 1825-1830 (Pangeran Diponegoro, Kiai Madja, Sentot, Benteng Stelsel De Kock 1827 ±250 benteng, Magelang 28 Maret 1830, wafat 1855); Perang Bali 1846-1849 (Buleleng+Jagaraga+Kusamba, Michiels tewas, Mads Lange mediasi); Perang Banjar 1859-1906 (Antasari+Surapati+Hidayatullah vs Tamjidillah, batu bara Martapura 1846); Perang Aceh 1873-1904 (Sultan Ibrahim+Mahmud Syah II, Habib Abdurrahman, Pangeran Tiban, Turki); Perang Batak Sisingamangaraja XII 1877-1907; Perang Lombok 1891-1894 (Sasak vs Bali, perang puputan, van Ham tewas); Pemberontakan Petani Banten 1888 (Haji Abdul Karim Tarekat Qadiriyah); Politiek Etis 1901 (Irrigasi+Emigratie+Educatie) | ✅ |
+
+## TODO untuk Sesi Berikutnya
+
+### Prioritas 1: Audit/Expand Era 2A-2C (Koreksi → Rewrite)
+Era 2A (Hindu-Buddha Awal, 831 baris), 2B (Mataram-Sriwijaya, 805 baris), 2C (Singasari-Kediri, 519 baris) masih di tahap "koreksi parsing" — belum rewrite lengkap seperti 1A-1D + 3A-3C. Pola rewrite lengkap = baca semua Bab sumber primer yang relevan + ekstrak semua tokoh/latar/klaim.
+
+### Prioritas 2: T2I Prompts untuk 3C + 4A + 4B
+3 era yang sudah rewrite lengkap tapi belum punya T2I prompts:
+- 3C Mataram Islam (873 baris, 93 klaim) — Sultan Agung, Amangkurat, Diponegoro, Trunojoyo
+- 4A VOC Awal (722 baris, 85 klaim) — De Houtman, Coen, Daendels, Raffles
+- 4B Kolonial 19 (618 baris, 74 klaim) — Diponegoro, Tuanku Imam Bonjol, Cultuurstelsel, perang-perang
+
+### BLOCKED: Era 4C-4E (menunggu Jilid VI-X)
+- 4C Pergerakan Kebangsaan (1900-1942) — butuh Jilid VI
+- 4D Pendudukan & Kemerdekaan (1942-1949) — butuh Jilid VII/VIII
+- 4E Orde Lama-Baru (1949-1998) — butuh Jilid IX/X
+
+Jilid V Bab VII line 558 eksplisit: "Jilid berikutnya, 'Jilid VI: Pergerakan Kebangsaan', akan menelusuri fase ketika kesadaran tersebut menemukan bentuk organisasinya."
+
+Cek https://pustakabudaya.id untuk ketersediaan Jilid VI+.
+
+### Ringkasan State Final (sesi 2026-10-20)
+
+| Metrik | Angka |
+|---|---|
+| Era selesai (rewrite/expand lengkap) | 13 dari 17 |
+| Era di tahap koreksi (perlu rewrite) | 3 (2A, 2B, 2C) |
+| Era BLOCKED (Jilid belum terbit) | 4 (4C, 4D, 4E + era 3C udah ada tapi T2I belum) |
+| Total baris master-era docs | 12.010 |
+| Total kata | ~154.000 |
+| Total klaim dengan sitasi | 1.176 |
+| T2I prompts | 10 era (173 file) |
+| Sumber primer tersedia | Jilid I-V (83 file MD) |
+| Sumber primer BLOCKED | Jilid VI-X (belum terbit) |

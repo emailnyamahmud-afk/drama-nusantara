@@ -1678,3 +1678,43 @@ Stage Summary:
 - Commit + push: c8fa694 → GitHub
 - Era Islam LENGKAP (3A-3B): ~35.000 kata, abad 7-16 M
 - Plan lanjutan: era 3C Mataram Islam (abad 17-18 M) menggunakan Jilid IV
+
+---
+Task ID: SESSION-CHECKPOINT-2026-10-20
+Agent: Main Agent (Z.ai)
+Task: Update dokumentasi + push GitHub — checkpoint untuk sesi berikutnya
+
+Work Log:
+- User menanyakan era 4C (Pergerakan Kebangsaan 1900-1942)
+- Audit Jilid V untuk konten era 4C: ditemukan bahwa Jilid V Bab VII line 558 eksplisit menyebut "Jilid berikutnya, 'Jilid VI: Pergerakan Kebangsaan', akan menelusuri fase..."
+- Cek folder jilid-6/ — TIDAK ADA. Jilid VI belum terbit.
+- User konfirmasi: "jilid 6 memang belum terbit, update saja dokumentasi dan push github"
+- Update README:
+  * Status saat ini: tambah "BLOCKED" note untuk 4C-4E
+  * Statistik: tambah "Master era BLOCKED: 4 era — menunggu Jilid VI-X"
+  * Tabel era: 4C-4E ditandai 🔒 BLOCKED
+  * Tambah section "TODO untuk Sesi Berikutnya" dengan 3 prioritas:
+    1. Audit/Expand era 2A-2C (masih koreksi, belum rewrite lengkap)
+    2. T2I prompts untuk 3C+4A+4B (sudah rewrite tapi belum ada T2I)
+    3. BLOCKED 4C-4E (menunggu Jilid VI-X)
+  * Tambah "Ringkasan State Final" dengan semua metrik
+
+State Akhir Sesi 2026-10-20:
+- 13 era selesai (1A-1D rewrite + 2D expand + 2A-2C koreksi + 3A-3C rewrite + 4A-4B rewrite)
+- 3 era perlu upgrade dari koreksi → rewrite lengkap (2A, 2B, 2C)
+- 4 era BLOCKED menunggu Jilid VI-X (4C, 4D, 4E, + 3C T2I)
+- Total: 12.010 baris, ~154.000 kata, 1.176 klaim dengan sitasi
+- T2I prompts: 10 era, 173 file
+- Audit halu: ✅ semua era yang selesai sudah diaudit — 3C ada 3 halu fixed, 2D ada 4 halu fixed
+
+Catatan untuk sesi berikutnya:
+1. Kalau Jilid VI sudah terbit → cek pustakabudaya.id, download, taruh di riset/sumber-primer/jilid-6/, mulai rewrite era 4C
+2. Kalau Jilid VI belum terbit → kerjakan prioritas 1 (rewrite 2A-2C) atau prioritas 2 (T2I 3C+4A+4B)
+3. Cek worklog.md untuk riwayat semua task yang sudah dikerjakan
+4. Cek README.md section "TODO untuk Sesi Berikutnya" untuk prioritas
+5. Token PAT GitHub sudah dipakai berkali-kali — HARUS revoke di github.com/settings/tokens dan buat yang baru
+
+Stage Summary:
+- File update: README.md (tambah BLOCKED note + TODO section + ringkasan state final)
+- Commit + push: ke GitHub
+- Tidak ada file master-era baru di task ini — hanya dokumentasi
