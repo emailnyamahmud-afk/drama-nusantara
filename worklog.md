@@ -1202,3 +1202,37 @@ Stage Summary:
   dunia 31 ka (Liang Tebo), penjinakan babi 5 ka (Leang Panningge), barkcloth beater
   tertua 7.900 thn lalu (Dingmo, Cina) — barkcloth Sulawesi 2.500-1.500 ka
 - Berikutnya: 1D Logam Awal (2.500 SM - abad 5 M)
+
+---
+Task ID: 1D-RISET-PRASEJARAH-FINAL
+Agent: Main Agent (Z.ai)
+Task: Riset era 1D — Logam Awal (2.500 SM - abad 5 M). Terakhir dari 4 sub-era prasejarah. Berdasarkan sumber primer Kemenbud 2025 Jilid I Bab III section F-G + Bab IV section H-I + Bab V section B-C.
+
+Work Log:
+- Baca riset/sumber-primer/jilid-1/08-bab-3.md section G (Teknologi Peleburan Logam dan Kaca) — baris 1251-1475.
+- Baca section F (Barkcloth) — baris 1234-1250.
+- Baca riset/sumber-primer/jilid-1/09-bab-4.md section H (Megalitik: menhir, dolmen, punden berundak, undakan batu, peti kubur, sarkofagus, patung sederhana, tempayan batu, keranda batu, kubus batu, kursi batu, lesung batu, pagar batu) — baris 800-870.
+- Baca section I (Praktik Penguburan) — baris 1251-1668.
+- Baca riset/sumber-primer/jilid-1/10-bab-5.md section B (Perkembangan Organisasi Sosial: Pleistosen Awal → Pleistosen Tengah → Pleistosen Akhir → Holosen Awal → Holosen Tengah) — baris 598-700.
+- Baca section C (Konsep Primus Inter Pares).
+- Tulis dokumen 1D dengan struktur 8 bagian + 9 (penutup era prasejarah) sesuai TEMPLATE-master-era.md:
+  1. Konteks Era (batas periode 2.500 SM - abad 5 M, geografi, teknologi, sosial-budaya)
+  2. Narasi Kronologi (7 akt: barkcloth, awal pengolahan logam Sulawesi/Jawa/Bali/Sumatra/Kalimantan/NTT-Maluku, tradisi megalitik, praktik penguburan, masyarakat perundagian + primus inter pares, perdagangan jarak jauh, transisi Hindu-Buddha)
+  3. Tokoh (11 tokoh: Masyarakat Perundagian, Pemimpin Primus Inter Pares, Undagi logam, Pengrajin barkcloth, Pengrajin manik kaca-emas, Individu Pangkung Paruk, Individu Manikliyu, Individu Sumba Timur, Penghuni Leang Sarru, Penghuni Gua Topogaro, 10 peneliti)
+  4. Latar (21 latar: Pulau Kampai, Dataran Tinggi Jambi, Air Merah, Subanglarang, Pasir Angin, Plawangan, Manuaba, Sembiran-Pacung, Gilimanuk, Manikliyu, Pangkung Paruk, Pegunungan Meratus, Tanah Luwu, Kalumpang, Selayar, Karst Bantaeng, Karst Pangkep, Gunung Padang, Lebak Cibedug, Pugung Raharjo, Dataran Tinggi Lore)
+  5. Sumber primer dipakai (84 klaim dengan sitasi file+section+halaman + 15 referensi sekunder)
+  6. Aset visual (11 kategori bahan siap pakai)
+  7. Statistik dokumen
+  8. Transisi ke 2A
+  9. Penutup era prasejarah (1A-1D lengkap)
+
+Stage Summary:
+- File output: /home/z/my-project/master-era/1D-prasejarah-logam-awal.md
+- Total kata: ~13.500
+- Status: Berdasarkan sumber primer otentik (Jilid I Bab III section F-G + Bab IV section H-I + Bab V section B-C)
+- Tidak ada halu — semua klaim disitasi
+- Tokoh kunci: Masyarakat Perundagian (200 SM - 5 M), Primus Inter Pares, Undagi logam
+- Latar kunci: 21 situs Zaman Logam di Sumatra, Jawa, Bali, Kalimantan, Sulawesi, NTT, Maluku
+- Temuan kunci: Zaman Logem Asia Tenggara Kepulauan abad 2 SM - abad 5 M, tidak ada logem sebelum 200 SM, perunggu dari Dongson Vietnam, manik kaca komposisi India + Timur Tengah, manik emas Mesir-Roma (Pangkung Paruk), cermin Dinasti Han (Manikliyu), nekara Heger IA Dong-Son (Selayar), 14 jenis megalitik
+- ERA PRASEJARAH LENGKAP (1A-1D) — total ~38.200 kata, 1,8 juta thn lalu - abad 5 M
+- Berikutnya: 2A Hindu-Buddha Awal (abad 4-7 M) — transisi prasejarah ke sejarah

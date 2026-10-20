@@ -93,8 +93,8 @@ drama-nusantara/
 | Ringkasan 5 jilid + suplemen | 106.680 kata |
 | Master YAML tokoh | 250 (77 lintas-jilid) |
 | Audit cross-check | 3 laporan, akurasi ≥98,7% |
-| Master era selesai | 2 dari 17 (1A, 1B) |
-| Master era dalam proses | 1C, 1D (prasejarah) |
+| Master era selesai | 4 dari 17 (1A, 1B, 1C, 1D — prasejarah LENGKAP) |
+| Master era dalam proses | 2A Hindu-Buddha Awal (berikutnya) |
 
 ## Master Era yang Telah Dikerjakan
 
@@ -102,8 +102,13 @@ drama-nusantara/
 |---|---|---|---|
 | 1A Pleistosen Awal | 1,8 juta – 700 ribu thn lalu | ✅ Selesai | ~5.200 |
 | 1B Pleistosen Tengah-Akhir | 700 ribu – 12 ribu thn lalu | ✅ Selesai | ~8.500 |
-| 1C Holosen / Transisi Neolitik | 12 ribu – 2.500 SM | ⏳ Berikutnya | — |
-| 1D Logam Awal | 2.500 SM – abad 5 M | ⏳ Berikutnya | — |
+| 1C Holosen / Transisi Neolitik | 12 ribu – 2.500 SM | ✅ Selesai | ~11.000 |
+| 1D Logam Awal | 2.500 SM – abad 5 M | ✅ Selesai | ~13.500 |
+| **TOTAL ERA PRASEJARAH** | **1,8 juta thn lalu – abad 5 M** | ✅ | **~38.200** |
+| 2A Hindu-Buddha Awal | Abad 4-7 M | ⏳ Berikutnya | — |
+| 2B Mataram Kuno | Abad 8-10 M | ⏳ | — |
+| 2C Singasari-Kediri | Abad 11-13 M | ⏳ | — |
+| 2D Majapahit | Abad 13-16 M | ⏳ | — |
 
 ## Sumber
 
