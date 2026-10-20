@@ -54,6 +54,10 @@
 | **Orang asing** | Serikat dagang Gujarat-Persia-Arab-Tionghoa sejak Raden Wijaya; Troloyo (pemakaman Muslim akhir abad 13-14, 34.175 kepeng Tiongkok ditemukan di Trowulan); figurin terakota orang Gujarat-Persia-Tionghoa | `09-bab-4.md` A line 174-393 + line 315-340 |
 | **Mata uang** | Kepeng/pisis (koin tembaga Tiongkok Dinasti Song Utara — Yuanfeng Tongbao 1078-1085); uang emas (suwarna=16 masa=70 g emas; masa=4,375 g emas); uang perak (dharana); piling; kupang | `10-bab-5.md` c line 2285-2300 |
 | **Pertahanan** | Pasukan berkuda (Tartar tewas 3.000 di Daha-Canggu 1293); armada maritim (kapal jenis jong, perahu sungai — 16 jenis tercatat di Prasasti Canggu 1358); 100.000 prajurit Jayakatwang di Daha | `08-bab-3.md` A.4 + `10-bab-5.md` A (Maritim) |
+| **Koalisi Siwa-Buddha (BUKAN sinkretisme)** | 3 kelompok agama diatur pejabat berbeda (dharmadyaksa): **kasaiwan** (Saiwa Siddhanta), **karsian** (Pasupata), **kasogatan** (Buddha). Hubungan Hindu-Buddha = paralelisme/koalisi (Sanderson, Soebadio) — bukan sinkretisme. Mpu Tantular dalam Sutasoma nyatakan jalan Buddha lebih maju vs Saiwa (perspektif Buddhis). Kultus Bima transformasi: ksatria → figur spiritual Bhairawa (Siwa murka) — punden berundak Candi Sukuh + Candi Cetho + altar persajian Gunung Penanggungan. Kultus Bhairawa (Kala-Bhairawa) Saiwa + Heruka (Hevajra Tantra) Vajrayana — periode pasca-Airlangga abad 12-15 | `07-bab-2.md` B.4 line 425-440 + line 428 (dharmadyaksa) |
+| **Pendharmaan raja** | Kertanagara (Singhasari): patung Ardhaneswara + patung Jina; candi khas Kertanagara — bawah Saiwa, atas Buddha. Tradisi tinulad (penyalinan prasasti): Prasasti Kancana/Gedangan 782 Saka/860 (Raja Kayuwangi Mataram) disalin masa Hayam Wuruk | `07-bab-2.md` B.4 line 428-435 |
+| **Aksara Merapi-Merbabu (aksara Buda)** | Varian aksara Jawa Kuno untuk naskah di skriptoria Merapi-Merbabu — ratusan manuskrip (Jawa Kuno dialek tengahan, Sanskerta, Arab). Berkembang sejak Majapahit akhir; bertahan hingga zaman Kartasura abad 18. Prasasti batu beraksara mirip ditemukan di Lumajang, Ponorogo, Candi Sukuh, lereng Gunung Merbabu. Bujangga Manik (pendeta Hindu Sunda) sebut area ini sebagai mandala/pusat pembelajaran. **Prasasti Damalung 1371 Saka/1449** — prasasti terpanjang dari skriptoria, berisi ajaran moral (jangan berjudi, jangan bertaruh, bentuklah keluarga yang baik) | `07-bab-2.md` A.6 line 196-204 |
+| **Aksara Arab awal** | Muncul transisi akhir Majapahit-awal Islam: **Jawi** (aksara Arab untuk bahasa Melayu — dialek Aceh, Jambi, Palembang, Bima, Ambon, Ternate-Tidore, Banjar); **Pegon** (untuk bahasa Jawa); **Rambang** (untuk bahasa Jawa pesisiran); **Serang** (untuk bahasa Bugis); **Buri Wolio** (untuk bahasa Wolio). Dipakai di kesultanan + pesantren + surat perjanjian | `07-bab-2.md` A.8 line 210-245 |
 | **Akhir era** | Konflik internal keluarga (Paregreg 1404-1406; Kertabhumi vs Ranawijaya 1478); revivalisme Hindu + muncul Saiwa Siddhanta baru dari Vijayanagara (India Selatan); kultus Kala-Bhairawa di Candi Sukuh; pegunungan Jawa Tengah (Merapi-Merbabu-Ungaran-Telomoyo) jadi pusat skriptoria Hindu-Buddha yang bertahan hingga abad 16-17; Islam menyebar di pesisir; Tomé Pires ±1512-1515 mencatat ±50.000 tapa (pertapa Hindu-Buddha) masih di pedalaman Jawa Tengah | `11-bab-6.md` A.1.e + A.2 |
 
 ---
@@ -64,9 +68,9 @@
 
 Setelah Kertanagara (Singasari) tewas diserang Jayakatwang dari Gelang-gelang (Daha/Kadiri) tahun 1292, menantu Kertanagara, **Nararyya Sanggramawijaya** (Raden Wijaya), lolos dari kepung pasukan Jayakatwang. Catatan sambandha Prasasti Kudadu 1216 Saka/1294 mengisahkan dengan rinci pelarian Raden Wijaya melalui desa Jasun Wungkal → Kedung Peluk → Batang → Kapulungan → Rabut Carat → Pamwatan Apajég (seberang utara sungai). Pasukan Raden Wijaya tinggal 12 orang setelah penyeberangan sungai yang banyak menenggelamkan pengikutnya. Tiba di **Desa Kudadu** dalam keadaan lapar-lelah-tiada harapan hidup, ia disembunyikan dan diberi makan-minum oleh pejabat desa. Penunjukan jalan sampai batas perdikan Rembang membuka jalur pengungsian ke Madura (`08-bab-3.md` A.4 line 1840-1878).
 
-Di Madura, **Arya Wiraraja** (Bupati Madura, bawahan Kertanagara) menerima Raden Wijaya. Atas saran Wiraraja, Raden Wijaya menyerahkan diri kepada Jayakatwang dan mengabdi. Permintaan Raden Wijaya untuk membuka **hutan Térik** sebagai pertahanan depan sungai Brantas dikabulkan. Daerah Térik dibuka dengan bantuan Wiraraja → menjadi desa bernama Majapahit. Persiapan diam-diam berlanjut hingga datang pasukan Tartar yang dikirim **Kubilai Khan** (Kaisar Shih-Tsu) menghukum Kertanagara atas penganiayaan utusan Mongol tahun 1289 (Meng Qi). Tiga panglima Tartar: **Shihpi, Ihé-mi-shih, Khau Hsing** — 20.000 prajurit, 1.000 kapal, bekal satu tahun. Mereka bertolak dari Ch'üanchou, berkumpul di Belitung (bulan 1 tahun 1293), lalu mendarat Tuban-Surabaya (bulan 1 1293). Shihpi ke Sedayu → muara Kalimas; Ihé-mi-shih + Khau Hsing ke pedalaman berkuda (`08-bab-3.md` A.4 line 1840-1875 + paragraf "Berita Tiongkok mencatat").
+Di Madura, **Arya Wiraraja** (Bupati Madura, bawahan Kertanagara) menerima Raden Wijaya. Atas saran Wiraraja, Raden Wijaya menyerahkan diri kepada Jayakatwang dan mengabdi. Permintaan Raden Wijaya untuk membuka **hutan Térik** sebagai pertahanan depan sungai Brantas dikabulkan. Daerah Térik dibuka dengan bantuan Wiraraja → menjadi desa bernama Majapahit. Persiapan diam-diam berlanjut hingga datang pasukan Tartar yang dikirim **Kubilai Khan** (Kaisar Shih-Tsu) untuk menghukum raja Jawa. Tiga panglima Tartar: **Shihpi, Ihé-mi-shih, Khau Hsing** — 20.000 prajurit, 1.000 kapal, bekal satu tahun. Mereka bertolak dari Ch’uanchou, berkumpul di Pulau Belitung (bulan 1 tahun 1293), lalu Ihé-mi-shih berangkat lebih dulu untuk menundukkan raja-raja kecil di Jawa dengan jalan damai. Induk pasukan ke Pulau Karimun Jawa → Tuban (Tu-ping-tsu). Shihpi dengan separuh pasukan ke Sedayu (Sugalu) → muara Kalimas (Pa-tsieh); Ihé-mi-shih + Khau Hsing pimpin pasukan darat berkuda menyerbu pedalaman (`08-bab-3.md` A.4 line 1840-1875 + paragraf "Berita Tiongkok mencatat" line 1811).
 
-Raden Wijaya pura-pura menyerah ke Tartar, memberitahu bahwa Kertanagara telah wafat dan penggantinya Jayakatwang. Bulan 3 1293 — pasukan Tartar bertemu pasukan Daha di muara Kali Mas; 199 kapal besar Jayakatwang jatuh ke tangan Tartar. Sebagian Tartar jaga di muara Kali Mas, sebagian serbu Daha. Raden Wijaya pura-pura diserang pasukan Daha dan minta bantuan Ihé-mi-shih. Tanggal 7 bulan 3 — pasukan Daha menyerbu desa Majapahit dari tiga jurusan, dihalau Tartar. Tanggal 15 bulan 3 — pasukan Tartar menyerbu Daha. Jayakatwang siap dengan 100.000 prajurit; Tartar serbu tiga gelombang; 5.000 prajurit Jayakatwang gugur; kota Daha dikepung; Jayakatwang + 100 keluarga + pejabat tinggi ditawan (`08-bab-3.md` A.4 line 1855-1875).
+Raden Wijaya pura-pura menyerah ke Tartar, memberitahu bahwa Kertanagara telah wafat dan penggantinya Jayakatwang. Bulan 3 1293 — pasukan Tartar bertemu pasukan Daha di muara Kali Mas; lebih dari 199 kapal besar Jayakatwang jatuh ke tangan Tartar. Sebagian Tartar jaga di muara Kali Mas, sebagian serbu Daha. Raden Wijaya pura-pura diserang pasukan Daha dan minta bantuan Ihé-mi-shih. Tanggal 7 bulan 3 — pasukan Daha menyerbu desa Majapahit dari tiga jurusan, dihalau Tartar. Tanggal 15 bulan 3 — pasukan Tartar menyerbu Daha. Jayakatwang siap dengan 100.000 prajurit; Tartar serbu tiga gelombang; 5.000 prajurit Jayakatwang gugur; kota Daha dikepung; Jayakatwang + **seratus anggota keluarga** + pejabat tinggi kerajaan ditawan (`08-bab-3.md` A.4 line 1855-1875 + line 1814).
 
 Raden Wijaya diizinkan kembali ke Majapahit menyiapkan upeti untuk Kaisar Tiongkok, dikawal 2 opsir + 200 prajurit Tartar. Di tengah jalan, dengan tipu muslihat, Raden Wijaya membunuh kedua opsir dan menyerang pengawalnya, lalu menyerang Tartar di Daha-Canggu. **3.000 prajurit Tartar tewas**. Sisa Tartar lari meninggalkan Jawa (Catatan: Kidung Harsyawijaya + berita Tiongkok). Setelah runtuhnya Daha dan pengusiran Tartar, **15 Karttika 1215 Saka/1293 M** — Raden Wijaya dirajakan dengan gelar **Sri Kertarajasa Jayawardhana**. Ia menikahi keempat putri Kertanagara: **Sri Parameswari Dyah Dewi Tribhuwaneswari, Sri Mahadewi Dyah Dewi Narendraduhita, Sri Jayendradewi Dyah Dewi Prajnaparamita, Sri Rajendradewi Dyah Dewi Gayatri** (`08-bab-3.md` A.4 line 1878-1900).
 
@@ -512,6 +516,21 @@ Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, periode akhir Majapahit — su
 
 ## 4.13 Benda-Artefak Penting Lainnya
 
+## 4.14 Candi Brahu + Candi Gentong (Kompleks Trowulan)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Trowulan, Mojokerto, Jawa Timur | `07-bab-2.md` C.2.b line 853-856 |
+| Kompleks | Candi Brahu dikelilingi Candi Muteran, Candi Tengah, Candi Gedong, Candi Gentong | `07-bab-2.md` C.2.b line 853 |
+| Candi Brahu — atap | Diperkirakan berbentuk stupa (masih menyisakan dasar kaki stupa berbentuk lingkaran + satu stupa di sudut atap) | `07-bab-2.md` C.2.b line 853 |
+| Candi Brahu — Prasasti Alasantan | 861 Saka/939 M — dikeluarkan **Raja Pu Sindok** (Mpu Sindok, Mataram awal); di sisi barat daya candi; menyebut bangunan suci **waharu/warahu** yang diyakini sebagai nama asli Candi Brahu | `07-bab-2.md` C.2.b line 853 |
+| Candi Brahu — temuan | 6 arca Buddha logam + piring perak beraksara | `07-bab-2.md` C.2.b line 853 |
+| Candi Brahu — periode | Dibangun abad 10 M (era Pu Sindok) → diperbaiki abad 14-15 M di masa Majapahit | `07-bab-2.md` C.2.b line 853 (per Agus Aris Munandar) |
+| Lemah Tulis (Lemah Citra) | Tempat pertapaan biksu abad 11 — dihuni **Mpu Bharadah** (era Airlangga); berkaitan dengan Candi Brahu | `07-bab-2.md` C.2.b line 853 |
+| Candi Brahu di Muteran — temuan logam | Arca Wairocana emas, arca Kuwera, bejana perunggu | `07-bab-2.md` C.2.b line 853 |
+| Candi Gentong (I + II) | Stupika + meterai beraksara Jawa Kuno; mantra "om ye te svaha"; meterai depan Buddha duduk didampingi Awalokiteswara + Wajrapani; menyerupai Prasasti Alasantan 861 Saka/939 → dibangun periode lebih awal + direnovasi masa Majapahit | `07-bab-2.md` C.2.b line 856 |
+| Signifikansi | Bukti kontinuitas Trowulan sebagai pusat Buddha sejak Mataram (abad 10) hingga Majapahit (abad 14-15) — Trowulan dipilih sebagai ibukota Majapahit bukan tempat kosong | `07-bab-2.md` C.2.b line 853-856 |
+
 | Artefak | Lokasi/Tanggal | Sumber primer |
 |---------|----------------|---------------|
 | **Arca Harihara** (Wisnu+Siwa) | Simping/Sumberjati, Blitar — perwujudan Kertarajasa | `08-bab-3.md` A.4 + Gambar 3.40 |
@@ -549,7 +568,7 @@ Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, periode akhir Majapahit — su
 | 5 | Wiraraja (mantri mahawiradikara); Nambi (rakryan mapatih); Sora (rakryan apatih di Daha); Ranggalawe (amanca nagara Tuban) | `08-bab-3.md` | A.4 line 1896-1903 | 530 |
 | 6 | Ranggalawe memberontak — kecewa tidak dapat posisi patih | `08-bab-3.md` | A.4 | 530 |
 | 7 | Berita Tiongkok: Kubilai Khan (Shih-Tsu) kirim 3 panglima (Shihpi, Ihé-mi-shih, Khau Hsing), 20.000 prajurit, 1.000 kapal, bekal 1 tahun | `08-bab-3.md` | A.4 paragraf "Berita Tiongkok" | 528 |
-| 8 | Tartar serang Daha: Jayakatwang siap 100.000 prajurit, 5.000 gugur, Jayakatwang+100 keluarga+pejabat ditawan | `08-bab-3.md` | A.4 | 528 |
+| 8 | Tartar serang Daha: Jayakatwang siap 100.000 prajurit, 5.000 gugur, Jayakatwang+100 anggota keluarga+pejabat ditawan | `08-bab-3.md` | A.4 line 1814 | 528 |
 | 9 | Raden Wijaya tipu Tartar → bunuh 2 opsir + 200 pengawal → serang Tartar di Daha-Canggu → 3.000 Tartar gugur | `08-bab-3.md` | A.4 | 528 |
 | 10 | Raden Wijaya nikah 4 putri Kertanagara: Tribhuwaneswari, Narendraduhita, Prajnaparamita, Gayatri | `08-bab-3.md` | A.4 line 1878 | 530 |
 | 11 | Kertarajasa didharmakan: arca Jina di Antahpura, arca Harihara di Simping (Sumberjati, selatan Blitar) | `08-bab-3.md` | A.4 line 1903 + Gambar 3.40 | 530 |
@@ -635,6 +654,25 @@ Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, periode akhir Majapahit — su
 | 91 | Pararaton — teks sejarah Ken Arok → raja-raja Majapahit; edisi Brandes 1897, Krom 1920, Kriswanto 2009 | `10-bab-5.md` C line 1286-1300 | — | — |
 | 92 | Buddhádyitya dari Kancipura (India) — gubah sloka pujian untuk Hayam Wuruk | `10-bab-5.md` line 2632 | — | — |
 | 93 | Hukum Majapahit: Kutaramanawa + Sarasamuccaya + Pirwadhigama; sapatha (kutukan sakral) | `10-bab-5.md` D.3 line 1860-1864 | — | — |
+| 94 | Koalisi Siwa-Buddha: 3 dharmadyaksa (kasaiwan Siddhanta, karsian Pasupata, kasogatan Buddha) — paralelisme/koalisi bukan sinkretisme | `07-bab-2.md` B.4 line 428 | — | — |
+| 95 | Kultus Bima transformasi: ksatria → figur spiritual Bhairawa (Siwa murka) — punden berundak Candi Sukuh + Candi Cetho + altar Gunung Penanggungan | `07-bab-2.md` B.4 line 432-440 | — | — |
+| 96 | Kultus Bhairawa (Kala-Bhairawa) Saiwa + Heruka (Hevajra Tantra) Vajrayana — periode pasca-Airlangga abad 12-15 | `07-bab-2.md` B.4 line 425-430 | — | — |
+| 97 | Kertanagara pendharmaan: patung Ardhaneswara + patung Jina; candi khas — bawah Saiwa, atas Buddha | `07-bab-2.md` B.4 line 428-435 | — | — |
+| 98 | Prasasti Kancana/Gedangan 782 Saka/860 — era Raja Kayuwangi (Mataram) — disalin (tinulad) masa Hayam Wuruk | `07-bab-2.md` B.4 line 387 | — | — |
+| 99 | Sutasoma: Mpu Tantular nyatakan jalan Buddha lebih maju vs Saiwa (perspektif Buddhis); Bubuksah Gagangaking + Kunjakarna gambar kesamaan Wairocana-Siwa-Pancakusika | `07-bab-2.md` B.4 line 432 | — | — |
+| 100 | Aksara Merapi-Merbabu (aksara Buda) — varian aksara Jawa Kuno untuk naskah di skriptoria Merapi-Merbabu; ratusan manuskrip (Jawa Kuno dialek tengahan, Sanskerta, Arab); berkembang sejak Majapahit akhir, bertahan hingga Kartasura abad 18 | `07-bab-2.md` A.6 line 196-204 | — | — |
+| 101 | Prasasti Damalung 1371 Saka/1449 — prasasti terpanjang dari skriptoria, isi ajaran moral (jangan berjudi, jangan bertaruh, bentuklah keluarga yang baik) | `07-bab-2.md` A.6 line 200 | — | — |
+| 102 | Bujangga Manik (pendeta Hindu Sunda) sebut area Merapi-Merbabu sebagai mandala/pusat pembelajaran | `07-bab-2.md` A.6 line 198 | — | — |
+| 103 | Aksara Arab awal Nusantara: Jawi (Melayu — dialek Aceh, Jambi, Palembang, Bima, Ambon, Ternate-Tidore, Banjar); Pegon (Jawa); Rambang (Jawa pesisiran); Serang (Bugis); Buri Wolio (Wolio) | `07-bab-2.md` A.8 line 210-245 | — | — |
+| 104 | Candi Brahu di Trowulan — dikelilingi Candi Muteran, Candi Tengah, Candi Gedong, Candi Gentong; atap berbentuk stupa | `07-bab-2.md` C.2.b line 853 | — | — |
+| 105 | Prasasti Alasantan 861 Saka/939 M — dikeluarkan Raja Pu Sindok; di sisi barat daya Candi Brahu; menyebut bangunan suci waharu/warahu — diyakini nama asli Candi Brahu | `07-bab-2.md` C.2.b line 853 | — | — |
+| 106 | Candi Brahu periode — dibangun abad 10 M (era Pu Sindok) → diperbaiki abad 14-15 M di masa Majapahit (per Agus Aris Munandar) | `07-bab-2.md` C.2.b line 853 | — | — |
+| 107 | Lemah Tulis (Lemah Citra) — tempat pertapaan biksu abad 11; dihuni Mpu Bharadah (era Airlangga); berkaitan dengan Candi Brahu | `07-bab-2.md` C.2.b line 853 | — | — |
+| 108 | Candi Brahu di Muteran — temuan arca Wairocana emas, arca Kuwera, bejana perunggu | `07-bab-2.md` C.2.b line 853 | — | — |
+| 109 | Candi Gentong (I + II) di Trowulan — stupika + meterai beraksara Jawa Kuno; mantra "om ye te svaha"; meterai depan Buddha duduk didampingi Awalokiteswara + Wajrapani; menyerupai Prasasti Alasantan 861 Saka/939 → dibangun periode lebih awal + direnovasi masa Majapahit | `07-bab-2.md` C.2.b line 856 | — | — |
+| 110 | Kontinuitas Trowulan sebagai pusat Buddha sejak Mataram (abad 10) hingga Majapahit (abad 14-15) — bukti Trowulan bukan tempat kosong saat dipilih sebagai ibukota Majapahit | `07-bab-2.md` C.2.b line 853-856 | — | — |
+| 111 | Toponim Tiongkok Bab 3 A.4: Tuban = Tu-ping-tsu; Sedayu = Sugalu; muara Kalimas = Pa-tsieh; pelabuhan asal Tartar = Ch'uanchou; Pulau Karimun Jawa (titik kumpul armada Tartar); Pulau Belitung (titik strategi) | `08-bab-3.md` A.4 line 1811 | — | — |
+| 112 | Jayakatwang + seratus anggota keluarga + pejabat tinggi kerajaan ditawan setelah Daha jatuh 1293 M | `08-bab-3.md` A.4 line 1814 | — | — |
 
 ## 5.2 Referensi Sekunder yang Disitir di Sumber Primer
 
@@ -726,14 +764,14 @@ Di Jawa Timur, **Candi Sukuh** (kaki Gunung Lawu, periode akhir Majapahit — su
 
 | Metrik | Nilai |
 |--------|-------|
-| Total kata | ~13.500 |
-| Klaim dengan sitasi | 93 |
+| Total kata | ~14.200 |
+| Klaim dengan sitasi | 112 |
 | Referensi sekunder disitir | 17 |
 | Tokoh utama | 6 (Raden Wijaya, Gajah Mada, Hayam Wuruk, Tribhuwanatunggadewi, Jayanagara, Girindrawardhana Dyah Ranawijaya) |
 | Tokoh pendukung | 17 (Wiraraja, Adityawarman, Wirabhumi, Wikramawardhana, Suhita, Kertawijaya, Rajasawardhana, Suraprabhawa, Kertabhumi, Patih Udara, Mpu Prapanca, Mpu Tantular, Mpu Tanakung, Ranggalawe, Nambi, Sora, dll.) |
 | Tokoh asing | 8 (Kubilai Khan, 3 panglima Tartar, Seng-Chia-Liyeh, Odorico de Pordenone, Zheng He, Tomé Pires, Buddhaditya) |
-| Latar utama | 12+ (Trowulan/Wilwatikta, Hutan Térik, Kudadu, Canggu, Trung, Tuban-Gresik-Sidayu-Surabaya, Daha/Kadiri, Blambangan, Pegunungan Jawa Tengah, Candi Sukuh, Trailokyapuri-Petak-Jiyu, Candi Simping) |
-| Prasasti disitir | 14 (Kudadu, Sukamerta, Tuhafaru, D.38, Bendosari, Canggu/Trowulan I, Pamintihan, Jiyu, Petak, Trailokyapuri II+IV, Gedong Songo, Damalung, Promasan, Timboa, Satyapura) |
+| Latar utama | 13+ (Trowulan/Wilwatikta, Hutan Térik, Kudadu, Canggu, Trung, Tuban-Gresik-Sidayu-Surabaya, Daha/Kadiri, Blambangan, Pegunungan Jawa Tengah, Candi Sukuh, Trailokyapuri-Petak-Jiyu, Candi Simping, Candi Brahu+Gentong) |
+| Prasasti disitir | 16 (Kudadu, Sukamerta, Tuhafaru, D.38, Bendosari, Canggu/Trowulan I, Pamintihan, Jiyu, Petak, Trailokyapuri II+IV, Gedong Songo, Damalung, Promasan, Timboa, Satyapura, Alasantan) |
 | Naskah sastra disitir | 7 (Nagarakretagama, Sutasoma, Arjunawijaya, Pararaton, Siwaratrikalpa, Jnanasiddhanta, Bhuvanoksa, Bujanggamanik, Uttarasabda, Nabi Aparas, Wejangan Seh Bari) |
 | Era periode | 1293-1527 M (±234 tahun) |
 | Era puncak | 1350-1389 M (Hayam Wuruk + Gajah Mada + Adityawarman) |

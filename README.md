@@ -39,7 +39,7 @@ drama-nusantara/
 │   ├── 2A-hindu-buddha-awal.md                       ✅ 831 baris
 │   ├── 2B-mataram-sriwijaya.md                       ✅ 805 baris
 │   ├── 2C-singasari-kediri.md                        ✅ 519 baris
-│   ├── 2D-majapahit.md                                ✅ 775 baris (expand lengkap — Bab III A.4 + Bab IV-V-VI)
+│   ├── 2D-majapahit.md                                ✅ 816 baris (expand lengkap — Bab II+III+IV+V+VI Jilid 2)
 │   ├── 3A-islamisasi-awal.md                          ✅ 571 baris (koreksi pendirian Demak 1481 M)
 │   └── 3B-demak-pajang.md                             ✅ 756 baris (koreksi + 4 tokoh baru + 2 latar baru)
 │
@@ -84,7 +84,7 @@ drama-nusantara/
 | Sumber primer (5 jilid) | 83 file MD asli |
 | Master era selesai | 10 dari 17 (1A-1D + 2D expand lengkap + 2A-2C + 3A-3B) |
 | T2I prompts selesai | 10 era (173 file .txt total) |
-| Total kata master era | ~101.000 kata (9.111 baris era docs) |
+| Total kata master era | ~104.000 kata (9.150+ baris era docs) |
 | Total file di repo | 345 |
 
 ## Status Master Era + T2I Prompts
@@ -99,7 +99,7 @@ drama-nusantara/
 | 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ | 831 | ✅ | 18 |
 | 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ | 805 | ✅ | 37 |
 | 2C Singasari-Kediri | Abad 11-13 M | ✅ | 519 | ✅ | 17 |
-| 2D Majapahit | Abad 13-16 M | ✅ expand | 775 | ✅ | 17 |
+| 2D Majapahit | Abad 13-16 M | ✅ expand | 816 | ✅ | 17 |
 | **TOTAL HINDU-BUDDHA** | | | **2930** | | **89** |
 | 3A Islamisasi Awal | Abad 13-15 M | ✅ koreksi | 571 | ✅ | 21 |
 | 3B Demak-Pajang | Abad 15-16 M | ✅ koreksi | 756 | ✅ | 21 |
@@ -170,3 +170,4 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 | 2026-10-20 | **Rewrite lengkap 1D** — +7 latar + bagian 4B primus inter pares (1098→1264 baris) | ✅ |
 | 2026-10-20 | **Cleanup repo** — hapus 55 file sampah (ringkasan/audit/enhanced-chapters/phase-1), update README | ✅ |
 | 2026-10-20 | **Expand lengkap 2D Majapahit** — Bab III A.4 + Bab IV-V-VI, 327→775 baris, 8.500→13.044 kata, 35→93 klaim, +9 tokoh +9 latar (Adityawarman, Wirabhumi, Kertabhumi, Ranawijaya, Patih Udara, Canggu, Trung, Daha/Kadiri, Candi Sukuh, pegunungan skriptoria) | ✅ |
+| 2026-10-20 | **Audit halu 2D expand** — ditemukan + fixed: Candi Sukuh ±1437 M (tahun halu, hapus); Meng Qi utusan Mongol 1289 (tahun halu, hapus); '100 keluarga' → '100 anggota keluarga' (sesuai sumber primer); add Bab 2 Jilid II content (dharmadyaksa kasaiwan/karsian/kasogatan, Candi Brahu+Prasasti Alasantan Pu Sindok 861/939, Aksara Merapi-Merbabu/Prasasti Damalung 1371/1449, Aksara Arab Jawi-Pegon-Serang) → 775→816 baris, 93→112 klaim | ✅ |
