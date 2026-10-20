@@ -65,7 +65,12 @@ drama-nusantara/
 │   ├── 4D-pendudukan-kemerdekaan.md               ⏳ (1942-1949)
 │   └── 4E-orde-lama-baru.md                       ⏳ (1949-1998)
 │
-├── produksi/                          ← PHASE 3: output drama/dokumenter (nanti)
+├── produksi/                          ← PHASE 3: output drama/dokumenter
+│   ├── t2i-prompts/                   ← T2I prompts per era (pola hibrida: 1 era master → 1 era T2I)
+│   │   ├── 1A-prasejarah-pleistosen-awal/         ✅ 10 prompt
+│   │   ├── 1B-prasejarah-pleistosen-tengah-akhir/ ✅ 10 prompt
+│   │   ├── 1C-prasejarah-holosen-neolitik/        ✅ 10 prompt
+│   │   └── 1D-prasejarah-logam-awal/              ✅ 12 prompt
 │   └── panji/                         ← (contoh — DITUNDA, bukan prioritas)
 │       └── pre-produksi/
 │
@@ -95,20 +100,43 @@ drama-nusantara/
 | Audit cross-check | 3 laporan, akurasi ≥98,7% |
 | Master era selesai | 4 dari 17 (1A, 1B, 1C, 1D — prasejarah LENGKAP) |
 | Master era dalam proses | 2A Hindu-Buddha Awal (berikutnya) |
+| T2I prompts selesai | 4 dari 17 era (42 prompt total) |
+| T2I prompts dalam proses | 2A Hindu-Buddha Awal (berikutnya) |
 
-## Master Era yang Telah Dikerjakan
+## Status Master Era + T2I Prompts (Pola Hibrida)
 
-| Era | Periode | Status | Kata |
-|---|---|---|---|
-| 1A Pleistosen Awal | 1,8 juta – 700 ribu thn lalu | ✅ Selesai | ~5.200 |
-| 1B Pleistosen Tengah-Akhir | 700 ribu – 12 ribu thn lalu | ✅ Selesai | ~8.500 |
-| 1C Holosen / Transisi Neolitik | 12 ribu – 2.500 SM | ✅ Selesai | ~11.000 |
-| 1D Logam Awal | 2.500 SM – abad 5 M | ✅ Selesai | ~13.500 |
-| **TOTAL ERA PRASEJARAH** | **1,8 juta thn lalu – abad 5 M** | ✅ | **~38.200** |
-| 2A Hindu-Buddha Awal | Abad 4-7 M | ⏳ Berikutnya | — |
-| 2B Mataram Kuno | Abad 8-10 M | ⏳ | — |
-| 2C Singasari-Kediri | Abad 11-13 M | ⏳ | — |
-| 2D Majapahit | Abad 13-16 M | ⏳ | — |
+Setiap selesai 1 era master → langsung buat prompt T2I komprehensif untuk era itu.
+
+| Era | Periode | Master | T2I Prompts | T2I Jumlah |
+|-----|---------|--------|-------------|-----------|
+| 1A Pleistosen Awal | 1,8 juta – 700 ribu thn lalu | ✅ ~5.200 kata | ✅ | 10 prompt |
+| 1B Pleistosen Tengah-Akhir | 700 ribu – 12 ribu thn lalu | ✅ ~8.500 kata | ✅ | 10 prompt |
+| 1C Holosen / Transisi Neolitik | 12 ribu – 2.500 SM | ✅ ~11.000 kata | ✅ | 10 prompt |
+| 1D Logam Awal | 2.500 SM – abad 5 M | ✅ ~13.500 kata | ✅ | 12 prompt |
+| **TOTAL ERA PRASEJARAH** | **1,8 juta thn lalu – abad 5 M** | ✅ ~38.200 kata | ✅ | **42 prompt** |
+| 2A Hindu-Buddha Awal | Abad 4-7 M | ⏳ Berikutnya | ⏳ | — |
+| 2B Mataram Kuno | Abad 8-10 M | ⏳ | ⏳ | — |
+| 2C Singasari-Kediri | Abad 11-13 M | ⏳ | ⏳ | — |
+| 2D Majapahit | Abad 13-16 M | ⏳ | ⏳ | — |
+| 3A Islamisasi Awal | Abad 13-15 M | ⏳ | ⏳ | — |
+| 3B Demak-Pajang | Abad 15-16 M | ⏳ | ⏳ | — |
+| 3C Mataram Islam | Abad 17-18 M | ⏳ | ⏳ | — |
+| 4A VOC Awal | Abad 17-18 M | ⏳ | ⏳ | — |
+| 4B Kolonial 19 | 1800-1900 | ⏳ | ⏳ | — |
+| 4C Pergerakan Kebangsaan | 1900-1942 | ⏳ | ⏳ | — |
+| 4D Pendudukan-Kemerdekaan | 1942-1949 | ⏳ | ⏳ | — |
+| 4E Orde Lama-Baru | 1949-1998 | ⏳ | ⏳ | — |
+
+### T2I Prompts per Era (Struktur)
+
+Setiap folder `produksi/t2i-prompts/<era>/README.md` berisi:
+- **Karakter** (3-4 prompt): profil tokoh historis, 9:16 portrait
+- **Latar** (4-5 prompt): landscape historis, 16:9 cinematic
+- **Artefak/Fauna** (2-3 prompt): macro detail, 1:1 square
+- Format 5-komponen Google (Subject/Setting/Lighting/Mood/Style)
+- Negative prompt lengkap
+- Iterasi multi-turn guidance
+- Quality gate per era
 
 ## Sumber
 
