@@ -765,6 +765,172 @@ Era berikutnya (2A Hindu-Buddha Awal) akan dibahas di master era terpisah.
 | Karakter | Kalamba (kubur batu berbentuk tong) + tuatena (tutup) | `07-bab-2.md` E |
 | Distribusi | Kalamba juga di Kalimantan Utara, Danau Toba (Sumatra Utara), Sarawak, Lembah Mekhong (Laos) | `07-bab-2.md` E |
 
+## 4.22 Latar 22 — Lembah Besoa + Lembah Napu + Lembah Bada (Sulawesi Tengah, megalitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Lembah Besoa, Lembah Napu, Lembah Bada — Sulawesi Tengah | `10-bab-5.md` A.3 |
+| Signifikansi | **Lembah Besoa memelopori kelahiran perkampungan heterogen di wilayah Indonesia** (1.387-831 SM) | `10-bab-5.md` |
+| Situs Entovera (Lembah Besoa) | 1.387-831 SM — kalamba, batu dakon, lesung batu, arca megalitik, tempayan kubur, dolmen, tembikar | `10-bab-5.md` |
+| Situs Pokekea (Lembah Besoa) | 80-510 M — kelanjutan hunian Lembah Besoa | `10-bab-5.md` |
+| Situs Ntowera (Lembah Besoa) | Umpak batu + lumpang batu; lubang tiang rumah panggung (komunitas Ban Kao Thailand, 2000 SM) | `10-bab-5.md` |
+| Arca Tadulako | Desa Doda, Kec. Lore Tengah, Kab. Poso | `10-bab-5.md` |
+| Karakter megalitik | Kalamba (wadah kubur kolektif) + arca menhir (pemujaan leluhur); tipologis mirip arca Pulau Paskah | `10-bab-5.md` |
+| Peralatan besi | Sudah dikenal untuk kehidupan sehari-hari + membuat monumen besar (arca menhir + kalamba) | `10-bab-5.md` |
+| Pola permukiman | Klaster: kampung inti (monumen kalamba, punden, menhir) + pemukiman satelit (ladang, kebun, hutan komunal) | `10-bab-5.md` |
+
+## 4.23 Latar 23 — Batu Tigo Sajarangan (Sumatra Barat, megalitik)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Minangkabau, Sumatra Barat | `10-bab-5.md` C.1 |
+| Karakter | 3 batu monolit (menhir) — simbolisasi trilogi kepemimpinan Minangkabau | `10-bab-5.md` |
+| Tiga unsur | ninik mamak (pemimpin adat) + alim ulama (pemimpin agama) + cadiak pandai (pemikir/cendekiawan) | `10-bab-5.md` |
+| Nama lain | Tungku Tigo Sajarangan — harmonisasi keseimbangan tiga elemen kepemimpinan informal | `10-bab-5.md` |
+| Batu temu gelang | Kursi batu berkelompok tersusun melingkar; sebaran: Lampung, Jawa Barat, Jawa Tengah, Jawa Timur, Sulawesi Tengah, Sulawesi Selatan, Bali, NTT, Papua | `10-bab-5.md` |
+
+## 4.24 Latar 24 — Dumtru (Kampung Bring, Papua, megalitik-kontemporer)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Kampung Bring, Distrik Kemtuk Gresi, Kab. Jayapura, Papua | `10-bab-5.md` C.1 |
+| Karakter | "Batu tempat musyawarah" — konsep demokrasi versi budaya Papua | `10-bab-5.md` |
+| Peneliti | Erlin Novita Idje Djami et al. (BRIN 2022) | `10-bab-5.md` |
+| Struktur | 5 batu besar permukaan datar tersusun melingkar mengelilingi perapian; 5 pejabat adat: [1] Eli (Digno/kepala), [2] Mebri (Trang), [3] Nian (Tegai/juru bicara), [4] Mes (Bemei), [5] Tabisu (Kiyeep/Srom) | `10-bab-5.md` |
+| Hierarki bawahan | Pradegu (perang) + Samdegu (pengukir); di kampung lain: Demetin | `10-bab-5.md` |
+| Variasi lain | Desa Kaitemung (Nimboran): 10 batu (5 utama + 5 istri); Nimboran lain: 3 batu (Iram/Digno, Dunensking wouw/Trang, Tekai/Tegai) | `10-bab-5.md` |
+| Model kepemimpinan Papua | Scaglion + Mansoben: 4 model — (1) big men, (2) Ondoafi, (3) kerajaan, (4) campuran | `10-bab-5.md` |
+| Signifikansi | Monumen batu melingkar (Dumtru) tersebar luas di Papua — model dari Austronesia | `10-bab-5.md` |
+
+## 4.25 Latar 25 — Situs-situs Megalitik Lainnya (sebaran nasional)
+
+| Situs | Lokasi | Karakter | Sumber primer |
+|-------|--------|----------|---------------|
+| **Gunung Padang** | Cianjur, Jawa Barat | Punden berundak raksasa; modifikasi teras batu; konstruksi monumental | `10-bab-5.md` A.3 |
+| **Kodedek** | Bondowoso, Jawa Timur | Situs megalitik | `10-bab-5.md` |
+| **Tutari** | Sentani, Papua | Situs megalitik + lukisan totem kadal | `10-bab-5.md` |
+| **Lembah Bada** | Sulawesi Tengah | Situs megalitik (sebelah Lembah Besoa + Napu) | `10-bab-5.md` |
+| **Gojeng** | Sinjai, Sulawesi Selatan | Situs megalitik | `10-bab-5.md` |
+| **Pasemah** | Sumatra Selatan | Situs megalitik | `10-bab-5.md` |
+| **Lembah Maek** | Limapuluh Kota, Sumatra Barat | Situs megalitik | `10-bab-5.md` |
+| **Waruga** | Minahasa, Sulawesi Utara | Kubur batu; ratusan jejak; arca megalit + kalamba | `10-bab-5.md` |
+| **Nias** | Sumatra Utara | Tradisi megalitik hidup (menhir + tarik batu) | `10-bab-5.md` |
+| **Toraja** | Sulawesi Selatan | Erong (peti jenazah) + simbuang (menhir); tau-tau (patung leluhur); rambu solo (upacara kematian) | `10-bab-5.md` |
+| **Sumba** | Nusa Tenggara Timur | Marapu (tradisi megalitik hidup) | `10-bab-5.md` |
+| **Batak** | Sumatra Utara | Singamangaraja (leluhur agung); tradisi megalitik | `10-bab-5.md` |
+
+## 4.26 Latar 26 — Situs Perahu Batu Yamdena (Kepulauan Tanimbar, Maluku)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Lokasi | Yamdena, pulau terbesar Kepulauan Tanimbar, Maluku | `10-bab-5.md` C.1 |
+| Karakter | Situs perahu batu — monumen penanda lokasi pendaratan leluhur (primus inter pares) | `10-bab-5.md` |
+| Fungsi | Pusat upacara beberapa kampung serumpun untuk meneguhkan solidaritas + identitas garis keturunan | `10-bab-5.md` |
+| Signifikansi | Hak desa/marga/kelompok pemilik tanah berkaitan dengan kisah berlabuh leluhur | `10-bab-5.md` |
+
+## 4.27 Latar 27 — Tradisi Seni Pertunjukan + Wayang + Gamelan (Holosen, kontemporer)
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Wayang | Tradisi Austronesia-Jawa; adaptasi epos Hindu-Buddha menjadi wayang Islam (era Pajang) | `10-bab-5.md` |
+| Gamelan | Sekati, Nagawilaga, Guntur Madu, Nyai Sekati (kreasi Sunan Kalijaga) | `10-bab-5.md` |
+| Batik | Surjan lurik ("pakaian taqwa" — Sunan Kalijaga) | `10-bab-5.md` |
+| Grebeg Mulud + Sekaten | Upacara Islam-Jawa (Sunan Kalijaga) | `10-bab-5.md` |
+| Tembang macapat | Lir-ilir, Dandanggula (Sunan Kalijaga); Asmaradana, Pucung (Sunan Giri); Pangkur (Sunan Drajat); Durma, Tombo Ati (Sunan Bonang); Kinanti, Sinom (Sunan Muria); Maskumambang, Mijil (Sunan Kudus) | `10-bab-5.md` |
+
+## 4.28 Latar 28 — Suku Tradisional Mapan (kontemporer, bukti hidup tradisi praaksara)
+
+| Suku | Lokasi | Tradisi yang masih hidup | Sumber primer |
+|------|--------|--------------------------|---------------|
+| **Subak (Bali)** | Bali | Sistem irigasi padi komunal; warisan Austronesia | `10-bab-5.md` D.3 |
+| **Kajang** | Sulawesi Selatan | Penjaga hutan hujan tropis; komunitas adat terisolasi | `10-bab-5.md` D.4 |
+| **Melayu (Riau)** | Riau | Arsitektur rumah Austronesia | `10-bab-5.md` D.6 |
+| **Bajau** | Indonesia Timur | Komunitas maritim; sejarah awal sebagai pelaut | `10-bab-5.md` D.8 |
+| **Toraja** | Sulawesi Selatan | Rambu solo (upacara kematian); erong; simbuang; tau-tau | `10-bab-5.md` |
+| **Sumba** | NTT | Marapu (kepercayaan leluhur) | `10-bab-5.md` |
+| **Nias** | Sumatra Utara | Tradisi megalitik (menhir + tarik batu) | `10-bab-5.md` |
+| **Batak** | Sumatra Utara | Singamangaraja; tradisi megalitik | `10-bab-5.md` |
+| **Asmat** | Papua Selatan | Patung Fumeripits (simbol manusia pertama); wow-ipits/wow iwir (pemahat) | `10-bab-5.md` |
+| **Dani** | Papua | Nakmaturi (primus inter pares) + kaneke (kapak batu sakral) | `10-bab-5.md` |
+| **Dayak** | Kalimantan | Sangiang (manusia pertama di dunia atas); balian (medium) | `10-bab-5.md` |
+
+---
+
+# BAGIAN 4B — KONSEP PRIMUS INTER PARES DAN KEPEMIMPINAN PRAAKSARA (Tambahan dari Bab V)
+
+> **Catatan**: Bagian ini berisi konsep kepemimpinan dari sumber primer Jilid I Bab V yang sebelumnya tidak di-ekstrak di master 1D.
+
+## 4B.1 Konsep Primus Inter Pares
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Definisi | "Yang pertama di antara yang sederajat" / "Yang paling utama di antara yang setara" | `10-bab-5.md` C |
+| Periode muncul | Sejak masa Pleistosen Akhir — beragam perwujudan simbol, totem, indikasi praktik upacara sakral | `10-bab-5.md` |
+| Fungsi | Identitas kelompok; legitimasi status elite tradisional; memori kolektif sebagai dasar pembentukan karakter + benteng moral | `10-bab-5.md` |
+| Perwujudan | Lukisan simbol, totem, patung/arca, monumen batu | `10-bab-5.md` |
+
+## 4B.2 Manifestasi Primus Inter Pares per Suku
+
+| Suku | Nama primus inter pares | Simbol | Sumber primer |
+|------|------------------------|--------|---------------|
+| Toraja | Pong Mula Tau (manusia pertama di bumi) | Patung tau-tau; Datu La ukku' (nenek moyang dari langit); Puang Matua Tondok / Pong Banggai Rante | `10-bab-5.md` |
+| Asmat | Fumeripits (manusia pertama) | Patung suci Fumeripits; wow-ipits/wow iwir (pemahat) | `10-bab-5.md` |
+| Dani | Nakmaturi | kaneke (kapak batu sakral) | `10-bab-5.md` |
+| Batak | Singamangaraja | (leluhur agung) | `10-bab-5.md` |
+| Dayak | Sangiang | Sosok di dunia atas yang turun via tubuh balian | `10-bab-5.md` |
+| Yamdena (Tanimbar) | Leluhur pendarat perahu | Perahu batu (monumen) | `10-bab-5.md` |
+
+## 4B.3 Totem Asal Kejadian
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Bentuk dominan | Kadal (Lacertilia), biawak (Varanus), bengkarung (Scincidae) — di Maluku + Kalimantan juga burung | `10-bab-5.md` C.1 |
+| Lokasi situs totem | Kalimantan, Papua, Maluku, Sulawesi | `10-bab-5.md` |
+| Situs terbaru | Gua Tujuh Pintu + Gua Halte, Desa Rejosari, Kec. Mantewe, Kab. Tanah Bumbu, Kalimantan Selatan — motif manusia kangkang 6.000 thn lalu | `10-bab-5.md` |
+| Situs lain | Liang Bangkai (Kalimantan Selatan); Gua Pominsa (manusia kangkang berdiri tegak, kaki mengangkang, jari terentang — ekspresi suci + kuat) | `10-bab-5.md` |
+| Kontinuitas | Manusia kangkang diukir di sarkofagus (Gilimanuk, Bali) + waruga (Minahasa) pada masa perundagian — simbol tolak-bala, jaminan perlindungan, kesuburan | `10-bab-5.md` |
+
+## 4B.4 Lukisan Antropomorfik: Sosok Pelindung
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Manusia kangkang | Simbol leluhur (primus inter pares) — tolak bala; tersebar: Kalimantan, Papua, Maluku, Sulawesi | `10-bab-5.md` C.1 |
+| Situs terbaru | Gua Tujuh Pintu + Gua Halte (Rejosari, Tanah Bumbu, Kalimantan Selatan) — 6.000 thn lalu; mahkota 4 garis; 4 jari tangan+kaki terentang; kepala menghadap selatan | `10-bab-5.md` |
+
+## 4B.5 Motif Geometrik: Simbol Kepahlawanan dan Integrator
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Fungsi | Memori kolektif kepahlawanan; mitigasi disintegrasi sosial | `10-bab-5.md` C.1 |
+| Arca tipe Polinesia | Tidak proporsional (badan vs wajah); batu andesit; medium penghormatan primus inter pares; tersebar: Sumatra, Jawa, Kalimantan, Sulawesi, Maluku, Papua | `10-bab-5.md` |
+| Situs arca Polinesia | Pugung Raharjo (Lampung); Lembah Besoa + Lembah Bada (Sulawesi Tengah, 4.000 thn lalu); Timo'oni + Kontara + Watu Urani (Rampi, Luwu Utara); Lebani (Luwu); Srobu (Jayapura, Papua) | `10-bab-5.md` |
+
+## 4B.6 Takhta Batu: Kepemimpinan Kolektif dan Praktik Musyawarah
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Definisi | Batu temu gelang — kumpulan bongkahan batu tersusun melingkar | `10-bab-5.md` C.1 |
+| Sebaran | Lampung, Jawa Barat, Jawa Tengah, Jawa Timur, Sulawesi Tengah, Sulawesi Selatan, Bali, NTT, Papua | `10-bab-5.md` |
+| Bentuk awal (Sutaba) | 1 lempeng batu tegak (sandaran) + 1 lempeng batu datar (alas) — di Bali | `10-bab-5.md` |
+| Batu Tigo Sajarangan | 3 menhir — simbolisasi ninik mamak + alim ulama + cadiak pandai (Minangkabau) | `10-bab-5.md` |
+| Dumtru | 5 batu melingkar — demokrasi Papua (Kampung Bring) | `10-bab-5.md` |
+
+## 4B.7 Figur Kompeten dan Solider: Bedah Amputasi Tertua di Dunia
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Bukti | Liang Tebo TB1 (Kalimantan, 31 Ka) — amputasi bedah tertua di dunia; ahli bedah MMAA Pleistosen Akhir punya pengetahuan anatomi + otot + pembuluh darah + antiseptik flora endemik | `10-bab-5.md` C.1 |
+| Signifikansi | Figur kompeten = primus inter pares yang punya kecakapan medis canggih jauh sebelum Neolitik | `10-bab-5.md` |
+
+## 4B.8 Konsep Resiprositas dalam Ritual Kematian
+
+| Atribut | Nilai | Sumber primer |
+|---------|-------|---------------|
+| Prinsip | Kewajiban memberi + menerima; sumbangan kepada keluarga si mati → harus dibalas ketika musibah kematian terjadi pada keluarga pemberi | `10-bab-5.md` A.3 |
+| Ritual kematian | Aktivitas komunal kompleks; prioritas pengerahan energi + hewan korban + keanekaan paling tinggi | `10-bab-5.md` |
+| Kepercayaan | Kematian = proses peralihan dunia → alam arwah; roh si mati akan memberkahi masyarakat kampung, memberi kesuburan, menjauhkan bencana | `10-bab-5.md` |
+| Tradisi hidup | Toraja (rambu solo) + Sumba (marapu) + Nias (tarik batu) | `10-bab-5.md` |
+
 ---
 
 # BAGIAN 5 — SUMBER PRIMER YANG DIPAKAI
