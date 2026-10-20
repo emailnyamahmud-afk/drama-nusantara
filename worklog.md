@@ -1236,3 +1236,35 @@ Stage Summary:
 - Temuan kunci: Zaman Logem Asia Tenggara Kepulauan abad 2 SM - abad 5 M, tidak ada logem sebelum 200 SM, perunggu dari Dongson Vietnam, manik kaca komposisi India + Timur Tengah, manik emas Mesir-Roma (Pangkung Paruk), cermin Dinasti Han (Manikliyu), nekara Heger IA Dong-Son (Selayar), 14 jenis megalitik
 - ERA PRASEJARAH LENGKAP (1A-1D) — total ~38.200 kata, 1,8 juta thn lalu - abad 5 M
 - Berikutnya: 2A Hindu-Buddha Awal (abad 4-7 M) — transisi prasejarah ke sejarah
+
+---
+Task ID: 2A-RISET-HINDU-BUDDHA-AWAL
+Agent: Main Agent (Z.ai)
+Task: Riset era 2A — Hindu-Buddha Awal (abad 4-7 M). Era pertama Hindu-Buddha. Berdasarkan sumber primer Kemenbud 2025 Jilid II Bab III section A.1 + Bab I-II.
+
+Work Log:
+- Baca riset/sumber-primer/jilid-2/08-bab-3.md section A.1 (Kerajaan-Kerajaan Tertua di Nusantara abad 4-7 M) — baris 127-450.
+- Identifikasi 6 kerajaan/kekuatan politik: Kutai (Kaltim, abad 4-5 M), Tarumanagara (Jabar, abad 5 M), Kan-to-li (Jambi, 455-563 M), Ho Ling (Jawa, abad 5-7 M), Wijayapura (Kalbar, abad 7 M), awal Sriwijaya (Palembang, akhir abad 7 M).
+- Baca detail Prasasti Yupa (7 buah, 5 terbaca, aksara Pallawa tua, Sanskerta puisi).
+- Baca silsilah Kutai: Kundungga (penduduk asli) → Aswawarman (pendiri dinasti) → Mulawarman (raja utama).
+- Baca detail Purnawarman (7 prasasti, kanal Gomati-Candrabhaga, Hindu Awal pemujaan Wisnu).
+- Baca detail Kan-to-li (Varanarendra, Saba-la-na-lin-da, utusan ke Tiongkok).
+- Cross-check dengan Bab I (interaksi awal India) + Bab II (aksara, agama Hindu-Buddha).
+- Tulis dokumen 2A dengan struktur 8 bagian sesuai TEMPLATE-master-era.md.
+
+Stage Summary:
+- File output: /home/z/my-project/master-era/2A-hindu-buddha-awal.md
+- Total kata: ~9.500
+- Status: Berdasarkan sumber primer otentik (Jilid II Bab III A.1 + Bab I-II)
+- Tidak ada halu — semua klaim disitasi
+- Tokoh kunci: Mulawarman (Kutai), Purnawarman (Tarumanagara), Varanarendra + Saba-la-na-lin-da (Kan-to-li), Aswawarman, Kundungga, Brahmana India, Faxian (biksu Tiongkok 414 M), Kalidasa (penyair India 381-413/4 M)
+- Latar kunci: Muara Kaman (Kutai), Batu Tumbuh (Tarumanagara), Batanghari (Kan-to-li), Batujaya, Kampung Pahat (Sanggau), Gunung Kombeng, Buni, Sembiran, Pasemah, Plawangan
+- Temuan kunci: Prasasti Yupa (aksara tertua Asia Tenggara), kanal Gomati-Candrabhaga (proyek irigasi Purnawarman), 7 stupa relief di Kampung Pahat, arca Buddha Sambas
+
+T2I Prompts untuk 2A:
+- 4 karakter ref sheet (Mulawarman, Purnawarman, Brahmana India, Aswawarman) - 5 angle grid, clean cream studio background, 9:16
+- 5 latar (Muara Kaman, Batu Tumbuh, Batujaya, Batanghari-Kan-to-li, Kampung Pahat) - scene historis 9:16
+- 3 artefak (Yupa, Prasasti Tugu, Arca Buddha Sambas) - macro 9:16
+- Total 12 file flat siap copy-paste ke Dola AI
+
+Update README: 5 dari 17 era selesai (master + T2I), 54 T2I prompt total.
