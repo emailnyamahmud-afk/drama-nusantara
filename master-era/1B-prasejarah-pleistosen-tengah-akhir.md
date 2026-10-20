@@ -1000,4 +1000,4 @@ Yang akan dibahas di 1C:
 - Kompleks gigi Sundadont vs Sinodont
 - Budaya Pra-Neolitik → transisi Neolitik
 
-**Sumber primer untuk 1C**: `sumber-primer/jilid-1/07-bab-2.md` section E-2 (Manusia Holosen Akhir hingga Resen) + Bab III (Perkembangan Teknologi — awal Neolitik tembikar) + Bab V (Organisasi Sosial — awal komunitas pra-Neolitik).
+**Sumber primer untuk 1C**: `riset/sumber-primer/jilid-1/07-bab-2.md` section E-2 (Manusia Holosen Akhir hingga Resen) + Bab III (Perkembangan Teknologi — awal Neolitik tembikar) + Bab V (Organisasi Sosial — awal komunitas pra-Neolitik).

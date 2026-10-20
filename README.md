@@ -1,101 +1,109 @@
-# Drama Nusantara — Riset Sejarah
+# Drama Nusantara — Riset & Master Era
 
-> Riset sejarah untuk produksi drama Nusantara berbasis buku **Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global** (Kementerian Kebudayaan RI, 2025)
+> Riset sejarah untuk produksi drama/dokumenter Nusantara berbasis buku **Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global** (Kementerian Kebudayaan RI, 2025)
 
-## Struktur Repo (150 file)
+## Alur Kerja (Phase)
+
+```
+Phase 1: RISET              → baca sumber primer, ringkasan, audit
+   ↓
+Phase 2: MASTER ERA         → tiap era = narasi + tokoh + latar (berdasar sumber primer)
+   ↓
+Phase 3: PRODUKSI (nanti)   → output format drama/dokumenter, storyboard, dll
+```
+
+**Status saat ini**: Phase 2 — Master Era (prasejarah 1A-1D sedang dikerjakan)
+
+## Struktur Repo
 
 ```
 drama-nusantara/
-├── README.md                  ← file ini
-├── worklog.md                 ← log 25 task IDs
+├── README.md                          ← file ini
+├── worklog.md                         ← log semua task IDs
 ├── .gitignore
 │
-├── ringkasan/                 ← 10 file, 106.680 kata
-│   ├── INDEX.md               ← panduan navigasi 5 jilid
-│   ├── master-tokoh.yaml      ← 250 tokoh, 77 lintas-jilid, 4.033 baris
-│   ├── ringkasan-jilid-1-akar-peradaban-nusantara.md        (9.438 kata)
-│   ├── ringkasan-jilid-2-perjumpaan-india-tiongkok-persia.md (9.592 kata)
-│   ├── ringkasan-jilid-3-timur-tengah.md                     (12.979 kata)
-│   ├── ringkasan-jilid-4-interaksi-awal-barat.md             (40.861 kata)
-│   ├── ringkasan-jilid-5-negara-kolonial-1800-1900.md        (16.382 kata)
-│   ├── ringkasan-jilid-4-suplemen.md                         (4.612 kata, sub-bab terlewat)
-│   ├── ringkasan-jilid-4-suplemen-2-tokoh.md                 (6.864 kata, 420 tokoh)
-│   └── ringkasan-jilid-1-2-3-suplemen.md                     (5.952 kata, 150 tokoh + 80 sub-bab)
+├── riset/                             ← PHASE 1: sumber primer + ringkasan + audit
+│   ├── sumber-primer/                 ← 123 file MD, 1,257 juta kata
+│   │   ├── jilid-1/                   ← 13 file (Akar Peradaban Nusantara)
+│   │   ├── jilid-2/                   ← 15 file (Perjumpaan India-Tiongkok-Persia)
+│   │   ├── jilid-3/                   ← 17 file (Timur Tengah / Islamisasi)
+│   │   ├── jilid-4/                   ← 18 file (Interaksi Awal dengan Barat)
+│   │   ├── jilid-5/                   ← 15 file (Negara Kolonial 1800-1900)
+│   │   └── enhanced-chapters/         ← 38 YAML ontology per bab
+│   │
+│   ├── ringkasan/                    ← 10 file, 106.680 kata
+│   │   ├── INDEX.md                   ← panduan navigasi 5 jilid
+│   │   ├── master-tokoh.yaml         ← 250 tokoh lintas-jilid
+│   │   ├── ringkasan-jilid-{1-5}-*.md ← 5 ringkasan utama
+│   │   └── ringkasan-jilid-*-suplemen*.md ← 3 suplemen
+│   │
+│   ├── audit/                         ← 3 laporan cross-check
+│   │   ├── audit-jilid3-kemenbud-2025.md
+│   │   ├── audit-ringkasan-jilid4.md  (228 klaim cross-check, 98,7% akurat)
+│   │   └── audit-ringkasan-jilid5.md  (≥98% akurat)
+│   │
+│   └── phase-1/                       ← riset drama awal (sebelum Kemenbud 2025)
+│       ├── phase-1-mataram-kuno-master.yaml  (79 KB)
+│       └── phase-2-singasari-master.yaml     (64 KB)
 │
-├── audit/                     ← 3 laporan, 10.656 kata
-│   ├── audit-jilid3-kemenbud-2025.md     (3.322 kata, struktural OCR artifacts)
-│   ├── audit-ringkasan-jilid4.md         (6.071 kata, 228 klaim cross-check, 98,7% akurat)
-│   └── audit-ringkasan-jilid5.md         (1.263 kata, 75+ klaim cross-check, ≥98% akurat)
+├── master-era/                        ← PHASE 2: master era (SEDANG dikerjakan)
+│   ├── TEMPLATE-master-era.md        ← template wajib untuk semua era
+│   ├── 1A-prasejarah-pleistosen-awal.md          ← ✅ 1,8 jt - 700 rb thn
+│   ├── 1B-prasejarah-pleistosen-tengah-akhir.md  ← ✅ 700 rb - 12 rb thn
+│   ├── 1C-prasejarah-holosen-neolitik.md         ⏳ 12 rb - 2.500 SM (berikutnya)
+│   ├── 1D-prasejarah-logam-awal.md                ⏳ 2.500 SM - abad 5 M (berikutnya)
+│   ├── 2A-hindu-buddha-awal.md                    ⏳ (Kutai, Tarumanagara)
+│   ├── 2B-mataram-kuno.md                         ⏳ (abad 8-10 M)
+│   ├── 2C-singasari-kediri.md                     ⏳ (abad 11-13 M)
+│   ├── 2D-majapahit.md                            ⏳ (abad 13-16 M)
+│   ├── 3A-islamisasi-awal.md                      ⏳ (Pasai, Malaka)
+│   ├── 3B-demak-pajang.md                         ⏳ (abad 15-16 M)
+│   ├── 3C-mataram-islam.md                        ⏳ (abad 17-18 M)
+│   ├── 4A-voc-awal.md                             ⏳ (abad 17-18 M)
+│   ├── 4B-kolonial-19.md                          ⏳ (1800-1900)
+│   ├── 4C-pergerakan-kebangsaan.md                ⏳ (1900-1942)
+│   ├── 4D-pendudukan-kemerdekaan.md               ⏳ (1942-1949)
+│   └── 4E-orde-lama-baru.md                       ⏳ (1949-1998)
 │
-├── sumber-primer/             ← 123 file, 1.257.120 kata
-│   ├── jilid-1/               ← 13 file MD (300.940 kata) — Akar Peradaban Nusantara
-│   ├── jilid-2/               ← 15 file MD (297.374 kata) — Perjumpaan India-Tiongkok-Persia
-│   ├── jilid-3/               ← 17 file MD (230.624 kata) — Timur Tengah / Islamisasi
-│   ├── jilid-4/               ← 18 file MD (221.902 kata) — Interaksi Awal dengan Barat
-│   ├── jilid-5/               ← 15 file MD (206.280 kata) — Negara Kolonial 1800-1900
-│   └── enhanced-chapters/     ← 38 YAML ontology per bab + 5 _meta.yaml
+├── produksi/                          ← PHASE 3: output drama/dokumenter (nanti)
+│   └── panji/                         ← (contoh — DITUNDA, bukan prioritas)
+│       └── pre-produksi/
 │
-├── phase-1/                   ← riset drama awal (sebelum Kemenbud 2025)
-│   ├── riset-drama-nusantara.md           (10 era, 14.277 kata)
-│   ├── phase-1-mataram-kuno-master.yaml   (Mataram Kuno, 79 KB)
-│   └── phase-2-singasari-master.yaml      (Singasari, 64 KB)
-│
-└── scripts/                   ← 8 script Python
-    ├── audit_all_text_repo.py             (audit menyeluruh semua file repo)
-    ├── audit_jilid3_struktural.py         (audit struktural OCR Jilid 3)
-    ├── audit_jilid3_detail.py             (detail empty sections, hierarchy, weird chars)
-    ├── audit_jilid123_struktur.py         (mapping struktur 18 bab Jilid 1-3)
-    ├── extract_tokoh_jilid4.py            (ekstrak tokoh via regex Jilid 4)
-    ├── map_struktur_jilid4.py             (mapping struktur 10 bab Jilid 4)
-    ├── build_quality_report.py            (quality report semua bab)
-    └── generate_medium_priority_enhanced.py (YAML enhanced untuk 32 bab)
+└── scripts/                           ← script Python pendukung
+    ├── audit_*.py                     ← audit script
+    ├── extract_*.py                   ← ekstraksi tokoh/struktur
+    ├── koreksi_*.py                   ← koreksi massal
+    └── update_*.py                    ← update massal
 ```
 
 ## Quick Start
 
-1. **Baca `ringkasan/INDEX.md`** untuk panduan navigasi 5 jilid
-2. **Cari tokoh** di `ringkasan/master-tokoh.yaml` (250 tokoh, urut kronologis T001-T250)
-3. **Pilih fase drama** berdasarkan periode:
-   - Fase 1-3: Jilid 1-2 (prasejarah → Hindu-Buddha, 1,8 juta tahun lalu – abad 16 M)
-   - Fase 4-6: Jilid 3 (Islamisasi, abad 7 – abad 16 M)
-   - Fase 7-9: Jilid 4 (VOC awal, abad 15 – 1799 M)
-   - Fase 10-12: Jilid 5 (kolonial 19, 1800-1900 M)
-4. **Verifikasi fakta** di `audit/` (3 laporan cross-check ke sumber primer)
-5. **Baca sumber primer** di `sumber-primer/jilid-X/` untuk detail lengkap
+1. **Baca `riset/ringkasan/INDEX.md`** untuk panduan navigasi 5 jilid
+2. **Cari tokoh** di `riset/ringkasan/master-tokoh.yaml` (250 tokoh)
+3. **Baca master era** di `master-era/<era>.md` (mulai dari 1A)
+4. **Verifikasi fakta** di `riset/audit/` (3 laporan cross-check)
+5. **Baca sumber primer** di `riset/sumber-primer/jilid-X/` untuk detail
 
 ## Statistik
 
 | Metrik | Angka |
 |---|---|
-| Total file di repo | 150 |
-| Total kata (semua file) | ~1,46 juta |
-| Total ringkasan | 106.680 kata (5 jilid + 3 suplemen, 38 bab) |
-| Total tokoh (Master YAML) | 250 (77 lintas-jilid) |
-| Total sumber primer | 78 file MD, 1.257.120 kata |
-| Total audit | 3 laporan, 10.656 kata |
-| Total task di worklog | 25 task IDs |
-| Akurasi ringkasan | Jilid 4: 98,7% \| Jilid 5: ≥98% |
+| Total file di repo | 150+ |
+| Sumber primer (5 jilid) | 1,257 juta kata |
+| Ringkasan 5 jilid + suplemen | 106.680 kata |
+| Master YAML tokoh | 250 (77 lintas-jilid) |
+| Audit cross-check | 3 laporan, akurasi ≥98,7% |
+| Master era selesai | 2 dari 17 (1A, 1B) |
+| Master era dalam proses | 1C, 1D (prasejarah) |
 
-## Audit yang Telah Dilakukan
+## Master Era yang Telah Dikerjakan
 
-| Audit | Jilid | Metode | Hasil |
+| Era | Periode | Status | Kata |
 |---|---|---|---|
-| Struktural OCR artifacts | Jilid 3 | Script Python (heading hierarchy, weird chars, empty sections) | 6 kategori, ~57 titik masalah |
-| Cross-check klaim ke sumber primer | Jilid 4 | grep 228 klaim ke 10 bab sumber primer | 98,7% akurat, 1 kesalahan (38→68 perken) |
-| Cross-check klaim ke sumber primer | Jilid 5 | grep 75+ klaim ke 7 bab sumber primer | ≥98% akurat, 0 kesalahan signifikan |
-| Audit semua text repo | Semua | Script Python (encoding, YAML, Python, broken links, duplicates) | 150 file bersih, 0 encoding error, 0 broken link |
-
-## Tokoh Lintas-Jilid Terpenting
-
-| Tokoh | Jilid | Peran |
-|---|---|---|
-| Abd al-Ra'uf al-Sinkili | 3, 4, 5 | Kadi Aceh, khalifah Syattariyah |
-| Sultan Agung | 3, 4 | Mataram Islam, penyerangan Batavia |
-| Sultan Hasanuddin | 3, 4 | Gowa-Tallo, Perjanjian Bongaya |
-| Eugène Dubois | 1, 5 | Pithecanthropus Trinil 1891 |
-| Alfred Russel Wallace | 1, 5 | Garis Wallace, co-penemu seleksi alam |
-| Raja Ali Haji | 4, 5 | Tuhfat al-Nafis, pujangga Pulau Penyengat |
-| Mangkunegara IV | 4, 5 | Wedhatama, industrialis gula Colomadu |
+| 1A Pleistosen Awal | 1,8 juta – 700 ribu thn lalu | ✅ Selesai | ~5.200 |
+| 1B Pleistosen Tengah-Akhir | 700 ribu – 12 ribu thn lalu | ✅ Selesai | ~8.500 |
+| 1C Holosen / Transisi Neolitik | 12 ribu – 2.500 SM | ⏳ Berikutnya | — |
+| 1D Logam Awal | 2.500 SM – abad 5 M | ⏳ Berikutnya | — |
 
 ## Sumber
 
@@ -104,18 +112,22 @@ drama-nusantara/
 - **URL**: https://pustakabudaya.id
 - **Repo**: https://github.com/emailnyamahmud-afk/drama-nusantara
 
-## Riwayat Pengerjaan
+## Riwayat Pengerjaan (Ringkas)
 
-| Task ID | Deskripsi |
-|---|---|
-| 1-8 | Riset drama awal (10 era) + master YAML Mataram Kuno & Singasari |
-| 9 | Audit struktural Jilid 3 Kemenbud 2025 |
-| 10-A s/d 10-E | Ekstrak drama material Jilid 4 (5 subagent paralel) |
-| 11 | Sintesis ringkasan Jilid 4 + setup GitHub |
-| 12 | Audit cross-check Jilid 4 (228 klaim, 98,7% akurat) |
-| 13-14 | Suplemen Jilid 4 (24 sub-bab + 420 tokoh tambahan) |
-| 15-A s/d 15-D | Ekstrak drama material Jilid 5 (4 subagent paralel) |
-| 15 | Audit Jilid 1, 2, 3 (80 sub-bab + 150 tokoh terlewat) |
-| 16 | Ringkasan Jilid 5 + merge suplemen + INDEX |
-| 17 | Audit Jilid 5 (≥98% akurat) + Master YAML 250 tokoh |
-| Cleanup | Restrukturisasi repo: 1.496 → 150 file, hapus duplikasi, update path |
+| Phase | Task | Status |
+|-------|------|--------|
+| Phase 1 | Riset drama awal (10 era) + master YAML Mataram Kuno & Singasari | ✅ |
+| Phase 1 | Audit struktural Jilid 3 Kemenbud 2025 | ✅ |
+| Phase 1 | Ekstrak drama material Jilid 4 (5 subagent paralel) | ✅ |
+| Phase 1 | Sintesis ringkasan Jilid 4 | ✅ |
+| Phase 1 | Audit cross-check Jilid 4 (228 klaim, 98,7% akurat) | ✅ |
+| Phase 1 | Suplemen Jilid 4 (24 sub-bab + 420 tokoh) | ✅ |
+| Phase 1 | Ekstrak drama material Jilid 5 (4 subagent paralel) | ✅ |
+| Phase 1 | Audit Jilid 1, 2, 3 (80 sub-bab + 150 tokoh) | ✅ |
+| Phase 1 | Ringkasan Jilid 5 + merge suplemen + INDEX | ✅ |
+| Phase 1 | Audit Jilid 5 (≥98% akurat) + Master YAML 250 tokoh | ✅ |
+| Cleanup | Restrukturisasi repo: 1.496 → 150 file | ✅ |
+| Phase 3 (ditunda) | Pre-produksi Panji (story bible + characters + visual style + storyboard) | ✅ Dibuat, lalu ditunda |
+| Phase 2 | Master Era 1A Pleistosen Awal | ✅ |
+| Phase 2 | Master Era 1B Pleistosen Tengah-Akhir | ✅ |
+| Phase 2 | Restructure folder riset/master-era/produksi | ✅ |

@@ -33,7 +33,7 @@ Pada Pleistosen Awal, konfigurasi Nusantara berbeda drastis dari hari ini:
 - **Sungai purba**: Proto-Kapuas, Proto-Lupar, Lembah Anambas — mengalir ke Laut Cina Selatan.
 - **Koridor sabana**: 50-150 km lebar, membentang dari Laut Cina Selatan ke Laut Jawa, memisahkan hutan hujan Sumatra-Kalimantan.
 
-Sumber primer: `sumber-primer/jilid-1/06-bab-1.md` section A, D, F; Sathiamurthy & Voris 2006 (ref 24); Bird, Taylor, Hunt 2005 (ref 113); Bellwood 2007 (ref 59).
+Sumber primer: `riset/sumber-primer/jilid-1/06-bab-1.md` section A, D, F; Sathiamurthy & Voris 2006 (ref 24); Bird, Taylor, Hunt 2005 (ref 113); Bellwood 2007 (ref 59).
 
 ## 1.3 Kerangka Iklim & Vegetasi
 
@@ -434,7 +434,7 @@ Semua di lembah Bengawan Solo, menjadi jalur jelajah Homo erectus.
 
 | # | Klaim | File sumber primer | Section | Hal. buku asli |
 |---|-------|---------------------|---------|-----------------|
-| 1 | Indonesia di pertemuan 3 lempeng tektonik | `sumber-primer/jilid-1/06-bab-1.md` | A. Nusantara di Tengah Tatanan Geologi Global | 101 |
+| 1 | Indonesia di pertemuan 3 lempeng tektonik | `riset/sumber-primer/jilid-1/06-bab-1.md` | A. Nusantara di Tengah Tatanan Geologi Global | 101 |
 | 2 | Subduksi Lempeng Indo-Australia mulai 50 juta thn lalu | `06-bab-1.md` | A.1 | 101 |
 | 3 | Paparan Sunda -120 m di bawah muka laut saat ini | `06-bab-1.md` | D. Gambaran Umum Geologi Kuarter | 105 |
 | 4 | Sungai purba: Proto-Kapuas, Proto-Lupar, Lembah Anambas | `06-bab-1.md` | D | 105 |
@@ -617,4 +617,4 @@ Yang akan dibahas di 1B:
 - Manusia Modern Anatomis Awal (MMAA) di Nusantara (73-63 ka, Lenggong, Sumatra)
 - Transisi Pleistosen → Holosen (12 rb thn lalu)
 
-**Sumber primer untuk 1B**: `sumber-primer/jilid-1/07-bab-2.md` section C-F (Trinil detail, Homo floresiensis, Toba, MMAA).
+**Sumber primer untuk 1B**: `riset/sumber-primer/jilid-1/07-bab-2.md` section C-F (Trinil detail, Homo floresiensis, Toba, MMAA).

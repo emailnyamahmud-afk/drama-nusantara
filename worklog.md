@@ -1116,3 +1116,45 @@ Stage Summary:
 - Tokoh kunci: Homo erectus soloensis (Ngandong 117-40 ka), Homo floresiensis (Liang Bua 2003), Manusia Wajak (37-28 ka), MMAA Lida Ajer (73-63 ka), Individu Gua Pawon (11-7 ka)
 - Latar kunci: Lembah Bengawan Solo, Kubah Sangiran Formasi Kabuh, Liang Bua Flores, Toba supervolcano
 - Berikutnya: 1C Holosen / Transisi Neolitik (12 rb - 2.500 SM)
+
+---
+Task ID: RESTRUCTURE-FOLDER
+Agent: Main Agent (Z.ai)
+Task: Restructure folder repo — pisahkan jelas antara riset/master-era/produksi sesuai phase. User minta: 'Struktur folder berantakan. Kita bikin jelas: folder riset, folder master era, folder produksi (nanti), sehingga step-stepnya jelas. Kita baru sampai di phase master'.
+
+Work Log:
+- Buat folder `riset/` dan `master-era/` di root
+- Pindahkan `sumber-primer/` → `riset/sumber-primer/` (123 file MD, 1,257 juta kata)
+- Pindahkan `ringkasan/` → `riset/ringkasan/` (10 file, 106.680 kata)
+- Pindahkan `audit/` → `riset/audit/` (3 laporan cross-check)
+- Pindahkan `phase-1/` → `riset/phase-1/` (riset awal pre-Kemenbud 2025)
+- Pindahkan `produksi/riset-era/1A-*.md` → `master-era/1A-prasejarah-pleistosen-awal.md`
+- Pindahkan `produksi/riset-era/1B-*.md` → `master-era/1B-prasejarah-pleistosen-tengah-akhir.md`
+- Pindahkan `produksi/riset-era/TEMPLATE-master-era.md` → `master-era/TEMPLATE-master-era.md`
+- Hapus folder kosong `produksi/riset-era/`
+- Pertahankan `produksi/panji/` sebagai contoh (DITUNDA, bukan prioritas)
+- Update semua path `sumber-primer/` → `riset/sumber-primer/` di file master-era (1A, 1B)
+- Update README.md dengan struktur baru + alur kerja 3 phase
+
+Struktur final:
+```
+drama-nusantara/
+├── riset/             ← Phase 1: sumber primer + ringkasan + audit
+├── master-era/        ← Phase 2: master era per periode (SEDANG dikerjakan)
+├── produksi/          ← Phase 3: output drama/dokumenter (nanti)
+└── scripts/           ← script Python pendukung
+```
+
+Alur kerja 3 phase:
+1. Phase 1 RISET → baca sumber primer, ringkasan, audit
+2. Phase 2 MASTER ERA → tiap era = narasi + tokoh + latar (berdasar sumber primer)
+3. Phase 3 PRODUKSI (nanti) → output format drama/dokumenter, storyboard, dll
+
+Status saat ini: Phase 2 — Master Era (prasejarah 1A-1D sedang dikerjakan)
+
+Stage Summary:
+- Struktur folder bersih, 3 phase jelas terpisah
+- File master-era (1A, 1B, TEMPLATE) dipindah ke folder root `master-era/`
+- File riset (sumber primer, ringkasan, audit, phase-1) dipindah ke folder root `riset/`
+- Folder `produksi/panji/` tetap sebagai contoh yang ditunda
+- README.md diupdate dengan struktur baru + alur kerja + status phase
