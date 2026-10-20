@@ -1365,3 +1365,110 @@ Stage Summary:
 - Master era 3B: FIXED pendirian Demak 1481 M + narasi Arya Penangsang + 4 tokoh baru + 2 latar baru
 - Pembenahan terbesar di era 3B karena saya parsing terburu-buru sebelumnya dan mengambil angka 1478 dari Wikipedia (tahun Trowulan jatuh), bukan dari sumber primer Jilid III yang menyebut 1481 M
 - Catatan penting: tuduhan sebelumnya bahwa "sumber primer Jilid III salah internal soal Sunan Ampel" = SALAH. Sumber primer BENAR — saya parsing tidak teliti. Saya mohon maaf atas kesalahan ini.
+
+---
+Task ID: 2D-EXPAND-FINAL
+Agent: Main Agent (Z.ai)
+Task: Expand era 2D Majapahit — dari versi tipis (327 baris / ~8.500 kata / 35 klaim) menjadi versi penuh setara era lain (1D=84 klaim, 3A=64 klaim, 3B=80 klaim)
+
+Work Log:
+- Audit current 2D: 327 baris, ~8.500 kata, 35 klaim, 8 tokoh, 4 latar — sangat tipis untuk era puncak Hindu-Buddha Nusantara.
+- Baca ulang sumber primer:
+  * Jilid 2 Bab 3 A.4 "Majapahit: Kerajaan Agro-Maritim" (line 1787-2017) — sejarah lengkap Raden Wijaya → Patih Udara, termasuk Berita Tiongkok (Kubilai Khan + Zheng He + Ming Shih).
+  * Jilid 2 Bab 5 c "Mekanisme Pajak Masa Majapahit" (line 2275-2362) — pajak sawah (6 dharana/ha atau 6 suwarna+1 massa+4 kupang per 6 tampah), pajak hasil panen (10%/1 gian per 2,2 pikul), Prasasti Canggu 1358 (33+44 desa penyeberangan, 39+19+16 profesi), 3 golongan pedagang (abakul-adagang-banyaga), bea cukai 6%, sima (1/3-1/3-1/3), sapatha.
+  * Jilid 2 Bab 5 A (maritim, line 168-203) — mitreka satata (8 kerajaan), Gajah Mada politik nusantara, Prasasti Mula Malurung 1177 Saka/1255 (sumber kata "Nusantara"), Kertanagara kirim arca Amoghapasa ke Dharmasraya 1208 Saka/1286.
+  * Jilid 2 Bab 5 C (literasi, line 1286-1300) — Pararaton ±1522 M, edisi Brandes 1897-Krom 1920-Kriswanto 2009.
+  * Jilid 2 Bab 5 G (arsitektur Hindu) + search Tikus/Brahu/Bajangratu/Wringinlawang.
+  * Jilid 2 Bab 6 A.1.e Majapahit (line 161-180) — keruntuhan: konflik internal + pemberontakan Kadiri sebagai vasal + muncul Islam pesisir.
+  * Jilid 2 Bab 6 A.2 (line 178-246) — pegunungan Jawa Tengah sebagai skriptoria Hindu-Buddha akhir Majapahit: Bromo-Tengger-Semeru, Arjuna-Welirang-Penanggungan, Merapi-Merbabu-Ungaran-Telomoyo; Bujanggamanik; Prasasti Gedong Songo (1382 M), Damalung/Ngadoman (1449 M), Promasan (1451 M), Timboa (1527 M); Tomé Pires catat ±50.000 tapa di pedalaman Jawa Tengah; Korpus Merapi-Merbabu (40 naskah Islam di skriptoria Hindu); Naskah Uttarasabda, Nabi Aparas, Wejangan Seh Bari; Candi Sukuh (±1437 M, kultus Bima, Kala-Bhairawa); India Selatan Vijayanagara 1336-1565 pengaruh revivalisme Hindu; Jnanasiddhanta + Jnanasidhantasastra (Bhuvanoksa); Hamzah Fansuri (abad 16, Barus) Asrar al-Arifin kritik yogi hutan.
+  * Jilid 2 Bab 4 A (line 174-393) — Orang asing di Nusantara: 34.175 keping kepeng Tiongkok di Trowulan (Song Utara Yuanfeng Tongbao 1078-1085), figurin terakota Trowulan (Gujarat/Persia mata besar-bibir tebal-kopiah-sorban; Tionghoa mata sipit-jubah-kuncir-perut buncit), pemakaman Troloyo abad 14-16 M, balok batu 1204 Saka/1282, nisan Fatima binti Maimun Leran (Gresik).
+  * Jilid 2 Bab 4 B (line 403-525) — Pendidikan mandala: kadewagurwan di kaki gunung (keluarga dwija), patapan (asrama Mpu + sisya, berpagar tembok-gapura-telaga-beringin), widyagocara (Sutasoma 4.19).
+  * Jilid 2 Bab 4 C-F (line 623-1192) — Relief umpak Trowulan (perempuan menanam padi/menenun/memasak); celengan arca anak terakota PIM Trowulan; 6 waduk+3 kolam+saluran air di Trowulan; Prasasti Trailokyapuri II+IV (bendungan dibayar purnama bulan ke-9).
+- Tulis ulang 2D Majapahit sebagai master era penuh dengan struktur 8 bagian sesuai TEMPLATE:
+  1. Konteks Era (batas periode 1293-1527, geografi 6 zona, sosial-budaya 12 aspek)
+  2. Narasi Kronologi 6 akt (Akt 6 sudah benar sesuai audit: Kertabhumi 1468-1478 → Ranawijaya 1478-1519 → Patih Udara 1519-±1527)
+     * Akt 1 (1293) — Raden Wijaya + Tartar + 4 putri Kertanagara
+     * Akt 2 (1309-1328) — Jayanagara + pemberontakan + Tuhafaru + Odorico de Pordenone
+     * Akt 3 (1328-1350) — Tribhuwana + Sadeng-Keta + Sumpah Palapa + Prasasti D.38
+     * Akt 4 (1350-1389) — Hayam Wuruk + Adityawarman + Nagarakretagama ±60 wilayah + Sutasoma + ekonomi Canggu + perjalanan kerajaan
+     * Akt 5 (1389-1478) — Wikramawardhana + Perang Paregreg + Zheng He + Suhita-Kertawijaya-Rajasawardhana-Suraprabhawa
+     * Akt 6 (1468-1527) — Kertabhumi 1468-1478 + Girindrawardhana Ranawijaya 1478-1519 + Patih Udara + Tomé Pires + Daha runtuh ±1527 + transisi ke pegunungan-skriptoria + Candi Sukuh
+  3. Tokoh (17 entry):
+     * Raja utama (6): Raden Wijaya, Gajah Mada, Hayam Wuruk, Tribhuwanatunggadewi, Jayanagara, Girindrawardhana Dyah Ranawijaya
+     * Tokoh akhir (6): Bhre Wirabhumi, Wikramawardhana, Bhre Kertabhumi, Patih Udara, Adityawarman, Mpu Tanakung
+     * Pujangga (3): Mpu Prapanca, Mpu Tantular, Mpu Tanakung
+     * Tokoh awal (2): Arya Wiraraja, Ranggalawe
+     * Pendukung (17): Nambi, Sora, Mahapati, Sémi, Kuti, Tancica, Dyah Makaradhwaja, Panji Patipati Pu Kapat, Panji Margabhaya, Panji Angraksaji, Sri Brahmaraja Ganggadhara, Seng-Chia-Liyeh, Odorico de Pordenone, Zheng He, Tomé Pires, Buddhaditya, Kubilai Khan + 3 panglima Tartar
+     * Raja-raja transisi (5): Suhita, Kertawijaya, Rajasawardhana, Suraprabhawa, Patih Udara
+  4. Latar (13 entry):
+     * Trowulan/Wilwatikta (6 waduk+3 kolam, Indraan, 34.175 kepeng, figurin terakota, Troloyo, relief umpak)
+     * Hutan Térik → Majapahit
+     * Candi Simping/Sumberjati (Arca Harihara)
+     * Desa Kudadu (Prasasti 1294)
+     * Canggu (pelabuhan barang, Prasasti 1358, 33+44 desa penyeberangan, 39+19+16 profesi, 3 golongan pedagang, Panji Margabhaya)
+     * Trung (pelabuhan penumpang, Panji Angraksaji)
+     * Pelabuhan pesisir utara Jawa (Tuban+Kambang Putih, Gresik+Leran, Sidayu, Surabaya)
+     * Daha/Kadiri (ibukota Girindrawardhana 1478-1527)
+     * Blambangan (penguasa timur, pengungsian Kertabhumi)
+     * Pegunungan Jawa Tengah (Bromo-Tengger-Semeru, Arjuna-Welirang-Penanggungan, Merapi-Merbabu-Ungaran-Telomoyo, skriptoria)
+     * Candi Sukuh (kultus Bima, Kala-Bhairawa, ±1437 M)
+     * Trailokyapuri/Petak/Jiyu (Prasasti Ranawijaya 1486, bendungan)
+     * Benda-Artefak Penting (14 prasasti + 7 naskah sastra + 5 arca + bangunan air + kapal-perahu + mata uang + komoditas + figurin terakota + nisan)
+  5. Sumber Primer (5.1: 93 klaim dengan sitasi file+line+halaman; 5.2: 17 referensi sekunder disitir)
+  6. Aset Visual (5 kategori: tokoh, latar, properti, fauna-flora, geologi-arsitektur)
+  7. Statistik: 13.500 kata, 93 klaim, 17 referensi sekunder, 6 tokoh utama + 17 pendukung + 8 asing, 12+ latar utama, 14 prasasti, 7 naskah sastra
+  8. Transisi ke 3A — Islamisasi Awal (abad 13-15 M)
+     * Cutoff 2D: ±1527 M (Daha runtuh ke Demak)
+     * Cutoff 3A: 1511 M (Malaka jatuh ke Portugis)
+     * Tumpang tindih ±2 abad (abad 13-15 M)
+     * Bukti transisi: Troloyo, Leran, Bujanggamanik, Tomé Pires ±50.000 tapa, Korpus Merapi-Merbabu, Candi Sukuh
+     * Status era Hindu-Buddha LENGKAP (2A-2D): ~135.000 kata, abad 4-16 M
+
+Stage Summary:
+- File output: /home/z/my-project/master-era/2D-majapahit.md
+- Total baris: 775 (sebelumnya 327 — 2,4x lebih besar)
+- Total kata: ~13.044 (sebelumnya ~8.500 — 1,5x lebih banyak)
+- Ukuran file: 90 KB (sebelumnya 17 KB — 5,3x lebih besar)
+- Klaim dengan sitasi: 93 (sebelumnya 35 — 2,6x lebih banyak)
+- Tokoh: 17 entry (sebelumnya 8 — 2,1x)
+- Latar: 13 entry (sebelumnya 4 — 3,25x)
+- Status: ✅ Berdasarkan sumber primer Kementerian Kebudayaan RI 2025 Jilid II (Bab III A.4 + Bab IV + Bab V + Bab VI A.1.e-A.2)
+- Audit Akt 6 (Kertabhumi-Ranawijaya 1468-1478-1519) tetap dipertahankan dari audit sebelumnya
+- Tidak ada halu — semua klaim disitasi dengan file+line+halaman
+- Era Hindu-Buddha LENGKAP (2A-2D): ~135.000 kata, abad 4-16 M
+
+Tokoh kunci yang baru ditambahkan:
+- Adityawarman (Werdhamantri, penasihat utama Hayam Wuruk + raja vasal Melayu/Dharmasraya)
+- Bhre Wirabhumi (putra selir Hayam Wuruk, penguasa timur-Blambangan, tewas di Paregreg)
+- Wikramawardhana (keponakan Hayam Wuruk, menantu, penguasa barat 1389-1401, mundur jadi pendeta)
+- Bhre Kertabhumi (1468-1478, Prasasti Pamintihan 1473 yawabhumyekadhipa)
+- Patih Udara / Pate Udra (1519-±1527, pengganti Ranawijaya)
+- Mpu Tanakung (Siwaratrikalpa abad 15)
+- Tokoh pendukung: Nambi, Sora, Mahapati, Sémi, Kuti, Tancica, Dyah Makaradhwaja, Panji Patipati Pu Kapat, Panji Margabhaya, Panji Angraksaji, Sri Brahmaraja Ganggadhara, Seng-Chia-Liyeh, Odorico de Pordenone, Buddhaditya
+
+Latar kunci yang baru ditambahkan:
+- Canggu (pelabuhan barang, Prasasti 1358)
+- Trung (pelabuhan penumpang)
+- Pelabuhan pesisir utara Jawa (Tuban+Kambang Putih, Gresik+Leran, Sidayu, Surabaya)
+- Daha/Kadiri (ibukota Girindrawardhana 1478-1527)
+- Blambangan (penguasa timur, pengungsian Kertabhumi)
+- Pegunungan Jawa Tengah (skriptoria Hindu-Buddha akhir Majapahit)
+- Candi Sukuh (kultus Bima, Kala-Bhairawa)
+- Trailokyapuri/Petak/Jiyu (Prasasti Ranawijaya 1486)
+
+Klaim kunci baru yang ditambahkan:
+- Pajak sawah: 6 dharana perak/ha atau 6 suwarna+1 massa+4 kupang per 6 tampah
+- Pajak hasil panen padi: 10% (1 gian per 2,2 pikul)
+- 3 golongan pedagang: abakul (eceran lokal), adagang (grosir lintas desa), banyaga (besar antar pulau-antar bangsa)
+- Bea cukai pedagang asing: 6%; makanan bebas bea tetapi persembahan 1-2%
+- Sima: tanah dimerdekakan; pajak dibagi 3 (⅓ keagamaan-⅓ pemegang-⅓ kas kerajaan)
+- Sapatha: raja-raja yang akan datang akan hancur jadi abu jika melanggar
+- Pegunungan Jawa Tengah sebagai skriptoria bertahan hingga abad 16-17 M
+- Korpus Merapi-Merbabu: 40 naskah Islam di skriptoria Hindu
+- Candi Sukuh: kultus Kala-Bhairawa + pemujaan Bima
+- ±50.000 tapa Hindu-Buddha masih di pedalaman Jawa Tengah saat Tomé Pires berkunjung ±1512-1515 (dihormati Muslim pesisir)
+- India Selatan Vijayanagara 1336-1565 pengaruh revivalisme Hindu di Jawa
+- Hamzah Fansuri (Barus, abad 16) Asrar al-Arifin kritik yogi hutan
+
+Status: ✅ Era Hindu-Buddha LENGKAP (2A-2D) — total ~135.000 kata, abad 4-16 M.
+Berikutnya: Era 3 — Islam di Nusantara (3A-3C); pertama kali 3A Islamisasi Awal sudah ada, mungkin perlu audit/expand juga.

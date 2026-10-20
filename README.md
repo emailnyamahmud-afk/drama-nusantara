@@ -12,7 +12,7 @@
 3. T2I PROMPTS            → copy-paste ke Dola AI → output drama/dokumenter
 ```
 
-**Status saat ini**: Era 1A-1D sudah di-rewrite lengkap (parsing sistematis). Era 2A-3B sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B.
+**Status saat ini**: Era 1A-1D + 2D sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C + 3A-3B sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B.
 
 ## Struktur Repo
 
@@ -36,10 +36,10 @@ drama-nusantara/
 │   ├── 1B-prasejarah-pleistosen-tengah-akhir.md   ✅ 1214 baris (rewrite lengkap)
 │   ├── 1C-prasejarah-holosen-neolitik.md          ✅ 1205 baris (rewrite lengkap)
 │   ├── 1D-prasejarah-logam-awal.md                  ✅ 1264 baris (rewrite lengkap)
-│   ├── 2A-hindu-buddha-awal.md                       ✅ 690 baris
-│   ├── 2B-mataram-sriwijaya.md                       ✅ 641 baris
-│   ├── 2C-singasari-kediri.md                        ✅ 393 baris
-│   ├── 2D-majapahit.md                                ✅ 327 baris (koreksi parsing Akt 6)
+│   ├── 2A-hindu-buddha-awal.md                       ✅ 831 baris
+│   ├── 2B-mataram-sriwijaya.md                       ✅ 805 baris
+│   ├── 2C-singasari-kediri.md                        ✅ 519 baris
+│   ├── 2D-majapahit.md                                ✅ 775 baris (expand lengkap — Bab III A.4 + Bab IV-V-VI)
 │   ├── 3A-islamisasi-awal.md                          ✅ 571 baris (koreksi pendirian Demak 1481 M)
 │   └── 3B-demak-pajang.md                             ✅ 756 baris (koreksi + 4 tokoh baru + 2 latar baru)
 │
@@ -67,7 +67,7 @@ drama-nusantara/
 ## Aturan Repo
 
 1. **`riset/sumber-primer/`** = HANYA file asli dari buku Kemenbud 2025 (Jilid 1-5). Tidak ada ringkasan, tidak ada enhanced YAML, tidak ada audit JSON. Jika perlu cari info, baca langsung file asli.
-2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D sudah di-rewrite lengkap (parsing semua entitas bernama). Era 2A-3B sudah ditulis + dikoreksi parsing, perlu audit coverage.
+2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2D sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2A-2C + 3A-3B sudah ditulis + dikoreksi parsing, perlu audit coverage tambahan.
 3. **`produksi/t2i-prompts/`** = file .txt siap copy-paste ke Dola AI. Format flat natural-language.
 
 ## Quick Start
@@ -82,9 +82,9 @@ drama-nusantara/
 | Metrik | Angka |
 |---|---|
 | Sumber primer (5 jilid) | 83 file MD asli |
-| Master era selesai | 10 dari 17 (1A-1D rewrite lengkap + 2A-3B) |
+| Master era selesai | 10 dari 17 (1A-1D + 2D expand lengkap + 2A-2C + 3A-3B) |
 | T2I prompts selesai | 10 era (173 file .txt total) |
-| Total kata master era | ~87.000 kata |
+| Total kata master era | ~101.000 kata (9.111 baris era docs) |
 | Total file di repo | 345 |
 
 ## Status Master Era + T2I Prompts
@@ -96,11 +96,11 @@ drama-nusantara/
 | 1C Holosen / Neolitik | 12 rb – 2.500 SM | ✅ rewrite | 1205 | ✅ | 10 |
 | 1D Logam Awal | 2.500 SM – abad 5 M | ✅ rewrite | 1264 | ✅ | 12 |
 | **TOTAL PRASEJARAH** | | | **4854** | | **42** |
-| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ | 690 | ✅ | 18 |
-| 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ | 641 | ✅ | 37 |
-| 2C Singasari-Kediri | Abad 11-13 M | ✅ | 393 | ✅ | 17 |
-| 2D Majapahit | Abad 13-16 M | ✅ koreksi | 327 | ✅ | 17 |
-| **TOTAL HINDU-BUDDHA** | | | **2051** | | **89** |
+| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ | 831 | ✅ | 18 |
+| 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ | 805 | ✅ | 37 |
+| 2C Singasari-Kediri | Abad 11-13 M | ✅ | 519 | ✅ | 17 |
+| 2D Majapahit | Abad 13-16 M | ✅ expand | 775 | ✅ | 17 |
+| **TOTAL HINDU-BUDDHA** | | | **2930** | | **89** |
 | 3A Islamisasi Awal | Abad 13-15 M | ✅ koreksi | 571 | ✅ | 21 |
 | 3B Demak-Pajang | Abad 15-16 M | ✅ koreksi | 756 | ✅ | 21 |
 | **TOTAL ISLAM** | | | **1327** | | **42** |
@@ -169,3 +169,4 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 | 2026-10-20 | **Rewrite lengkap 1C** — +18 latar baru (1020→1205 baris) | ✅ |
 | 2026-10-20 | **Rewrite lengkap 1D** — +7 latar + bagian 4B primus inter pares (1098→1264 baris) | ✅ |
 | 2026-10-20 | **Cleanup repo** — hapus 55 file sampah (ringkasan/audit/enhanced-chapters/phase-1), update README | ✅ |
+| 2026-10-20 | **Expand lengkap 2D Majapahit** — Bab III A.4 + Bab IV-V-VI, 327→775 baris, 8.500→13.044 kata, 35→93 klaim, +9 tokoh +9 latar (Adityawarman, Wirabhumi, Kertabhumi, Ranawijaya, Patih Udara, Canggu, Trung, Daha/Kadiri, Candi Sukuh, pegunungan skriptoria) | ✅ |
