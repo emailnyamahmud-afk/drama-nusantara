@@ -2018,3 +2018,19 @@ Stage Summary:
 - 2 era tersisa belum ada T2I: 4A VOC Awal, 4B Kolonial 19
 - 4C-4E BLOCKED (Jilid VI-X belum terbit)
 
+
+---
+Task ID: T2I-V2-4A
+Agent: Main Agent (Z.ai)
+Task: Create T2I v2.1 era 4A VOC Awal (baru dari nol)
+
+Work Log:
+- 4A VOC Awal: 0→17 files (K6+L7+A3+S1) — BARU
+- K: 6 (De Houtman, J.P. Coen, Sultan Hasanuddin, Daendels, Raffles, Van den Bosch)
+- L: 7 (Banten 1596, Batavia, Banda, Ternate-Tidore, Jalan Raya Pos, Borobudur rediscovery, Yogyakarta 1812)
+- A: 3 (VOC oktroi 1602, Linschoten Itinerario 1596, Cultuurstelsel contract)
+- S: 1 (VOC court Batavia: Gov-Gen + bupati + Chinese kapitan, ref: K002)
+
+Total v2.1: 1A-4A = 203 files
+Remaining: 4B (belum ada T2I), 4C-4E BLOCKED
+

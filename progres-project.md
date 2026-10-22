@@ -90,3 +90,9 @@ Total v2.1: 169 files (1A-3B) — semua era yang sudah ada T2I sebelumnya sudah 
 **Hasil**: 3C Mataram Islam: 0→17 v2.1 (K6+L7+A3+S1) — T2I pertama untuk era ini
 Total v2.1: 186 files (1A-3C)
 **Remaining**: 4A, 4B (belum ada T2I), 4C-4E BLOCKED
+
+## Sesi 2026-10-22 (lanjutan 6) — T2I v2.1 era 4A VOC Awal
+
+**Hasil**: 4A VOC Awal: 0→17 v2.1 (K6+L7+A3+S1)
+Total v2.1: 203 files (1A-4A)
+**Remaining**: 4B (belum ada T2I), 4C-4E BLOCKED
