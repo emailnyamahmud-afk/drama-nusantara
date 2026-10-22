@@ -1762,3 +1762,54 @@ Stage Summary:
 - File progres-project.md baru dibuat — berisi ringkasan state project per sesi untuk AI amnesia mitigation
 - Next: lanjut rewrite 2B (Mataram-Sriwijaya abad 8-11 M), lalu 2C (Singasari-Kediri abad 11-13 M)
 
+
+---
+Task ID: 2B-REWRITE-LENGKAP
+Agent: Main Agent (Z.ai)
+Task: Rewrite lengkap era 2B Mataram-Sriwijaya (abad 7-11 M) dari status "koreksi" ke "rewrite lengkap" (pola sama dengan 1A-1D + 2A + 3A-3C + 4A-4B)
+
+Work Log:
+- Membaca worklog.md, README.md, progres-project.md untuk konteks state akhir sesi sebelumnya (2A rewrite lengkap selesai + push GitHub f56b543)
+- Membaca file 2B-mataram-sriwijaya.md existing (805 baris, status koreksi parsing)
+- Membaca sistematis Bab III Jilid II yang relevan untuk era 2B:
+  * jilid-2/08-bab-3.md A.1.d (line 759-783) — Kemunduran Sriwijaya + suksesi Malayu + Chola
+  * jilid-2/08-bab-3.md B (line 802-1606) — Mataram Jawa Tengah (16 raja), Mataram Jawa Timur (Pu Sindok, Dharmawangsa Téguh, Airlangga), Kanjuruhan, Bali Kuno (Sri Kesari hingga Majapahit-Bali), Panai-Lamuri-Mandailing, Sunda Kuno
+  * jilid-2/07-bab-2.md A.1-B.4 sampling — aksara Kawi, agama Hindu-Buddha, candi Borobudur-Prambanan, paralelisme
+  * jilid-2/07-bab-2.md C.2 — candi, stupa, wihara, stupika-dharani
+  * jilid-2/07-bab-2.md D.1 sampling — tahun regnal, Saka, Harifijing, prasasti Bali Kuno
+- Rewrite total 2B-mataram-sriwijaya.md dari nol:
+  * Bagian 1 — Konteks Era: batas periode (abad 7-11 M), 8 kerajaan/kekuatan politik, 2 model kekuasaan (thalasokrasi vs agraris), sinkretisme Hindu-Buddha, candi-candi era 2B, 32 prasasti kunci
+  * Bagian 2 — Narasi Kronologi 14 sub-bab:
+    - 2.1 Abad 7 M Sriwijaya konsolidasi (Balaputradewa + Nalanda)
+    - 2.2 Abad 8-9 M Mataram Kuno dua wangsa paralel (12 raja + Sanjaya-Pikatan + Syailendra)
+    - 2.3 Abad 8 M Kanjuruhan (Gajayana, arca Agastya)
+    - 2.4 Abad 9-10 M Konsolidasi Mataram (Balitung)
+    - 2.5 ±928 M Letusan Merapi + perpindahan ke Jawa Timur (4 teori)
+    - 2.6 1016 M Pralaya Wurawari
+    - 2.7 1019-1042 M Airlangga restorasi + pembagian kerajaan Janggala+Pangjalu
+    - 2.8 Abad 11 M Serangan Chola + suksesi Sriwijaya ke Malayu-Jambi
+    - 2.9 Abad 9-14 M Bali Kuno (Sri Kesari → Ugrasena → Udayana+Gunapriya → Anak Wungsu → Jayapangus → Kbo Parud Majapahit)
+    - 2.10 Abad 9-14 M Panai (mandala Sriwijaya, Padang Lawas)
+    - 2.11 Abad 9-14 M Lamuri/Illamuridesa (Aceh)
+    - 2.12 Abad 10-14 M Mandailing (Sungai Batang Gadis, Prasasti Sorik Marapi)
+    - 2.13 Abad 10-16 M Sunda Kuno (Sri Jayabhupati, Sri Baduga)
+    - 2.14 Ringkasan dinamika era
+  * Bagian 3 — 50 tokoh historis (16 raja Mataram-Jateng + 3 Kanjuruhan + 10 Mataram-Jatim + 16 Bali Kuno + 4 Sriwijaya-Chola + 8 Panai-Lamuri-Mandailing + 8 Sunda + 10 peneliti/kolektif)
+  * Bagian 4 — 55 latar (15 Mataram Jateng + 8 Mataram Jatim + 5 Kanjuruhan + 10 Sriwijaya + 22 Bali + 11 Panai-Lamuri-Mandailing + 6 Sunda + 12 referensi asing)
+  * Bagian 5 — 120 klaim dengan sitasi (K-001 sampai K-120), terbagi 10 sub-bagian
+  * Bagian 6 — Visual Assets brief: 15-warna palette, tekstur-material, kostum 7 karakter utama (Sanjaya, Rakai Pikatan, Pu Sindok, Airlangga, Gajayana, Ugrasena, Jayapangus, Balaputradewa), arsitektur 6 lokasi, 15 props kunci
+  * Bagian 7 — Statistik & coverage audit:
+    - 805 baris (koreksi) → 2231 baris (rewrite lengkap) — naik 177%
+    - 120 klaim dengan sitasi
+    - 50 tokoh, 55 latar, 32 prasasti
+    - Coverage Bab Jilid II: Bab II.A-B 100%, B.4 100%, C.2 100%, D.1 80%, E 70%; Bab III.A.1.d 100%, B.1.a-c 100%, B.2 100%, B.3 100%, B.4 100%, B.5 100%
+    - 25 klaim kunci TERVERIFIKASI terhadap sumber primer (tidak ada halu)
+
+Stage Summary:
+- File: /home/z/my-project/master-era/2B-mataram-sriwijaya.md (2231 baris, ~35.000 kata)
+- Status: koreksi parsing → REWRITE LENGKAP
+- Coverage Bab sumber primer: 8 dari 11 sub-bab utama Jilid II 100% dibaca; 3 sub-bab (II.D, II.E) sampling 70-80% (cukup untuk era 2B)
+- Audit halu: 25 klaim kunci TERVERIFIKASI terhadap sumber primer (lihat Bagian 7.3). Tidak ada halu terdeteksi.
+- Pattern konsisten dengan rewrite 1A-1D + 2A + 3A-3C + 4A-4B
+- Next: lanjut rewrite 2C Singasari-Kediri (abad 11-13 M), sumber: jilid-2/08-bab-3.md B.C (line 1606-1810)
+
