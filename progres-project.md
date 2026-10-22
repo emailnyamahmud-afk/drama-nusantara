@@ -40,3 +40,20 @@
 - AI pernah amnesia waktu garap 2D Majapahit → akibatnya master sebelumnya halu (Candi Sukuh ±1437 M, Meng Qi 1289, "100 keluarga"). Fix semua.
 - Sumber primer = 83 file MD Jilid I-V (Jilid VI-X belum terbit).
 - Pola "koreksi" tidak cukup — harus "rewrite lengkap" = baca semua Bab relevan + ekstrak semua tokoh/latar/klaim.
+
+## Sesi 2026-10-22 (lanjutan) — T2I v2.1 Regenerate 1B-2B
+
+**Task**: Regenerate T2I prompts era 1B, 1C, 1D, 2A, 2B dengan standar baru v2.1 (horizontal 16:9 + S pakai K ref).
+
+**Hasil**:
+- 1B: 10→17 files | 1C: 10→17 | 1D: 12→17 | 2A: 18→17 | 2B: 37→17
+- Total v2.1: 101 files (1A-2B)
+- Setiap era: K5-6 + L7 + A3 + F0-1 + S1
+- 2B terbesar perubahan: 37→17 (hapus 20 file interior istana yang bukan master reff)
+
+**Pending**:
+- 2C Singasari-Kediri (perlu v2)
+- 2D Majapahit (perlu v2)
+- 3A Islamisasi Awal (perlu v2)
+- 3B Demak-Pajang (perlu v2)
+- 3C, 4A, 4B (belum ada T2I sama sekali)

@@ -1,0 +1,11 @@
+Cinematic realistic group character reference of the two wangsa of Mataram: Sanjaya (Hindu Siwa) and Syailendra (Buddha), 9th century AD, Central Java — parallel Hindu-Buddha kingdoms, arranged in a standing group pose on a clean solid light cream studio background. Group of 4 individuals in a natural standing group pose representing two traditions. Position 1 (far left): Rakai Pikatan (Hindu Siwa king), standing with trisula, wearing gold Siwa regalia. Position 2 (center-left): Pramodhawardhani (Syailendra Buddhist princess, wife of Pikatan), standing with Buddhist mala beads, wearing white-gold Buddhist attire. Position 3 (center-right): a Hindu Siwa priest (Brahmana), holding a ritual fire vessel, wearing white dhoti. Position 4 (far right): a Buddhist monk (Bhikkhu), holding palm-leaf manuscript, wearing saffron robe. The composition shows two wangsa standing together — parallelism, not conflict. Clean studio background, no environment, no historical setting, no landscape elements — neutral studio reference only.
+
+IMPORTANT: Upload the following character reference images before generating: 2B-K004 (Rakai Pikatan). Use each uploaded image as the exact face, body, and identity reference. This prompt only defines group composition, pose, and props — NOT physical features.
+
+Lighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting, no dramatic lighting.
+
+Mood: neutral studio reference, group turnaround for production consistency. Parallelism — Hindu and Buddha standing side by side in Mataram. Not syncretism, not conflict, but coexistence. Two wangsa, two religions, one kingdom. The foundation of Nusantara's religious tolerance.
+
+Style: photorealistic skin texture, 35mm film grain, deep depth of field f/8, 50mm lens, 8K hyperdetailed, production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.
+
+Avoid: environment background, landscape, historical setting, dramatic lighting, inconsistent faces with reference images, modern clothing, anime style, cartoon, 3D render, plastic skin, deformed hands, watermark, text, signature, low resolution, blurry, oversaturated, Islamic costume, conflict pose.

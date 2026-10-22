@@ -126,16 +126,16 @@ drama-nusantara/
 
 | Era | Periode | Master | Baris | T2I | T2I file |
 |-----|---------|--------|-------|-----|----------|
-| 1A Pleistosen Awal | 1,8 jt – 700 rb thn lalu | ✅ rewrite | 1171 | ✅ v2 | 15 |
-| 1B Pleistosen Tengah-Akhir | 700 rb – 12 rb thn lalu | ✅ rewrite | 1214 | ✅ | 10 |
-| 1C Holosen / Neolitik | 12 rb – 2.500 SM | ✅ rewrite | 1205 | ✅ | 10 |
-| 1D Logam Awal | 2.500 SM – abad 5 M | ✅ rewrite | 1264 | ✅ | 12 |
-| **TOTAL PRASEJARAH** | | | **4854** | | **47** |
-| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ rewrite | 1408 | ✅ | 18 |
-| 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ rewrite | 2231 | ✅ | 37 |
+| 1A Pleistosen Awal | 1,8 jt – 700 rb thn lalu | ✅ rewrite | 1171 | ✅ v2 | 16 |
+| 1B Pleistosen Tengah-Akhir | 700 rb – 12 rb thn lalu | ✅ rewrite | 1214 | ✅ v2 | 17 |
+| 1C Holosen / Neolitik | 12 rb – 2.500 SM | ✅ rewrite | 1205 | ✅ v2 | 17 |
+| 1D Logam Awal | 2.500 SM – abad 5 M | ✅ rewrite | 1264 | ✅ v2 | 17 |
+| **TOTAL PRASEJARAH** | | | **4854** | | **67** |
+| 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ rewrite | 1408 | ✅ v2 | 17 |
+| 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ rewrite | 2231 | ✅ v2 | 17 |
 | 2C Singasari-Kediri | Abad 11-13 M | ✅ rewrite | 1547 | ✅ | 17 |
 | 2D Majapahit | Abad 13-16 M | ✅ expand | 816 | ✅ | 17 |
-| **TOTAL HINDU-BUDDHA** | | | **2930** | | **89** |
+| **TOTAL HINDU-BUDDHA** | | | | | **51** |
 | 3A Islamisasi Awal | Abad 7-1511 M | ✅ rewrite | 815 | ✅ | 21 |
 | 3B Demak-Pajang | Abad 15-16 M | ✅ rewrite | 1058 | ✅ | 21 |
 | 3C Mataram Islam | Abad 17-18 M | ✅ rewrite | 873 | ⏳ | — |

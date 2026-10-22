@@ -1906,3 +1906,24 @@ Stage Summary:
 - Script reusable: scripts/generate_1A_t2i_v2.py bisa di-rerun kalau perlu edit
 - Next: user review format 1A → kalau OK, lanjut era 1B, 1C, 1D, 2A-2D, 3A-3B
 
+
+---
+Task ID: T2I-V2-1B-to-2B
+Agent: Main Agent (Z.ai)
+Task: Regenerate T2I prompts v2.1 untuk era 1B, 1C, 1D, 2A, 2B dengan standar horizontal
+
+Work Log:
+- 1B Pleistosen Tengah-Akhir: 10→17 files (K5+L7+A3+F1+S1) — add Soloensis, Hobbit, Wajak, Lida Ajer, Song Terus hunter; add Sangkulirang cave art, Paparan Sunda LGM, Toba supervolcano
+- 1C Holosen/Neolitik: 10→17 files (K5+L7+A3+F1+S1) — add Papuamelanesia, Austronesian, Song Keplek, Metalworker Bali; add Gua Harimau, Kalumpang, Pulau Kampai
+- 1D Logam Awal: 12→17 files (K5+L7+A3+F1+S1) — add Dongson drum bearer; add Sembiran-Pacung, Lebak Cibedug, Tanah Luwu; add kerbau, komunitas perundagian
+- 2A Hindu-Buddha Awal: 18→17 files (K6+L7+A3+S1) — hapus 6 interior istana; add Dapunta Hyang, Bhikkhu, Datu Swarnadwipa; add Barus, Jambi, Teluk Jakarta
+- 2B Mataram-Sriwijaya: 37→17 files (K6+L7+A3+S1) — hapus 20 file interior istana spesifik (bukan master reff); add Sanjaya, Rakai Panangkaran, Balaputradewa, Rakai Pikatan, Pu Sindok, Airlangga; add Borobudur, Prambanan, Ratu Boko, Bengawan Solo-Brantas, Barus, Panai
+
+Total v2.1 sejauh ini: 1A(16) + 1B(17) + 1C(17) + 1D(17) + 2A(17) + 2B(17) = 101 files
+
+Stage Summary:
+- Era prasejarah (1A-1D) T2I v2.1 selesai semua
+- Era Hindu-Buddha 2A-2B selesai; 2C-2D pending
+- Standar: K=16:9, L=16:9, A=1:1, S=16:9 (pakai K ref, tidak deskripsi fisik)
+- Scripts reusable per era di scripts/generate_{era}_t2i_v2.py
+
