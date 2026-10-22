@@ -1,0 +1,247 @@
+=== PROPS (6) ===
+
+[Asset #10] Cawan Arak
+  id: f44cde4a-4386-4765-9f0c-728f122bc8ac
+  type: prop
+  name: Cawan Arak
+  supportingImages: list[1] (embedded images)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A heavy, hand-hammered bronze drinking goblet marked by deep verdigris patina along its flared pedestal base. The wide, shallow rim is lined with ornate relief carvings of twisting lotus vines, slightly stained by dried, dark amber liquor residue.
+  referenceImageId: e9220b5f-21d5-4a9f-b4fb-5f91a9b92457
+
+[Asset #11] Keris
+  id: 5d3ac77d-1030-4258-9f2b-9157367f61a7
+  type: prop
+  name: Keris
+  supportingImages: list[1] (embedded images)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: An unfinished, wavy-bladed dagger forged from dark folded meteoric iron, showing faint damascene pamor patterns beneath a rough, soot-charred texture and a freshly bloodstained tip. The tang ends in a bare, exposed metal rod entirely lacking an ornate wooden hilt or protective sheath.
+  referenceImageId: 52753ce7-5979-4d8a-ba39-5f4c4d5db948
+
+[Asset #12] Palu
+  id: 3f41e531-c8ed-48e5-844d-0e880741f35f
+  type: prop
+  name: Palu
+  supportingImages: list[1] (embedded images)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A heavy blacksmithing hammer featuring an asymmetrical, pitted iron head with flattened, impact-scuffed striking faces darkened by soot and heat scale. The head is securely wedged onto a thick, ash wood handle that is hand-polished and deeply grease-stained from long use.
+  referenceImageId: c7c05c54-c13b-43cb-9eb6-ca91bbafff79
+
+[Asset #13] Sekantung Beras
+  id: f8e1e5d6-3eda-441a-9491-2e7b35308ccc
+  type: prop
+  name: Sekantung Beras
+  supportingImages: list[1] (embedded images)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A coarse, loosely woven brown jute sack bound tightly around the bunched neck with frayed hemp twine, showing patchy dirt smears and a few loose white rice grains poking through strained seam punctures. The lower half is visibly plump and molded by the shifting bulk of small, raw grain within.
+  referenceImageId: 153be7a8-b9ec-4153-9736-9ed28a619454
+
+[Asset #14] Tang Besi
+  id: d2a15955-96ed-4a9d-9529-7e795cd7ed7b
+  type: prop
+  name: Tang Besi
+  supportingImages: list[1] (embedded images)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A set of long-reach blacksmith tongs made of heavy hand-forged wrought iron with a rough, soot-covered matte black surface. The tool features flat-jawed gripping ends connected by an oversized pivot rivet to long, rounded lever handles that taper smoothly toward their looped ends.
+  referenceImageId: 5f118c7d-33c7-49de-9d01-0a6c9c10c6b4
+
+[Asset #15] Tombak
+  id: fb02788b-d5e0-46bf-a051-7fcb07424348
+  type: prop
+  name: Tombak
+  supportingImages: list[1] (embedded images)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A traditional infantry spear consisting of an eight-foot shaft made from polished dark teak wood, capped with an elongated leaf-shaped bronze spearhead showing sharpened, glinting bevels and oxidized green lowlights. A thick collar of braided brass wire and a short tuft of dyed red horsehair bind the socket tightly to the wood beneath the point.
+  referenceImageId: b9f398ac-04e7-41ef-8fcf-99b8b2b52de3
+
+
+=== FRAMES (21) — compact ===
+
+--- FRAME [ 0] | #01.01 ---
+  Title      : Chased Through Dense Woods
+  Scene      : Ext. Hutan Tumapel - Day
+  SceneId    : 78e6685e-65f8-477e-a0cb-0b90e3713ec5
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', 'd363b2dd-7fe5-441d-b819-a302ddaa9a15', '4ee4128e-2b65-4610-a75b-adf16878ada2', 'f8e1e5d6-3eda-441a-9491-2e7b35308ccc', 'fb02788b-d5e0-46bf-a051-7fcb07424348']
+  Visual : Ken Arok sprints urgently through the tangled brush of Hutan Tumapel, holding a rough fabric Sekantung Beras tightly against his chest. Dust kicks up beneath his bare feet as dry teak leaves rustle around him. In the distant background, three Prajurit Tumapel in armor give chase with their Tombak raised aggressively. Golden sunlight cuts through the canopy, highlighting Ken Arok's disheveled hair 
+  Motion : The camera tracks rapidly backward ahead of Ken Arok, keeping him centered as the foliage whips past the frame edges.
+  Audio  : Heavy panting and the sharp snapping of twigs underfoot dominate the foreground. The distant shouting of soldiers and metallic rattling of armor echo through the trees. A tense, rhythmic tribal percussion builds underneath.
+
+--- FRAME [ 1] | #01.02 ---
+  Title      : Arok Taunts the Pursuers
+  Scene      : Ext. Hutan Tumapel - Day
+  SceneId    : 78e6685e-65f8-477e-a0cb-0b90e3713ec5
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', 'd363b2dd-7fe5-441d-b819-a302ddaa9a15', '4ee4128e-2b65-4610-a75b-adf16878ada2', 'f8e1e5d6-3eda-441a-9491-2e7b35308ccc']
+  Visual : Ken Arok leaps smoothly onto a moss-covered fallen log and pivots back to face his pursuers with an arrogant grin. One hand grips the Sekantung Beras while his other arm gestures dismissively toward the approaching soldiers. The Prajurit Tumapel fan out in the clearing below, panting heavily with their weapons leveled.
+  Motion : A low-angle medium shot pans slightly up as Ken Arok lands on the log, emphasizing his agile stance and height advantage.
+  Audio  : Ken Arok delivers his mocking line with sharp arrogance. The soldiers respond with guttural grunts and agitated shouts, accompanied by the rustle of disturbed undergrowth.
+
+--- FRAME [ 2] | #01.03 ---
+  Title      : Disarming the Royal Guard
+  Scene      : Ext. Hutan Tumapel - Day
+  SceneId    : 78e6685e-65f8-477e-a0cb-0b90e3713ec5
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '59d91099-8b87-40dd-bf23-52869f93ad91', 'd363b2dd-7fe5-441d-b819-a302ddaa9a15', '4ee4128e-2b65-4610-a75b-adf16878ada2', 'fb02788b-d5e0-46bf-a051-7fcb07424348']
+  Visual : Prajurit Satu lunges forward thrusting his Tombak directly toward Ken Arok. Ken Arok effortlessly pivots his body aside, catching the wooden shaft with one hand while driving a brutal elbow strike directly into Prajurit Satu's jaw. The soldier stumbles backward into the dirt, stunned, as the other Prajurit Tumapel freeze in shock.
+  Motion : A dynamic handheld camera pushes in tightly on the impact, whipping slightly to follow the momentum of the falling guard.
+  Audio  : A sharp whoosh of the spear tip slicing empty air is followed immediately by the blunt, fleshy impact of the elbow strike. Prajurit Satu lets out a painful cry as he hits the ground.
+
+--- FRAME [ 3] | #01.04 ---
+  Title      : Brahmana Halts the Conflict
+  Scene      : Ext. Hutan Tumapel - Day
+  SceneId    : 78e6685e-65f8-477e-a0cb-0b90e3713ec5
+  LinkedAssets: ['2026e610-13c8-4979-a7eb-0c9091150694', '59d91099-8b87-40dd-bf23-52869f93ad91', 'd363b2dd-7fe5-441d-b819-a302ddaa9a15', '4ee4128e-2b65-4610-a75b-adf16878ada2', 'fb02788b-d5e0-46bf-a051-7fcb07424348']
+  Visual : Dang Hyang Lohgawe emerges calmly from behind a massive ancient banyan tree, clad in weathered white robes that glow under the dappled sunlight. His right hand is raised in a serene, commanding gesture of peace. Prajurit Satu and the remaining Prajurit Tumapel lower their weapons slightly, frozen in awe and reverence before the holy man.
+  Motion : A slow, stately tilt up from the hem of Lohgawe's robes reveals his serene face and raised hand, establishing his dominant spiritual presence.
+  Audio  : Dang Hyang Lohgawe speaks with a resonant, serene authority that echoes through the forest. The ambient wind gently hushes, silencing the clamor of the soldiers.
+
+--- FRAME [ 4] | #01.05 ---
+  Title      : Suspicious Rebel Stares Back
+  Scene      : Ext. Hutan Tumapel - Day
+  SceneId    : 78e6685e-65f8-477e-a0cb-0b90e3713ec5
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '59d91099-8b87-40dd-bf23-52869f93ad91', '4ee4128e-2b65-4610-a75b-adf16878ada2', 'f8e1e5d6-3eda-441a-9491-2e7b35308ccc']
+  Visual : Ken Arok wipes a streak of dirt and sweat from his jaw with the back of his hand, narrowing his eyes warily at the sage. Behind him, the figures of Prajurit Satu and the other soldiers retreat cautiously into the shadowed thicket. Ken Arok keeps a defensive grip on the Sekantung Beras slung beside him.
+  Motion : A medium close-up steadily pushes in toward Ken Arok's guarded face as he speaks, capturing the shift from adrenaline to wariness.
+  Audio  : Ken Arok speaks with gruff defiance and skepticism. The soft footsteps of retreating soldiers fade into the distance, accompanied by the ambient chirping of forest birds.
+
+--- FRAME [ 5] | #01.06 ---
+  Title      : A Prophecy Unveiled
+  Scene      : Ext. Hutan Tumapel - Day
+  SceneId    : 78e6685e-65f8-477e-a0cb-0b90e3713ec5
+  LinkedAssets: ['2026e610-13c8-4979-a7eb-0c9091150694', '5f5cf628-cc73-4e03-ab26-293176369c62', '4ee4128e-2b65-4610-a75b-adf16878ada2']
+  Visual : Dang Hyang Lohgawe stands close to Ken Arok, his piercing eyes boring straight into the young rebel's soul. Ken Arok stands completely paralyzed, his defiant posture softening into sheer disbelief. Soft, warm rays of sunlight illuminate the space between the two men amidst the ancient canopy of Hutan Tumapel.
+  Motion : A slow, tense two-shot arc gently rotates around the two men, ending framed over Lohgawe's shoulder onto Ken Arok's stunned reaction.
+  Audio  : Dang Hyang Lohgawe speaks of divine destiny with quiet, thunderous gravity. A low, ethereal drone swells in the score, cutting out all other forest noise as Ken Arok is struck by the revelation.
+
+--- FRAME [ 6] | #02.01 ---
+  Title      : Tunggul Ametung Enthroned
+  Scene      : Int. Pendopo Kediaman Akuwu Tumapel - Day
+  SceneId    : ee03d9f1-bb81-4ff8-88c7-6bcdb43fcd7f
+  LinkedAssets: ['5f40fa13-e875-468e-af28-cfeac07475ea', 'b7ff2d76-5973-41fe-b2cc-103de8f559b2', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5', 'f44cde4a-4386-4765-9f0c-728f122bc8ac']
+  Visual : Tunggul Ametung sits imperiously on his ornate wooden throne inside the cavernous Pendopo Kediaman Akuwu Tumapel. In his right hand, he loosely holds a Cawan Arak filled with spiced wine, his cunning gaze surveying the grand hall. To the far corner, Ken Dedes sits motionless in her flowing silk gown, staring into empty space with a sorrowful expression. Intricate stone carvings and towering wooden
+  Motion : Slow push-in toward Tunggul Ametung on his throne. The camera begins wide, revealing Ken Dedes in the background before centering firmly on the Akuwu.
+  Audio  : Distant resonant gamelan hums in a low, ominous drone beneath the oppressive silence. A soft clink sounds as Tunggul Ametung twirls his wine cup against the armrest.
+
+--- FRAME [ 7] | #02.02 ---
+  Title      : Lohgawe Presents Ken Arok
+  Scene      : Int. Pendopo Kediaman Akuwu Tumapel - Day
+  SceneId    : ee03d9f1-bb81-4ff8-88c7-6bcdb43fcd7f
+  LinkedAssets: ['2026e610-13c8-4979-a7eb-0c9091150694', '5f5cf628-cc73-4e03-ab26-293176369c62', '5f40fa13-e875-468e-af28-cfeac07475ea', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5']
+  Visual : Dang Hyang Lohgawe steps forward onto the polished stone floor of the pendopo, bowing with hands raised in a respectful sembah. Two paces behind him stands Ken Arok, dressed in clean rustic garments, his posture tense yet upright. Tunggul Ametung looms in the foreground, looking down disdainfully from his elevated dais.
+  Motion : Tracking shot moving sideways as Dang Hyang Lohgawe advances, coming to rest at a medium two-shot of Lohgawe and Ken Arok bowing before the throne.
+  Audio  : The rustle of cotton fabric and the crisp echo of footsteps across stone tile. Dang Hyang Lohgawe speaks in a calm, measured voice: 'Sembah hamba, Akuwu Tunggul Ametung. Hamba membawa pemuda berbakat yang dapat menjaga keselamatan balairung istana.'
+
+--- FRAME [ 8] | #02.03 ---
+  Title      : A Mocking Reception
+  Scene      : Int. Pendopo Kediaman Akuwu Tumapel - Day
+  SceneId    : ee03d9f1-bb81-4ff8-88c7-6bcdb43fcd7f
+  LinkedAssets: ['5f40fa13-e875-468e-af28-cfeac07475ea', 'f44cde4a-4386-4765-9f0c-728f122bc8ac', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5', '2026e610-13c8-4979-a7eb-0c9091150694']
+  Visual : Close-up of Tunggul Ametung's sneering face as he scans Ken Arok from head to toe with utter contempt. His thick mustache twitches with a scoff as he raises his Cawan Arak toward his lips. In the soft background, Dang Hyang Lohgawe maintains his dignified composure amidst the Akuwu's blatant arrogance.
+  Motion : A slight low-angle tilt upward to emphasize Tunggul Ametung's domineering presence, with subtle handheld micro-movements to enhance the tension.
+  Audio  : Tunggul Ametung lets out a harsh, mocking snort followed by his gruff voice: 'Anak jalanan? Apa kelebihannya selain bau keringat dan lumpur?' Dang Hyang Lohgawe calmly replies off-screen.
+
+--- FRAME [ 9] | #02.04 ---
+  Title      : The Golden Aura
+  Scene      : Int. Pendopo Kediaman Akuwu Tumapel - Day
+  SceneId    : ee03d9f1-bb81-4ff8-88c7-6bcdb43fcd7f
+  LinkedAssets: ['b7ff2d76-5973-41fe-b2cc-103de8f559b2', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5']
+  Visual : Ken Dedes rises gracefully and ascends the low stone steps to serve palm wine to the Akuwu's table. A sudden gentle gust sweeps across the floor, lifting the hem of her patterned jarik cloth. An otherworldly, dazzling golden luminescence radiates brightly from her exposed calf, casting a warm supernatural glow across the stone steps.
+  Motion : A low-angle tracking shot following Ken Dedes's bare foot stepping upward, suddenly decelerating into slow-motion as the cloth parts to reveal the radiant golden glow.
+  Audio  : A sudden ethereal chime layered with a resonant, sub-bass pulse rises above the silence. The gentle rustle of silk fabric fluttering in an inexplicable wind.
+
+--- FRAME [10] | #02.05 ---
+  Title      : Arok Struck by Lightning
+  Scene      : Int. Pendopo Kediaman Akuwu Tumapel - Day
+  SceneId    : ee03d9f1-bb81-4ff8-88c7-6bcdb43fcd7f
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5']
+  Visual : Tight extreme close-up on Ken Arok's wide, astonished eyes, reflecting the golden radiance glowing in front of him. His breath catches in his throat, jaw clenched tight as a tempest of sudden epiphany and burning ambition hits his face. The opulent background of the pendopo dissolves into a shallow, dreamlike blur.
+  Motion : Rapid snap zoom punch-in directly into Ken Arok's pupils, freezing momentarily before settling with subtle, trembling handheld framing.
+  Audio  : A heavy, muffled heartbeat thumps loudly in the soundscape, completely drowning out the ambient room tone. A subtle whoosh echoes, mirroring the thunderous shock striking Ken Arok's chest.
+
+--- FRAME [11] | #02.06 ---
+  Title      : Assignment at Gate
+  Scene      : Int. Pendopo Kediaman Akuwu Tumapel - Day
+  SceneId    : ee03d9f1-bb81-4ff8-88c7-6bcdb43fcd7f
+  LinkedAssets: ['5f40fa13-e875-468e-af28-cfeac07475ea', '5f5cf628-cc73-4e03-ab26-293176369c62', 'b7ff2d76-5973-41fe-b2cc-103de8f559b2', 'f44cde4a-4386-4765-9f0c-728f122bc8ac', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5']
+  Visual : Tunggul Ametung casually drinks deep from his Cawan Arak, completely oblivious to the mystical phenomenon. Ken Dedes steps past behind the throne, casting her sorrowful eyes downward. Ken Arok dutifully bows his head to acknowledge the Akuwu's orders, yet his intense gaze remains locked onto the path where Ken Dedes just walked.
+  Motion : Slow pull-back shot rising higher, re-establishing the wide composition of the hall as Ken Arok remains bowed while Ken Dedes recedes into the shadows.
+  Audio  : The heavy swallow of wine and a dry thud as the cup meets the table. Tunggul Ametung dismissively orders: 'Baiklah. Biarkan dia bertugas menjaga gerbang dalam malam ini. Jangan sampai ada tikus menyelinap.'
+
+--- FRAME [12] | #03.01 ---
+  Title      : Sparks in the Dark
+  Scene      : Ext. Bengkel Empu Gandring - Night
+  SceneId    : b20baac9-1535-4193-8f89-b0b2b65a482e
+  LinkedAssets: ['785ebd3f-cc8b-4bd4-90ef-749588460da0', '3a8c46b5-14bb-4f8a-a66c-19544658339e', '5d3ac77d-1030-4258-9f2b-9157367f61a7', '3f41e531-c8ed-48e5-844d-0e880741f35f', 'd2a15955-96ed-4a9d-9529-7e795cd7ed7b']
+  Visual : Inside the dimly lit Bengkel Empu Gandring, heavy rain lashes against the bamboo walls while red fire flickers intensely from the forge. An aged Empu Gandring, shirtless and covered in soot and sweat, hammers rhythmically onto a glowing hot Keris held over an iron anvil with Tang Besi. Glowing embers and sparks scatter across the workshop with every forceful strike of his Palu.
+  Motion : Medium close-up slowly tracking inward toward Empu Gandring's focused, sweat-streaked face and the glowing weapon on the anvil.
+  Audio  : Deafening sound of torrential rain and distant thunderclaps outside. The loud, metallic ring of hammer strikes against glowing steel echoes rhythmically, accompanied by the crackle of burning coals.
+
+--- FRAME [13] | #03.02 ---
+  Title      : Intrusion in the Storm
+  Scene      : Ext. Bengkel Empu Gandring - Night
+  SceneId    : b20baac9-1535-4193-8f89-b0b2b65a482e
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '3a8c46b5-14bb-4f8a-a66c-19544658339e']
+  Visual : The wooden door swings violently open into Bengkel Empu Gandring, revealing Ken Arok standing framed in the threshold. He is soaking wet from the pouring rain, his dark hair plastered to his forehead and his intense eyes glowing with restless ambition. Water drips steadily from his garments as cold wind and mist surge into the warm, smoky room.
+  Motion : Low-angle wide shot holding steady on the doorway before executing a rapid push-in to Ken Arok's menacing silhouette.
+  Audio  : A loud wood splintering crash as the door is kicked open, letting in a sudden crescendo of wind, rain, and a roaring thunderclap. Ken Arok's sharp, demanding voice cuts through the storm.
+
+--- FRAME [14] | #03.03 ---
+  Title      : Seizing the Cursed Blade
+  Scene      : Ext. Bengkel Empu Gandring - Night
+  SceneId    : b20baac9-1535-4193-8f89-b0b2b65a482e
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '785ebd3f-cc8b-4bd4-90ef-749588460da0', '5d3ac77d-1030-4258-9f2b-9157367f61a7', '3f41e531-c8ed-48e5-844d-0e880741f35f', 'd2a15955-96ed-4a9d-9529-7e795cd7ed7b', '3a8c46b5-14bb-4f8a-a66c-19544658339e']
+  Visual : Ken Arok lunges forward to wrench the unfinished Keris directly away from Empu Gandring's iron tongs. The blade gives off a strange supernatural hiss, shedding faint wisps of steam and eerie cool light that contrast against the fiery glow of the forge. Empu Gandring drops his Palu in shock, his face contorting into sudden panic as he reaches out in desperation.
+  Motion : Close-up over Empu Gandring's shoulder, quickly panning across to focus on Ken Arok's hand clutching the hilt of the raw blade.
+  Audio  : A sharp metallic scrape followed by an ominous mystical hiss from the cooling steel. Empu Gandring gasps in dread as Ken Arok speaks with venomous impatience.
+
+--- FRAME [15] | #03.04 ---
+  Title      : The Fatal Thrust
+  Scene      : Ext. Bengkel Empu Gandring - Night
+  SceneId    : b20baac9-1535-4193-8f89-b0b2b65a482e
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '785ebd3f-cc8b-4bd4-90ef-749588460da0', '5d3ac77d-1030-4258-9f2b-9157367f61a7', '3a8c46b5-14bb-4f8a-a66c-19544658339e']
+  Visual : In a brutal, frenzied motion inside Bengkel Empu Gandring, Ken Arok drives the sharp tip of the unfinished Keris deep into Empu Gandring's chest. Crimson blood instantly bubbles forth, staining the old smith's bare torso as his hands claw weakly at Ken Arok's arms. The fiery furnace light casts harsh, dramatic shadows across Ken Arok's merciless expression.
+  Motion : Dynamic side-profile medium shot with a sudden camera jolt upon the strike, freezing briefly on the violent impact.
+  Audio  : A sickening wet puncture sound punctuated by a choked, agonizing gasp from Empu Gandring. The furnace fire roars violently in sync with a rumbling bass boom.
+
+--- FRAME [16] | #03.05 ---
+  Title      : Dying Breath of Gandring
+  Scene      : Ext. Bengkel Empu Gandring - Night
+  SceneId    : b20baac9-1535-4193-8f89-b0b2b65a482e
+  LinkedAssets: ['785ebd3f-cc8b-4bd4-90ef-749588460da0', '3a8c46b5-14bb-4f8a-a66c-19544658339e', '5d3ac77d-1030-4258-9f2b-9157367f61a7']
+  Visual : Empu Gandring collapses backward against the dusty floor of Bengkel Empu Gandring, his back resting near the smoldering ash pit. Dark blood trickles from his lips and across his chest as he raises a trembling, soot-stained finger toward his murderer. His eyes burn with supernatural rage and finality as he pronounces the seven-generation curse.
+  Motion : High-angle shot tilting down toward Empu Gandring's dying body, gently pushing closer to capture his vengeful gaze.
+  Audio  : A wheezing, wet death rattle as Empu Gandring rasps his final curse. A high-pitched eerie ringing drone underscores his prophecy, fading only slightly under the storm outside.
+
+--- FRAME [17] | #03.06 ---
+  Title      : Into the Dark Tempest
+  Scene      : Ext. Bengkel Empu Gandring - Night
+  SceneId    : b20baac9-1535-4193-8f89-b0b2b65a482e
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '5d3ac77d-1030-4258-9f2b-9157367f61a7', '785ebd3f-cc8b-4bd4-90ef-749588460da0', '3a8c46b5-14bb-4f8a-a66c-19544658339e']
+  Visual : Ken Arok inspects the bloodied Keris held firmly in his grasp, a cold, arrogant smirk spreading across his face as bright lightning flashes through the doorway. Behind him, the lifeless body of Empu Gandring lies still in the ash. Ken Arok turns his back on the carnage and strides purposefully out into the torrential night rain, engulfed by storm winds.
+  Motion : Slow tracking shot from behind Ken Arok, moving through the doorway as he disappears into the stormy darkness outside Bengkel Empu Gandring.
+  Audio  : A thunderous lightning strike cracking directly overhead. Ken Arok's chillingly confident parting words dissolve into the howling tempest and heavy sheets of rain.
+
+--- FRAME [18] | #04.01 ---
+  Title      : Tension in Tumapel
+  Scene      : Fade To Black:
+  SceneId    : scene-f42916e5-5e5a-48a0-ae46-174481b8e32f
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '5f40fa13-e875-468e-af28-cfeac07475ea', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5', 'f44cde4a-4386-4765-9f0c-728f122bc8ac']
+  Visual : Ken Arok stands quietly near the carved pillars of Pendopo Kediaman Akuwu Tumapel, watching Tunggul Ametung seated on his raised dais. Tunggul Ametung gestures dismissively while clutching a Cawan Arak in his hand. The warm afternoon sun casts deep, angled shadows across the stone floor between the two men. Ken Arok remains tense, his hands clasped firmly in front of him.
+  Motion : The camera begins in a wide shot and slowly pushes in toward Ken Arok's watchful posture. A subtle counter-pan maintains Tunggul Ametung in the edge of the frame.
+  Audio  : The faint clink of the drinking vessel setting down blends with distant courtyard chatter. A low, rhythmic drone hums softly beneath the ambient palace wind.
+
+--- FRAME [19] | #04.02 ---
+  Title      : A Silent Confrontation
+  Scene      : Fade To Black:
+  SceneId    : scene-f42916e5-5e5a-48a0-ae46-174481b8e32f
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '5f40fa13-e875-468e-af28-cfeac07475ea', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5']
+  Visual : A tight medium close-up of Ken Arok reveals his intense, calculating gaze fixed on his ruler. In the soft-focus background, Tunggul Ametung leans forward aggressively, speaking sharp words across the chamber. Light catches the sweat on Ken Arok's brow as he absorbs the command without shifting an inch.
+  Motion : The camera holds steady on Ken Arok with minimal handheld breathing. It drifts slightly to the right to accentuate his locked jaw.
+  Audio  : The spoken dialogue echoes sharply against the stone architecture, muffled slightly by Ken Arok's internalized focus. A taut string instrument swells with rising dissonance.
+
+--- FRAME [20] | #04.03 ---
+  Title      : Descent Into Darkness
+  Scene      : Fade To Black:
+  SceneId    : scene-f42916e5-5e5a-48a0-ae46-174481b8e32f
+  LinkedAssets: ['5f5cf628-cc73-4e03-ab26-293176369c62', '5f40fa13-e875-468e-af28-cfeac07475ea', 'bfce904e-9bff-408c-8cb8-e422dcc67bd5']
+  Visual : An over-the-shoulder shot framing Ken Arok's silhouette looking toward Tunggul Ametung as the ruler turns away in disdain. The chamber light rapidly dims as shadows stretch across the wooden pavilion beams. The scene steadily dissolves into complete, impenetrable blackness.
+  Motion : The camera slowly pulls backward away from the figures. As it retreats, the exposure drops steadily until the screen fades to black.
+  Audio  : A heavy, resonant gong tolls once and reverberates into silence. The ambient room tone abruptly decays into a dead, ominous hush.

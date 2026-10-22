@@ -1,0 +1,81 @@
+=== CHARACTER ASSETS (7) — full detail ===
+
+[0] Dang Hyang Lohgawe
+  id: 2026e610-13c8-4979-a7eb-0c9091150694
+  type: character
+  name: Dang Hyang Lohgawe
+  supportingImages: list[1] (embedded)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A South East Asian Brahmin ascetic in his early 60s with a lean, sinewy build. He has sun-weathered tan skin, prominent cheekbones, and sharp, piercing dark brown eyes beneath thick, graying eyebrows. His hair is long and iron-gray, tied into a high, traditional topknot, complemented by a flowing, untrimmed white beard that reaches his collarbone.
+  clothingAccessories: Draped in a tattered, off-white unbleached cotton robe wrapped across the left shoulder in traditional Brahmin style, paired with a matching loose dhoti-style wrap reaching his calves. Around his neck hangs a long rosary of carved dark brown rudraksha beads, and his feet are bare with worn leather thong sandals tied at the ankles.
+  backstory: A revered Hindu sage from India who traveled across Java following divine visions, seeking the destined supreme ruler of the archipelago. He sees Ken Arok not as a common thief, but as an avatar of Vishnu bound for royal destiny.
+  referenceImageId: 740f9f0f-7e64-4b0b-a997-ccaa617d24d7
+
+[1] Empu Gandring
+  id: 785ebd3f-cc8b-4bd4-90ef-749588460da0
+  type: character
+  name: Empu Gandring
+  supportingImages: list[1] (embedded)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A Javanese master blacksmith in his mid-50s with a heavily muscled, broad-shouldered physique forged by decades of metalwork. His dark bronze skin is slick with sweat and streaked with black soot, showcasing calloused hands with thick, blunt fingers. He has short, coarse black-and-silver peppered hair, a flat nose, wide jaw, and a bristly salt-and-pepper mustache and goatee.
+  clothingAccessories: Bare-chested with charcoal dust clinging to his torso, he wears a thick, oil-stained brown buffalo-leather apron secured with iron buckles over dark indigo rolled-up knee-length breeches. Thick woven cord protects his forearms, while his feet are shielded by hardened, ash-covered leather work boots.
+  backstory: A legendary artisan renowned for infusing supernatural power and spiritual incantations into the blades he forges. His refusal to yield an incomplete, spiritually volatile weapon ultimately leads to his tragic confrontation with Ken Arok.
+  referenceImageId: 4fb62f9c-9bce-4877-8a12-e665a41c90d2
+
+[2] Ken Arok
+  id: 5f5cf628-cc73-4e03-ab26-293176369c62
+  type: character
+  name: Ken Arok
+  supportingImages: list[1] (embedded)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A Javanese man in his mid-20s possessing a rugged, athletic, and fiercely agile physique. He has warm golden-brown skin, an angular jawline, a wide grin, and deep, amber-brown predatory eyes. His unruly, wavy jet-black hair falls past his shoulders in messy strands, framed by a light, scruffy stubble along his sharp chin.
+  clothingAccessories: Wears a faded crimson cloth headband securing his messy curls, an open earthy-brown sleeveless vest over a bare chest, and an indigo-patterned batik sarong hitched up above his knees and tied with a coarse hemp rope belt. His feet are bare and mud-splattered, complemented by braided cord wristbands on both forearms.
+  backstory: Raised as an orphaned bandit and street thief in the jungles of Tumapel, he survives purely by his cunning, physical prowess, and raw ambition. After crossing paths with Lohgawe and catching a glimpse of Ken Dedes, his aspirations shift violently toward supreme political power.
+  referenceImageId: dff39ca8-f573-4deb-9c43-840210f6a4dc
+
+[3] Ken Dedes
+  id: b7ff2d76-5973-41fe-b2cc-103de8f559b2
+  type: character
+  name: Ken Dedes
+  supportingImages: list[1] (embedded)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A striking Javanese woman in her early 20s with an ethereal, luminous complexion and a slender, regal frame. She has large, almond-shaped obsidian eyes fringed with thick dark lashes, soft rose-toned lips, and a high-bridged nose. Her lustrous, blue-black hair is arranged into an elaborate royal updo adorned with fresh white jasmine buds.
+  clothingAccessories: Draped in an exquisite golden-yellow and emerald green silk kemben wrapped tightly around her torso, accented by an intricately patterned dark brown batik jarik skirt that reveals glowing, radiant golden skin beneath the hem. She wears engraved bronze armlets shaped like serpents, layered gold drop earrings, and ornate brass anklets.
+  backstory: The daughter of a respected Buddhist monk, she was abducted by Akuwu Tunggul Ametung to serve as his trophy consort. Prophecy names her the mother of kings, marked by the divine, radiant glow that emanates from her body.
+  referenceImageId: 3687ce59-05de-497e-aadf-55352918ebbb
+
+[4] Prajurit Satu
+  id: 59d91099-8b87-40dd-bf23-52869f93ad91
+  type: character
+  name: Prajurit Satu
+  supportingImages: list[1] (embedded)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A Javanese soldier in his early 30s with a stout, heavily built frame and thick neck. He features a round, sunburnt face, dark brown narrow eyes, a crooked nose from a healed break, and a thin, downward-turned black mustache. His coarse black hair is cut short and uneven beneath his military headpiece.
+  clothingAccessories: Clad in a sleeveless dark brown padded leather tunic over a short dark red cotton loincloth wrap tied at the waist with a thick cord. He wears a simple conical lacquered leather cap, reinforced split-leather forearm guards, and heavy woven fiber sandals on his dirt-caked feet.
+  backstory: A seasoned Tumapel palace guard captain accustomed to brutally crushing peasant rebellions and highway bandits. Despite his aggressive temperament, he holds deep reverence and superstitious dread toward powerful holy ascetics like Lohgawe.
+  referenceImageId: 66ee02e9-a544-4bea-9547-e2661fd9e04b
+
+[5] Prajurit Tumapel
+  id: d363b2dd-7fe5-441d-b819-a302ddaa9a15
+  type: character
+  name: Prajurit Tumapel
+  supportingImages: list[1] (embedded)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A lean, athletic Javanese soldier in his late 20s with a wiry, combat-trained build. He has dark copper skin, prominent brow ridges over suspicious black eyes, and a taut jawline. His straight black hair is pulled back into a small, tight bun at the crown of his head.
+  clothingAccessories: Outfitted in a sleeveless hardened leather cuirass dyed deep russet brown over an unbleached coarse cotton sash, matched with a dark gray knee-length sarong hitched for running. His wrists are bound with defensive rawhide bracers, and he wears strapped leather field sandals on his feet.
+  backstory: One of Akuwu Tunggul Ametung's ruthless territorial enforcers charged with policing the outskirts of the kingdom. Trained to show no mercy to lower-class outlaws, he relies heavily on numbers and polearms to overpower foes.
+  referenceImageId: bfde3e95-a5f0-4599-8677-7731a0d2055c
+
+[6] Tunggul Ametung
+  id: 5f40fa13-e875-468e-af28-cfeac07475ea
+  type: character
+  name: Tunggul Ametung
+  supportingImages: list[1] (embedded)
+  includeInspirationInImageGen: True
+  physicalCharacteristics: A bulky, imposing Javanese ruler in his mid-40s with a heavy midsection and broad, fleshy shoulders. His face is weathered and stern, featuring a thick, waxed horizontal handlebar mustache, deep laugh lines around a cruel mouth, and heavy-lidded, bloodshot dark eyes beneath prominent, furrowed brows. His dark hair is slicked back into an ornate, jeweled chignon.
+  clothingAccessories: Dressed in a lavish deep-purple silk kain intricately woven with shimmering golden thread, secured at the waist with an ornate gold belt featuring a dragon buckle. He wears heavy multi-tiered gold necklaces, wide beaten-gold arm cuffs on both biceps, large gemstone earplugs, and soft velvet slippers.
+  backstory: The tyrannical Akuwu of Tumapel who seized control of the region through brute force and cunning subjugation. Indulging in wine, concubines, and unchecked power, he rules with an iron fist while remaining oblivious to the prophetic threats gathering inside his own court.
+  referenceImageId: 3d8979b5-565f-4bf8-b3d9-53eff20d4c67
+
+
+=== FRAME imageHistory SAMPLE (frame 0) — full ===
