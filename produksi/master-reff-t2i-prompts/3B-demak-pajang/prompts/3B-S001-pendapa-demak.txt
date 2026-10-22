@@ -1,0 +1,11 @@
+Cinematic realistic group character reference of the court of Demak — sultan, wali, and warrior, early 16th century AD, Demak, Central Java, arranged in a standing group pose on a clean solid light cream studio background. Group of 4 individuals in a court scene pose. Position 1 (center, elevated): Sultan Trenggana, seated on a raised chair, wearing dark maroon royal jacket with gold embroidery, batik blangkon, keris at waist. Position 2 (left): Sunan Kalijaga, standing with wayang puppet, wearing batik blangkon and green jubah — the cultural advisor. Position 3 (right): a Demak warrior (makasirkasir), standing with spear and leather armor — the military arm. Position 4 (far right): a court scribe, sitting cross-legged with Jawi manuscript — the administrative pillar. All wearing Javanese-Islamic attire blending Islamic and Javanese traditions. Clean studio background, no environment, no historical setting, no landscape elements — neutral studio reference only.
+
+IMPORTANT: Upload the following character reference images before generating: 3B-K001 (Sultan Trenggana) | 3A-K003 (Sunan Kalijaga). Use each uploaded image as the exact face, body, and identity reference. This prompt only defines group composition, pose, and props — NOT physical features.
+
+Lighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting, no dramatic lighting.
+
+Mood: neutral studio reference, group turnaround for production consistency. The three pillars of Islamic Java — Demak's court combined royal authority (sultan), religious legitimacy (wali), and military power (warrior). Under this triangle, Java was transformed from Hindu-Buddhist to Muslim — not through foreign conquest, but through indigenous leaders who adopted and adapted Islam.
+
+Style: photorealistic skin texture, 35mm film grain, deep depth of field f/8, 50mm lens, 8K hyperdetailed, production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.
+
+Avoid: environment background, landscape, historical setting, dramatic lighting, inconsistent faces with reference images, modern clothing, anime style, cartoon, 3D render, plastic skin, deformed hands, watermark, text, signature, low resolution, blurry, oversaturated, Hindu costume, turban (must be blangkon), fully Arab costume, modern clothing.

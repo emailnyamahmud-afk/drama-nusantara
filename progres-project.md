@@ -78,3 +78,9 @@
 **Hasil**: 3A Islamisasi Awal: 21→17 v2.1 (K6+L7+A3+S1)
 Total v2.1: 152 files (1A-3A)
 **Pending**: 3B (perlu v2), 3C/4A/4B (belum ada)
+
+## Sesi 2026-10-22 (lanjutan 4) — T2I v2.1 SELESAI UNTUK SEMUA ERA YANG ADA (1A-3B)
+
+**Hasil**: 3B Demak-Pajang: 21→17 v2.1 (K6+L7+A3+S1)
+Total v2.1: 169 files (1A-3B) — semua era yang sudah ada T2I sebelumnya sudah di-regenerate ke v2.1
+**Remaining**: 3C, 4A, 4B (belum ada T2I), 4C-4E BLOCKED

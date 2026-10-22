@@ -1977,3 +1977,24 @@ Stage Summary:
 - Islam: 3A 17 files v2.1 ✅ | 3B pending
 - Pending: 3B (perlu v2), 3C/4A/4B (belum ada)
 
+
+---
+Task ID: T2I-V2-3B
+Agent: Main Agent (Z.ai)
+Task: Regenerate T2I v2.1 era 3B Demak-Pajang
+
+Work Log:
+- 3B Demak-Pajang: 21→17 files (K6+L7+A3+S1)
+- Hapus 21 file v1 (naming DEMAK-PAJANG-UPPERCASE, 9:16)
+- K: 6 (Sultan Trenggana, Sultan Hadiwijaya, Arya Penangsang, Panembahan Senapati, Sunan Prapen, Hamzah Fansuri)
+- L: 7 (Demak, Pajang, Keraton Kasepuhan, Banten, Giri Kedaton, Aceh, Kotagede)
+- A: 3 (Lawang Bledeg, Wayang Punakawan, Manuskrip Syarab al-Asyiqin)
+- S: 1 (Pendapa Demak: sultan+wali+prajurit, ref: K001+3A-K003)
+
+Total v2.1: 1A(16)+1B(17)+1C(17)+1D(17)+2A(17)+2B(17)+2C(17)+2D(17)+3A(17)+3B(17) = 169 files
+
+Stage Summary:
+- ALL EXISTING ERA T2I v2.1 SELESAI (1A-3B = 10 era, 169 files)
+- Remaining: 3C, 4A, 4B (belum ada T2I sama sekali)
+- 4C-4E BLOCKED (Jilid VI-X belum terbit)
+
