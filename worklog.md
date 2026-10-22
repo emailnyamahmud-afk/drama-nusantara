@@ -1863,3 +1863,46 @@ Stage Summary:
 - ***ERA HINDU-BUDDHA SELESAI SEMUA (2A + 2B + 2C + 2D) — Total 4 era Hindu-Buddha lengkap***
 - Status project final: 16 dari 17 era selesai (1A-1D + 2A-2D + 3A-3C + 4A-4B) — hanya 4C-4E BLOCKED menunggu Jilid VI-X
 
+
+---
+Task ID: T2I-V2-1A-PILOT
+Agent: Main Agent (Z.ai)
+Task: Regenerate T2I prompts era 1A dengan standar baru v2 (horizontal default) — pilot untuk era lain
+
+Work Log:
+- Audit T2I existing 1A: 10 files (3K + 4L + 2A/P + 1F), semua 9:16 portrait
+- Bandingkan dengan master-era 1A: 12 tokoh, 11 latar, beberapa artefak
+- Identifikasi gap: 7 latar belum ada T2I; Homo soloensis belum ada K-prompt
+- Tentukan standar baru v2:
+  * K (karakter ref 5-angle): 16:9 horizontal (dari 9:16)
+  * L (latar cinematic): 16:9 horizontal (dari 9:16)
+  * A (artefak macro): 1:1 square (dari 9:16; sebelumnya P prefix)
+  * F (fauna): 16:9 horizontal (dari 9:16)
+  * Naming konsisten lowercase: {era}-{tipe}{nomor:03d}-{slug}.txt
+  * Style keyword wajib di awal: "Cinematic realistic documentary..."
+- Update GUIDE-dola-ai.md dengan section "Perubahan v2"
+- Buat script Python: scripts/generate_1A_t2i_v2.py (template-based, reusable)
+- Hapus 10 file 1A lama, generate 15 file 1A baru:
+  * K001 Homo erectus dewasa (16:9)
+  * K002 Anak Mojokerto (16:9)
+  * K003 Kelompok berburu 5 individu (16:9)
+  * K004 Homo soloensis Ngandong (16:9) — BARU
+  * L001 Paparan Sunda (16:9)
+  * L002 Kubah Sangiran (16:9)
+  * L003 Bengawan Solo (16:9)
+  * L004 Bumiayu (16:9)
+  * L005 Semedo — BARU (16:9)
+  * L006 Patiayam — BARU (16:9)
+  * L007 Wallacea — BARU (16:9)
+  * A001 Alat batu serpih (1:1) — ex-P001
+  * A002 Tengkorak Trinil (1:1) — ex-P002
+  * A003 Fosil Stegodon — BARU (1:1)
+  * F001 Stegodon fauna (16:9)
+
+Stage Summary:
+- File: 15 T2I prompts v2 untuk era 1A (naik dari 10)
+- Standar: horizontal 16:9 (K, L, F) + square 1:1 (A)
+- Coverage: 4 karakter + 7 latar + 3 artefak + 1 fauna = 15 prompts
+- Script reusable: scripts/generate_1A_t2i_v2.py bisa di-rerun kalau perlu edit
+- Next: user review format 1A → kalau OK, lanjut era 1B, 1C, 1D, 2A-2D, 3A-3B
+

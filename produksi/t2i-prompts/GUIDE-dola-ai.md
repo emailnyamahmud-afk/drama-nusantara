@@ -2,8 +2,24 @@
 
 > **Platform**: Dola AI (https://dola.com/chat/create-image)
 > **Model utama**: Seedream 4.5 (juga dukung Nano Banana 2/2 Lite/Pro, GPT Image 2/2.5, Seedream 5.0 Lite/Pro)
-> **Tanggal**: 2026-10-20
+> **Tanggal**: 2026-10-22 (v2 — standar horizontal)
 > **Sumber**: riset via WebSearch + WebFetch ke dola.com, dola-ai.com, dolai.video/how-to-use, fal.ai Seedream guide, BytePlus ModelArk docs
+
+---
+
+## ⚠️ Perubahan v2 (2026-10-22)
+
+1. **Aspect ratio default berubah** — tidak lagi semua 9:16 portrait. Sekarang:
+   - **K** (karakter ref sheet 5-angle): **16:9 horizontal** — 5 angle side-by-side lebih natural
+   - **L** (latar/lokasi cinematic): **16:9 horizontal** — cinematic landscape untuk produksi
+   - **A** (artefak macro detail): **1:1 square** — macro detail seimbang
+   - **F** (fauna/cuaca): **16:9 horizontal** — cinematic animal scene
+   - **S** (scene multi-karakter — tipe baru): **16:9 horizontal** — adegan untuk produksi
+2. **Style keyword wajib di awal**: `Cinematic realistic documentary...`
+3. **Naming konsisten**: `{era}-{tipe}{nomor:03d}-{slug-lowercase}.txt`
+   - Contoh: `1A-K001-homo-erectus-dewasa.txt`, `1A-L001-paparan-sunda.txt`
+4. **Negative prompt** tetap di akhir dengan `Avoid:` prefix
+5. **Semua file L**: "No people, no characters, no humans — empty location reference"
 
 ---
 

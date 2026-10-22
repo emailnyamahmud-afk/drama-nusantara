@@ -89,7 +89,7 @@ drama-nusantara/
 | Sumber primer (5 jilid) | 83 file MD asli (Jilid I-V; Jilid VI-X belum terbit) |
 | Master era selesai | 16 dari 17 (1A-1D + 2A-2D rewrite + 3A-3C + 4A-4B rewrite lengkap) |
 | Master era BLOCKED | 4 era (4C-4E) — menunggu Jilid VI-X |
-| T2I prompts selesai | 10 era (173 file .txt total — 3C+4A+4B belum) |
+| T2I prompts selesai | 10 era (173 file .txt v1 + 15 file v2 untuk 1A — 3C+4A+4B belum) |
 | Total kata master era | ~154.000 kata (12.010 baris era docs) |
 | Total klaim dengan sitasi | 1.176 klaim |
 | Total file di repo | 345 |
@@ -98,11 +98,11 @@ drama-nusantara/
 
 | Era | Periode | Master | Baris | T2I | T2I file |
 |-----|---------|--------|-------|-----|----------|
-| 1A Pleistosen Awal | 1,8 jt – 700 rb thn lalu | ✅ rewrite | 1171 | ✅ | 10 |
+| 1A Pleistosen Awal | 1,8 jt – 700 rb thn lalu | ✅ rewrite | 1171 | ✅ v2 | 15 |
 | 1B Pleistosen Tengah-Akhir | 700 rb – 12 rb thn lalu | ✅ rewrite | 1214 | ✅ | 10 |
 | 1C Holosen / Neolitik | 12 rb – 2.500 SM | ✅ rewrite | 1205 | ✅ | 10 |
 | 1D Logam Awal | 2.500 SM – abad 5 M | ✅ rewrite | 1264 | ✅ | 12 |
-| **TOTAL PRASEJARAH** | | | **4854** | | **42** |
+| **TOTAL PRASEJARAH** | | | **4854** | | **47** |
 | 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ rewrite | 1408 | ✅ | 18 |
 | 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ rewrite | 2231 | ✅ | 37 |
 | 2C Singasari-Kediri | Abad 11-13 M | ✅ rewrite | 1547 | ✅ | 17 |
@@ -128,9 +128,11 @@ drama-nusantara/
 Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy-paste ke Dola AI:
 
 **Tipe file:**
-- **K** = Karakter ref sheet (5 angle grid, clean cream studio background, 9:16)
-- **L** = Latar/lokasi (scene historis, NO people, 9:16)
-- **A** = Artefak (macro detail, 9:16)
+- **K** = Karakter ref sheet (5 angle horizontal grid, clean cream studio background, 16:9)
+- **L** = Latar/lokasi (scene historis cinematic, NO people, 16:9)
+- **A** = Artefak (macro detail, 1:1 square)
+- **F** = Fauna (wildlife cinematic, 16:9)
+- **S** = Scene multi-karakter (adegan, 16:9) — tipe baru, belum digunakan
 
 **Format per file:**
 - Flat natural-language prompt (siap paste langsung ke Dola AI chat box)
@@ -183,7 +185,7 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 | 2026-10-20 | **Rewrite lengkap 3C Mataram Islam** — Jilid III+IV, 873 baris, ~13.500 kata, 93 klaim. Sultan Agung (1613-1645) 'Majapahit Baru'+ekspansi Surabaya 1625+Giri-Gresik 1636+Blambangan 1636-1640+serang Batavia 1628+1629 gagal+kalender Islam-Jawa 1633; Amangkurat I (1646-1677) absolutisme+bunuh 5.000-6.000 ulama; Trunojoyo 1674-1679+Perjanjian Mataram-VOC 1677-1678; Geger Pecinan 1740; Perjanjian Giyanti 1755 (Mataram pecah Yogyakarta+Surakarta)+Salatiga 1757 (Mangkunegaran); Aceh Iskandar Muda (1607-1636)+serang Malaka 1629 gagal 19.000 prajurit+Turki Usmani; Gowa-Tallo (1593-1639)+Perang Makassar 1666-1669; VOC+J.P. Coen Batavia 1619+genosida Banda 1621+sistem Perken; Hamzah Fansuri+Syamsuddin as-Sumatrani+Tajussalatin+Bustan as-Salatin+Islamic Republic of Letters | ✅ |
 | 2026-10-20 | **Rewrite lengkap 4A VOC Awal** — Jilid IV (Bab 2,4,6,7,8,9)+Jilid V (Bab 1,3), 722 baris, ~11.094 kata, 85 klaim. Ekspedisi De Houtman 1595-1597; Frederick de Houtman kamus Melayu-Belanda pertama 1603; Linschoten Itinerario 1596; VOC berdiri 20 Maret 1602 (oktroi hak istimewa); J.P. Coen Batavia 1619+genosida Banda 1621+sistem Perken+hongi tochten; perlawanan Hoamoal 1651-1656+Iha 1632-1652; Perang Makassar 1666-1669; Perjanjian Mataram-VOC 1677-1678+Geger Pecinan 1740+Giyanti 1755+Salatiga 1757; VOC bangkrut 1800; Daendels 1808-1811 (Jalan Raya Pos); Raffles 1811-1816 (landrent system+Geger Sepehi 1812); van den Bosch Cultuurstelsel 1830-1833 | ✅ |
 | 2026-10-20 | **Rewrite lengkap 4B Kolonial 19** — Jilid V (Bab 1,3,6), 618 baris, ~9.694 kata, 74 klaim. Cultuurstelsel 1830-1870 (van den Bosch, 1/5 lahan untuk negara, cultuurprocenten, NHM, 20% pendapatan Belanda 1832-1850); Multatuli Max Havelaar 1860; Ekonomi Liberal 1860-1880 (UUA 1870, erfpacht 75 tahun, 383 perusahaan 1890); Perang Padri 1821-1837 (Tuanku Imam Bonjol, 3 periode, Piagam Marapalam, Bonjol jatuh 25 Oktober 1837, wafat 1864); Perang Jawa 1825-1830 (Pangeran Diponegoro, Kiai Madja, Sentot, Benteng Stelsel De Kock 1827 ±250 benteng, Magelang 28 Maret 1830, wafat 1855); Perang Bali 1846-1849 (Buleleng+Jagaraga+Kusamba, Michiels tewas, Mads Lange mediasi); Perang Banjar 1859-1906 (Antasari+Surapati+Hidayatullah vs Tamjidillah, batu bara Martapura 1846); Perang Aceh 1873-1904 (Sultan Ibrahim+Mahmud Syah II, Habib Abdurrahman, Pangeran Tiban, Turki); Perang Batak Sisingamangaraja XII 1877-1907; Perang Lombok 1891-1894 (Sasak vs Bali, perang puputan, van Ham tewas); Pemberontakan Petani Banten 1888 (Haji Abdul Karim Tarekat Qadiriyah); Politiek Etis 1901 (Irrigasi+Emigratie+Educatie) | ✅ |
-| 2026-10-22 | **Rewrite lengkap 2C Singasari-Kediri** — parsing sistematis Jilid II Bab III.C (lines 1552-1810) + Bab II.B.4 + II.C.4.b + II.E.2.a sampling, 519→1547 baris, ~24.000 kata, ~50→90 klaim, 40 tokoh, 35 latar, 17 prasasti disitasi. Coverage: Bab III.C.1 100% (Janggala-Pangjalu), III.C.1.b 100% (7 raja Kadiri), III.C.2 100% (pencapaian Kadiri), III.C.3 100% (5 raja Singhasari dari Mula Malurung), III.C.4 100% (pelarian Raden Wijaya + pendirian Majapahit). Bab II.B.4 100% (Bhairawa-Hevajra masa Jayabhaya-Kertanagara, pendharmaan, paralelisme). Bab II.C.4.b 100% (Candi Singhasari-Jago-Jawi-Simping-Boyolangu-Rimbi). Audit halu: 30 klaim kunci TERVERIFIKASI terhadap sumber primer (tidak ada halu). **Era Hindu-Buddha selesai semua: 2A+2B+2C+2D lengkap.** | ✅ |
+| 2026-10-22 | **T2I v2 pilot — 1A Pleistosen Awal** — regenerate 10→15 files dengan standar baru: aspect ratio horizontal (K=16:9, L=16:9, A=1:1, F=16:9). Update GUIDE-dola-ai.md dengan section "Perubahan v2". Add 5 prompts baru: K004 Homo soloensis Ngandong, L005 Semedo, L006 Patiayam, L007 Wallacea, A003 Fosil Stegodon. Script reusable: scripts/generate_1A_t2i_v2.py. | ✅ |
 
 ## TODO untuk Sesi Berikutnya
 
