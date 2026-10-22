@@ -1955,3 +1955,25 @@ Stage Summary:
 - Total: 135 files v2.1
 - Pending: 3A, 3B (perlu v2), 3C/4A/4B (belum ada)
 
+
+---
+Task ID: T2I-V2-3A
+Agent: Main Agent (Z.ai)
+Task: Regenerate T2I v2.1 era 3A Islamisasi Awal
+
+Work Log:
+- 3A Islamisasi Awal: 21→17 files (K6+L7+A3+S1)
+- Hapus 21 file v1 (naming ISLAMISASI-UPPERCASE, 9:16)
+- K: 6 (Malik al-Saleh, Sunan Ampel, Sunan Kalijaga, Sunan Giri, Sunan Gunung Jati, Parameswara)
+- L: 7 (Samudra Pasai, Malaka, Lobu Tua/Barus, Gresik, Ampel Denta, Giri Kedaton, Demak)
+- A: 3 (Nisan Malik al-Saleh, Masjid Demak, Koin Islam Bongal)
+- S: 1 (Wali Songo — 5 wali grup, ref: K002+K003+K004+K005)
+
+Total v2.1: 1A(16)+1B(17)+1C(17)+1D(17)+2A(17)+2B(17)+2C(17)+2D(17)+3A(17) = 152 files
+
+Stage Summary:
+- Prasejarah (1A-1D): 67 files v2.1 ✅
+- Hindu-Buddha (2A-2D): 68 files v2.1 ✅
+- Islam: 3A 17 files v2.1 ✅ | 3B pending
+- Pending: 3B (perlu v2), 3C/4A/4B (belum ada)
+

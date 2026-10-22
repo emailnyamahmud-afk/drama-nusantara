@@ -72,3 +72,9 @@
 - 3A Islamisasi Awal (perlu v2)
 - 3B Demak-Pajang (perlu v2)
 - 3C, 4A, 4B (belum ada T2I)
+
+## Sesi 2026-10-22 (lanjutan 3) — T2I v2.1 Regenerate 3A
+
+**Hasil**: 3A Islamisasi Awal: 21→17 v2.1 (K6+L7+A3+S1)
+Total v2.1: 152 files (1A-3A)
+**Pending**: 3B (perlu v2), 3C/4A/4B (belum ada)
