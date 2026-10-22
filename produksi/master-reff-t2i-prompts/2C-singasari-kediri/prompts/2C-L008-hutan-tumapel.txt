@@ -1,0 +1,9 @@
+Cinematic realistic location reference of Hutan Tumapel, a sprawling tropical teak forest in 13th century East Java — NO people, NO characters, NO humans, empty location reference. Towering teak trees with dry peeling bark, dense canopy filtering harsh midday sun into sharp diagonal god rays cutting through mist. Tangled thorny undergrowth, ferns, vines, moss-covered fallen logs spanning across narrow dirt trails. Ground is dry sun-baked earth mixed with patches of damp mud, scattered with golden-brown teak leaves. Limestone boulders half-buried in undergrowth. A narrow winding footpath worn into the forest floor, suggesting frequent foot traffic. Distant misty forest layers creating depth. Wild, untamed, primal Javanese woodland at the height of dry season.
+
+Lighting: harsh midday sun, ~5500K, strong directional god rays from upper-right at 45 degrees, high contrast with deep shadows in undergrowth, volumetric atmospheric haze. Raking light catching dust motes.
+
+Mood: ancient, primal, foreboding yet sacred. A forest where bandits hide and sages appear. Setting for the legendary encounter between Ken Arok and Dang Hyang Lohgawe.
+
+Style: photorealistic natural texture, 24mm wide-angle lens, deep depth of field f/11, hyperdetailed foliage, 8K, cinematic color grade warm earthy tones with golden god rays. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.
+
+Avoid: people, humans, characters, figures, silhouettes, modern buildings, modern roads, vehicles, plastic-looking foliage, cartoon, anime, 3D render, oversaturated greens, watermark, text, low resolution, blurry.

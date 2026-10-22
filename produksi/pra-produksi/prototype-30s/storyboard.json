@@ -35,7 +35,7 @@
       "backstory": "Resi Hindu dari India yang mengembara ke Jawa mencari raja yang ditakdirkan. Melihat Ken Arok bukan pencuri rendahan, tapi avatar Wisnu",
       "voice": "id-ID-Ardi",
       "include_inspiration_in_image_gen": true,
-      "ref_k_id": null,
+      "ref_k_id": "2C-K007-dang-hyang-lohgawe",
       "status": "draft"
     }
   ],
@@ -45,7 +45,7 @@
       "nama": "Hutan Tumapel",
       "physical_characteristics": "Hutan jati tropis luas dengan pohon-pohon tinggi berkulit kering, semak berduri lebat, batang pohon tumbang berlumut di jalur tanah kering. Bebatuan kapur berserakan. God rays menembus kanopi",
       "time_of_day": "midday",
-      "ref_l_id": null,
+      "ref_l_id": "2C-L008-hutan-tumapel",
       "status": "draft"
     },
     {
@@ -53,7 +53,7 @@
       "nama": "Pendopo Kediaman Akuwu Tumapel",
       "physical_characteristics": "Interior pendopo batu dengan lantai berukiran kuno, pilar kayu jati berukir, atap ijuk tinggi, obor api memberi cahaya dramatis, singgasana kayu berukir di tengah",
       "time_of_day": "day",
-      "ref_l_id": "2C-L001-daha-kadiri",
+      "ref_l_id": "2C-L009-pendopo-akuwu-tumapel",
       "status": "draft"
     }
   ],
@@ -63,7 +63,7 @@
       "nama": "Sekantung Beras",
       "physical_characteristics": "Kantung goni cokelat kasar diikat leher dengan tali hemp fray, noda lumpur, beberapa butir beras putih menyembul di sambungan",
       "include_inspiration_in_image_gen": false,
-      "ref_a_id": null,
+      "ref_a_id": "2C-A004-sekantung-beras",
       "status": "draft"
     },
     {
@@ -71,7 +71,7 @@
       "nama": "Tombak Prajurit",
       "physical_characteristics": "Tombak infantri: batang kayu jati gelap 8 kaki, mata tombak perunggu daun memanjang dengan bevel tajam, kerah kawat kuningan dan jumbai rambut kuda merah",
       "include_inspiration_in_image_gen": false,
-      "ref_a_id": null,
+      "ref_a_id": "2C-A005-tombak-prajurit",
       "status": "draft"
     }
   ],
@@ -261,6 +261,6 @@
     "video_generated": 0,
     "rendered": 0,
     "failed": 0,
-    "last_updated": "2026-10-22 23:35"
+    "last_updated": "2026-10-22 23:58"
   }
 }

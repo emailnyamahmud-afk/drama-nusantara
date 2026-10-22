@@ -55,7 +55,7 @@ characters = [
         "backstory": "Resi Hindu dari India yang mengembara ke Jawa mencari raja yang ditakdirkan. Melihat Ken Arok bukan pencuri rendahan, tapi avatar Wisnu",
         "voice": "id-ID-Ardi",  # bisa ganti ke voice berbeda
         "include_inspiration_in_image_gen": True,
-        "ref_k_id": None,  # belum ada K-file Phase 3 — perlu generate baru
+        "ref_k_id": "2C-K007-dang-hyang-lohgawe",  # ★ generated in Phase 3 v2.1
         "status": "draft"
     }
 ]
@@ -69,7 +69,7 @@ locations = [
         "nama": "Hutan Tumapel",
         "physical_characteristics": "Hutan jati tropis luas dengan pohon-pohon tinggi berkulit kering, semak berduri lebat, batang pohon tumbang berlumut di jalur tanah kering. Bebatuan kapur berserakan. God rays menembus kanopi",
         "time_of_day": "midday",  # ★ adopsi #5
-        "ref_l_id": None,  # belum ada di 2C — bisa pakai 2C-L002 (Tumapel-Singhasari) sebagai base, modifikasi jadi forest
+        "ref_l_id": "2C-L008-hutan-tumapel",  # ★ generated in Phase 3 v2.1
         "status": "draft"
     },
     {
@@ -77,7 +77,7 @@ locations = [
         "nama": "Pendopo Kediaman Akuwu Tumapel",
         "physical_characteristics": "Interior pendopo batu dengan lantai berukiran kuno, pilar kayu jati berukir, atap ijuk tinggi, obor api memberi cahaya dramatis, singgasana kayu berukir di tengah",
         "time_of_day": "day",
-        "ref_l_id": "2C-L001-daha-kadiri",  # paling mendekati — pendopo keraton
+        "ref_l_id": "2C-L009-pendopo-akuwu-tumapel",  # ★ generated in Phase 3 v2.1
         "status": "draft"
     }
 ]
@@ -91,7 +91,7 @@ props = [
         "nama": "Sekantung Beras",
         "physical_characteristics": "Kantung goni cokelat kasar diikat leher dengan tali hemp fray, noda lumpur, beberapa butir beras putih menyembul di sambungan",
         "include_inspiration_in_image_gen": False,  # prop sekunder
-        "ref_a_id": None,
+        "ref_a_id": "2C-A004-sekantung-beras",  # ★ generated in Phase 3 v2.1
         "status": "draft"
     },
     {
@@ -99,7 +99,7 @@ props = [
         "nama": "Tombak Prajurit",
         "physical_characteristics": "Tombak infantri: batang kayu jati gelap 8 kaki, mata tombak perunggu daun memanjang dengan bevel tajam, kerah kawat kuningan dan jumbai rambut kuda merah",
         "include_inspiration_in_image_gen": False,
-        "ref_a_id": None,
+        "ref_a_id": "2C-A005-tombak-prajurit",  # ★ generated in Phase 3 v2.1
         "status": "draft"
     }
 ]
