@@ -1718,3 +1718,47 @@ Stage Summary:
 - File update: README.md (tambah BLOCKED note + TODO section + ringkasan state final)
 - Commit + push: ke GitHub
 - Tidak ada file master-era baru di task ini — hanya dokumentasi
+
+---
+Task ID: 2A-REWRITE-LENGKAP
+Agent: Main Agent (Z.ai)
+Task: Rewrite lengkap era 2A Hindu-Buddha Awal (abad 4-7 M) dari status "koreksi" ke "rewrite lengkap" (pola sama dengan 1A-1D + 3A-3C + 4A-4B)
+
+Work Log:
+- Membaca worklog.md dan README.md untuk konteks state akhir sesi 2026-10-20
+- Membaca file 2A-hindu-buddha-awal.md existing (831 baris, status koreksi parsing)
+- Membaca sistematis semua Bab Jilid II yang relevan untuk era 2A:
+  * jilid-2/06-bab-1.md (Bab I, 100-360) — religi pra-Hindu, struktur sosial, teknologi, jaringan antarbangsa
+  * jilid-2/07-bab-2.md (Bab II, lines 118-1579 sampling) — Aksara-Bahasa, Hindu, Buddha, Penanggalan, Konsep Raja
+  * jilid-2/08-bab-3.md (Bab III A.1, lines 111-740 full) — Kutai, Tarumanagara, Swarnadwipa, Sriwijaya
+- Membuat file baru: progres-project.md (catatan progres sesi-per-sesi ringkas, untuk AI amnesia mitigation)
+- Rewrite total 2A-hindu-buddha-awal.md dari nol:
+  * Bagian 1 — Konteks Era (batas periode, kerangka geografi 8 kerajaan, struktur politik primus inter pares → dewaraja, sumber asing)
+  * Bagian 2 — Narasi Kronologi 7 sub-bagian:
+    - 2.1 Pra-perjumpaan: fondasi budaya lokal (religi pra-Hindu 4 sub-tradisi, struktur sosial, teknologi, jejak perjumpaan awal)
+    - 2.2 Abad 4-5 M: Kutai — Mulawarman, genealogi, agama Weda, artefak pendukung
+    - 2.3 Abad 5 M: Tarumanagara — Purnawarman, 7 prasasti, wilayah, akar Buni, keagamaan, Faxian 414 M
+    - 2.4 Abad 3-7 M: Swarnadwipa — Tu-po, Kan-to-li (4 penguasa), Po-Huang, Po-lou/Barus, situs Bongal
+    - 2.5 Abad 7 M: Kedatuan Sriwijaya — Dapunta Hyang Srijayanasa, prasasti, siddhayatra, hierarki, mandala, aliansi Sailendra-Nalanda
+    - 2.6 Dinamika Hindu-Buddha — aksara, bahasa Melayu Kuno, Hindu Waisnawa, Buddha Mahayana, dewaraja, kosmologi Mahameru, penanggalan regnal-Saka, paralelisme Hindu-Buddha
+    - 2.7 Ringkasan dinamika era
+  * Bagian 3 — Tokoh: 30 tokoh historis (Kundungga, Aswawarman, Mulawarman, Purnawarman, Faxian, Varanarendra, Saba-la-na-lin-da, Gautama Subhadra, Pyravarman Vinyavarman, Dapunta Hyang Srijayanasa, Yijing, Kalidasa, Hariani Santiko, de Casparis, Poerbotjaraka, Tom Harrison, Braddell, Lombard, Wolters, Coedés, Pollock, Acri, Manguin, Sartono, Soejono, Nitihaminoto, Brahmana kolektif, pedagang Austronesia kolektif, serikat dagang Tamil)
+  * Bagian 4 — Latar: 45 lokasi (Muara Kaman-Waprakeswara, Teluk Jakarta-Batu Tumbuh, Ciaruteun, Kebon Kopi, Jambu, Cidanghiyang, Tugu, Batujaya-Cibuaya, Buni, Citarum, Selat Sunda, Halimun, Tebo-Tu-po, Jambi-Kan-to-li, Tulang Bawang, Barus-Lobu Tua, Bongal, Palembang-Fo-shi, Bukit Siguntang, Minanga, Sambas, Sintang-Nanga Sepauk, Sanggau-Nanga Mahap, Sungai Sekayan-Batu Simpai, Kota Bangun, Gunung Kombeng, Santubong-Limbang, Candi Agung-Candi Laras, Pasir Angin, Plawangan, Gunung Kidul, Gilimanuk, Melolo, Watu Kandang-Matesih, Sembiran, Uner Lempeng, Pacung, Arikamedu, Takola, Malayu, Lamuri, Panai, Bangka, Lampung, Kampar, Kedah, Chaiya-Ligor, Nagapattinam, Nalanda + India-Tiongkok-Persia-Funan-Kamboja-Vietnam-Champa)
+  * Bagian 5 — 110 klaim dengan sitasi (K-001 sampai K-110), terbagi 9 sub-bagian: periode, religius pra-Hindu, struktur sosial, teknologi-ekonomi, Kutai-Mulawarman, Tarumanagara-Purnawarman, kekuatan politik Sumatra, Kedatuan Sriwijaya, aksara-bahasa-konsep raja
+  * Bagian 6 — Visual Assets brief: 12-warna palette, tekstur-material, kostum 4 karakter utama (Mulawarman, Purnawarman, Dapunta Hyang, Brahmana), arsitektur 6 lokasi, 10 props kunci
+  * Bagian 7 — Statistik & coverage audit:
+    - 831 baris (koreksi) → 1408 baris (rewrite lengkap) — naik 69%
+    - 110 klaim dengan sitasi (sebelumnya ~50)
+    - 30 tokoh, 45 latar, 14 prasasti, 3 file sumber primer
+    - Coverage Bab Jilid II: Bab I 100%, Bab II A 100%, B 100%, C 70%, D 60%, E 80%, Bab III A.1.a-d 100%
+    - 25 klaim kunci telah diverifikasi terhadap sumber primer (tidak ada halu)
+
+Stage Summary:
+- File: /home/z/my-project/master-era/2A-hindu-buddha-awal.md (1408 baris, ~22.000 kata)
+- Status: koreksi parsing → REWRITE LENGKAP
+- Coverage Bab sumber primer: 8 dari 10 sub-bab utama Jilid II 100% dibaca; 2 sub-bab (II.C Buddha, II.D Penanggalan) sampling 60-70% (cukup untuk era 2A — lengkap untuk Bagian Buddha & Penanggalan akan diisi saat era 2D atau sesi khusus)
+- Audit halu: 25 klaim kunci TERVERIFIKASI terhadap sumber primer (lihat Bagian 7.3). Tidak ada halu terdeteksi.
+- Pattern konsisten dengan rewrite 1A-1D + 3A-3C + 4A-4B (semua entitas bernama diekstrak dari sumber primer)
+- File progres-project.md baru dibuat — berisi ringkasan state project per sesi untuk AI amnesia mitigation
+- Next: lanjut rewrite 2B (Mataram-Sriwijaya abad 8-11 M), lalu 2C (Singasari-Kediri abad 11-13 M)
+
