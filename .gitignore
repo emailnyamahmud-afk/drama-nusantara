@@ -88,3 +88,8 @@ produksi/final/**/*.flac
 
 # Refs folder (generated images, local only)
 refs/
+
+# Source JSON from external tools (Google Flow etc.) — too large for git, kept local only
+scripts/google-flow.json
+scripts/*.flow.json
+download/flow-preview/
