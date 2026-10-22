@@ -18,8 +18,8 @@ OUTPUT_DIR = "/home/z/my-project/produksi/t2i-prompts/1A-prasejarah-pleistosen-a
 # ============================================================
 
 def k_prompt(name, era_desc, phenotype, costume, props, mood, avoid_extra=""):
-    """Template untuk K (karakter ref sheet 5-angle, 16:9 horizontal)"""
-    return f"""Cinematic realistic character reference sheet of {name}, {era_desc}, shown in 5 different angles arranged in a horizontal grid layout on a clean solid light cream studio background. Layout: left-to-right — frontal face close-up, full body front view, side face profile close-up, side full body view {props}, back full body view. All 5 angles show the exact same character, same costume, same physical features, same identity. {phenotype} {costume} Clean studio background, no environment, no historical setting, no other characters.
+    """Template untuk K (karakter ref sheet 5-angle SINGLE INDIVIDU, 16:9 horizontal)"""
+    return f"""Cinematic realistic character reference sheet of {name}, {era_desc}, shown in 5 different angles arranged in a horizontal grid layout on a clean solid light cream studio background. Layout: left-to-right — frontal face close-up, full body front view, side face profile close-up, side full body view {props}, back full body view. All 5 angles show the exact same single character, same costume, same physical features, same identity. {phenotype} {costume} Clean studio background, no environment, no historical setting, no other characters.
 
 Lighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting for character reference, no dramatic lighting.
 
@@ -27,7 +27,7 @@ Mood: neutral studio reference, character turnaround for production consistency.
 
 Style: photorealistic skin texture with visible pores and imperfections, 35mm film grain, deep depth of field f/8 (all 5 angles in focus), 50mm lens equivalent, 8K hyperdetailed, color graded neutral (no dramatic color grading), production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.
 
-Avoid: dramatic lighting, environment background, historical setting, multiple different characters (must be same character in all 5 angles), inconsistent costume between angles, modern clothing, jewelry, western features, Chinese features, Homo sapiens features (high forehead, thin brow ridge, chin), Neanderthal features, anime style, cartoon, 3D render, plastic skin, deformed hands, extra fingers, watermark, text, signature, low resolution, blurry, oversaturated{avoid_extra}."""
+Avoid: dramatic lighting, environment background, historical setting, multiple different characters (must be same single character in all 5 angles), inconsistent costume between angles, modern clothing, jewelry, western features, Chinese features, Homo sapiens features (high forehead, thin brow ridge, chin), Neanderthal features, anime style, cartoon, 3D render, plastic skin, deformed hands, extra fingers, watermark, text, signature, low resolution, blurry, oversaturated{avoid_extra}."""
 
 
 def l_prompt(name, era_desc, scene_desc, lighting_desc, mood_desc, style_extra="", avoid_extra=""):
@@ -69,6 +69,19 @@ Style: photorealistic animal textures (fur, skin, feathers), 35mm film grain, de
 Avoid: modern animals, domesticated animals, modern background, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated."""
 
 
+def s_prompt(name, era_desc, scene_desc, lighting_desc, mood_desc, avoid_extra=""):
+    """Template untuk S (scene multi-karakter cinematic, 16:9 horizontal) — 1 angle, multi-karakter dalam setting"""
+    return f"""Cinematic realistic documentary scene of {name}, {era_desc}. {scene_desc}
+
+Lighting: {lighting_desc}
+
+Mood: {mood_desc}
+
+Style: photorealistic skin and environment textures, 35mm film grain, deep depth of field f/5.6, 35mm lens equivalent, 8K hyperdetailed, color graded warm amber highlights cool blue shadows, BBC Earth documentary aesthetic. Aspect ratio 16:9 horizontal cinematic. High detail, 4K, sharp focus.
+
+Avoid: modern clothing, modern buildings, modern tools, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated{avoid_extra}."""
+
+
 # ============================================================
 # K PROMPTS — Karakter ref sheet (4 files)
 # ============================================================
@@ -85,20 +98,19 @@ K001 = k_prompt(
 K002 = k_prompt(
     name="a juvenile Homo erectus (Anak Mojokerto / Mojokerto child)",
     era_desc="1.8 million years ago, Perning, East Java",
-    phenotype="Child, 5-8 years old, 110 cm tall, golden brown skin, developing brow ridge, low forehead, broad flat nose, prognathic face. Short black coarse hair. Naked (no clothing — Pleistocene Awal), skin marked by natural exposure. Curious alert expression. Small body proportions typical of Homo erectus juvenile.",
-    costume="",
+    phenotype="Child, 6-9 years old, 110 cm tall, golden brown skin, developing brow ridge, low forehead, broad flat nose, prognathic face. Short black coarse hair. Lean body with visible ribs, skin marked by natural sun exposure. Curious alert expression. Small body proportions typical of Homo erectus juvenile.",
+    costume="Wearing a minimal barkcloth loincloth (simple primitive covering made from tree bark fiber — survival garment of early humans).",
     props="holding a small stone cobble",
-    mood="Young explorer, the next generation of early humans in Nusantara — curiosity and vulnerability in a vast ancient landscape.",
+    mood="Young explorer, the next generation of early humans in Nusantara — curiosity and resilience in a vast ancient landscape.",
 )
 
 K003 = k_prompt(
-    name="a group of 5 Homo erectus individuals from Pleistocene Awal Jawa",
-    era_desc="1.5 million years ago, East Java — cooperative hunting party",
-    phenotype="Mixed ages and genders: 1 adult male (30-40, 155 cm, muscular, holding spear), 1 adult female (25-30, 145 cm, carrying infant), 1 juvenile (8-10, 120 cm), 1 older male (45-50, 150 cm, holding chopper tool), 1 young adult male (18-22, 152 cm, holding chert flake). All with Homo erectus features: heavy brow ridge, low forehead, broad nose, prognathic jaw. Black coarse hair, naked torso, weathered skin.",
+    name="an adult female Homo erectus from Pleistocene Awal Jawa",
+    era_desc="1.5 million years ago, East Java",
+    phenotype="Female, 25-35 years old, 145 cm tall, golden brown weathered skin, deep-set dark brown eyes under prominent brow ridge (slightly less heavy than male), low sloping forehead, broad flat nose, full lips, prognathic jaw. Long black coarse hair tied back with vine. Lean muscular build from foraging and gathering. Skin marked by sun exposure and healed scars. Wearing a barkcloth wrap around waist (primitive garment from tree bark fiber). Carrying a woven fiber bag with gathered tubers and fruits. Nursing infant visible at hip.",
     costume="",
-    props="holding various stone tools (chopper, flake, cobble)",
-    mood="Cooperative survival — the social fabric of early human groups, collective hunting and tool-making.",
-    avoid_extra=", inconsistent body proportions between individuals, modern human features on any individual",
+    props="holding gathered plant food in fiber bag",
+    mood="Gatherer and mother — the backbone of early human survival, combining foraging knowledge with childcare in a challenging Pleistocene landscape.",
 )
 
 K004 = k_prompt(
@@ -216,6 +228,20 @@ F001 = f_prompt(
 
 
 # ============================================================
+# S PROMPTS — Scene multi-karakter cinematic (1 file)
+# ============================================================
+
+S001 = s_prompt(
+    name="a cooperative hunting party of Homo erectus in Pleistocene Java savanna",
+    era_desc="1.5 million years ago, Pleistocene Awal, East Java — Paparan Sunda",
+    scene_desc="Wide cinematic scene of a group of 5 Homo erectus individuals working together on a hunt in tropical savanna. Composition: 1 adult male (30-40, 155 cm, muscular, crouching with raised wooden spear, leading the hunt) in left foreground; 1 adult female (25-30, 145 cm, wearing barkcloth wrap, carrying infant on hip, watching from mid-right) gathering plant food; 1 juvenile (8-10, 120 cm, crouching behind adult male with small cobble) learning; 1 older male (45-50, 150 cm, standing in background holding large chopper tool, watching herd); 1 young adult male (18-22, 152 cm, flanking right with chert flake, ready to drive prey). All with Homo erectus features: heavy brow ridge, low forehead, broad nose, prognathic jaw. Black coarse hair, barkcloth wraps around waist, weathered skin. Target: a small Stegodon juvenile grazing 20 meters ahead in the savanna. Scattered acacia trees, distant volcanic mountains on horizon. Stone tools and wooden spears visible.",
+    lighting_desc="warm 3500K late afternoon sun from camera left (key light, golden amber on skin, grass, and dust), cool 6500K sky fill from above right. Mid contrast 3:1. Dust haze from movement, smoke from distant grass fire.",
+    mood_desc="Cooperative survival — the social fabric of early human groups, collective hunting and tool-making. The moment before the strike, tension and teamwork across generations and genders.",
+    avoid_extra=", modern human features on any individual, modern weapons, metal tools, bows and arrows (must be wooden spears and stone tools only), fully modern clothing",
+)
+
+
+# ============================================================
 # MAIN — Write all files
 # ============================================================
 
@@ -223,10 +249,10 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     prompts = {
-        # K — Karakter ref (4 files)
+        # K — Karakter ref (4 files, single individu each)
         "1A-K001-homo-erectus-dewasa.txt": K001,
         "1A-K002-anak-mojokerto.txt": K002,
-        "1A-K003-kelompok-berburu.txt": K003,
+        "1A-K003-homo-erectus-betina.txt": K003,  # CHANGED: was "kelompok-berburu", now single female
         "1A-K004-homo-soloensis-ngandong.txt": K004,
         # L — Latar (7 files)
         "1A-L001-paparan-sunda.txt": L001,
@@ -242,14 +268,16 @@ def main():
         "1A-A003-fosil-stegodon.txt": A003,
         # F — Fauna (1 file)
         "1A-F001-stegodon-fauna.txt": F001,
+        # S — Scene multi-karakter (1 file) — NEW TYPE
+        "1A-S001-kelompok-berburu.txt": S001,
     }
 
-    # Delete old files
+    # Delete old files (including old K003-kelompok-berburu which is now S001)
     old_files = [
         "1A-F001-stegodon-fauna.txt",
         "1A-K001-homo-erectus-dewasa.txt",
         "1A-K002-anak-mojokerto.txt",
-        "1A-K003-kelompok-berburu.txt",
+        "1A-K003-kelompok-berburu.txt",  # OLD — will be replaced by S001 + K003-betina
         "1A-L001-paparan-sunda.txt",
         "1A-L002-kubah-sangiran.txt",
         "1A-L003-bengawan-solo.txt",
@@ -270,11 +298,12 @@ def main():
             f.write(content)
         print(f"  Created: {filename}")
 
-    print(f"\n✅ Total: {len(prompts)} files generated (v2 horizontal standard)")
-    print(f"   K (karakter): 4 files — 16:9 horizontal")
+    print(f"\n✅ Total: {len(prompts)} files generated (v2.1 horizontal + S type)")
+    print(f"   K (karakter single): 4 files — 16:9 horizontal")
     print(f"   L (latar): 7 files — 16:9 horizontal")
     print(f"   A (artefak): 3 files — 1:1 square")
     print(f"   F (fauna): 1 file — 16:9 horizontal")
+    print(f"   S (scene multi-karakter): 1 file — 16:9 horizontal [NEW TYPE]")
 
 
 if __name__ == "__main__":

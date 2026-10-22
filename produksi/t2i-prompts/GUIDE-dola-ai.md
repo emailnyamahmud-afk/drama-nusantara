@@ -10,16 +10,23 @@
 ## ⚠️ Perubahan v2 (2026-10-22)
 
 1. **Aspect ratio default berubah** — tidak lagi semua 9:16 portrait. Sekarang:
-   - **K** (karakter ref sheet 5-angle): **16:9 horizontal** — 5 angle side-by-side lebih natural
+   - **K** (karakter ref sheet 5-angle SINGLE INDIVIDU): **16:9 horizontal** — 5 angle side-by-side lebih natural
    - **L** (latar/lokasi cinematic): **16:9 horizontal** — cinematic landscape untuk produksi
    - **A** (artefak macro detail): **1:1 square** — macro detail seimbang
    - **F** (fauna/cuaca): **16:9 horizontal** — cinematic animal scene
    - **S** (scene multi-karakter — tipe baru): **16:9 horizontal** — adegan untuk produksi
-2. **Style keyword wajib di awal**: `Cinematic realistic documentary...`
-3. **Naming konsisten**: `{era}-{tipe}{nomor:03d}-{slug-lowercase}.txt`
-   - Contoh: `1A-K001-homo-erectus-dewasa.txt`, `1A-L001-paparan-sunda.txt`
-4. **Negative prompt** tetap di akhir dengan `Avoid:` prefix
-5. **Semua file L**: "No people, no characters, no humans — empty location reference"
+2. **Aturan K vs S** (penting!):
+   - **K = SELALU single karakter** (1 individu, 5 angle turnaround di studio). Jangan pernah buat K dengan multiple karakter — Dola akan bingung.
+   - **S = scene multi-karakter** (1 angle cinematic, komposisi grup dalam setting). Untuk adegan dengan 2+ karakter.
+   - Kalau perlu ref sheet karakter individu → K. Kalau perlu adegan grup → S.
+3. **Aturan costume/propriety** (penting untuk content filter):
+   - Untuk anak/juvenile: SELALU tambahkan `"wearing a minimal barkcloth loincloth"` atau garment primitif sederhana — Dola AI content filter akan menolak gambar anak telanjang.
+   - Untuk dewasa: boleh `"naked torso"` (bagian atas) tapi selalu pakai barkcloth wrap untuk bagian bawah.
+4. **Style keyword wajib di awal**: `Cinematic realistic documentary...`
+5. **Naming konsisten**: `{era}-{tipe}{nomor:03d}-{slug-lowercase}.txt`
+   - Contoh: `1A-K001-homo-erectus-dewasa.txt`, `1A-L001-paparan-sunda.txt`, `1A-S001-kelompok-berburu.txt`
+6. **Negative prompt** tetap di akhir dengan `Avoid:` prefix
+7. **Semua file L**: "No people, no characters, no humans — empty location reference"
 
 ---
 
