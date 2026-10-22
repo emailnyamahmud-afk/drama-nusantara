@@ -47,3 +47,44 @@ token*.txt
 
 # Intermediate chunks (sudah di-concat ke final)
 scripts/ringkasan-jilid-*-chunk*.md
+
+# === Aset produksi (local only, tidak di-push ke GitHub) ===
+# Image files (T2I output)
+produksi/t2i-output/**/*.png
+produksi/t2i-output/**/*.jpg
+produksi/t2i-output/**/*.jpeg
+produksi/t2i-output/**/*.webp
+produksi/t2i-output/**/*.gif
+produksi/master-reff-t2i-prompts/**/*.png
+produksi/master-reff-t2i-prompts/**/*.jpg
+produksi/master-reff-t2i-prompts/**/*.jpeg
+produksi/master-reff-t2i-prompts/**/*.webp
+produksi/pra-produksi/**/*.png
+produksi/pra-produksi/**/*.jpg
+produksi/pra-produksi/**/*.jpeg
+produksi/pra-produksi/**/*.webp
+
+# Video files (I2V output)
+produksi/i2v-output/**/*.mp4
+produksi/i2v-output/**/*.avi
+produksi/i2v-output/**/*.mov
+produksi/i2v-output/**/*.mkv
+produksi/i2v-output/**/*.webm
+produksi/final/**/*.mp4
+produksi/final/**/*.avi
+produksi/final/**/*.mov
+produksi/final/**/*.mkv
+produksi/final/**/*.webm
+
+# Audio files (TTS output)
+produksi/tts-output/**/*.wav
+produksi/tts-output/**/*.mp3
+produksi/tts-output/**/*.ogg
+produksi/tts-output/**/*.flac
+produksi/final/**/*.wav
+produksi/final/**/*.mp3
+produksi/final/**/*.ogg
+produksi/final/**/*.flac
+
+# Refs folder (generated images, local only)
+refs/

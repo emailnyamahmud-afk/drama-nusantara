@@ -1,16 +1,30 @@
-# Drama Nusantara — Riset & Master Era
+# Drama Nusantara — Riset & Produksi Sejarah Nusantara
 
 > Riset sejarah untuk produksi drama/dokumenter Nusantara berbasis buku **Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global** (Kementerian Kebudayaan RI, 2025)
 
-## Alur Kerja
+## 8 Phase Pipeline
 
 ```
-1. SUMBER PRIMER          → baca Jilid 1-5 (Kemenbud 2025) — hanya file asli, no ringkasan
+1. SUMBER PRIMER          → baca Jilid 1-5 (Kemenbud 2025) — hanya file asli, no ringkasan           ✅
    ↓
-2. MASTER ERA             → tiap era = parsing sistematis sumber primer → narasi + tokoh + latar
+2. MASTER ERA             → tiap era = parsing sistematis sumber primer → narasi + tokoh + latar    ✅
    ↓
-3. T2I PROMPTS            → copy-paste ke Dola AI → output drama/dokumenter
+3. MASTER REFF T2I        → prompt universal per era: K (karakter), S (kelompok), L (lokasi), A (artefak), F (fauna)  🔄
+   ↓
+4. PRA-PRODUKSI           → narasi + storyboard JSON per produksi (dokumenter / series)                ⏳
+   ↓
+5. PRODUKSI T2I           → generate image per segmen storyboard (Dola AI)                             ⏳
+   ↓
+6. PRODUKSI I2V           → image-to-video per segmen                                                ⏳
+   ↓
+7. PRODUKSI TTS           → voice over (narrator edge-tts / multi-voice untuk dialog)                  ⏳
+   ↓
+8. PASCA PRODUKSI         → stitch video per segmen (ffmpeg / DaVinci Resolve)                        ⏳
 ```
+
+**Aturan:** JSON = single source of truth. T2I, I2V, TTS hanya mengikuti JSON. User edit JSON kalau perlu.
+
+**Workflow:** diskusi di Z.ai chat → AI push GitHub → user pull → user generate di Dola AI (free unlimited image) → asset lokal saja (di-gitignore).
 
 **Status saat ini**: Era 1A-1D + 2A-2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (16 era, ~220.000 kata, 1.496 klaim). Hanya 4C-4E BLOCKED menunggu Jilid VI-X. T2I prompts sudah dibuat untuk 1A-3B (3C+4A+4B belum).
 
@@ -21,66 +35,80 @@
 ```
 drama-nusantara/
 ├── README.md                              ← file ini
+├── progres-project.md                     ← catatan progres per sesi (AI amnesia mitigation)
 ├── worklog.md                             ← log semua task
-├── push-to-github.sh                      ← helper script untuk push
+├── .gitignore                             ← ignore aset (image/video/audio) + secrets
 │
 ├── riset/
-│   └── sumber-primer/                     ← SUMBER PRIMER: 83 file MD asli dari Kemenbud 2025
+│   └── sumber-primer/                     ← PHASE 1 ✅: 83 file MD asli dari Kemenbud 2025
 │       ├── jilid-1/                       ← 13 file (Akar Peradaban Nusantara)
 │       ├── jilid-2/                       ← 15 file (Perjumpaan India-Tiongkok-Persia)
 │       ├── jilid-3/                       ← 17 file (Timur Tengah / Islamisasi)
 │       ├── jilid-4/                       ← 18 file (Interaksi Awal dengan Barat)
 │       └── jilid-5/                       ← 15 file (Negara Kolonial 1800-1900)
 │
-├── master-era/                            ← MASTER ERA: parsing sistematis per periode
-│   ├── TEMPLATE-master-era.md            ← template wajib untuk semua era
-│   ├── 1A-prasejarah-pleistosen-awal.md          ✅ 1171 baris (rewrite lengkap)
-│   ├── 1B-prasejarah-pleistosen-tengah-akhir.md   ✅ 1214 baris (rewrite lengkap)
-│   ├── 1C-prasejarah-holosen-neolitik.md          ✅ 1205 baris (rewrite lengkap)
-│   ├── 1D-prasejarah-logam-awal.md                  ✅ 1264 baris (rewrite lengkap)
-│   ├── 2A-hindu-buddha-awal.md                       ✅ 1408 baris (rewrite lengkap — Jilid II Bab I + II + III.A.1)
-│   ├── 2B-mataram-sriwijaya.md                       ✅ 2231 baris (rewrite lengkap — Jilid II Bab III.B + II.A-E)
-│   ├── 2C-singasari-kediri.md                        ✅ 1547 baris (rewrite lengkap — Jilid II Bab III.C + II.B.4 + II.C.4.b)
-│   ├── 2D-majapahit.md                                ✅ 816 baris (expand lengkap — Bab II+III+IV+V+VI Jilid 2)
-│   ├── 3A-islamisasi-awal.md                          ✅ 815 baris (rewrite lengkap — semua 9 Bab Jilid III)
-│   ├── 3B-demak-pajang.md                             ✅ 1058 baris (rewrite lengkap — 6 dari 9 Bab Jilid III langsung)
-│   ├── 3C-mataram-islam.md                            ✅ 873 baris (rewrite lengkap — Jilid III+IV)
-│   ├── 4A-voc-awal.md                                 ✅ 722 baris (rewrite lengkap — Jilid IV+V)
-│   └── 4B-kolonial-19.md                              ✅ 618 baris (rewrite lengkap — Jilid V Bab 1+3+6)
+├── master-era/                            ← PHASE 2 ✅: parsing sistematis per periode
+│   ├── TEMPLATE-master-era.md
+│   ├── 1A-prasejarah-pleistosen-awal.md          ✅ 1171 baris
+│   ├── 1B-prasejarah-pleistosen-tengah-akhir.md   ✅ 1214 baris
+│   ├── 1C-prasejarah-holosen-neolitik.md          ✅ 1205 baris
+│   ├── 1D-prasejarah-logam-awal.md                  ✅ 1264 baris
+│   ├── 2A-hindu-buddha-awal.md                       ✅ 1408 baris
+│   ├── 2B-mataram-sriwijaya.md                       ✅ 2231 baris
+│   ├── 2C-singasari-kediri.md                        ✅ 1547 baris
+│   ├── 2D-majapahit.md                                ✅ 816 baris
+│   ├── 3A-islamisasi-awal.md                          ✅ 815 baris
+│   ├── 3B-demak-pajang.md                             ✅ 1058 baris
+│   ├── 3C-mataram-islam.md                            ✅ 873 baris
+│   ├── 4A-voc-awal.md                                 ✅ 722 baris
+│   └── 4B-kolonial-19.md                              ✅ 618 baris
 │
 ├── produksi/
-│   ├── t2i-prompts/                       ← T2I prompts per era (siap copy-paste ke Dola AI)
-│   │   ├── GUIDE-dola-ai.md              ← panduan cara pakai Dola AI
-│   │   ├── 1A-prasejarah-pleistosen-awal/prompts/         ✅ 10 file
-│   │   ├── 1B-prasejarah-pleistosen-tengah-akhir/prompts/ ✅ 10 file
-│   │   ├── 1C-prasejarah-holosen-neolitik/prompts/        ✅ 10 file
-│   │   ├── 1D-prasejarah-logam-awal/prompts/              ✅ 12 file
-│   │   ├── 2A-hindu-buddha-awal/prompts/                   ✅ 18 file
-│   │   ├── 2B-mataram-sriwijaya/prompts/                  ✅ 37 file
-│   │   ├── 2C-singasari-kediri/prompts/                    ✅ 17 file
-│   │   ├── 2D-majapahit/prompts/                           ✅ 17 file
-│   │   ├── 3A-islamisasi-awal/prompts/                     ✅ 21 file
-│   │   └── 3B-demak-pajang/prompts/                        ✅ 21 file
-│   └── panji/                             ← pre-produksi Panji (DITUNDA)
+│   ├── master-reff-t2i-prompts/           ← PHASE 3 🔄: prompt universal per era
+│   │   ├── GUIDE-dola-ai.md              ← panduan Dola AI + standar v2 (horizontal)
+│   │   ├── 1A-prasejarah-pleistosen-awal/prompts/         ✅ v2 16 file
+│   │   ├── 1B-prasejarah-pleistosen-tengah-akhir/prompts/ ✅ v1 10 file (perlu v2)
+│   │   ├── 1C-prasejarah-holosen-neolitik/prompts/        ✅ v1 10 file (perlu v2)
+│   │   ├── 1D-prasejarah-logam-awal/prompts/              ✅ v1 12 file (perlu v2)
+│   │   ├── 2A-hindu-buddha-awal/prompts/                   ✅ v1 18 file (perlu v2)
+│   │   ├── 2B-mataram-sriwijaya/prompts/                  ✅ v1 37 file (perlu v2)
+│   │   ├── 2C-singasari-kediri/prompts/                    ✅ v1 17 file (perlu v2)
+│   │   ├── 2D-majapahit/prompts/                           ✅ v1 17 file (perlu v2)
+│   │   ├── 3A-islamisasi-awal/prompts/                     ✅ v1 21 file (perlu v2)
+│   │   └── 3B-demak-pajang/prompts/                        ✅ v1 21 file (perlu v2)
+│   │
+│   ├── pra-produksi/                      ← PHASE 4 ⏳: narasi + storyboard JSON
+│   │   └── panji-pilot/                   ← eksperimen pra-produksi lama (arsip)
+│   │
+│   ├── t2i-output/                        ← PHASE 5 ⏳: generated images (gitignored)
+│   ├── i2v-output/                        ← PHASE 6 ⏳: generated videos (gitignored)
+│   ├── tts-output/                        ← PHASE 7 ⏳: audio files (gitignored)
+│   └── final/                             ← PHASE 8 ⏳: stitched videos (gitignored)
 │
 └── scripts/                               ← script Python/JS pendukung
+    ├── generate_1A_t2i_v2.py             ← generate T2I prompts v2 (reusable)
     ├── audit_*.py                         ← audit script
     ├── extract_*.py                       ← ekstraksi tokoh/struktur
     └── generate_*.py                     ← generate T2I prompts
 ```
 
+**Aturan .gitignore:** Aset (image, video, audio) TIDAK di-push ke GitHub — hanya di lokal. JSON, prompt .txt, dan dokumen proyek = di GitHub. User pull dari GitHub, generate aset lokal.
+
 ## Aturan Repo
 
 1. **`riset/sumber-primer/`** = HANYA file asli dari buku Kemenbud 2025 (Jilid 1-5). Tidak ada ringkasan, tidak ada enhanced YAML, tidak ada audit JSON. Jika perlu cari info, baca langsung file asli.
-2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2A-2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Total 16 dari 17 era selesai — hanya 4C-4E BLOCKED menunggu Jilid VI-X.
-3. **`produksi/t2i-prompts/`** = file .txt siap copy-paste ke Dola AI. Format flat natural-language.
+2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. 16 dari 17 era selesai — hanya 4C-4E BLOCKED menunggu Jilid VI-X.
+3. **`produksi/master-reff-t2i-prompts/`** = Phase 3. Prompt universal per era: K (karakter individu), S (kelompok), L (lokasi), A (artefak), F (fauna). Siap copy-paste ke Dola AI.
+4. **`produksi/pra-produksi/`** = Phase 4. Narasi + storyboard JSON per produksi. JSON = single source of truth.
+5. **`produksi/t2i-output/` / `i2v-output/` / `tts-output/` / `final/`** = Phase 5-8. Aset lokal saja — di-gitignore, tidak di-push ke GitHub.
 
 ## Quick Start
 
 1. **Baca master era** di `master-era/<era>.md` (mulai dari 1A)
 2. **Verifikasi klaim** di `riset/sumber-primer/jilid-X/` — baca file asli yang disitir
-3. **Generate image** di Dola AI: baca `produksi/t2i-prompts/GUIDE-dola-ai.md`
-4. **Copy-paste prompt** dari `produksi/t2i-prompts/<era>/prompts/*.txt`
+3. **Generate master reff** di Dola AI: baca `produksi/master-reff-t2i-prompts/GUIDE-dola-ai.md`
+4. **Copy-paste prompt** dari `produksi/master-reff-t2i-prompts/<era>/prompts/*.txt`
+5. **Untuk produksi**: buat `produksi/pra-produksi/<nama-produksi>/produksi.json` — JSON = source of truth
 
 ## Statistik
 
