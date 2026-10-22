@@ -1998,3 +1998,23 @@ Stage Summary:
 - Remaining: 3C, 4A, 4B (belum ada T2I sama sekali)
 - 4C-4E BLOCKED (Jilid VI-X belum terbit)
 
+
+---
+Task ID: T2I-V2-3C
+Agent: Main Agent (Z.ai)
+Task: Create T2I v2.1 era 3C Mataram Islam (baru — belum ada T2I sebelumnya)
+
+Work Log:
+- 3C Mataram Islam: 0→17 files (K6+L7+A3+S1) — BARU
+- K: 6 (Sultan Agung, Amangkurat I, Hamengkubuwana I, Iskandar Muda, Hasanuddin, Trunojoyo)
+- L: 7 (Karta/Plered, Batavia, Aceh, Makassar, Yogyakarta, Kartasura, Banda)
+- A: 3 (Kalender Islam-Jawa 1633, Perjanjian Giyanti 1755, Keris Mataram)
+- S: 1 (Giyanti treaty: Hamengkubuwana + VOC + Pakubuwana III, ref: K003)
+
+Total v2.1: 1A-3C = 186 files
+
+Stage Summary:
+- 3C adalah era pertama yang dibuat T2I dari nol (bukan regenerate v1→v2)
+- 2 era tersisa belum ada T2I: 4A VOC Awal, 4B Kolonial 19
+- 4C-4E BLOCKED (Jilid VI-X belum terbit)
+

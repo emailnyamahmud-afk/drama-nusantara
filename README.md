@@ -138,7 +138,7 @@ drama-nusantara/
 | **TOTAL HINDU-BUDDHA** | | | | | **51** |
 | 3A Islamisasi Awal | Abad 7-1511 M | ✅ rewrite | 815 | ✅ v2 | 17 |
 | 3B Demak-Pajang | Abad 15-16 M | ✅ rewrite | 1058 | ✅ v2 | 17 |
-| 3C Mataram Islam | Abad 17-18 M | ✅ rewrite | 873 | ⏳ | — |
+| 3C Mataram Islam | Abad 17-18 M | ✅ rewrite | 873 | ✅ v2 | 17 |
 | **TOTAL ISLAM** | | | **3756** | | **42** |
 | 4A VOC Awal | Abad 17-18 M | ✅ rewrite | 722 | ⏳ | — |
 | 4B Kolonial 19 | 1800-1900 | ✅ rewrite | 618 | ⏳ | — |

@@ -84,3 +84,9 @@ Total v2.1: 152 files (1A-3A)
 **Hasil**: 3B Demak-Pajang: 21→17 v2.1 (K6+L7+A3+S1)
 Total v2.1: 169 files (1A-3B) — semua era yang sudah ada T2I sebelumnya sudah di-regenerate ke v2.1
 **Remaining**: 3C, 4A, 4B (belum ada T2I), 4C-4E BLOCKED
+
+## Sesi 2026-10-22 (lanjutan 5) — T2I v2.1 era 3C (baru dari nol)
+
+**Hasil**: 3C Mataram Islam: 0→17 v2.1 (K6+L7+A3+S1) — T2I pertama untuk era ini
+Total v2.1: 186 files (1A-3C)
+**Remaining**: 4A, 4B (belum ada T2I), 4C-4E BLOCKED
