@@ -134,7 +134,7 @@ drama-nusantara/
 | 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ rewrite | 1408 | ✅ v2 | 17 |
 | 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ rewrite | 2231 | ✅ v2 | 17 |
 | 2C Singasari-Kediri | Abad 11-13 M | ✅ rewrite | 1547 | ✅ v2 | 17 |
-| 2D Majapahit | Abad 13-16 M | ✅ expand | 816 | ✅ | 17 |
+| 2D Majapahit | Abad 13-16 M | ✅ expand | 816 | ✅ v2 | 17 |
 | **TOTAL HINDU-BUDDHA** | | | | | **51** |
 | 3A Islamisasi Awal | Abad 7-1511 M | ✅ rewrite | 815 | ✅ | 21 |
 | 3B Demak-Pajang | Abad 15-16 M | ✅ rewrite | 1058 | ✅ | 21 |

@@ -1927,3 +1927,31 @@ Stage Summary:
 - Standar: K=16:9, L=16:9, A=1:1, S=16:9 (pakai K ref, tidak deskripsi fisik)
 - Scripts reusable per era di scripts/generate_{era}_t2i_v2.py
 
+
+---
+Task ID: T2I-V2-2C-2D
+Agent: Main Agent (Z.ai)
+Task: Regenerate T2I v2.1 era 2C dan 2D
+
+Work Log:
+- 2C Singasari-Kediri: 17→17 (semua v2.1, naming konsisten lowercase)
+  K: Jayabhaya, Ken Arok, Wisnuwardhana, Kertanagara (tantrik), Raden Wijaya, Mpu Panuluh
+  L: Daha, Tumapel, Candi Singhasari, Candi Jawi, Sungai Ndempol, Kudadu, Dharmasraya
+  A: Prasasti Mula Malurung (first "Nusantara"), Arca Prajnaparamita, Bharatayuddha lontar
+  S: Pendapa Kadiri (ref: K001+K006)
+
+- 2D Majapahit: 17→17 (semua v2.1, naming konsisten)
+  K: Gajah Mada, Hayam Wuruk, Tribhuwana, Raden Wijaya, Mpu Prapanca, Adityawarman
+  L: Trowulan, Candi Brahu, Pelabuhan Brantas, Candi Sukuh, Gunung Penanggungan, Bubat, Candi Simping
+  A: Nagarakretagama lontar, Arca Harihara, Sutasoma lontar (Bhinneka Tunggal Ika)
+  S: Pendapa Majapahit (ref: K001+K002+K005)
+
+Total v2.1: 1A(16)+1B(17)+1C(17)+1D(17)+2A(17)+2B(17)+2C(17)+2D(17) = 135 files
+ERA HINDU-BUDDHA T2I v2.1 SELESAI SEMUA (2A-2D)
+
+Stage Summary:
+- Prasejarah (1A-1D): 67 files v2.1 ✅
+- Hindu-Buddha (2A-2D): 68 files v2.1 ✅
+- Total: 135 files v2.1
+- Pending: 3A, 3B (perlu v2), 3C/4A/4B (belum ada)
+

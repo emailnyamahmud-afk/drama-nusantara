@@ -57,3 +57,18 @@
 - 3A Islamisasi Awal (perlu v2)
 - 3B Demak-Pajang (perlu v2)
 - 3C, 4A, 4B (belum ada T2I sama sekali)
+
+## Sesi 2026-10-22 (lanjutan 2) — T2I v2.1 Regenerate 2C-2D + ERA HINDU-BUDDHA SELESAI
+
+**Task**: Regenerate T2I 2C dan 2D + update dokumentasi setiap push.
+
+**Hasil**:
+- 2C: 17→17 v2.1 | 2D: 17→17 v2.1
+- ERA HINDU-BUDDHA (2A-2D) T2I v2.1 selesai semua — 68 files
+- Total v2.1: 135 files (1A-2D)
+- Setiap push: update README + worklog + progres-project
+
+**Pending**:
+- 3A Islamisasi Awal (perlu v2)
+- 3B Demak-Pajang (perlu v2)
+- 3C, 4A, 4B (belum ada T2I)
