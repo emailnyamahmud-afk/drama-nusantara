@@ -16,10 +16,15 @@
    - **F** (fauna/cuaca): **16:9 horizontal** — cinematic animal scene
    - **S** (master kelompok multi-karakter — tipe baru): **16:9 horizontal** — group pose clean studio background
 2. **Aturan K vs S** (penting!):
-   - **K** = master karakter **individu** (5 angle turnaround, clean cream studio background). Single karakter saja.
-   - **S** = master karakter **kelompok** (1 angle group pose, clean cream studio background). Multiple karakter dalam 1 frame, sama seperti K tapi untuk grup. **Bukan scene dengan lokasi** — background tetap clean studio, karena lokasi punya reference sendiri di file L.
+   - **K** = master karakter **individu** (5 angle turnaround, clean cream studio background). Single karakter. Mendeskripsikan wajah, tubuh, kostum lengkap.
+   - **S** = master karakter **kelompok** (1 angle group pose, clean cream studio background). **TIDAK mendeskripsikan wajah/tubuh** — itu sudah ada di K. S hanya mendeskripsikan: komposisi grup (siapa di kiri/kanan/depan), pose, props, interaksi antar karakter.
+   - **Cara pakai S di Dola AI:**
+     1. Generate dulu K individu (K001, K002, K003) → download image
+     2. Upload K images sebagai reference di Dola AI
+     3. Paste S prompt — Dola akan pakai K images untuk konsistensi wajah/tubuh
+     4. S prompt hanya mengatur komposisi grup, bukan deskripsi fisik
    - **L** = master lokasi (scene historis, NO people, 16:9). Reference untuk setting/lokasi produksi.
-   - Jadi: K + S = master karakter (individu + grup), L = master lokasi. Dipisah supaya bisa di-combine bebas di tahap produksi.
+   - Jadi: K = master individu, S = master kelompok (pakai K ref), L = master lokasi. Dipisah supaya bisa di-combine bebas di tahap produksi.
 3. **Aturan costume/propriety** (penting untuk content filter):
    - Untuk anak/juvenile: SELALU tambahkan `"wearing a minimal barkcloth loincloth"` atau garment primitif sederhana — Dola AI content filter akan menolak gambar anak telanjang.
    - Untuk dewasa: boleh `"naked torso"` (bagian atas) tapi selalu pakai barkcloth wrap untuk bagian bawah.
