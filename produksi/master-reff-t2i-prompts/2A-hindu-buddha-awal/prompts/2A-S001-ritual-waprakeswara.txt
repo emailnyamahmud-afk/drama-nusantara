@@ -1,0 +1,11 @@
+Cinematic realistic group character reference of a Vedic ritual at Waprakeswara, Kutai, 4th-5th century AD, Muara Kaman, Kalimantan Timur, arranged in a standing group pose on a clean solid light cream studio background. Group of 4 individuals in a ritual scene pose. Position 1 (left): King Mulawarman, standing with arms raised in blessing, holding golden staff. Position 2 (center): South Indian Brahmana priest, sitting cross-legged near ritual fire (Agni), holding ritual vessel. Position 3 (right): a local Kutai dignitary, standing with hands clasped in respect. Position 4 (far right): a servant holding a tray of offerings (gold, oil, flowers). All wearing appropriate costumes: king in gold regalia, Brahmana in white dhoti, dignitary in local attire, servant in simple barkcloth. Studio background. Clean studio background, no environment, no historical setting, no landscape elements — neutral studio reference only.
+
+IMPORTANT: Upload the following character reference images before generating: 2A-K001 (Mulawarman) | 2A-K004 (Brahmana priest). Use each uploaded image as the exact face, body, and identity reference. This prompt only defines group composition, pose, and props — NOT physical features.
+
+Lighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting, no dramatic lighting.
+
+Mood: neutral studio reference, group turnaround for production consistency. The first Vedic sacrifice — Mulawarman's gift of 20,000 cows to Brahmana at Waprakeswara. The ritual that marked the arrival of Hindu civilization in Nusantara, recorded on the 7 Yupa pillars.
+
+Style: photorealistic skin texture, 35mm film grain, deep depth of field f/8, 50mm lens, 8K hyperdetailed, production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.
+
+Avoid: environment background, landscape, historical setting, dramatic lighting, inconsistent faces with reference images, modern clothing, anime style, cartoon, 3D render, plastic skin, deformed hands, watermark, text, signature, low resolution, blurry, oversaturated, Islamic costume, Buddhist monk robe.
