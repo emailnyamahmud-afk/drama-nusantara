@@ -141,7 +141,7 @@ drama-nusantara/
 | 3C Mataram Islam | Abad 17-18 M | ✅ rewrite | 873 | ✅ v2 | 17 |
 | **TOTAL ISLAM** | | | **3756** | | **42** |
 | 4A VOC Awal | Abad 17-18 M | ✅ rewrite | 722 | ✅ v2 | 17 |
-| 4B Kolonial 19 | 1800-1900 | ✅ rewrite | 618 | ⏳ | — |
+| 4B Kolonial 19 | 1800-1900 | ✅ rewrite | 618 | ✅ v2 | 17 |
 | 4C Pergerakan Kebangsaan | 1900-1942 | 🔒 BLOCKED | — | ⏳ | — |
 | 4D Pendudukan-Kemerdekaan | 1942-1949 | 🔒 BLOCKED | — | ⏳ | — |
 | 4E Orde Lama-Baru | 1949-1998 | 🔒 BLOCKED | — | ⏳ | — |

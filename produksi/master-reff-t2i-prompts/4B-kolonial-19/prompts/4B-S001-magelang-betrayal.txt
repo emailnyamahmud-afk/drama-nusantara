@@ -1,0 +1,11 @@
+Cinematic realistic group character reference of the colonial encounter — Diponegoro's capture at Magelang (1830), 28 March 1830 AD, Magelang, Central Java — betrayal during peace talks, arranged in a standing group pose on a clean solid light cream studio background. Group of 3 individuals in a dramatic confrontation pose. Position 1 (left): Pangeran Diponegoro, standing with keris and tasbih, wearing white sorban and green jubah — the guerrilla prince who came to negotiate peace. Position 2 (center, elevated): General de Kock, seated on a chair, wearing dark blue military uniform with gold epaulettes — the Dutch commander who betrayed the peace talks. Position 3 (right): a Dutch colonial soldier, standing with rifle at attention — the instrument of betrayal. The composition shows the moment of betrayal: Diponegoro came to negotiate, de Kock arrested him instead. Clean studio background, no environment, no historical setting, no landscape elements — neutral studio reference only.
+
+IMPORTANT: Upload the following character reference images before generating: 4B-K001 (Diponegoro) | 4B-K006 (De Kock). Use each uploaded image as the exact face, body, and identity reference. This prompt only defines group composition, pose, and props — NOT physical features.
+
+Lighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting, no dramatic lighting.
+
+Mood: neutral studio reference, group turnaround for production consistency. The betrayal — Magelang, 28 March 1830. Diponegoro came to negotiate peace. De Kock arrested him instead. The Javanese prince who had fought for 5 years was betrayed by Dutch dishonor. He was exiled to Makassar, where he died in 1855. The moment that ended the Java War and began the colonial century.
+
+Style: photorealistic skin texture, 35mm film grain, deep depth of field f/8, 50mm lens, 8K hyperdetailed, production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.
+
+Avoid: environment background, landscape, historical setting, dramatic lighting, inconsistent faces with reference images, modern clothing, anime style, cartoon, 3D render, plastic skin, deformed hands, watermark, text, signature, low resolution, blurry, oversaturated, Islamic scholar costume, Hindu costume, modern clothing, 20th century military uniform.
