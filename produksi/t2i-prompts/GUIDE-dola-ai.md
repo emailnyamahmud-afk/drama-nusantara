@@ -14,11 +14,12 @@
    - **L** (latar/lokasi cinematic): **16:9 horizontal** — cinematic landscape untuk produksi
    - **A** (artefak macro detail): **1:1 square** — macro detail seimbang
    - **F** (fauna/cuaca): **16:9 horizontal** — cinematic animal scene
-   - **S** (scene multi-karakter — tipe baru): **16:9 horizontal** — adegan untuk produksi
+   - **S** (master kelompok multi-karakter — tipe baru): **16:9 horizontal** — group pose clean studio background
 2. **Aturan K vs S** (penting!):
-   - **K = SELALU single karakter** (1 individu, 5 angle turnaround di studio). Jangan pernah buat K dengan multiple karakter — Dola akan bingung.
-   - **S = scene multi-karakter** (1 angle cinematic, komposisi grup dalam setting). Untuk adegan dengan 2+ karakter.
-   - Kalau perlu ref sheet karakter individu → K. Kalau perlu adegan grup → S.
+   - **K** = master karakter **individu** (5 angle turnaround, clean cream studio background). Single karakter saja.
+   - **S** = master karakter **kelompok** (1 angle group pose, clean cream studio background). Multiple karakter dalam 1 frame, sama seperti K tapi untuk grup. **Bukan scene dengan lokasi** — background tetap clean studio, karena lokasi punya reference sendiri di file L.
+   - **L** = master lokasi (scene historis, NO people, 16:9). Reference untuk setting/lokasi produksi.
+   - Jadi: K + S = master karakter (individu + grup), L = master lokasi. Dipisah supaya bisa di-combine bebas di tahap produksi.
 3. **Aturan costume/propriety** (penting untuk content filter):
    - Untuk anak/juvenile: SELALU tambahkan `"wearing a minimal barkcloth loincloth"` atau garment primitif sederhana — Dola AI content filter akan menolak gambar anak telanjang.
    - Untuk dewasa: boleh `"naked torso"` (bagian atas) tapi selalu pakai barkcloth wrap untuk bagian bawah.

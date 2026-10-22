@@ -69,17 +69,17 @@ Style: photorealistic animal textures (fur, skin, feathers), 35mm film grain, de
 Avoid: modern animals, domesticated animals, modern background, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated."""
 
 
-def s_prompt(name, era_desc, scene_desc, lighting_desc, mood_desc, avoid_extra=""):
-    """Template untuk S (scene multi-karakter cinematic, 16:9 horizontal) — 1 angle, multi-karakter dalam setting"""
-    return f"""Cinematic realistic documentary scene of {name}, {era_desc}. {scene_desc}
+def s_prompt(name, era_desc, scene_desc, mood, avoid_extra=""):
+    """Template untuk S (master kelompok multi-karakter, clean studio background, 16:9 horizontal) — seperti K tapi untuk grup"""
+    return f"""Cinematic realistic group character reference of {name}, {era_desc}, arranged in a standing group pose on a clean solid light cream studio background. {scene_desc} Clean studio background, no environment, no historical setting, no landscape elements — neutral studio reference only.
 
-Lighting: {lighting_desc}
+Lighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting for group character reference, no dramatic lighting.
 
-Mood: {mood_desc}
+Mood: neutral studio reference, group turnaround for production consistency. {mood}
 
-Style: photorealistic skin and environment textures, 35mm film grain, deep depth of field f/5.6, 35mm lens equivalent, 8K hyperdetailed, color graded warm amber highlights cool blue shadows, BBC Earth documentary aesthetic. Aspect ratio 16:9 horizontal cinematic. High detail, 4K, sharp focus.
+Style: photorealistic skin texture with visible pores and imperfections, 35mm film grain, deep depth of field f/8 (all characters in focus), 50mm lens equivalent, 8K hyperdetailed, color graded neutral (no dramatic color grading), production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.
 
-Avoid: modern clothing, modern buildings, modern tools, anime style, cartoon, 3D render, watermark, text, signature, low resolution, blurry, oversaturated{avoid_extra}."""
+Avoid: environment background, landscape, historical setting, trees, mountains, rivers, dramatic lighting, modern clothing, modern tools, anime style, cartoon, 3D render, plastic skin, deformed hands, extra fingers, watermark, text, signature, low resolution, blurry, oversaturated{avoid_extra}."""
 
 
 # ============================================================
@@ -232,12 +232,11 @@ F001 = f_prompt(
 # ============================================================
 
 S001 = s_prompt(
-    name="a cooperative hunting party of Homo erectus in Pleistocene Java savanna",
-    era_desc="1.5 million years ago, Pleistocene Awal, East Java — Paparan Sunda",
-    scene_desc="Wide cinematic scene of a group of 5 Homo erectus individuals working together on a hunt in tropical savanna. Composition: 1 adult male (30-40, 155 cm, muscular, crouching with raised wooden spear, leading the hunt) in left foreground; 1 adult female (25-30, 145 cm, wearing barkcloth wrap, carrying infant on hip, watching from mid-right) gathering plant food; 1 juvenile (8-10, 120 cm, crouching behind adult male with small cobble) learning; 1 older male (45-50, 150 cm, standing in background holding large chopper tool, watching herd); 1 young adult male (18-22, 152 cm, flanking right with chert flake, ready to drive prey). All with Homo erectus features: heavy brow ridge, low forehead, broad nose, prognathic jaw. Black coarse hair, barkcloth wraps around waist, weathered skin. Target: a small Stegodon juvenile grazing 20 meters ahead in the savanna. Scattered acacia trees, distant volcanic mountains on horizon. Stone tools and wooden spears visible.",
-    lighting_desc="warm 3500K late afternoon sun from camera left (key light, golden amber on skin, grass, and dust), cool 6500K sky fill from above right. Mid contrast 3:1. Dust haze from movement, smoke from distant grass fire.",
-    mood_desc="Cooperative survival — the social fabric of early human groups, collective hunting and tool-making. The moment before the strike, tension and teamwork across generations and genders.",
-    avoid_extra=", modern human features on any individual, modern weapons, metal tools, bows and arrows (must be wooden spears and stone tools only), fully modern clothing",
+    name="a cooperative hunting party of 5 Homo erectus from Pleistocene Awal Jawa",
+    era_desc="1.5 million years ago, East Java",
+    scene_desc="Group of 5 individuals standing together in a natural group pose. Left to right: (1) adult male, 30-40 years, 155 cm, muscular build, heavy brow ridge, low forehead, broad nose, prognathic jaw, long black coarse hair, weathered skin, holding a wooden spear in right hand, barkcloth wrap at waist; (2) adult female, 25-30 years, 145 cm, lean build, prominent brow ridge (slightly less heavy than male), long black hair tied back with vine, barkcloth wrap, carrying infant on left hip, holding woven fiber bag with gathered plant food; (3) juvenile, 8-10 years, 120 cm, developing brow ridge, short black hair, barkcloth loincloth, holding small stone cobble, standing slightly in front of adult female; (4) older male, 45-50 years, 150 cm, weathered deep wrinkles, grey-streaked black hair, holding large chopper tool, barkcloth wrap; (5) young adult male, 18-22 years, 152 cm, lean athletic build, holding chert flake, barkcloth wrap. All share consistent Homo erectus features: golden brown skin, heavy brow ridge, low sloping forehead, broad flat nose, prognathic jaw. Group shows cooperative hunting party composition across ages and genders.",
+    mood="Cooperative survival — the social fabric of early human groups: collective hunting, tool-making, and childcare across generations. Production reference for multi-character consistency.",
+    avoid_extra=", inconsistent body proportions between individuals, modern human features on any individual, modern weapons, metal tools, bows and arrows (must be wooden spears and stone tools only), fully modern clothing, naked torso on female or juvenile (barkcloth required)",
 )
 
 
