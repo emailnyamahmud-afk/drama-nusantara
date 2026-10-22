@@ -11,6 +11,40 @@
 
 ---
 
+## Sesi 2026-10-23 — Analisis Google Flow + Prototype 30s Schema v2
+
+**Konteks**: User uji Google Flow (Storyboard Studio) — generate script + aset image + storyboard image FREE. User kirim JSON Flow v1.2 (56 MB, sample "KEN AROK: TAKDIR DARI TUMAPEL" — 4 scene, 21 frame, 16 asset). User minta: (1) analisis JSON Flow, (2) identifikasi yang bisa diadopsi, (3) prototype 30s/1min dengan JSON per segmen + adopsi workflow Flow.
+
+**Task**:
+1. Download & parse JSON Flow dari Drive (56 MB)
+2. Extract struktur: 7 top-level keys, 16 asset (7 char + 3 loc + 6 prop), 21 frame, 5.381 char markdown script
+3. VLM-analisis 1 sample frame (chase scene) — kualitas visual setara Dola AI
+4. Tulis `analisis-google-flow.md` (16 KB, lengkap — adopsi + pengembangan)
+5. User clarify: fokus adopsi saja, JSON per segmen + Flow optimization
+6. Tulis `ADOPSI-Flow.md` (8 item adopsi ringkas, diff dari pilot Panji)
+7. Generate `prototype-30s/storyboard.json` (12.5 KB, schema v2.0, 6 segmen × 5s = 30s, KEN AROK short)
+
+**Hasil**:
+- 7 item adopsi terverifikasi: 3-field asset schema, motion.prompt (I2V feeder), linked_asset_ids, include_inspiration flag, time_of_day, image_history (path-only), 16:9 (sudah ada)
+- Prototype 30s: 2 karakter (Ken Arok + Dang Hyang Lohgawe), 2 lokasi (Hutan Tumapel + Pendopo), 2 prop (Sekantung Beras + Tombak)
+- Schema v2.0 backward-compatible dengan pilot Panji lama (storyboard-pilot.json 36 segmen 3 menit)
+- JSON size 12.5 KB (target < 500 KB) — base64 dipisah, aset di-gitignore
+
+**File baru**:
+- `produksi/pra-produksi/analisis-google-flow.md` — analisis lengkap
+- `produksi/pra-produksi/ADOPSI-Flow.md` — ringkasan 8 item adopsi + schema diff
+- `produksi/pra-produksi/prototype-30s/storyboard.json` — JSON schema v2.0
+- `scripts/generate_prototype_30s.py` — generator script (reusable)
+
+**Pending berikutnya**:
+- Generate 6 T2I di Dola AI (atau Flow) untuk prototype 30s — verifikasi kualitas
+- TTS 1 narasi gabungan via edge-tts
+- Stitch 30s video via ffmpeg (Ken Burns effect untuk I2V opsional)
+- Kalau OK → scale up ke pilot Panji lama (3 menit) atau produksi 10 menit
+- 4C-4E masih BLOCKED (Jilid VI-X belum terbit)
+
+---
+
 ## Sesi 2026-10-22 — Rewrite 2A Hindu-Buddha Awal
 
 **Konteks awal sesi**: Sandbox sync dengan GitHub (HEAD `9b3649d`). User minta: (1) buat `progres-project.md` (file ini), (2) lanjut rewrite lengkap era 2A-2C dari pola "koreksi" ke "rewrite lengkap" (pola sama dengan 1A-1D, 3A-3C, 4A-4B yang sudah selesai sesi sebelumnya).

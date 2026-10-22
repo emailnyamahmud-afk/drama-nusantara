@@ -2061,3 +2061,42 @@ Stage Summary:
 - Phase 3 (Master Reff T2I): ✅ 13 era, 220 file v2.1 horizontal
 - Phase 4-8 (Pra-produksi → Pasca produksi): belum mulai, menunggu user
 
+
+
+---
+Task ID: FLOW-ANALYSIS-2026-10-23
+Agent: Main Agent (Z.ai)
+Task: Analisis JSON Google Flow v1.2 + adopsi workflow ke pipeline Drama Nusantara + prototype 30s schema v2.0
+
+Work Log:
+- Download JSON Flow dari Google Drive: 56.2 MB, 16 asset + 21 frame, sample "KEN AROK: TAKDIR DARI TUMAPEL"
+- Top-level structure: version 1.2, projectTitle, fullMarkdown (5381 char script ID), globalStyle "Realistic", customStyleLibrary (kosong), assets[16], frames[21]
+- Asset schema: id, type (character/location/prop), name, supportingImages[1 base64 JPEG ~900KB], physicalCharacteristics (~350 char EN), clothingAccessories (~320 char, char only), backstory (~230 char, char only), includeInspirationInImageGen bool, referenceImageId UUID, timeOfDay (loc only)
+- Frame schema: id, sceneId, sceneNumber, shotNumber, sceneTitle, title, visualDescription (~420 char EN), motionDescription (~120 char EN), audioDescription (~220 char EN), linkedAssetIds[5-6 UUIDs], imageHistory[blob URLs], imageUrl, base64 (~1.2MB JPEG 1376x768 16:9), imageHistoryData[base64]
+- Distribusi: 4 scene (3 berisi + 1 placeholder), 21 frame (6+6+6+3), 16 asset (7 char + 3 loc + 6 prop)
+- Extract 6 sample image (3 frame + 3 asset ref) ke /home/z/my-project/download/flow-preview/ untuk visual QC
+- VLM-analisis Frame #00 (chase scene): karakter konsisten (red headband, bare chest, brown vest, indigo sarong ✓), lokasi realistic (tropical teak forest, god rays ✓), action readable (chase + taunt ✓), AI artifacts: tangan "meleleh", wajah figur sekunder generik
+- Tulis analisis-google-flow.md (16 KB): 8 hal adopsi + 12 hal pengembangan
+- User clarify: fokus adopsi saja, JSON per segmen + Flow optimization, prototype 30s/1min
+- Tulis ADOPSI-Flow.md: 8 item adopsi ringkas + diff dari pilot Panji schema (storyboard-pilot.json 36 segmen 3 menit)
+- Generate prototype-30s/storyboard.json via scripts/generate_prototype_30s.py: schema v2.0, 6 segmen × 5s = 30s, KEN AROK short (2 char + 2 loc + 2 prop)
+- Verifikasi 7 item adopsi: 3-field asset ✓, motion.prompt ✓, linked_asset_ids ✓, include_inspiration flag ✓, time_of_day ✓, image_history (path-only) ✓, 16:9 ✓
+
+Stage Summary:
+- Schema v2.0 backward-compatible dengan pilot Panji lama (field baru opsional)
+- JSON size 12.5 KB << 500 KB target (tidak ada base64 inline — Flow's mistake yang kita hindari)
+- Adopsi paling berharga: (1) Asset 3-field schema, (2) motion.prompt sebagai I2V feeder, (3) linked_asset_ids composition matrix, (4) include_inspiration flag untuk kontrol ref image
+- Yang TIDAK diadopsi: base64 inline (Flow 56 MB), UUID scene-id (kita pakai "S001" lebih readable), single ref image (kita pakai 5-angle K-files), TTS/I2V layer (Flow tidak punya)
+- Keunggulan riset kita dipertahankan: setiap klaim storyboard JSON bisa ditelusuri ke master-era/2C-singasari-kediri.md + jilid-2 sumber primer
+
+Files Added:
+- produksi/pra-produksi/analisis-google-flow.md (16 KB)
+- produksi/pra-produksi/ADOPSI-Flow.md (8 KB)
+- produksi/pra-produksi/prototype-30s/storyboard.json (12.5 KB)
+- scripts/generate_prototype_30s.py (reusable generator)
+
+Pending:
+- Generate 6 T2I di Dola AI (atau Flow) — validasi visual
+- TTS narasi via edge-tts
+- Stitch 30s video via ffmpeg
+- Iterasi kalau OK → scale up ke produksi 10 menit
