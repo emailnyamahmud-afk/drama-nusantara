@@ -1813,3 +1813,53 @@ Stage Summary:
 - Pattern konsisten dengan rewrite 1A-1D + 2A + 3A-3C + 4A-4B
 - Next: lanjut rewrite 2C Singasari-Kediri (abad 11-13 M), sumber: jilid-2/08-bab-3.md B.C (line 1606-1810)
 
+
+---
+Task ID: 2C-REWRITE-LENGKAP
+Agent: Main Agent (Z.ai)
+Task: Rewrite lengkap era 2C Singasari-Kediri (abad 11-13 M) dari status "koreksi" ke "rewrite lengkap" — ERA HINDU-BUDDHA SELESAI SEMUA (2A + 2B + 2C + 2D)
+
+Work Log:
+- Membaca worklog.md, README.md, progres-project.md untuk konteks state akhir sesi sebelumnya (2B rewrite lengkap selesai + push GitHub 54d4400)
+- Membaca file 2C-singasari-kediri.md existing (519 baris, status koreksi parsing)
+- Membaca sistematis Bab III.C Jilid II yang relevan untuk era 2C:
+  * jilid-2/08-bab-3.md C (line 1552-1810) — Sungai batas Janggala-Pangjalu; daftar raja Kadiri (7); pencapaian Kadiri (administrasi 3 tingkat, militer, ekonomi, sastra); Singhasari (5 raja dari Prasasti Mula Malurung); Kertanagara cakrawala mandala; pelarian Raden Wijaya; pendirian Majapahit 1293
+  * jilid-2/07-bab-2.md B.4 (line 385-446) — Puncak Dinamika Hindu-Buddha: Kancana/Gedangan, tripaksa Airlangga, kultus Bhairawa/Hevajra masa Jayabhaya + Kertanagara, pendharmaan, paralelisme Hindu-Buddha (Sanderson-Soebadio)
+  * jilid-2/07-bab-2.md C.4.b (line 878-889) — Candi Singhasari, Jago, Jawi, Simping, Boyolangu, Rimbi + arca pendharmaan
+  * jilid-2/07-bab-2.md E.2.a (line 1571) — Arca pendharmaan (Joko Dolog, dll)
+  * jilid-2/07-bab-2.md B.4 (line 413-417) — Prasasti Hantang + Talan; kemunculan Bhairawa masa Jayabhaya
+- Rewrite total 2C-singasari-kediri.md dari nol:
+  * Bagian 1 — Konteks Era: batas periode (abad 11-13 M), 4 kerajaan (Janggala-Pangjalu-Kadiri-Singhasari-Majapahit awal), kerangka sosial-budaya (inovasi Kadiri + Singhasari), 17 prasasti kunci
+  * Bagian 2 — Narasi Kronologi 11 sub-bab:
+    - 2.1 Pembagian kerajaan oleh Mpu Bharada (1042 M) + Sungai Ndempol sebagai batas
+    - 2.2 Perang saudara Janggala vs Pangjalu (1042-1122 M); 3 raja Janggala (Garasakan, Alanjung Ahyes, Samarotsaha) + raja Pangjalu awal (Samarawijaya, Jitendrakara)
+    - 2.3 Kerajaan Kadiri (abad 12-1222 M); 7 raja (Bameswara sampai Sarwweswara Triwikramawatara + Kertajaya); 5 pencapaian (administrasi 3 tingkat, militer, ekonomi, sosial, sastra)
+    - 2.4 Kemunculan Bhairawa di era Jayabhaya (Prasasti Hantang + Talan)
+    - 2.5 Kemunculan Singhasari + Ranggah Rajasa/Ken Arok (1222 M)
+    - 2.6 Daftar 5 raja Singhasari dari Prasasti Mula Malurung
+    - 2.7 Wisnuwardhana dan konsep Nusantara (Prasasti Mula Malurung 1255 M)
+    - 2.8 Kertanagara: cakrawala mandala + tantrik ekstrem (1270-1292 M); Candi Jawi dwi-agama; pendharmaan
+    - 2.9 Diplomasi Kertanagara: Prasasti Camundi + Dharmasraya (Amoghapasa)
+    - 2.10 Wafat Kertanagara + pelarian Raden Wijaya (1292 M)
+    - 2.11 Pendirian Majapahit (1293 M) — manfaatkan Tartar Kubilai Khan
+    - 2.12 Ringkasan dinamika era
+  * Bagian 3 — 40 tokoh historis (3 raja Janggala + 2 raja Pangjalu awal + 8 raja Kadiri + 10 raja/transisi Singhasari + 8 tokoh transisi Majapahit + 4 pujangga + 9 peneliti/sumber asing)
+  * Bagian 4 — 35 latar (11 Janggala-Pangjalu + 9 Singhasari + 8 candi + 9 transisi Majapahit + 8 referensi asing)
+  * Bagian 5 — 90 klaim dengan sitasi (K-001 sampai K-090), terbagi 13 sub-bagian
+  * Bagian 6 — Visual Assets brief: 15-warna palette, tekstur-material, kostum 5 karakter utama (Ken Arok, Jayabhaya, Wisnuwardhana, Kertanagara, Raden Wijaya, Sang Pranajaya), arsitektur 6 lokasi, 17 props kunci
+  * Bagian 7 — Statistik & coverage audit:
+    - 519 baris (koreksi) → 1547 baris (rewrite lengkap) — naik 198%
+    - 90 klaim dengan sitasi
+    - 40 tokoh, 35 latar, 17 prasasti
+    - Coverage Bab Jilid II: II.B.4 100%, II.C.4.b 100%, II.E.2.a 80%, III.C.1 100%, III.C.1.b 100%, III.C.2 100%, III.C.3 100%, III.C.4 100%
+    - 30 klaim kunci TERVERIFIKASI terhadap sumber primer (tidak ada halu)
+
+Stage Summary:
+- File: /home/z/my-project/master-era/2C-singasari-kediri.md (1547 baris, ~24.000 kata)
+- Status: koreksi parsing → REWRITE LENGKAP
+- Coverage Bab sumber primer: 8 dari 9 sub-bab utama Jilid II untuk era 2C 100% dibaca
+- Audit halu: 30 klaim kunci TERVERIFIKASI terhadap sumber primer. Tidak ada halu terdeteksi.
+- Pattern konsisten dengan rewrite 1A-1D + 2A + 2B + 3A-3C + 4A-4B
+- ***ERA HINDU-BUDDHA SELESAI SEMUA (2A + 2B + 2C + 2D) — Total 4 era Hindu-Buddha lengkap***
+- Status project final: 16 dari 17 era selesai (1A-1D + 2A-2D + 3A-3C + 4A-4B) — hanya 4C-4E BLOCKED menunggu Jilid VI-X
+

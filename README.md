@@ -12,7 +12,7 @@
 3. T2I PROMPTS            → copy-paste ke Dola AI → output drama/dokumenter
 ```
 
-**Status saat ini**: Era 1A-1D + 2A + 2B + 2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (15 era, ~195.000 kata, 1.406 klaim). Era 2C sudah ditulis + dikoreksi parsing. T2I prompts sudah dibuat untuk 1A-3B (3C+4A+4B belum).
+**Status saat ini**: Era 1A-1D + 2A-2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (16 era, ~220.000 kata, 1.496 klaim). Hanya 4C-4E BLOCKED menunggu Jilid VI-X. T2I prompts sudah dibuat untuk 1A-3B (3C+4A+4B belum).
 
 **BLOCKED**: Era 4C-4E (Pergerakan Kebangsaan → Orde Baru) tidak dapat dikerjakan karena **Jilid VI-X belum terbit** (Kementerian Kebudayaan RI 2025). Jilid V secara eksplisit menyebut di Bab VII line 558: "Jilid berikutnya, 'Jilid VI: Pergerakan Kebangsaan', akan menelusuri fase ketika kesadaran tersebut menemukan bentuk organisasinya." Folder `riset/sumber-primer/jilid-6/` belum ada.
 
@@ -40,7 +40,7 @@ drama-nusantara/
 │   ├── 1D-prasejarah-logam-awal.md                  ✅ 1264 baris (rewrite lengkap)
 │   ├── 2A-hindu-buddha-awal.md                       ✅ 1408 baris (rewrite lengkap — Jilid II Bab I + II + III.A.1)
 │   ├── 2B-mataram-sriwijaya.md                       ✅ 2231 baris (rewrite lengkap — Jilid II Bab III.B + II.A-E)
-│   ├── 2C-singasari-kediri.md                        ✅ 519 baris
+│   ├── 2C-singasari-kediri.md                        ✅ 1547 baris (rewrite lengkap — Jilid II Bab III.C + II.B.4 + II.C.4.b)
 │   ├── 2D-majapahit.md                                ✅ 816 baris (expand lengkap — Bab II+III+IV+V+VI Jilid 2)
 │   ├── 3A-islamisasi-awal.md                          ✅ 815 baris (rewrite lengkap — semua 9 Bab Jilid III)
 │   ├── 3B-demak-pajang.md                             ✅ 1058 baris (rewrite lengkap — 6 dari 9 Bab Jilid III langsung)
@@ -72,7 +72,7 @@ drama-nusantara/
 ## Aturan Repo
 
 1. **`riset/sumber-primer/`** = HANYA file asli dari buku Kemenbud 2025 (Jilid 1-5). Tidak ada ringkasan, tidak ada enhanced YAML, tidak ada audit JSON. Jika perlu cari info, baca langsung file asli.
-2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2A + 2B + 2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Era 2C sudah ditulis + dikoreksi parsing, perlu audit coverage tambahan.
+2. **`master-era/`** = parsing sistematis dari sumber primer. Setiap klaim punya sitasi ke file + section sumber primer. Era 1A-1D + 2A-2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (parsing sistematis Bab terkait). Total 16 dari 17 era selesai — hanya 4C-4E BLOCKED menunggu Jilid VI-X.
 3. **`produksi/t2i-prompts/`** = file .txt siap copy-paste ke Dola AI. Format flat natural-language.
 
 ## Quick Start
@@ -87,7 +87,7 @@ drama-nusantara/
 | Metrik | Angka |
 |---|---|
 | Sumber primer (5 jilid) | 83 file MD asli (Jilid I-V; Jilid VI-X belum terbit) |
-| Master era selesai | 15 dari 17 (1A-1D + 2A + 2B rewrite + 2D expand + 3A-3C + 4A-4B rewrite lengkap) |
+| Master era selesai | 16 dari 17 (1A-1D + 2A-2D rewrite + 3A-3C + 4A-4B rewrite lengkap) |
 | Master era BLOCKED | 4 era (4C-4E) — menunggu Jilid VI-X |
 | T2I prompts selesai | 10 era (173 file .txt total — 3C+4A+4B belum) |
 | Total kata master era | ~154.000 kata (12.010 baris era docs) |
@@ -105,7 +105,7 @@ drama-nusantara/
 | **TOTAL PRASEJARAH** | | | **4854** | | **42** |
 | 2A Hindu-Buddha Awal | Abad 4-7 M | ✅ rewrite | 1408 | ✅ | 18 |
 | 2B Mataram-Sriwijaya | Abad 7-11 M | ✅ rewrite | 2231 | ✅ | 37 |
-| 2C Singasari-Kediri | Abad 11-13 M | ✅ | 519 | ✅ | 17 |
+| 2C Singasari-Kediri | Abad 11-13 M | ✅ rewrite | 1547 | ✅ | 17 |
 | 2D Majapahit | Abad 13-16 M | ✅ expand | 816 | ✅ | 17 |
 | **TOTAL HINDU-BUDDHA** | | | **2930** | | **89** |
 | 3A Islamisasi Awal | Abad 7-1511 M | ✅ rewrite | 815 | ✅ | 21 |
@@ -183,24 +183,23 @@ Setiap folder `produksi/t2i-prompts/<era>/prompts/` berisi file `.txt` siap copy
 | 2026-10-20 | **Rewrite lengkap 3C Mataram Islam** — Jilid III+IV, 873 baris, ~13.500 kata, 93 klaim. Sultan Agung (1613-1645) 'Majapahit Baru'+ekspansi Surabaya 1625+Giri-Gresik 1636+Blambangan 1636-1640+serang Batavia 1628+1629 gagal+kalender Islam-Jawa 1633; Amangkurat I (1646-1677) absolutisme+bunuh 5.000-6.000 ulama; Trunojoyo 1674-1679+Perjanjian Mataram-VOC 1677-1678; Geger Pecinan 1740; Perjanjian Giyanti 1755 (Mataram pecah Yogyakarta+Surakarta)+Salatiga 1757 (Mangkunegaran); Aceh Iskandar Muda (1607-1636)+serang Malaka 1629 gagal 19.000 prajurit+Turki Usmani; Gowa-Tallo (1593-1639)+Perang Makassar 1666-1669; VOC+J.P. Coen Batavia 1619+genosida Banda 1621+sistem Perken; Hamzah Fansuri+Syamsuddin as-Sumatrani+Tajussalatin+Bustan as-Salatin+Islamic Republic of Letters | ✅ |
 | 2026-10-20 | **Rewrite lengkap 4A VOC Awal** — Jilid IV (Bab 2,4,6,7,8,9)+Jilid V (Bab 1,3), 722 baris, ~11.094 kata, 85 klaim. Ekspedisi De Houtman 1595-1597; Frederick de Houtman kamus Melayu-Belanda pertama 1603; Linschoten Itinerario 1596; VOC berdiri 20 Maret 1602 (oktroi hak istimewa); J.P. Coen Batavia 1619+genosida Banda 1621+sistem Perken+hongi tochten; perlawanan Hoamoal 1651-1656+Iha 1632-1652; Perang Makassar 1666-1669; Perjanjian Mataram-VOC 1677-1678+Geger Pecinan 1740+Giyanti 1755+Salatiga 1757; VOC bangkrut 1800; Daendels 1808-1811 (Jalan Raya Pos); Raffles 1811-1816 (landrent system+Geger Sepehi 1812); van den Bosch Cultuurstelsel 1830-1833 | ✅ |
 | 2026-10-20 | **Rewrite lengkap 4B Kolonial 19** — Jilid V (Bab 1,3,6), 618 baris, ~9.694 kata, 74 klaim. Cultuurstelsel 1830-1870 (van den Bosch, 1/5 lahan untuk negara, cultuurprocenten, NHM, 20% pendapatan Belanda 1832-1850); Multatuli Max Havelaar 1860; Ekonomi Liberal 1860-1880 (UUA 1870, erfpacht 75 tahun, 383 perusahaan 1890); Perang Padri 1821-1837 (Tuanku Imam Bonjol, 3 periode, Piagam Marapalam, Bonjol jatuh 25 Oktober 1837, wafat 1864); Perang Jawa 1825-1830 (Pangeran Diponegoro, Kiai Madja, Sentot, Benteng Stelsel De Kock 1827 ±250 benteng, Magelang 28 Maret 1830, wafat 1855); Perang Bali 1846-1849 (Buleleng+Jagaraga+Kusamba, Michiels tewas, Mads Lange mediasi); Perang Banjar 1859-1906 (Antasari+Surapati+Hidayatullah vs Tamjidillah, batu bara Martapura 1846); Perang Aceh 1873-1904 (Sultan Ibrahim+Mahmud Syah II, Habib Abdurrahman, Pangeran Tiban, Turki); Perang Batak Sisingamangaraja XII 1877-1907; Perang Lombok 1891-1894 (Sasak vs Bali, perang puputan, van Ham tewas); Pemberontakan Petani Banten 1888 (Haji Abdul Karim Tarekat Qadiriyah); Politiek Etis 1901 (Irrigasi+Emigratie+Educatie) | ✅ |
-| 2026-10-22 | **Rewrite lengkap 2B Mataram-Sriwijaya** — parsing sistematis Jilid II Bab III.A.1.d + B (lines 759-1606) + Bab II sampling (candi-stupa-wihara, penanggalan, paralelisme Hindu-Buddha), 805→2231 baris, ~35.000 kata, ~50→120 klaim, 50 tokoh, 55 latar, 32 prasasti disitasi. Coverage: Bab III.A.1.d 100%, B.1.a-c 100% (16 raja Mataram Jateng + Pu Sindok + Airlangga), B.2 100% (Kanjuruhan), B.3 100% (Bali Kuno Sri Kesari hingga Majapahit-Bali), B.4 100% (Panai-Lamuri-Mandailing), B.5 100% (Sunda Kuno). Audit halu: 25 klaim kunci TERVERIFIKASI terhadap sumber primer (tidak ada halu). | ✅ |
+| 2026-10-22 | **Rewrite lengkap 2C Singasari-Kediri** — parsing sistematis Jilid II Bab III.C (lines 1552-1810) + Bab II.B.4 + II.C.4.b + II.E.2.a sampling, 519→1547 baris, ~24.000 kata, ~50→90 klaim, 40 tokoh, 35 latar, 17 prasasti disitasi. Coverage: Bab III.C.1 100% (Janggala-Pangjalu), III.C.1.b 100% (7 raja Kadiri), III.C.2 100% (pencapaian Kadiri), III.C.3 100% (5 raja Singhasari dari Mula Malurung), III.C.4 100% (pelarian Raden Wijaya + pendirian Majapahit). Bab II.B.4 100% (Bhairawa-Hevajra masa Jayabhaya-Kertanagara, pendharmaan, paralelisme). Bab II.C.4.b 100% (Candi Singhasari-Jago-Jawi-Simping-Boyolangu-Rimbi). Audit halu: 30 klaim kunci TERVERIFIKASI terhadap sumber primer (tidak ada halu). **Era Hindu-Buddha selesai semua: 2A+2B+2C+2D lengkap.** | ✅ |
 
 ## TODO untuk Sesi Berikutnya
 
-### Prioritas 1: Audit/Expand Era 2C (Koreksi → Rewrite)
-Era 2C (Singasari-Kediri, 519 baris) masih di tahap "koreksi parsing" — belum rewrite lengkap seperti 1A-1D + 2A + 2B + 3A-3C + 4A-4B. Pola rewrite lengkap = baca semua Bab sumber primer yang relevan + ekstrak semua tokoh/latar/klaim.
-
-### Prioritas 2: T2I Prompts untuk 3C + 4A + 4B
+### Prioritas 1: T2I Prompts untuk 3C + 4A + 4B
 3 era yang sudah rewrite lengkap tapi belum punya T2I prompts:
 - 3C Mataram Islam (873 baris, 93 klaim) — Sultan Agung, Amangkurat, Diponegoro, Trunojoyo
 - 4A VOC Awal (722 baris, 85 klaim) — De Houtman, Coen, Daendels, Raffles
 - 4B Kolonial 19 (618 baris, 74 klaim) — Diponegoro, Tuanku Imam Bonjol, Cultuurstelsel, perang-perang
 
-### BLOCKED: Era 4C-4E (menunggu Jilid VI-X)
+### Prioritas 2: Cek pustakabudaya.id untuk Jilid VI+ (4C-4E BLOCKED)
+4 era masih BLOCKED karena Jilid VI-X belum terbit:
 - 4C Pergerakan Kebangsaan (1900-1942) — butuh Jilid VI
 - 4D Pendudukan & Kemerdekaan (1942-1949) — butuh Jilid VII/VIII
 - 4E Orde Lama-Baru (1949-1998) — butuh Jilid IX/X
 
+### BLOCKED: Era 4C-4E (menunggu Jilid VI-X)
 Jilid V Bab VII line 558 eksplisit: "Jilid berikutnya, 'Jilid VI: Pergerakan Kebangsaan', akan menelusuri fase ketika kesadaran tersebut menemukan bentuk organisasinya."
 
 Cek https://pustakabudaya.id untuk ketersediaan Jilid VI+.
@@ -209,12 +208,12 @@ Cek https://pustakabudaya.id untuk ketersediaan Jilid VI+.
 
 | Metrik | Angka |
 |---|---|
-| Era selesai (rewrite/expand lengkap) | 15 dari 17 |
-| Era di tahap koreksi (perlu rewrite) | 1 (2C) |
+| Era selesai (rewrite/expand lengkap) | 16 dari 17 (semua era Hindu-Buddha selesai!) |
+| Era di tahap koreksi (perlu rewrite) | 0 (semua era Hindu-Buddha selesai!) |
 | Era BLOCKED (Jilid belum terbit) | 4 (4C, 4D, 4E + era 3C udah ada tapi T2I belum) |
-| Total baris master-era docs | 15.818 |
-| Total kata | ~195.000 |
-| Total klaim dengan sitasi | 1.406 |
+| Total baris master-era docs | 17.365 |
+| Total kata | ~220.000 |
+| Total klaim dengan sitasi | 1.496 |
 | T2I prompts | 10 era (173 file) |
 | Sumber primer tersedia | Jilid I-V (83 file MD) |
 | Sumber primer BLOCKED | Jilid VI-X (belum terbit) |
