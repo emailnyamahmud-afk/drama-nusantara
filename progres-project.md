@@ -80,6 +80,55 @@
 
 ---
 
+## Sesi 2026-10-23 (FINAL) — EP1 JAKA TINGKIR SELESAI + TUI TOOL + REPO CLEANUP
+
+**Pencapaian sesi ini** (8 jam kerja):
+1. ✅ Analisis Google Flow JSON (56 MB) — 8 item adopsi
+2. ✅ Prototype 30s KEN AROK — 12 image Dola + 2 I2V (Dola seg01 + Flow seg04)
+3. ✅ Strategic pivot: image-based pipeline (drop I2V untuk long-form)
+4. ✅ JSON v3.1 — SRT deterministik, TTS adaptive rate
+5. ✅ Prototype 30s v3.1 — 30.04s exact (SRT ground truth)
+6. ✅ Tambah sumber Jaka Tingkir (5 file MD Damar Shashangka) + master-era + series plan 6 episode
+7. ✅ Naskah EP1 "Demak Berdiri, Malaka Jatuh" (24 segmen, 12 menit)
+8. ✅ User edit dialog Jawa → krama inggil (Raden Patah + Raden Yunus)
+9. ✅ 12 master ref T2I baru (era 3B) + 3 Dola auto-gen (Trenggana, Demak, Malaka)
+10. ✅ 24 storyboard frame T2I (Dola skill batch-storyboard-generator)
+11. ✅ 25 TTS adaptive (edge-tts, jv-ID-DimasNeural + id-ID-ArdiNeural)
+12. ✅ EP1 FINAL MP4 — 720.04s = 12 menit exact, 1920×1080, 76 MB
+13. ✅ Repo cleanup — hapus semua media file, 487 tracked files (docs only)
+14. ✅ TUI tool `nusantara-render.py` v2 (rich library, BGM auto-fill, user-friendly)
+
+**Issues ditemukan**:
+- Silent gaps: 50% dead air (TTS ~15s vs cue 30s). Fix: BGM fill di TUI atau DaVinci Resolve.
+- Dola skill lambat untuk batch besar. Pivot: Google Flow (Nano Banana 2 Lite) untuk T2I.
+- Hang Tuah master ref: pakaian Thai/Siam bukan Melayu. User: skip, semua image bagus.
+
+**Workflow final 2.0**:
+```
+Z.ai: naskah + JSON → user validasi
+Dola/Flow: T2I batch → user download image
+MacBook: nusantara-render.py (TTS + stitch + BGM → MP4)
+DaVinci Resolve Studio: BGM/SFX (Fairlight built-in) + fine-tune → export final
+```
+
+**Files penting**:
+- `scripts/nusantara-render.py` — TUI tool untuk MacBook
+- `scripts/nusantara-render-PLAN.md` — plan doc
+- `produksi/pra-produksi/jaka-tingkir-ep1/ep1-final-v3.1.json` — JSON SoT EP1
+- `produksi/pra-produksi/jaka-tingkir-series/EP1-NASKAH.md` — naskah final
+- `produksi/pra-produksi/jaka-tingkir-series/SERIES-PLAN.md` — 6 episode plan
+- `produksi/pra-produksi/WORKFLOW-REDESIGN-2.0.md` — workflow doc
+- `produksi/pra-produksi/WORKFLOW-END-TO-END.md` — workflow detail
+
+**Pending berikutnya**:
+1. User: setup TUI di MacBook + test dengan EP1 (re-render dengan BGM)
+2. User: download BGM dari YouTube Audio Library atau Pixabay Music
+3. Lanjut EP2 naskah "Keris Setan Kobar" dari master-era Jaka Tingkir
+4. Scrap Season 2 "Arya Penangsang" dari superhalaman.wordpress.com (URL sudah ada di SOURCES-COLLECTION.md)
+5. 4C-4E masih BLOCKED (Jilid VI-X belum terbit)
+
+---
+
 ## Sesi 2026-10-23 (lanjutan 4) — TAMBAH SUMBER JAKA TINGKIR + SERIES PLAN
 
 **User share**: 5 URL blog Damar Shashangka (Puri Damar Shashangka, 2010) berisi kisah Jaka Tingkir lengkap dari kelahiran Mas Karebet (1499) sampai jadi Adipati Pajang (~1550).

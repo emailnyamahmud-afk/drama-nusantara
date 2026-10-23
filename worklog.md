@@ -2550,3 +2550,45 @@ Pending Next:
 1. User lanjut generate 8 image sisanya di Flow
 2. User lanjut edit naskah kalau perlu
 3. Setelah keduanya selesai → AI bikin 17 storyboard frame prompts + JSON final
+
+
+---
+Task ID: SESSION-FINAL-2026-10-23
+Agent: Main Agent (Z.ai)
+Task: Update dokumentasi final sesi 8 jam
+
+Work Log:
+Sesi 2026-10-23 (8 jam) — pencapaian lengkap:
+1. Analisis Google Flow JSON (56 MB) — 8 item adopsi workflow
+2. Prototype 30s KEN AROK — 12 image Dola + 2 I2V video test (Dola + Flow)
+3. Strategic pivot: image-based pipeline (I2V tidak skalabel untuk long-form)
+4. JSON v3.1 — SRT deterministik + TTS adaptive rate (fit ke cue)
+5. Prototype 30s v3.1 — 30.04s exact (SRT ground truth terbukti)
+6. Tambah sumber Jaka Tingkir (5 file MD dari blog Damar Shashangka)
+7. Master-era JAKA-TINGKIR + series plan 6 episode
+8. Naskah EP1 (24 segmen, 12 menit) — user edit dialog Jawa krama inggil
+9. 12 master ref T2I baru (era 3B) + 3 Dola auto-gen (Trenggana, Demak, Malaka)
+10. 24 storyboard frame T2I (Dola skill batch-storyboard-generator)
+11. 25 TTS adaptive (edge-tts, jv-ID-DimasNeural + id-ID-ArdiNeural, all FIT)
+12. EP1 FINAL MP4 — 720.04s = 12 menit exact, 1920x1080, 76 MB
+13. Repo cleanup — hapus semua media file, simplifikasi ke docs only
+14. TUI tool nusantara-render.py v2 (rich library, BGM auto-fill, user-friendly)
+
+Issues:
+- Silent gaps 50% dead air — fix: BGM fill (TUI auto-mix atau DaVinci Fairlight)
+- Dola skill lambat untuk batch besar — pivot: Google Flow Nano Banana 2 Lite
+- Hang Tuah pakaian Thai/Siam — user skip (acceptable)
+
+Workflow final 2.0:
+- Z.ai: naskah + JSON (creative direction)
+- Dola/Flow: T2I batch (image generation)
+- MacBook: nusantara-render.py (TTS + stitch + BGM → MP4)
+- DaVinci Resolve Studio: BGM/SFX (Fairlight built-in) + fine-tune → export final
+- Cost: $0 per episode
+
+Pending next sesi:
+1. User: setup TUI di MacBook + test EP1 dengan BGM
+2. User: download BGM (YouTube Audio Library / Pixabay Music)
+3. AI: naskah EP2 "Keris Setan Kobar"
+4. AI: scrap Season 2 "Arya Penangsang" dari superhalaman.wordpress.com
+5. 4C-4E masih BLOCKED (Jilid VI-X belum terbit)
