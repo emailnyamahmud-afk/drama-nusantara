@@ -1,0 +1,136 @@
+================================================================================
+GOOGLE FLOW VEO — I2V PROMPTS UNTUK 6 SEGMEN
+================================================================================
+
+Settings di Google Flow (sama untuk semua segmen):
+  - Resolution: 360p
+  - Duration: 4s (4 detik — pilihan terdekat dengan target 5s)
+  - Estimasi credits per video: 4cr
+  - Total 6 video: 24cr (sisa 26cr untuk iterate)
+  - Audio native: YA (SFX included)
+  - Watermark: TIDAK ADA
+
+Workflow per segmen:
+  1. Buka https://flow.google.com
+  2. Upload image dari produksi/t2i-output/prototype-30s/{segment_id}.jpg
+  3. Copy-paste motion prompt di bawah
+  4. Set Resolution = 360p, Duration = 4s
+  5. Generate → download .mp4
+  6. Save ke: produksi/i2v-output/prototype-30s/flow-{segment_id}.mp4
+
+Note: durasi 4s vs target 5s = -1s per video. Total video 24s bukan 30s.
+Solusi: pakai slow-motion di ffmpeg untuk extend ke 30s, atau trim TTS narasi jadi 24s.
+
+================================================================================
+[SEGMENT 1/6] S001_seg01 — Opening hook — establish chase & character
+================================================================================
+Input image: produksi/t2i-output/prototype-30s/S001_seg01.jpg
+Camera direction: rapid backward tracking, ahead of subject
+Speed: fast
+Output: produksi/i2v-output/prototype-30s/flow-S001_seg01.mp4
+Credits: 4cr
+
+MOTION PROMPT (copy-paste):
+Camera tracks rapidly backward ahead of Ken Arok, keeping him centered as foliage whips past frame edges
+
+AUDIO CONTEXT (kalau perlu tambah ke prompt untuk SFX native):
+  BGM: tense tribal percussion building, fast tempo matching footstep rhythm
+  SFX: heavy panting, twigs snapping, distant shouting soldiers, metallic armor rattle
+
+================================================================================
+[SEGMENT 2/6] S001_seg02 — Establish Ken Arok's defiant character
+================================================================================
+Input image: produksi/t2i-output/prototype-30s/S001_seg02.jpg
+Camera direction: low-angle medium, slight pan up as subject lands
+Speed: medium
+Output: produksi/i2v-output/prototype-30s/flow-S001_seg02.mp4
+Credits: 4cr
+
+MOTION PROMPT (copy-paste):
+Low-angle medium shot pans slightly up as Ken Arok lands on log, emphasizing agile stance and height advantage over pursuers
+
+AUDIO CONTEXT (kalau perlu tambah ke prompt untuk SFX native):
+  BGM: percussion drops to sparse, anticipatory
+  SFX: subject's confident exhale, soldiers' guttural grunts
+  Dialogue: "Hanya segitu kecepatan prajurit istana? Kura-kura di rawa pun masih bisa mendahului kalian!"
+
+================================================================================
+[SEGMENT 3/6] S001_seg03 — Pivot moment — sage halts conflict, shifts tone
+================================================================================
+Input image: produksi/t2i-output/prototype-30s/S001_seg03.jpg
+Camera direction: slow stately tilt up from hem of robes to serene face and raised hand
+Speed: slow
+Output: produksi/i2v-output/prototype-30s/flow-S001_seg03.mp4
+Credits: 4cr
+
+MOTION PROMPT (copy-paste):
+Slow tilt-up from hem of Lohgawe's robes revealing his serene face and raised hand, establishing dominant spiritual presence
+
+AUDIO CONTEXT (kalau perlu tambah ke prompt untuk SFX native):
+  BGM: ambient drone fades in, percussion silences
+  SFX: wind hushes through leaves, soldiers' footsteps stop
+  Dialogue: "Hentikan amarah kalian. Darah anak muda ini bukan untuk tumpah di tanah berlumpur ini."
+
+================================================================================
+[SEGMENT 4/6] S001_seg04 — The prophecy moment — turning point of Ken Arok's life
+================================================================================
+Input image: produksi/t2i-output/prototype-30s/S001_seg04.jpg
+Camera direction: slow tense two-shot arc, rotates around the two men
+Speed: slow
+Output: produksi/i2v-output/prototype-30s/flow-S001_seg04.mp4
+Credits: 4cr
+
+MOTION PROMPT (copy-paste):
+Slow tense two-shot arc gently rotates around the two men, ending framed over Lohgawe's shoulder onto Ken Arok's stunned reaction
+
+AUDIO CONTEXT (kalau perlu tambah ke prompt untuk SFX native):
+  BGM: low ethereal drone swells, all other ambient cut
+  SFX: subject's breath catches, heartbeat subtly thumps
+  Dialogue: "Aku tidak menaruh kasihan, Ken Arok. Aku menaruh ramalan. Dewa Wisnu tidak mengirimmu ke dunia fana hanya untuk menjadi pencuri rendahan."
+
+================================================================================
+[SEGMENT 5/6] S001_seg05 — Internal epiphany — ambition ignited
+================================================================================
+Input image: produksi/t2i-output/prototype-30s/S001_seg05.jpg
+Camera direction: rapid snap zoom punch-in to pupils, freeze, then subtle handheld tremble
+Speed: fast
+Output: produksi/i2v-output/prototype-30s/flow-S001_seg05.mp4
+Credits: 4cr
+
+MOTION PROMPT (copy-paste):
+Rapid snap zoom punch-in directly into Ken Arok's pupils, freezing momentarily before settling with subtle trembling handheld framing
+
+AUDIO CONTEXT (kalau perlu tambah ke prompt untuk SFX native):
+  BGM: heartbeat thump loud, sub-bass pulse, ethereal chime
+  SFX: muffled heartbeat, subtle whoosh mirroring thunderous shock
+
+================================================================================
+[SEGMENT 6/6] S001_seg06 — Closing title card — prototype end
+================================================================================
+Input image: produksi/t2i-output/prototype-30s/S001_seg06.jpg
+Camera direction: slow pull-back rising higher, crane up revealing sun
+Speed: slow
+Output: produksi/i2v-output/prototype-30s/flow-S001_seg06.mp4
+Credits: 4cr
+
+MOTION PROMPT (copy-paste):
+Slow pull-back shot rising higher, re-establishing wide composition as Ken Arok walks away into god rays, title fades in
+
+AUDIO CONTEXT (kalau perlu tambah ke prompt untuk SFX native):
+  BGM: swelling orchestral strings + gamelan motif, dramatic resolution
+  SFX: wind through canopy, distant bird call
+
+================================================================================
+STRATEGI ITERASI (kalau perlu improve)
+================================================================================
+
+Sisa credits setelah 6 video: 26cr
+
+Kalau ada video yang perlu iterate:
+  - 360p 4s = 4cr per video, sisa bisa iterate 6 video lagi
+  - Atau upgrade ke 720p 4s = 7cr untuk critical frames (mis. seg04 prophecy)
+
+Critical frames untuk iterate dengan 720p (jika perlu):
+  ⭐ seg04 (Prophecy — 2 karakter, paling kompleks)
+  ⭐ seg05 (Epiphany — snap zoom, motion unik)
+  seg01 (Chase — sudah ada Dola version untuk comparison)
