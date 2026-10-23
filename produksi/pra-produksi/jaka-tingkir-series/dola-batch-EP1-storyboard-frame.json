@@ -1,0 +1,813 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "JT-S1-EP1-STORYBOARD-FRAME",
+    "title": "Jaka Tingkir EP1 — Storyboard Frame Batch (Phase 2)",
+    "era": "3B Demak-Pajang (1499-1550 M)",
+    "type": "storyboard_frame_batch",
+    "episode": "EP1: Demak Berdiri, Malaka Jatuh",
+    "duration_target_seconds": 720,
+    "resolution": "1920x1080",
+    "fps": 24,
+    "style": "cinematic realistic, Javanese period drama, dark-fantasy tones",
+    "date_created": "2026-10-23"
+  },
+  "instructions_for_agent": {
+    "purpose": "Generate 17 storyboard frame images untuk EP1 Jaka Tingkir Series. Phase 2 — dengan ref input dari Phase 1 master ref yang sudah jadi.",
+    "phase_2_storyboard_frame": {
+      "description": "Generate 17 storyboard frames. Setiap frame pakai ref image dari Phase 1 master ref untuk konsistensi karakter/lokasi.",
+      "count": 24,
+      "input": "text prompt + ref images (karakter_consistency + location_context + prop_detail)",
+      "output": "save each image to output_path",
+      "ref_image_rule": "Karakter utama = upload ref image (character_consistency). Lokasi = upload ref image (location_context). Prop = upload ref image (prop_detail). Boleh multiple ref per frame.",
+      "aspect_ratio": "16:9 (1920x1080) untuk semua frame",
+      "model_hint": "seedream-4.5 (Dola) atau nano-banana-2-lite (Google Flow)"
+    },
+    "execution_order": "single_phase_parallel_with_ref",
+    "output_organization": {
+      "storyboard_frame": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/"
+    },
+    "depends_on": "phase_1_master_ref (sudah jadi di produksi/t2i-output/jaka-tingkir-ep1/master-ref/)",
+    "qc_check": {
+      "aspect_ratio_check": "All 17 frame harus 16:9 (1920x1080)",
+      "character_consistency": "Karakter di frame harus match dengan master ref (mis. Raden Patah sama di segmen 1.2, 3.4, 5.1, 5.3, 6.1)",
+      "visual_continuity": "Story flow dari segmen 1 ke 17 harus koheren"
+    }
+  },
+  "phases": [
+    {
+      "phase_id": "phase_2_storyboard_frame",
+      "name": "Generate Storyboard Frame Images untuk EP1",
+      "parallel": true,
+      "depends_on": "phase_1_master_ref",
+      "jobs": [
+        {
+          "job_id": "frame-EP1-S001-SEG01",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S001-SEG01",
+          "scene_id": "EP1-S001",
+          "scene_title": "Pembuka: Demak Berdiri (1478 M)",
+          "segment_notes": "Aerial Demak Bintara, masjid agung atap tumpang tiga",
+          "duration_seconds": 20,
+          "prompt": "Cinematic realistic wide aerial establishing shot of Demak Bintara Sultanate in 1478 AD, pesisir utara Pulau Jawa at sunset. The great Demak Grand Mosque with three-tiered pyramidal roof (atap tumpang tiga) made of dark teak wood, towering above surrounding wooden pendapa pavilions with carved pillars. Islamic green banners with golden crescent fluttering in evening wind. The mosque's silhouette against orange-pink sunset sky. Crowded harbor with jong ships (Javanese trading vessels) moored at the docks. Distant mountain ranges in the background. Warm golden hour lighting, high detail, 24mm wide-angle lens, 16:9 horizontal, 8K, photorealistic.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Demak Lokasi",
+              "asset_name": "Demak Lokasi",
+              "ref_image_path": "produksi/t2i-output/master-reff/3B-L001-demak.jpg",
+              "role": "location_context"
+            }
+          ],
+          "depends_on": [
+            "Demak Lokasi"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S001-SEG01.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: Demak Bintara berdiri 1478 M, Raden Patah naik tahta",
+          "notes": "Storyboard frame 1/17 — Aerial Demak Bintara, masjid agung atap tumpang tiga"
+        },
+        {
+          "job_id": "frame-EP1-S001-SEG02",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S001-SEG02",
+          "scene_id": "EP1-S001",
+          "scene_title": "Pembuka: Demak Berdiri (1478 M)",
+          "segment_notes": "Raden Patah di singgasana + 4 putra di belakang",
+          "duration_seconds": 35,
+          "prompt": "Cinematic realistic wide shot inside the great pendapa of Demak Bintara, evening with warm torch lighting. Old Sultan Raden Patah (late 60s, long white beard, yellow silk royal robe with golden embroidery, white turban with golden crescent pin) sitting on the carved teak wood throne (singgasana) with mother-of-pearl inlay. Four young princes standing behind the throne: Raden Yunus (eldest, ambitious, green turban, navy silk kebaya), Raden Suryawiyata (second, white robe, plain turban), Pangeran Trenggana (third, calm, dark green robe), and a young princess. Warm golden torch glow, deep shadows, ceremonial atmosphere, 35mm lens, 16:9 horizontal, 8K, photorealistic, Javanese Islamic royal court 15th century.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Patah",
+              "asset_name": "Raden Patah",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C001-3B-K007-raden-patah.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Singgasana Demak",
+              "asset_name": "Singgasana Demak",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P002-3B-A005-singgasana-demak.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Raden Patah",
+            "Singgasana Demak"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S001-SEG02.jpg",
+          "ken_burns": "pan_right_slow",
+          "audio_summary": "Raden Patah dialog (krama inggil) + narrator 4 putra",
+          "notes": "Storyboard frame 2/17 — Raden Patah di singgasana + 4 putra di belakang"
+        },
+        {
+          "job_id": "frame-EP1-S001-SEG03",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S001-SEG03",
+          "scene_id": "EP1-S001",
+          "scene_title": "Pembuka: Demak Berdiri (1478 M)",
+          "segment_notes": "Sunan Kalijaga vs Sunan Kudus, kontras wali",
+          "duration_seconds": 35,
+          "prompt": "Cinematic realistic two-shot in the great pendapa, dramatic chiaroscuro lighting. On the left: Sunan Kalijaga (in shadow, wearing flowing dark black robe, turban black, mysterious serene smile, barely visible face in shadow). On the right: Sunan Kudus (clearly lit, wearing pure white robe, white turban, stern face, holding silver prayer beads tasbih). Contrast between shadow and light, mysterious versus orthodox. Deep wooden pendapa background with Islamic geometric carvings. Torch light from left, 50mm lens, shallow depth of field, 16:9 horizontal, 8K, photorealistic.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Sunan Kudus",
+              "asset_name": "Sunan Kudus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C004-3B-K010-sunan-kudus.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Sunan Kudus"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S001-SEG03.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: dua kekuatan Putihan vs Abangan masih bersatu",
+          "notes": "Storyboard frame 3/17 — Sunan Kalijaga vs Sunan Kudus, kontras wali"
+        },
+        {
+          "job_id": "frame-EP1-S002-SEG01",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S002-SEG01",
+          "scene_id": "EP1-S002",
+          "scene_title": "Empat Putra Raden Patah (1480-an)",
+          "segment_notes": "Raden Yunus latihan pedang + Suryawiyata belajar keris",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic split-scene composition showing two parallel moments. LEFT HALF: Young Raden Yunus (early 20s, athletic, ambitious, green turban, navy silk kebaya) practicing sword fighting on horseback in the royal courtyard of Demak, looking toward the distant sea. RIGHT HALF: Young Raden Suryawiyata (early 20s, sharp, plain white robe, white turban) studying keris at Pesantren Kudus, examining a wavy-bladed kris (keris Kyai Naga Sasra) in candlelight. Visual contrast: naval ambition versus religious study. Warm afternoon light left, candlelight right, 35mm lens, 16:9 horizontal, 8K, photorealistic.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Yunus",
+              "asset_name": "Raden Yunus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C002-3B-K008-raden-yunus.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Raden Suryawiyata",
+              "asset_name": "Raden Suryawiyata",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C003-3B-K009-raden-suryawiyata.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Keris Naga Sasra",
+              "asset_name": "Keris Naga Sasra",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P001-3B-A004-keris-kyai-naga-sasra.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Raden Yunus",
+            "Raden Suryawiyata",
+            "Keris Naga Sasra"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S002-SEG01.jpg",
+          "ken_burns": "pan_right_slow",
+          "audio_summary": "Narrator: Yunus ambisius laut, Suryawiyata belajar keris di Kudus",
+          "notes": "Storyboard frame 4/17 — Raden Yunus latihan pedang + Suryawiyata belajar keris"
+        },
+        {
+          "job_id": "frame-EP1-S002-SEG02",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S002-SEG02",
+          "scene_id": "EP1-S002",
+          "scene_title": "Empat Putra Raden Patah (1480-an)",
+          "segment_notes": "Pangeran Trenggana + Raden Getas Pandhawa",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic medium shot inside a Javanese pendapa, afternoon light filtering through wooden lattice. Young Pangeran Trenggana (early 20s, calm and wise, dark green robe, holding an ancient lontar palm-leaf manuscript) discussing with an older guru Raden Getas Pandhawa (50s, grey beard, brown robe). They sit on woven mat reading lontar together. Carved teak pillars, batik cloth hanging, low teak table with tea. Soft warm afternoon light, shallow depth of field, 50mm lens, 16:9 horizontal, 8K, photorealistic, 15th century Javanese noble education scene.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Pangeran Trenggana",
+              "asset_name": "Pangeran Trenggana",
+              "ref_image_path": "produksi/t2i-output/master-reff/3B-K001-sultan-trenggana.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Pangeran Trenggana"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S002-SEG02.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: Trenggana berguru Raden Getas Pandhawa, cucu Sunan Kalijaga",
+          "notes": "Storyboard frame 5/17 — Pangeran Trenggana + Raden Getas Pandhawa"
+        },
+        {
+          "job_id": "frame-EP1-S002-SEG03",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S002-SEG03",
+          "scene_id": "EP1-S002",
+          "scene_title": "Empat Putra Raden Patah (1480-an)",
+          "segment_notes": "Visual simbolik dua lilin + siluet Demak malam",
+          "duration_seconds": 30,
+          "prompt": "Cinematic symbolic shot of two candles on a dark teak altar — one white candle (representing Putihan), one black candle (representing Abangan). Their flames flicker in opposite directions, symbolic of opposing spiritual forces. Background: silhouette of Demak Bintara at night with the great mosque silhouette against deep blue night sky with crescent moon. Dramatic dark moody atmosphere, single candle light source, 85mm lens, shallow depth of field, 16:9 horizontal, 8K, photorealistic symbolic composition.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Demak Lokasi",
+              "asset_name": "Demak Lokasi",
+              "ref_image_path": "produksi/t2i-output/master-reff/3B-L001-demak.jpg",
+              "role": "location_context"
+            }
+          ],
+          "depends_on": [
+            "Demak Lokasi"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S002-SEG03.jpg",
+          "ken_burns": "zoom_out_slow",
+          "audio_summary": "Narrator: dua aliran Putihan vs Abangan dipendam, akan meledak saat Sultan wafat",
+          "notes": "Storyboard frame 6/17 — Visual simbolik dua lilin + siluet Demak malam"
+        },
+        {
+          "job_id": "frame-EP1-S003-SEG01",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S003-SEG01",
+          "scene_id": "EP1-S003",
+          "scene_title": "Malaka Jatuh (1511 M)",
+          "segment_notes": "Aerial Malaka damai + armada Portugis mendekat",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic aerial establishing shot of Malaka port in 1511 AD, busy trading port with Islamic merchant ships (jong, lanchara) at harbor, bustling market with merchants. Suddenly European galleons with white sails and red-cross flags appear on the horizon, approaching. Plumes of cannon smoke rising. Mix of peaceful Islamic harbor and incoming European threat. Wide panoramic view, golden afternoon light, distant cannons firing, 24mm wide lens, 16:9 horizontal, 8K, photorealistic, 16th century Malacca historical scene.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Malaka Lokasi",
+              "asset_name": "Malaka Lokasi",
+              "ref_image_path": "produksi/t2i-output/master-reff/3A-L002-malaka.jpg",
+              "role": "location_context"
+            }
+          ],
+          "depends_on": [
+            "Malaka Lokasi"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG01.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: 1511 M, Malaka jatuh ke Portugis, Alfonso d'Albuquerque",
+          "notes": "Storyboard frame 7/17 — Aerial Malaka damai + armada Portugis mendekat"
+        },
+        {
+          "job_id": "frame-EP1-S003-SEG02",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S003-SEG02",
+          "scene_id": "EP1-S003",
+          "scene_title": "Malaka Jatuh (1511 M)",
+          "segment_notes": "Hang Tuah gugur di geladak + Malaka terbakar",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic close-up of legendary Laksamana Hang Tuah (50s, weather-beaten face, black beard with gray, red silk baju with gold embroidery, keris Taming Sari still gripped in hand) lying mortally wounded on the deck of a Malaccan ship. Blood on his chest, peaceful expression in death, eyes closed. Background: Malaka port in flames, smoke billowing, Portuguese ships approaching. Dramatic backlight from burning city, somber heroic mood, 85mm lens, shallow depth of field, 16:9 horizontal, 8K, photorealistic, tragic death of Malay hero 1511.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Hang Tuah",
+              "asset_name": "Hang Tuah",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C006-3B-K012-hang-tuah.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Hang Tuah"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG02.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: Hang Tuah gugur, Malaka jatuh",
+          "notes": "Storyboard frame 8/17 — Hang Tuah gugur di geladak + Malaka terbakar"
+        },
+        {
+          "job_id": "frame-EP1-S003-SEG03",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S003-SEG03",
+          "scene_id": "EP1-S003",
+          "scene_title": "Malaka Jatuh (1511 M)",
+          "segment_notes": "Map animasi Eropa→Constantinopel→Malaka",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic antique map of the world (16th century style, parchment with ink and gold leaf) showing the trade route from Europe through Constantinople (with Turkish crescent flag), around Cape of Good Hope (South Africa), to Malacca (with red cross flag). Hand-drawn compass rose, sailing ship illustrations, decorative Arabic and Latin text. Soft candlelight illumination from upper left, parchment texture visible, 50mm macro lens, f/8 deep depth of field, 16:9 horizontal, 8K, photorealistic, 16th century cartographic style.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [],
+          "depends_on": [],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG03.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: Reconquista, Constantinopel jatuh 1453, Eropa cari jalur baru",
+          "notes": "Storyboard frame 9/17 — Map animasi Eropa→Constantinopel→Malaka"
+        },
+        {
+          "job_id": "frame-EP1-S003-SEG04",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S003-SEG04",
+          "scene_id": "EP1-S003",
+          "scene_title": "Malaka Jatuh (1511 M)",
+          "segment_notes": "Raden Patah murka terima kabar",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic close-up of old Sultan Raden Patah (now very old, deep wrinkles, long white beard, yellow royal robe, white turban) receiving a scroll from a courier in the pendapa of Demak. His face transforms from calm to anger as he reads the news of Malaka's fall. Holding the scroll tightly in his weathered hand. Torch light casting dramatic shadows on his face, intense emotion, 85mm lens, shallow depth of field, 16:9 horizontal, 8K, photorealistic, 1511 AD historical moment.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Patah",
+              "asset_name": "Raden Patah",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C001-3B-K007-raden-patah.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Raden Patah"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG04.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: kabar sampai Demak, Raden Patah murka",
+          "notes": "Storyboard frame 10/17 — Raden Patah murka terima kabar"
+        },
+        {
+          "job_id": "frame-EP1-S004-SEG01",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S004-SEG01",
+          "scene_id": "EP1-S004",
+          "scene_title": "Raden Yunus Serang Malaka (1512 M)",
+          "segment_notes": "Armada besar Demak berlayar",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic wide aerial shot of massive Demak naval armada departing from Demak harbor in 1512 AD. Hundreds of Javanese jong warships with three sails each, decorated with crimson Surya Majapahit sun banners and Islamic green banners with golden crescent. Cannons on decks, soldiers in armor on decks. Sea waves, dramatic cloudy sky. Leading ship at front with Raden Yunus standing at the bow. Epic heroic departure, golden hour, 24mm wide lens, 16:9 horizontal, 8K, photorealistic, 16th century Javanese naval campaign.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Bendera Surya Majapahit",
+              "asset_name": "Bendera Surya Majapahit",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P004-3B-A007-bendera-surya-majapahit.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Bendera Surya Majapahit"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG01.jpg",
+          "ken_burns": "pan_right_slow",
+          "audio_summary": "Narrator: Raden Patah utus Yunus, ribuan kapal ke Malaka",
+          "notes": "Storyboard frame 11/17 — Armada besar Demak berlayar"
+        },
+        {
+          "job_id": "frame-EP1-S004-SEG02",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S004-SEG02",
+          "scene_id": "EP1-S004",
+          "scene_title": "Raden Yunus Serang Malaka (1512 M)",
+          "segment_notes": "Raden Yunus heroik di haluan kapal",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic low-angle heroic shot of Raden Yunus (early 30s, athletic, ambitious, green turban, navy silk kebaya with golden wave embroidery, kris at waist) standing at the bow of the lead Demak jong warship, raising his kris high to rally the troops. Behind him, hundreds of Demak soldiers cheering with spears raised. Sea spray, dramatic clouds, Surya Majapahit banner flying. Epic heroic mood, low angle from below, golden hour, 35mm lens, 16:9 horizontal, 8K, photorealistic, 16th century naval battle preparation.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Yunus",
+              "asset_name": "Raden Yunus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C002-3B-K008-raden-yunus.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Raden Yunus"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG02.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Raden Yunus dialog (krama inggil) panggil prajurit Demak",
+          "notes": "Storyboard frame 12/17 — Raden Yunus heroik di haluan kapal"
+        },
+        {
+          "job_id": "frame-EP1-S004-SEG03",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S004-SEG03",
+          "scene_id": "EP1-S004",
+          "scene_title": "Raden Yunus Serang Malaka (1512 M)",
+          "segment_notes": "Pertempuran laut sengit",
+          "duration_seconds": 40,
+          "prompt": "Cinematic realistic chaotic naval battle scene between Demak and Portuguese fleets in 1512. Demak soldiers in dark brown leather armor with red headwraps boarding a Portuguese galleon. Portuguese soldiers in steel half-armor fighting back with matchlock muskets and swords. Cannon fire, smoke, splintered wood, screaming soldiers, blood on deck. Flames from burning ships in background. Fast dynamic composition, motion blur, dramatic chaos, 24mm wide lens, 16:9 horizontal, 8K, photorealistic, intense 16th century naval combat.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Prajurit Demak",
+              "asset_name": "Prajurit Demak",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C007-3B-K013-prajurit-demak.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Prajurit Portugis",
+              "asset_name": "Prajurit Portugis",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C008-3B-K014-prajurit-portugis.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Prajurit Demak",
+            "Prajurit Portugis"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG03.jpg",
+          "ken_burns": "zoom_in_fast",
+          "audio_summary": "Narrator: pertempuran pecah, Portugis kewalalah, Demak berhasil beberapa wilayah",
+          "notes": "Storyboard frame 13/17 — Pertempuran laut sengit"
+        },
+        {
+          "job_id": "frame-EP1-S004-SEG04",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S004-SEG04",
+          "scene_id": "EP1-S004",
+          "scene_title": "Raden Yunus Serang Malaka (1512 M)",
+          "segment_notes": "Pasukan Malaka diam tak membantu",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic dramatic split composition showing the betrayal. FOREGROUND: Demak soldiers fighting desperately on a beach, exhausted and wounded, bloodied. BACKGROUND: Malaccan local troops standing idle on a hillside, arms crossed, watching coldly without helping. Visual contrast between Demak's desperate struggle and Malacca's cold inaction. Gloomy overcast sky, blood-stained sand, somber atmosphere, 35mm lens, 16:9 horizontal, 8K, photorealistic, 1512 naval battle betrayal scene.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Prajurit Demak",
+              "asset_name": "Prajurit Demak",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C007-3B-K013-prajurit-demak.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Prajurit Demak"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG04.jpg",
+          "ken_burns": "zoom_out_slow",
+          "audio_summary": "Narrator: Malaka diam, takut Demak jadi Majapahit baru",
+          "notes": "Storyboard frame 14/17 — Pasukan Malaka diam tak membantu"
+        },
+        {
+          "job_id": "frame-EP1-S004-SEG05",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S004-SEG05",
+          "scene_id": "EP1-S004",
+          "scene_title": "Raden Yunus Serang Malaka (1512 M)",
+          "segment_notes": "Armada Demak hancur pulang",
+          "duration_seconds": 20,
+          "prompt": "Cinematic realistic melancholic aerial shot of defeated Demak fleet returning to Java. Battered ships with broken masts, torn sails, tattered Surya Majapahit banners hanging limp. Raden Yunus standing alone at the bow of the lead ship, head bowed in shame and anger. Gloomy gray sky, calm sea, somber mood of defeat. Wide establishing shot, slow motion feel, 24mm wide lens, 16:9 horizontal, 8K, photorealistic, aftermath of defeat 1512.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Yunus",
+              "asset_name": "Raden Yunus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C002-3B-K008-raden-yunus.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Raden Yunus"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG05.jpg",
+          "ken_burns": "zoom_out_slow",
+          "audio_summary": "Narrator: Demak kalah telak, armada pulang dengan malu + dendam",
+          "notes": "Storyboard frame 15/17 — Armada Demak hancur pulang"
+        },
+        {
+          "job_id": "frame-EP1-S005-SEG01",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S005-SEG01",
+          "scene_id": "EP1-S005",
+          "scene_title": "Raden Patah Wafat (1518 M)",
+          "segment_notes": "Raden Patah terbaring, putra di sekitar",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic somber scene inside a Javanese royal bedchamber at night, 1518 AD. Old Sultan Raden Patah (now very aged, long white beard, pale yellow royal robe) lying on a carved teak bed, eyes closed in death. Four sons standing around the bed mourning: Raden Yunus, Raden Suryawiyata, Pangeran Trenggana, and a princess. Sunan Kudus (white robe, white turban) reading Islamic prayers. Torches flickering, soft warm light, deep shadows, somber mood of mourning, 35mm lens, 16:9 horizontal, 8K, photorealistic, death of a sultan historical scene.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Patah",
+              "asset_name": "Raden Patah",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C001-3B-K007-raden-patah.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Singgasana Demak",
+              "asset_name": "Singgasana Demak",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P002-3B-A005-singgasana-demak.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Raden Patah",
+            "Singgasana Demak"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S005-SEG01.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: 1518 M, Raden Patah wafat",
+          "notes": "Storyboard frame 16/17 — Raden Patah terbaring, putra di sekitar"
+        },
+        {
+          "job_id": "frame-EP1-S005-SEG02",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S005-SEG02",
+          "scene_id": "EP1-S005",
+          "scene_title": "Raden Patah Wafat (1518 M)",
+          "segment_notes": "Raden Yunus di singgasana, ekspresi keras",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic coronation scene — Raden Yunus (early 30s, now Sultan II, green turban with golden pin, navy silk kebaya with golden wave embroidery) sitting on the carved teak throne of Demak, wearing the golden mahkota crown with emerald and rubies. His face shows ambitious power but also hardness and aggression. Beside him, the royal keris Kyai Naga Sasra at his waist. In the background, nobles bowing. Cold ambitious atmosphere, mixed lighting (torch + daylight from window), 50mm lens, 16:9 horizontal, 8K, photorealistic, 1518 coronation of Sultan II.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Yunus",
+              "asset_name": "Raden Yunus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C002-3B-K008-raden-yunus.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Singgasana Demak",
+              "asset_name": "Singgasana Demak",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P002-3B-A005-singgasana-demak.jpg",
+              "role": "prop_detail"
+            },
+            {
+              "asset_id": "Mahkota Sultan",
+              "asset_name": "Mahkota Sultan",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P003-3B-A006-mahkota-sultan-demak.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Raden Yunus",
+            "Singgasana Demak",
+            "Mahkota Sultan"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S005-SEG02.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: Yunus Sultan II, politik garis keras",
+          "notes": "Storyboard frame 17/17 — Raden Yunus di singgasana, ekspresi keras"
+        },
+        {
+          "job_id": "frame-EP1-S005-SEG03",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S005-SEG03",
+          "scene_id": "EP1-S005",
+          "scene_title": "Raden Patah Wafat (1518 M)",
+          "segment_notes": "Siluet pembunuhan Yunus, kilat keris",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic dramatic silhouette shot in a dark chamber at night, 1521 AD. Raden Yunus standing in shadow, suddenly a dark assassin figure appears behind him. Flash of keris blade (keris Kyai Naga Sasra with dragon motif) catching moonlight from window. Yunus collapsing forward. Dramatic high contrast lighting, mostly dark with moonlight from window, silhouette composition, 85mm lens, 16:9 horizontal, 8K, photorealistic, 16th century assassination scene.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Raden Yunus",
+              "asset_name": "Raden Yunus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C002-3B-K008-raden-yunus.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Keris Naga Sasra",
+              "asset_name": "Keris Naga Sasra",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P001-3B-A004-keris-kyai-naga-sasra.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Raden Yunus",
+            "Keris Naga Sasra"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S005-SEG03.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: 1521 M, Yunus terbunuh, dendam Majapahit",
+          "notes": "Storyboard frame 18/17 — Siluet pembunuhan Yunus, kilat keris"
+        },
+        {
+          "job_id": "frame-EP1-S006-SEG01",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S006-SEG01",
+          "scene_id": "EP1-S006",
+          "scene_title": "Kematian Raden Yunus (Detail)",
+          "segment_notes": "Split-screen 3 versi kematian",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic triptych (three-panel split-screen) composition showing three versions of Raden Yunus's death. LEFT PANEL: Keris Kyai Naga Sasra with dragon motif, blade gleaming ominously, with text label 'TRADISI' below. CENTER PANEL: A pair of diseased lungs, anatomical medical illustration style, with text 'KRONIK TIONGHOA' below. RIGHT PANEL: Silhouette of a keris blade piercing through shadow, with text 'BERITA PORTUGIS' below. Each panel with different lighting (red for keris, blue for lungs, gray for silhouette), separated by black dividers, 35mm lens, 16:9 horizontal, 8K, photorealistic mixed media composition.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Keris Naga Sasra",
+              "asset_name": "Keris Naga Sasra",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P001-3B-A004-keris-kyai-naga-sasra.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Keris Naga Sasra"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG01.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: 3 versi kematian Yunus (keris Naga Sasra / paru-paru / keris Portugis)",
+          "notes": "Storyboard frame 19/17 — Split-screen 3 versi kematian"
+        },
+        {
+          "job_id": "frame-EP1-S006-SEG02",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S006-SEG02",
+          "scene_id": "EP1-S006",
+          "scene_title": "Kematian Raden Yunus (Detail)",
+          "segment_notes": "Tahta kosong + mahkota di bantal",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic symbolic shot of an empty throne room in Demak Bintara, 1521 AD. The carved teak throne sits empty, with the golden mahkota crown placed on a red velvet cushion on the seat. Sunrise light streaming through the windows behind the throne, casting long shadows. The room is silent, vacant, no people. Symbolic of the power vacuum. Dramatic morning light, dust motes visible in light beams, 24mm wide lens, 16:9 horizontal, 8K, photorealistic, symbolic scene of succession crisis.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Singgasana Demak",
+              "asset_name": "Singgasana Demak",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P002-3B-A005-singgasana-demak.jpg",
+              "role": "prop_detail"
+            },
+            {
+              "asset_id": "Mahkota Sultan",
+              "asset_name": "Mahkota Sultan",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-P003-3B-A006-mahkota-sultan-demak.jpg",
+              "role": "prop_detail"
+            }
+          ],
+          "depends_on": [
+            "Singgasana Demak",
+            "Mahkota Sultan"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG02.jpg",
+          "ken_burns": "zoom_out_slow",
+          "audio_summary": "Narrator: Yunus wafat tanpa putra, Dewan Wali Sangha harus pilih pengganti",
+          "notes": "Storyboard frame 20/17 — Tahta kosong + mahkota di bantal"
+        },
+        {
+          "job_id": "frame-EP1-S006-SEG03",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S006-SEG03",
+          "scene_id": "EP1-S006",
+          "scene_title": "Kematian Raden Yunus (Detail)",
+          "segment_notes": "Rapat Dewan Wali Sangha, dua kubu terpisah",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic wide shot inside the great mosque of Demak, the Dewan Wali Sangha (Council of Saints) convening. Sunan Giri Dalem (late 50s, green silk robe, green turban with golden crescent, white beard) sitting in the center as the presiding leader, his face heavy with burden. The council members are split into two opposing groups: LEFT side wearing white robes (Putihan faction supporting Suryawiyata), RIGHT side wearing colored robes (Abangan faction supporting Trenggana). Tense atmosphere, geometric Islamic patterns on wooden walls, soft light filtering through carved window screens, 35mm lens, 16:9 horizontal, 8K, photorealistic, 1521 succession dispute scene.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Sunan Giri Dalem",
+              "asset_name": "Sunan Giri Dalem",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C005-3B-K011-sunan-giri-dalem.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Sunan Giri Dalem"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG03.jpg",
+          "ken_burns": "pan_right_slow",
+          "audio_summary": "Narrator: Dewan Wali Sangha pecah, Suryawiyata vs Trenggana",
+          "notes": "Storyboard frame 21/17 — Rapat Dewan Wali Sangha, dua kubu terpisah"
+        },
+        {
+          "job_id": "frame-EP1-S006-SEG04",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S006-SEG04",
+          "scene_id": "EP1-S006",
+          "scene_title": "Kematian Raden Yunus (Detail)",
+          "segment_notes": "Sunan Kalijaga vs Sunan Kudus berhadap-hadapan",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic two-shot of the two most senior living wali sitting face to face in a private chamber. LEFT: Sunan Kalijaga (in shadow, dark black robe, black turban, mysterious serene smile, face partially obscured). RIGHT: Sunan Kudus (clearly lit, pure white robe, white turban, stern face, holding silver prayer beads). Between them on a low table: a copy of the Quran and a keris. Visual contrast of two opposing spiritual forces, dramatic chiaroscuro lighting, 50mm lens, shallow depth of field, 16:9 horizontal, 8K, photorealistic, intense dialogue of spiritual rivals.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Sunan Kudus",
+              "asset_name": "Sunan Kudus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C004-3B-K010-sunan-kudus.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Sunan Kudus"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG04.jpg",
+          "ken_burns": "zoom_in_slow",
+          "audio_summary": "Narrator: Sunan Kalijaga + Sunan Kudus, dua wali paling disegani",
+          "notes": "Storyboard frame 22/17 — Sunan Kalijaga vs Sunan Kudus berhadap-hadapan"
+        },
+        {
+          "job_id": "frame-EP1-S007-SEG01",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S007-SEG01",
+          "scene_id": "EP1-S007",
+          "scene_title": "Cliffhanger: Dua Kubu (Closing)",
+          "segment_notes": "Split-screen Trenggana+Kalijaga vs Suryawiyata+Kudus",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic split-screen composition showing the two rival factions. LEFT HALF: Pangeran Trenggana (early 30s, calm, dark green robe) sitting with Sunan Kalijaga (black robe, in shadow) in a pendapa, discussing strategy, warm afternoon light. RIGHT HALF: Raden Suryawiyata (early 30s, sharp, white robe, plain turban) receiving instruction from Sunan Kudus (white robe, white turban, stern) at Pesantren Kudus, candlelight. Visual contrast: warm vs cold, shadow vs light, Abangan vs Putihan. 35mm lens, 16:9 horizontal, 8K, photorealistic, intense political rivalry setup.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Pangeran Trenggana",
+              "asset_name": "Pangeran Trenggana",
+              "ref_image_path": "produksi/t2i-output/master-reff/3B-K001-sultan-trenggana.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "Sunan Kudus",
+              "asset_name": "Sunan Kudus",
+              "ref_image_path": "produksi/t2i-output/jaka-tingkir-ep1/master-ref/EP1-C004-3B-K010-sunan-kudus.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "depends_on": [
+            "Pangeran Trenggana",
+            "Sunan Kudus"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S007-SEG01.jpg",
+          "ken_burns": "cross_fade",
+          "audio_summary": "Narrator: Trenggana pro Abangan, Suryawiyata pro Putihan",
+          "notes": "Storyboard frame 23/17 — Split-screen Trenggana+Kalijaga vs Suryawiyata+Kudus"
+        },
+        {
+          "job_id": "frame-EP1-S007-SEG02",
+          "phase": "storyboard_frame",
+          "segment_id": "EP1-S007-SEG02",
+          "scene_id": "EP1-S007",
+          "scene_title": "Cliffhanger: Dua Kubu (Closing)",
+          "segment_notes": "Siluet Demak malam + pan ke Pengging misterius",
+          "duration_seconds": 30,
+          "prompt": "Cinematic realistic wide aerial silhouette shot of Demak Bintara at night, the great mosque silhouette against deep blue night sky with crescent moon and stars. The camera slowly pans south toward distant mountains shrouded in mist — toward Pengging, a mysterious unknown land where a young man named Mas Karebet waits. Dark moody atmosphere, distant mountain silhouettes, mist rolling, ominous drone mood, 24mm wide lens, 16:9 horizontal, 8K, photorealistic, dramatic cliffhanger setup shot.",
+          "motion_prompt": "",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "Demak Lokasi",
+              "asset_name": "Demak Lokasi",
+              "ref_image_path": "produksi/t2i-output/master-reff/3B-L001-demak.jpg",
+              "role": "location_context"
+            }
+          ],
+          "depends_on": [
+            "Demak Lokasi"
+          ],
+          "output_path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S007-SEG02.jpg",
+          "ken_burns": "pan_right_slow",
+          "audio_summary": "Narrator: persaingan meruncing, Mas Karebet di Pajang menunggu (cliffhanger EP2)",
+          "notes": "Storyboard frame 24/17 — Siluet Demak malam + pan ke Pengging misterius"
+        }
+      ]
+    }
+  ],
+  "total_jobs": 24,
+  "summary": {
+    "total_frames": 24,
+    "total_duration_seconds": 720,
+    "frames_with_ref": 23,
+    "frames_without_ref": 1,
+    "estimasi_dola_time": "10-15 menit untuk 17 frame dengan ref input",
+    "estimasi_flow_time": "10-15 menit untuk 17 frame (Nano Banana 2 Lite)"
+  }
+}
