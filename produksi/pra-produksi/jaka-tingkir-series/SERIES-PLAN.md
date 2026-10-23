@@ -23,7 +23,7 @@
 **Series scope**:
 - EP1-EP6: dari kelahiran Mas Karebet (1499) sampai Adipati Adiwijaya Pajang (~1550)
 - **Series TAMAT di EP6** dengan setup sequel "Arya Penangsang" (~1554, duel maut Jaka Tingkir vs Arya Penangsang di tepi Bengawan Solo, dengan kutukan Keris Kyai Brongot Setan Kober)
-- Sequel "Arya Penangsang" perlu sumber tambahan dari Damar Shashangka (belum ada di repo) — bisa dijadikan Season 2 series terpisah
+- Sequel "Arya Penangsang" source DITEMUKAN di superhalaman.wordpress.com (mirror Damar Shashangka) — 6-7 part, URL lengkap di `riset/sumber-primer/supplementary/SOURCES-COLLECTION.md`. Bisa dijadikan Season 2 series terpisah.
 
 ---
 

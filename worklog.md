@@ -2443,3 +2443,69 @@ Pending Next:
 3. Generate naskah EP1 dari master-era
 4. Storyboard JSON v3.1 untuk EP1
 5. Batch T2I + TTS + ffmpeg stitch → MP4 EP1
+
+
+---
+Task ID: SOURCES-COLLECTION-2026-10-23
+Agent: Main Agent (Z.ai)
+Task: User minta scrap sumber dulu sebelum bikin naskah — cari sumber Season 2 "Arya Penangsang" + cek apakah ada series lain
+
+Work Log:
+- User: "season 2 kayaknya gak ada, atau ai scrap langsung ke blog, ada kisah lain juga. sebelum bikin naskah kita kumpulin sumber dulu"
+
+Search & Scrap:
+1. WebSearch "arya penangsang" + "damar shashangka" — ketemu!
+2. Cek archive blog Damar Shashangka (damar-shashangka.blogspot.com) Juni-Desember 2010 + 2011 + 2012 — TIDAK ADA entry "Arya Penangsang" di blog asli
+3. WebFetch blog Damar Shashangka untuk verifikasi: confirmed tidak ada entry "Arya Penangsang" di blogspot
+4. WebSearch "arya penangsang" — ketemu superhalaman.wordpress.com yang MIRROR Damar Shashangka
+5. WebFetch superhalaman.wordpress.com — confirmed 6 part "Damar Shashangka: Arya Penangsang" dengan URL lengkap
+
+Temuan:
+- Source Season 2 DITEMUKAN di superhalaman.wordpress.com
+- Total 6 part confirmed (URL 1-6 sudah ada)
+- Part 7 kemungkinan ada (blog superhalaman mention "bagian 7-habis" tapi URL belum terverifikasi)
+- Tanggal posting: 6 April 2010 (di superhalaman)
+- Damar Shashangka mungkin pindah hosting dari blogspot ke WordPress, atau ada mirror
+
+URL Arya Penangsang yang sudah diketahui:
+- https://superhalaman.wordpress.com/2010/04/06/damar-shashangkaarya-penangsang-1
+- https://superhalaman.wordpress.com/2010/04/06/damar-shashangkaarya-penangsang-2
+- https://superhalaman.wordpress.com/2010/04/06/damar-shashangkaarya-penangsang-3
+- https://superhalaman.wordpress.com/2010/04/06/damar-shashangkaarya-penangsang-4
+- https://superhalaman.wordpress.com/2010/04/06/damar-shashangkaarya-penangsang-5
+- https://superhalaman.wordpress.com/2010/04/06/damar-shashangkaarya-penangsang-6
+
+Kontekstual dari search results:
+- ~1549 M: Sunan Prawoto tewas (putra Sultan Trenggana yang buta di EP2 jaka-tingkir)
+- Ratu Kalinyamat (adik Sunan Prawoto) minta balas dendam ke Adipati Adiwijaya (Jaka Tingkir)
+- Ratu Kalinyamat + Jaka Tingkir kerjasama bunuh Arya Penangsang
+- Arya Penangsang = Adipati Jipang, cucu Raden Patah, putra Raden Suryawiyata (yang dibunuh di EP2)
+- Ki Ageng Pamanahan + Ki Juru Mertani muncul (leluhur Mataram)
+- Setelah tewasnya Arya Penangsang, Jaka Tingkir jadi Sultan Hadiwijaya Pajang (1568 M)
+
+Sumber lain yang teridentifikasi di sidebar blog (perlu eksplorasi):
+- KI AGENG PENGGING (4 bagian)
+- RIWAYAT SUNAN KALIJAGA (5 bagian)
+- RIWAYAT SYEH LEMAH ABANG (5 bagian)
+- SERAT DARMAGANDHUL (16 bagian)
+- Misi Peng-Islam-an Nusantara & Runtuhnya Majapahit (5 bagian)
+- Penangsang series di superhalaman.wordpress.com
+
+Status Scrap:
+- Season 1 (Jaka Tingkir): ✅ 5/5 selesai
+- Season 2 (Arya Penangsang): ⏳ URL ditemukan, content belum di-scrap (WebFetch limit tercapai)
+
+Files added:
+- riset/sumber-primer/supplementary/SOURCES-COLLECTION.md (master collection doc dengan URL + status per source)
+- riset/sumber-primer/supplementary/arya-penangsang-damar-shashangka/ (folder kosong, siap diisi)
+
+Files updated:
+- riset/sumber-primer/supplementary/README.md (catatan duel + link ke SOURCES-COLLECTION.md)
+- produksi/pra-produksi/jaka-tingkir-series/SERIES-PLAN.md (update series scope: source Season 2 DITEMUKAN)
+
+Pending Next:
+1. Scrap content Arya Penangsang Part 1-6 (atau 7) dari superhalaman.wordpress.com — bisa WebFetch di sesi berikutnya (limit reset) atau user manual copy-paste
+2. Bikin master-era ARYA-PENANGSANG-damar-shashangka.md setelah scrap
+3. Bikin series plan Season 2 (6-7 episode)
+4. Cek apakah ada series Mataram di superhalaman (Panembahan Senopati, Sultan Agung) untuk Season 3
+5. Setelah semua sumber terkumpul, baru mulai naskah EP1 Jaka Tingkir

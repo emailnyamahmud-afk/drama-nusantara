@@ -37,7 +37,14 @@ Folder ini berisi sumber sekunder yang **tidak termasuk** dalam 5 jilid buku Kem
 
 **Catatan duel**:
 - Duel di Pegunungan Prawata (EP6) = Jaka Tingkir vs **Kebo Andanu** (gerilyawan yang membangkang), BUKAN vs Arya Penangsang.
-- Duel maut Jaka Tingkir vs Arya Penangsang terjadi di Pajang akhir (~1554 M), ada di sequel series "Arya Penangsang" yang sumbernya BELUM ada di repo (perlu cari dari Damar Shashangka).
+- Duel maut Jaka Tingkir vs Arya Penangsang terjadi di Pajang akhir (~1554 M), ada di sequel series "Arya Penangsang" — source DITEMUKAN di superhalaman.wordpress.com (URL lengkap di `SOURCES-COLLECTION.md`), tinggal di-scrap.
+
+## Sumber Collection Lengkap
+
+Lihat `SOURCES-COLLECTION.md` untuk:
+- Status scrap per sumber (sudah/belum)
+- URL lengkap semua part yang perlu di-scrap
+- Next step sourcing (Mataram series, dll)
 
 ## Cara Tambah Sumber Supplementary Baru
 
