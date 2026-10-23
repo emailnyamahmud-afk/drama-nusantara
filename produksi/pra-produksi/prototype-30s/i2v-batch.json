@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "P002-PROTOTYPE-30S",
+    "title": "Ken Arok: Takdir dari Tumapel — Prototype 30s",
+    "era": "2C Singasari-Kediri (abad 11-13 M)",
+    "duration_target_seconds": 30,
+    "resolution": "1920x1080",
+    "fps": 24,
+    "style": "cinematic realistic, Javanese period drama, dark-fantasy tones",
+    "date_created": "2026-10-22"
+  },
+  "instructions_for_agent": {
+    "purpose": "Batch generate 6 video clips dari storyboard frame yang sudah ada. Image-to-Video (I2V).",
+    "phase_i2v": {
+      "description": "Generate 6 video clips. Setiap job pakai image dari T2I output sebagai input, plus motion_prompt untuk arah gerakan.",
+      "count": 6,
+      "input": "image (from input_image_path) + motion_prompt text",
+      "output": "save each .mp4 to output_path",
+      "model_hint": "field model_suggestion = rekomendasi model. User bisa override (kling-3.0-720p / seedance-2.0-720p / veo-3-fast). Pilih yang tersedia di platform.",
+      "duration_rule": "duration_seconds = video length (5s default). Jangan override kalau tidak perlu.",
+      "fps_rule": "fps = 24 (cinema standard). Keep this unless platform requires different."
+    },
+    "execution_order": "single_phase (all jobs parallel, no dependency between I2V jobs)",
+    "output_organization": {
+      "i2v_clips": "produksi/i2v-output/prototype-30s/",
+      "contact_gif": "produksi/i2v-output/prototype-30s/contact-grid.gif (optional)"
+    },
+    "qc_check": {
+      "duration_check": "Verify each .mp4 has duration close to duration_seconds (±0.5s)",
+      "file_size_check": "Each .mp4 should be > 1MB (sanity check, not corrupt)",
+      "audio_check": "If model supports native audio (e.g. Seedance 2.5), verify audio matches audio_context. If not, generate audio separately in Phase 7 (TTS)."
+    }
+  },
+  "phases": [
+    {
+      "phase_id": "phase_i2v",
+      "name": "Generate Video Clips (Image-to-Video)",
+      "parallel": true,
+      "depends_on": null,
+      "jobs": [
+        {
+          "job_id": "i2v-S001_seg01",
+          "phase": "i2v",
+          "segment_id": "S001_seg01",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Opening hook — establish chase & character",
+          "input_image_path": "produksi/t2i-output/prototype-30s/S001_seg01.jpg",
+          "motion_prompt": "Camera tracks rapidly backward ahead of Ken Arok, keeping him centered as foliage whips past frame edges",
+          "motion_camera": "rapid backward tracking, ahead of subject",
+          "motion_speed": "fast",
+          "audio_context": {
+            "type": "ambience",
+            "tts_text": "",
+            "tts_voice": null,
+            "bgm": "tense tribal percussion building, fast tempo matching footstep rhythm",
+            "sfx": "heavy panting, twigs snapping, distant shouting soldiers, metallic armor rattle"
+          },
+          "duration_seconds": 5,
+          "fps": 24,
+          "output_path": "produksi/i2v-output/prototype-30s/S001_seg01.mp4",
+          "model_suggestion": "kling-3.0-720p",
+          "resolution": "1280x720",
+          "notes": "I2V untuk segment S001_seg01 — durasi 5s, speed fast"
+        },
+        {
+          "job_id": "i2v-S001_seg02",
+          "phase": "i2v",
+          "segment_id": "S001_seg02",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Establish Ken Arok's defiant character",
+          "input_image_path": "produksi/t2i-output/prototype-30s/S001_seg02.jpg",
+          "motion_prompt": "Low-angle medium shot pans slightly up as Ken Arok lands on log, emphasizing agile stance and height advantage over pursuers",
+          "motion_camera": "low-angle medium, slight pan up as subject lands",
+          "motion_speed": "medium",
+          "audio_context": {
+            "type": "dialogue",
+            "tts_text": "Hanya segitu kecepatan prajurit istana? Kura-kura di rawa pun masih bisa mendahului kalian!",
+            "tts_voice": "id-ID-Ardi",
+            "bgm": "percussion drops to sparse, anticipatory",
+            "sfx": "subject's confident exhale, soldiers' guttural grunts"
+          },
+          "duration_seconds": 5,
+          "fps": 24,
+          "output_path": "produksi/i2v-output/prototype-30s/S001_seg02.mp4",
+          "model_suggestion": "kling-3.0-720p",
+          "resolution": "1280x720",
+          "notes": "I2V untuk segment S001_seg02 — durasi 5s, speed medium"
+        },
+        {
+          "job_id": "i2v-S001_seg03",
+          "phase": "i2v",
+          "segment_id": "S001_seg03",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Pivot moment — sage halts conflict, shifts tone",
+          "input_image_path": "produksi/t2i-output/prototype-30s/S001_seg03.jpg",
+          "motion_prompt": "Slow tilt-up from hem of Lohgawe's robes revealing his serene face and raised hand, establishing dominant spiritual presence",
+          "motion_camera": "slow stately tilt up from hem of robes to serene face and raised hand",
+          "motion_speed": "slow",
+          "audio_context": {
+            "type": "dialogue",
+            "tts_text": "Hentikan amarah kalian. Darah anak muda ini bukan untuk tumpah di tanah berlumpur ini.",
+            "tts_voice": "id-ID-Ardi",
+            "bgm": "ambient drone fades in, percussion silences",
+            "sfx": "wind hushes through leaves, soldiers' footsteps stop"
+          },
+          "duration_seconds": 5,
+          "fps": 24,
+          "output_path": "produksi/i2v-output/prototype-30s/S001_seg03.mp4",
+          "model_suggestion": "kling-3.0-720p",
+          "resolution": "1280x720",
+          "notes": "I2V untuk segment S001_seg03 — durasi 5s, speed slow"
+        },
+        {
+          "job_id": "i2v-S001_seg04",
+          "phase": "i2v",
+          "segment_id": "S001_seg04",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "The prophecy moment — turning point of Ken Arok's life",
+          "input_image_path": "produksi/t2i-output/prototype-30s/S001_seg04.jpg",
+          "motion_prompt": "Slow tense two-shot arc gently rotates around the two men, ending framed over Lohgawe's shoulder onto Ken Arok's stunned reaction",
+          "motion_camera": "slow tense two-shot arc, rotates around the two men",
+          "motion_speed": "slow",
+          "audio_context": {
+            "type": "dialogue",
+            "tts_text": "Aku tidak menaruh kasihan, Ken Arok. Aku menaruh ramalan. Dewa Wisnu tidak mengirimmu ke dunia fana hanya untuk menjadi pencuri rendahan.",
+            "tts_voice": "id-ID-Ardi",
+            "bgm": "low ethereal drone swells, all other ambient cut",
+            "sfx": "subject's breath catches, heartbeat subtly thumps"
+          },
+          "duration_seconds": 5,
+          "fps": 24,
+          "output_path": "produksi/i2v-output/prototype-30s/S001_seg04.mp4",
+          "model_suggestion": "kling-3.0-720p",
+          "resolution": "1280x720",
+          "notes": "I2V untuk segment S001_seg04 — durasi 5s, speed slow"
+        },
+        {
+          "job_id": "i2v-S001_seg05",
+          "phase": "i2v",
+          "segment_id": "S001_seg05",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Internal epiphany — ambition ignited",
+          "input_image_path": "produksi/t2i-output/prototype-30s/S001_seg05.jpg",
+          "motion_prompt": "Rapid snap zoom punch-in directly into Ken Arok's pupils, freezing momentarily before settling with subtle trembling handheld framing",
+          "motion_camera": "rapid snap zoom punch-in to pupils, freeze, then subtle handheld tremble",
+          "motion_speed": "fast",
+          "audio_context": {
+            "type": "ambience",
+            "tts_text": "",
+            "tts_voice": null,
+            "bgm": "heartbeat thump loud, sub-bass pulse, ethereal chime",
+            "sfx": "muffled heartbeat, subtle whoosh mirroring thunderous shock"
+          },
+          "duration_seconds": 5,
+          "fps": 24,
+          "output_path": "produksi/i2v-output/prototype-30s/S001_seg05.mp4",
+          "model_suggestion": "kling-3.0-720p",
+          "resolution": "1280x720",
+          "notes": "I2V untuk segment S001_seg05 — durasi 5s, speed fast"
+        },
+        {
+          "job_id": "i2v-S001_seg06",
+          "phase": "i2v",
+          "segment_id": "S001_seg06",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Closing title card — prototype end",
+          "input_image_path": "produksi/t2i-output/prototype-30s/S001_seg06.jpg",
+          "motion_prompt": "Slow pull-back shot rising higher, re-establishing wide composition as Ken Arok walks away into god rays, title fades in",
+          "motion_camera": "slow pull-back rising higher, crane up revealing sun",
+          "motion_speed": "slow",
+          "audio_context": {
+            "type": "title_card",
+            "tts_text": "",
+            "tts_voice": null,
+            "bgm": "swelling orchestral strings + gamelan motif, dramatic resolution",
+            "sfx": "wind through canopy, distant bird call"
+          },
+          "duration_seconds": 5,
+          "fps": 24,
+          "output_path": "produksi/i2v-output/prototype-30s/S001_seg06.mp4",
+          "model_suggestion": "kling-3.0-720p",
+          "resolution": "1280x720",
+          "notes": "I2V untuk segment S001_seg06 — durasi 5s, speed slow"
+        }
+      ]
+    }
+  ],
+  "total_jobs": 6,
+  "summary": {
+    "total_clips": 6,
+    "total_duration_seconds": 30,
+    "input_images": 6,
+    "model_suggestion": "kling-3.0-720p (default, ~7 credits per 5s di Higgsfield)",
+    "estimasi_credits_higgsfield": "6 × 7 = 42 credits (Kling 3.0 720p)",
+    "estimasi_credits_higgsfield_seedance": "6 × 22 = 132 credits (Seedance 2.0 720p)",
+    "estimasi_credits_flow_veo": "6 × 5-10 = 30-60 credits (Google Flow, 50/hari)"
+  }
+}

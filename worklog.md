@@ -2190,3 +2190,57 @@ Pending Next:
 - Phase 6 (I2V) — pakai motion.prompt di storyboard.json
 - Phase 7 (TTS) — edge-tts voice id-ID-Ardi
 - Phase 8 (stitch) — ffmpeg 6 frame + TTS → 30s video
+
+
+---
+Task ID: I2V-BATCH-DESIGN-2026-10-23
+Agent: Main Agent (Z.ai)
+Task: Design skill baru untuk I2V (image-to-video) — user mau uji video langsung
+
+Work Log:
+- User tanya: perlu skill baru untuk I2V? limit gratis I2V di Dola? alternatif?
+- Riset platform I2V via WebSearch:
+  - Dola AI Seedance 2.5: berbayar credits, "Gmail method" untuk unlimited via multiple accounts
+  - Google Flow Veo: 50 credits/hari (user sudah pernah pakai)
+  - Higgsfield AI: 150 credits one-time signup, pricing transparan per model
+  - Leonardo AI: 150 tokens/day (reset daily)
+  - ReelCine: free no signup no watermark (limit unclear)
+  - ApiPass: konsolidasi multi-model, 30-70% lebih murah
+  - LTX Studio: free tier
+
+- Tulis RESEARCH-I2V-PLATFORMS.md (comparison matrix 8 platform):
+  - Top 3 rekomendasi: (1) Google Flow 50cr/hari, (2) Higgsfield signup fresh 150cr, (3) Dola kalau ada credits
+  - Estimasi 6 video × 5s = 30s total:
+    - Higgsfield Kling 3.0 720p: 42 credits (PALING HEMAT)
+    - Higgsfield Seedance 2.0 720p: 132 credits
+    - Google Flow Veo: 30-60 credits (50/hari cukup)
+    - Dola Seedance 2.5: cek di akun user
+
+- Generate i2v-batch.json (9.8 KB) via scripts/generate_i2v_batch.py:
+  - 6 I2V job (1 per storyboard frame)
+  - Single phase, parallel, no dependency (beda dengan T2I yang 2 phase)
+  - Input: input_image_path (dari T2I output) + motion_prompt + motion_camera + motion_speed
+  - Output: .mp4 di produksi/i2v-output/prototype-30s/
+  - model_suggestion default: kling-3.0-720p (paling hemat di Higgsfield)
+  - duration: 5s per video (total 30s)
+  - fps: 24 (cinema standard)
+  - resolution: 1280x720 (720p default)
+
+- Tulis SKILL-I2V-SPEC.md (spec untuk skill baru `batch-video-generator`):
+  - Reuse pattern dari skill T2I (parse_batch.py + SKILL.md + contact sheet)
+  - Yang beda: tool video_gen (bukan image_gen), output .mp4 (bukan .jpg), single phase
+  - 4 opsi implementasi: Dola (kalau free credits), Higgsfield, Google Flow, ReelCine
+  - Estimasi effort: skill Dola butuh 30-60 mnt bikin, Higgsfield manual 15-20 mnt
+
+Stage Summary:
+- i2v-batch.json siap pakai (9.8 KB, 6 job, 30s total)
+- Skill spec siap, tinggal dipilih platform
+- Rekomendasi untuk prototype 30s: cek Dola dulu → kalau kosong → Higgsfield signup (paling hemat 42 credits via Kling 3.0 720p)
+- Untuk produksi panjang ke depan: investasi bikin skill Dola I2V (reuse 80% struktur T2I skill)
+
+Pending Next:
+- User cek di akun Dola: berapa I2V credits available?
+- Kalau ≥6 video → bikin skill baru di Dola (reuse pattern T2I)
+- Kalau <6 → pilih Higgsfield (signup fresh) atau Google Flow (kalau 50cr masih ada) atau ReelCine (test limit)
+- Generate 6 video → download → share sample untuk review
+- Setelah I2V selesai → Phase 7 (TTS) + Phase 8 (stitch via ffmpeg)
