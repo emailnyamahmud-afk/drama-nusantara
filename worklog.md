@@ -2509,3 +2509,44 @@ Pending Next:
 3. Bikin series plan Season 2 (6-7 episode)
 4. Cek apakah ada series Mataram di superhalaman (Panembahan Senopati, Sultan Agung) untuk Season 3
 5. Setelah semua sumber terkumpul, baru mulai naskah EP1 Jaka Tingkir
+
+
+---
+Task ID: PIVOT-T2I-GOOGLE-FLOW-2026-10-23
+Agent: Main Agent (Z.ai) + User via Google Flow
+Task: User test pakai Google Flow — langsung jadi, ganti dari Dola skill
+
+Work Log:
+- User: "saya coba pake dola = lama, dan saya copas json ke google flow = langsung jadi = pake nano banana lite"
+- User share screenshot 4 image pertama yang sudah jadi di Flow
+
+VLM analysis 4 image pertama (Prajurit Demak, Raden Yunus, Raden Patah, Sunan Giri Dalem):
+- 5-angle grid: ✅ Semua 4 karakter menampilkan format 5-angle yang konsisten
+- Era abad 16 Jawa: ⚠️ Cukup baik dengan catatan minor (potongan jubah Raden Patah terlalu modern)
+- Quality: ✅ 85% siap pakai untuk production reference
+- Artifact AI: Minor pada area tangan (jari meleleh, typical AI)
+- Model: Nano Banana 2 Lite (default, free unlimited) — Seedream 4.5 tidak available di Flow
+
+Status generate EP1:
+- ✅ 4/12 image sudah jadi (Raden Patah, Raden Yunus, Sunan Giri Dalem, Prajurit Demak)
+- ⏳ 8 image pending (Suryawiyata, Sunan Kudus, Hang Tuah, Prajurit Portugis + 4 artefak)
+
+Pivot T2I:
+- ❌ Dola skill batch-storyboard-generator — lambat untuk batch 12 image
+- ✅ Google Flow + copy-paste JSON — langsung jadi
+- Skill Dola tetap backup (kalau Flow bermasalah atau butuh Seedream 4.5)
+- JSON kita tetap kompatibel untuk kedua platform (schema sama, cuma beda eksekusi)
+
+Files added:
+- produksi/pra-produksi/jaka-tingkir-series/INSIGHT-PIVOT-FLOW.md (analisis pivot + VLM result + status asset)
+
+Stage Summary:
+- Workflow pivot: gunakan Google Flow (Nano Banana 2 Lite) sebagai primary T2I tool
+- 4/12 master ref EP1 sudah jadi dengan kualitas 85% production-ready
+- JSON schema tetap sama — user bisa pakai dola-batch-EP1-master-ref.json untuk upload ke Flow (copy-paste ke chat)
+- Estimasi sisa waktu EP1: ~3 jam setelah naskah + 12 image ready
+
+Pending Next:
+1. User lanjut generate 8 image sisanya di Flow
+2. User lanjut edit naskah kalau perlu
+3. Setelah keduanya selesai → AI bikin 17 storyboard frame prompts + JSON final
