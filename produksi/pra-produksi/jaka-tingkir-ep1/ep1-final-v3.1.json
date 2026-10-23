@@ -1,0 +1,407 @@
+{
+  "schema_version": "3.1",
+  "episode": {
+    "id": "JT-S1-EP1",
+    "title": "Jaka Tingkir EP1: Demak Berdiri, Malaka Jatuh",
+    "era": "3B Demak-Pajang (1499-1550 M)",
+    "duration_target_seconds": 720,
+    "resolution": "1920x1080",
+    "fps": 24,
+    "schema_version": "3.1",
+    "tts_strategy": "adaptive_rate",
+    "date_created": "2026-10-23"
+  },
+  "segments": [
+    {
+      "segment_id": "EP1-S001-SEG01",
+      "srt_timing": {
+        "start": "00:00:00,000",
+        "end": "00:00:20,000",
+        "cue_duration": 20
+      },
+      "tts": {
+        "duration": 15.552,
+        "pad_silence": 4.448
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S001-SEG01.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S001-SEG02",
+      "srt_timing": {
+        "start": "00:00:20,000",
+        "end": "00:00:55,000",
+        "cue_duration": 35
+      },
+      "tts": {
+        "duration": 33.144,
+        "pad_silence": 1.8560000000000016
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S001-SEG02.jpg",
+        "ken_burns": "pan_right_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S001-SEG03",
+      "srt_timing": {
+        "start": "00:00:55,000",
+        "end": "00:01:30,000",
+        "cue_duration": 35
+      },
+      "tts": {
+        "duration": 16.2,
+        "pad_silence": 18.8
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S001-SEG03.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S002-SEG01",
+      "srt_timing": {
+        "start": "00:01:30,000",
+        "end": "00:02:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 16.872,
+        "pad_silence": 13.128
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S002-SEG01.jpg",
+        "ken_burns": "pan_right_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S002-SEG02",
+      "srt_timing": {
+        "start": "00:02:00,000",
+        "end": "00:02:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 17.808,
+        "pad_silence": 12.192
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S002-SEG02.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S002-SEG03",
+      "srt_timing": {
+        "start": "00:02:30,000",
+        "end": "00:03:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 13.728,
+        "pad_silence": 16.272
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S002-SEG03.jpg",
+        "ken_burns": "zoom_out_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S003-SEG01",
+      "srt_timing": {
+        "start": "00:03:00,000",
+        "end": "00:03:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 14.52,
+        "pad_silence": 15.48
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG01.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S003-SEG02",
+      "srt_timing": {
+        "start": "00:03:30,000",
+        "end": "00:04:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 14.232,
+        "pad_silence": 15.768
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG02.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S003-SEG03",
+      "srt_timing": {
+        "start": "00:04:00,000",
+        "end": "00:04:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 16.2,
+        "pad_silence": 13.8
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG03.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S003-SEG04",
+      "srt_timing": {
+        "start": "00:04:30,000",
+        "end": "00:05:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 16.8,
+        "pad_silence": 13.2
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S003-SEG04.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S004-SEG01",
+      "srt_timing": {
+        "start": "00:05:00,000",
+        "end": "00:05:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 15.984,
+        "pad_silence": 14.016
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG01.jpg",
+        "ken_burns": "pan_right_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S004-SEG02",
+      "srt_timing": {
+        "start": "00:05:30,000",
+        "end": "00:06:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 12.24,
+        "pad_silence": 17.759999999999998
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG02.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S004-SEG03",
+      "srt_timing": {
+        "start": "00:06:00,000",
+        "end": "00:06:40,000",
+        "cue_duration": 40
+      },
+      "tts": {
+        "duration": 13.488,
+        "pad_silence": 26.512
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG03.jpg",
+        "ken_burns": "zoom_in_fast"
+      }
+    },
+    {
+      "segment_id": "EP1-S004-SEG04",
+      "srt_timing": {
+        "start": "00:06:40,000",
+        "end": "00:07:10,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 16.344,
+        "pad_silence": 13.655999999999999
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG04.jpg",
+        "ken_burns": "zoom_out_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S004-SEG05",
+      "srt_timing": {
+        "start": "00:07:10,000",
+        "end": "00:07:30,000",
+        "cue_duration": 20
+      },
+      "tts": {
+        "duration": 10.632,
+        "pad_silence": 9.368
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S004-SEG05.jpg",
+        "ken_burns": "zoom_out_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S005-SEG01",
+      "srt_timing": {
+        "start": "00:07:30,000",
+        "end": "00:08:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 15.456,
+        "pad_silence": 14.544
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S005-SEG01.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S005-SEG02",
+      "srt_timing": {
+        "start": "00:08:00,000",
+        "end": "00:08:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 16.872,
+        "pad_silence": 13.128
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S005-SEG02.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S005-SEG03",
+      "srt_timing": {
+        "start": "00:08:30,000",
+        "end": "00:09:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 8.904,
+        "pad_silence": 21.096
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S005-SEG03.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S006-SEG01",
+      "srt_timing": {
+        "start": "00:09:00,000",
+        "end": "00:09:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 18.456,
+        "pad_silence": 11.544
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG01.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S006-SEG02",
+      "srt_timing": {
+        "start": "00:09:30,000",
+        "end": "00:10:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 12.168,
+        "pad_silence": 17.832
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG02.jpg",
+        "ken_burns": "zoom_out_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S006-SEG03",
+      "srt_timing": {
+        "start": "00:10:00,000",
+        "end": "00:10:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 15.696,
+        "pad_silence": 14.304
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG03.jpg",
+        "ken_burns": "pan_right_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S006-SEG04",
+      "srt_timing": {
+        "start": "00:10:30,000",
+        "end": "00:11:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 16.704,
+        "pad_silence": 13.296
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S006-SEG04.jpg",
+        "ken_burns": "zoom_in_slow"
+      }
+    },
+    {
+      "segment_id": "EP1-S007-SEG01",
+      "srt_timing": {
+        "start": "00:11:00,000",
+        "end": "00:11:30,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 16.488,
+        "pad_silence": 13.512
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S007-SEG01.jpg",
+        "ken_burns": "cross_fade"
+      }
+    },
+    {
+      "segment_id": "EP1-S007-SEG02",
+      "srt_timing": {
+        "start": "00:11:30,000",
+        "end": "00:12:00,000",
+        "cue_duration": 30
+      },
+      "tts": {
+        "duration": 17.256,
+        "pad_silence": 12.744
+      },
+      "image": {
+        "path": "produksi/t2i-output/jaka-tingkir-ep1/storyboard-frame/EP1-S007-SEG02.jpg",
+        "ken_burns": "pan_right_slow"
+      }
+    }
+  ],
+  "render_status": {
+    "total_segments": 24,
+    "total_srt_duration": 720,
+    "final_mp4_path": "/home/z/my-project/produksi/final/jaka-tingkir-ep1.mp4",
+    "final_mp4_duration": 720.042667,
+    "rendered": true
+  }
+}
