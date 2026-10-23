@@ -1,0 +1,252 @@
+[
+  {
+    "segment_id": "EP1-S001-SEG01",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 20,
+    "tts_duration": 15.552,
+    "actual_rate": "+25%",
+    "pad_silence": 4.448,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S001-SEG01.mp3"
+  },
+  {
+    "segment_id": "EP1-S001-SEG02",
+    "speaker": "Raden Patah",
+    "voice": "jv-ID-DimasNeural",
+    "cue_duration": 35,
+    "tts_duration": 16.704,
+    "actual_rate": "+15%",
+    "pad_silence": 18.296,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S001-SEG02.mp3"
+  },
+  {
+    "segment_id": "EP1-S001-SEG02-narrator",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 35,
+    "tts_duration": 16.44,
+    "actual_rate": "+25%",
+    "pad_silence": 18.56,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S001-SEG02-narrator.mp3"
+  },
+  {
+    "segment_id": "EP1-S001-SEG03",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 35,
+    "tts_duration": 16.2,
+    "actual_rate": "+25%",
+    "pad_silence": 18.8,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S001-SEG03.mp3"
+  },
+  {
+    "segment_id": "EP1-S002-SEG01",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 16.872,
+    "actual_rate": "+25%",
+    "pad_silence": 13.128,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S002-SEG01.mp3"
+  },
+  {
+    "segment_id": "EP1-S002-SEG02",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 17.808,
+    "actual_rate": "+25%",
+    "pad_silence": 12.192,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S002-SEG02.mp3"
+  },
+  {
+    "segment_id": "EP1-S002-SEG03",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 13.728,
+    "actual_rate": "+25%",
+    "pad_silence": 16.272,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S002-SEG03.mp3"
+  },
+  {
+    "segment_id": "EP1-S003-SEG01",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 14.52,
+    "actual_rate": "+25%",
+    "pad_silence": 15.48,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S003-SEG01.mp3"
+  },
+  {
+    "segment_id": "EP1-S003-SEG02",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 14.232,
+    "actual_rate": "+25%",
+    "pad_silence": 15.768,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S003-SEG02.mp3"
+  },
+  {
+    "segment_id": "EP1-S003-SEG03",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 16.2,
+    "actual_rate": "+25%",
+    "pad_silence": 13.8,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S003-SEG03.mp3"
+  },
+  {
+    "segment_id": "EP1-S003-SEG04",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 16.8,
+    "actual_rate": "+25%",
+    "pad_silence": 13.2,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S003-SEG04.mp3"
+  },
+  {
+    "segment_id": "EP1-S004-SEG01",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 15.984,
+    "actual_rate": "+25%",
+    "pad_silence": 14.016,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S004-SEG01.mp3"
+  },
+  {
+    "segment_id": "EP1-S004-SEG02",
+    "speaker": "Raden Yunus",
+    "voice": "jv-ID-DimasNeural",
+    "cue_duration": 30,
+    "tts_duration": 12.24,
+    "actual_rate": "+20%",
+    "pad_silence": 17.759999999999998,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S004-SEG02.mp3"
+  },
+  {
+    "segment_id": "EP1-S004-SEG03",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 40,
+    "tts_duration": 13.488,
+    "actual_rate": "+25%",
+    "pad_silence": 26.512,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S004-SEG03.mp3"
+  },
+  {
+    "segment_id": "EP1-S004-SEG04",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 16.344,
+    "actual_rate": "+25%",
+    "pad_silence": 13.655999999999999,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S004-SEG04.mp3"
+  },
+  {
+    "segment_id": "EP1-S004-SEG05",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 20,
+    "tts_duration": 10.632,
+    "actual_rate": "+25%",
+    "pad_silence": 9.368,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S004-SEG05.mp3"
+  },
+  {
+    "segment_id": "EP1-S005-SEG01",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 15.456,
+    "actual_rate": "+25%",
+    "pad_silence": 14.544,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S005-SEG01.mp3"
+  },
+  {
+    "segment_id": "EP1-S005-SEG02",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 16.872,
+    "actual_rate": "+25%",
+    "pad_silence": 13.128,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S005-SEG02.mp3"
+  },
+  {
+    "segment_id": "EP1-S005-SEG03",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 8.904,
+    "actual_rate": "+25%",
+    "pad_silence": 21.096,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S005-SEG03.mp3"
+  },
+  {
+    "segment_id": "EP1-S006-SEG01",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 18.456,
+    "actual_rate": "+25%",
+    "pad_silence": 11.544,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S006-SEG01.mp3"
+  },
+  {
+    "segment_id": "EP1-S006-SEG02",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 12.168,
+    "actual_rate": "+25%",
+    "pad_silence": 17.832,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S006-SEG02.mp3"
+  },
+  {
+    "segment_id": "EP1-S006-SEG03",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 15.696,
+    "actual_rate": "+25%",
+    "pad_silence": 14.304,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S006-SEG03.mp3"
+  },
+  {
+    "segment_id": "EP1-S006-SEG04",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 16.704,
+    "actual_rate": "+25%",
+    "pad_silence": 13.296,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S006-SEG04.mp3"
+  },
+  {
+    "segment_id": "EP1-S007-SEG01",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 16.488,
+    "actual_rate": "+25%",
+    "pad_silence": 13.512,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S007-SEG01.mp3"
+  },
+  {
+    "segment_id": "EP1-S007-SEG02",
+    "speaker": "Narrator",
+    "voice": "id-ID-ArdiNeural",
+    "cue_duration": 30,
+    "tts_duration": 17.256,
+    "actual_rate": "+25%",
+    "pad_silence": 12.744,
+    "output_path": "/home/z/my-project/produksi/tts-output/jaka-tingkir-ep1/EP1-S007-SEG02.mp3"
+  }
+]
