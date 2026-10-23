@@ -4,6 +4,7 @@
 **Sumber**: `master-era/JAKA-TINGKIR-damar-shashangka.md` (5 file supplementary)
 **Era**: Pajang Awal / Akhir Demak (1499-1550 M)
 **Format**: 6 episode × 10-15 menit = 75-95 menit total
+**Genre**: Series entertainment (BUKAN dokumenter akademis) — creative freedom boleh dipakai untuk adaptasi dramatis
 
 ---
 
@@ -18,6 +19,11 @@
 - Leluhur Mataram (trah Tarub → Pajang → Mataram)
 
 **Tone**: Cinematic realistic, Javanese period drama, dark-fantasy tones (sama dengan prototype 30s KEN AROK)
+
+**Series scope**:
+- EP1-EP6: dari kelahiran Mas Karebet (1499) sampai Adipati Adiwijaya Pajang (~1550)
+- **Series TAMAT di EP6** dengan setup sequel "Arya Penangsang" (~1554, duel maut Jaka Tingkir vs Arya Penangsang di tepi Bengawan Solo, dengan kutukan Keris Kyai Brongot Setan Kober)
+- Sequel "Arya Penangsang" perlu sumber tambahan dari Damar Shashangka (belum ada di repo) — bisa dijadikan Season 2 series terpisah
 
 ---
 
@@ -143,12 +149,12 @@
 6. Pertempuran Prawata: gerilyawan serang Pesanggrahan saat Sultan Trenggana musim banjir
 7. Teriakan: "JAYA MAJAPAHIT!!" dan "PATENI WONG DEMAK!!!"
 8. Sultan Trenggana panik, panggil Jaka Tingkir
-9. Kebo Andanu membangkang — ingin bunuh Trenggana sendiri
+9. **Kebo Andanu membangkang** — ingin bunuh Trenggana sendiri
 10. Dialog: "Kehormatan bagiku membunuh keturunan Patah itu dengan tanganku, Raden!"
 11. Aksi kejar-kejaran kuda
 12. Jaka Tingkir tubruk Kebo Andanu, bendera Surya Majapahit lepas
 13. Ki Mas Manca teriak: "Munduuuuuuuuur!!!!"
-14. Duel maut Jaka Tingkir vs Kebo Andanu
+14. **Duel maut Jaka Tingkir vs Kebo Andanu** (bukan Arya Penangsang!)
 15. Gamelan perang dibunyikan oleh Sultan sendiri
 16. Keris Jaka Tingkir menancap di dada Kebo Andanu
 17. Dialog: "Bunuh aku, Raden! Atau aku akan memenggal kepala Trenggana!"
@@ -157,12 +163,14 @@
 20. Patih Mancanegara (Ki Mas Manca), Patih Njero (Ki Mas Wila + Wuragil)
 21. Pinang Nimas Sekaring Kedhaton (ancam bunuh diri kalau ditolak)
 22. Sunan Kudus cap murtad — dendam tersisa
-23. Closing: Ki Ageng Pamanahan (leluhur Mataram) ikut pasukan Pajang. Sunan Kudus kaderkan Arya Penangsang untuk kisah selanjutnya.
+23. **Setup sequel**: Ki Ageng Pamanahan (leluhur Mataram) ikut pasukan Pajang. Sunan Kudus kaderkan Arya Penangsang untuk kisah selanjutnya. **Series TAMAT** — duel Jaka Tingkir vs Arya Penangsang ada di Season 2 ("Arya Penangsang" series terpisah, perlu sumber tambahan dari Damar Shashangka).
 
 **Karakter intro**: Kebo Andanu
-**Karakter outro**: Arya Penangsang (anak yatim Suryawiyata, diangkat Sunan Kudus)
+**Karakter outro**: Arya Penangsang (anak yatim Suryawiyata, diangkat Sunan Kudus — setup sequel)
 **Lokasi**: Pegunungan Prawata, Pesanggrahan, Pajang (kadipaten)
 **BGM mood**: Epic battle, gamelan war, tragic heroic (Kebo Andanu wafat), triumphant (Adipati Adiwijaya)
+
+⚠️ **Clarification**: Duel di EP6 adalah Jaka Tingkir vs Kebo Andanu (gerilyawan yang membangkang), BUKAN vs Arya Penangsang. Duel maut Jaka Tingkir vs Arya Penangsang terjadi di Pajang akhir (~1554 M, setelah Sultan Trenggana wafat dan suksesi berantakan) — ada di series terpisah "Arya Penangsang" (Season 2).
 
 ---
 
@@ -365,10 +373,14 @@ Berdasarkan `EDGE-TTS-VOICE-REFERENCE.md`:
 
 ## Catatan Penting
 
-1. **Sumber sekunder**: Kisah Jaka Tingkir ini dari blog interpretasi Damar Shashangka, BUKAN sumber primer Kemenbud 2025. Untuk produksi drama/entertainment, OK. Untuk dokumenter akademis, perlu verifikasi sumber orisinal (Babad Tanah Jawi, Serat Kandha, dll).
+1. **Series entertainment** (BUKAN dokumenter akademis): Creative freedom boleh dipakai untuk adaptasi dramatis. Sumber sekunder (blog interpretasi Damar Shashangka) cukup — tidak perlu verifikasi sumber orisinal.
 
-2. **Versi adaptasi**: Beberapa detail Damar Shashangka berbeda dari versi Babad standar (mis. cerita buaya + kerbau di Babad vs interpretasi gerilyawan + duel di Damar). Untuk produksi, pakai interpretasi Damar sebagai baseline, catat sebagai "versi adaptasi".
+2. **Versi adaptasi**: Beberapa detail Damar Shashangka berbeda dari versi Babad standar (mis. cerita buaya + kerbau di Babad vs interpretasi gerilyawan + duel di Damar). Untuk produksi entertainment, pakai interpretasi Damar sebagai baseline. Bebas variasi untuk dramatisasi.
 
 3. **Continuity dengan prototype 30s KEN AROK**: KEN AROK (era 2C Singasari-Kediri, abad 13) adalah prequel jauh. Jaka Tingkir (era Pajang, abad 16) berlatar 300 tahun setelahnya. Tapi ada thematic continuity: trah Tarub → Pengging → Pajang → Mataram.
 
-4. **Setup sequel**: EP6 closing introduce Arya Penangsang sebagai antagonist utama untuk series selanjutnya "Arya Penangsang" (era Pajang akhir → Mataram awal).
+4. **Duel di EP6 = Jaka Tingkir vs Kebo Andanu** (bukan Arya Penangsang!). Banyak orang salah persepsi bahwa "Duel di Prawata" itu Jaka Tingkir vs Arya Penangsang. Faktanya:
+   - EP6 (Prawata, ~1548): Jaka Tingkir vs Kebo Andanu (gerilyawan yang membangkang)
+   - Duel maut Jaka Tingkir vs Arya Penangsang terjadi nanti di ~1554 M (Pajang akhir, setelah Sultan Trenggana wafat, suksesi berantakan, Ratu Kalinyamat minta balas dendam ke Jaka Tingkir karena Arya Penangsang bunuh Pangeran Hadiri). Ini kisah sequel "Arya Penangsang" (Season 2), yang sumbernya BELUM ada di repo.
+
+5. **Setup sequel**: EP6 closing introduce Arya Penangsang sebagai antagonist utama. Untuk Season 2 "Arya Penangsang" series, perlu cari sumber tambahan dari Damar Shashangka (blog Puri Damar Shashangka punya entry "Arya Penangsang" terpisah).

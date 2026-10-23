@@ -9,11 +9,14 @@
 - Cerita tutur masyarakat Jawa
 - Baboning Kitab Primbon (Sadu Budi, Solo)
 
-**Catatan**: Berbeda dengan era 1A-4B yang sumbernya dari Kemenbud 2025 (Jilid I-V), era Jaka Tingkir ini menggunakan **sumber sekunder** (blog interpretasi). Sumber primer orisinal (Babad Tanah Jawi dll) tidak tersedia di repo, tapi kontennya sudah di-interpretasi oleh Damar Shashangka dengan referensi jelas.
+**Catatan**: Berbeda dengan era 1A-4B yang sumbernya dari Kemenbud 2025 (Jilid I-V), era Jaka Tingkir ini menggunakan **sumber sekunder** (blog interpretasi Damar Shashangka). Sumber primer orisinal (Babad Tanah Jawi dll) tidak tersedia di repo, tapi kontennya sudah di-interpretasi oleh Damar Shashangka dengan referensi jelas.
+
+**Tujuan produksi**: Series entertainment (BUKAN dokumenter akademis). Creative freedom boleh dipakai untuk adaptasi dramatis. Tidak perlu verifikasi sumber orisinal.
 
 **Era**: Pajang Awal / Akhir Demak — 1499-1550 Masehi
 **Tokoh utama**: Mas Karebet / Jaka Tingkir / Adipati Adiwijaya
 **Periodisasi**: Dari kelahiran Mas Karebet (1499) sampai pengangkatan sebagai Adipati Pajang (~1546-1550 M)
+**Setup sequel**: Kisah berakhir dengan setup "Arya Penangsang" sebagai antagonist utama di series selanjutnya (Damar Shashangka eksplisit di jaka-tingkir-5.md: "Kisah selanjutnya ARYA PENANGSANG"). Duel maut Jaka Tingkir vs Arya Penangsang terjadi di Pajang akhir (~1554 M), bukan di Pegunungan Prawata.
 
 ---
 
