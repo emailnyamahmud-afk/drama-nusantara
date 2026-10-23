@@ -1,0 +1,44 @@
+[
+  {
+    "segment_id": "S001_seg01",
+    "start": "00:00:00,000",
+    "end": "00:00:07,764",
+    "duration_seconds": 7.764,
+    "tts_duration": 7.464
+  },
+  {
+    "segment_id": "S001_seg02",
+    "start": "00:00:07,764",
+    "end": "00:00:14,016",
+    "duration_seconds": 6.252,
+    "tts_duration": 5.952
+  },
+  {
+    "segment_id": "S001_seg03",
+    "start": "00:00:14,016",
+    "end": "00:00:20,100",
+    "duration_seconds": 6.084,
+    "tts_duration": 5.784
+  },
+  {
+    "segment_id": "S001_seg04",
+    "start": "00:00:20,100",
+    "end": "00:00:29,423",
+    "duration_seconds": 9.324,
+    "tts_duration": 9.024
+  },
+  {
+    "segment_id": "S001_seg05",
+    "start": "00:00:29,423",
+    "end": "00:00:36,155",
+    "duration_seconds": 6.732,
+    "tts_duration": 6.432
+  },
+  {
+    "segment_id": "S001_seg06",
+    "start": "00:00:36,155",
+    "end": "00:00:38,975",
+    "duration_seconds": 2.82,
+    "tts_duration": 2.52
+  }
+]
