@@ -35,7 +35,7 @@
   },
   "phases": [
     {
-      "phase_id": "phase_master_ref_ep1",
+      "phase_id": "phase_1_master_ref",
       "name": "Generate Master Reference Images untuk EP1",
       "parallel": true,
       "depends_on": null,
