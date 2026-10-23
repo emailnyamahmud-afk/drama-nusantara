@@ -1,0 +1,320 @@
+{
+  "schema_version": "3.1",
+  "episode": {
+    "id": "P002-PROTOTYPE-30S-V3.1",
+    "title": "Ken Arok: Takdir dari Tumapel — Prototype 30s v3.1 (TRUE SoT)",
+    "era": "2C Singasari-Kediri",
+    "durasi_target_seconds": 30,
+    "resolution": "1920x1080",
+    "fps": 24,
+    "schema_version": "3.1",
+    "tts_strategy": "adaptive_rate",
+    "notes": "JSON = TRUE source of truth. SRT deterministik. TTS adaptive. Video final = 30s exact."
+  },
+  "voice_profiles": {
+    "narrator": {
+      "edge_tts_voice": "id-ID-ArdiNeural",
+      "language": "id",
+      "default_rate": "+25%",
+      "max_rate": "+100%",
+      "default_pitch": "+0Hz"
+    },
+    "ken_arok": {
+      "edge_tts_voice": "jv-ID-DimasNeural",
+      "language": "jv",
+      "default_rate": "+25%",
+      "max_rate": "+100%",
+      "default_pitch": "+2Hz"
+    },
+    "lohgawe": {
+      "edge_tts_voice": "jv-ID-DimasNeural",
+      "language": "jv",
+      "default_rate": "+25%",
+      "max_rate": "+100%",
+      "default_pitch": "-4Hz"
+    }
+  },
+  "tts_strategy": {
+    "method": "adaptive_rate",
+    "default_rate": "+25%",
+    "max_rate": "+100%",
+    "logic": [
+      "1. Generate TTS dengan default rate (+25%)",
+      "2. Cek actual_duration vs srt_timing.cue_duration",
+      "3. Kalau actual > cue: hitung rate_baru = (actual / cue) × 1.25, capped at 2.0 (max +100%)",
+      "4. Re-generate TTS dengan rate_baru",
+      "5. Kalau actual < cue: pad silence di akhir supaya = cue_duration",
+      "6. Kalau walau rate +100% masih tidak muat → SPLIT cue jadi 2 (rare case)",
+      "7. FINAL: TTS duration = cue_duration exact, no compromise"
+    ]
+  },
+  "segments": [
+    {
+      "segment_id": "S001_seg01",
+      "scene_id": "S001",
+      "scene_title": "Chase Through Dense Woods",
+      "approved": false,
+      "srt_timing": {
+        "start": "00:00:00,000",
+        "end": "00:00:06,000",
+        "cue_duration": 6
+      },
+      "tts": {
+        "speaker": "narrator",
+        "voice_profile": "narrator",
+        "edge_tts_voice": "id-ID-ArdiNeural",
+        "language": "id",
+        "default_rate": "+25%",
+        "max_rate": "+100%",
+        "pitch": "+0Hz",
+        "text": "Tahun seribu dua ratus dua puluh dua masa Saka. Seorang pemuda bernama Ken Arok berlari menerobos hutan Tumapel, membawa hasil curian dari istana.",
+        "actual_rate": "+61%",
+        "actual_duration": 5.808,
+        "pad_silence_seconds": 0,
+        "output_path": "produksi/tts-output/prototype-30s-v3.1/S001_seg01.mp3"
+      },
+      "t2i": {
+        "image_path": "produksi/t2i-output/prototype-30s/S001_seg01.jpg",
+        "ken_burns": "zoom_in_slow",
+        "resolution": "1920x1080"
+      },
+      "audio_layers": {
+        "tts_volume": 1.0,
+        "bgm_volume": 0.15,
+        "sfx_volume": 0.3,
+        "bgm_track": null,
+        "sfx_track": null
+      },
+      "transition_out": {
+        "type": "cross_dissolve",
+        "duration_seconds": 0.3
+      },
+      "notes": "SRT cue 6s — TTS must FIT (adaptive rate)"
+    },
+    {
+      "segment_id": "S001_seg02",
+      "scene_id": "S001",
+      "scene_title": "Arok Taunts the Pursuers",
+      "approved": false,
+      "srt_timing": {
+        "start": "00:00:06,000",
+        "end": "00:00:10,000",
+        "cue_duration": 4
+      },
+      "tts": {
+        "speaker": "ken_arok",
+        "voice_profile": "ken_arok",
+        "edge_tts_voice": "jv-ID-DimasNeural",
+        "language": "jv",
+        "default_rate": "+25%",
+        "max_rate": "+100%",
+        "pitch": "+2Hz",
+        "text": "Hanya segitu kecepatan prajurit istana? Kura-kura di rawa pun masih bisa mendahului kalian!",
+        "actual_rate": "+96%",
+        "actual_duration": 3.816,
+        "pad_silence_seconds": 0,
+        "output_path": "produksi/tts-output/prototype-30s-v3.1/S001_seg02.mp3"
+      },
+      "t2i": {
+        "image_path": "produksi/t2i-output/prototype-30s/S001_seg02.jpg",
+        "ken_burns": "zoom_in_medium",
+        "resolution": "1920x1080"
+      },
+      "audio_layers": {
+        "tts_volume": 1.0,
+        "bgm_volume": 0.15,
+        "sfx_volume": 0.3,
+        "bgm_track": null,
+        "sfx_track": null
+      },
+      "transition_out": {
+        "type": "cross_dissolve",
+        "duration_seconds": 0.3
+      },
+      "notes": "SRT cue 4s — TTS must FIT (adaptive rate)"
+    },
+    {
+      "segment_id": "S001_seg03",
+      "scene_id": "S001",
+      "scene_title": "Brahmana Halts the Conflict",
+      "approved": false,
+      "srt_timing": {
+        "start": "00:00:10,000",
+        "end": "00:00:14,000",
+        "cue_duration": 4
+      },
+      "tts": {
+        "speaker": "lohgawe",
+        "voice_profile": "lohgawe",
+        "edge_tts_voice": "jv-ID-DimasNeural",
+        "language": "jv",
+        "default_rate": "+25%",
+        "max_rate": "+100%",
+        "pitch": "-4Hz",
+        "text": "Hentikan amarah kalian. Darah anak muda ini bukan untuk tumpah di tanah berlumpur ini.",
+        "actual_rate": "+90%",
+        "actual_duration": 3.816,
+        "pad_silence_seconds": 0,
+        "output_path": "produksi/tts-output/prototype-30s-v3.1/S001_seg03.mp3"
+      },
+      "t2i": {
+        "image_path": "produksi/t2i-output/prototype-30s/S001_seg03.jpg",
+        "ken_burns": "pan_up_slow",
+        "resolution": "1920x1080"
+      },
+      "audio_layers": {
+        "tts_volume": 1.0,
+        "bgm_volume": 0.15,
+        "sfx_volume": 0.3,
+        "bgm_track": null,
+        "sfx_track": null
+      },
+      "transition_out": {
+        "type": "cross_dissolve",
+        "duration_seconds": 0.3
+      },
+      "notes": "SRT cue 4s — TTS must FIT (adaptive rate)"
+    },
+    {
+      "segment_id": "S001_seg04",
+      "scene_id": "S001",
+      "scene_title": "A Prophecy Unveiled",
+      "approved": false,
+      "srt_timing": {
+        "start": "00:00:14,000",
+        "end": "00:00:21,000",
+        "cue_duration": 7
+      },
+      "tts": {
+        "speaker": "lohgawe",
+        "voice_profile": "lohgawe",
+        "edge_tts_voice": "jv-ID-DimasNeural",
+        "language": "jv",
+        "default_rate": "+25%",
+        "max_rate": "+100%",
+        "pitch": "-4Hz",
+        "text": "Aku tidak menaruh kasihan, Ken Arok. Aku menaruh ramalan. Dewa Wisnu tidak mengirimmu ke dunia fana hanya untuk menjadi pencuri rendahan.",
+        "actual_rate": "+66%",
+        "actual_duration": 6.816,
+        "pad_silence_seconds": 0,
+        "output_path": "produksi/tts-output/prototype-30s-v3.1/S001_seg04.mp3"
+      },
+      "t2i": {
+        "image_path": "produksi/t2i-output/prototype-30s/S001_seg04.jpg",
+        "ken_burns": "arc_rotate_slow",
+        "resolution": "1920x1080"
+      },
+      "audio_layers": {
+        "tts_volume": 1.0,
+        "bgm_volume": 0.15,
+        "sfx_volume": 0.3,
+        "bgm_track": null,
+        "sfx_track": null
+      },
+      "transition_out": {
+        "type": "cross_dissolve",
+        "duration_seconds": 0.3
+      },
+      "notes": "SRT cue 7s — TTS must FIT (adaptive rate)"
+    },
+    {
+      "segment_id": "S001_seg05",
+      "scene_id": "S001",
+      "scene_title": "Arok Struck by Lightning",
+      "approved": false,
+      "srt_timing": {
+        "start": "00:00:21,000",
+        "end": "00:00:26,000",
+        "cue_duration": 5
+      },
+      "tts": {
+        "speaker": "narrator",
+        "voice_profile": "narrator",
+        "edge_tts_voice": "id-ID-ArdiNeural",
+        "language": "id",
+        "default_rate": "+25%",
+        "max_rate": "+100%",
+        "pitch": "+0Hz",
+        "text": "Mendengar ramalan itu, dadanya bergemuruh seolah dihantam halilintar. Ambisi gelap menyala dalam mata Ken Arok.",
+        "actual_rate": "+62%",
+        "actual_duration": 4.8,
+        "pad_silence_seconds": 0,
+        "output_path": "produksi/tts-output/prototype-30s-v3.1/S001_seg05.mp3"
+      },
+      "t2i": {
+        "image_path": "produksi/t2i-output/prototype-30s/S001_seg05.jpg",
+        "ken_burns": "zoom_in_fast",
+        "resolution": "1920x1080"
+      },
+      "audio_layers": {
+        "tts_volume": 1.0,
+        "bgm_volume": 0.15,
+        "sfx_volume": 0.3,
+        "bgm_track": null,
+        "sfx_track": null
+      },
+      "transition_out": {
+        "type": "cross_dissolve",
+        "duration_seconds": 0.3
+      },
+      "notes": "SRT cue 5s — TTS must FIT (adaptive rate)"
+    },
+    {
+      "segment_id": "S001_seg06",
+      "scene_id": "S001",
+      "scene_title": "Title Card",
+      "approved": false,
+      "srt_timing": {
+        "start": "00:00:26,000",
+        "end": "00:00:30,000",
+        "cue_duration": 4
+      },
+      "tts": {
+        "speaker": "narrator",
+        "voice_profile": "narrator",
+        "edge_tts_voice": "id-ID-ArdiNeural",
+        "language": "id",
+        "default_rate": "+25%",
+        "max_rate": "+100%",
+        "pitch": "+0Hz",
+        "text": "Ken Arok: Takdir dari Tumapel.",
+        "actual_rate": "+25%",
+        "actual_duration": 2.52,
+        "pad_silence_seconds": 1.48,
+        "output_path": "produksi/tts-output/prototype-30s-v3.1/S001_seg06.mp3"
+      },
+      "t2i": {
+        "image_path": "produksi/t2i-output/prototype-30s/S001_seg06.jpg",
+        "ken_burns": "zoom_out_slow",
+        "resolution": "1920x1080"
+      },
+      "audio_layers": {
+        "tts_volume": 1.0,
+        "bgm_volume": 0.15,
+        "sfx_volume": 0.3,
+        "bgm_track": null,
+        "sfx_track": null
+      },
+      "transition_out": {
+        "type": "cross_dissolve",
+        "duration_seconds": 0.3
+      },
+      "notes": "SRT cue 4s — TTS must FIT (adaptive rate)"
+    }
+  ],
+  "render_status": {
+    "total_segments": 6,
+    "total_srt_duration": 30,
+    "approved": 0,
+    "tts_generated": 0,
+    "video_stitched": false,
+    "final_mp4_path": null,
+    "final_mp4_duration": null
+  },
+  "instructions": {
+    "purpose": "JSON v3.1 = TRUE source of truth. SRT locked. TTS adaptive. Video final MUST = 30s.",
+    "srt_is_ground_truth": "SRT timing DETERMINISTIK di JSON. TTS adjust dirinya supaya fit. Bukan sebaliknya.",
+    "no_audio_cut": "TTS TIDAK PERNAH dipotong. Kalau text terlalu panjang, split cue atau speed up (capped 2x).",
+    "no_overlap": "Kalau TTS lebih pendek dari cue, pad silence (fade out). Tidak ada audio overlap."
+  }
+}

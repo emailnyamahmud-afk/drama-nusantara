@@ -1,0 +1,50 @@
+[
+  {
+    "segment_id": "S001_seg01",
+    "cue_duration": 6,
+    "tts_duration": 5.808,
+    "actual_rate": "+61%",
+    "pad_silence": 0,
+    "output_path": "/home/z/my-project/produksi/tts-output/prototype-30s-v3.1/S001_seg01.mp3"
+  },
+  {
+    "segment_id": "S001_seg02",
+    "cue_duration": 4,
+    "tts_duration": 3.816,
+    "actual_rate": "+96%",
+    "pad_silence": 0,
+    "output_path": "/home/z/my-project/produksi/tts-output/prototype-30s-v3.1/S001_seg02.mp3"
+  },
+  {
+    "segment_id": "S001_seg03",
+    "cue_duration": 4,
+    "tts_duration": 3.816,
+    "actual_rate": "+90%",
+    "pad_silence": 0,
+    "output_path": "/home/z/my-project/produksi/tts-output/prototype-30s-v3.1/S001_seg03.mp3"
+  },
+  {
+    "segment_id": "S001_seg04",
+    "cue_duration": 7,
+    "tts_duration": 6.816,
+    "actual_rate": "+66%",
+    "pad_silence": 0,
+    "output_path": "/home/z/my-project/produksi/tts-output/prototype-30s-v3.1/S001_seg04.mp3"
+  },
+  {
+    "segment_id": "S001_seg05",
+    "cue_duration": 5,
+    "tts_duration": 4.8,
+    "actual_rate": "+62%",
+    "pad_silence": 0,
+    "output_path": "/home/z/my-project/produksi/tts-output/prototype-30s-v3.1/S001_seg05.mp3"
+  },
+  {
+    "segment_id": "S001_seg06",
+    "cue_duration": 4,
+    "tts_duration": 2.52,
+    "actual_rate": "+25%",
+    "pad_silence": 1.48,
+    "output_path": "/home/z/my-project/produksi/tts-output/prototype-30s-v3.1/S001_seg06.mp3"
+  }
+]
