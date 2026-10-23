@@ -56,7 +56,7 @@ Pada tahun 1478 Masehi, Kesultanan Demak Bintara berdiri sebagai pewaris dinasti
 **SEGMENT 1.2 (35 detik)**
 
 *Raden Patah (jv-ID-DimasNeural, +15%, -3Hz)*
-> Wonten ngarsanipun, para wali lan para adipati. Demak sampun jumeneng. Majapahit sampun runtuh. Dhumateng Allah Ta'ala, mugi Panjenengan tansah kaluhuraken wonten salebeting dhiri. Dhumateng bebrayan agung, mugi tansah pinaringan kawilujengan.
+> Wonten ngarsanipun, para wali lan adipati. Demak sampun jumeneng. Majapahit sampun runtuh. Dhumateng Allah Ta'ala, mugi Panjenengan tansah kaluhuraken wonten salebeting dhiri. Dhumateng bebrayan agung, mugi tansah pinaringan kawilujengan.
 
 *(Di hadapan kami, para wali dan adipati. Demak Bintara telah berdiri. Majapahit telah runtuh. Kepada Allah Ta'ala, semoga selalu dimuliakan dalam diri. Kepada para rakyat, semoga selalu dipelihara dengan belas kasih.)*
 
