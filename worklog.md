@@ -2244,3 +2244,43 @@ Pending Next:
 - Kalau <6 → pilih Higgsfield (signup fresh) atau Google Flow (kalau 50cr masih ada) atau ReelCine (test limit)
 - Generate 6 video → download → share sample untuk review
 - Setelah I2V selesai → Phase 7 (TTS) + Phase 8 (stitch via ffmpeg)
+
+
+---
+Task ID: I2V-TEST-SEG01-2026-10-23
+Agent: Main Agent (Z.ai) + Dola AI (Seedance 2.5)
+Task: Test I2V pertama — generate seg01 (chase scene) via Dola
+
+Work Log:
+- User generate I2V di Dola Seedance 2.5: upload S001_seg01.jpg + motion prompt "Camera tracks rapidly backward ahead of Ken Arok, keeping him centered as foliage whips past frame edges"
+- Dola kasi video dalam 1-3 menit, "3 video credits left today" → limit 3 video credits/hari
+- User share .mp4 via upload
+- Video specs:
+  - Duration: 5.04s (target 5s, +0.04s) ✅
+  - Resolution: 1248×704 (16:9, ~720p) — Dola ignore 480p request, kasih 720p
+  - FPS: 24 ✅
+  - Codec: H.265/HEVC
+  - Bitrate: 4.3 Mbps
+  - File size: 2.65 MB
+  - Audio: NONE (perlu Phase 7 TTS)
+- Extract 6 frames (t=0,1,2,3,4,5s) for VLM analysis
+- VLM analysis 4 frame (t=0, t=2, t=5):
+  - Karakter Ken Arok konsisten vs T2I ref (golden brown, topknot, leather armor) ✅
+  - 3 prajurit + tombak terlihat di semua frame ✅
+  - Hutan + god rays + mood cinematic ✅
+  - Motion blur natural di kaki + debu + tombak ✅
+  - WEAKNESS: Camera tidak benar-benar backward tracking — framing stabil, tidak ada perspective shift
+  - Frame tengah (t=2s) tidak ada motion blur (kebetulan tajam)
+
+Stage Summary:
+- I2V test seg01 PASS untuk prototype 30s
+- Quality lebih bagus dari permintaan (dapat 720p padahal diminta 480p)
+- Karakter konsistensi maintained vs T2I ref
+- Motion feel ada (motion blur natural) tapi camera movement tidak sesuai prompt
+- Limit Dola: 3 video credits/hari → 6 video butuh 2 hari (3 hari ini + 3 besok)
+
+Pending Next:
+- User pilih: iterate seg01 untuk improve motion / lanjut seg04 (paling kompleks) / pakai platform lain untuk 5 sisanya
+- Kalau lanjut Dola: prioritaskan seg04 (2-karakter), seg05 (snap zoom), seg02 (pan up)
+- Skill Dola I2V belum dibuat — manual cukup untuk prototype 6 video
+- Setelah 6 video selesai → Phase 7 (TTS edge-tts) + Phase 8 (ffmpeg stitch)
