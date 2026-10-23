@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """
-Nusantara Render — TUI Tool untuk MacBook
-Generate TTS + stitch image via ffmpeg → MP4 final.
+Nusantara Render v2 — TUI untuk user awam
+Features:
+  - Menu berwarna, progress bar, panel informatif
+  - Generate TTS (edge-tts, free unlimited)
+  - Stitch image + TTS + BGM auto-fill (no silent gaps!)
+  - Render final MP4
+  - Preview per segmen
+  - Re-render single segmen (iterate)
 
-Usage:
-    cd drama-nusantara
-    python3 scripts/nusantara-render.py
-
-Dependencies:
+Setup:
     pip3 install edge-tts rich
     brew install ffmpeg
 
-Input: JSON v3.1 (source of truth) di produksi/pra-produksi/
-Output: TTS MP3 + MP4 final di produksi/tts-output/ + produksi/final/
+Run:
+    cd drama-nusantara
+    python3 scripts/nusantara-render.py
 """
 import json
 import subprocess
@@ -23,28 +26,32 @@ from pathlib import Path
 from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
-from rich.prompt import Prompt, IntPrompt
-from rich.progress import Progress, SpinnerColumn, TextColumn
+from rich.prompt import Prompt, IntPrompt, Confirm
+from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
+from rich.layout import Layout
+from rich.text import Text
 
 console = Console()
 
 # ============================================================
-# Config
+# Paths
 # ============================================================
-ROOT = Path(__file__).parent.parent  # drama-nusantara/
-TTS_OUTPUT = ROOT / "produksi/tts-output"
-FINAL_OUTPUT = ROOT / "produksi/final"
-TEMP_SEGMENTS = ROOT / "download/temp-render"
+ROOT = Path(__file__).parent.parent
+TTS_DIR = ROOT / "produksi/tts-output"
+FINAL_DIR = ROOT / "produksi/final"
 IMAGE_DIR = ROOT / "produksi/t2i-output"
+BGM_DIR = ROOT / "produksi/bgm-library"
+TEMP_DIR = ROOT / "download/temp-render"
 
-# Find JSON files
-JSON_FILES = list(ROOT.glob("produksi/pra-produksi/**/ep*-final*.json"))
-if not JSON_FILES:
-    JSON_FILES = list(ROOT.glob("produksi/pra-produksi/**/prototype*.json"))
+for d in [TTS_DIR, FINAL_DIR, BGM_DIR, TEMP_DIR]:
+    d.mkdir(parents=True, exist_ok=True)
 
 
-def find_json():
-    """Find available JSON source of truth files."""
+# ============================================================
+# Helpers
+# ============================================================
+def find_jsons():
+    """Cari semua JSON di produksi/pra-produksi/."""
     files = list(ROOT.glob("produksi/pra-produksi/**/*v3*.json"))
     files += list(ROOT.glob("produksi/pra-produksi/**/*final*.json"))
     return sorted(set(files), key=lambda p: p.name)
@@ -55,308 +62,455 @@ def load_json(path):
         return json.load(f)
 
 
-def get_tts_duration(mp3_path):
+def get_duration(path):
     r = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-         "-of", "default=noprint_wrappers=1:nokey=1", str(mp3_path)],
+         "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
         capture_output=True, text=True
     )
     return float(r.stdout.strip()) if r.stdout.strip() else 0
 
 
-def get_ken_burns_filter(effect, duration_sec, target_w=1920, target_h=1080):
-    frames = int(duration_sec * 24)
+def ken_burns_filter(effect, dur, w=1920, h=1080):
+    frames = int(dur * 24)
     if effect == "zoom_in_slow":
-        return f"scale={target_w*2}:{target_h*2}:force_original_aspect_ratio=increase,crop={target_w*2}:{target_h*2},zoompan=z='min(zoom+0.0008,1.10)':d={frames}:s={target_w}x{target_h}:fps=24,format=yuv420p"
+        return f"scale={w*2}:{h*2}:force_original_aspect_ratio=increase,crop={w*2}:{h*2},zoompan=z='min(zoom+0.0008,1.10)':d={frames}:s={w}x{h}:fps=24,format=yuv420p"
     elif effect == "zoom_in_fast":
-        return f"scale={target_w*2}:{target_h*2}:force_original_aspect_ratio=increase,crop={target_w*2}:{target_h*2},zoompan=z='min(zoom+0.0025,1.25)':d={frames}:s={target_w}x{target_h}:fps=24,format=yuv420p"
+        return f"scale={w*2}:{h*2}:force_original_aspect_ratio=increase,crop={w*2}:{h*2},zoompan=z='min(zoom+0.0025,1.25)':d={frames}:s={w}x{h}:fps=24,format=yuv420p"
     elif effect == "zoom_out_slow":
-        return f"scale={target_w*2}:{target_h*2}:force_original_aspect_ratio=increase,crop={target_w*2}:{target_h*2},zoompan=z='if(eq(on,0),1.15,max(zoom-0.0008,1.0))':d={frames}:s={target_w}x{target_h}:fps=24,format=yuv420p"
+        return f"scale={w*2}:{h*2}:force_original_aspect_ratio=increase,crop={w*2}:{h*2},zoompan=z='if(eq(on,0),1.15,max(zoom-0.0008,1.0))':d={frames}:s={w}x{h}:fps=24,format=yuv420p"
     elif effect == "pan_right_slow":
-        return f"scale={target_w*2}:{target_h*2}:force_original_aspect_ratio=increase,crop={target_w*2}:{target_h*2},zoompan=z=1.0:x='iw/2-{target_w}/2+(iw-{target_w})*on/{frames}/2':y='ih/2-{target_h}/2':d={frames}:s={target_w}x{target_h}:fps=24,format=yuv420p"
+        return f"scale={w*2}:{h*2}:force_original_aspect_ratio=increase,crop={w*2}:{h*2},zoompan=z=1.0:x='iw/2-{w}/2+(iw-{w})*on/{frames}/2':y='ih/2-{h}/2':d={frames}:s={w}x{h}:fps=24,format=yuv420p"
     else:
-        return f"scale={target_w}:{target_h}:force_original_aspect_ratio=increase,crop={target_w}:{target_h},format=yuv420p"
+        return f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},format=yuv420p"
+
+
+def check_deps():
+    """Cek dependencies terinstall."""
+    deps = []
+    # edge-tts
+    try:
+        import edge_tts
+        deps.append(("edge-tts", True))
+    except ImportError:
+        deps.append(("edge-tts", False))
+    # ffmpeg
+    r = subprocess.run(["which", "ffmpeg"], capture_output=True, text=True)
+    deps.append(("ffmpeg", bool(r.stdout.strip())))
+    return deps
 
 
 # ============================================================
-# TTS Generation (edge-tts)
+# TTS Generation
 # ============================================================
-async def generate_tts(text, voice, rate, pitch, output_path):
+async def gen_tts_one(text, voice, rate, pitch, output):
     import edge_tts
-    communicate = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
-    await communicate.save(str(output_path))
+    await edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).save(str(output))
 
 
-async def generate_tts_batch(json_data, tts_dir):
-    """Generate TTS per segmen dari JSON."""
-    segments = json_data.get("segments", [])
-    voice_profiles = json_data.get("voice_profiles", {})
-    
+async def gen_tts_batch(data, tts_dir):
+    segments = data.get("segments", [])
+    voices = data.get("voice_profiles", {})
     tts_dir.mkdir(parents=True, exist_ok=True)
-    
+
     results = []
-    with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}"), console=console) as progress:
-        task = progress.add_task("Generating TTS...", total=len(segments))
-        
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[bold blue]{task.description}"),
+        BarColumn(),
+        TextColumn("[bold]{task.completed}/{task.total}"),
+        console=console,
+    ) as prog:
+        task = prog.add_task("Generating TTS...", total=len(segments))
         for seg in segments:
-            seg_id = seg["segment_id"]
+            sid = seg["segment_id"]
             tts = seg.get("tts", {})
-            speaker = tts.get("speaker", "narrator")
             text = tts.get("text", "")
-            voice_profile = tts.get("voice_profile", speaker)
-            
-            # Get voice settings
-            profile = voice_profiles.get(voice_profile, {})
-            voice = profile.get("edge_tts_voice", "id-ID-ArdiNeural")
-            rate = profile.get("default_rate", "+25%")
-            pitch = profile.get("default_pitch", "+0Hz")
-            
-            output_path = tts_dir / f"{seg_id}.mp3"
-            
-            if text:
-                progress.update(task, description=f"TTS: {seg_id} ({speaker})")
-                await generate_tts(text, voice, rate, pitch, output_path)
-                dur = get_tts_duration(output_path)
-                results.append({"seg_id": seg_id, "duration": dur, "path": str(output_path)})
+            speaker = tts.get("speaker", "narrator")
+            vp = voices.get(speaker, voices.get(tts.get("voice_profile", "narrator"), {}))
+            voice = vp.get("edge_tts_voice", "id-ID-ArdiNeural")
+            rate = vp.get("default_rate", "+25%")
+            pitch = vp.get("default_pitch", "+0Hz")
+            out = tts_dir / f"{sid}.mp3"
+
+            if text.strip():
+                prog.update(task, description=f"TTS: {sid} ({speaker})")
+                await gen_tts_one(text, voice, rate, pitch, out)
+                dur = get_duration(out)
+                results.append({"seg": sid, "dur": dur, "path": str(out), "ok": True})
             else:
-                progress.update(task, description=f"Skip: {seg_id} (no TTS)")
-                results.append({"seg_id": seg_id, "duration": 0, "path": None})
-            
-            progress.advance(task)
-    
+                results.append({"seg": sid, "dur": 0, "path": None, "ok": False})
+            prog.advance(task)
+
+    # Summary table
+    table = Table(title="TTS Results", show_header=True)
+    table.add_column("Segment", style="cyan")
+    table.add_column("Duration", justify="right", style="green")
+    table.add_column("Status")
+    for r in results:
+        status = "[green]✓" if r["ok"] else "[red]✗ (no text)"
+        table.add_row(r["seg"], f"{r['dur']:.1f}s", status)
+    console.print(table)
     return results
 
 
 # ============================================================
-# Stitch (ffmpeg Ken Burns)
+# BGM Library
 # ============================================================
-def build_segment(seg, tts_path, tts_duration, image_path, output_path, buffer_seconds=2.0):
-    """Build 1 segment MP4: image (Ken Burns) + TTS audio."""
-    cue_duration = tts_duration + buffer_seconds
+def show_bgm_library():
+    """Tampilkan BGM yang tersedia."""
+    bgms = list(BGM_DIR.glob("*.mp3")) + list(BGM_DIR.glob("*.wav"))
+    if not bgms:
+        console.print(Panel(
+            "[yellow]Belum ada BGM di folder:[/]\n"
+            f"  {BGM_DIR}\n\n"
+            "[bold]Cara download BGM:[/]\n"
+            "  1. Buka https://studio.youtube.com → Audio Library\n"
+            "  2. Filter: No attribution required\n"
+            "  3. Search: gamelan, ambient, cinematic, tribal\n"
+            "  4. Download MP3\n"
+            "  5. Save ke folder bgm-library/\n\n"
+            "Atau dari Pixabay Music:\n"
+            "  https://pixabay.com/music/\n"
+            "  (free, no attribution)",
+            title="🎵 BGM Library Kosong", border_style="yellow"
+        ))
+        return []
     
-    kb = seg.get("image", {}).get("ken_burns", "zoom_in_slow")
-    video_filter = get_ken_burns_filter(kb, cue_duration)
-    
-    # Audio: TTS + pad silence to cue_duration
-    audio_filter = f"[1:a]apad=whole_dur={cue_duration}[a]"
-    
-    cmd = [
-        "ffmpeg", "-y",
-        "-loop", "1", "-i", str(image_path),
-        "-i", str(tts_path),
-        "-filter_complex", f"[0:v]{video_filter}[v];{audio_filter}",
-        "-map", "[v]", "-map", "[a]",
-        "-t", str(cue_duration),
-        "-c:v", "libx264", "-preset", "medium", "-crf", "23",
-        "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "128k",
-        str(output_path)
-    ]
-    
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    return result.returncode == 0, cue_duration
-
-
-def concat_segments(segment_paths, output_path):
-    """Concat MP4 files."""
-    list_path = output_path.parent / "concat_list.txt"
-    with open(list_path, "w") as f:
-        for p in segment_paths:
-            f.write(f"file '{p}'\n")
-    
-    cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_path), "-c", "copy", str(output_path)]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    list_path.unlink()
-    return result.returncode == 0
-
-
-# ============================================================
-# Menu
-# ============================================================
-def menu_select_json():
-    """Pilih JSON source of truth."""
-    files = find_json()
-    if not files:
-        console.print("[red]No JSON files found in produksi/pra-produksi/")
-        return None
-    
-    console.print("\n[bold cyan]Select JSON Source of Truth:[/]")
-    table = Table()
+    table = Table(title="BGM Library", show_header=True)
     table.add_column("#", style="cyan")
     table.add_column("File", style="white")
-    table.add_column("Size", style="green")
-    for i, f in enumerate(files, 1):
-        table.add_row(str(i), str(f.relative_to(ROOT)), f"{f.stat().st_size // 1024}KB")
+    table.add_column("Duration", justify="right", style="green")
+    for i, b in enumerate(bgms, 1):
+        dur = get_duration(b)
+        table.add_row(str(i), b.name, f"{dur:.0f}s")
     console.print(table)
-    
-    choice = IntPrompt.ask("[yellow]Select number", default=1)
-    if 1 <= choice <= len(files):
-        return files[choice - 1]
+    return bgms
+
+
+def select_bgm_for_scene(scene_name, bgms):
+    """User pilih BGM untuk scene tertentu."""
+    if not bgms:
+        return None
+    console.print(f"\n[cyan]Pilih BGM untuk scene: {scene_name}[/]")
+    for i, b in enumerate(bgms, 1):
+        console.print(f"  [{i}] {b.name}")
+    console.print(f"  [0] Skip (no BGM)")
+    choice = IntPrompt.ask("[yellow]Nomor", default=0)
+    if 1 <= choice <= len(bgms):
+        return bgms[choice - 1]
     return None
 
 
-def menu_generate_tts(json_path):
-    """Menu 1: Generate TTS."""
-    data = load_json(json_path)
-    episode_id = data.get("episode", {}).get("id", "unknown")
-    tts_dir = TTS_OUTPUT / episode_id
-    
-    console.print(f"\n[bold green]Generate TTS for {episode_id}[/]")
-    console.print(f"Output: {tts_dir}")
-    
-    asyncio.run(generate_tts_batch(data, tts_dir))
-    console.print("[green]TTS generation complete!")
+# ============================================================
+# Stitch with BGM
+# ============================================================
+def build_segment_with_bgm(seg, tts_path, tts_dur, image_path, output_path, bgm_path=None, bgm_vol=0.15):
+    """Build 1 segment: image (Ken Burns) + TTS + BGM fill."""
+    cue_dur = seg.get("srt_timing", {}).get("cue_duration", seg.get("srt_timing", {}).get("duration_seconds", 30))
+    kb = seg.get("image", seg.get("t2i", {})).get("ken_burns", "zoom_in_slow")
+    vf = ken_burns_filter(kb, cue_dur)
+
+    if bgm_path and bgm_path.exists():
+        # TTS + BGM: mix 3 layers
+        # [1:a] = TTS (vol 1.0), [2:a] = BGM (vol 0.15, loop, fade)
+        af = (f"[1:a]volume=1.0,apad=whole_dur={cue_dur}[tts];"
+              f"[2:a]aloop=loop=-1:size=2e9,volume={bgm_vol},"
+              f"afade=t=in:st=0:d=2.0,afade=t=out:st={cue_dur-2.0}:d=2.0,"
+              f"atrim=duration={cue_dur}[bgm];"
+              f"[tts][bgm]amix=inputs=2:duration=first:dropout_transition=0[a]")
+        cmd = [
+            "ffmpeg", "-y",
+            "-loop", "1", "-i", str(image_path),
+            "-i", str(tts_path),
+            "-i", str(bgm_path),
+            "-filter_complex", f"[0:v]{vf}[v];{af}",
+            "-map", "[v]", "-map", "[a]",
+            "-t", str(cue_dur),
+            "-c:v", "libx264", "-preset", "medium", "-crf", "23",
+            "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "128k",
+            str(output_path)
+        ]
+    else:
+        # TTS only: pad silence
+        af = f"[1:a]apad=whole_dur={cue_dur}[a]"
+        cmd = [
+            "ffmpeg", "-y",
+            "-loop", "1", "-i", str(image_path),
+            "-i", str(tts_path),
+            "-filter_complex", f"[0:v]{vf}[v];{af}",
+            "-map", "[v]", "-map", "[a]",
+            "-t", str(cue_dur),
+            "-c:v", "libx264", "-preset", "medium", "-crf", "23",
+            "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "128k",
+            str(output_path)
+        ]
+
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    return r.returncode == 0
 
 
-def menu_stitch(json_path):
-    """Menu 2: Stitch image + TTS → segments."""
-    data = load_json(json_path)
-    episode_id = data.get("episode", {}).get("id", "unknown")
-    segments = data.get("segments", [])
+def concat_mp4s(paths, output):
+    list_file = output.parent / "concat_list.txt"
+    with open(list_file, "w") as f:
+        for p in paths:
+            f.write(f"file '{p}'\n")
+    r = subprocess.run(
+        ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_file), "-c", "copy", str(output)],
+        capture_output=True, text=True
+    )
+    list_file.unlink()
+    return r.returncode == 0
+
+
+# ============================================================
+# Menu Functions
+# ============================================================
+def show_banner():
+    console.print(Panel(
+        "[bold cyan]🏠 Nusantara Render v2[/]\n"
+        "[dim]TTS + Stitch + BGM → MP4 untuk DaVinci Resolve[/]\n"
+        "[dim]Pipeline: JSON → TTS → ffmpeg → MP4[/]",
+        border_style="cyan", padding=1
+    ))
+
+
+def show_status(data, json_path):
+    """Tampilkan status asset."""
+    ep_id = data.get("episode", {}).get("id", "?")
+    segs = data.get("segments", [])
+    tts_dir = TTS_DIR / ep_id
+    img_dirs = list(IMAGE_DIR.glob("*/storyboard-frame/"))
     
-    tts_dir = TTS_OUTPUT / episode_id
-    temp_dir = TEMP_SEGMENTS / episode_id
+    tts_count = len(list(tts_dir.glob("*.mp3"))) if tts_dir.exists() else 0
+    img_count = sum(len(list(d.glob("*.jpg"))) for d in img_dirs) if img_dirs else 0
+    bgm_count = len(list(BGM_DIR.glob("*.mp3"))) + len(list(BGM_DIR.glob("*.wav")))
+    
+    table = Table(title="📊 Status", show_header=True, header_style="bold")
+    table.add_column("Asset", style="cyan")
+    table.add_column("Count", justify="right")
+    table.add_column("Status")
+    table.add_row("JSON", f"{len(segs)} segmen", f"[green]{json_path.name}")
+    table.add_row("TTS MP3", f"{tts_count}/{len(segs)}", "[green]✓" if tts_count >= len(segs) else "[red]✗")
+    table.add_row("Image JPG", f"{img_count}", "[green]✓" if img_count >= len(segs) else "[red]✗")
+    table.add_row("BGM tracks", f"{bgm_count}", "[green]✓" if bgm_count > 0 else "[yellow]⚠ (opsional)")
+    console.print(table)
+
+
+def menu_tts(data, json_path):
+    """[1] Generate TTS."""
+    ep_id = data.get("episode", {}).get("id", "unknown")
+    tts_dir = TTS_DIR / ep_id
+    console.print(f"\n[bold green]🎵 Generate TTS untuk {ep_id}[/]")
+    console.print(f"   Output: {tts_dir}")
+    console.print(f"   Voice: edge-tts (free, native Jawa)\n")
+    asyncio.run(gen_tts_batch(data, tts_dir))
+
+
+def menu_stitch(data, json_path):
+    """[2] Stitch image + TTS (+ BGM jika ada)."""
+    ep_id = data.get("episode", {}).get("id", "unknown")
+    segs = data.get("segments", [])
+    tts_dir = TTS_DIR / ep_id
+    temp_dir = TEMP_DIR / ep_id
     temp_dir.mkdir(parents=True, exist_ok=True)
     
-    # Find image directory
-    image_dirs = list(IMAGE_DIR.glob(f"*/storyboard-frame/"))
-    if not image_dirs:
-        console.print("[red]No storyboard images found in produksi/t2i-output/")
-        return
+    # Find images
+    img_dirs = list(IMAGE_DIR.glob("*/storyboard-frame/"))
+    if not img_dirs:
+        console.print("[red]❌ Tidak ada image di produksi/t2i-output/*/storyboard-frame/")
+        return None
+    img_dir = img_dirs[0]
     
-    image_dir = image_dirs[0]
-    console.print(f"\n[bold green]Stitch {len(segments)} segments")
-    console.print(f"Images: {image_dir}")
-    console.print(f"TTS: {tts_dir}")
+    # BGM selection
+    bgms = list(BGM_DIR.glob("*.mp3")) + list(BGM_DIR.glob("*.wav"))
+    use_bgm = False
+    bgm_path = None
+    if bgms:
+        console.print(f"\n[yellow]BGM tersedia: {len(bgms)} tracks[/]")
+        if Confirm.ask("[yellow]Pakai BGM untuk fill silent gaps?", default=True):
+            use_bgm = True
+            bgm_path = bgms[0]  # Default: pakai track pertama
+            if len(bgms) > 1:
+                bgm_path = select_bgm_for_scene("all segments", bgms) or bgm_path
+            console.print(f"   [green]BGM: {bgm_path.name}")
+    else:
+        console.print("\n[yellow]⚠ Tidak ada BGM. Silent gaps akan tetap ada.")
+        console.print("   Download BGM ke produksi/bgm-library/ untuk fix silent gaps.")
+    
+    console.print(f"\n[bold green]🎬 Stitch {len(segs)} segmen[/]")
+    console.print(f"   Image: {img_dir}")
+    console.print(f"   TTS: {tts_dir}")
+    if use_bgm:
+        console.print(f"   BGM: {bgm_path.name} (vol 0.15, loop, fade in/out)")
     
     seg_paths = []
-    total_dur = 0
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[bold blue]{task.description}"),
+        BarColumn(),
+        TextColumn("[bold]{task.completed}/{task.total}"),
+        console=console,
+    ) as prog:
+        task = prog.add_task("Stitching...", total=len(segs))
+        for seg in segs:
+            sid = seg["segment_id"]
+            img = img_dir / f"{sid}.jpg"
+            tts = tts_dir / f"{sid}.mp3"
+            out = temp_dir / f"{sid}.mp4"
+            
+            if not img.exists():
+                prog.update(task, description=f"[red]Missing: {sid}.jpg")
+                prog.advance(task)
+                continue
+            if not tts.exists():
+                prog.update(task, description=f"[red]Missing: {sid}.mp3")
+                prog.advance(task)
+                continue
+            
+            tts_dur = get_duration(tts)
+            prog.update(task, description=f"Stitch: {sid} ({tts_dur:.1f}s)")
+            
+            ok = build_segment_with_bgm(seg, tts, tts_dur, img, out, bgm_path if use_bgm else None)
+            if ok:
+                seg_paths.append(out)
+            prog.advance(task)
     
-    for i, seg in enumerate(segments, 1):
-        seg_id = seg["segment_id"]
-        image_path = image_dir / f"{seg_id}.jpg"
-        tts_path = tts_dir / f"{seg_id}.mp3"
-        output_path = temp_dir / f"{seg_id}.mp4"
-        
-        if not image_path.exists():
-            console.print(f"  [red]Missing image: {seg_id}")
-            continue
-        if not tts_path.exists():
-            console.print(f"  [red]Missing TTS: {seg_id}")
-            continue
-        
-        tts_dur = get_tts_duration(tts_path)
-        console.print(f"  [{i}/{len(segments)}] {seg_id} (tts={tts_dur:.1f}s)")
-        
-        ok, cue_dur = build_segment(seg, tts_path, tts_dur, image_path, output_path)
-        if ok:
-            seg_paths.append(output_path)
-            total_dur += cue_dur
-            console.print(f"    [green]✓ {cue_dur:.1f}s")
-        else:
-            console.print(f"    [red]✗ Failed")
-    
-    console.print(f"\n[bold]Total: {len(seg_paths)} segments, {total_dur:.1f}s ({total_dur/60:.1f} min)")
+    console.print(f"\n[green]✓ {len(seg_paths)}/{len(segs)} segmen selesai")
     return seg_paths
 
 
-def menu_render_final(json_path, seg_paths=None):
-    """Menu 3: Render final MP4."""
-    data = load_json(json_path)
-    episode_id = data.get("episode", {}).get("id", "unknown")
+def menu_render(data, seg_paths=None):
+    """[3] Render final MP4."""
+    ep_id = data.get("episode", {}).get("id", "unknown")
     
     if not seg_paths:
-        temp_dir = TEMP_SEGMENTS / episode_id
+        temp_dir = TEMP_DIR / ep_id
         seg_paths = sorted(temp_dir.glob("*.mp4"))
     
     if not seg_paths:
-        console.print("[red]No segments found. Run stitch first.")
+        console.print("[red]❌ Belum ada segmen. Run Stitch dulu.")
         return
     
-    FINAL_OUTPUT.mkdir(parents=True, exist_ok=True)
-    output = FINAL_OUTPUT / f"{episode_id}.mp4"
+    FINAL_DIR.mkdir(parents=True, exist_ok=True)
+    output = FINAL_DIR / f"{ep_id}.mp4"
     
-    console.print(f"\n[bold green]Render final: {len(seg_paths)} segments → {output.name}")
+    console.print(f"\n[bold green]📦 Render final: {len(seg_paths)} segmen → {output.name}")
     
-    if concat_segments(seg_paths, output):
-        dur = get_tts_duration(output)
+    if concat_mp4s(seg_paths, output):
+        dur = get_duration(output)
         size_mb = output.stat().st_size / 1024 / 1024
         console.print(Panel(
-            f"[green]✓ Final MP4 ready!\n\n"
-            f"  File: {output}\n"
-            f"  Duration: {dur:.1f}s ({dur/60:.1f} min)\n"
-            f"  Size: {size_mb:.1f} MB\n\n"
-            f"  Next: Import to DaVinci Resolve → add BGM/SFX → export final",
-            title="Render Complete", border_style="green"
+            f"[bold green]✓ Final MP4 ready![/]\n\n"
+            f"  📁 File: {output}\n"
+            f"  ⏱ Duration: {dur:.1f}s ({dur/60:.1f} menit)\n"
+            f"  💾 Size: {size_mb:.1f} MB\n\n"
+            f"  [bold]Next step:[/]\n"
+            f"  → Import ke DaVinci Resolve untuk fine-tune\n"
+            f"  → Atau langsung pakai jika sudah OK",
+            title="🎬 Render Complete", border_style="green"
         ))
     else:
-        console.print("[red]Render failed!")
+        console.print("[red]❌ Render gagal!")
 
 
-def menu_preview(json_path):
-    """Menu 4: Preview single segmen."""
-    data = load_json(json_path)
-    segments = data.get("segments", [])
+def menu_preview(data):
+    """[4] Preview single segmen."""
+    segs = data.get("segments", [])
+    console.print("\n[bold cyan]📋 Pilih segmen:")
+    for i, s in enumerate(segs, 1):
+        tts = s.get("tts", {})
+        text = tts.get("text", "")[:60]
+        console.print(f"  [{i:2d}] {s['segment_id']:25s} {text}...")
     
-    console.print("\n[bold cyan]Select segment to preview:")
-    for i, seg in enumerate(segments, 1):
-        console.print(f"  [{i}] {seg['segment_id']}")
-    
-    choice = IntPrompt.ask("[yellow]Segment number", default=1)
-    if 1 <= choice <= len(segments):
-        seg = segments[choice - 1]
-        console.print(f"\n[yellow]Preview: {seg['segment_id']}")
-        console.print(f"  Speaker: {seg.get('tts', {}).get('speaker', 'narrator')}")
-        console.print(f"  Text: {seg.get('tts', {}).get('text', '')[:100]}...")
-        console.print(f"  Ken Burns: {seg.get('image', {}).get('ken_burns', 'none')}")
+    choice = IntPrompt.ask("[yellow]Nomor segmen", default=1)
+    if 1 <= choice <= len(segs):
+        seg = segs[choice - 1]
+        tts = seg.get("tts", {})
+        console.print(Panel(
+            f"[bold]{seg['segment_id']}[/]\n\n"
+            f"  Speaker: {tts.get('speaker', 'narrator')}\n"
+            f"  Text: {tts.get('text', '')[:200]}\n"
+            f"  Ken Burns: {seg.get('image', seg.get('t2i', {})).get('ken_burns', 'none')}\n"
+            f"  SRT: {seg.get('srt_timing', {}).get('start', '?')} → {seg.get('srt_timing', {}).get('end', '?')}",
+            title="Preview", border_style="cyan"
+        ))
 
 
+def menu_bgm():
+    """[5] BGM Library management."""
+    show_bgm_library()
+    if Confirm.ask("\n[yellow]Buka folder bgm-library/ di Finder?", default=True):
+        subprocess.run(["open", str(BGM_DIR)])
+        console.print("[green]Folder dibuka. Download BGM ke sini.")
+
+
+# ============================================================
+# Main
+# ============================================================
 def main():
-    console.print(Panel(
-        "[bold cyan]Nusantara Render[/]\n"
-        "TTS + ffmpeg stitch tool untuk MacBook\n"
-        "Pipeline: JSON → TTS → stitch → MP4 → DaVinci Resolve",
-        title="🏠 Nusantara Render", border_style="cyan"
-    ))
-    
-    # Select JSON
-    json_path = menu_select_json()
-    if not json_path:
+    # Check deps
+    deps = check_deps()
+    missing = [d[0] for d in deps if not d[1]]
+    if missing:
+        console.print(Panel(
+            f"[red]❌ Dependencies belum terinstall:[/]\n"
+            f"  Missing: {', '.join(missing)}\n\n"
+            f"[bold]Install:[/]\n"
+            f"  pip3 install edge-tts rich\n"
+            f"  brew install ffmpeg",
+            title="Setup Required", border_style="red"
+        ))
         return
     
-    data = load_json(json_path)
-    episode_id = data.get("episode", {}).get("id", "unknown")
-    segments = data.get("segments", [])
+    show_banner()
     
-    console.print(f"\n[green]Loaded: {json_path.name}")
-    console.print(f"  Episode: {episode_id}")
-    console.print(f"  Segments: {len(segments)}")
+    # Select JSON
+    jsons = find_jsons()
+    if not jsons:
+        console.print("[red]❌ Tidak ada JSON di produksi/pra-produksi/")
+        return
+    
+    console.print("\n[bold cyan]📋 Pilih JSON (Source of Truth):[/]")
+    for i, j in enumerate(jsons, 1):
+        console.print(f"  [{i}] {j.relative_to(ROOT)}")
+    
+    choice = IntPrompt.ask("[yellow]Nomor", default=1)
+    if not (1 <= choice <= len(jsons)):
+        return
+    json_path = jsons[choice - 1]
+    data = load_json(json_path)
     
     seg_paths = None
     
+    # Main loop
     while True:
-        console.print("\n[bold]Menu:")
-        console.print("  [1] Generate TTS (edge-tts)")
-        console.print("  [2] Stitch image + TTS (ffmpeg Ken Burns)")
-        console.print("  [3] Render final MP4 (concat all)")
-        console.print("  [4] Preview segment")
-        console.print("  [5] Re-render single segment (iterate)")
-        console.print("  [Q] Quit")
+        console.print("\n" + "─" * 60)
+        show_status(data, json_path)
+        console.print("\n[bold]🏠 Menu:[/]")
+        console.print("  [1] 🎵 Generate TTS (edge-tts, free)")
+        console.print("  [2] 🎬 Stitch image + TTS (+ BGM fill)")
+        console.print("  [3] 📦 Render final MP4")
+        console.print("  [4] 👁 Preview segmen")
+        console.print("  [5] 🎵 BGM Library (download/manage)")
+        console.print("  [Q] ❌ Quit")
         
-        choice = Prompt.ask("[yellow]Select", default="q").lower()
+        choice = Prompt.ask("\n[yellow]Pilih menu", default="q").lower()
         
         if choice == "1":
-            menu_generate_tts(json_path)
+            menu_tts(data, json_path)
         elif choice == "2":
-            seg_paths = menu_stitch(json_path)
+            seg_paths = menu_stitch(data, json_path)
         elif choice == "3":
-            menu_render_final(json_path, seg_paths)
+            menu_render(data, seg_paths)
         elif choice == "4":
-            menu_preview(json_path)
+            menu_preview(data)
         elif choice == "5":
-            console.print("[yellow]Re-render: edit JSON first, then run stitch for that segmen")
+            menu_bgm()
         elif choice == "q":
-            console.print("[bold]Bye! 🎬")
+            console.print("[bold cyan]👋 Bye! Selamat produktif![/]")
             break
 
 
