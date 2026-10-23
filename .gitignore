@@ -113,3 +113,12 @@ download/prototypes/
 # Zip files
 *.zip
 upload/
+
+# === Cleanup 2026-10-23 part 2: Remove media output from git ===
+produksi/t2i-output/**/*
+produksi/tts-output/**/*
+produksi/final/**/*
+produksi/i2v-output/**/*
+
+# Dola skill backup (local reference only)
+scripts/dola-skill-backup/
