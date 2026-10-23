@@ -80,6 +80,58 @@
 
 ---
 
+## Sesi 2026-10-23 (lanjutan 4) — TAMBAH SUMBER JAKA TINGKIR + SERIES PLAN
+
+**User share**: 5 URL blog Damar Shashangka (Puri Damar Shashangka, 2010) berisi kisah Jaka Tingkir lengkap dari kelahiran Mas Karebet (1499) sampai jadi Adipati Pajang (~1550).
+
+**User request**: "masukan kisah Jaka Tingkir ini ke sumber, sebagai bahan untuk buat film Jaka Tingkir, atau series jaka tingkir. AI baca kisah jaka tingkir full agar paham konteks"
+
+**AI eksekusi**:
+1. WebFetch 5 URL parallel — extract teks asli lengkap (Indonesia + Jawa + dialog)
+2. Simpan 5 file MD ke `riset/sumber-primer/supplementary/jaka-tingkir-damar-shashangka/`:
+   - jaka-tingkir-1.md (Demak berdiri, Malaka jatuh, bunuh Suryawiyata)
+   - jaka-tingkir-2.md (Fatahillah rebut Sunda Kelapa, Mas Karebet ke Demak)
+   - jaka-tingkir-3.md (Adu banteng, pemberontakan Ki Ageng Sela, bunuh Dhadhung Awuk)
+   - jaka-tingkir-4.md (Tapa di Pengging, Padepokan Banyu Biru, wahyu keprabhon Butuh)
+   - jaka-tingkir-5.md TAMAT (Duel di Prawata, jadi Adipati Adiwijaya)
+3. Bikin `master-era/JAKA-TINGKIR-damar-shashangka.md` (parsing sistematis):
+   - Timeline kronologis 1478-1575 M
+   - 20+ tokoh (protagonist, antagonist, pendukung)
+   - 14+ lokasi (kerajaan, kadipaten, padepokan, pura)
+   - 7 benda pusaka (keris Kyai Brongot Setan Kober, sadak, bendera Surya Majapahit, dll)
+   - 5 tema utama (Putihan vs Abangan, Wahyu Keprabhon, Shiwa Buddha vs Islam, dll)
+   - 6 episode breakdown
+   - Klaim dengan sitasi ke file+baris sumber
+4. Bikin `produksi/pra-produksi/jaka-tingkir-series/SERIES-PLAN.md`:
+   - 6 episode × 10-15 menit = 75-95 menit total
+   - Logline, tema, tone
+   - Episode breakdown detail (story beats per episode)
+   - Asset requirements (19 K + 14 L + 6 A + 3 F + 6 S = 48 file T2I baru)
+   - Voice profiles per karakter (Jawa + Indonesia)
+   - Cost $0 (reuse pipeline image-based)
+   - Estimasi 30 jam kerja total series
+5. Bikin `riset/sumber-primer/supplementary/README.md` — aturan pakai sumber supplementary
+
+**Insight penting**:
+- Sumber ini SEKUNDER (blog interpretasi), bukan primer Kemenbud 2025. Untuk produksi drama OK, untuk dokumenter akademis perlu verifikasi Babad Tanah Jawi orisinal.
+- Continuity: prototype 30s KEN AROK (era 2C, abad 13) → Jaka Tingkir series (era Pajang, abad 16) → setup sequel "Arya Penangsang" (era Mataram awal).
+- 6 episode sudah mapped, siap produksi dengan pipeline v3.1 yang sudah teruji di prototype 30s.
+
+**Files added**:
+- `riset/sumber-primer/supplementary/README.md`
+- `riset/sumber-primer/supplementary/jaka-tingkir-damar-shashangka/jaka-tingkir-1.md` s/d `jaka-tingkir-5.md`
+- `master-era/JAKA-TINGKIR-damar-shashangka.md`
+- `produksi/pra-produksi/jaka-tingkir-series/SERIES-PLAN.md`
+
+**Pending berikutnya**:
+1. Mulai produksi EP1 "Demak Berdiri, Malaka Jatuh" (~12 menit)
+2. Bikin master ref T2I baru untuk 48 karakter/lokasi/artefak Jaka Tingkir
+3. Generate naskah EP1 dari master-era
+4. Storyboard JSON v3.1 untuk EP1
+5. Batch T2I + TTS + ffmpeg stitch → MP4 EP1
+
+---
+
 ## Sesi 2026-10-23 (lanjutan 3) — STRATEGIC PIVOT: Image-Based Pipeline
 
 **User insight kritis** (seusai test I2V di Dola + Flow):

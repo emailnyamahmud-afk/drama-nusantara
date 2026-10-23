@@ -2386,3 +2386,60 @@ Files Updated:
 - README.md (rewrite workflow 7 phase)
 - progres-project.md (entry baru pivot strategis)
 - STRATEGIC-PIVOT-IMAGE-BASED.md (4 step user refinement + schema v3.0 + edge-tts reference)
+
+
+---
+Task ID: JAKA-TINGKIR-SOURCE-2026-10-23
+Agent: Main Agent (Z.ai)
+Task: User share 5 URL blog Damar Shashangka — masukin kisah Jaka Tingkir sebagai sumber + bahan produksi series
+
+Work Log:
+- User share 5 URL https://damar-shashangka.blogspot.com/2010/06/jaka-tingkir-{1-5}.html
+- User request: "AI baca kisah jaka tingkir full agar paham konteks" + masukan ke sumber + bahan film/series
+
+Eksekusi:
+1. WebFetch 5 URL parallel — extract teks lengkap
+2. Simpan 5 file MD ke riset/sumber-primer/supplementary/jaka-tingkir-damar-shashangka/:
+   - jaka-tingkir-1.md: Demak berdiri 1478, Malaka jatuh 1511, Raden Yunus serang Malaka 1512 (kalah), Raden Patah wafat 1518, Raden Yunus terbunuh 1521, suksesi Pangeran Trenggana vs Raden Suryawiyata, tipu istri Sunan Kudus curi Keris Kyai Brongot Setan Kober, Pangeran Prawata bunuh Suryawiyata saat sembahyang Dzuhur di pinggir sungai, Pangeran Prawata buta mendadak (kutukan), anak yatim Suryawiyata diangkat Sunan Kudus → kelak Arya Penangsang
+   - jaka-tingkir-2.md: Fatahillah jadi Senopati Demak, rebut Sunda Kelapa 1527 → Jayakarta, Pajajaran jatuh 1543, Mas Karebet (25 thn, lahir 1499) di Tingkir, perjumpaan Sunan Kalijaga di pematang sawah (jubah hitam), ke Demak 1524 ikut Ki Ganjur, kejadian di masjid Jum'at
+   - jaka-tingkir-3.md: Uji adu 3 banteng (menang), jadi Lurah Prajurid Pengawal Sultan, pemberontakan Ki Ageng Sela (gagal karena jijik darah), selamatkan Sultan dari harimau + buaya, bunuh Dhadhung Awuk dengan sadak, diusir dari istana, Nimas Sekaring Kedhaton menangis
+   - jaka-tingkir-4.md: Tapa 7 hari di Pura Dalem Pengging, vision Ki Ageng Pengging + Nyi Ageng Pengging ("JALMA UTAMA TANSAH NETEPI ANGGERING DHARMA"), ke Padepokan Banyu Biru (dapat Aji Lembu Sekilan), rakit sungai ke Prawata, jumpa Arya Bahureksa (simbolik buaya, tembang Megatruh), sampai Butuh, wahyu keprabhon jatuh dari utara (Demak) ke atas kepala Jaka Tingkir yang tertidur
+   - jaka-tingkir-5.md TAMAT: Ki Ageng Butuh wejangan (sabar + legowo), sampai Prawata, bersekutu Kebo Andanu, siasat palsu serang Pesanggrahan, culik 2 prajurid, pertempuran Prawata (teriakan "JAYA MAJAPAHIT!!" + "PATENI WONG DEMAK!!!"), Kebo Andanu membangkang, duel maut dengan gamelan perang dibunyikan Sultan sendiri, keris Jaka Tingkir menancap di dada Kebo Andanu, teriakan terakhir "Jaya Majapahit!!!" + tersenyum, Jaka Tingkir jadi Adipati Pajang gelar Adipati Adiwijaya, Patih Mancanegara (Ki Mas Manca) + Patih Njero (Wila + Wuragil), nikah Nimas Sekaring Kedhaton, Sunan Kudus cap murtad + kaderkan Arya Penangsang untuk sequel
+
+3. Bikin master-era/JAKA-TINGKIR-damar-shashangka.md:
+   - Timeline kronologis 1478-1575 M (20+ kejadian)
+   - 20+ tokoh: protagonist (Mas Karebet, Ki Ageng Pengging, Nyi Ageng Tingkir, Ki Ganjur, Ki Ageng Banyu Biru, Ki Mas Manca, Arya Bahureksa, Ki Ageng Butuh, Sunan Kalijaga, Sultan Trenggana, Raden Patah, Fatahillah, Pangeran Hadiri, Ratu Kalinyamat, Nimas Sekaring Kedhaton, Ki Ageng Sela, Ki Ageng Pamanahan)
+   - antagonist: Sunan Kudus, Raden Suryawiyata, Pangeran Prawata, Raden Yunus, Dhadhung Awuk, Kebo Andanu, Arya Penangsang (setup sequel)
+   - 14+ lokasi: Demak Bintara, Cirebon, Banten, Pajajaran, Galuh, Talaga, Majapahit, Malaka, Pasai, Champa, Aceh, Jipang Panolan, Pajang, Pengging, Tingkir, Sela, Butuh, Kalinyamat, Pesantren Kudus, Jayakarta, Pegunungan Prawata, Pura Dalem Pengging, Padepokan Banyu Biru
+   - 7 benda pusaka: Keris Kyai Brongot Setan Kober, Keris Kyai Naga Sasra, Sadak, Bendera Surya Majapahit, Taksu Niskala Lingga Yoni, Wahyu Keprabhon, Aji Lembu Sekilan
+   - 5 tema: Putihan vs Abangan, Wahyu Keprabhon berpindah, Shiwa Buddha vs Islam sinkretisme, Siasat politik Wali Sangga, Leluhur Mataram (Tarub → Pajang → Mataram)
+   - Klaim dengan sitasi ke file+baris sumber
+
+4. Bikin produksi/pra-produksi/jaka-tingkir-series/SERIES-PLAN.md:
+   - 6 episode × 10-15 menit = 75-95 menit total
+   - EP1 "Demak Berdiri, Malaka Jatuh" (1478-1521)
+   - EP2 "Keris Setan Kober" (1521)
+   - EP3 "Pemuda dari Tingkir" (1524-1527)
+   - EP4 "Adu Banteng" (1527-1540)
+   - EP5 "Wahyu di Butuh" (1540-1543)
+   - EP6 "Duel di Prawata" (1543-1550, TAMAT)
+   - Asset requirements: 48 file T2I baru (19 K + 14 L + 6 A + 3 F + 6 S)
+   - Voice profiles per karakter (Jawa Dimas/Siti Neural + Indonesia Ardi)
+   - Cost $0 (reuse pipeline v3.1)
+   - Estimasi 30 jam kerja series
+
+5. Bikin riset/sumber-primer/supplementary/README.md — aturan pakai sumber supplementary
+
+Stage Summary:
+- 5 file sumber primer supplementary tersimpan (full text asli dari blog Damar Shashangka)
+- Master era parsing sistematis lengkap (timeline + tokoh + lokasi + benda pusaka + tema + klaim sitasi)
+- Series plan 6 episode siap produksi dengan pipeline v3.1
+- Sumber ini SEKUNDER (interpretasi blog), bukan primer Kemenbud 2025. Untuk drama OK, untuk dokumenter akademis perlu verifikasi Babad Tanah Jawi orisinal.
+- Continuity: KEN AROK prototype (era 2C, abad 13) → Jaka Tingkir series (era Pajang, abad 16) → setup sequel Arya Penangsang (era Mataram awal, abad 16 akhir)
+
+Pending Next:
+1. Mulai produksi EP1 "Demak Berdiri, Malaka Jatuh"
+2. Bikin master ref T2I baru untuk 48 karakter/lokasi/artefak
+3. Generate naskah EP1 dari master-era
+4. Storyboard JSON v3.1 untuk EP1
+5. Batch T2I + TTS + ffmpeg stitch → MP4 EP1
