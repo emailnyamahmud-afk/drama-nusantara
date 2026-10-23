@@ -2145,3 +2145,48 @@ Pending:
 - User download 12 image + 1 contact sheet PNG
 - User share 3 sample balik ke Z.ai untuk review kualitas
 - Kalau OK → Phase 6 (I2V) + Phase 7 (TTS) + Phase 8 (stitch)
+
+
+---
+Task ID: DOLA-SKILL-EXECUTION-DONE-2026-10-23
+Agent: Main Agent (Z.ai) + Dola AI skill
+Task: Eksekusi skill batch-storyboard-generator end-to-end untuk prototype 30s KEN AROK
+
+Work Log:
+- User trigger skill di Dola Brave browser: upload dola-batch.json + ketik "jalankan batch storyboard"
+- Skill auto-trigger → run parse_batch.py → manifest valid (6 ref + 6 frame)
+- Phase 1: generate 6 master ref image (text-only) — SEMUA BERHASIL
+- Download ke VM output dir: timeout, retry background, success
+- Gate check: PASS — all asset_id resolved (C001, C002, L001, L002, P001, P002)
+- Phase 2: generate 6 storyboard frame pakai image_edit + ref from Phase 1 — SEMUA BERHASIL
+- Phase 2 download issues: S001_seg01 missing, working dir salah, L001 truncated, S001_seg02 corrupt — ALL AUTO-FIXED via re-download
+- Contact sheet built (1488×1284) — L001 broken karena built sebelum re-download → rebuild ✅
+- Final deliver: 12 image + contact sheet via NotifyHuman
+
+VLM Analysis Results (4 sample analyzed):
+1. C001 Ken Arok (master ref) — A-TIER, 5-angle grid konsisten, wajah KONSISTEN antar angle
+2. S001_seg04 Prophecy (critical 2-karakter) — PASS EXCELLENT, Ken Arok + Lohgawe both konsisten vs ref
+3. L001 Hutan Tumapel (location ref) — PASS, no people, god rays, primal mood
+4. S001_seg01 Chase (konsistensi karakter) — PASS, Ken Arok konsisten, 3 prajurit + tombak
+
+Aspect ratio verification (12 image):
+- 4 K/L ref: 1920×1080 (16:9) ✅
+- 2 A prop: 1080×1080 (1:1) ✅
+- 6 storyboard frame: 1920×1080 (16:9) ✅
+- 100% sesuai spec, Dola baca field aspect_ratio per job dengan benar
+
+Stage Summary:
+- 12 image tersimpan di struktur repo lokal (di-gitignore):
+  produksi/t2i-output/master-reff/2C/*.jpg (6 file)
+  produksi/t2i-output/prototype-30s/*.jpg (6 file)
+  produksi/t2i-output/prototype-30s/contact-sheet.png (1 file backup)
+- Total size: 18 MB
+- Phase 5 (T2I Production) SELESAI untuk prototype 30s KEN AROK
+- Pipeline end-to-end terbukti: Riset → Master Era → Master Reff Prompts → Storyboard JSON → Dola Skill → 12 Image
+- Skill Dola handle semua issue (timeout, corrupt, missing, RPC error) via error handling spec
+
+Pending Next:
+- Iterate prompt for any image yang kurang (opsional)
+- Phase 6 (I2V) — pakai motion.prompt di storyboard.json
+- Phase 7 (TTS) — edge-tts voice id-ID-Ardi
+- Phase 8 (stitch) — ffmpeg 6 frame + TTS → 30s video

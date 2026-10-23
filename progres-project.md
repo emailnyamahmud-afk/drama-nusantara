@@ -80,6 +80,46 @@
 
 ---
 
+## Sesi 2026-10-23 (lanjutan 2) — PHASE 5 (T2I) SELESAI untuk Prototype 30s
+
+**Milestone**: Pipeline end-to-end Phase 1-5 terbukti jalan. 12 image berhasil di-generate Dola AI.
+
+**Eksekusi skill**:
+- User trigger di Dola Brave browser: upload dola-batch.json + "jalankan batch storyboard"
+- Skill auto-run: parse_batch.py → manifest valid (6 ref + 6 frame)
+- Phase 1 generate 6 master ref ✅ — 2 karakter + 2 lokasi + 2 prop
+- Gate check ✅ — all asset_id resolved
+- Phase 2 generate 6 storyboard frame ✅ — pakai ref phase 1
+- Issues di-auto-handle: download timeout, S001_seg01 missing, L001 truncated, S001_seg02 corrupt, RPC timeout 40s — semua di-retry background
+
+**VLM analysis 4 sample (semua PASS)**:
+- C001 Ken Arok: A-TIER, 5-angle konsisten, scar pipi kiri, leather armor, topknot
+- S001_seg04 Prophecy (2 karakter): EXCELLENT — Ken Arok + Lohgawe both konsisten vs ref
+- L001 Hutan Tumapel: PASS no-people, god rays, primal mood
+- S001_seg01 Chase: PASS, Ken Arok konsisten, 3 prajurit + tombak
+
+**Aspect ratio verification 100% sesuai spec**:
+- 4 K/L ref: 1920×1080 (16:9) ✅
+- 2 A prop: 1080×1080 (1:1) ✅
+- 6 storyboard frame: 1920×1080 (16:9) ✅
+
+**File tersimpan** (di-gitignore, lokal):
+- `produksi/t2i-output/master-reff/2C/*.jpg` (6 file, ~9 MB)
+- `produksi/t2i-output/prototype-30s/*.jpg` (6 file, ~10 MB)
+- `produksi/t2i-output/prototype-30s/contact-sheet.png` (backup)
+
+**Status Pipeline**:
+- Phase 1-5 ✅ SELESAI
+- Phase 6 (I2V): ⏳ Next — pakai motion.prompt
+- Phase 7 (TTS): ⏳ Next — edge-tts id-ID-Ardi
+- Phase 8 (Stitch): ⏳ Next — ffmpeg
+
+**Pending berikutnya**:
+- Pilih: iterate prompt / lanjut Phase 6 / Phase 7 / Phase 8 / scale-up
+- Skill Dola siap dipakai untuk produksi lain (era 2A, pilot Panji 3 menit, dll)
+
+---
+
 ## Sesi 2026-10-22 — Rewrite 2A Hindu-Buddha Awal
 
 **Konteks awal sesi**: Sandbox sync dengan GitHub (HEAD `9b3649d`). User minta: (1) buat `progres-project.md` (file ini), (2) lanjut rewrite lengkap era 2A-2C dari pola "koreksi" ke "rewrite lengkap" (pola sama dengan 1A-1D, 3A-3C, 4A-4B yang sudah selesai sesi sebelumnya).
