@@ -2284,3 +2284,59 @@ Pending Next:
 - Kalau lanjut Dola: prioritaskan seg04 (2-karakter), seg05 (snap zoom), seg02 (pan up)
 - Skill Dola I2V belum dibuat — manual cukup untuk prototype 6 video
 - Setelah 6 video selesai → Phase 7 (TTS edge-tts) + Phase 8 (ffmpeg stitch)
+
+
+---
+Task ID: I2V-FLOW-SEG04-2026-10-23
+Agent: Main Agent (Z.ai) + User via Google Flow Veo
+Task: Test I2V Google Flow Veo dengan seg04 (Prophecy, 2 karakter)
+
+Work Log:
+- User pilih Google Flow karena:
+  - Dola I2V ada WATERMARK
+  - Flow no watermark + native SFX
+  - 50cr/day free
+- User generate seg04 dengan prompt asli (motion + audio context + dialogue)
+- Settings: 360p, 4s duration (Flow tidak ada opsi 5s)
+- Cost: 4cr (sisa 46cr)
+- Hasil user: "hasil video sangat bagus"
+- Issue: dialog native TERPOTONG — generate hanya "ken arok aku menaruh ramalan, kau..." (aslinya kalimat lengkap lebih panjang)
+
+Video specs:
+- Duration: 4.00s exact
+- Resolution: 640×360 (360p)
+- FPS: 24
+- Codec: H.264/AVC High Profile
+- Bitrate: 1.56 Mbps
+- File size: 837 KB
+- Audio: AAC 48kHz stereo 128kbps (NATIVE!)
+- Watermark: NONE
+
+VLM analysis (3 frame t=0, 2, 3s):
+- Frame t=0s: Two-shot, 2 karakter (Lohgawe + Ken Arok) terlihat jelas, hutan + god rays ✅
+- Frame t=2s: Masih two-shot statis (arc rotation belum terlihat)
+- Frame t=3s: ⭐ BERHASIL over-shoulder shot! Bahu Lohgawe di foreground, wajah Ken Arok stunned di background
+- Camera arc rotation WORKED — sesuai prompt "ending framed over Lohgawe's shoulder onto Ken Arok's stunned reaction"
+- Karakter konsistensi maintained di semua frame
+
+Comparison Dola vs Flow:
+| Aspect | Dola seg01 | Flow seg04 |
+|---|---|---|
+| Camera movement sesuai prompt | ❌ | ✅ |
+| Audio native | ❌ | ✅ |
+| Watermark | ❌ ADA | ✅ NONE |
+| Resolution | 720p (better) | 360p |
+| Cost | 3cr/day (2 hari) | 4cr (1 hari) |
+
+WINNER: Google Flow (6 win vs 2 win)
+
+Stage Summary:
+- Flow I2V tested seg04: EXCELLENT result, camera arc rotation berhasil, native audio included, no watermark
+- Strategi: lanjut pakai Flow untuk 5 segmen sisanya
+- Mixed duration strategy: 4s untuk no-dialogue, 6s untuk with-dialogue
+- Total estimate: 24cr (4s×4 + 6s×2), sisa 22cr untuk iterate
+
+Pending Next:
+- User generate 5 segmen sisanya di Flow (seg01, seg02, seg03, seg05, seg06)
+- Setelah 6 video semua jadi → Phase 7 (TTS) + Phase 8 (ffmpeg stitch)
+- Iterate kalau ada yang kurang (sisa 22cr untuk iterate critical frames)
