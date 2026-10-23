@@ -1,0 +1,44 @@
+# I2V TEST — S001_seg01 (Chase Through Dense Woods)
+
+## Input Image
+Path: produksi/t2i-output/prototype-30s/S001_seg01.jpg
+Deskripsi: Ken Arok sprint di hutan, 3 prajurit kejar dengan tombak, motion blur, god rays
+
+## Motion Prompt (COPY-PASTE ke platform I2V)
+Camera tracks rapidly backward ahead of Ken Arok, keeping him centered as foliage whips past frame edges
+
+## Camera Direction
+rapid backward tracking, ahead of subject
+
+## Settings
+- Duration: 5 seconds
+- FPS: 24
+- Resolution: 480p (854×480) atau 720p (1280×720) — pilih hemat
+- Speed: fast
+
+## Model Options (urut paling hemat credits)
+1. Higgsfield Kling 3.0 480p — ~3-5 credits per 5s
+2. Higgsfield Seedance 1.5 480p — ~1 credit per 5s (paling hemat, quality lebih rendah)
+3. Higgsfield Kling 3.0 720p — ~7 credits per 5s (quality lebih bagus)
+4. Google Flow Veo Fast — ~5-10 credits per 5s (50cr/hari free)
+5. ReelCine Seedance 2.5 — free no signup (limit unclear, test dulu)
+6. Dola Seedance 2.5 — cek credits di akun
+
+## QC Checklist
+- [ ] Durasi video 5 detik (±0.5s)
+- [ ] Karakter Ken Arok konsisten vs input image (wajah, costum)
+- [ ] Motion blur terlihat (chase feel)
+- [ ] 3 prajurit dengan tombak di background (tidak hilang)
+- [ ] File size > 500KB (tidak corrupt)
+- [ ] Audio (kalau native): panting + twig snaps + soldier shouts
+
+## Audio Context (kalau model support native audio)
+Type: ambience
+BGM: tense tribal percussion building, fast tempo matching footstep rhythm
+SFX: heavy panting, twigs snapping, distant shouting soldiers, metallic armor rattle
+
+## Notes
+- Test ini untuk evaluate kualitas I2V sebelum commit ke full 6 video
+- Kalau 480p bagus → lanjut 5 segmen lainnya dengan 480p (paling hemat)
+- Kalau 480p jelek → coba 720p (Kling 3.0 720p ~7cr)
+- Kalau masih jelek → coba model lain (Seedance 2.0 / Veo)

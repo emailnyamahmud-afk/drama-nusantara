@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "P002-PROTOTYPE-30S",
+    "title": "Ken Arok: Takdir dari Tumapel — Prototype 30s — I2V Test Single",
+    "era": "2C Singasari-Kediri (abad 11-13 M)",
+    "duration_target_seconds": 5,
+    "resolution": "854x480",
+    "fps": 24,
+    "style": "cinematic realistic, Javanese period drama, dark-fantasy tones",
+    "date_created": "2026-10-22"
+  },
+  "instructions_for_agent": {
+    "purpose": "TEST single I2V generation untuk evaluate kualitas 480p sebelum commit ke full 6 video batch.",
+    "phase_i2v_test": {
+      "description": "Generate 1 video clip dari storyboard frame seg01 (chase scene).",
+      "count": 1,
+      "input": "image + motion_prompt",
+      "output": ".mp4 480p 5s",
+      "model_hint": "kling-3.0-480p atau model 480p lainnya (paling hemat credits). 480p OK untuk test quality."
+    },
+    "qc_check": "Cek: durasi 5s, character consistency (Ken Arok wajah), motion blur (chase feel), file size > 500KB"
+  },
+  "phases": [
+    {
+      "phase_id": "phase_i2v_test",
+      "name": "Test I2V Single Segment",
+      "parallel": false,
+      "depends_on": null,
+      "jobs": [
+        {
+          "job_id": "i2v-test-S001_seg01",
+          "phase": "i2v",
+          "segment_id": "S001_seg01",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Opening hook — establish chase & character",
+          "input_image_path": "produksi/t2i-output/prototype-30s/S001_seg01.jpg",
+          "motion_prompt": "Camera tracks rapidly backward ahead of Ken Arok, keeping him centered as foliage whips past frame edges",
+          "motion_camera": "rapid backward tracking, ahead of subject",
+          "motion_speed": "fast",
+          "audio_context": {
+            "type": "ambience",
+            "tts_text": "",
+            "tts_voice": null,
+            "bgm": "tense tribal percussion building, fast tempo matching footstep rhythm",
+            "sfx": "heavy panting, twigs snapping, distant shouting soldiers, metallic armor rattle"
+          },
+          "duration_seconds": 5,
+          "fps": 24,
+          "output_path": "produksi/i2v-output/prototype-30s/test-S001_seg01.mp4",
+          "model_suggestion": "kling-3.0-480p",
+          "resolution": "854x480",
+          "notes": "TEST single segment — S001_seg01 (chase, fast motion) — 480p untuk hemat credits"
+        }
+      ]
+    }
+  ],
+  "total_jobs": 1,
+  "summary": {
+    "total_clips": 1,
+    "total_duration_seconds": 5,
+    "estimasi_credits": "1-5 credits tergantung model (480p paling hemat)",
+    "platform_rekomendasi": "Higgsfield (Kling 3.0 480p ~3-5cr) atau Google Flow (5-10cr) atau ReelCine (free test)"
+  }
+}
