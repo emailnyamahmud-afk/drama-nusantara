@@ -80,6 +80,58 @@
 
 ---
 
+## Sesi 2026-10-23 (lanjutan 3) — STRATEGIC PIVOT: Image-Based Pipeline
+
+**User insight kritis** (seusai test I2V di Dola + Flow):
+1. I2V tidak skalabel: free tier max 30s-1min/hari. Untuk film panjang = mustahil
+2. T2I storyboard sudah OK di Flow+Dola (free unlimited), tinggal rapihkan workflow
+3. **Alternatif**: image + edge-tts + ffmpeg stitch = MP4 tanpa gen video. Cost $0 unlimited
+
+**User refine workflow** (4 step konkret):
+1. **Phase Pra-produksi JSON** = sumber ground of truth. Berisi: plan naskah, durasi + SRT, per segmen storyboard. User konfirmasi per segmen (mis. dialog Bahasa Jawa kurang ok = fix 1 segmen, bukan semua). edge-tts sudah support native Jawa: **Mas Neural** + **Siti Neural**.
+2. **Batch T2I + Batch TTS** = kalau JSON sudah OK, jalankan batch generate (Dola/Flow untuk image, edge-tts untuk audio)
+3. **Stitch lokal via ffmpeg** di MacBook. Atau AI bisa buat TUI (textual user interface) untuk tab-tab dan geser-geser
+4. **Kalau ffmpeg ok = done**. Kalau belum, user edit manual di **DaVinci Resolve** (free)
+
+**AI validasi 100%** dengan matematika kebrutalan:
+- 10 menit video = 600cr Flow (12 hari) atau $10 Higgsfield
+- 30 menit dokumenter = 1800cr (36 hari) atau $30
+- Series 6 ep × 30 min = 10800cr (216 hari!) atau $180
+- Image-based = $0 untuk any length, dipakai channel YouTube besar (Kings and Generals, History Time, dll)
+
+**Update arsitektur pipeline** (8 phase → 7 phase):
+- ~~Phase 6 I2V~~ → **REMOVED** untuk long-form (keep only untuk short ≤60s opsional)
+- ~~Phase 7 TTS + Phase 8 Stitch~~ → **MERGED jadi Phase 6+7 baru**
+
+**JSON schema v3.0** (backward compatible dengan v2.0):
+- Tambahan field: `voice_profiles{}` (karakter → edge-tts voice setting, termasuk Jawa Neural)
+- `image.ken_burns{}` (zoom/pan spec per image)
+- `tts.srt_start` / `tts.srt_end` (timing sinkronisasi)
+- `transition_out{}` (cut/dissolve/fade)
+- `bgm_track` per scene
+- `color_palette[]` per scene
+
+**Voice profile edge-tts**:
+- Narrator: id-ID-Ardi (default)
+- Karakter perempuan: id-ID-Gadis
+- Bahasa Jawa: jv-ID-MasNeural (laki-laki), jv-ID-SitiNeural (perempuan)
+
+**Files updated**:
+- README.md: workflow 7 phase image-based, "Mengapa Image-Based" section, industry references
+- STRATEGIC-PIVOT-IMAGE-BASED.md: pivot strategis dengan matematika + arsitektur
+- progres-project.md (file ini)
+
+**Pending berikutnya**:
+1. User konfirmasi pivot strategis
+2. Pilih produksi pertama (saran: Ken Arok Series EP1 10 menit)
+3. AI tulis JSON schema v3.0 spec lengkap
+4. AI bikin `scripts/generate_series_json.py` + `generate_tts_batch.py` + `stitch_episode.py` + opsional `tui_editor.py`
+5. AI tulis naskah EP1 dari master-era/2C-singasari-kediri.md
+6. User review naskah + approve per segmen
+7. Generate T2I + TTS + ffmpeg stitch → MP4 EP1 final
+
+---
+
 ## Sesi 2026-10-23 (lanjutan 2) — PHASE 5 (T2I) SELESAI untuk Prototype 30s
 
 **Milestone**: Pipeline end-to-end Phase 1-5 terbukti jalan. 12 image berhasil di-generate Dola AI.

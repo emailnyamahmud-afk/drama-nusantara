@@ -325,3 +325,226 @@ Sebelum commit pivot ini, mohon konfirmasi:
 **AI agree 100%**. Matematika kebrutalan I2V tidak mendukung produksi panjang. Channel-channel besar (Kings and Generals, History Time) buktikan teknik image-based berjalan di scale.
 
 **Action**: Komit pivot ini, mulai rancang JSON v3.0, plan produksi pertama.
+
+---
+
+## 11. User Refinement — 4 Step Workflow Final (2026-10-23)
+
+Setelah diskusi lanjutan, user refine workflow menjadi **4 step konkret** yang lebih granular:
+
+### Step 1: Phase Pra-produksi JSON = SINGLE SOURCE OF TRUTH
+
+**Filosofi**: JSON adalah ground truth. Kalau 1 segmen error, user fix 1 segmen itu saja, tidak perlu regenerate semua.
+
+**Isi JSON per segmen**:
+- Plan naskah (sudah ada dari Phase 1-2 master-era)
+- Durasi + SRT timing per segmen (kapan mulai, kapan selesai)
+- Storyboard per segmen (T2I prompt + visual spec)
+- Voice profile per karakter (mapping ke edge-tts voice)
+- Ken Burns effect per image (zoom direction, speed)
+- Transitions antar segmen (cut/dissolve/fade)
+- BGM per scene
+
+**User konfirmasi per segmen**:
+- Buka JSON di editor (TUI atau text editor)
+- Review 1 segmen: cek naskah, dialog, SRT timing, image prompt
+- Kalau ada yang kurang (mis. dialog Bahasa Jawa terlalu kaku) → edit field itu
+- Approve 1 segmen → lanjut segmen berikutnya
+- Tidak ada "regenerate all" — fix granular
+
+### Step 2: Batch T2I + Batch TTS
+
+Kalau JSON sudah fully approved per segmen, jalankan batch:
+
+**Batch T2I** (image generation):
+- Pakai skill Dola `batch-storyboard-generator` (sudah jadi + teruji)
+- Atau pakai Google Flow (free, no watermark)
+- Output: 1 .jpg per segmen di `produksi/t2i-output/<project>/`
+
+**Batch TTS** (audio generation):
+- Pakai edge-tts (Microsoft Azure TTS, free unlimited)
+- Voice profile per karakter:
+  - **Narrator**: `id-ID-Ardi` (default Indonesia)
+  - **Perempuan** (Ken Dedes, dll): `id-ID-Gadis`
+  - **Bahasa Jawa laki-laki**: `jv-ID-MasNeural` ⭐ native Jawa
+  - **Bahasa Jawa perempuan**: `jv-ID-SitiNeural` ⭐ native Jawa
+- Output: 1 .mp3 per segmen di `produksi/tts-output/<project>/`
+
+**Important**: Edge-tts sudah support **native Bahasa Jawa** (Mas/Siti Neural). Cocok untuk dialog historis yang autentik.
+
+### Step 3: Stitch Lokal via ffmpeg di MacBook
+
+**Opsi A — ffmpeg command line**:
+```bash
+# Composite image + TTS + BGM + Ken Burns + transitions
+ffmpeg -loop 1 -i seg01.jpg -i seg01.mp3 -i bgm.mp3 \
+  -filter_complex "[0:v]zoompan=z='min(zoom+0.0006,1.15)':d=125:s=1920x1080:fps=24[v]; \
+                   [1:a][2:a]amix=inputs=2:duration=first[a]" \
+  -map "[v]" -map "[a]" -t 8 -c:v libx264 -c:a aac seg01.mp4
+
+# Concat semua segmen
+ffmpeg -f concat -safe 0 -i segment_list.txt -c copy episode1.mp4
+```
+
+**Opsi B — TUI Editor** (AI bisa buatkan):
+- Python TUI pakai `textual` atau `rich` library
+- User bisa tab-tab antar segmen
+- Preview segmen (image + audio)
+- Drag-drop reorder segmen
+- Adjust Ken Burns params visually
+- Approve per segmen
+- One-click "render all" → ffmpeg
+
+**Saran AI**: Kalau user mau, AI bisa buat TUI sederhana pakai `textual` (Python). Cost dev 4-8 jam. Manfaat: jauh lebih intuitif dari edit JSON mentah.
+
+### Step 4: Final Review — Done atau DaVinci Resolve
+
+- **Kalau ffmpeg output OK** → DONE, video siap publish
+- **Kalau perlu fine-tune manual** → import ke DaVinci Resolve (free):
+  - Adjust color grading per scene
+  - Trim segmen lebih presisi
+  - Add effects/transitions custom
+  - Audio mixing lebih advanced
+  - Export final MP4
+
+**DaVinci Resolve** = NLE (Non-Linear Editor) free terbaik, dipakai industri film profesional. Alternatif: Premiere Pro (berbayar), Final Cut Pro (Mac only, berbayar).
+
+---
+
+## 12. Schema v3.0 — Field Tambahan untuk User Refinement Workflow
+
+Field baru untuk support 4 step workflow user:
+
+```json
+{
+  "schema_version": "3.0",
+  
+  "voice_profiles": {
+    "narrator": {
+      "edge_tts_voice": "id-ID-Ardi",
+      "speed": "1.0",
+      "pitch": "0",
+      "emotion": "neutral",
+      "language": "id"
+    },
+    "ken_arok": {
+      "edge_tts_voice": "jv-ID-MasNeural",  // ⭐ Native Jawa untuk dialog historis
+      "speed": "1.05",
+      "pitch": "+2",
+      "emotion": "confident",
+      "language": "jv"
+    },
+    "ken_dedes": {
+      "edge_tts_voice": "jv-ID-SitiNeural",  // ⭐ Native Jawa perempuan
+      "speed": "0.95",
+      "pitch": "-3",
+      "emotion": "melancholic",
+      "language": "jv"
+    }
+  },
+  
+  "segments": [
+    {
+      "segment_id": "EP1-S001-SEG01",
+      "approved": false,  // ⭐ User approval flag per segmen
+      "duration_seconds": 8,
+      "srt_timing": {
+        "start": "00:00:00,000",
+        "end": "00:00:08,000"
+      },
+      "image": {
+        "t2i_prompt": "...",
+        "image_path": "produksi/t2i-output/ep1/EP1-S001-SEG01.jpg",
+        "ken_burns": {
+          "effect": "zoom_in",  // zoom_in / zoom_out / pan_left / pan_right / static
+          "start_zoom": 1.0,
+          "end_zoom": 1.15,
+          "pan_direction": "none",
+          "speed": "slow"
+        }
+      },
+      "tts": {
+        "speaker": "narrator",
+        "voice_profile": "narrator",
+        "text": "Tahun 1222 masa Saka...",
+        "tts_path": "produksi/tts-output/ep1/EP1-S001-SEG01.mp3",
+        "language": "id"
+      },
+      "transition_out": {
+        "type": "cross_dissolve",  // cut / cross_dissolve / fade_to_black / fade_to_white
+        "duration_seconds": 0.5
+      },
+      "bgm_track": "produksi/bgm/tense_tribal_percussion.mp3",
+      "user_notes": ""  // ⭐ User bisa tambah note per segmen
+    }
+  ]
+}
+```
+
+### Field penting untuk workflow user:
+- `approved: false/true` — flag approval per segmen (user bisa tab approved)
+- `srt_timing{}` — timing SRT untuk sinkronisasi subtitle
+- `voice_profiles{}` — mapping ke edge-tts voice (termasuk Jawa Neural)
+- `ken_burns{}` — spec efek zoom/pan
+- `transition_out{}` — transition ke segmen berikutnya
+- `user_notes` — catatan user per segmen (untuk iterate)
+
+---
+
+## 13. Next Actions Final (Update 2026-10-23)
+
+### Segera (1-2 hari):
+1. ✅ Komit pivot strategis di repo (DONE — file ini)
+2. ✅ Update README.md + progres-project.md (DONE)
+3. 🆕 Tulis JSON schema v3.0 spec lengkap (terpisah dari file ini)
+4. 🆕 Bikin `scripts/generate_series_json.py` (template + sample EP1)
+5. 🆕 Bikin `scripts/generate_tts_batch.py` (edge-tts loop dengan voice_profiles)
+6. 🆕 Bikin `scripts/stitch_episode.py` (ffmpeg composite + Ken Burns)
+7. 🆕 (Opsional) Bikin `scripts/tui_editor.py` (TUI pakai `textual`)
+
+### Minggu ini:
+1. User konfirmasi pivot strategis
+2. Pilih produksi pertama (saran: Ken Arok Series EP1 10 menit)
+3. AI tulis naskah EP1 dari master-era/2C-singasari-kediri.md
+4. AI generate JSON v3.0 dari naskah (template)
+5. User review JSON per segmen, approve atau fix
+6. Generate T2I via Dola skill (reuse existing)
+7. Generate TTS via edge-tts (native Jawa voice)
+8. Stitch via ffmpeg atau TUI
+9. Review MP4 final → iterate atau publish
+
+### Series kerja (2-4 minggu):
+- 6 episode Ken Arok Series jadi
+- Pipeline terbukti skalabel dengan cost $0
+- Reusable untuk era lain (2A, 3A, 4A, dll)
+
+---
+
+## 14. Edge-TTS Voice Reference (Untuk voice_profiles)
+
+### Bahasa Indonesia (id-ID):
+- `id-ID-Ardi` — Male, neutral (default narrator)
+- `id-ID-Gadis` — Female, neutral (perempuan default)
+
+### Bahasa Jawa (jv-ID) ⭐ Native:
+- `jv-ID-MasNeural` — Male, Jawa halus (untuk Brahmana, raja, tokoh tua)
+- `jv-ID-SitiNeural` — Female, Jawa halus (untuk ratu, putri)
+
+### Cara pakai di edge-tts:
+```python
+import edge_tts
+
+# Narrator Indonesia
+communicate = edge_tts.Communicate("Teks narasi...", "id-ID-Ardi")
+await communicate.save("narrator.mp3")
+
+# Dialog Jawa Ken Arok
+communicate = edge_tts.Communicate("Dhuh, Gusti...", "jv-ID-MasNeural")
+await communicate.save("ken_arok.mp3")
+
+# Dialog Jawa Ken Dedes
+communicate = edge_tts.Communicate("Sampun, Gusti...", "jv-ID-SitiNeural")
+await communicate.save("ken_dedes.mp3")
+```
+
+**Note**: edge-tts butuh Python + `pip install edge-tts`. Free unlimited, no API key needed.

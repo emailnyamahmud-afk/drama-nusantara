@@ -2,33 +2,61 @@
 
 > Riset sejarah untuk produksi drama/dokumenter Nusantara berbasis buku **Sejarah Indonesia: Dinamika Kebangsaan dalam Arus Global** (Kementerian Kebudayaan RI, 2025)
 
-## 8 Phase Pipeline
+## 7 Phase Pipeline (Image-Based — Updated 2026-10-23)
 
 ```
 1. SUMBER PRIMER          → baca Jilid 1-5 (Kemenbud 2025) — hanya file asli, no ringkasan           ✅
    ↓
 2. MASTER ERA             → tiap era = parsing sistematis sumber primer → narasi + tokoh + latar    ✅
    ↓
-3. MASTER REFF T2I        → prompt universal per era: K (karakter), S (kelompok), L (lokasi), A (artefak), F (fauna)  🔄
+3. MASTER REFF T2I        → prompt universal per era: K (karakter), S (kelompok), L (lokasi), A (artefak), F (fauna)  ✅
    ↓
-4. PRA-PRODUKSI           → narasi + storyboard JSON per produksi (dokumenter / series)                ⏳
+4. PRA-PRODUKSI JSON      → JSON = single source of truth (SoT):
+                             - plan naskah per episode
+                             - durasi + SRT timing per segmen
+                             - storyboard per segmen
+                             - voice profile per karakter (edge-tts: Ardi, Gadis, + Jawa: Mas/Nati Neural)
+                             - Ken Burns effect per image
+                             - transitions antar segmen
+                             - BGM per scene
+                             User konfirmasi per segmen (fix 1 segmen = tidak regenerate semua)        ⏳
    ↓
-5. PRODUKSI T2I           → generate image per segmen storyboard (Dola AI)                             ⏳
+5. PRODUKSI T2I          → batch generate image per segmen (Dola AI free / Google Flow free)         ⏳
    ↓
-6. PRODUKSI I2V           → image-to-video per segmen                                                ⏳
+6. PRODUKSI TTS           → batch generate voice per segmen via edge-tts (free unlimited, native Jawa)  ⏳
    ↓
-7. PRODUKSI TTS           → voice over (narrator edge-tts / multi-voice untuk dialog)                  ⏳
-   ↓
-8. PASCA PRODUKSI         → stitch video per segmen (ffmpeg / DaVinci Resolve)                        ⏳
+7. PASCA-PRODUKSI         → stitch image + TTS + BGM via ffmpeg lokal di MacBook
+                             - Ken Burns effect (zoom/pan)
+                             - transitions antar segmen
+                             - Kalau perlu fine-tune manual → DaVinci Resolve (free)                  ⏳
 ```
 
-**Aturan:** JSON = single source of truth. T2I, I2V, TTS hanya mengikuti JSON. User edit JSON kalau perlu.
+**PERUBAHAN PENTING (2026-10-23):**
+- ~~Phase 6 I2V~~ → **REMOVED** untuk long-form (tidak skalabel: 10 menit = 600cr Flow atau $10 Higgsfield)
+- ~~Phase 7 TTS + Phase 8 Stitch~~ → **MERGED jadi Phase 6+7 baru**
+- I2V hanya untuk short-form opsional (trailer/teaser ≤60s)
 
-**Workflow:** diskusi di Z.ai chat → AI push GitHub → user pull → user generate di Dola AI (free unlimited image) → asset lokal saja (di-gitignore).
+**Aturan:** JSON = single source of truth. Kalau 1 segmen error, user fix 1 segmen itu saja (edit field di JSON), re-generate T2I/TTS untuk segmen itu, re-stitch lokal. Tidak perlu redo semuanya.
 
-**Status saat ini**: Era 1A-1D + 2A-2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (16 era, ~220.000 kata, 1.496 klaim). Hanya 4C-4E BLOCKED menunggu Jilid VI-X. T2I prompts sudah dibuat untuk 1A-3B (3C+4A+4B belum).
+**Workflow:** diskusi di Z.ai chat → AI push GitHub → user pull → user generate di Dola AI/Flow (free unlimited image) → edge-tts (free unlimited TTS) → ffmpeg stitch lokal → aset lokal saja (di-gitignore).
+
+**Status saat ini**: Era 1A-1D + 2A-2D + 3A-3C + 4A-4B sudah di-rewrite/expand lengkap (16 era, ~220.000 kata, 1.496 klaim). Hanya 4C-4E BLOCKED menunggu Jilid VI-X. T2I prompts sudah dibuat untuk 1A-4B (220 file v2.1). Prototype 30s KEN AROK sudah teruji end-to-end (12 image Dola + 2 I2V video: Dola seg01 + Flow seg04).
 
 **BLOCKED**: Era 4C-4E (Pergerakan Kebangsaan → Orde Baru) tidak dapat dikerjakan karena **Jilid VI-X belum terbit** (Kementerian Kebudayaan RI 2025). Jilid V secara eksplisit menyebut di Bab VII line 558: "Jilid berikutnya, 'Jilid VI: Pergerakan Kebangsaan', akan menelusuri fase ketika kesadaran tersebut menemukan bentuk organisasinya." Folder `riset/sumber-primer/jilid-6/` belum ada.
+
+## Mengapa Image-Based (Bukan I2V)?
+
+**Matematika I2V tidak skalabel** untuk produksi panjang:
+- 10 menit video = 600cr Flow (12 hari free) atau $10 Higgsfield
+- 30 menit dokumenter = 1800cr (36 hari) atau $30
+- Series 6 ep × 30 min = 10800cr (216 hari!) atau $180
+
+**Image-based pipeline cost $0 untuk any length**, dipakai channel YouTube besar:
+- Kings and Generals (1.5M subs) — image still + Ken Burns + voice over
+- History Time (800K subs) — image pan + narration
+- The Armchair Historian (400K subs) — image pan + Ken Burns + TTS
+
+**Hybrid strategy**: ≤60s pakai I2V (high impact), \>60s pakai image-based (unlimited).
 
 ## Struktur Repo
 

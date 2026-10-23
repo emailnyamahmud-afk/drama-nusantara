@@ -2340,3 +2340,49 @@ Pending Next:
 - User generate 5 segmen sisanya di Flow (seg01, seg02, seg03, seg05, seg06)
 - Setelah 6 video semua jadi → Phase 7 (TTS) + Phase 8 (ffmpeg stitch)
 - Iterate kalau ada yang kurang (sisa 22cr untuk iterate critical frames)
+
+
+---
+Task ID: STRATEGIC-PIVOT-DOC-UPDATE-2026-10-23
+Agent: Main Agent (Z.ai)
+Task: Update dokumentasi setelah user refine workflow 4-step konkret
+
+Work Log:
+- User clarify workflow final setelah strategic pivot:
+  1. JSON = single source of truth (SoT), per segmen. User konfirmasi per segmen (fix 1 segmen = tidak regenerate all)
+  2. Kalau JSON OK → batch T2I + batch TTS
+  3. Stitch lokal di MacBook via ffmpeg (atau AI buat TUI untuk tab-tab + geser-geser)
+  4. Kalau ffmpeg OK = done. Kalau belum, edit manual di DaVinci Resolve (free)
+
+- User insight penting: edge-tts sudah support native Jawa:
+  - jv-ID-MasNeural (laki-laki Jawa halus)
+  - jv-ID-SitiNeural (perempuan Jawa halus)
+  Cocok untuk dialog historis yang autentik (Ken Arok, Ken Dedes, dll)
+
+- Update file dokumentasi:
+  - README.md: 7 phase pipeline (dari 8 phase), section "Mengapa Image-Based" dengan matematika + industry references (Kings and Generals, History Time, dll)
+  - progres-project.md: entry sesi 2026-10-23 (lanjutan 3) — strategic pivot dengan 4 step user refinement
+  - STRATEGIC-PIVOT-IMAGE-BASED.md: tambah section 11 (User Refinement 4-step), section 12 (Schema v3.0 field tambahan dengan approved flag + user_notes), section 13 (next actions final), section 14 (edge-tts voice reference Jawa Neural)
+
+- Schema v3.0 field tambahan penting:
+  - `approved: false/true` — flag approval per segmen (user bisa tab approve)
+  - `srt_timing{}` — SRT format timing
+  - `voice_profiles{}` — mapping ke edge-tts voice (id-ID + jv-ID)
+  - `ken_burns{}` — zoom/pan spec per image
+  - `transition_out{}` — cut/dissolve/fade
+  - `user_notes` — catatan user per segmen untuk iterate
+
+Stage Summary:
+- Dokumentasi up-to-date dengan workflow image-based + JSON SoT granular
+- 4 step workflow user ter-catat dengan clear:
+  1. Pra-produksi JSON (per segmen approve)
+  2. Batch T2I + TTS
+  3. ffmpeg stitch lokal (opsional: TUI pakai textual)
+  4. Done atau DaVinci Resolve untuk fine-tune
+- Voice profile edge-tts support native Jawa (Mas/Siti Neural) — fitur penting untuk dialog autentik era Singasari-Majapahit
+- Next: tulis JSON schema v3.0 spec lengkap + 4 script generator (generate_series_json, generate_tts_batch, stitch_episode, opsional tui_editor)
+
+Files Updated:
+- README.md (rewrite workflow 7 phase)
+- progres-project.md (entry baru pivot strategis)
+- STRATEGIC-PIVOT-IMAGE-BASED.md (4 step user refinement + schema v3.0 + edge-tts reference)
