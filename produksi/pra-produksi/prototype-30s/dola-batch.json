@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "P002-PROTOTYPE-30S",
+    "title": "Ken Arok: Takdir dari Tumapel — Prototype 30s",
+    "era": "2C Singasari-Kediri (abad 11-13 M)",
+    "duration_target_seconds": 30,
+    "resolution": "1920x1080",
+    "fps": 24,
+    "style": "cinematic realistic, Javanese period drama, dark-fantasy tones",
+    "date_created": "2026-10-22"
+  },
+  "instructions_for_agent": {
+    "purpose": "Batch generate all images untuk prototype 30 detik. 2 phase berurutan dengan dependency.",
+    "phase_1_master_ref": {
+      "description": "Generate 6 master reference images. Tidak ada dependency — boleh parallel.",
+      "count": 6,
+      "input": "text prompt only (no image input)",
+      "output": "save each image to its output_path",
+      "model_setting": "Seedream 4.5, aspect_ratio per job"
+    },
+    "phase_2_storyboard_frame": {
+      "description": "Generate 6 storyboard frames. Setiap frame butuh ref image dari phase 1 sebagai input.",
+      "count": 6,
+      "input": "text prompt + ref images (upload ref images yang sesuai ref_image_inputs)",
+      "ref_image_rule": "Hanya asset dengan include_inspiration_in_image_gen=true yang perlu diupload sebagai ref. Karakter utama = true (konsistensi wajah). Prop sekunder = false (hemat token).",
+      "output": "save each image to its output_path",
+      "depends_on_phase": "phase_1_master_ref (must complete first)"
+    },
+    "execution_order": "phase_1_master_ref (parallel) → phase_2_storyboard_frame (parallel after phase 1 done)",
+    "output_organization": {
+      "master_ref": "produksi/t2i-output/master-reff/2C/",
+      "storyboard_frame": "produksi/t2i-output/prototype-30s/"
+    }
+  },
+  "phases": [
+    {
+      "phase_id": "phase_1_master_ref",
+      "name": "Generate Master Reference Images",
+      "parallel": true,
+      "depends_on": null,
+      "jobs": [
+        {
+          "job_id": "ref-C001",
+          "phase": "master_ref",
+          "asset_id": "C001",
+          "asset_name": "Ken Arok",
+          "asset_type": "character",
+          "prompt_file": "2C-K002-ken-arok.txt",
+          "prompt": "Cinematic realistic character reference sheet of Ken Arok / Ranggah Rajasa, founder of Singhasari, 13th century AD (1222), Tumapel, East Java — founder of Singhasari kingdom, shown in 5 different angles arranged in a horizontal grid layout on a clean solid light cream studio background. Layout: left-to-right — frontal face close-up, full body front view, side face profile close-up, side full body view holding the Keris Mpu Gandring (cursed keris of legend), back full body view. All 5 angles show the exact same single character, same costume, same physical features, same identity. Male, 25-35 years old, Javanese phenotype with golden brown skin, sharp ambitious features, intense determined eyes. Black hair in simple topknot (not yet royal — commoner origin). Lean muscular build from military life. Scar on left cheek from combat. Tattoo marks on arms (commoner tradition). Wearing simple warrior attire: leather chest armor, woven cloth kain, simple iron keris at waist. After becoming king: gold makuta, gold necklace, red silk kemben. The character bridges commoner-to-king transformation. Clean studio background, no environment, no historical setting, no other characters.\n\nLighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting for character reference, no dramatic lighting.\n\nMood: neutral studio reference, character turnaround for production consistency. Rags to raja — Ken Arok, the commoner who killed Tunggul Ametung, became king of Tumapel, and defeated Kadiri in 1222. Sri Ranggah Rajasa Bhatara Sang Amurwabhumi — founder of the Rajasa dynasty that would produce both Singhasari and Majapahit kings.\n\nStyle: photorealistic skin texture with visible pores and imperfections, 35mm film grain, deep depth of field f/8, 50mm lens, 8K hyperdetailed, color graded neutral, production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.\n\nAvoid: dramatic lighting, environment background, historical setting, multiple different characters, inconsistent costume between angles, modern clothing, anime style, cartoon, 3D render, plastic skin, deformed hands, extra fingers, watermark, text, signature, low resolution, blurry, oversaturated.",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": false,
+          "ref_image_inputs": [],
+          "output_path": "produksi/t2i-output/master-reff/2C/C001-2C-K002-ken-arok.jpg",
+          "notes": "Character ref sheet 5-angle horizontal untuk Ken Arok"
+        },
+        {
+          "job_id": "ref-C002",
+          "phase": "master_ref",
+          "asset_id": "C002",
+          "asset_name": "Dang Hyang Lohgawe",
+          "asset_type": "character",
+          "prompt_file": "2C-K007-dang-hyang-lohgawe.txt",
+          "prompt": "Cinematic realistic character reference sheet of Dang Hyang Lohgawe, a South East Asian Brahmin ascetic in his early 60s, Hindu sage from India who traveled to 13th century East Java seeking the destined ruler — shown in 5 different angles arranged in a horizontal grid layout on a clean solid light cream studio background. Layout: left-to-right — frontal face close-up, full body front view, side face profile close-up, side full body view holding a carved wooden staff (danda), back full body view. All 5 angles show the exact same single character, same costume, same physical features, same identity. Male, early 60s, lean sinewy build from decades of ascetic practice. Sun-weathered tan skin, prominent cheekbones, sharp piercing dark brown eyes beneath thick graying eyebrows. Long iron-gray hair tied into a high traditional Brahmin topknot, flowing untrimmed white beard reaching his collarbone. Draped in a tattered off-white unbleached cotton robe wrapped across the left shoulder in traditional Brahmin style, paired with a matching loose dhoti-style wrap reaching his calves. Long rosary of carved dark brown rudraksha beads around his neck. Bare feet with worn leather thong sandals tied at the ankles. Calm, penetrating, spiritual presence. Clean studio background, no environment, no historical setting, no other characters.\n\nLighting: studio 5500K even key light from above-front, soft fill from left, low ambient. Even neutral lighting for character reference, no dramatic lighting.\n\nMood: neutral studio reference, character turnaround for production consistency. Revered sage who recognizes Ken Arok as the avatar of Vishnu destined for kingship — calm authority, piercing wisdom.\n\nStyle: photorealistic skin texture with visible pores and wrinkles, sun-damage texture, 35mm film grain, deep depth of field f/8, 50mm lens, 8K hyperdetailed, color graded neutral, production reference aesthetic. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.\n\nAvoid: dramatic lighting, environment background, historical setting, multiple different characters, inconsistent costume between angles, modern clothing, anime style, cartoon, 3D render, plastic skin, deformed hands, extra fingers, watermark, text, signature, low resolution, blurry, oversaturated, jewelry, royal ornaments, ornate fabrics.",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": false,
+          "ref_image_inputs": [],
+          "output_path": "produksi/t2i-output/master-reff/2C/C002-2C-K007-dang-hyang-lohgawe.jpg",
+          "notes": "Character ref sheet 5-angle horizontal untuk Dang Hyang Lohgawe"
+        },
+        {
+          "job_id": "ref-L001",
+          "phase": "master_ref",
+          "asset_id": "L001",
+          "asset_name": "Hutan Tumapel",
+          "asset_type": "location",
+          "prompt_file": "2C-L008-hutan-tumapel.txt",
+          "prompt": "Cinematic realistic location reference of Hutan Tumapel, a sprawling tropical teak forest in 13th century East Java — NO people, NO characters, NO humans, empty location reference. Towering teak trees with dry peeling bark, dense canopy filtering harsh midday sun into sharp diagonal god rays cutting through mist. Tangled thorny undergrowth, ferns, vines, moss-covered fallen logs spanning across narrow dirt trails. Ground is dry sun-baked earth mixed with patches of damp mud, scattered with golden-brown teak leaves. Limestone boulders half-buried in undergrowth. A narrow winding footpath worn into the forest floor, suggesting frequent foot traffic. Distant misty forest layers creating depth. Wild, untamed, primal Javanese woodland at the height of dry season.\n\nLighting: harsh midday sun, ~5500K, strong directional god rays from upper-right at 45 degrees, high contrast with deep shadows in undergrowth, volumetric atmospheric haze. Raking light catching dust motes.\n\nMood: ancient, primal, foreboding yet sacred. A forest where bandits hide and sages appear. Setting for the legendary encounter between Ken Arok and Dang Hyang Lohgawe.\n\nStyle: photorealistic natural texture, 24mm wide-angle lens, deep depth of field f/11, hyperdetailed foliage, 8K, cinematic color grade warm earthy tones with golden god rays. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.\n\nAvoid: people, humans, characters, figures, silhouettes, modern buildings, modern roads, vehicles, plastic-looking foliage, cartoon, anime, 3D render, oversaturated greens, watermark, text, low resolution, blurry.",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": false,
+          "ref_image_inputs": [],
+          "output_path": "produksi/t2i-output/master-reff/2C/L001-2C-L008-hutan-tumapel.jpg",
+          "notes": "Location ref (no people) untuk Hutan Tumapel"
+        },
+        {
+          "job_id": "ref-L002",
+          "phase": "master_ref",
+          "asset_id": "L002",
+          "asset_name": "Pendopo Kediaman Akuwu Tumapel",
+          "asset_type": "location",
+          "prompt_file": "2C-L009-pendopo-akuwu-tumapel.txt",
+          "prompt": "Cinematic realistic location reference of Pendopo Kediaman Akuwu Tumapel, the audience hall of the Akuwu (regent) of Tumapel in 13th century East Java — NO people, NO characters, NO humans, empty location reference. Cavernous open-sided pendopo with massive carved teakwood pillars supporting a steeply pitched ijuk (palm fiber) thatched roof. Polished hard-packed earth floor with intricate geometric stone carvings inset at the center. Raised dais at the far end with an ornate carved wooden throne inlaid with semiprecious stones. Stone steps leading up to the dais. Woven bamboo wall panels between pillars at the back. Bronze oil lamps and torches mounted on iron brackets along pillars. Decorative pendopo fabric banners in deep crimson and gold hanging between pillars. Sunlight streams through open sides creating dramatic shafts of light across the stone floor. Distant view of tropical garden through the open archways. Cavernous, hushed, oppressive atmosphere of a petty tyrant's court.\n\nLighting: mixed — warm 3200K torchlight from oil lamps on pillars, cool 5500K daylight streaming through open sides, high contrast between shadow and light. Volumetric god rays from side openings. Cinematic chiaroscuro.\n\nMood: oppressive grandeur, hushed anticipation, tyrant's domain. Setting where Ken Arok first sees Ken Dedes and is struck by the prophecy of her divine radiance.\n\nStyle: photorealistic architectural detail, 24mm wide-angle lens, deep depth of field f/11, 8K hyperdetailed wood grain and stone texture, cinematic color grade warm torchlight against cool daylight. Aspect ratio 16:9 horizontal. High detail, 4K, sharp focus.\n\nAvoid: people, humans, characters, figures, silhouettes, modern furniture, electric lights, glass windows, concrete, steel, plastic, cartoon, anime, 3D render, watermark, text, low resolution, blurry.",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": false,
+          "ref_image_inputs": [],
+          "output_path": "produksi/t2i-output/master-reff/2C/L002-2C-L009-pendopo-akuwu-tumapel.jpg",
+          "notes": "Location ref (no people) untuk Pendopo Kediaman Akuwu Tumapel"
+        },
+        {
+          "job_id": "ref-P001",
+          "phase": "master_ref",
+          "asset_id": "P001",
+          "asset_name": "Sekantung Beras",
+          "asset_type": "prop",
+          "prompt_file": "2C-A004-sekantung-beras.txt",
+          "prompt": "Cinematic realistic macro artifact reference of a Sekantung Beras (small sack of unhusked rice) — a coarse loosely woven brown jute sack bound tightly around the bunched neck with frayed hemp twine, used as a prop in 13th century East Java. The sack is partially filled with raw unhulled rice grains, showing patchy dirt smears and a few loose white rice grains poking through strained seam punctures. The lower half is visibly plump and molded by the shifting bulk of small grain within. Natural wear, frayed threads at the binding, slight moisture stains. The sack rests on a dark slate surface for studio macro shot. Empty, no people.\n\nLighting: studio macro — 4000K soft key light from upper-left at 30 degrees, gentle fill from right, dark neutral background. Even macro lighting to reveal weave texture and grain detail.\n\nMood: utilitarian, humble, the loot of a thief. A coarse peasant's rice sack snatched by Ken Arok during his bandit days — symbol of his low origins before destiny elevated him.\n\nStyle: photorealistic macro photography, 100mm macro lens, f/8 deep depth of field for product detail, 8K hyperdetailed jute fiber weave, color graded neutral warm tones. Aspect ratio 1:1 square. High detail, 4K, sharp focus.\n\nAvoid: people, hands, modern packaging, plastic, branded sacks, cartoon, anime, 3D render, watermark, text, low resolution, blurry, oversaturated colors.",
+          "model": "seedream-4.5",
+          "aspect_ratio": "1:1",
+          "include_inspiration": false,
+          "ref_image_inputs": [],
+          "output_path": "produksi/t2i-output/master-reff/2C/P001-2C-A004-sekantung-beras.jpg",
+          "notes": "Prop macro ref untuk Sekantung Beras"
+        },
+        {
+          "job_id": "ref-P002",
+          "phase": "master_ref",
+          "asset_id": "P002",
+          "asset_name": "Tombak Prajurit",
+          "asset_type": "prop",
+          "prompt_file": "2C-A005-tombak-prajurit.txt",
+          "prompt": "Cinematic realistic macro artifact reference of a Tombak (traditional Javanese infantry spear) — an eight-foot shaft made from polished dark teak wood, capped with an elongated leaf-shaped bronze spearhead showing sharpened glinting bevels and oxidized green lowlights. A thick collar of braided brass wire and a short tuft of dyed red horsehair bind the socket tightly to the wood beneath the point. The wood shaft shows hand-rubbed patina and wear marks from years of campaign use. Iron ferrule at the base. Displayed diagonally against a dark slate background for studio macro shot. Empty, no people.\n\nLighting: studio macro — 4500K soft key light from upper-right at 45 degrees highlighting bronze spearhead edge and metal reflections, gentle fill from left, dark neutral background. Even macro lighting to reveal metal texture and wood grain.\n\nMood: weapon of authority, ceremonial yet functional. Carried by Tumapel palace guards pursuing Ken Arok through the forest — symbol of the oppressive order Ken Arok would one day overthrow.\n\nStyle: photorealistic macro photography, 100mm macro lens, f/8 deep depth of field for product detail, 8K hyperdetailed bronze patina and wood grain, color graded neutral with warm bronze highlights. Aspect ratio 1:1 square. High detail, 4K, sharp focus.\n\nAvoid: people, hands, modern weapons, rifles, plastic, cartoon, anime, 3D render, watermark, text, low resolution, blurry, oversaturated colors.",
+          "model": "seedream-4.5",
+          "aspect_ratio": "1:1",
+          "include_inspiration": false,
+          "ref_image_inputs": [],
+          "output_path": "produksi/t2i-output/master-reff/2C/P002-2C-A005-tombak-prajurit.jpg",
+          "notes": "Prop macro ref untuk Tombak Prajurit"
+        }
+      ]
+    },
+    {
+      "phase_id": "phase_2_storyboard_frame",
+      "name": "Generate Storyboard Frames",
+      "parallel": true,
+      "depends_on": "phase_1_master_ref",
+      "jobs": [
+        {
+          "job_id": "frame-S001_seg01",
+          "phase": "storyboard_frame",
+          "segment_id": "S001_seg01",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Opening hook — establish chase & character",
+          "prompt": "Cinematic realistic extreme wide tracking shot, young Javanese man Ken Arok sprints through dense tropical teak forest at midday, holding rough jute rice sack against chest, bare feet kicking up dust, three armored Tumapel soldiers chase in distant background with raised spears. Golden god rays cut through canopy, depth of field, motion blur on foliage, 50mm lens, 16:9 horizontal",
+          "motion_prompt": "Camera tracks rapidly backward ahead of Ken Arok, keeping him centered as foliage whips past frame edges",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "C001",
+              "asset_name": "Ken Arok",
+              "ref_image_path": "produksi/t2i-output/master-reff/2C/C001-2C-K002-ken-arok.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "output_path": "produksi/t2i-output/prototype-30s/S001_seg01.jpg",
+          "duration_seconds": 5,
+          "depends_on": [
+            "C001"
+          ],
+          "notes": "Storyboard frame untuk segment S001_seg01 (durasi 5s)"
+        },
+        {
+          "job_id": "frame-S001_seg02",
+          "phase": "storyboard_frame",
+          "segment_id": "S001_seg02",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Establish Ken Arok's defiant character",
+          "prompt": "Cinematic realistic medium low-angle shot, Ken Arok lands on mossy fallen log, pivots to face camera with arrogant grin, one hand grips jute rice sack, other gestures dismissively. Three soldiers in background with spears leveled, panting. Forest midday sun, dappled shadows, 35mm lens, 16:9 horizontal",
+          "motion_prompt": "Low-angle medium shot pans slightly up as Ken Arok lands on log, emphasizing agile stance and height advantage over pursuers",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "C001",
+              "asset_name": "Ken Arok",
+              "ref_image_path": "produksi/t2i-output/master-reff/2C/C001-2C-K002-ken-arok.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "output_path": "produksi/t2i-output/prototype-30s/S001_seg02.jpg",
+          "duration_seconds": 5,
+          "depends_on": [
+            "C001"
+          ],
+          "notes": "Storyboard frame untuk segment S001_seg02 (durasi 5s)"
+        },
+        {
+          "job_id": "frame-S001_seg03",
+          "phase": "storyboard_frame",
+          "segment_id": "S001_seg03",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Pivot moment — sage halts conflict, shifts tone",
+          "prompt": "Cinematic realistic medium shot, old Brahmin sage Dang Hyang Lohgawe emerges calmly from behind massive banyan tree, weathered white robes glowing in dappled sunlight, right hand raised in peaceful commanding gesture. Soldiers in background lowering weapons in awe. Forest midday, ethereal soft light, 50mm lens, 16:9 horizontal",
+          "motion_prompt": "Slow tilt-up from hem of Lohgawe's robes revealing his serene face and raised hand, establishing dominant spiritual presence",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "C002",
+              "asset_name": "Dang Hyang Lohgawe",
+              "ref_image_path": "produksi/t2i-output/master-reff/2C/C002-2C-K007-dang-hyang-lohgawe.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "output_path": "produksi/t2i-output/prototype-30s/S001_seg03.jpg",
+          "duration_seconds": 5,
+          "depends_on": [
+            "C002"
+          ],
+          "notes": "Storyboard frame untuk segment S001_seg03 (durasi 5s)"
+        },
+        {
+          "job_id": "frame-S001_seg04",
+          "phase": "storyboard_frame",
+          "segment_id": "S001_seg04",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "The prophecy moment — turning point of Ken Arok's life",
+          "prompt": "Cinematic realistic slow two-shot arc, Dang Hyang Lohgawe stands close to Ken Arok, piercing eyes into young rebel's soul. Ken Arok paralyzed in disbelief, defiant posture softening. Soft warm sunlight between two men, ancient forest canopy behind. Slow arc around them, 85mm lens, shallow depth of field, 16:9 horizontal",
+          "motion_prompt": "Slow tense two-shot arc gently rotates around the two men, ending framed over Lohgawe's shoulder onto Ken Arok's stunned reaction",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "C001",
+              "asset_name": "Ken Arok",
+              "ref_image_path": "produksi/t2i-output/master-reff/2C/C001-2C-K002-ken-arok.jpg",
+              "role": "character_consistency"
+            },
+            {
+              "asset_id": "C002",
+              "asset_name": "Dang Hyang Lohgawe",
+              "ref_image_path": "produksi/t2i-output/master-reff/2C/C002-2C-K007-dang-hyang-lohgawe.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "output_path": "produksi/t2i-output/prototype-30s/S001_seg04.jpg",
+          "duration_seconds": 5,
+          "depends_on": [
+            "C001",
+            "C002"
+          ],
+          "notes": "Storyboard frame untuk segment S001_seg04 (durasi 5s)"
+        },
+        {
+          "job_id": "frame-S001_seg05",
+          "phase": "storyboard_frame",
+          "segment_id": "S001_seg05",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Internal epiphany — ambition ignited",
+          "prompt": "Cinematic realistic extreme close-up on Ken Arok's eyes, wide and astonished, reflecting golden light. Jaw clenched, breath caught. Background forest dissolves into shallow dreamlike blur. Snap zoom punch-in effect, 85mm lens, 16:9 horizontal",
+          "motion_prompt": "Rapid snap zoom punch-in directly into Ken Arok's pupils, freezing momentarily before settling with subtle trembling handheld framing",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "C001",
+              "asset_name": "Ken Arok",
+              "ref_image_path": "produksi/t2i-output/master-reff/2C/C001-2C-K002-ken-arok.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "output_path": "produksi/t2i-output/prototype-30s/S001_seg05.jpg",
+          "duration_seconds": 5,
+          "depends_on": [
+            "C001"
+          ],
+          "notes": "Storyboard frame untuk segment S001_seg05 (durasi 5s)"
+        },
+        {
+          "job_id": "frame-S001_seg06",
+          "phase": "storyboard_frame",
+          "segment_id": "S001_seg06",
+          "scene_id": "S001",
+          "scene_title": "Pengejaran di Hutan",
+          "segment_notes": "Closing title card — prototype end",
+          "prompt": "Cinematic realistic wide pull-back shot rising higher, Ken Arok walks away through forest, camera cranes up revealing sun breaking through canopy. Title text overlay 'KEN AROK: TAKDIR DARI TUMAPEL' in elegant serif gold, fade-in. Forest midday god rays, 24mm lens, 16:9 horizontal",
+          "motion_prompt": "Slow pull-back shot rising higher, re-establishing wide composition as Ken Arok walks away into god rays, title fades in",
+          "model": "seedream-4.5",
+          "aspect_ratio": "16:9",
+          "include_inspiration": true,
+          "ref_image_inputs": [
+            {
+              "asset_id": "C001",
+              "asset_name": "Ken Arok",
+              "ref_image_path": "produksi/t2i-output/master-reff/2C/C001-2C-K002-ken-arok.jpg",
+              "role": "character_consistency"
+            }
+          ],
+          "output_path": "produksi/t2i-output/prototype-30s/S001_seg06.jpg",
+          "duration_seconds": 5,
+          "depends_on": [
+            "C001"
+          ],
+          "notes": "Storyboard frame untuk segment S001_seg06 (durasi 5s)"
+        }
+      ]
+    }
+  ],
+  "total_jobs": 12,
+  "summary": {
+    "characters": 2,
+    "locations": 2,
+    "props": 2,
+    "segments": 6,
+    "total_ref_images": 6,
+    "total_frame_images": 6,
+    "total_images": 12
+  }
+}
