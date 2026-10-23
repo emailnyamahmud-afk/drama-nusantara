@@ -1,6 +1,0 @@
-file '/home/z/my-project/download/temp-segments-v3.1/S001_seg01.mp4'
-file '/home/z/my-project/download/temp-segments-v3.1/S001_seg02.mp4'
-file '/home/z/my-project/download/temp-segments-v3.1/S001_seg03.mp4'
-file '/home/z/my-project/download/temp-segments-v3.1/S001_seg04.mp4'
-file '/home/z/my-project/download/temp-segments-v3.1/S001_seg05.mp4'
-file '/home/z/my-project/download/temp-segments-v3.1/S001_seg06.mp4'

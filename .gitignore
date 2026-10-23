@@ -93,3 +93,23 @@ refs/
 scripts/google-flow.json
 scripts/*.flow.json
 download/flow-preview/
+
+# === Cleanup 2026-10-23: Remove all large files from repo ===
+# download/ folder — semua file besar (MP4, JPG, MP3) lokal saja
+download/
+
+# Temp segments (ffmpeg intermediate)
+download/temp-segments*/
+download/jaka-tingkir-ep1-segments/
+download/jaka-tingkir-ep1-frames/
+download/dola-results/
+download/dola-i2v-frames/
+download/flow-preview/
+download/flow-i2v-seg04-frames/
+download/tts-samples*/
+download/audio-layer-demo/
+download/prototypes/
+
+# Zip files
+*.zip
+upload/
