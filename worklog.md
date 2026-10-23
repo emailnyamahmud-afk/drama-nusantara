@@ -2100,3 +2100,48 @@ Pending:
 - TTS narasi via edge-tts
 - Stitch 30s video via ffmpeg
 - Iterasi kalau OK → scale up ke produksi 10 menit
+
+
+---
+Task ID: DOLA-SKILL-CREATED-2026-10-23
+Agent: Main Agent (Z.ai) + Dola AI
+Task: User buat skill Dola AI pertama untuk pipeline kita — `batch-storyboard-generator`
+
+Work Log:
+- User upload DOLA-SKILL-SPEC.md + dola-batch.json ke Dola AI mode "Create Skill"
+- Dola AI execute 13 step untuk bikin skill:
+  1. Identify Required Resources — baca 2 file lampiran
+  2. Extract JSON Structure Details — paham struktur 12 job + 2 phase
+  3. Define Skill Creation Objective — paham goal: phase 1 (6 ref) → phase 2 (6 frame)
+  4. Check User Skills Directory — .user_skills kosong, siap diisi
+  5. Init skill template via init_skill.py
+  6. Design JSON Parser — tulis parse_batch.py
+  7. Validate Parser — test terhadap dola-batch.json asli, BERFUNGSI
+  8. Cek PIL — Python Imaging Library tersedia
+  9. Develop Image Montage Script — bikin make_contact_sheet.py
+  10. Writing reference schema document
+  11. Read template SKILL.md sebelum menimpa
+  12. Tulis SKILL.md final (94 baris)
+  13. Test contact sheet + run quick_validate.py — VALID
+  14. Verifikasi struktur final + cleanup file test
+- Skill location: workspace/.user_skills/batch-storyboard-generator/
+- 4 file: SKILL.md (94 baris), parse_batch.py, make_contact_sheet.py, batch-schema.md
+
+Stage Summary:
+- Skill pertama yang jalan untuk pipeline Drama Nusantara
+- 4 aturan penting ditanam: (1) motion_prompt tidak ke image tool, (2) aspect ratio mapping 16:9→1920x1080 & 1:1→1080x1080, (3) job fail = regenerate job itu saja, (4) ref tidak resolve = stop + lapor
+- Workflow 6 langkah: ingest → phase 1 (6 ref parallel) → gate check → phase 2 (6 frame pakai ref) → QC + contact sheet → deliver
+- Cara trigger: upload dola-batch.json + ketik "jalankan batch storyboard" → skill auto-trigger
+
+Files Added (in Dola environment, NOT in our GitHub repo):
+- workspace/.user_skills/batch-storyboard-generator/SKILL.md
+- workspace/.user_skills/batch-storyboard-generator/scripts/parse_batch.py
+- workspace/.user_skills/batch-storyboard-generator/scripts/make_contact_sheet.py
+- workspace/.user_skills/batch-storyboard-generator/references/batch-schema.md
+
+Pending:
+- User trigger skill di Dola: upload dola-batch.json + bilang "jalankan batch storyboard"
+- Dola akan generate 12 image (6 ref + 6 storyboard frame)
+- User download 12 image + 1 contact sheet PNG
+- User share 3 sample balik ke Z.ai untuk review kualitas
+- Kalau OK → Phase 6 (I2V) + Phase 7 (TTS) + Phase 8 (stitch)

@@ -45,6 +45,41 @@
 
 ---
 
+## Sesi 2026-10-23 (lanjutan) — Dola AI Skill Jadi: `batch-storyboard-generator`
+
+**Milestone**: Skill Dola AI pertama untuk pipeline kita — sudah jadi & tervalidasi.
+
+**Yang Dola buat** (di environment Dola: `workspace/.user_skills/batch-storyboard-generator/`):
+- `SKILL.md` (94 baris) — instruksi workflow 2-phase
+- `scripts/parse_batch.py` — validator JSON + dependency graph (ditest, 12 job all ref resolve ✅)
+- `scripts/make_contact_sheet.py` — bikin montage thumbnail 12 image untuk review cepat
+- `references/batch-schema.md` — schema JSON v1.0 + mapping aspect ratio
+
+**Cara kerja skill (6 langkah)**:
+1. Ingest — upload dola-batch.json → parse_batch.py validasi + dependency map
+2. Phase 1 — generate 6 master ref (text-only, batch 1 call) → asset_id → URL mapping
+3. Gate check — pastikan semua phase 1 sukses sebelum lanjut
+4. Phase 2 — generate 6 storyboard frame pakai image_edit + image_reference_url_list dari phase 1
+5. QC — cek konsistensi karakter/lokasi + bikin contact sheet
+6. Deliver — semua image + folder output via NotifyHuman
+
+**Aturan penting yang ditanam Dola di skill**:
+- `motion_prompt` TIDAK PERNAH dikirim ke tool image (reserved untuk I2V nanti) ✅
+- Mapping aspect ratio: 16:9 → 1920×1080, 1:1 → 1080×1080 ✅
+- Job gagal → regenerate job itu saja, bukan seluruh batch ✅
+- Ref phase 2 tidak resolve → stop + lapor, jangan asal generate ✅
+
+**Cara trigger skill**: upload `dola-batch.json` → ketik "jalankan batch storyboard" → skill auto-trigger.
+
+**Pending berikutnya**:
+- User trigger skill di Dola → eksekusi 12 image (6 ref + 6 storyboard frame)
+- User download 12 image + contact sheet
+- User share 3 sample balik ke Z.ai untuk review kualitas
+- Kalau OK → lanjut Phase 6 (I2V) + Phase 7 (TTS) + Phase 8 (stitch)
+- Kalau ada image perlu iterasi → edit prompt .txt → regenerate dola-batch.json → re-upload
+
+---
+
 ## Sesi 2026-10-22 — Rewrite 2A Hindu-Buddha Awal
 
 **Konteks awal sesi**: Sandbox sync dengan GitHub (HEAD `9b3649d`). User minta: (1) buat `progres-project.md` (file ini), (2) lanjut rewrite lengkap era 2A-2C dari pola "koreksi" ke "rewrite lengkap" (pola sama dengan 1A-1D, 3A-3C, 4A-4B yang sudah selesai sesi sebelumnya).
